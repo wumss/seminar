@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+<article class="container">
+  <div class="row">
+    <div class="col-md-9">
+      {{.Content}}
+
+      {{ range where .Site.Pages ".Section" "==" .Title }}
+        <a href="{{ .Permalink }}" class="post-li">
+          <div class="post-li">
+            <h4>{{.Title}}</h4>
+            <span class="date">{{ .Date.Format "Jan 2 2006" }}</span>
+            {{.Summary}}
+          </div>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</article>
+{{ partial "footer.html" . }}
