@@ -42,6 +42,10 @@
   color: #999;
 }
 
+#results li > ul > li > strong {
+  color: #222;
+}
+
 /* =============== NAVIGATION =================== */
 .navbar {
   margin-bottom: 20px;
