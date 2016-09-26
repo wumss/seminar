@@ -67,6 +67,19 @@ type = "home-section"
   <td>TBD</td>
   <td>18:30</td>
 </tr>
+<tr><th colspan=4>Talks on October 28, 2016</th></tr>
+<tr>
+  <td>Hacking</td>
+  <td>Rolina Wu</td>
+  <td>TBD</td>
+  <td>17:30</td>
+</tr>
+<tr>
+  <td>Integration</td>
+  <td>Gregory Patchell</td>
+  <td>TBD</td>
+  <td>18:30</td>
+</tr>
 <tr><th colspan=4>Talks on November 4, 2016</th></tr>
 <tr>
   <td>Game Theory</td>
@@ -134,3 +147,4 @@ type = "home-section"
 </tr>
 </tbody>
 </table>
+
