@@ -89,7 +89,7 @@ type = "home-section"
 </tr>
 <tr>
   <td>Random Graphs and Complex Networks</td>
-  <td>Freida Rong</td>
+  <td>Frieda Rong</td>
   <td>TBD</td>
   <td>18:30</td>
 </tr>
