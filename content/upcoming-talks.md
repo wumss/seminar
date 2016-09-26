@@ -24,7 +24,7 @@ type = "home-section"
 </tr>
 <tr>
   <td>Primer on Probability</td>
-  <td>Akshay Tiwary</td>
+  <td>Mohamed Ayman</td>
   <td>TBD</td>
   <td>18:30</td>
 </tr>
@@ -115,7 +115,7 @@ type = "home-section"
 </tr>
 <tr>
   <td>Naïve Lie Theory</td>
-  <td>TBD</td>
+  <td>Aidan Patterson</td>
   <td>TBD</td>
   <td>18:30</td>
 </tr>
