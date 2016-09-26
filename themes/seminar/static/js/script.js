@@ -57,7 +57,7 @@ function initUI() {
 
         var results = search(query);
 
-        renderResults(results);
+        renderResults(results, query);
     });
 }
 
@@ -85,7 +85,7 @@ function search(query) {
  *
  * @param  {Array} results to display
  */
-function renderResults(results) {
+function renderResults(results, query) {
 
     $("article").hide();
     $("#clear").show();
@@ -102,9 +102,13 @@ function renderResults(results) {
     results/*.slice(0, 10)*/.forEach(function(result) {
         var $result = $("<li>");
         $result.append(
-          "<a href=" + result.href + ">» " + result.title + "</a>"
+          "<a href=seminar" + result.href + ">» " + result.title + "</a>"
           + "<ul><li>" + result.content + "</li></ul>"
         );
+        var $li = $result.find("ul > li")
+        var html = $li.html();
+        var re = new RegExp(query,"gi");
+        $li.html(html.replace(re, '<strong>$&</strong>'));
         // $result.append($("<a>", {
         //     href: result.href,
         //     text: "» " + result.title

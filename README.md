@@ -16,3 +16,12 @@ Generate the site:
 `hugo --theme=seminar`
 
 Push the generated `public` folder to the `gh-pages` branch.
+
+
+# Editing
+
+All the content is stored in the `content` directory as markdown files.
+
+You can edit them directly on Github, or clone the repository to your computer.
+
+Running `hugo new archive/[filename].md` will create a new file in `content/archive` with the date automatically set in the TOML header.
