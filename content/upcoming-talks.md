@@ -42,7 +42,6 @@ type = "home-section"
     polynomials with degree five or greater admit roots that can be described
     with only the elementary functions and radicals. This talk will prove the
     Abel–Ruffini through elementary means.<br>
-    Required reading: <a href="/seminar/abel-required-reading.pdf">Stirling's approximation [PDF]</a>
   </td>
 </tr>
 <tr><th colspan=4>Talks on Wednesday October 12, 2016</th></tr>
@@ -57,6 +56,11 @@ type = "home-section"
   <td>Sidhant Saraogi</td>
   <td>TBD</td>
   <td>18:30</td>
+</tr>
+<tr>
+  <td colspan=4>
+    Required reading for information theory: <a href="/seminar/required-reading.pdf">Stirling's approximation [PDF]</a>
+  </td>
 </tr>
 <tr><th colspan=4>Talks on Friday October 14, 2016</th></tr>
 <tr>
