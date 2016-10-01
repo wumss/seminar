@@ -25,7 +25,7 @@ type = "home-section"
 <tr>
   <td colspan=4>
     Abstract: This talk will quickly walk through the basics of group theory,
-    focusing especially on trasformation groups. If time permits, we will cover
+    focusing especially on transformation groups. If time permits, we will cover
     some fundamentals of number theory. Please message me in advance if there
     are any subjects in particular that you would like me to discuss.
   </td>
@@ -41,7 +41,8 @@ type = "home-section"
     Abstract: The Abel–Ruffini Theorem is a famous result that not all
     polynomials with degree five or greater admit roots that can be described
     with only the elementary functions and radicals. This talk will prove the
-    Abel–Ruffini through elementary means.
+    Abel–Ruffini through elementary means.<br>
+    Required reading: <a href="/seminar/abel-required-reading.pdf">Stirling's approximation [PDF]</a>
   </td>
 </tr>
 <tr><th colspan=4>Talks on Wednesday October 12, 2016</th></tr>
