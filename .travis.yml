@@ -36,7 +36,7 @@ install:
 script:
     - ./julia -e 'Pkg.add("TextWrap")'
     - ./julia -e 'Pkg.add("JSON")'
-    - ./julia rebuild_schedule.jl
+    - ./julia rebuild_schedule.jl > content/upcoming_talks.md
     - grunt lunr-index
     - hugo
 

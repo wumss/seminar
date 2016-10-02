@@ -14,7 +14,7 @@ type = "home-section"
 +++
 """)
 
-result = JSON.parsefile("seminar/schedule.json", dicttype=Dict{Symbol,String})
+result = JSON.parsefile("schedule.json", dicttype=Dict{Symbol,String})
 sort(result, by=x -> x[:time])
 map!(result) do d
     d[:date], d[:time] = split(d[:time], 'T')
@@ -47,7 +47,7 @@ for d in dates
             println("<tr>")
             println("  <td colspan=4>")
             println_wrapped(STDOUT,
-                readstring("seminar/abstract/" * t[:abstract]),
+                readstring(joinpath("abstract", t[:abstract])),
                 width=79,
                 initial_indent=4,
                 subsequent_indent=4,
