@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math Seminar (name TBD)</title>
-    <link>https://friedeggs.github.io/seminar/</link>
+    <link>https://friedeggs.github.io/seminar/index.xml</link>
     <description>Recent content on Math Seminar (name TBD)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -15,10 +15,9 @@
       <pubDate>Sat, 24 Sep 2016 22:52:45 -0400</pubDate>
       
       <guid>https://friedeggs.github.io/seminar/archive/sample2/</guid>
-      <description>&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt surprise you found english in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      <description>&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt surprise you found english in culpa qui officia deserunt mollit anim id est laborum.
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -39,10 +38,9 @@
       <pubDate>Fri, 23 Sep 2016 22:52:45 -0400</pubDate>
       
       <guid>https://friedeggs.github.io/seminar/archive/sample/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&lt;/p&gt;
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 
-&lt;p&gt;veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -88,7 +86,6 @@
     polynomials with degree five or greater admit roots that can be described
     with only the elementary functions and radicals. This talk will prove the
     Abel–Ruffini through elementary means.&lt;br&gt;
-    Required reading: &lt;a href=&#34;https://friedeggs.github.io/seminar/seminar/abel-required-reading.pdf&#34;&gt;Stirling&#39;s approximation [PDF]&lt;/a&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Wednesday October 12, 2016&lt;/th&gt;&lt;/tr&gt;
@@ -103,6 +100,11 @@
   &lt;td&gt;Sidhant Saraogi&lt;/td&gt;
   &lt;td&gt;TBD&lt;/td&gt;
   &lt;td&gt;18:30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=4&gt;
+    Required reading for information theory: &lt;a href=&#34;https://friedeggs.github.io/seminar/seminar/required-reading.pdf&#34;&gt;Stirling&#39;s approximation [PDF]&lt;/a&gt;
+  &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday October 14, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
