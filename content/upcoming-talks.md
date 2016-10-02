@@ -2,7 +2,6 @@
 date = "2016-09-23T21:24:42-04:00"
 title = "Upcoming Talks"
 type = "home-section"
-
 +++
 
 <table>
@@ -15,7 +14,7 @@ type = "home-section"
 </tr>
 </thead>
 <tbody>
-<tr><th colspan=4>Talks on Friday October 7, 2016</th></tr>
+<tr><th colspan=4>Talks on Wednesday October 12, 2016</th></tr>
 <tr>
   <td>Primer on Algebra and Number Theory</td>
   <td>Fengyang Wang</td>
@@ -24,10 +23,11 @@ type = "home-section"
 </tr>
 <tr>
   <td colspan=4>
-    Abstract: This talk will quickly walk through the basics of group theory,
-    focusing especially on transformation groups. If time permits, we will cover
-    some fundamentals of number theory. Please message me in advance if there
-    are any subjects in particular that you would like me to discuss.
+    Abstract: This talk will cover the basics of group theory, focusing
+    especially on transformation groups, commutator subgroups, and solvable
+    groups. We will additionally cover some fundamentals of number theory.
+    Please message me in advance if there are any other subjects in particular
+    that you would like me to discuss.
   </td>
 </tr>
 <tr>
@@ -41,38 +41,32 @@ type = "home-section"
     Abstract: The Abel–Ruffini Theorem is a famous result that not all
     polynomials with degree five or greater admit roots that can be described
     with only the elementary functions and radicals. This talk will prove the
-    Abel–Ruffini through elementary means.<br>
+    Abel–Ruffini through elementary means.
   </td>
 </tr>
-<tr><th colspan=4>Talks on Wednesday October 12, 2016</th></tr>
 <tr>
   <td>Ultrafilters</td>
   <td>Felix Bauckholt</td>
-  <td>TBD</td>
-  <td>17:30</td>
+  <td>MC 4020</td>
+  <td>19:30</td>
 </tr>
+<tr><th colspan=4>Talks on Friday October 14, 2016</th></tr>
 <tr>
   <td>Information Theory</td>
   <td>Sidhant Saraogi</td>
   <td>TBD</td>
-  <td>18:30</td>
+  <td>17:30</td>
 </tr>
 <tr>
   <td colspan=4>
-    Required reading for information theory: <a href="/seminar/required-reading.pdf">Stirling's approximation [PDF]</a>
+    Abstract: Required reading: <a href="https://friedeggs.github.io/seminar/ab
+    el-required-reading.pdf">Stirling’s Approximation [PDF]</a>
   </td>
-</tr>
-<tr><th colspan=4>Talks on Friday October 14, 2016</th></tr>
-<tr>
-  <td>The Joy of Factoring</td>
-  <td>Louis Castricato</td>
-  <td>MC 4020</td>
-  <td>17:30</td>
 </tr>
 <tr>
   <td>Types and Object-Oriented Programming</td>
   <td>Nikita Kapustin</td>
-  <td>MC 4020</td>
+  <td>TBD</td>
   <td>18:30</td>
 </tr>
 <tr><th colspan=4>Talks on Friday October 21, 2016</th></tr>
@@ -123,7 +117,7 @@ type = "home-section"
 </tr>
 <tr>
   <td>Random Graphs and Complex Networks</td>
-  <td>Frieda Rong</td>
+  <td>Freida Rong</td>
   <td>MC 4020</td>
   <td>18:30</td>
 </tr>
@@ -168,5 +162,3 @@ type = "home-section"
 </tr>
 </tbody>
 </table>
-
-

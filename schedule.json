@@ -1,0 +1,119 @@
+[
+    {
+        "time": "2016-10-12T17:30:00Z",
+        "topic": "Primer on Algebra and Number Theory",
+        "speaker": "Fengyang Wang",
+        "location": "MC 4020",
+        "abstract": "fw-Algebra"
+    },
+    {
+        "time": "2016-10-12T18:30:00Z",
+        "topic": "Abel–Ruffini Theorem",
+        "speaker": "Akshay Tiwary",
+        "location": "MC 4020",
+        "abstract": "at-AbelRuffini"
+    },
+    {
+        "time": "2016-10-12T19:30:00Z",
+        "topic": "Ultrafilters",
+        "speaker": "Felix Bauckholt",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-10-14T17:30:00Z",
+        "topic": "Information Theory",
+        "speaker": "Sidhant Saraogi",
+        "location": "TBD",
+        "abstract": "ss-Information"
+    },
+    {
+        "time": "2016-10-14T18:30:00Z",
+        "topic": "Types and Object-Oriented Programming",
+        "speaker": "Nikita Kapustin",
+        "location": "TBD"
+    },
+    {
+        "time": "2016-10-21T17:30:00Z",
+        "topic": "Category Theory",
+        "speaker": "Luthfi Mawarid",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-10-21T18:30:00Z",
+        "topic": "Quantum Computing",
+        "speaker": "Michael Pang",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-10-28T17:30:00Z",
+        "topic": "Hacking",
+        "speaker": "Rolina Wu",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-10-28T18:30:00Z",
+        "topic": "Integration",
+        "speaker": "Gregory Patchell",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-11-04T17:30:00Z",
+        "topic": "Game Theory",
+        "speaker": "Koosha Totonchi",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-11-04T18:30:00Z",
+        "topic": "Symmetric Groups",
+        "speaker": "Randy Lin",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-11-11T17:30:00Z",
+        "topic": "Graphs, Surfaces, and Homology",
+        "speaker": "Kai Rüsch",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-11-11T18:30:00Z",
+        "topic": "Random Graphs and Complex Networks",
+        "speaker": "Freida Rong",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-11-18T17:30:00Z",
+        "topic": "Hypercomplex Numbers",
+        "speaker": "Fengyang Wang",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-11-18T18:30:00Z",
+        "topic": "Elliptic Curves and Modular Forms",
+        "speaker": "Akshay Tiwary",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-11-25T17:30:00Z",
+        "topic": "Quandles",
+        "speaker": "Brennen Creighton-Young",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-11-25T18:30:00Z",
+        "topic": "Naïve Lie Theory",
+        "speaker": "Aidan Patterson",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-12-02T17:30:00Z",
+        "topic": "Basic Harmonic Analysis",
+        "speaker": "Mohamed Ayman",
+        "location": "MC 4020"
+    },
+    {
+        "time": "2016-12-02T18:30:00Z",
+        "topic": "Symmetries and Their Role in Physics",
+        "speaker": "Vasudev Shyam",
+        "location": "MC 4020"
+    }
+]
