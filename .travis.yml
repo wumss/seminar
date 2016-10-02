@@ -28,7 +28,7 @@ before_install:
 install:
     - wget https://julialang.s3.amazonaws.com/bin/linux/x64/0.5/julia-0.5.0-linux-x86_64.tar.gz
     - tar -zxvf julia-0.5.0-linux-x86_64.tar.gz
-    - ln julia-3c9d75391c/bin/julia .
+    - ln -s julia-3c9d75391c/bin/julia .
     - go get -v github.com/spf13/hugo
     - npm install --save-dev grunt string toml
     - npm install -g grunt-cli
@@ -36,7 +36,7 @@ install:
 script:
     - ./julia -e 'Pkg.add("TextWrap")'
     - ./julia -e 'Pkg.add("JSON")'
-    - ./rebuild_schedule.jl
+    - ./julia rebuild_schedule.jl
     - grunt lunr-index
     - hugo
 
