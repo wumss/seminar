@@ -31,6 +31,8 @@ install:
     - npm install -g grunt-cli
 
 script:
+    - julia -e 'Pkg.add("TextWrap")'
+    - julia -e 'Pkg.add("JSON")'
     - ./rebuild_schedule.jl
     - grunt lunr-index
     - hugo
