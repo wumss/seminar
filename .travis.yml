@@ -6,6 +6,9 @@ go:
 node_js:
   - "0.12"
 
+julia:
+  - 0.5
+
 env:
     global:
         - SSH_KEY="travis_key"
@@ -23,11 +26,17 @@ before_install:
   -in travis_key.enc -out travis_key -d
 
 install:
+    - wget https://julialang.s3.amazonaws.com/bin/linux/x64/0.5/julia-0.5.0-linux-x86_64.tar.gz
+    - tar -zxvf julia-0.5.0-linux-x86_64.tar.gz
+    - ln -s julia-3c9d75391c/bin/julia .
     - go get -v github.com/spf13/hugo
     - npm install --save-dev grunt string toml
     - npm install -g grunt-cli
 
 script:
+    - ./julia -e 'Pkg.add("TextWrap")'
+    - ./julia -e 'Pkg.add("JSON")'
+    - ./julia rebuild_schedule.jl > content/upcoming_talks.md
     - grunt lunr-index
     - hugo
 

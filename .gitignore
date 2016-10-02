@@ -1,3 +1,4 @@
 node_modules
 static/js/lunr/PagesIndex.json
 public
+content/upcoming_talks.md
