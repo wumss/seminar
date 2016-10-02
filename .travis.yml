@@ -6,6 +6,9 @@ go:
 node_js:
   - "0.12"
 
+julia:
+  - 0.5
+
 env:
     global:
         - SSH_KEY="travis_key"
@@ -28,6 +31,7 @@ install:
     - npm install -g grunt-cli
 
 script:
+    - ./rebuild_schedule.jl
     - grunt lunr-index
     - hugo
 
