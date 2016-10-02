@@ -51,7 +51,8 @@ for d in dates
                 width=79,
                 initial_indent=4,
                 subsequent_indent=4,
-                replace_whitespace=true
+                replace_whitespace=true,
+                break_long_words=false
             )
             println("  </td>")
             println("</tr>")
