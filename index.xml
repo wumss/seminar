@@ -49,7 +49,11 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
       <pubDate>Fri, 23 Sep 2016 21:24:42 -0400</pubDate>
       
       <guid>https://friedeggs.github.io/seminar/upcoming_talks/</guid>
-      <description>&lt;table&gt;
+      <description>&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
+&lt;/script&gt;
+
+&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
   &lt;th&gt;Topic&lt;/th&gt;
@@ -71,9 +75,9 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
     This talk will cover the basics of group theory, focusing especially on
     transformation groups, commutator subgroups, and solvable groups. We will
     additionally cover some ideas from number theory like quadratic
-    reciprocity, euler&#39;s totient function, and the legendre and jacobi symbols.
+    reciprocity, Euler’s totient function, and the Legendre and Jacobi symbols.
     Please message me in advance if there are any other subjects in particular
-    that you would  like me to discuss.
+    that you would like me to discuss.
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -142,6 +146,12 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
   &lt;td&gt;MC 4020&lt;/td&gt;
   &lt;td&gt;18:30&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=4&gt;
+    Introduce the ideas that lead to the Lebesgue definition of the integral,
+    stressing on understanding rather than rigourous details.
+  &lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday November 4, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Game Theory&lt;/td&gt;
@@ -176,10 +186,22 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
   &lt;td&gt;17:30&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+  &lt;td colspan=4&gt;
+    We all know that $\mathrm{i}^2=-1$. But what if it weren’t? This talk
+    explores generalizations of the complex numbers.
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
   &lt;td&gt;Elliptic Curves and Modular Forms&lt;/td&gt;
   &lt;td&gt;Akshay Tiwary&lt;/td&gt;
   &lt;td&gt;MC 4020&lt;/td&gt;
   &lt;td&gt;18:30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=4&gt;
+    (Preliminary) I’ll talk about these at a rough level and try to explain a
+    tiny bit about how these relate to Fermat’s Last Theorem.
+  &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday November 25, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
