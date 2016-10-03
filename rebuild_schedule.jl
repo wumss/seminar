@@ -63,8 +63,11 @@ for d in dates
         if haskey(t, :abstract)
             println("<tr>")
             println("  <td colspan=4>")
+            abstract_md = readstring(joinpath("abstract", t[:abstract]))
+            abstract_html = stringmime("text/html",
+                                       Base.Markdown.parse(abstract_md))
             println_wrapped(STDOUT,
-                readstring(joinpath("abstract", t[:abstract])),
+                abstract_html,
                 width=79,
                 initial_indent=4,
                 subsequent_indent=4,
