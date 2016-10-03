@@ -54,8 +54,8 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
     extensions: [&#34;tex2jax.js&#34;],
     jax: [&#34;input/TeX&#34;, &#34;output/HTML-CSS&#34;],
     tex2jax: {
-      inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\(&#34;,&#34;\)&#34;] ],
-      displayMath: [ [&#39;$$&#39;,&#39;$$&#39;], [&#34;\[&#34;,&#34;\]&#34;] ],
+      inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
+      displayMath: [ [&#39;$$&#39;,&#39;$$&#39;], [&#34;\\[&#34;,&#34;\\]&#34;] ],
       processEscapes: true
     },
     &#34;HTML-CSS&#34;: { availableFonts: [&#34;TeX&#34;] }
