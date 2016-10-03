@@ -85,12 +85,25 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td colspan=4&gt;
-    This talk will cover the basics of group theory, focusing especially on
-    transformation groups, commutator subgroups, and solvable groups. We will
-    additionally cover some ideas from number theory like quadratic
-    reciprocity, Euler’s totient function, and the Legendre and Jacobi symbols.
-    Please message me in advance if there are any other subjects in particular
-    that you would like me to discuss.
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will cover the basics of group theory,
+    focusing especially on transformation groups, commutator subgroups, and
+    solvable groups. We will additionally cover some ideas from number theory
+    like quadratic reciprocity, Euler’s totient function, and the Legendre and
+    Jacobi symbols. There are no official prerequisites for this talk, but MATH
+    145 and MATH 146 are an asset.&lt;/p&gt; &lt;p&gt;The group theory part of the talk
+    will mostly be based on &lt;a
+    href=&#34;http://mathcamp.org/2015/abel/abel.pdf&#34;&gt;Alekseev, 2004&lt;/a&gt;,
+    specifically sections 1.1 &amp;#40;motivation&amp;#41;, 1.2 &amp;#40;transformation
+    groups&amp;#41;, 1.5, 1.9, and 1.13 &amp;#40;various morphisms&amp;#41;, 1.11
+    &amp;#40;quotient groups&amp;#41;, 1.12 &amp;#40;commutator subgroups&amp;#41;, and 1.14
+    &amp;#40;solvable groups&amp;#41;.&lt;/p&gt; &lt;p&gt;The number theory part of the talk will
+    use &lt;a href=&#34;http://golibgen.io/view.php?id&amp;#61;733865&#34;&gt;Baker, 1984&lt;/a&gt; as
+    a reference.&lt;/p&gt; &lt;p&gt;Due to time constraints, it is inevitable that some
+    content must be rushed. I will not go over proofs and derivations in full
+    rigour, and I highly advise studying the reference material after the talk
+    to catch up on what you may have missed. Please message me in advance if
+    there are any other subjects in particular that you would like me to
+    discuss.&lt;/p&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -101,10 +114,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td colspan=4&gt;
-    The Abel–Ruffini Theorem is a famous result that not all polynomials with
-    degree five or greater admit roots that can be described with only the
-    elementary functions and radicals. This talk will prove the Abel–Ruffini
-    through elementary means.
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;The Abel–Ruffini Theorem is a famous result that
+    not all polynomials with degree five or greater admit roots that can be
+    described with only the elementary functions and radicals. This talk will
+    prove the Abel–Ruffini through elementary means.&lt;/p&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -122,9 +135,9 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td colspan=4&gt;
-    Required reading: &lt;a
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;Required reading: &lt;a
     href=&#34;https://friedeggs.github.io/seminar/abel-required-reading.pdf&#34;&gt;Stirling’s
-    Approximation [PDF]&lt;/a&gt;
+    Approximation &amp;#91;PDF&amp;#93; &lt;/a&gt;&lt;/p&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -161,8 +174,9 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td colspan=4&gt;
-    Introduce the ideas that lead to the Lebesgue definition of the integral,
-    stressing on understanding rather than rigourous details.
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;Introduce the ideas that lead to the Lebesgue
+    definition of the integral, stressing on understanding rather than
+    rigourous details.&lt;/p&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday November 4, 2016&lt;/th&gt;&lt;/tr&gt;
@@ -200,8 +214,9 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td colspan=4&gt;
-    We all know that \(\mathrm{i}^2=-1\). But what if it weren’t? This talk
-    explores generalizations of the complex numbers.
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;We all know that
+    &amp;#36;\mathrm&amp;#123;i&amp;#125;^2&amp;#61;-1&amp;#36;. But what if it weren’t? This talk
+    explores generalizations of the complex numbers.&lt;/p&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -212,8 +227,9 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td colspan=4&gt;
-    (Preliminary) I’ll talk about these at a rough level and try to explain a
-    tiny bit about how these relate to Fermat’s Last Theorem.
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;&amp;#40;Preliminary&amp;#41; I’ll talk about these at a
+    rough level and try to explain a tiny bit about how these relate to
+    Fermat’s Last Theorem.&lt;/p&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday November 25, 2016&lt;/th&gt;&lt;/tr&gt;
