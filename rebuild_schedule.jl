@@ -12,6 +12,10 @@ date = "2016-09-23T21:24:42-04:00"
 title = "Upcoming Talks"
 type = "home-section"
 +++
+
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML">
+</script>
 """)
 
 result = JSON.parsefile("schedule.json", dicttype=Dict{Symbol,String})
