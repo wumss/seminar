@@ -154,6 +154,13 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
   &lt;td&gt;MC 5479&lt;/td&gt;
   &lt;td&gt;18:30&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=4&gt;
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;I&amp;#39;ll be talking about how to use basic types
+    like sets and functions to construct other types and use them to represent
+    objects.&lt;/p&gt; &lt;/div&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday October 21, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Category Theory&lt;/td&gt;
