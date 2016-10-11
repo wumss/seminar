@@ -107,21 +107,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-  &lt;td&gt;Infinitely Awesome Graphs&lt;/td&gt;
-  &lt;td&gt;Zouhaier Ferchiou&lt;/td&gt;
-  &lt;td&gt;MC 4020&lt;/td&gt;
-  &lt;td&gt;18:30&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td colspan=4&gt;
-    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;How to deal with infinite graphs.&lt;/p&gt; &lt;/div&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
   &lt;td&gt;Ultrafilters&lt;/td&gt;
   &lt;td&gt;Felix Bauckholt&lt;/td&gt;
   &lt;td&gt;MC 4020&lt;/td&gt;
-  &lt;td&gt;19:30&lt;/td&gt;
+  &lt;td&gt;18:30&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td colspan=4&gt;
@@ -129,6 +118,27 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
     ultrafilters are. I will do this by presenting a few motivating examples,
     and also some examples that, even if they don&amp;#39;t motivate anything, are
     just really cool.&lt;/p&gt; &lt;/div&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Infinitely Awesome Graphs&lt;/td&gt;
+  &lt;td&gt;Zouhaier Ferchiou&lt;/td&gt;
+  &lt;td&gt;MC 4020&lt;/td&gt;
+  &lt;td&gt;19:30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=4&gt;
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will cover the basics of dealing with
+    graphs with an infinite number of verticies, focusing mostly on countably
+    many verticies.&lt;/p&gt; &lt;p&gt;I will cover basic definitions of graph theory,
+    Menger&amp;#39;s theorem &amp;#40;Only 1 version, don&amp;#39;t worry&amp;#41;, trees,
+    girths and chromatic numbers briefly for people not familiar with the
+    terms. We will then jump into the sweet stuff, defining teeth and spines,
+    local infinity, rays...&lt;/p&gt; &lt;p&gt;I will then present &amp;#40;and prove some&amp;#41;
+    quite useful theorems and lemmas, including &amp;lt;q&amp;gt;de Bruijn &amp;amp; Erdos
+    theorem&amp;lt;/q&amp;gt; and &amp;lt;q&amp;gt;Star-Comb Lemma&amp;lt;/q&amp;gt;. Finally, we will
+    talk about Universal graphs, the Rado graph and why they are cool.&lt;/p&gt;
+    &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday October 14, 2016&lt;/th&gt;&lt;/tr&gt;
