@@ -1,1 +1,12 @@
-How to deal with infinite graphs.
+This talk will cover the basics of dealing with graphs with an infinite number
+of verticies, focusing mostly on countably many verticies.
+
+I will cover basic definitions of graph theory, Menger's theorem (Only 1
+version, don't worry), trees, girths and chromatic numbers briefly for people
+not familiar with the terms. We will then jump into the sweet stuff, defining
+teeth and spines, local infinity, rays...
+
+I will then present (and prove some) quite useful theorems and lemmas,
+including <q>de Bruijn & Erdos theorem</q> and <q>Star-Comb Lemma</q>.
+Finally, we will talk about Universal graphs, the Rado graph and why they are
+cool.
