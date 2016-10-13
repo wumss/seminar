@@ -67,30 +67,7 @@ function write_summary(t)
         if haskey(t, :summary)
             render_markdown_from_file(f, t, :summary, 0)
         end
-
-        print_mathjax(f)
     end
-end
-
-function print_mathjax(io)
-    println(io, """
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        extensions: ["tex2jax.js", "AMSmath.js"],
-        jax: ["input/TeX", "output/HTML-CSS"],
-        tex2jax: {
-          inlineMath: [ ['\$','\$'], ["\\\\(","\\\\)"] ],
-          displayMath: [ ['\$\$','\$\$'], ["\\\\[","\\\\]"] ],
-          processEscapes: true
-        },
-        "HTML-CSS": { availableFonts: ["TeX"] }
-      });
-    </script>
-
-    <script type="text/javascript"
-      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML">
-    </script>
-    """)
 end
 
 println("""
@@ -101,8 +78,6 @@ type = "home-section"
 +++
 
 """)
-
-print_mathjax(STDOUT)
 
 println("""
 See the [archive](archive) for talks before today’s date.
