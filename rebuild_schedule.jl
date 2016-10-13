@@ -51,7 +51,8 @@ println("""
         <tbody>""")
 
 for d in dates
-    d < Dates.now() && continue  # TODO: put old talks in different file
+    # TODO: put old talks in different file
+    Date(d) < Dates.now() && continue
     println("<tr><th colspan=4>Talks on $(human(d))</th></tr>")
     for t in filter(x -> x[:date] == d, result)
         println("""
