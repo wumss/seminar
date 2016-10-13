@@ -17,10 +17,22 @@
       <guid>https://friedeggs.github.io/seminar/archive/infinitely53564/</guid>
       <description>
 
-&lt;h1 id=&#34;infinitely-awesome-graphs&#34;&gt;Infinitely Awesome Graphs&lt;/h1&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+  MathJax.Hub.Config({
+    extensions: [&#34;tex2jax.js&#34;],
+    jax: [&#34;input/TeX&#34;, &#34;output/HTML-CSS&#34;],
+    tex2jax: {
+      inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
+      displayMath: [ [&#39;$$&#39;,&#39;$$&#39;], [&#34;\\[&#34;,&#34;\\]&#34;] ],
+      processEscapes: true
+    },
+    &#34;HTML-CSS&#34;: { availableFonts: [&#34;TeX&#34;] }
+  });
+&lt;/script&gt;
 
-&lt;p&gt;This talk, delivered by Zouhaier Ferchiou was held on Wednesday October 12, 2016
-in MC 4020.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
+&lt;/script&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
@@ -45,10 +57,22 @@ graphs, the Rado graph and why they are cool.&lt;/p&gt; &lt;/div&gt;
       <guid>https://friedeggs.github.io/seminar/archive/ultrafilte54940/</guid>
       <description>
 
-&lt;h1 id=&#34;ultrafilters&#34;&gt;Ultrafilters&lt;/h1&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+  MathJax.Hub.Config({
+    extensions: [&#34;tex2jax.js&#34;],
+    jax: [&#34;input/TeX&#34;, &#34;output/HTML-CSS&#34;],
+    tex2jax: {
+      inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
+      displayMath: [ [&#39;$$&#39;,&#39;$$&#39;], [&#34;\\[&#34;,&#34;\\]&#34;] ],
+      processEscapes: true
+    },
+    &#34;HTML-CSS&#34;: { availableFonts: [&#34;TeX&#34;] }
+  });
+&lt;/script&gt;
 
-&lt;p&gt;This talk, delivered by Felix Bauckholt was held on Wednesday October 12, 2016
-in MC 4020.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
+&lt;/script&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
@@ -67,10 +91,22 @@ cool.&lt;/p&gt; &lt;/div&gt;
       <guid>https://friedeggs.github.io/seminar/archive/prerequisi33333/</guid>
       <description>
 
-&lt;h1 id=&#34;prerequisite-talk-on-algebra&#34;&gt;Prerequisite Talk on Algebra&lt;/h1&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+  MathJax.Hub.Config({
+    extensions: [&#34;tex2jax.js&#34;],
+    jax: [&#34;input/TeX&#34;, &#34;output/HTML-CSS&#34;],
+    tex2jax: {
+      inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
+      displayMath: [ [&#39;$$&#39;,&#39;$$&#39;], [&#34;\\[&#34;,&#34;\\]&#34;] ],
+      processEscapes: true
+    },
+    &#34;HTML-CSS&#34;: { availableFonts: [&#34;TeX&#34;] }
+  });
+&lt;/script&gt;
 
-&lt;p&gt;This talk, delivered by Fengyang Wang was held on Wednesday October 12, 2016
-in MC 4020.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
+&lt;/script&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
@@ -324,6 +360,8 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
   src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
 &lt;/script&gt;
 
+&lt;p&gt;See the &lt;a href=&#34;archive&#34;&gt;archive&lt;/a&gt; for talks before today’s date.&lt;/p&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -334,7 +372,21 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
-&lt;tr&gt;&lt;th colspan=4&gt;Talks on Wednesday October 12, 2016&lt;/th&gt;&lt;/tr&gt;
+# Prerequisite Talk on Algebra
+
+This talk, delivered by Fengyang Wang was held on Wednesday October 12, 2016
+in MC 4020.
+
+# Ultrafilters
+
+This talk, delivered by Felix Bauckholt was held on Wednesday October 12, 2016
+in MC 4020.
+
+# Infinitely Awesome Graphs
+
+This talk, delivered by Zouhaier Ferchiou was held on Wednesday October 12, 2016
+in MC 4020.
+
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday October 14, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Information Theory&lt;/td&gt;
@@ -351,6 +403,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
     Approximation &amp;#91;PDF&amp;#93; &lt;/a&gt;&lt;/p&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday October 14, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Types and Object-Oriented Programming&lt;/td&gt;
   &lt;td&gt;Nikita Kapustin&lt;/td&gt;
@@ -371,6 +424,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
   &lt;td&gt;MC 4020&lt;/td&gt;
   &lt;td&gt;17:30&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday October 21, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Quantum Computing&lt;/td&gt;
   &lt;td&gt;Michael Pang&lt;/td&gt;
@@ -384,6 +438,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
   &lt;td&gt;MC 4020&lt;/td&gt;
   &lt;td&gt;17:30&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday October 28, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Integration&lt;/td&gt;
   &lt;td&gt;Gregory Patchell&lt;/td&gt;
@@ -404,6 +459,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
   &lt;td&gt;MC 4020&lt;/td&gt;
   &lt;td&gt;17:30&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday November 4, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Symmetric Groups, Representation Theory, and Young Tableaux&lt;/td&gt;
   &lt;td&gt;Randy Lin&lt;/td&gt;
@@ -417,6 +473,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
   &lt;td&gt;MC 4020&lt;/td&gt;
   &lt;td&gt;17:30&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday November 11, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Random Graphs and Complex Networks&lt;/td&gt;
   &lt;td&gt;Freida Rong&lt;/td&gt;
@@ -437,6 +494,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
     explores generalizations of the complex numbers.&lt;/p&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday November 18, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Prerequisite Talk on Number Theory&lt;/td&gt;
   &lt;td&gt;[to be determined]&lt;/td&gt;
@@ -454,6 +512,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
     reference.&lt;/p&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday November 18, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Elliptic Curves and Modular Forms&lt;/td&gt;
   &lt;td&gt;Akshay Tiwary&lt;/td&gt;
@@ -474,6 +533,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
   &lt;td&gt;MC 4020&lt;/td&gt;
   &lt;td&gt;17:30&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday November 25, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Naïve Lie Theory&lt;/td&gt;
   &lt;td&gt;Aidan Patterson&lt;/td&gt;
@@ -487,6 +547,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
   &lt;td&gt;MC 4020&lt;/td&gt;
   &lt;td&gt;17:30&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday December 2, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Symmetries and Their Role in Physics&lt;/td&gt;
   &lt;td&gt;Vasudev Shyam&lt;/td&gt;

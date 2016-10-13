@@ -17,10 +17,22 @@
       <guid>https://friedeggs.github.io/seminar/archive/infinitely53564/</guid>
       <description>
 
-&lt;h1 id=&#34;infinitely-awesome-graphs&#34;&gt;Infinitely Awesome Graphs&lt;/h1&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+  MathJax.Hub.Config({
+    extensions: [&#34;tex2jax.js&#34;],
+    jax: [&#34;input/TeX&#34;, &#34;output/HTML-CSS&#34;],
+    tex2jax: {
+      inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
+      displayMath: [ [&#39;$$&#39;,&#39;$$&#39;], [&#34;\\[&#34;,&#34;\\]&#34;] ],
+      processEscapes: true
+    },
+    &#34;HTML-CSS&#34;: { availableFonts: [&#34;TeX&#34;] }
+  });
+&lt;/script&gt;
 
-&lt;p&gt;This talk, delivered by Zouhaier Ferchiou was held on Wednesday October 12, 2016
-in MC 4020.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
+&lt;/script&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
@@ -45,10 +57,22 @@ graphs, the Rado graph and why they are cool.&lt;/p&gt; &lt;/div&gt;
       <guid>https://friedeggs.github.io/seminar/archive/ultrafilte54940/</guid>
       <description>
 
-&lt;h1 id=&#34;ultrafilters&#34;&gt;Ultrafilters&lt;/h1&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+  MathJax.Hub.Config({
+    extensions: [&#34;tex2jax.js&#34;],
+    jax: [&#34;input/TeX&#34;, &#34;output/HTML-CSS&#34;],
+    tex2jax: {
+      inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
+      displayMath: [ [&#39;$$&#39;,&#39;$$&#39;], [&#34;\\[&#34;,&#34;\\]&#34;] ],
+      processEscapes: true
+    },
+    &#34;HTML-CSS&#34;: { availableFonts: [&#34;TeX&#34;] }
+  });
+&lt;/script&gt;
 
-&lt;p&gt;This talk, delivered by Felix Bauckholt was held on Wednesday October 12, 2016
-in MC 4020.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
+&lt;/script&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
@@ -67,10 +91,22 @@ cool.&lt;/p&gt; &lt;/div&gt;
       <guid>https://friedeggs.github.io/seminar/archive/prerequisi33333/</guid>
       <description>
 
-&lt;h1 id=&#34;prerequisite-talk-on-algebra&#34;&gt;Prerequisite Talk on Algebra&lt;/h1&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+  MathJax.Hub.Config({
+    extensions: [&#34;tex2jax.js&#34;],
+    jax: [&#34;input/TeX&#34;, &#34;output/HTML-CSS&#34;],
+    tex2jax: {
+      inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
+      displayMath: [ [&#39;$$&#39;,&#39;$$&#39;], [&#34;\\[&#34;,&#34;\\]&#34;] ],
+      processEscapes: true
+    },
+    &#34;HTML-CSS&#34;: { availableFonts: [&#34;TeX&#34;] }
+  });
+&lt;/script&gt;
 
-&lt;p&gt;This talk, delivered by Fengyang Wang was held on Wednesday October 12, 2016
-in MC 4020.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
+&lt;/script&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
