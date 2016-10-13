@@ -6,18 +6,287 @@
     <description>Recent content on Math Seminar (name TBD)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Sep 2016 22:52:45 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 12 Oct 2016 19:30:00 +0000</lastBuildDate>
     <atom:link href="https://friedeggs.github.io/seminar/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>[Sample] A More Recent Talk</title>
-      <link>https://friedeggs.github.io/seminar/archive/sample2/</link>
-      <pubDate>Sat, 24 Sep 2016 22:52:45 -0400</pubDate>
+      <title>Infinitely Awesome Graphs</title>
+      <link>https://friedeggs.github.io/seminar/archive/infinitely53564/</link>
+      <pubDate>Wed, 12 Oct 2016 19:30:00 +0000</pubDate>
       
-      <guid>https://friedeggs.github.io/seminar/archive/sample2/</guid>
-      <description>&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt surprise you found english in culpa qui officia deserunt mollit anim id est laborum.
+      <guid>https://friedeggs.github.io/seminar/archive/infinitely53564/</guid>
+      <description>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+&lt;h1 id=&#34;infinitely-awesome-graphs&#34;&gt;Infinitely Awesome Graphs&lt;/h1&gt;
+
+&lt;p&gt;This talk, delivered by Zouhaier Ferchiou was held on Wednesday October 12, 2016
+in MC 4020.&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will cover the basics of dealing with graphs
+with an infinite number of verticies, focusing mostly on countably many
+verticies.&lt;/p&gt; &lt;p&gt;I will cover basic definitions of graph theory, Menger&amp;#39;s
+theorem &amp;#40;Only 1 version, don&amp;#39;t worry&amp;#41;, trees, girths and chromatic
+numbers briefly for people not familiar with the terms. We will then jump into
+the sweet stuff, defining teeth and spines, local infinity, rays...&lt;/p&gt; &lt;p&gt;I
+will then present &amp;#40;and prove some&amp;#41; quite useful theorems and lemmas,
+including &amp;lt;q&amp;gt;de Bruijn &amp;amp; Erdos theorem&amp;lt;/q&amp;gt; and
+&amp;lt;q&amp;gt;Star-Comb Lemma&amp;lt;/q&amp;gt;. Finally, we will talk about Universal
+graphs, the Rado graph and why they are cool.&lt;/p&gt; &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ultrafilters</title>
+      <link>https://friedeggs.github.io/seminar/archive/ultrafilte54940/</link>
+      <pubDate>Wed, 12 Oct 2016 18:30:00 +0000</pubDate>
+      
+      <guid>https://friedeggs.github.io/seminar/archive/ultrafilte54940/</guid>
+      <description>
+
+&lt;h1 id=&#34;ultrafilters&#34;&gt;Ultrafilters&lt;/h1&gt;
+
+&lt;p&gt;This talk, delivered by Felix Bauckholt was held on Wednesday October 12, 2016
+in MC 4020.&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;In this talk, I will try to explain what ultrafilters
+are. I will do this by presenting a few motivating examples, and also some
+examples that, even if they don&amp;#39;t motivate anything, are just really
+cool.&lt;/p&gt; &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prerequisite Talk on Algebra</title>
+      <link>https://friedeggs.github.io/seminar/archive/prerequisi33333/</link>
+      <pubDate>Wed, 12 Oct 2016 17:30:00 +0000</pubDate>
+      
+      <guid>https://friedeggs.github.io/seminar/archive/prerequisi33333/</guid>
+      <description>
+
+&lt;h1 id=&#34;prerequisite-talk-on-algebra&#34;&gt;Prerequisite Talk on Algebra&lt;/h1&gt;
+
+&lt;p&gt;This talk, delivered by Fengyang Wang was held on Wednesday October 12, 2016
+in MC 4020.&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will cover the basics of group theory. There
+are no official prerequisites for this talk, but MATH 145 and MATH 146 are an
+asset. The group theory part of the talk will mostly be based on &lt;a
+href=&#34;http://mathcamp.org/2015/abel/abel.pdf&#34;&gt;Alekseev, 2004&lt;/a&gt;, specifically
+sections 1.1 &amp;#40;motivation&amp;#41;, 1.2 &amp;#40;transformation groups&amp;#41;, 1.5,
+1.9, and 1.13 &amp;#40;various morphisms&amp;#41;, and 1.11 &amp;#40;quotient
+groups&amp;#41;.&lt;/p&gt; &lt;p&gt;Due to time constraints, it is inevitable that some content
+must be rushed. I will not go over proofs and derivations in full rigour, and I
+highly advise studying the reference material after the talk to catch up on
+what you may have missed. Please message me in advance if there are any other
+subjects in particular that you would like me to discuss.&lt;/p&gt; &lt;/div&gt;
+&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk on Algebra covers material that may be
+important for future talks.&lt;/p&gt; &lt;h2&gt;Abstract Algebra&lt;/h2&gt; &lt;p&gt;Algebra is about
+structure and maps that preserve structure.&lt;/p&gt; &lt;p&gt;In mathematics, we
+investigate particular sets and how they behave. Many results on certain sets
+actually apply to a wide class of sets. Algebra allows us to generalize these
+results. We investigate sets and their structures by appealing to fundamental
+structural properties. This investigation leads to the revelation that certain
+kinds of structure are especially prevalent and useful.&lt;/p&gt; &lt;p&gt;In MATH 136 or
+MATH 146, we have seen fields and vector spaces, which are a particularly
+important sort of structure. Today I will be talking about another useful sort
+of structure: the group.&lt;/p&gt; &lt;h2&gt;Binary Operators and Distinguished
+Elements&lt;/h2&gt; &lt;p&gt;What do I mean by &amp;lt;q&amp;gt;structure&amp;lt;/q&amp;gt;? There are two
+common forms of structure: binary operators, and distinguished elements.&lt;/p&gt;
+&lt;p&gt;Given a set &amp;#36;S&amp;#36;, we call a function &amp;#36;f: S\times S\to S&amp;#36; a
+&lt;em&gt;binary operator&lt;/em&gt;. Binary operators are typically written in infix
+notation; that is, we write &amp;#36;afb&amp;#36; instead of &amp;#36;f&amp;#40;a, b&amp;#41;&amp;#36;.
+Furthermore, we often use symbols such as &amp;#36;&amp;#43;&amp;#36;, &amp;#36;⋅&amp;#36;,
+&amp;#36;∨&amp;#36;, &amp;#36;⊖&amp;#36; or similar for these operators.&lt;/p&gt; &lt;p&gt;Conventionally,
+we may omit certain binary operators, such as the &amp;#36;∘&amp;#36; for function
+composition or the &amp;#36;⋅&amp;#36; for multiplication. That is, we may write
+&amp;#36;ab&amp;#36; to denote &amp;#36;a⋅b&amp;#36;.&lt;/p&gt; &lt;p&gt;A &amp;lt;q&amp;gt;distinguished
+element&amp;lt;/q&amp;gt; of &amp;#36;S&amp;#36; is simply a specific element &amp;#36;x\in S&amp;#36;
+that satisfies certain properties, usually in relation to binary operators.&lt;/p&gt;
+&lt;h2&gt;Example&lt;/h2&gt; &lt;p&gt;Consider the set of real functions defined everywhere,
+which I will denote as &amp;#36;\mathbf&amp;#123;R&amp;#125;^\mathbf&amp;#123;R&amp;#125;&amp;#36;.
+What sort of structure can we find in this set? Let&amp;#39;s focus on binary
+operations. One obvious binary operation is &amp;#36;∘&amp;#36;, which represents
+function composition. We define&lt;/p&gt; &amp;#36;&amp;#40;f ∘ g&amp;#41;&amp;#40;x&amp;#41; &amp;#61;
+f&amp;#40;g&amp;#40;x&amp;#41;&amp;#41;&amp;#36; &lt;p&gt;The first property we note is that composition
+is associative; that is, for all real functions &amp;#36;f&amp;#36;, &amp;#36;g&amp;#36;, and
+&amp;#36;h&amp;#36;, we have:&lt;/p&gt; &amp;#36;&amp;#40;f ∘ g&amp;#41; ∘ h &amp;#61; x ↦
+f&amp;#40;g&amp;#40;h&amp;#40;x&amp;#41;&amp;#41;&amp;#41; &amp;#61; f ∘ &amp;#40;g ∘ h&amp;#41;&amp;#36; &lt;p&gt;For
+associative binary operations, we frequently omit the parentheses. That is, we
+may simply write &amp;#36;f ∘ g ∘ h&amp;#36;.&lt;/p&gt; &lt;p&gt;Next we note that there is a
+distinguished element of &amp;#36;S&amp;#36;, which we will name &amp;#36;I&amp;#36;, with the
+property that for all &amp;#36;x&amp;#36;:&lt;/p&gt; &amp;#36;I&amp;#40;x&amp;#41; &amp;#61; x&amp;#36; &lt;p&gt;This
+&amp;#36;I&amp;#36; is frequently known as the &amp;lt;q&amp;gt;identity function&amp;lt;/q&amp;gt;. It
+happens to be the identity element of the &amp;#36;∘&amp;#36; operation; that is, for
+all &amp;#36;f\in S&amp;#36;, we have&lt;/p&gt; &amp;#36;I ∘ f &amp;#61; f ∘ I &amp;#61; f&amp;#36;
+&lt;h2&gt;Monoids&lt;/h2&gt; &lt;p&gt;A &lt;strong&gt;monoid&lt;/strong&gt; is a set &amp;#36;S&amp;#36; with
+distinguished element &amp;#36;e\in S&amp;#36; together with a binary operation &amp;#36;⋅:
+S\times S\to S&amp;#36;, such that:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;&amp;#36;⋅&amp;#36; is associative,&lt;/p&gt;
+&lt;/li&gt; &lt;li&gt;&lt;p&gt;and &amp;#36;e&amp;#36; is an identity element of the &amp;#36;⋅&amp;#36;
+operation.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;or more formally,&lt;/p&gt; &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#36;&amp;#40;ab&amp;#41;c &amp;#61; a&amp;#40;bc&amp;#41;&amp;#36; for all &amp;#36;a,b,c\in
+S&amp;#36;&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;&amp;#36;ea&amp;#61;ae&amp;#61;a&amp;#36; for all &amp;#36;a\in S&amp;#36;&lt;/p&gt;
+&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;An example of a monoid is the set of strings, under binary
+operator concatenation, with identity element the empty string &amp;#36;ɛ&amp;#36;.
+They are very closely related to monads, a concept seen in category theory and
+computer science.&lt;/p&gt; &lt;h2&gt;Example&lt;/h2&gt; &lt;p&gt;Consider again the set of real
+functions defined everywhere. This time, consider the subset &amp;#36;Φ&amp;#36; of
+bijective real functions. Since the composition of bijections remains a
+bijection, we see that this set is still a monoid under function composition
+&amp;#36;∘&amp;#36;. But indeed, there is more structure to be explored here. Every
+bijection &amp;#36;φ\inΦ&amp;#36; admits an inverse &amp;#36;φ^&amp;#123;-1&amp;#125;&amp;#36;. The
+crucial property of the inverse is that
+&amp;#36;φφ^&amp;#123;-1&amp;#125;&amp;#61;φ^&amp;#123;-1&amp;#125;φ&amp;#61;I&amp;#36;, where &amp;#36;I&amp;#36; is
+the identity element of the &amp;#36;∘&amp;#36; operation.&lt;/p&gt; &lt;p&gt;Such an algebraic
+structure, a monoid with inverses, is called a &amp;lt;q&amp;gt;group&amp;lt;/q&amp;gt;. The
+particular group of bijections seen above is called a &amp;lt;q&amp;gt;symmetric
+group&amp;lt;/q&amp;gt;.&lt;/p&gt; &lt;h2&gt;Groups&lt;/h2&gt; &lt;p&gt;A &lt;strong&gt;group&lt;/strong&gt; is a set
+&amp;#36;S&amp;#36; with distinguished element &amp;#36;e\in S&amp;#36; together with a binary
+operation &amp;#36;⋅: S\times S\to S&amp;#36;, such that:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;&amp;#36;⋅&amp;#36;
+is associative,&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;&amp;#36;e&amp;#36; is an identity element of the
+&amp;#36;⋅&amp;#36; operation,&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;every element has an inverse&lt;/p&gt; &lt;/li&gt;
+&lt;/ul&gt; &lt;p&gt;or more formally,&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;&amp;#36;&amp;#40;ab&amp;#41;c &amp;#61;
+a&amp;#40;bc&amp;#41;&amp;#36; for all &amp;#36;a,b,c\in S&amp;#36;&lt;/p&gt; &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#36;ea&amp;#61;ae&amp;#61;a&amp;#36; for all &amp;#36;a\in S&amp;#36;&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;for
+all &amp;#36;a\in S&amp;#36;, there is &amp;#36;a^&amp;#123;-1&amp;#125;\in S&amp;#36; with
+&amp;#36;aa^&amp;#123;-1&amp;#125;&amp;#61;a^&amp;#123;-1&amp;#125;a&amp;#61;e&amp;#36;&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;It
+is easy to prove, although we will not do it, that the identity of a group is
+unique, and that each element has a &lt;em&gt;unique&lt;/em&gt; inverse element.&lt;/p&gt; &lt;p&gt;An
+example of a group is the integers, under operation &amp;#36;&amp;#43;&amp;#36;. This
+associative binary operation is in fact also commutative &amp;#40;that is,
+&amp;#36;a&amp;#43;b&amp;#61;b&amp;#43;a&amp;#36; for all integers &amp;#36;a&amp;#36; and
+&amp;#36;b&amp;#36;&amp;#41;. Groups where the associative binary operation is also
+commutative are called &lt;strong&gt;abelian groups&lt;/strong&gt;. As a notational
+convenience, the &amp;#36;&amp;#43;&amp;#36; operator is conventionally reserved for
+abelian groups.&lt;/p&gt; &lt;p&gt;Note that the integers, under operation &amp;#36;⋅&amp;#36;, do
+not form a group because &amp;#36;0&amp;#36; does not admit an inverse.&lt;/p&gt;
+&lt;h2&gt;Structure-Preserving Maps&lt;/h2&gt; &lt;p&gt;A &lt;strong&gt;morphism&lt;/strong&gt; between
+algebraic structures &amp;#36;G&amp;#36; and &amp;#36;H&amp;#36; is a map &amp;#36;f: G\to H&amp;#36;
+that preserves some kind of structure. In particular, we define a
+&lt;strong&gt;homomorphism&lt;/strong&gt; between groups as a map that preserves the
+associative binary operation. &amp;#40;From this, it follows that the inverse is
+also preserved.&amp;#41; By this, we mean that if &amp;#36;a,b\in G&amp;#36;, then&lt;/p&gt;
+&amp;#36;f&amp;#40;a&amp;#41;f&amp;#40;b&amp;#41; &amp;#61; f&amp;#40;ab&amp;#41;&amp;#36; &lt;p&gt;Note that there is no
+requirement that the operation &amp;#36;f&amp;#36; be invertible; indeed, the map
+&amp;#36;x ↦ 0&amp;#36; from the group of integers under addition to itself is a
+homomorphism.&lt;/p&gt; &lt;p&gt;We define &lt;strong&gt;monomorphism&lt;/strong&gt; to be a one-to-one
+homomorphism and an &lt;strong&gt;epimorphism&lt;/strong&gt; to be an onto homomorphism. A
+fact that we will not prove &amp;#40;but is easy to show&amp;#41; is that the nullspace
+of a monomorphism is the singleton set containing the identity element of
+&amp;#36;G&amp;#36;.&lt;/p&gt; &lt;p&gt;A group &lt;strong&gt;isomorphism&lt;/strong&gt; is a one-to-one and
+onto homomorphism. Group isomorphisms admit inverse maps. Of course, these
+terms are also applicable beyond groups; for monoids, graphs, vector spaces,
+etc., the various morphisms preserve the respective algebraic structures.&lt;/p&gt;
+&lt;h2&gt;Subgroups&lt;/h2&gt; &lt;p&gt;Recall that in MATH 136 or MATH 146, we had the concept
+of subspaces. A subspace of a vector space &amp;#36;V&amp;#36; could be constructed by
+taking a subset &amp;#36;W ⊆ V&amp;#36;, which forms a vector space in its own right
+under the same operations addition &amp;#36;&amp;#43;&amp;#36; and scalar multilpication
+&amp;#36;⋅&amp;#36; as &amp;#36;V&amp;#36;. In other words, when we restricted the operations
+of &amp;#36;V&amp;#36; to subset &amp;#36;W&amp;#36;, and the resulting space remains a vector
+space, then &amp;#36;W&amp;#36; is a subspace of &amp;#36;V&amp;#36;.&lt;/p&gt; &lt;p&gt;We can similarly
+define a &lt;strong&gt;subgroup&lt;/strong&gt; &amp;#36;H&amp;#36; of &amp;#36;G&amp;#36; to be a subset of
+elements of &amp;#36;G&amp;#36; together with the associative binary operation
+&amp;#36;∘&amp;#36; of &amp;#36;G&amp;#36;, such that &amp;#36;&amp;#40;H, ∘&amp;#41;&amp;#36; &amp;#40;&amp;#36;H&amp;#36;
+together with the restriction of &amp;#36;∘&amp;#36; to &amp;#36;H&amp;#36;&amp;#41; forms a group
+in its own right. We typically write &amp;#36;H ≤ G&amp;#36;.&lt;/p&gt; &lt;p&gt;Note that the set
+containing only the identity element, &amp;#36;\&amp;#123;e\&amp;#125;&amp;#36;, is a
+&lt;strong&gt;trivial subgroup&lt;/strong&gt; of &amp;#36;G&amp;#36;. Furthermore, &amp;#36;G&amp;#36;
+itself is a subgroup of &amp;#36;G&amp;#36;.&lt;/p&gt; &lt;h3&gt;Example&lt;/h3&gt; &lt;p&gt;Consider the
+symmetric group of real bijections under function composition, mentioned
+earlier. Then the set of linear functions with non-zero coefficients,
+&amp;#36;\&amp;#123;x ↦ mx \mid m\in\mathbf&amp;#123;R&amp;#125;∖\&amp;#123;0\&amp;#125;\&amp;#125;&amp;#36; is
+a subgroup. In general, a subgroup of a symmetric group is called a permutation
+group.&lt;/p&gt; &lt;h2&gt;Cosets&lt;/h2&gt; &lt;p&gt;Suppose &amp;#36;G&amp;#36; is a group and &amp;#36;H&amp;#36; is
+a subgroup. Then a &lt;strong&gt;left coset&lt;/strong&gt; of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36; is
+a set&lt;/p&gt; &amp;#36;gH &amp;#61; \&amp;#123;gh \mid h\in H\&amp;#125;&amp;#36; &lt;p&gt;where &amp;#36;g&amp;#36;
+is some &amp;#40;fixed&amp;#41; element of &amp;#36;G&amp;#36;. This particular coset is called
+the left coset of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36; with respect to &amp;#36;g&amp;#36;.&lt;/p&gt;
+&lt;p&gt;Similarly, we can defined a &lt;strong&gt;right coset&lt;/strong&gt; of &amp;#36;H&amp;#36; in
+&amp;#36;G&amp;#36; as a set&lt;/p&gt; &amp;#36;Hg &amp;#61; \&amp;#123;hg \mid h\in H\&amp;#125;&amp;#36;
+&lt;p&gt;Recall that in MATH 146, we defined a coset of a vector space &amp;#36;W&amp;#36; in
+&amp;#36;V&amp;#36; in a similar fashion, with vector addition replacing the
+associative binary operation. One difference is that because the associative
+binary operation is not necessarily commutative, the left and right cosets may
+differ.&lt;/p&gt; &lt;p&gt;It is often more useful when the left and right cosets of
+&amp;#36;H&amp;#36; in &amp;#36;G&amp;#36; happen to be the same cosets. &amp;#40;This is the case,
+for instance, in linear algebra.&amp;#41; When &amp;#36;gH &amp;#61; Hg&amp;#36; for all
+&amp;#36;g\in G&amp;#36;, then we say that &amp;#36;H&amp;#36; is a &lt;strong&gt;normal
+subgroup&lt;/strong&gt; of &amp;#36;G&amp;#36;.&lt;/p&gt; &lt;h2&gt;Quotient Groups&lt;/h2&gt; &lt;p&gt;Note that it
+is possible to intutively understand a coset of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36; to
+be some &amp;lt;q&amp;gt;translated&amp;lt;/q&amp;gt; copy of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36;.
+Cosets of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36; with respect to two distinct elements
+&amp;#36;g&amp;#36; may indeed still be the same coset. Let &amp;#36;G / H&amp;#36;
+&amp;#40;pronounced &amp;lt;q&amp;gt;&amp;#36;G&amp;#36; modulo &amp;#36;H&amp;#36;&amp;lt;/q&amp;gt;&amp;#41; be the
+set of cosets of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36;. Although we will not prove it, it
+is straightforward to show that any two cosets are either disjoint or entirely
+coincident.&lt;/p&gt; &lt;p&gt;I quote the following lede from the Wikipedia article on &lt;a
+href=&#34;https://en.wikipedia.org/wiki/Quotient_group&#34;&gt;quotient groups&lt;/a&gt;, as an
+alternative way of thinking about quotient groups:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;A
+quotient group or factor group is a mathematical group obtained by aggregating
+similar elements of a larger group using an equivalence relation that preserves
+the group structure.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;As an example, consider the group of
+integers under addition, and the group of even integers under addition &amp;#40;we
+will call these groups &amp;#36;\mathbf&amp;#123;Z&amp;#125;&amp;#36; and
+&amp;#36;2\mathbf&amp;#123;Z&amp;#125;&amp;#36; respectively&amp;#41;.
+&amp;#36;2\mathbf&amp;#123;Z&amp;#125;&amp;#36; is automatically a normal subgroup of
+&amp;#36;\mathbf&amp;#123;Z&amp;#125;&amp;#36;, because the group operation is additive
+&amp;#40;i.e., commutative&amp;#41;. Then the cosets of &amp;#36;2\mathbf&amp;#123;Z&amp;#125;&amp;#36;
+in &amp;#36;\mathbf&amp;#123;Z&amp;#125;&amp;#36; are &amp;#36;\mathbf&amp;#123;Z&amp;#125;&amp;#36; and
+&amp;#36;\mathbf&amp;#123;Z&amp;#125;&amp;#43;1&amp;#36;, the set of even integers and the set of
+odd integers. The quotient group
+&amp;#36;\mathbf&amp;#123;Z&amp;#125;/2\mathbf&amp;#123;Z&amp;#125;&amp;#36; is therefore:&lt;/p&gt;
+&amp;#36;\mathbf&amp;#123;Z&amp;#125;/2\mathbf&amp;#123;Z&amp;#125; &amp;#61;
+\&amp;#123;2\mathbf&amp;#123;Z&amp;#125;, 2\mathbf&amp;#123;Z&amp;#125;&amp;#43;1\&amp;#125;&amp;#36; &lt;p&gt;Note
+that this set is naturally isomorphic to the set of booleans
+&amp;#36;\mathbf&amp;#123;Z&amp;#125;_2 &amp;#61; \&amp;#123;0, 1\&amp;#125;&amp;#36;.&lt;/p&gt; &lt;p&gt;We can define
+an epimorphism &amp;#36;π: G\to G/H&amp;#36; sending every element of &amp;#36;G&amp;#36; to
+the coset of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36; it belongs to. Such an epimorphism is
+typically called the &lt;strong&gt;canonical projection&lt;/strong&gt; from &amp;#36;G&amp;#36; to
+&amp;#36;G/H&amp;#36;.&lt;/p&gt; &lt;h3&gt;First Isomorphism Theorem&lt;/h3&gt; &lt;p&gt;Let &amp;#36;G&amp;#36; and
+&amp;#36;H&amp;#36; be groups, and &amp;#36;f: G\to H&amp;#36; be a homomorphism. Then&lt;/p&gt; &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;#36;\operatorname&amp;#123;kernel&amp;#125;&amp;#40;f&amp;#41;&amp;#36; is a normal
+subgroup of &amp;#36;G&amp;#36;&lt;/p&gt; &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#36;\operatorname&amp;#123;image&amp;#125;&amp;#40;f&amp;#41;&amp;#36; is a subgroup of
+&amp;#36;H&amp;#36;&lt;/p&gt; &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;#36;\operatorname&amp;#123;image&amp;#125;&amp;#40;f&amp;#41;&amp;#36; is isomorphic to
+&amp;#36;G/\operatorname&amp;#123;kernel&amp;#125;&amp;#40;f&amp;#41;&amp;#36;&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;h3&gt;Example&lt;/h3&gt; &lt;p&gt;Let &amp;#36;\mathbf&amp;#123;R&amp;#125;\setminus\&amp;#123;0\&amp;#125;&amp;#36;
+denote the group of real numbers, except zero, under multiplication. Let
+&amp;#36;\mathsf&amp;#123;GL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41;&amp;#36; &amp;#40;the
+&lt;strong&gt;general linear group&lt;/strong&gt;&amp;#41; denote the group of invertible
+&amp;#36;n\times n&amp;#36; real matrices under multiplication. Then note, by
+properties of the determinant, that the determinant
+&amp;#36;\operatorname&amp;#123;det&amp;#125;&amp;#36; is a homomorphism between
+&amp;#36;\mathsf&amp;#123;GL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41;&amp;#36; and
+&amp;#36;\mathbf&amp;#123;R&amp;#125;\setminus\&amp;#123;0\&amp;#125;&amp;#36;.&lt;/p&gt; &lt;p&gt;Let
+&amp;#36;\mathsf&amp;#123;SL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41;&amp;#36; &amp;#40;the
+&lt;strong&gt;special linear group&lt;/strong&gt;&amp;#41; denote the group of &amp;#36;n\times
+n&amp;#36; real matrices with determinant &amp;#36;1&amp;#36;, under multiplication. Then,
+by the first isomorphism theorem, the quotient group
+&amp;#36;\mathsf&amp;#123;GL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41; /
+\mathsf&amp;#123;SL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41;&amp;#36; is isomorphic to
+&amp;#36;\mathbf&amp;#123;R&amp;#125;\setminus\&amp;#123;0\&amp;#125;&amp;#36;. &amp;#40;Note that in this
+case, since the identity element is &amp;#36;1&amp;#36;, therefore
+&amp;#36;\mathsf&amp;#123;SL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41;&amp;#36; is precisely
+the kernel of the &amp;#36;\operatorname&amp;#123;det&amp;#125;&amp;#36; morphism.&amp;#41;&lt;/p&gt;
+&lt;h2&gt;Finite Groups and Lagrange’s Theorem&lt;/h2&gt; &lt;p&gt;An important class of groups
+is the class of groups with finitely many elements, known as finite groups.
+Define the &lt;strong&gt;order&lt;/strong&gt; of a finite group to be the number of
+elements it contains.&lt;/p&gt; &lt;p&gt;If &amp;#36;H&amp;#36; is a subgroup of &amp;#36;G&amp;#36;, then
+defined the &lt;strong&gt;index&lt;/strong&gt; &amp;#36;&amp;#91;G : H&amp;#93;&amp;#36; to be the number
+of left cosets of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36;. Then there is an important result
+known as Lagrange’s Theorem:&lt;/p&gt; &amp;#36;&amp;#91;G : H&amp;#93; &amp;#61;
+\frac&amp;#123;|G|&amp;#125;&amp;#123;|H|&amp;#125;&amp;#36; &lt;p&gt;In particular, for finite group
+&amp;#36;G&amp;#36; and normal subgroup &amp;#36;H&amp;#36;, we have&lt;/p&gt; &amp;#36;|G / H| &amp;#61;
+\frac&amp;#123;|G|&amp;#125;&amp;#123;|H|&amp;#125;&amp;#36; &lt;p&gt;which emphasizes that the quotient
+group is indeed, as its name would suggest, a generalization of division.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -30,17 +299,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 &lt;h1 id=&#34;past-talks&#34;&gt;Past Talks&lt;/h1&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>[Sample] Mysterious past topic here</title>
-      <link>https://friedeggs.github.io/seminar/archive/sample/</link>
-      <pubDate>Fri, 23 Sep 2016 22:52:45 -0400</pubDate>
-      
-      <guid>https://friedeggs.github.io/seminar/archive/sample/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-
-veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -76,6 +334,7 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;&lt;th colspan=4&gt;Talks on Wednesday October 12, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday October 14, 2016&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Information Theory&lt;/td&gt;
@@ -176,6 +435,23 @@ veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
     &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;We all know that
     &amp;#36;\mathrm&amp;#123;i&amp;#125;^2&amp;#61;-1&amp;#36;. But what if it weren’t? This talk
     explores generalizations of the complex numbers.&lt;/p&gt; &lt;/div&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Prerequisite Talk on Number Theory&lt;/td&gt;
+  &lt;td&gt;[to be determined]&lt;/td&gt;
+  &lt;td&gt;Tentative&lt;/td&gt;
+  &lt;td&gt;18:00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=4&gt;
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: This talk is not currently
+    officially scheduled. We would like to cover it at some point before
+    Akshay’s talk following.&lt;/p&gt; &lt;p&gt;We will cover some ideas from number theory
+    like quadratic reciprocity, Euler’s totient function, and the Legendre and
+    Jacobi symbols. We will use &lt;a
+    href=&#34;http://golibgen.io/view.php?id&amp;#61;733865&#34;&gt;Baker, 1984&lt;/a&gt; as a
+    reference.&lt;/p&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
