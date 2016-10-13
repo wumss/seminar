@@ -22,32 +22,16 @@ in MC 4020.&lt;/p&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
-&lt;p&gt;&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will cover the basics of dealing with graphs
+&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will cover the basics of dealing with graphs
 with an infinite number of verticies, focusing mostly on countably many
 verticies.&lt;/p&gt; &lt;p&gt;I will cover basic definitions of graph theory, Menger&amp;#39;s
 theorem &amp;#40;Only 1 version, don&amp;#39;t worry&amp;#41;, trees, girths and chromatic
 numbers briefly for people not familiar with the terms. We will then jump into
-the sweet stuff, defining teeth and spines, local infinity, rays&amp;hellip;&lt;/p&gt; &lt;p&gt;I
+the sweet stuff, defining teeth and spines, local infinity, rays...&lt;/p&gt; &lt;p&gt;I
 will then present &amp;#40;and prove some&amp;#41; quite useful theorems and lemmas,
 including &amp;lt;q&amp;gt;de Bruijn &amp;amp; Erdos theorem&amp;lt;/q&amp;gt; and
 &amp;lt;q&amp;gt;Star-Comb Lemma&amp;lt;/q&amp;gt;. Finally, we will talk about Universal
 graphs, the Rado graph and why they are cool.&lt;/p&gt; &lt;/div&gt;
-&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
-  MathJax.Hub.Config({
-    extensions: [&amp;ldquo;tex2jax.js&amp;rdquo;, &amp;ldquo;AMSmath.js&amp;rdquo;],
-    jax: [&amp;ldquo;input/TeX&amp;rdquo;, &amp;ldquo;output/HTML-CSS&amp;rdquo;],
-    tex2jax: {
-      inlineMath: [ [&amp;lsquo;$&amp;rsquo;,&amp;lsquo;$&amp;rsquo;], [&amp;rdquo;\(&amp;ldquo;,&amp;rdquo;\)&amp;ldquo;] ],
-      displayMath: [ [&amp;lsquo;$$&amp;rsquo;,&amp;lsquo;$$&amp;rsquo;], [&amp;rdquo;\[&amp;ldquo;,&amp;rdquo;\]&amp;ldquo;] ],
-      processEscapes: true
-    },
-    &amp;ldquo;HTML-CSS&amp;rdquo;: { availableFonts: [&amp;ldquo;TeX&amp;rdquo;] }
-  });
-&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&#34;text/javascript&#34;
-  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
-&lt;/script&gt;
 </description>
     </item>
     
@@ -64,26 +48,10 @@ in MC 4020.&lt;/p&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
-&lt;p&gt;&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;In this talk, I will try to explain what ultrafilters
+&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;In this talk, I will try to explain what ultrafilters
 are. I will do this by presenting a few motivating examples, and also some
 examples that, even if they don&amp;#39;t motivate anything, are just really
 cool.&lt;/p&gt; &lt;/div&gt;
-&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
-  MathJax.Hub.Config({
-    extensions: [&amp;ldquo;tex2jax.js&amp;rdquo;, &amp;ldquo;AMSmath.js&amp;rdquo;],
-    jax: [&amp;ldquo;input/TeX&amp;rdquo;, &amp;ldquo;output/HTML-CSS&amp;rdquo;],
-    tex2jax: {
-      inlineMath: [ [&amp;lsquo;$&amp;rsquo;,&amp;lsquo;$&amp;rsquo;], [&amp;rdquo;\(&amp;ldquo;,&amp;rdquo;\)&amp;ldquo;] ],
-      displayMath: [ [&amp;lsquo;$$&amp;rsquo;,&amp;lsquo;$$&amp;rsquo;], [&amp;rdquo;\[&amp;ldquo;,&amp;rdquo;\]&amp;ldquo;] ],
-      processEscapes: true
-    },
-    &amp;ldquo;HTML-CSS&amp;rdquo;: { availableFonts: [&amp;ldquo;TeX&amp;rdquo;] }
-  });
-&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&#34;text/javascript&#34;
-  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
-&lt;/script&gt;
 </description>
     </item>
     
@@ -100,7 +68,7 @@ in MC 4020.&lt;/p&gt;
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
-&lt;p&gt;&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will cover the basics of group theory. There
+&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will cover the basics of group theory. There
 are no official prerequisites for this talk, but MATH 145 and MATH 146 are an
 asset. The group theory part of the talk will mostly be based on &lt;a
 href=&#34;http://mathcamp.org/2015/abel/abel.pdf&#34;&gt;Alekseev, 2004&lt;/a&gt;, specifically
@@ -220,20 +188,20 @@ elements of &amp;#36;G&amp;#36; together with the associative binary operation
 &amp;#36;∘&amp;#36; of &amp;#36;G&amp;#36;, such that &amp;#36;&amp;#40;H, ∘&amp;#41;&amp;#36; &amp;#40;&amp;#36;H&amp;#36;
 together with the restriction of &amp;#36;∘&amp;#36; to &amp;#36;H&amp;#36;&amp;#41; forms a group
 in its own right. We typically write &amp;#36;H ≤ G&amp;#36;.&lt;/p&gt; &lt;p&gt;Note that the set
-containing only the identity element, &amp;#36;&amp;amp;#123;e&amp;amp;#125;&amp;#36;, is a
+containing only the identity element, &amp;#36;\&amp;#123;e\&amp;#125;&amp;#36;, is a
 &lt;strong&gt;trivial subgroup&lt;/strong&gt; of &amp;#36;G&amp;#36;. Furthermore, &amp;#36;G&amp;#36;
 itself is a subgroup of &amp;#36;G&amp;#36;.&lt;/p&gt; &lt;h3&gt;Example&lt;/h3&gt; &lt;p&gt;Consider the
 symmetric group of real bijections under function composition, mentioned
 earlier. Then the set of linear functions with non-zero coefficients,
-&amp;#36;&amp;amp;#123;x ↦ mx \mid m\in\mathbf&amp;#123;R&amp;#125;∖&amp;amp;#123;0&amp;amp;#125;&amp;amp;#125;&amp;#36; is
+&amp;#36;\&amp;#123;x ↦ mx \mid m\in\mathbf&amp;#123;R&amp;#125;∖\&amp;#123;0\&amp;#125;\&amp;#125;&amp;#36; is
 a subgroup. In general, a subgroup of a symmetric group is called a permutation
 group.&lt;/p&gt; &lt;h2&gt;Cosets&lt;/h2&gt; &lt;p&gt;Suppose &amp;#36;G&amp;#36; is a group and &amp;#36;H&amp;#36; is
 a subgroup. Then a &lt;strong&gt;left coset&lt;/strong&gt; of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36; is
-a set&lt;/p&gt; &amp;#36;gH &amp;#61; &amp;amp;#123;gh \mid h\in H&amp;amp;#125;&amp;#36; &lt;p&gt;where &amp;#36;g&amp;#36;
+a set&lt;/p&gt; &amp;#36;gH &amp;#61; \&amp;#123;gh \mid h\in H\&amp;#125;&amp;#36; &lt;p&gt;where &amp;#36;g&amp;#36;
 is some &amp;#40;fixed&amp;#41; element of &amp;#36;G&amp;#36;. This particular coset is called
 the left coset of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36; with respect to &amp;#36;g&amp;#36;.&lt;/p&gt;
 &lt;p&gt;Similarly, we can defined a &lt;strong&gt;right coset&lt;/strong&gt; of &amp;#36;H&amp;#36; in
-&amp;#36;G&amp;#36; as a set&lt;/p&gt; &amp;#36;Hg &amp;#61; &amp;amp;#123;hg \mid h\in H&amp;amp;#125;&amp;#36;
+&amp;#36;G&amp;#36; as a set&lt;/p&gt; &amp;#36;Hg &amp;#61; \&amp;#123;hg \mid h\in H\&amp;#125;&amp;#36;
 &lt;p&gt;Recall that in MATH 146, we defined a coset of a vector space &amp;#36;W&amp;#36; in
 &amp;#36;V&amp;#36; in a similar fashion, with vector addition replacing the
 associative binary operation. One difference is that because the associative
@@ -267,9 +235,9 @@ in &amp;#36;\mathbf&amp;#123;Z&amp;#125;&amp;#36; are &amp;#36;\mathbf&amp;#123;
 odd integers. The quotient group
 &amp;#36;\mathbf&amp;#123;Z&amp;#125;/2\mathbf&amp;#123;Z&amp;#125;&amp;#36; is therefore:&lt;/p&gt;
 &amp;#36;\mathbf&amp;#123;Z&amp;#125;/2\mathbf&amp;#123;Z&amp;#125; &amp;#61;
-&amp;amp;#123;2\mathbf&amp;#123;Z&amp;#125;, 2\mathbf&amp;#123;Z&amp;#125;&amp;#43;1&amp;amp;#125;&amp;#36; &lt;p&gt;Note
+\&amp;#123;2\mathbf&amp;#123;Z&amp;#125;, 2\mathbf&amp;#123;Z&amp;#125;&amp;#43;1\&amp;#125;&amp;#36; &lt;p&gt;Note
 that this set is naturally isomorphic to the set of booleans
-&amp;#36;\mathbf&amp;#123;Z&amp;#125;_2 &amp;#61; &amp;amp;#123;0, 1&amp;amp;#125;&amp;#36;.&lt;/p&gt; &lt;p&gt;We can define
+&amp;#36;\mathbf&amp;#123;Z&amp;#125;_2 &amp;#61; \&amp;#123;0, 1\&amp;#125;&amp;#36;.&lt;/p&gt; &lt;p&gt;We can define
 an epimorphism &amp;#36;π: G\to G/H&amp;#36; sending every element of &amp;#36;G&amp;#36; to
 the coset of &amp;#36;H&amp;#36; in &amp;#36;G&amp;#36; it belongs to. Such an epimorphism is
 typically called the &lt;strong&gt;canonical projection&lt;/strong&gt; from &amp;#36;G&amp;#36; to
@@ -281,7 +249,7 @@ subgroup of &amp;#36;G&amp;#36;&lt;/p&gt; &lt;/li&gt;
 &amp;#36;H&amp;#36;&lt;/p&gt; &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;#36;\operatorname&amp;#123;image&amp;#125;&amp;#40;f&amp;#41;&amp;#36; is isomorphic to
 &amp;#36;G/\operatorname&amp;#123;kernel&amp;#125;&amp;#40;f&amp;#41;&amp;#36;&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;h3&gt;Example&lt;/h3&gt; &lt;p&gt;Let &amp;#36;\mathbf&amp;#123;R&amp;#125;\setminus&amp;amp;#123;0&amp;amp;#125;&amp;#36;
+&lt;h3&gt;Example&lt;/h3&gt; &lt;p&gt;Let &amp;#36;\mathbf&amp;#123;R&amp;#125;\setminus\&amp;#123;0\&amp;#125;&amp;#36;
 denote the group of real numbers, except zero, under multiplication. Let
 &amp;#36;\mathsf&amp;#123;GL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41;&amp;#36; &amp;#40;the
 &lt;strong&gt;general linear group&lt;/strong&gt;&amp;#41; denote the group of invertible
@@ -289,14 +257,14 @@ denote the group of real numbers, except zero, under multiplication. Let
 properties of the determinant, that the determinant
 &amp;#36;\operatorname&amp;#123;det&amp;#125;&amp;#36; is a homomorphism between
 &amp;#36;\mathsf&amp;#123;GL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41;&amp;#36; and
-&amp;#36;\mathbf&amp;#123;R&amp;#125;\setminus&amp;amp;#123;0&amp;amp;#125;&amp;#36;.&lt;/p&gt; &lt;p&gt;Let
+&amp;#36;\mathbf&amp;#123;R&amp;#125;\setminus\&amp;#123;0\&amp;#125;&amp;#36;.&lt;/p&gt; &lt;p&gt;Let
 &amp;#36;\mathsf&amp;#123;SL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41;&amp;#36; &amp;#40;the
 &lt;strong&gt;special linear group&lt;/strong&gt;&amp;#41; denote the group of &amp;#36;n\times
 n&amp;#36; real matrices with determinant &amp;#36;1&amp;#36;, under multiplication. Then,
 by the first isomorphism theorem, the quotient group
 &amp;#36;\mathsf&amp;#123;GL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41; /
 \mathsf&amp;#123;SL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41;&amp;#36; is isomorphic to
-&amp;#36;\mathbf&amp;#123;R&amp;#125;\setminus&amp;amp;#123;0&amp;amp;#125;&amp;#36;. &amp;#40;Note that in this
+&amp;#36;\mathbf&amp;#123;R&amp;#125;\setminus\&amp;#123;0\&amp;#125;&amp;#36;. &amp;#40;Note that in this
 case, since the identity element is &amp;#36;1&amp;#36;, therefore
 &amp;#36;\mathsf&amp;#123;SL&amp;#125;&amp;#40;n, \mathbf&amp;#123;R&amp;#125;&amp;#41;&amp;#36; is precisely
 the kernel of the &amp;#36;\operatorname&amp;#123;det&amp;#125;&amp;#36; morphism.&amp;#41;&lt;/p&gt;
@@ -312,22 +280,6 @@ known as Lagrange’s Theorem:&lt;/p&gt; &amp;#36;&amp;#91;G : H&amp;#93; &amp;#
 \frac&amp;#123;|G|&amp;#125;&amp;#123;|H|&amp;#125;&amp;#36; &lt;p&gt;which emphasizes that the quotient
 group is indeed, as its name would suggest, a generalization of division.&lt;/p&gt;
 &lt;/div&gt;
-&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
-  MathJax.Hub.Config({
-    extensions: [&amp;ldquo;tex2jax.js&amp;rdquo;, &amp;ldquo;AMSmath.js&amp;rdquo;],
-    jax: [&amp;ldquo;input/TeX&amp;rdquo;, &amp;ldquo;output/HTML-CSS&amp;rdquo;],
-    tex2jax: {
-      inlineMath: [ [&amp;lsquo;$&amp;rsquo;,&amp;lsquo;$&amp;rsquo;], [&amp;rdquo;\(&amp;ldquo;,&amp;rdquo;\)&amp;ldquo;] ],
-      displayMath: [ [&amp;lsquo;$$&amp;rsquo;,&amp;lsquo;$$&amp;rsquo;], [&amp;rdquo;\[&amp;ldquo;,&amp;rdquo;\]&amp;ldquo;] ],
-      processEscapes: true
-    },
-    &amp;ldquo;HTML-CSS&amp;rdquo;: { availableFonts: [&amp;ldquo;TeX&amp;rdquo;] }
-  });
-&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&#34;text/javascript&#34;
-  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML&#34;&gt;
-&lt;/script&gt;
 </description>
     </item>
     
