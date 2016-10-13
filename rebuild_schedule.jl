@@ -52,7 +52,11 @@ function write_summary(t)
         date = "$(t[:date])T$(t[:time])"
         title = "$(t[:topic])"
         +++
+        """)
 
+        print_mathjax(f)
+
+        println("""
         # $(t[:topic])
 
         This talk, delivered by $(t[:speaker]) was held on $(human(t[:date]))
@@ -70,6 +74,27 @@ function write_summary(t)
     end
 end
 
+function print_mathjax(io)
+    println(io, """
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['\$','\$'], ["\\\\(","\\\\)"] ],
+          displayMath: [ ['\$\$','\$\$'], ["\\\\[","\\\\]"] ],
+          processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+    </script>
+
+    <script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML">
+    </script>
+    """)
+end
+
 println("""
 +++
 date = "2016-09-23T21:24:42-04:00"
@@ -77,22 +102,12 @@ title = "Upcoming Talks"
 type = "home-section"
 +++
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
-      inlineMath: [ ['\$','\$'], ["\\\\(","\\\\)"] ],
-      displayMath: [ ['\$\$','\$\$'], ["\\\\[","\\\\]"] ],
-      processEscapes: true
-    },
-    "HTML-CSS": { availableFonts: ["TeX"] }
-  });
-</script>
+""")
 
-<script type="text/javascript"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML">
-</script>
+print_mathjax(STDOUT)
+
+println("""
+See the [archive](archive) for talks before today’s date.
 """)
 
 result = JSON.parsefile("schedule.json", dicttype=Dict{Symbol,String})
@@ -115,12 +130,11 @@ println("""
         <tbody>""")
 
 for d in dates
-    # TODO: put old talks in different file
-    println("<tr><th colspan=4>Talks on $(human(d))</th></tr>")
     for t in filter(x -> x[:date] == d, result)
         if Date(d) < Dates.now()
             write_summary(t)
         else
+            println("<tr><th colspan=4>Talks on $(human(d))</th></tr>")
             print_row(t)
         end
     end
