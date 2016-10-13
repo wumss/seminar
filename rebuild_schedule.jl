@@ -56,9 +56,7 @@ function write_summary(t)
 
         print_mathjax(f)
 
-        println("""
-        # $(t[:topic])
-
+        println(f, """
         This talk, delivered by $(t[:speaker]) was held on $(human(t[:date]))
         in $(t[:location]).
         """)
