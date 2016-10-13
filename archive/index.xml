@@ -19,7 +19,7 @@
 
 &lt;script type=&#34;text/x-mathjax-config&#34;&gt;
   MathJax.Hub.Config({
-    extensions: [&#34;tex2jax.js&#34;],
+    extensions: [&#34;tex2jax.js&#34;, &#34;AMSmath.js&#34;],
     jax: [&#34;input/TeX&#34;, &#34;output/HTML-CSS&#34;],
     tex2jax: {
       inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
@@ -62,7 +62,7 @@ graphs, the Rado graph and why they are cool.&lt;/p&gt; &lt;/div&gt;
 
 &lt;script type=&#34;text/x-mathjax-config&#34;&gt;
   MathJax.Hub.Config({
-    extensions: [&#34;tex2jax.js&#34;],
+    extensions: [&#34;tex2jax.js&#34;, &#34;AMSmath.js&#34;],
     jax: [&#34;input/TeX&#34;, &#34;output/HTML-CSS&#34;],
     tex2jax: {
       inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
@@ -99,7 +99,7 @@ cool.&lt;/p&gt; &lt;/div&gt;
 
 &lt;script type=&#34;text/x-mathjax-config&#34;&gt;
   MathJax.Hub.Config({
-    extensions: [&#34;tex2jax.js&#34;],
+    extensions: [&#34;tex2jax.js&#34;, &#34;AMSmath.js&#34;],
     jax: [&#34;input/TeX&#34;, &#34;output/HTML-CSS&#34;],
     tex2jax: {
       inlineMath: [ [&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;] ],
