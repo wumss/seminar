@@ -10,8 +10,11 @@
 
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
-        extensions: ["tex2jax.js", "AMSmath.js"],
-        jax: ["input/TeX", "output/HTML-CSS"],
+        jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+        extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js"],
+        TeX: {
+          extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+        },
         tex2jax: {
           inlineMath: [ ['$','$'], ["\\(","\\)"] ],
           displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
