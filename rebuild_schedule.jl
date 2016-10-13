@@ -54,8 +54,6 @@ function write_summary(t)
         +++
         """)
 
-        print_mathjax(f)
-
         println(f, """
         This talk, delivered by $(t[:speaker]) was held on $(human(t[:date]))
         in $(t[:location]).
@@ -69,6 +67,8 @@ function write_summary(t)
         if haskey(t, :summary)
             render_markdown_from_file(f, t, :summary, 0)
         end
+
+        print_mathjax(f)
     end
 end
 
