@@ -76,7 +76,7 @@ function print_mathjax(io)
     println(io, """
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
-        extensions: ["tex2jax.js"],
+        extensions: ["tex2jax.js", "AMSmath.js"],
         jax: ["input/TeX", "output/HTML-CSS"],
         tex2jax: {
           inlineMath: [ ['\$','\$'], ["\\\\(","\\\\)"] ],
