@@ -1,10 +1,11 @@
 [
     {
         "time": "2016-10-12T17:30:00Z",
-        "topic": "Primer on Algebra and Number Theory",
+        "topic": "Prerequisite Talk on Algebra",
         "speaker": "Fengyang Wang",
         "location": "MC 4020",
-        "abstract": "fw-Algebra"
+        "abstract": "fw-Algebra",
+        "summary": "fw-Algebra"
     },
     {
         "time": "2016-10-12T18:30:00Z",
@@ -89,6 +90,13 @@
         "speaker": "Fengyang Wang",
         "location": "MC 4020",
         "abstract": "fw-Hypercomplex"
+    },
+    {
+        "time": "2016-11-18T18:00:00Z",
+        "topic": "Prerequisite Talk on Number Theory",
+        "speaker": "[to be determined]",
+        "location": "Tentative",
+        "abstract": "fw-NumberTheory"
     },
     {
         "time": "2016-11-18T18:30:00Z",

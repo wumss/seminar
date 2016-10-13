@@ -1,0 +1,290 @@
+This talk on Algebra covers material that may be important for future talks.
+
+## Abstract Algebra
+
+Algebra is about structure and maps that preserve structure.
+
+In mathematics, we investigate particular sets and how they behave. Many
+results on certain sets actually apply to a wide class of sets. Algebra allows
+us to generalize these results. We investigate sets and their structures by
+appealing to fundamental structural properties. This investigation leads to the
+revelation that certain kinds of structure are especially prevalent and useful.
+
+In MATH 136 or MATH 146, we have seen fields and vector spaces, which are a
+particularly important sort of structure. Today I will be talking about another
+useful sort of structure: the group.
+
+## Binary Operators and Distinguished Elements
+
+What do I mean by <q>structure</q>? There are two common forms of structure:
+binary operators, and distinguished elements.
+
+Given a set ``S``, we call a function ``f: S\times S\to S`` a *binary
+operator*. Binary operators are typically written in infix notation; that is,
+we write ``afb`` instead of ``f(a, b)``. Furthermore, we often use symbols such
+as ``+``, ``⋅``, ``∨``, ``⊖`` or similar for these operators.
+
+Conventionally, we may omit certain binary operators, such as the ``∘`` for
+function composition or the ``⋅`` for multiplication. That is, we may write
+``ab`` to denote ``a⋅b``.
+
+A <q>distinguished element</q> of ``S`` is simply a specific element ``x\in S``
+that satisfies certain properties, usually in relation to binary operators.
+
+## Example
+
+Consider the set of real functions defined everywhere, which I will denote as
+``\mathbf{R}^\mathbf{R}``. What sort of structure can we find in this set?
+Let's focus on binary operations. One obvious binary operation is ``∘``, which
+represents function composition. We define
+
+```math
+(f ∘ g)(x) = f(g(x))
+```
+
+The first property we note is that composition is associative; that is, for
+all real functions ``f``, ``g``, and ``h``, we have:
+
+```math
+(f ∘ g) ∘ h = x ↦ f(g(h(x))) = f ∘ (g ∘ h)
+```
+
+For associative binary operations, we frequently omit the parentheses. That is,
+we may simply write ``f ∘ g ∘ h``.
+
+Next we note that there is a distinguished element of ``S``, which we will name
+``I``, with the property that for all ``x``:
+
+```math
+I(x) = x
+```
+
+This ``I`` is frequently known as the <q>identity function</q>. It happens to
+be the identity element of the ``∘`` operation; that is, for all ``f\in S``,
+we have
+
+```math
+I ∘ f = f ∘ I = f
+```
+
+## Monoids
+
+A **monoid** is a set ``S`` with distinguished element ``e\in S`` together with
+a binary operation ``⋅: S\times S\to S``, such that:
+
+- ``⋅`` is associative,
+- and ``e`` is an identity element of the ``⋅`` operation.
+
+or more formally,
+
+- ``(ab)c = a(bc)`` for all ``a,b,c\in S``
+- ``ea=ae=a`` for all ``a\in S``
+
+An example of a monoid is the set of strings, under binary operator
+concatenation, with identity element the empty string ``ɛ``. They are very
+closely related to monads, a concept seen in category theory and computer
+science.
+
+## Example
+
+Consider again the set of real functions defined everywhere. This time,
+consider the subset ``Φ`` of bijective real functions. Since the composition of
+bijections remains a bijection, we see that this set is still a monoid under
+function composition ``∘``. But indeed, there is more structure to be explored
+here. Every bijection ``φ\inΦ`` admits an inverse ``φ^{-1}``. The crucial
+property of the inverse is that ``φφ^{-1}=φ^{-1}φ=I``, where ``I`` is the
+identity element of the ``∘`` operation.
+
+Such an algebraic structure, a monoid with inverses, is called a <q>group</q>.
+The particular group of bijections seen above is called a <q>symmetric
+group</q>.
+
+## Groups
+
+A **group** is a set ``S`` with distinguished element ``e\in S`` together with
+a binary operation ``⋅: S\times S\to S``, such that:
+
+- ``⋅`` is associative,
+- ``e`` is an identity element of the ``⋅`` operation,
+- every element has an inverse
+
+or more formally,
+
+- ``(ab)c = a(bc)`` for all ``a,b,c\in S``
+- ``ea=ae=a`` for all ``a\in S``
+- for all ``a\in S``, there is ``a^{-1}\in S`` with ``aa^{-1}=a^{-1}a=e``
+
+It is easy to prove, although we will not do it, that the identity of a group
+is unique, and that each element has a *unique* inverse element.
+
+An example of a group is the integers, under operation ``+``. This associative
+binary operation is in fact also commutative (that is, ``a+b=b+a`` for all
+integers ``a`` and ``b``). Groups where the associative binary operation is
+also commutative are called **abelian groups**. As a notational convenience,
+the ``+`` operator is conventionally reserved for abelian groups.
+
+Note that the integers, under operation ``⋅``, do not form a group because
+``0`` does not admit an inverse.
+
+## Structure-Preserving Maps
+
+A **morphism** between algebraic structures ``G`` and ``H`` is a map ``f: G\to
+H`` that preserves some kind of structure. In particular, we define a
+**homomorphism** between groups as a map that preserves the associative binary
+operation. (From this, it follows that the inverse is also preserved.) By this,
+we mean that if ``a,b\in G``, then
+
+```math
+f(a)f(b) = f(ab)
+```
+
+Note that there is no requirement that the operation ``f`` be invertible;
+indeed, the map ``x ↦ 0`` from the group of integers under addition to itself
+is a homomorphism.
+
+We define **monomorphism** to be a one-to-one homomorphism and an
+**epimorphism** to be an onto homomorphism. A fact that we will not prove (but
+is easy to show) is that the nullspace of a monomorphism is the singleton set
+containing the identity element of ``G``.
+
+A group **isomorphism** is a one-to-one and onto homomorphism. Group
+isomorphisms admit inverse maps. Of course, these terms are also applicable
+beyond groups; for monoids, graphs, vector spaces, etc., the various morphisms
+preserve the respective algebraic structures.
+
+## Subgroups
+
+Recall that in MATH 136 or MATH 146, we had the concept of subspaces. A
+subspace of a vector space ``V`` could be constructed by taking a subset ``W ⊆
+V``, which forms a vector space in its own right under the same operations
+addition ``+`` and scalar multilpication ``⋅`` as ``V``. In other words, when
+we restricted the operations of ``V`` to subset ``W``, and the resulting space
+remains a vector space, then ``W`` is a subspace of ``V``.
+
+We can similarly define a **subgroup** ``H`` of ``G`` to be a subset of
+elements of ``G`` together with the associative binary operation ``∘`` of
+``G``, such that ``(H, ∘)`` (``H`` together with the restriction of ``∘`` to
+``H``) forms a group in its own right. We typically write ``H ≤ G``.
+
+Note that the set containing only the identity element, ``\{e\}``, is a
+**trivial subgroup** of ``G``. Furthermore, ``G`` itself is a subgroup of
+``G``.
+
+### Example
+
+Consider the symmetric group of real bijections under function composition,
+mentioned earlier. Then the set of linear functions with non-zero coefficients,
+``\{x ↦ mx \mid m\in\mathbf{R}∖\{0\}\}`` is a subgroup. In general, a subgroup
+of a symmetric group is called a permutation group.
+
+## Cosets
+
+Suppose ``G`` is a group and ``H`` is a subgroup. Then a **left coset** of
+``H`` in ``G`` is a set
+
+```math
+gH = \{gh \mid h\in H\}
+```
+
+where ``g`` is some (fixed) element of ``G``. This particular coset is called
+the left coset of ``H`` in ``G`` with respect to ``g``.
+
+Similarly, we can defined a **right coset** of ``H`` in ``G`` as a set
+
+```math
+Hg = \{hg \mid h\in H\}
+```
+
+Recall that in MATH 146, we defined a coset of a vector space ``W`` in ``V`` in
+a similar fashion, with vector addition replacing the associative binary
+operation. One difference is that because the associative binary operation is
+not necessarily commutative, the left and right cosets may differ.
+
+It is often more useful when the left and right cosets of ``H`` in ``G`` happen
+to be the same cosets. (This is the case, for instance, in linear algebra.)
+When ``gH = Hg`` for all ``g\in G``, then we say that ``H`` is a **normal
+subgroup** of ``G``.
+
+## Quotient Groups
+
+Note that it is possible to intutively understand a coset of ``H`` in ``G`` to
+be some <q>translated</q> copy of ``H`` in ``G``. Cosets of ``H`` in ``G`` with
+respect to two distinct elements ``g`` may indeed still be the same coset. Let
+``G / H`` (pronounced <q>``G`` modulo ``H``</q>) be the set of cosets of ``H``
+in ``G``. Although we will not prove it, it is straightforward to show that any
+two cosets are either disjoint or entirely coincident.
+
+I quote the following lede from the Wikipedia article on [quotient
+groups](https://en.wikipedia.org/wiki/Quotient_group), as an alternative way of
+thinking about quotient groups:
+
+> A quotient group or factor group is a mathematical group obtained by
+> aggregating similar elements of a larger group using an equivalence relation
+> that preserves the group structure.
+
+As an example, consider the group of integers under addition, and the group of
+even integers under addition (we will call these groups ``\mathbf{Z}`` and
+``2\mathbf{Z}`` respectively). ``2\mathbf{Z}`` is automatically a normal
+subgroup of ``\mathbf{Z}``, because the group operation is additive (i.e.,
+commutative). Then the cosets of ``2\mathbf{Z}`` in ``\mathbf{Z}`` are
+``\mathbf{Z}`` and ``\mathbf{Z}+1``, the set of even integers and the set of
+odd integers. The quotient group ``\mathbf{Z}/2\mathbf{Z}`` is therefore:
+
+```math
+\mathbf{Z}/2\mathbf{Z} = \{2\mathbf{Z}, 2\mathbf{Z}+1\}
+```
+
+Note that this set is naturally isomorphic to the set of booleans
+``\mathbf{Z}_2 = \{0, 1\}``.
+
+We can define an epimorphism ``π: G\to G/H`` sending every element of ``G`` to
+the coset of ``H`` in ``G`` it belongs to. Such an epimorphism is typically
+called the **canonical projection** from ``G`` to ``G/H``.
+
+### First Isomorphism Theorem
+
+Let ``G`` and ``H`` be groups, and ``f: G\to H`` be a homomorphism. Then
+
+- ``\operatorname{kernel}(f)`` is a normal subgroup of ``G``
+- ``\operatorname{image}(f)`` is a subgroup of ``H``
+- ``\operatorname{image}(f)`` is isomorphic to ``G/\operatorname{kernel}(f)``
+
+### Example
+
+Let ``\mathbf{R}\setminus\{0\}`` denote the group of real numbers, except zero,
+under multiplication. Let ``\mathsf{GL}(n, \mathbf{R})`` (the **general linear
+group**) denote the group of invertible ``n\times n`` real matrices under
+multiplication. Then note, by properties of the determinant, that the
+determinant ``\operatorname{det}`` is a homomorphism between ``\mathsf{GL}(n,
+\mathbf{R})`` and ``\mathbf{R}\setminus\{0\}``.
+
+Let ``\mathsf{SL}(n, \mathbf{R})`` (the **special linear group**) denote the
+group of ``n\times n`` real matrices with determinant ``1``, under
+multiplication. Then, by the first isomorphism theorem, the quotient group
+``\mathsf{GL}(n, \mathbf{R}) / \mathsf{SL}(n, \mathbf{R})`` is isomorphic to
+``\mathbf{R}\setminus\{0\}``. (Note that in this case, since the identity
+element is ``1``, therefore ``\mathsf{SL}(n, \mathbf{R})`` is precisely the
+kernel of the ``\operatorname{det}`` morphism.)
+
+## Finite Groups and Lagrange’s Theorem
+
+An important class of groups is the class of groups with finitely many
+elements, known as finite groups. Define the **order** of a finite group to be
+the number of elements it contains.
+
+If ``H`` is a subgroup of ``G``, then defined the **index** ``[G : H]`` to be
+the number of left cosets of ``H`` in ``G``. Then there is an important result
+known as Lagrange’s Theorem:
+
+```math
+[G : H] = \frac{|G|}{|H|}
+```
+
+In particular, for finite group ``G`` and normal subgroup ``H``, we have
+
+```math
+|G / H| = \frac{|G|}{|H|}
+```
+
+which emphasizes that the quotient group is indeed, as its name would suggest,
+a generalization of division.

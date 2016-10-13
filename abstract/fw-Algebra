@@ -1,17 +1,9 @@
-This talk will cover the basics of group theory, focusing especially on
-transformation groups, commutator subgroups, and solvable groups. We will
-additionally cover some ideas from number theory like quadratic reciprocity,
-Euler’s totient function, and the Legendre and Jacobi symbols. There are no
-official prerequisites for this talk, but MATH 145 and MATH 146 are an asset.
-
-The group theory part of the talk will mostly be based on [Alekseev,
+This talk will cover the basics of group theory. There are no official
+prerequisites for this talk, but MATH 145 and MATH 146 are an asset. The group
+theory part of the talk will mostly be based on [Alekseev,
 2004](http://mathcamp.org/2015/abel/abel.pdf), specifically sections 1.1
 (motivation), 1.2 (transformation groups), 1.5, 1.9, and 1.13 (various
-morphisms), 1.11 (quotient groups), 1.12 (commutator subgroups), and 1.14
-(solvable groups).
-
-The number theory part of the talk will use [Baker,
-1984](http://golibgen.io/view.php?id=733865) as a reference.
+morphisms), and 1.11 (quotient groups).
 
 Due to time constraints, it is inevitable that some content must be rushed. I
 will not go over proofs and derivations in full rigour, and I highly advise

@@ -1,0 +1,134 @@
+## Number Theory
+
+Let ``p`` be a prime number, and consider the additive group
+
+```math
+\mathbf{Z}/p\mathbf{Z}
+```
+
+which is a finite group of order ``p``. This group contains elements of the
+form
+
+```math
+\{\mathbf{Z}, \mathbf{Z}+1, \dots, \mathbf{Z} + (p-1) \}
+```
+
+which is naturally isomorphic to the set
+
+```math
+\{0, 1, \dots, p-1\}
+```
+
+For those who have taken MATH 145, note that the former set is the set of
+equivalence classes of the integers, modulo ``p``, and the latter set is the
+set of canonical representatives for those equivalence classes.
+
+The additive group ``\mathbf{Z}/p\mathbf{Z}`` has additional structure. It
+inherits an associative and commutative multiplication operation from the
+integers; this multiplication operation remains well-defined on this quotient
+group. Furthermore, each element admits a multiplicative inverse. Thus,
+``\mathbf{Z}/p\mathbf{Z}`` is actually a field.
+
+## Quadratic Residues
+
+Consider the sequence of perfect squares, modulo prime number ``p``. As an
+example, set ``p=11``. Then the perfect squares are:
+
+```math
+\begin{align*}
+0^2 &= 0 \\
+{(-1)}^2 = 1^2 &= 1 \\
+{(-2)}^2 = 2^2 &= 4 \\
+{(-3)}^2 = 3^2 &= 9 \\
+{(-4)}^2 = 4^2 &= 5 \\
+{(-5)}^2 = 5^2 &= 3
+\end{align*}
+```
+
+Since these are all the integers modulo ``11``, the only possible perfect
+squares, modulo ``11``, are ``\{0, 1, 3, 4, 5, 9\}``. These numbers are known
+as the **quadratic residues** modulo ``11``.
+
+In general, given prime number ``p``, the quadratic residues modulo ``p`` are
+the elements ``n\in\mathbf{Z}/p\mathbf{Z}`` such that there exists
+``q\in\mathbf{Z}/p\mathbf{Z}`` with ``q^2=n``. We can extend this concept to
+the integers by considering the canonical projection of an integer ``z`` onto
+quotient group ``\mathbf{Z}/p\mathbf{Z}``. That is, an integer ``z`` is a
+quadratic residue modulo ``p`` if its canonical projection modulo ``p`` is a
+quadratic residue modulo ``p``.
+
+Modulo an odd prime number (like ``p=11``), there will be exactly
+``\frac{p-1}{2}`` non-residues, and exactly ``\frac{p-1}{2}`` non-zero
+residues. Again, I state this without proof, but the proof is not too
+difficult.
+
+## Legendre Symbol
+
+Let ``p`` be an odd prime number, and let ``a`` be an integer. Define the
+Legendre Symbol ``\left(\frac{a}{p}\right)`` as follows:
+
+```math
+\left(\frac{a}{p}\right) = \begin{cases}
+  0 & \text{if }p\mid a \\
+  -1 & \text{if }a\text{ is a quadratic nonresidue modulo }p \\
+  1 &\text{if }a\text{ is a quadratic residue modulo }p\text{, and }p\not\mid a
+\end{cases}
+```
+
+## Euler’s Criterion
+
+Let ``p`` be an odd prime number, and let ``a`` be an integer. Then (everything
+being modulo ``p``)
+
+```math
+\left(\frac{a}{p}\right) = a^{\frac{p-1}{2}}
+```
+
+We will provide an incomplete proof (we don’t have time to cover all the
+steps).
+
+**Proof**. First note that if ``a = 0``, then the statement is true by
+definition. Otherwise by Fermat’s Little Theorem, we have ``a^{p-1} = 1``. We
+write this as ``a^{p-1} - 1 = 0``. Factoring,
+
+```math
+\left(a^{\frac{p-1}{2}}-1\right)\left(a^{\frac{p-1}{2}}+1\right)=0
+```
+
+Now if ``a`` is a quadratic residue, then ``a=x^2``. Then the first factor of
+this product becomes ``x^{p-1}-1``, which by Fermat’s Little Theorem, is ``0``.
+It is a theorem (known as Lagrange’s Theorem) that at most ``\frac{p-1}{2}``
+values can make the first factor zero. Those must therefore correspond to the
+``\frac{p-1}{2}`` nonzero quadratic residues. Otherwise, the second factor must
+be zero, which completes the proof of Euler’s Criterion.
+
+## Quadratic Reciprocity
+
+The Law of Quadratic Reciprocity states that if ``p`` and ``q`` are odd prime
+numbers, then
+
+```math
+\left(\frac{p}{q}\right)\left(\frac{q}{p}\right)
+= {(-1)}^{\frac{p-1}{2}\frac{q-1}{2}}
+```
+
+We will not have time to prove this theorem. However, what it is saying,
+intuitively, is that unless ``p`` and ``q`` are both ``3`` modulo ``4``, then
+``p`` is a quadratic residue of ``q`` if and only if ``q`` is a quadratic
+residue of ``p``. If both ``p`` and ``q`` are ``3`` modulo ``4``, then we have
+a special case where the opposite occurs. Hence, this theorem is called the
+**law of quadratic reciprocity**.
+
+### Example
+
+Show that there is no integer ``n`` such that ``2017 \mid n^2 - 5`` (note that
+``2017`` is an odd prime number).
+
+**Proof**. We seek to show that ``5`` is not a quadratic residue of ``2017``.
+By quadratic reciprocity, it suffices to show that ``2017`` is not a quadratic
+residue of ``5``. Indeed, the quadratic residues modulo ``5`` are ``1`` and
+``-1``, and ``2017 = 2 \not\in \{-1, 1\}``.
+
+## Euler’s Totient Function
+
+TK.

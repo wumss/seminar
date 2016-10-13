@@ -3,8 +3,72 @@
 using JSON
 using TextWrap  # English once its wrapping capability is finished
 
+try
+    mkdir("content/archive")
+end
+
 human(d::Date) = Dates.format(d, "E U d, YYYY")
 human(d) = human(Date(d))
+
+identifier(t) = string(
+    String(collect(take(filter(x -> !isspace(x), lowercase(t[:topic])), 10))),
+    hash(t) % UInt16)
+
+function render_markdown_from_file(io, t, sym, indent)
+    abstract_md = readstring(joinpath(string(sym), t[sym]))
+    abstract_html = stringmime("text/html",
+                               Base.Markdown.parse(abstract_md))
+    println_wrapped(io,
+        abstract_html,
+        width=79,
+        initial_indent=indent,
+        subsequent_indent=indent,
+        replace_whitespace=true,
+        break_long_words=false
+    )
+end
+
+function print_row(t)
+    println("""
+            <tr>
+              <td>$(t[:topic])</td>
+              <td>$(t[:speaker])</td>
+              <td>$(t[:location])</td>
+              <td>$(String(collect(take(t[:time], 5))))</td>
+            </tr>""")
+    if haskey(t, :abstract)
+        println("<tr>")
+        println("  <td colspan=4>")
+        render_markdown_from_file(STDOUT, t, :abstract, 4)
+        println("  </td>")
+        println("</tr>")
+    end
+end
+
+function write_summary(t)
+    open("content/archive/$(identifier(t)).md", "w") do f
+        println(f, """
+        +++
+        date = "$(t[:date])T$(t[:time])"
+        title = "$(t[:topic])"
+        +++
+
+        # $(t[:topic])
+
+        This talk, delivered by $(t[:speaker]) was held on $(human(t[:date]))
+        in $(t[:location]).
+        """)
+        if haskey(t, :abstract)
+            println(f, """
+            ## Abstract
+            """)
+            render_markdown_from_file(f, t, :abstract, 0)
+        end
+        if haskey(t, :summary)
+            render_markdown_from_file(f, t, :summary, 0)
+        end
+    end
+end
 
 println("""
 +++
@@ -52,32 +116,12 @@ println("""
 
 for d in dates
     # TODO: put old talks in different file
-    Date(d) < Dates.now() && continue
     println("<tr><th colspan=4>Talks on $(human(d))</th></tr>")
     for t in filter(x -> x[:date] == d, result)
-        println("""
-                <tr>
-                  <td>$(t[:topic])</td>
-                  <td>$(t[:speaker])</td>
-                  <td>$(t[:location])</td>
-                  <td>$(String(collect(take(t[:time], 5))))</td>
-                </tr>""")
-        if haskey(t, :abstract)
-            println("<tr>")
-            println("  <td colspan=4>")
-            abstract_md = readstring(joinpath("abstract", t[:abstract]))
-            abstract_html = stringmime("text/html",
-                                       Base.Markdown.parse(abstract_md))
-            println_wrapped(STDOUT,
-                abstract_html,
-                width=79,
-                initial_indent=4,
-                subsequent_indent=4,
-                replace_whitespace=true,
-                break_long_words=false
-            )
-            println("  </td>")
-            println("</tr>")
+        if Date(d) < Dates.now()
+            write_summary(t)
+        else
+            print_row(t)
         end
     end
 end
