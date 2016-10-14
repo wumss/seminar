@@ -104,7 +104,7 @@ println("""
 
 for d in dates
     for t in filter(x -> x[:date] == d, result)
-        if Date(d) < Dates.now()
+        if Date(d) + Dates.Day(1) < Dates.now()
             write_summary(t)
         else
             println("<tr><th colspan=4>Talks on $(human(d))</th></tr>")
