@@ -1,5 +1,7 @@
 I will try to provide a brief introduction to Information Theory working
-towards motivating Shannon's Noisy-Channel Coding Theorem.
+towards motivating Shannon's Source Coding Theorem. We will use rather simple
+examples (for e.g. Repition Codes) to explain the idea behind the theorem and 
+eventually try to prove it for a rather specific example.
 
 Required reading: [Stirling’s Approximation \[PDF\]
 ](https://friedeggs.github.io/seminar/abel-required-reading.pdf)
