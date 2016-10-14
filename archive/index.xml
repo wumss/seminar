@@ -6,8 +6,50 @@
     <description>Recent content in Archive-rsses on Math Seminar (name TBD)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2016 19:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Oct 2016 18:30:00 +0000</lastBuildDate>
     <atom:link href="https://friedeggs.github.io/seminar/archive/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Types and Object-Oriented Programming</title>
+      <link>https://friedeggs.github.io/seminar/archive/typesandob15796/</link>
+      <pubDate>Fri, 14 Oct 2016 18:30:00 +0000</pubDate>
+      
+      <guid>https://friedeggs.github.io/seminar/archive/typesandob15796/</guid>
+      <description>
+
+&lt;p&gt;This talk, delivered by Nikita Kapustin was held on Friday October 14, 2016
+in MC 5479.&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;I&amp;#39;ll be talking about how to use basic types like
+sets and functions to construct other types and use them to represent
+objects.&lt;/p&gt; &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Information Theory</title>
+      <link>https://friedeggs.github.io/seminar/archive/informatio12715/</link>
+      <pubDate>Fri, 14 Oct 2016 17:30:00 +0000</pubDate>
+      
+      <guid>https://friedeggs.github.io/seminar/archive/informatio12715/</guid>
+      <description>
+
+&lt;p&gt;This talk, delivered by Sidhant Saraogi was held on Friday October 14, 2016
+in MC 5479.&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;I will try to provide a brief introduction to
+Information Theory working towards motivating Shannon&amp;#39;s Source Coding
+Theorem. We will use rather simple examples &amp;#40;for e.g. Repition Codes&amp;#41;
+to explain the idea behind the theorem and  eventually try to prove it for a
+rather specific example.&lt;/p&gt; &lt;p&gt;Required reading: &lt;a
+href=&#34;https://friedeggs.github.io/seminar/abel-required-reading.pdf&#34;&gt;Stirling’s
+Approximation &amp;#91;PDF&amp;#93; &lt;/a&gt;&lt;/p&gt; &lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Infinitely Awesome Graphs</title>
