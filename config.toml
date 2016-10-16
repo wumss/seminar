@@ -1,4 +1,4 @@
 baseurl = "https://friedeggs.github.io/seminar/"
 languageCode = "en-us"
-title = "Math Seminar (name TBD)"
+title = "Math Seminar"
 theme = "seminar"
