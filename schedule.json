@@ -39,7 +39,8 @@
         "time": "2016-10-21T17:30:00Z",
         "topic": "Category Theory",
         "speaker": "Luthfi Mawarid",
-        "location": "MC 4020"
+        "location": "MC 4020",
+        "abstract": "lm-CategoryTheory"
     },
     {
         "time": "2016-10-21T18:30:00Z",
