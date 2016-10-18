@@ -1,4 +1,4 @@
-## Number Theory
+## Quadratic Reciprocity
 
 Let ``p`` be a prime number, and consider the additive group
 
@@ -128,7 +128,3 @@ Show that there is no integer ``n`` such that ``2017 \mid n^2 - 5`` (note that
 By quadratic reciprocity, it suffices to show that ``2017`` is not a quadratic
 residue of ``5``. Indeed, the quadratic residues modulo ``5`` are ``1`` and
 ``-1``, and ``2017 = 2 \not\in \{-1, 1\}``.
-
-## Euler’s Totient Function
-
-TK.
