@@ -451,7 +451,11 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
       <pubDate>Fri, 23 Sep 2016 21:24:42 -0400</pubDate>
       
       <guid>https://friedeggs.github.io/seminar/upcoming_talks/</guid>
-      <description>&lt;p&gt;See the &lt;a href=&#34;archive&#34;&gt;archive&lt;/a&gt; for talks before today’s date.&lt;/p&gt;
+      <description>
+
+&lt;h2 id=&#34;upcoming-talks&#34;&gt;Upcoming Talks&lt;/h2&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;archive&#34;&gt;archive&lt;/a&gt; for talks before today’s date.&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -620,9 +624,26 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
 
 &lt;h1 id=&#34;welcome&#34;&gt;Welcome!&lt;/h1&gt;
 
-&lt;p&gt;This is the site for a not-so-secret seminar on mathematics organized by a couple of second-year math / CS students at the University of Waterloo.&lt;/p&gt;
+&lt;p&gt;This is the site for a not-so-secret seminar on mathematics organized by a
+couple of second-year math / CS students at the University of Waterloo.&lt;/p&gt;
 
 &lt;p&gt;We meet every Friday.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>https://friedeggs.github.io/seminar/feedback/</link>
+      <pubDate>Fri, 23 Sep 2016 20:28:28 -0400</pubDate>
+      
+      <guid>https://friedeggs.github.io/seminar/feedback/</guid>
+      <description>
+
+&lt;h2 id=&#34;feedback&#34;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;If you attended a talk and want to give feedback on it, you can do so with this
+&lt;a href=&#34;https://goo.gl/forms/t1GUAGhBGF6LtkFm1&#34;&gt;Google form&lt;/a&gt;.  All suggestions are
+welcome!&lt;/p&gt;
 </description>
     </item>
     
