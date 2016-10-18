@@ -108,8 +108,8 @@ for d in dates
             write_summary(t)
         end
     else
+        println("<tr><th colspan=4>Talks on $(human(d))</th></tr>")
         for t in filter(x -> x[:date] == d, result)
-            println("<tr><th colspan=4>Talks on $(human(d))</th></tr>")
             print_row(t)
         end
     end
