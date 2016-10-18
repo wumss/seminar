@@ -9,4 +9,6 @@ layout = "page"
 
 An in-person seminar on mathematics.
 
-Could put a blurb about the purpose of these seminars and how the objective is to learn so you choose a topic you don't have much prior expertise in.
+If you attended a talk and want to give feedback on it, you can do so with this
+[Google form](https://goo.gl/forms/t1GUAGhBGF6LtkFm1).  All suggestions are
+welcome!
