@@ -1,4 +1,10 @@
-Outline :
+This talk will cover the very basics of Category Theory, motivated by simple
+examples using the category of sets. I will then introduce some applications to
+other areas of mathematics, such as linear algebra and programming language
+theory.
+
+### Outline:
+
 - Introduction (definition of categories - objects, morphisms, with composition and identity) 
 
 - Examples with categories of sets (to illustrate compositions, retractions and sections, isomorphisms, other interesting morphisms, etc) 
