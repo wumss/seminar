@@ -1,15 +1,16 @@
+Outline :
 - What is supervised machine learning? 
 - What is the reinforcement learning problem?
 - Examples:
-   ~ Deepmind Atari 
-   ~ Alpha GO 
-   ~ TD Gammon 
+    Deepmind Atari, 
+    Alpha GO, 
+    TD Gammon 
 - Basic Q Learning interactive intuition based on human brain 
 - Formalizing Q Learning 
 - Lets set up a problem 
 - Scaling Q Learning interactive intuition 
 - Improvements (if we get this far)
-   ~ Double Q Intuition 
-   ~ Experience Replay 
-   ~ Frozen Model 
-   ~ Prioritized Replay 
+   Double Q Intuition, 
+   Experience Replay, 
+   Frozen Model, 
+   Prioritized Replay 
