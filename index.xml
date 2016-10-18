@@ -366,16 +366,16 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td colspan=4&gt;
-    &lt;div class=&#34;markdown&#34;&gt;&lt;ul&gt; &lt;li&gt;&lt;p&gt;Introduction &amp;#40;definition of
-    categories - objects, morphisms, with composition and identity&amp;#41; &lt;/p&gt;
-    &lt;/li&gt; &lt;li&gt;&lt;p&gt;Examples with categories of sets &amp;#40;to illustrate
-    compositions, retractions and sections, isomorphisms, other interesting
-    morphisms, etc&amp;#41; &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Notion of initial, terminal and zero
-    objects &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Categories of categories, locally small
-    categories, functors &amp;#40;and some interesting ones&amp;#41;, categorical
-    equivalence &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Applications - linear algebra &lt;/p&gt; &lt;/li&gt;
-    &lt;li&gt;&lt;p&gt;Applications - CS, Haskell, programming language theory &lt;/p&gt; &lt;/li&gt;
-    &lt;/ul&gt; &lt;/div&gt;
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;Outline :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;Introduction
+    &amp;#40;definition of categories - objects, morphisms, with composition and
+    identity&amp;#41; &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Examples with categories of sets &amp;#40;to
+    illustrate compositions, retractions and sections, isomorphisms, other
+    interesting morphisms, etc&amp;#41; &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Notion of initial,
+    terminal and zero objects &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Categories of categories,
+    locally small categories, functors &amp;#40;and some interesting ones&amp;#41;,
+    categorical equivalence &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Applications - linear algebra
+    &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Applications - CS, Haskell, programming language theory
+    &lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;th colspan=4&gt;Talks on Friday October 21, 2016&lt;/th&gt;&lt;/tr&gt;
