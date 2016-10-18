@@ -80,6 +80,8 @@ type = "home-section"
 """)
 
 println("""
+## Upcoming Talks
+
 See the [archive](archive) for talks before today’s date.
 """)
 
