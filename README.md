@@ -1,4 +1,4 @@
-# (So far unnamed) Math Seminar
+# Math Seminar
 
 A simple static site for an informal math seminar series. Generated using [Hugo](https://gohugo.io/).
 
