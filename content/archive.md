@@ -8,3 +8,4 @@ layout = "collection"
 
 # Past Talks
 
+Summaries of some talks are available.
