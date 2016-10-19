@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    {{ .Hugo.Generator }}
+    <head>
+        <meta charset="utf-8">
+        {{ .Hugo.Generator }}
 
-    <link rel="stylesheet" href="//yegor256.github.io/tacit/tacit.min.css"/>
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
+        <link rel="stylesheet" href="//yegor256.github.io/tacit/tacit.min.css"/>
+        <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
         jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
         extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js"],
         TeX: {
@@ -19,51 +19,53 @@
         },
         "HTML-CSS": { availableFonts: ["TeX"] }
       });
-    </script>
+        </script>
 
-    <script type="text/javascript"
-      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML">
-    </script>
+        <script type="text/javascript"
+                src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_CHTML">
+        </script>
 
-    {{ if eq .URL "/" }}
-    <title>{{ .Title }}</title>
-    <meta property='og:title' content="{{ .Title }}">
-    <meta property="og:type" content="website">
-    {{ else }}
-    <title>{{ .Title }} - {{ .Site.Title }}</title>
-    <meta property='og:title' content="{{ .Title }} - {{ .Site.Title }}">
-    <meta property="og:type" content="article">
-    {{ end }}
-  </head>
-  <body>
-    <nav class="navbar navbar-light bg-faded col-md-9">
-      <a class="navbar-brand" href="/seminar">{{ .Site.Title }}</a>
-      <ul class="nav navbar-nav">
-        {{ range where .Site.Pages "Title" "!=" "index" }}
-            {{if eq .Type "page" }}
-             <li class="nav-item">
-               <!-- humanize for capitalization -->
-                <a class="nav-link" href="{{ .Site.BaseURL }}{{.Title | lower }}">{{ .Title | lower }}</a>
-             </li>
-            {{end}}
+        {{ if eq .URL "/" }}
+        <title>{{ .Title }}</title>
+        <meta property='og:title' content="{{ .Title }}">
+        <meta property="og:type" content="website">
+        {{ else }}
+        <title>{{ .Title }} - {{ .Site.Title }}</title>
+        <meta property='og:title' content="{{ .Title }} - {{ .Site.Title }}">
+        <meta property="og:type" content="article">
         {{ end }}
-        {{ range where .Site.Pages "Title" "!=" "index" }}
-            {{ if eq .Type "home-section" }}
-              <li class="nav-item">
-                <!-- humanize for capitalization -->
-                 <a class="nav-link" href="{{ .Site.BaseURL }}#{{.File.BaseFileName}}">{{ .Title | lower }}</a>
-              </li>
-            {{end}}
-        {{ end }}
-      </ul>
+    </head>
+    <body>
+        <nav>
+            <h1><a href="/seminar">{{ .Site.Title }}</a></h1>
+            <ul>
+                {{ range where .Site.Pages "Title" "!=" "index" }}
+                {{if eq .Type "page" }}
+                <li>
+                    <!-- humanize for capitalization -->
+                    <a href="{{ .Site.BaseURL }}{{.Title | lower }}"
+                       >{{ .Title | lower }}</a>
+                </li>
+                {{end}}
+                {{ end }}
+                {{ range where .Site.Pages "Title" "!=" "index" }}
+                {{ if eq .Type "home-section" }}
+                <li>
+                    <!-- humanize for capitalization -->
+                    <a href="{{ .Site.BaseURL }}#{{.File.BaseFileName}}"
+                       >{{ .Title | lower }}</a>
+                </li>
+                {{end}}
+                {{ end }}
+            </ul>
 
-      <div class="search-box">
-        <input id="search" class="form-control" type="text" placeholder="Search">
-        <div id="clear">&times;</div>
-      </div>
+            <div>
+                <input id="search" type="text" placeholder="Search">
+                <div id="clear">&times;</div>
+            </div>
 
-      <!-- <form class="form-inline pull-xs-right">
-        <input id="search" class="form-control" type="text" placeholder="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form> -->
-    </nav>
+            <form>
+                <input id="search" type="text" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
