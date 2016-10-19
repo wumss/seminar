@@ -37,8 +37,10 @@ MathJax.Hub.Config({
     </head>
     <body>
         <nav>
-            <h1><a href="/seminar">{{ .Site.Title }}</a></h1>
             <ul>
+                <li>
+                    <a href="/seminar">{{ .Site.Title }} Home</a>
+                </h1>
                 {{ range where .Site.Pages "Title" "!=" "index" }}
                 {{if eq .Type "page" }}
                 <li>
