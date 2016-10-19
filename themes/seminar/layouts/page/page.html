@@ -1,6 +1,10 @@
 {{ partial "header.html" . }}
 <section>
-    <h1>{{.Title}}</h1>
+    <article>
+        <header>
+            <h1>{{.Title}}</h1>
+        </header>
     {{.Content}}
+    </article>
 </section>
 {{ partial "footer.html" . }}

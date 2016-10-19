@@ -1,15 +1,19 @@
 {{ partial "header.html" . }}
-<article>
-    {{.Content}}
+<section>
+    <article>
+        {{.Content}}
+    </article>
 
     {{ range where .Site.Pages ".Section" "==" .Title }}
-    <header>
-        <h1>
-            <a href="{{ .Permalink }}" class="post-li">{{.Title}}</a>
-        </h1>
-    </header>
-    <time>{{ .Date.Format "Jan 2 2006" }}</time>
-    <p>{{.Summary}}</p>
+    <article>
+        <header>
+            <h1>
+                <a href="{{ .Permalink }}" class="post-li">{{.Title}}</a>
+            </h1>
+        </header>
+        <time>{{ .Date.Format "Jan 2 2006" }}</time>
+        <p>{{.Summary}}</p>
+    </article>
     {{ end }}
-</article>
+</section>
 {{ partial "footer.html" . }}
