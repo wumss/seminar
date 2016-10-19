@@ -524,9 +524,9 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
     &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will introduce the basics for Convex
     Optimization, several popular optimization algorithms, and the application
     for convex optimization in Machine Learning.&lt;/p&gt; &lt;p&gt;&lt;a
-    href=&#34;https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf&#34;&gt;This book&lt;/a&gt;
-    will be used for reference:&lt;/p&gt; &lt;p&gt;Outline:&lt;/p&gt; &lt;ul&gt;
-    &lt;li&gt;&lt;p&gt;Introduction&amp;#40;definition of Affine, Convex Sets, Convex
+    href=&#34;https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf&#34;&gt;Boyd and
+    Vandenberghe, 2004&lt;/a&gt; will be used for reference.&lt;/p&gt; &lt;h3&gt;Outline&lt;/h3&gt;
+    &lt;ul&gt; &lt;li&gt;&lt;p&gt;Introduction&amp;#40;definition of Affine, Convex Sets, Convex
     functions, Conic Combinations, Convex Cones, and Convex Hulls&amp;#41;&lt;/p&gt; &lt;ul&gt;
     &lt;li&gt;&lt;p&gt;The main focus will be on Affine, Convex functions, Convex and Conic
     hulls. &lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Extreme points&lt;/p&gt; &lt;/li&gt;
