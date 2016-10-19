@@ -1,0 +1,19 @@
+This talk will introduce the basics for Convex Optimization, several popular
+optimization algorithms, and the application for convex optimization in Machine
+Learning.
+
+This book will be used for reference:
+https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf
+
+Outline:
+- Introduction(definition of Affine, Convex Sets, Convex functions, Conic
+  Combinations, Convex Cones, and Convex Hulls)
+    - The main focus will be on Affine, Convex functions, Convex and Conic
+      hulls. 
+- Extreme points
+- Subdifferentials
+- Convex Minimization + Maximization
+- Applications: 
+    - Perceptron
+    - Gradient Descent
+        - How it is used in Machine Learning algorithms
