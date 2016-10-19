@@ -1,20 +1,13 @@
 {{ partial "header.html" . }}
 
-list
-<div class="container">
-  <div class="row">
-    <div class="col-md-9">
-      <article class="">
-        {{ range .Data.Pages }}
-            {{if ne .Title "index" }}
-                {{.Summary}}
-            {{end}}
-        {{ end }}
-      </article>
-
-      </ul>
-    </div>
-  </div>
-</div>
+<section>
+    {{ range .Data.Pages }}
+    <article>
+        {{if ne .Title "index" }}
+        {{.Summary}}
+        {{end}}
+    </article>
+    {{ end }}
+</section>
 
 {{ partial "footer.html" . }}

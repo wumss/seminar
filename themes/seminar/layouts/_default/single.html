@@ -1,11 +1,11 @@
 {{ partial "header.html" . }}
-<article class="container">
-  <div class="row">
-    <div class="col-md-9">
-      <h1>{{.Title}}</h1>
-      <span class="date">{{ .Date.Format "Jan 2 2006" }}</span>
-      {{.Content}}
-    </div>
-  </div>
-</article>
+<section>
+    <article>
+        <header>
+            <h1>{{.Title}}</h1>
+        </header>
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+        {{.Content}}
+    </article>
+</section>
 {{ partial "footer.html" . }}
