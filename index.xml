@@ -442,6 +442,8 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
       <description>
 
 &lt;h1 id=&#34;past-talks&#34;&gt;Past Talks&lt;/h1&gt;
+
+&lt;p&gt;Summaries of some talks are available.&lt;/p&gt;
 </description>
     </item>
     
@@ -479,7 +481,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
     &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will cover the very basics of Category
     Theory, motivated by simple examples using the category of sets. I will
     then introduce some applications to other areas of mathematics, such as
-    linear algebra and programming language theory.&lt;/p&gt; &lt;h3&gt;Outline:&lt;/h3&gt; &lt;ul&gt;
+    linear algebra and programming language theory.&lt;/p&gt; &lt;h3&gt;Outline&lt;/h3&gt; &lt;ul&gt;
     &lt;li&gt;&lt;p&gt;Introduction &amp;#40;definition of categories - objects, morphisms,
     with composition and identity&amp;#41; &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Examples with
     categories of sets &amp;#40;to illustrate compositions, retractions and
@@ -499,7 +501,7 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td colspan=4&gt;
-    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;Outline :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;What is supervised
+    &lt;div class=&#34;markdown&#34;&gt;&lt;h3&gt;Outline&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;What is supervised
     machine learning? &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;What is the reinforcement learning
     problem?&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Examples:   Deepmind Atari,    Alpha GO,    TD
     Gammon &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Basic Q Learning interactive intuition based on
