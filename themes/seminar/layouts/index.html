@@ -1,19 +1,21 @@
 {{ partial "header.html" . }}
 
 <section>
-    {{ range .Data.Pages }}
-    {{if eq .Title "index" }}
-    {{.Content}}
-    {{end}}
-    {{ end }}
-    {{ range .Data.Pages }}
-    {{if eq .Type "home-section" }}
-    {{.Content}}
-    {{end}}
-    {{ end }}
+    <article>
+        {{ range .Data.Pages }}
+        {{if eq .Title "index" }}
+        {{.Content}}
+        {{end}}
+        {{ end }}
+        {{ range .Data.Pages }}
+        {{if eq .Type "home-section" }}
+        {{.Content}}
+        {{end}}
+        {{ end }}
 
-    <h2>Possible Topic Listing</h2>
-    <iframe src="https://drive.google.com/file/d/0B7NMPtGzW3RTakJkU3BQZll6MGc/preview" width="100%" height="800px"></iframe>
+        <h2>Possible Topic Listing</h2>
+        <iframe src="https://drive.google.com/file/d/0B7NMPtGzW3RTakJkU3BQZll6MGc/preview" width="100%" height="800px"></iframe>
+    </article>
 </section>
 
 {{ partial "footer.html" . }}
