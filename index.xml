@@ -520,6 +520,23 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
   &lt;td&gt;17:30&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+  &lt;td colspan=4&gt;
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will introduce the basics for Convex
+    Optimization, several popular optimization algorithms, and the application
+    for convex optimization in Machine Learning.&lt;/p&gt; &lt;p&gt;This book will be used
+    for reference: https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf&lt;/p&gt;
+    &lt;p&gt;Outline:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;Introduction&amp;#40;definition of Affine, Convex
+    Sets, Convex functions, Conic Combinations, Convex Cones, and Convex
+    Hulls&amp;#41;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;The main focus will be on Affine, Convex
+    functions, Convex and Conic hulls. &lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Extreme
+    points&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Subdifferentials&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Convex
+    Minimization &amp;#43; Maximization&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Applications: &lt;/p&gt; &lt;ul&gt;
+    &lt;li&gt;&lt;p&gt;Perceptron&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Gradient Descent&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;How it
+    is used in Machine Learning algorithms&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt;
+    &lt;/ul&gt; &lt;/div&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
   &lt;td&gt;Integration&lt;/td&gt;
   &lt;td&gt;Gregory Patchell&lt;/td&gt;
   &lt;td&gt;MC 4020&lt;/td&gt;
