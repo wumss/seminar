@@ -1,28 +1,24 @@
 {{ partial "header.html" . }}
 
-<article class="container">
-  <div class="row">
-    <div class="col-md-9">
-      <article class="">
+<article>
+    <section>
         {{ range .Data.Pages }}
-            {{if eq .Title "index" }}
-                {{.Content}}
-            {{end}}
+        {{if eq .Title "index" }}
+        {{.Content}}
+        {{end}}
         {{ end }}
         {{ range .Data.Pages }}
-            {{if eq .Type "home-section" }}
-                {{.Content}}
-            {{end}}
+        {{if eq .Type "home-section" }}
+        {{.Content}}
+        {{end}}
         {{ end }}
-      </article>
+    </section>
 
-      <article class="pdf">
+    <section class="pdf">
         <h3>More info:</h3>
         <iframe src="https://drive.google.com/file/d/0B7NMPtGzW3RTakJkU3BQZll6MGc/preview" width="100%" height="800px"></iframe>
-      </article>
+    </section>
 
-    </div>
-  </div>
 </article>
 
 {{ partial "footer.html" . }}
