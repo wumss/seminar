@@ -1,2 +1,13 @@
 We all know that ``\mathrm{i}^2=-1``. But what if it weren’t? This talk
 explores generalizations of the complex numbers.
+
+### Outline
+
+- Rotation dilation matrices in two dimensions
+- Complex geometry
+- General ``2\times2`` real matrices
+- Geometry of the split-complex numbers
+- Geometry of the dual numbers
+- Equivalence of hypercomplex number algebras up to isomorphism
+- The general linear group ``\mathsf{GL}(2, \mathbb{R})``
+- Generalization to ``n`` dimensions
