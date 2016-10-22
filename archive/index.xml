@@ -6,8 +6,61 @@
     <description>Recent content in Archive-rsses on Math Seminar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Oct 2016 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Oct 2016 18:30:00 +0000</lastBuildDate>
     <atom:link href="https://friedeggs.github.io/seminar/archive/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Reinforcement Learning in Games</title>
+      <link>https://friedeggs.github.io/seminar/archive/reinforcem8233/</link>
+      <pubDate>Fri, 21 Oct 2016 18:30:00 +0000</pubDate>
+      
+      <guid>https://friedeggs.github.io/seminar/archive/reinforcem8233/</guid>
+      <description>
+
+&lt;p&gt;This talk, delivered by Agastya Kalra was held on Friday October 21, 2016
+in MC 4020.&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;div class=&#34;markdown&#34;&gt;&lt;h3&gt;Outline&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;What is supervised machine
+learning? &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;What is the reinforcement learning problem?&lt;/p&gt;
+&lt;/li&gt; &lt;li&gt;&lt;p&gt;Examples:   Deepmind Atari,    Alpha GO,    TD Gammon &lt;/p&gt; &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Basic Q Learning interactive intuition based on human brain &lt;/p&gt; &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Formalizing Q Learning &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Lets set up a problem &lt;/p&gt;
+&lt;/li&gt; &lt;li&gt;&lt;p&gt;Scaling Q Learning interactive intuition &lt;/p&gt; &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Improvements &amp;#40;if we get this far&amp;#41;  Double Q Intuition,
+Experience Replay,   Frozen Model,   Prioritized Replay &lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Category Theory</title>
+      <link>https://friedeggs.github.io/seminar/archive/categoryth57635/</link>
+      <pubDate>Fri, 21 Oct 2016 17:30:00 +0000</pubDate>
+      
+      <guid>https://friedeggs.github.io/seminar/archive/categoryth57635/</guid>
+      <description>
+
+&lt;p&gt;This talk, delivered by Luthfi Mawarid was held on Friday October 21, 2016
+in MC 4020.&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;This talk will cover the very basics of Category
+Theory, motivated by simple examples using the category of sets. I will then
+introduce some applications to other areas of mathematics, such as linear
+algebra and programming language theory.&lt;/p&gt; &lt;h3&gt;Outline&lt;/h3&gt; &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introduction &amp;#40;definition of categories - objects, morphisms, with
+composition and identity&amp;#41; &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Examples with categories of
+sets &amp;#40;to illustrate compositions, retractions and sections, isomorphisms,
+other interesting morphisms, etc&amp;#41; &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Notion of initial,
+terminal and zero objects &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Categories of categories, locally
+small categories, functors &amp;#40;and some interesting ones&amp;#41;, categorical
+equivalence &lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Applications - linear algebra &lt;/p&gt; &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Applications - CS, Haskell, programming language theory &lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Types and Object-Oriented Programming</title>
