@@ -581,6 +581,33 @@ group is indeed, as its name would suggest, a generalization of division.&lt;/p&
   &lt;td&gt;17:30&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+  &lt;td colspan=4&gt;
+    &lt;div class=&#34;markdown&#34;&gt;&lt;p&gt;A game is a “mathematical model between
+    interacting decision makers” where each player must make choices based on a
+    set of rules. Every individual in a game must also have a preferred
+    reaction to any combination of actions taken by other agents.  Game theory
+    is about the study and application of these models. It involves various
+    solution concepts and methods that can be employed to predict the outcomes
+    of strategic engagements.  This talk will introduce the major ideas in the
+    field. There will be a focus on basic definitions, types of games, and how
+    we can “solve games” using the Nash equilibrium. Hopefully we’ll get to
+    “play” some ourselves. Towards the end, we can also review some neat
+    unsolved problems in game theory that are very easy to understand, but
+    prove really difficult to solve. &lt;/p&gt; &lt;h3&gt;Outline&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;Initial
+    Auction&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;What is a game?&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;What are the types
+    of games which can be played?&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Games with perfect
+    information, games with imperfect information, symmetric vs. asymmetric
+    games, sequential vs. simultaneous games, zero versus non-zero sum, co-
+    operative vs. non-co-operative games.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;What
+    kinds of strategies can be employed?&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;Mixed vs. pure
+    strategies&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;How do you “solve” a game mathematically?&lt;/p&gt;
+    &lt;/li&gt; &lt;li&gt;&lt;p&gt;Nash Equilibrium: history, how it was derived, and meaning&lt;/p&gt;
+    &lt;/li&gt; &lt;li&gt;&lt;p&gt;Minimax Theorem: etc.&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Best response
+    functions&lt;/p&gt; &lt;/li&gt; &lt;li&gt;&lt;p&gt;Strictly vs. weakly dominated actions&lt;/p&gt; &lt;/li&gt;
+    &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
   &lt;td&gt;Symmetric Groups, Representation Theory, and Young Tableaux&lt;/td&gt;
   &lt;td&gt;Randy Lin&lt;/td&gt;
   &lt;td&gt;MC 4020&lt;/td&gt;
