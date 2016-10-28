@@ -1,0 +1,27 @@
+A game is a “mathematical model between interacting decision makers” where each
+player must make choices based on a set of rules. Every individual in a game
+must also have a preferred reaction to any combination of actions taken by
+other agents.  Game theory is about the study and application of these models.
+It involves various solution concepts and methods that can be employed to
+predict the outcomes of strategic engagements.  This talk will introduce the
+major ideas in the field. There will be a focus on basic definitions, types of
+games, and how we can “solve games” using the Nash equilibrium. Hopefully we’ll
+get to “play” some ourselves. Towards the end, we can also review some neat
+unsolved problems in game theory that are very easy to understand, but prove
+really difficult to solve. 
+
+### Outline
+
+- Initial Auction
+- What is a game?
+    - What are the types of games which can be played?
+    - Games with perfect information, games with imperfect information,
+      symmetric vs. asymmetric games, sequential vs. simultaneous games, zero
+      versus non-zero sum, co-operative vs. non-co-operative games.
+- What kinds of strategies can be employed?
+    - Mixed vs. pure strategies
+    - How do you “solve” a game mathematically?
+    - Nash Equilibrium: history, how it was derived, and meaning
+    - Minimax Theorem: etc.
+    - Best response functions
+    - Strictly vs. weakly dominated actions
