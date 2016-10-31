@@ -118,3 +118,5 @@ for d in dates
 end
 println("</tbody>")
 println("</table>")
+
+include("build_help.jl")
