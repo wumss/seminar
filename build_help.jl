@@ -1,3 +1,5 @@
+#!/usr/bin/env julia
+
 using SExpressions
 using FunctionalCollections
 

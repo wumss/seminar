@@ -1,3 +1,5 @@
+(#:define (nav-link url text)
+ `(li (a ([href ,(string "/seminar/" url)]) ,text)))
 (html
   (head
     (meta ([charset "utf-8"]))
@@ -7,15 +9,11 @@
            [href "/seminar/css/custom.css"]))
     (title (#:var title)))
   (body
-    (nav (ul (li (a ([href "/seminar"]) "Math Seminar Home"))
-             (li (a ([href "/seminar/archive"]) "archive"))
-             (li (a ([href "/seminar/#upcoming_talks"]) "upcoming talks"))
-             (li (a ([href "/seminar/#feedback"]) "feedback")))
-         (form
-           (input ([id "search"] [type "text"] [placeholder "Search"]))
-           (button ([type "submit"]) "Search")))
+    (nav (ul (#:template nav-link "" "Math Seminar Home")
+             (#:template nav-link "archive" "archive")
+             (#:template nav-link "#upcoming_talks" "upcoming talks")
+             (#:template nav-link "#feedback" "feedback")
+             (#:template nav-link "faq" "faq")))
     (section
       (article
-        (#:var page)))
-    (script ([src "/seminar/js/vendor/lunr.min.js"]))
-    (script ([src "/seminar/js/script.js"]))))
+        (#:var page)))))

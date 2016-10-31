@@ -10,4 +10,4 @@ type = "page"
 This is the site for a not-so-secret seminar on mathematics organized by a
 couple of second-year math / CS students at the University of Waterloo.
 
-We meet every Friday.
+We meet every Friday. See our [FAQ](faq) for frequently asked questions.
