@@ -9,3 +9,9 @@ term.
 
 Talk summaries are written in [Markdown](/seminar/write-markdown). See the link
 for more details.
+
+## Where can I leave feedback?
+
+If you attended a talk and want to give feedback on it, you can do so with this
+[Google form](https://goo.gl/forms/t1GUAGhBGF6LtkFm1).  All suggestions are
+welcome!
