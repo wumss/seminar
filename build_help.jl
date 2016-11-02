@@ -3,23 +3,22 @@
 using SExpressions
 using FunctionalCollections
 
-tmpl = SExpressions.parsefile("themes/seminar/core.lsp")
-
-function generate_page(data, root, tmpl=tmpl; title=root)
-    data = stringmime("text/html",
-                      Base.Markdown.parse(data))
-    html = SExpressions.Htsx.tohtml(tmpl, @Persistent Dict(
-        :title => title,
-        :page => HTML(data)))
+function generate_page(data, root, page="themes/seminar/core.lsp")
     try mkdir("static/$root") end
     open("static/$root/index.html", "w") do f
-        println(f, html)
+        SExpressions.Htsx.tohtml(f, page, data)
+        println(f)
     end
 end
 
 for page in readdir("pages")
     root, ext = splitext(page)
     if ext == ".md"
-        generate_page(readstring("pages/$page"), root; title=page)
+        data = stringmime("text/html",
+                          Base.Markdown.parse(readstring("pages/$page")))
+        generate_page(Dict(
+            :title => root,
+            :page => root,
+            :pagetype => "page"), root)
     end
 end

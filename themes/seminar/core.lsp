@@ -15,4 +15,4 @@
              (#:template nav-link "faq" "faq")))
     (section
       (article
-        (#:var page)))))
+        (#:include (string pagetype ".lsp"))))))

@@ -48,23 +48,10 @@ function print_row(t)
 end
 
 function write_summary(t)
-    f = IOBuffer()
-    println(f, """
-    This talk, delivered by $(t[:speaker]) was held on $(human(t[:date]))
-    in $(t[:location]).
-    """)
-    if haskey(t, :abstract)
-        println(f, """
-        ## Abstract
-        """)
-        render_markdown_from_file(f, t, :abstract, 0)
-    end
-    if haskey(t, :summary)
-        render_markdown_from_file(f, t, :summary, 0)
-    end
-    generate_page(takebuf_string(f),
-                   "archive/$(identifier(t))";
-                   title=t[:topic])
+    generate_page(merge(Dict(
+        :title => t[:topic],
+        :pagetype => "archive"
+    ), t), "archive/$(identifier(t))")
 end
 
 println("""
