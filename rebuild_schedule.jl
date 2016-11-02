@@ -3,8 +3,10 @@
 using JSON
 using TextWrap  # English once its wrapping capability is finished
 
+include("build_help.jl")
+
 try
-    mkdir("content/archive")
+    mkdir("static/archive")
 end
 
 human(d::Date) = Dates.format(d, "E U d, YYYY")
@@ -46,28 +48,23 @@ function print_row(t)
 end
 
 function write_summary(t)
-    open("content/archive/$(identifier(t)).md", "w") do f
+    f = IOBuffer()
+    println(f, """
+    This talk, delivered by $(t[:speaker]) was held on $(human(t[:date]))
+    in $(t[:location]).
+    """)
+    if haskey(t, :abstract)
         println(f, """
-        +++
-        date = "$(t[:date])T$(t[:time])"
-        title = "$(t[:topic])"
-        +++
+        ## Abstract
         """)
-
-        println(f, """
-        This talk, delivered by $(t[:speaker]) was held on $(human(t[:date]))
-        in $(t[:location]).
-        """)
-        if haskey(t, :abstract)
-            println(f, """
-            ## Abstract
-            """)
-            render_markdown_from_file(f, t, :abstract, 0)
-        end
-        if haskey(t, :summary)
-            render_markdown_from_file(f, t, :summary, 0)
-        end
+        render_markdown_from_file(f, t, :abstract, 0)
     end
+    if haskey(t, :summary)
+        render_markdown_from_file(f, t, :summary, 0)
+    end
+    generate_page(takebuf_string(f),
+                   "archive/$(identifier(t))";
+                   title=t[:topic])
 end
 
 println("""
@@ -118,5 +115,3 @@ for d in dates
 end
 println("</tbody>")
 println("</table>")
-
-include("build_help.jl")
