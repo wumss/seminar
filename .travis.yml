@@ -8,7 +8,7 @@ env:
         - SSH_KEY="travis_key"
         - GIT_NAME="Frieda Rong"
         - GIT_EMAIL="adeirff@gmail.com"
-        - SOURCE_DIR="static"
+        - SOURCE_DIR="public"
         - DEPLOY_BRANCH="master"
 
 branches:

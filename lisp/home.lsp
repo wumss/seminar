@@ -1,4 +1,4 @@
-(#:markdown "../../pages/home.md")
+(#:markdown "../pages/home.md")
 
 (#:define (talk-row t)
   (append `((tr (td ,(ref t 'topic))
@@ -8,7 +8,7 @@
           (if (haskey t 'abstract)
             `((tr (td ([colspan 4])
                       (#:markdown
-                       ,(string "../../abstract/" (ref t 'abstract))))))
+                       ,(string "../abstract/" (ref t 'abstract))))))
             '())))
 
 (h2 "Upcoming Talks")

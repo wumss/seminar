@@ -3,23 +3,25 @@
 using SExpressions
 using FunctionalCollections
 
-function generate_page(data, root, page="themes/seminar/core.lsp")
+try mkdir("public") end
+
+function generate_page(data, root, page="lisp/core.lsp")
     println(STDERR, "Generating page $root...")
-    try mkdir("static/$root") end
-    open("static/$root/index.html", "w") do f
+    try mkdir("public/$root") end
+    open("public/$root/index.html", "w") do f
         SExpressions.Htsx.tohtml(f, page, data)
         println(f)
     end
 end
 
-statics = [
+publics = [
     "write-markdown",
     "suggested-topics",
     "faq"]
 
 for page in readdir("pages")
     root, ext = splitext(page)
-    if ext == ".md" && root in statics
+    if ext == ".md" && root in publics
         data = stringmime("text/html",
                           Base.Markdown.parse(readstring("pages/$page")))
         generate_page(Dict(

@@ -5,7 +5,7 @@ using JSON
 include("build_help.jl")
 
 try
-    mkdir("static/archive")
+    mkdir("public/archive")
 end
 
 human(d::Date) = Dates.format(d, "E U d, YYYY")
@@ -57,3 +57,8 @@ generate_page(Dict(
     :dates => dates,
     :talks => result,
     :mathjaxplease => true), "")
+
+for file in readdir("static")
+    println("Copying file $file...")
+    cp("static/$file", "public/$file"; remove_destination=true)
+end

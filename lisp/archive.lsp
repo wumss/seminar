@@ -10,8 +10,8 @@
 
 (#:when (defined? 'abstract)
   (h2 "Abstract")
-  (#:markdown (string "../../abstract/" abstract)))
+  (#:markdown (string "../abstract/" abstract)))
 
 (#:when (and (defined? 'summary) (!= summary (. Base summary)))
   (h2 "Summary")
-  (#:markdown (string "../../summary/" summary)))
+  (#:markdown (string "../summary/" summary)))
