@@ -82,6 +82,7 @@ generate_page(Dict(
     :pagetype => "home",
     :dates => dates,
     :talks => result,
+    :github => "$GITHUB/lisp/home.lsp",
     :mathjaxplease => true), "")
 
 generate_page(Dict(

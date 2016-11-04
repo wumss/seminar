@@ -17,3 +17,7 @@ nav > ul > li:nth-child(1) {
 img {
     max-width: 100%;
 }
+
+footer {
+    text-align: center;
+}

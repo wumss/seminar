@@ -3,6 +3,8 @@
 using SExpressions
 using FunctionalCollections
 
+const GITHUB = "https://github.com/friedeggs/seminar/blob/master"
+
 try mkdir("public") end
 
 function generate_page(data, root, page="lisp/core.lsp")
@@ -28,6 +30,7 @@ for page in readdir("pages")
             :title => root,
             :page => root,
             :pagetype => "page",
+            :github => "$GITHUB/pages/$page",
             :mathjaxplease => true), root)
     end
 end

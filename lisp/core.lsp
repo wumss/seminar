@@ -17,4 +17,10 @@
              (#:template nav-link "faq" "faq")))
     (section
       (article
-        (#:include (string pagetype ".lsp"))))))
+        (#:include (string pagetype ".lsp")))
+      (#:when (defined? 'github)
+       (footer (p "Help improve this page by "
+                  ;; can't use the obvious #:var, so use ugly workaround
+                  ;; todo: support #:var in attributes in Htsx
+                  (#:each _ 0 `(((a ([href ,github]) "editing it on GitHub"))))
+                  "."))))))
