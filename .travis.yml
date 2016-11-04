@@ -1,7 +1,4 @@
-language: go
-
-go:
-  - 1.7
+language: julia
 
 julia:
   - 0.5
@@ -11,7 +8,7 @@ env:
         - SSH_KEY="travis_key"
         - GIT_NAME="Frieda Rong"
         - GIT_EMAIL="adeirff@gmail.com"
-        - SOURCE_DIR="public"
+        - SOURCE_DIR="static"
         - DEPLOY_BRANCH="master"
 
 branches:
@@ -23,16 +20,12 @@ before_install:
   -in travis_key.enc -out travis_key -d
 
 install:
-    - wget https://julialang.s3.amazonaws.com/bin/linux/x64/0.5/julia-0.5.0-linux-x86_64.tar.gz
-    - tar -zxvf julia-0.5.0-linux-x86_64.tar.gz
-    - ln -s julia-3c9d75391c/bin/julia .
-    - go get -v github.com/spf13/hugo
 
 script:
     - ./julia -e 'Pkg.add("TextWrap")'
     - ./julia -e 'Pkg.add("JSON")'
     - ./julia -e 'Pkg.clone("https://github.com/TotalVerb/SExpressions.jl")'
-    - ./julia rebuild_schedule.jl > content/upcoming_talks.md
+    - ./julia rebuild_schedule.jl
     - hugo
 
 after_success:
