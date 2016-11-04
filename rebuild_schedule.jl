@@ -23,7 +23,7 @@ function write_summary(t)
     ), t), "archive/$(identifier(t))")
 end
 
-result = JSON.parsefile("schedule.json", dicttype=Dict{Symbol,String})
+result = JSON.parsefile("schedule.json", dicttype=Dict{Symbol,Any})
 sort(result, by=x -> x[:time])
 map!(result) do d
     d[:date], d[:time] = split(d[:time], 'T')
@@ -33,6 +33,7 @@ dates = unique(map(x -> x[:date], result))
 
 summarize(t) = "Talk by $(t[:speaker])."
 
+tags = Set{String}()
 talks = []
 for d in dates
     if Date(d) < Dates.today()
@@ -44,6 +45,11 @@ for d in dates
                 :summary => summarize(t)))
         end
     end
+end
+
+# tag collection
+for t in result
+    union!(tags, t[:tags])
 end
 
 generate_page(Dict(
@@ -58,6 +64,11 @@ generate_page(Dict(
     :dates => dates,
     :talks => result,
     :mathjaxplease => true), "")
+
+generate_page(Dict(
+    :title => "List of Tags",
+    :pagetype => "tags",
+    :tags => tags), "tags")
 
 for file in readdir("static")
     println("Copying file $file...")
