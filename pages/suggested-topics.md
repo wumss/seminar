@@ -57,14 +57,14 @@ https://math.berkeley.edu/~kpmann/DIYhyp.pdf
                             
 - Reciprocity Laws \
   https://www.jstor.org/stable/2317083
-                            
-                           
 
 ## Physics
 
 ## Recreational
 - The Strong Law of Small 
  http://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Guy697-712.pdf
+- Plausible conjectures
+ http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf
 
 ## unsorted
 
