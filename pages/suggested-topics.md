@@ -8,7 +8,9 @@ Here is a list of possible topics to consider:
 - Lattices,  Linear Codes, and Invariants [Algebra, Geometry, Number Theory, Coding Theory] (SEE ALSO: Sphere Packing, Lattices and Groups)\
                               i) http://www.ams.org/notices/200010/fea-elkies-1.pdf\
                              ii) http://www.ams.org/notices/200011/fea-elkies-2.pdf
-- Symmetric Groups, Youngs Tableux and Representation Theory                              
+- Symmetric Groups, Youngs Tableux and Representation Theory    
+- Hilbert's Nullstellensatz and Schemes 
+  
 
 ## Analysis
 - Integration in elementary terms 
@@ -57,6 +59,9 @@ Here is a list of possible topics to consider:
                             
 - Reciprocity Laws \
   https://www.jstor.org/stable/2317083
+
+- Sieve Methods
+  http://www.dms.umontreal.ca/~koukoulo/documents/notes/sievemethods.pdf
 
 ## Physics
 
