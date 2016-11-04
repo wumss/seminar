@@ -19,14 +19,14 @@
 
 (#:define (render-suggestion s)
   (append
-    `((h2 ,(ref s 'topic))
-      (h3 "Possible References")
+    `((h3 ,(ref s 'topic))
+      (h4 "Possible References")
       ,(Cons 'ul (convert List (map
                                  (∘ li render-reference)
                                  (ref s 'references)))))
     (if (isempty (ref s 'see-also))
         '()
-        `((h3 "Related Past Talks")
+        `((h4 "Related Past Talks")
           ,(Cons 'ul (convert List (map
                                     (∘ li archive-link)
                                     (ref s 'see-also))))))))
