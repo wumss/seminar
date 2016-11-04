@@ -66,3 +66,5 @@ https://math.berkeley.edu/~kpmann/DIYhyp.pdf
 - The Strong Law of Small 
  http://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Guy697-712.pdf
 
+- Plausible conjectures
+ http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf
