@@ -1,7 +1,3 @@
-(#:define (human (:: d Date))
-  ((. Dates format) d "E U d, YYYY"))
-(#:define (human d) (human (Date d)))
-
 (p "This talk on "
    (#:var topic)
    " was held on "

@@ -1,5 +1,5 @@
-(#:define (nav-link url text)
- `(li (a ([href ,(string "/seminar/" url)]) ,text)))
+(#:include "definitions.lsp")
+
 (html
   (head
     (meta ([charset "utf-8"]))
