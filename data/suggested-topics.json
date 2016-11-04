@@ -26,5 +26,30 @@
             "Folding@Home Papers Collection: http://folding.stanford.edu/home/papers"
         ],
         "see-also": []
+    },
+    {
+        "topic": "Presburger Arithmetic",
+        "tags": [
+            "computational-complexity",
+            "decidability",
+            "first-order-logic",
+            "logic"
+        ],
+        "references": [
+            "Michael J. Fischer and Michael O. Rabin, Super-Exponentional Complexity of Presburger Arithmetic. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.16.9759"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Distribution of Primes Modulo $p$",
+        "tags": [
+            "number-theory",
+            "open-problems",
+            "prime-numbers"
+        ],
+        "references": [
+            "Gaze, E. & Gaze, J. Math Intelligencer (2016) 38: 14. doi:10.1007/s00283-015-9585-2 https://link.springer.com/article/10.1007/s00283-015-9585-2"
+        ],
+        "see-also": []
     }
 ]

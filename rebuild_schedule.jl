@@ -70,10 +70,10 @@ for t in result
         tagpopularity[tag] += value
     end
 end
-tags = sort(collect(tags), by=t -> -tagpopularity[t])
 
 # suggestion gathering
 include("topic-suggestions.jl")
+tags = sort(collect(tags), by=t -> -tagpopularity[t])
 
 generate_page(Dict(
     :title => "Archived Talks",
