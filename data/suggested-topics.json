@@ -51,5 +51,93 @@
             "Gaze, E. & Gaze, J. Math Intelligencer (2016) 38: 14. doi:10.1007/s00283-015-9585-2 https://link.springer.com/article/10.1007/s00283-015-9585-2"
         ],
         "see-also": []
+    },
+    {
+        "topic": "The Strong Law of Small Numbers",
+        "tags": [
+            "first-year-friendly",
+            "numbers",
+            "recreational-mathematics"
+        ],
+        "references": [
+            "http://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Guy697-712.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Plausible Conjectures",
+        "tags": [
+            "conjectures",
+            "first-year-friendly",
+            "plausibility"
+        ],
+        "references": [
+            "http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "What is Area?",
+        "tags": [
+            "area",
+            "first-year-friendly",
+            "geometry"
+        ],
+        "references": [
+            "http://www.math.harvard.edu/~mazur/papers/Area11.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "The Joy of Factoring",
+        "tags": [
+            "cryptography",
+            "number-theory",
+            "quantum-algorithms"
+        ],
+        "references": [
+            "https://books.google.ca/books/about/The_Joy_of_Factoring.html?id=rowCAQAAQBAJ&redir_esc=y"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Patterns in Primes",
+        "tags": [
+            "first-year-friendly",
+            "number-theory",
+            "prime-numbers"
+        ],
+        "references": [
+            "https://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Granville.pdf",
+            "https://www.jstor.org/stable/2004056",
+            "http://www.math.uconn.edu/~kconrad/articles/texel.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Reciprocity Laws",
+        "tags": [
+            "number-theory",
+            "reciprocity"
+        ],
+        "references": [
+            "https://www.jstor.org/stable/2317083"
+        ],
+        "see-also": [
+            "fw-NumberTheory"
+        ]
+    },
+    {
+        "topic": "Sieve Methods",
+        "tags": [
+            "computational-complexity",
+            "number-theory",
+            "prime-numbers",
+            "prime-sieves"
+        ],
+        "references": [
+            "http://www.dms.umontreal.ca/~koukoulo/documents/notes/sievemethods.pdf"
+        ],
+        "see-also": []
     }
 ]
