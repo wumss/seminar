@@ -11,3 +11,6 @@
 (#:define (render-talk-brief t)
   `((h2 (a ([href ,(ref t 'url)]) ,(ref t 'title)))
     (p ,(ref t 'summary))))
+
+(#:define (tag-link tag)
+  `(a ([href ,(string "/seminar/tag/" tag)]) ,tag))

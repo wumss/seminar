@@ -13,7 +13,7 @@
   (body
     (nav (ul (#:template nav-link "" "Math Seminar Home")
              (#:template nav-link "archive" "archive")
-             (#:template nav-link "#upcoming_talks" "upcoming talks")
+             (#:template nav-link "tags" "tags")
              (#:template nav-link "faq" "faq")))
     (section
       (article

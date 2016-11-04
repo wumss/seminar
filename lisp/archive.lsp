@@ -15,3 +15,9 @@
 (#:when (and (defined? 'summary) (!= summary (. Base summary)))
   (h2 "Summary")
   (#:markdown (string "../summary/" summary)))
+
+(h2 "Tags")
+
+(ul
+  (#:each tag tags
+    `((li ,(tag-link tag)))))

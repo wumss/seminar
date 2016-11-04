@@ -9,4 +9,5 @@ others.
 
 We meet every Friday, generally in MC 4020. See our [FAQ](/seminar/faq) for
 frequently asked questions, and the [archive](/seminar/archive) for talks
-before today’s date.
+before today’s date. To browse talks by topic, see the [tags](/seminar/tags)
+page.
