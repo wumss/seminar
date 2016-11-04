@@ -33,16 +33,19 @@ dates = unique(map(x -> x[:date], result))
 
 summarize(t) = "Talk by $(t[:speaker])."
 
+function brief(t)
+    Dict(:title => t[:topic],
+         :url => "/seminar/archive/$(identifier(t))",
+         :summary => summarize(t))
+end
+
 tags = Set{String}()
 talks = []
 for d in dates
     if Date(d) < Dates.today()
         for t in filter(x -> x[:date] == d, result)
             write_summary(t)
-            push!(talks, Dict(
-                :title => t[:topic],
-                :url => "/seminar/archive/$(identifier(t))",
-                :summary => summarize(t)))
+            push!(talks, brief(t))
         end
     end
 end
@@ -69,6 +72,19 @@ generate_page(Dict(
     :title => "List of Tags",
     :pagetype => "tags",
     :tags => tags), "tags")
+
+iscompleted(t) = Date(t[:date]) <= Dates.today()
+try mkdir("public/tag") end
+for t in tags
+    active_set = filter(x -> t in x[:tags], result)
+    generate_page(Dict(
+        :title => "Tag $t",
+        :tag => t,
+        :pagetype => "tag",
+        :brief => brief,
+        :done => filter(iscompleted, active_set),
+        :scheduled => filter(x -> !iscompleted(x), active_set)), "tag/$t")
+end
 
 for file in readdir("static")
     println("Copying file $file...")
