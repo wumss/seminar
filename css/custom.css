@@ -13,3 +13,7 @@ nav > form * {
 nav > ul > li:nth-child(1) {
     font-size: 1.2em;
 }
+
+img {
+    max-width: 100%;
+}
