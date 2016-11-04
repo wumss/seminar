@@ -146,7 +146,9 @@
         "identifier": "kr-Graphs",
         "tags": [
             "analysis",
-            "graph-theory"
+            "graph-theory",
+            "homology",
+            "topology"
         ]
     },
     {

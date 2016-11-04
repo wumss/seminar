@@ -196,5 +196,74 @@
             "https://math.berkeley.edu/~kpmann/DIYhyp.pdf"
         ],
         "see-also": []
+    },
+    {
+        "topic": "Integration in Elementary Terms",
+        "tags": [
+            "analysis",
+            "first-year-friendly",
+            "integration"
+        ],
+        "references": [
+            "http://math.stanford.edu/~conrad/papers/elemint.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Integrals and Graph Theory",
+        "tags": [
+            "analysis",
+            "integration",
+            "graph-theory"
+        ],
+        "references": [
+            "https://www.maa.org/sites/default/files/pdf/upload_library/22/Allendoerfer/Kayll-2012.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Completeness, Incompleteness, and Turing Machines",
+        "tags": [
+            "computer-science",
+            "computability",
+            "decidability",
+            "incompleteness",
+            "logic"
+        ],
+        "references": [
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "P vs. NP Problem",
+        "tags": [
+            "computability",
+            "computational-complexity",
+            "computer-science"
+        ],
+        "references": [
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Hindley Milner Type Inference",
+        "tags": [
+            "computer-science",
+            "type-theory"
+        ],
+        "references": [
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "A Cohomological Viewpoint on Elementary School Arithmetic",
+        "tags": [
+            "homology",
+            "topology"
+        ],
+        "references": [
+            "https://www.jstor.org/stable/3072368?seq=1"
+        ],
+        "see-also": []
     }
 ]
