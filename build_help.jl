@@ -22,7 +22,3 @@ for page in readdir("pages")
             :pagetype => "page"), root)
     end
 end
-
-generate_page(Dict(
-    :title => "Archived Talks",
-    :pagetype => "archived-talks"), "archive")

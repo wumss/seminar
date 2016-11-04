@@ -88,10 +88,17 @@ println("""
         </thead>
         <tbody>""")
 
+summarize(t) = "Talk by $(t[:speaker])."
+
+talks = []
 for d in dates
     if Date(d) < Dates.today()
         for t in filter(x -> x[:date] == d, result)
             write_summary(t)
+            push!(talks, Dict(
+                :title => t[:topic],
+                :url => "/seminar/archive/$(identifier(t))",
+                :summary => summarize(t)))
         end
     else
         println("<tr><th colspan=4>Talks on $(human(d))</th></tr>")
@@ -102,3 +109,8 @@ for d in dates
 end
 println("</tbody>")
 println("</table>")
+
+generate_page(Dict(
+    :title => "Archived Talks",
+    :pagetype => "archived-talks",
+    :talks => talks), "archive")
