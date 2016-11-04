@@ -139,5 +139,62 @@
             "http://www.dms.umontreal.ca/~koukoulo/documents/notes/sievemethods.pdf"
         ],
         "see-also": []
+    },
+    {
+        "topic": "The Nine Point Circle",
+        "tags": [
+            "first-year-friendly",
+            "geometry"
+        ],
+        "references": [
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Sphere Packing, Lattices, and Groups",
+        "tags": [
+            "algebra",
+            "geometry",
+            "groups"
+        ],
+        "references": [
+            "https://books.google.ca/books/about/Sphere_Packings_Lattices_and_Groups.html?id=hoTjBwAAQBAJ&redir_esc=y",
+            "J. H. CONWAY and N. J. A. SLOANE, Sphere Packings, Lattices and Groups, Springer, New York, 1993."
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Penrose Tilings",
+        "tags": [
+            "geometry",
+            "topology"
+        ],
+        "references": [
+            "https://people.maths.ox.ac.uk/ritter/masterclasses.html"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Low Dimensional Geometry",
+        "tags": [
+            "geometry",
+            "multivariate-calculus",
+            "topology"
+        ],
+        "references": [
+            "http://bookstore.ams.org/stml-49"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Hyperbolic Geometry",
+        "tags": [
+            "first-year-friendly",
+            "geometry"
+        ],
+        "references": [
+            "https://math.berkeley.edu/~kpmann/DIYhyp.pdf"
+        ],
+        "see-also": []
     }
 ]
