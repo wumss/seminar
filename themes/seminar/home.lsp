@@ -1,5 +1,16 @@
 (#:markdown "../../pages/home.md")
 
+(#:define (talk-row t)
+  (append `((tr (td ,(ref t 'topic))
+                (td ,(ref t 'speaker))
+                (td ,(ref t 'location))
+                (td ,(String (time-part (ref t 'time))))))
+          (if (haskey t 'abstract)
+            `((tr (td ([colspan 4])
+                      (#:markdown
+                       ,(string "../../abstract/" (ref t 'abstract))))))
+            '())))
+
 (h2 "Upcoming Talks")
 
 (table
@@ -11,10 +22,5 @@
        (let ([ts (filter (λ (t) (== (ref t 'date) d)) talks)])
          (append
            `((tr (th ([colspan 4]) "Talks on " ,(human d))))
-           (convert List (map (λ (t)
-                                 `(tr (td ,(ref t 'topic))
-                                      (td ,(ref t 'speaker))
-                                      (td ,(ref t 'location))
-                                      (td ,(String (time-part (ref t 'time))))))
-                              ts))))
-       '()))))
+           (convert List (flatten (map talk-row ts)))))
+         '()))))
