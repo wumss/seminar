@@ -18,7 +18,8 @@ identifier(t) = string(
 function write_summary(t)
     generate_page(merge(Dict(
         :title => t[:topic],
-        :pagetype => "archive"
+        :pagetype => "archive",
+        :mathjaxplease => true
     ), t), "archive/$(identifier(t))")
 end
 
