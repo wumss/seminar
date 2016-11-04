@@ -1,5 +1,7 @@
 # Mathematics Student Seminars
 
+![](/seminar/seminar.png)
+
 This is the website for the student-run University of Waterloo mathematics
 student seminars. We are a group of mathematics and computer science students
 who are interested in learning new topics and presenting our new knowledge to
