@@ -1,0 +1,30 @@
+[
+    {
+        "topic": "Clifford Algebras",
+        "tags": [
+            "algebra",
+            "clifford-algebra",
+            "first-year-friendly",
+            "linear-algebra"
+        ],
+        "references": [
+            "John Baez, 2001. Clifford Algebras. http://math.ucr.edu/home/baez/octonions/node6.html"
+        ],
+        "see-also": [
+            "fw-Hypercomplex"
+        ]
+    },
+    {
+        "topic": "Protein Folding",
+        "tags": [
+            "biology",
+            "computer-science",
+            "markov-model",
+            "optimization"
+        ],
+        "references": [
+            "Folding@Home Papers Collection: http://folding.stanford.edu/home/papers"
+        ],
+        "see-also": []
+    }
+]

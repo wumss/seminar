@@ -12,9 +12,7 @@ end
 human(d::Date) = Dates.format(d, "E U d, YYYY")
 human(d) = human(Date(d))
 
-identifier(t) = string(
-    String(collect(take(filter(x -> !isspace(x), lowercase(t[:topic])), 10))),
-    hash(t) % UInt16)
+identifier(t) = t[:identifier]
 
 function write_summary(t)
     generate_page(merge(Dict(
@@ -27,6 +25,7 @@ end
 iscompleted(t) = Date(t[:date]) < Dates.today()
 function valuate(talk)
     sum([1,
+         talk[:location] != "Online",
          iscompleted(talk),
          haskey(talk, :abstract),
          haskey(talk, :summary)])
@@ -61,8 +60,10 @@ for d in dates
 end
 
 # tag collection
+talkdict = Dict{String,Any}()
 tagpopularity = DefaultDict(String, Int, 0)
 for t in result
+    talkdict[identifier(t)] = t
     union!(tags, t[:tags])
     value = valuate(t)
     for tag in t[:tags]
@@ -70,6 +71,9 @@ for t in result
     end
 end
 tags = sort(collect(tags), by=t -> -tagpopularity[t])
+
+# suggestion gathering
+include("topic-suggestions.jl")
 
 generate_page(Dict(
     :title => "Archived Talks",
@@ -98,8 +102,10 @@ for t in tags
         :tag => t,
         :pagetype => "tag",
         :brief => brief,
+        :talkdict => talkdict,
         :done => filter(iscompleted, active_set),
-        :scheduled => filter(x -> !iscompleted(x), active_set)), "tag/$t")
+        :scheduled => filter(x -> !iscompleted(x), active_set),
+        :suggestions => bytag[t]), "tag/$t")
 end
 
 for file in readdir("static")

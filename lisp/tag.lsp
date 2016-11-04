@@ -13,3 +13,8 @@
 
 (#:each t scheduled
   (render-talk-brief (brief t)))
+
+(h2 ([id "suggestions"]) "Talk Suggestions")
+
+(#:each s suggestions
+  (render-suggestion s))

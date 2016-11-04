@@ -6,6 +6,7 @@
         "location": "Online",
         "abstract": "fw-NumberTheory",
         "summary": "fw-NumberTheory",
+        "identifier": "fw-NumberTheory",
         "tags": [
             "first-year-friendly",
             "number-theory",
@@ -19,6 +20,7 @@
         "location": "MC 4020",
         "abstract": "fw-Algebra",
         "summary": "fw-Algebra",
+        "identifier": "fw-Algebra",
         "tags": [
             "algebra",
             "first-year-friendly",
@@ -31,6 +33,7 @@
         "speaker": "Felix Bauckholt",
         "location": "MC 4020",
         "abstract": "fb-Ultrafilters",
+        "identifier": "fb-Ultrafilters",
         "tags": [
             "hyperreal-numbers",
             "set-theory"
@@ -42,6 +45,7 @@
         "speaker": "Zouhaier Ferchiou",
         "location": "MC 4020",
         "abstract": "zf-Graphs",
+        "identifier": "zf-Graphs",
         "tags": [
             "graph-theory"
         ]
@@ -52,6 +56,7 @@
         "speaker": "Sidhant Saraogi",
         "location": "MC 5479",
         "abstract": "ss-Information",
+        "identifier": "ss-Information",
         "tags": [
             "information-theory",
             "probability"
@@ -63,6 +68,7 @@
         "speaker": "Nikita Kapustin",
         "location": "MC 5479",
         "abstract": "nk-Types",
+        "identifier": "nk-Types",
         "tags": [
             "computer-science",
             "type-theory"
@@ -74,6 +80,7 @@
         "speaker": "Luthfi Mawarid",
         "location": "MC 4020",
         "abstract": "lm-CategoryTheory",
+        "identifier": "lm-CategoryTheory",
         "tags": [
             "category-theory",
             "first-year-friendly",
@@ -86,6 +93,7 @@
         "speaker": "Agastya Kalra",
         "location": "MC 4020",
         "abstract": "ak-ReinforcementLearning",
+        "identifier": "ak-ReinforcementLearning",
         "tags": [
             "computer-science",
             "first-year-friendly",
@@ -98,6 +106,7 @@
         "speaker": "Rolina Wu",
         "location": "MC 4020",
         "abstract": "rw-Convex",
+        "identifier": "rw-Convex",
         "tags": [
             "first-year-friendly",
             "machine-learning",
@@ -110,6 +119,7 @@
         "speaker": "Gregory Patchell",
         "location": "MC 4020",
         "abstract": "gp-Integration",
+        "identifier": "gp-Integration",
         "tags": [
             "analysis",
             "integration"
@@ -121,6 +131,7 @@
         "speaker": "Koosha Totonchi",
         "location": "MC 4020",
         "abstract": "kt-GameTheory",
+        "identifier": "kt-GameTheory",
         "tags": [
             "first-year-friendly",
             "game-theory"
@@ -131,6 +142,7 @@
         "topic": "Graphs, Surfaces, and Homology",
         "speaker": "Kai Rüsch",
         "location": "MC 4020",
+        "identifier": "kr-Graphs",
         "tags": [
             "analysis",
             "graph-theory"
@@ -141,6 +153,7 @@
         "topic": "Random Graphs and Complex Networks",
         "speaker": "Freida Rong",
         "location": "MC 4020",
+        "identifier": "fr-RandomGraphs",
         "tags": [
             "graph-theory"
         ]
@@ -151,6 +164,7 @@
         "speaker": "Fengyang Wang",
         "location": "MC 4020",
         "abstract": "fw-Hypercomplex",
+        "identifier": "fw-Hypercomplex",
         "tags": [
             "algebra",
             "linear-algebra"
@@ -162,6 +176,7 @@
         "speaker": "Akshay Tiwary",
         "location": "MC 4020",
         "abstract": "at-Elliptic",
+        "identifier": "at-Elliptic",
         "tags": [
             "analysis",
             "elliptic-curves"
@@ -172,6 +187,7 @@
         "topic": "Quandles: The Algebra of Knots",
         "speaker": "Brennen Creighton-Young",
         "location": "MC 4020",
+        "identifier": "bc-Quandles",
         "tags": [
             "algebra",
             "knot-theory"
@@ -182,6 +198,7 @@
         "topic": "Naïve Lie Theory",
         "speaker": "Aidan Patterson",
         "location": "MC 4020",
+        "identifier": "ap-Lie",
         "tags": [
             "algebra",
             "lie-theory"
@@ -192,6 +209,7 @@
         "topic": "Basic Harmonic Analysis",
         "speaker": "Mohamed Ayman",
         "location": "MC 4020",
+        "identifier": "ma-Harmonic",
         "tags": [
             "analysis",
             "harmonic-analysis"
@@ -202,6 +220,7 @@
         "topic": "Symmetries and Their Role in Physics",
         "speaker": "Vasudev Shyam",
         "location": "MC 4020",
+        "identifier": "vs-Symmetries",
         "tags": [
             "physics",
             "symmetry"
