@@ -8,7 +8,7 @@ Here is a list of possible topics to consider:
 - Lattices,  Linear Codes, and Invariants [Algebra, Geometry, Number Theory, Coding Theory] (SEE ALSO: Sphere Packing, Lattices and Groups)\
                               i) http://www.ams.org/notices/200010/fea-elkies-1.pdf\
                              ii) http://www.ams.org/notices/200011/fea-elkies-2.pdf
-- Invariant                              
+- Symmetric Groups, Youngs Tableux and Representation Theory                              
 
 ## Analysis
 - Integration in elementary terms 
@@ -42,7 +42,7 @@ Here is a list of possible topics to consider:
   http://bookstore.ams.org/stml-49
   
 - Hyperbolic Geometry (Geometry, First Year Friendly)\
-https://math.berkeley.edu/~kpmann/DIYhyp.pdf
+ https://math.berkeley.edu/~kpmann/DIYhyp.pdf
 
 ## Graph Theory
 
@@ -60,11 +60,13 @@ https://math.berkeley.edu/~kpmann/DIYhyp.pdf
 
 ## Physics
 
-## Recreational
-- The Strong Law of Small 
+## Less Serious Math
+- The Strong Law of Small Numbers [First Year Friendly]
  http://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Guy697-712.pdf
-- Plausible conjectures
+- Plausible conjectures [First Year Friendly]
  http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf
+- What is area? [First Year Friendly]
+ http://www.math.harvard.edu/~mazur/papers/Area11.pdf
 
 ## unsorted
 
