@@ -73,3 +73,4 @@ Here is a list of possible topics to consider:
 - Clifford algebras
 - Protein folding
 - Presburger arithmetic
+- Distribution of primes modulo ``p``; reference: Gaze, E. & Gaze, J. Math Intelligencer (2016) 38: 14. doi:10.1007/s00283-015-9585-2 https://link.springer.com/article/10.1007/s00283-015-9585-2
