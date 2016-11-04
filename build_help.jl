@@ -4,6 +4,7 @@ using SExpressions
 using FunctionalCollections
 
 function generate_page(data, root, page="themes/seminar/core.lsp")
+    println(STDERR, "Generating page $root...")
     try mkdir("static/$root") end
     open("static/$root/index.html", "w") do f
         SExpressions.Htsx.tohtml(f, page, data)
@@ -24,6 +25,7 @@ for page in readdir("pages")
         generate_page(Dict(
             :title => root,
             :page => root,
-            :pagetype => "page"), root)
+            :pagetype => "page",
+            :mathjaxplease => true), root)
     end
 end
