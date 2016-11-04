@@ -114,3 +114,8 @@ generate_page(Dict(
     :title => "Archived Talks",
     :pagetype => "archived-talks",
     :talks => talks), "archive")
+
+generate_page(Dict(
+    :title => "Mathematics Student Seminars",
+    :pagetype => "home",
+    :upcoming => result), "home")
