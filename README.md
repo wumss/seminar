@@ -1,17 +1,21 @@
 # Math Seminar
 
-A simple static site for an informal math seminar series. Parts are still
-generated using [Hugo](https://gohugo.io/), but the long-term goal is to
-migrate entirely to Htsx.
+A simple static site for an informal math seminar series. The site is built
+with [HTSX](https://github.com/TotalVerb/SExpressions.jl).
 
 ## To deploy:
-Generate the site:
-`hugo --theme=seminar`
+Generate the site (note that the scripts are, for historical reasons, named
+somewhat misleadingly):
+
+```sh
+./rebuild_schedule.jl
+```
 
 Push the generated `public` folder to the `gh-pages` branch.
 
 # Editing
 
-All the content is stored in the `pages` directory as markdown files.
+All the content is stored in the `pages` directory as markdown files, or in the
+`lisp` directory as HTSX files.
 
 You can edit them directly on Github, or clone the repository to your computer.
