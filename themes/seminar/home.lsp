@@ -6,8 +6,13 @@
   (thead
     (tr (th "Topic") (th "Speaker") (th "Location") (th "Time")))
   (tbody
-    (#:each t upcoming
-     `((tr (td ,(ref t 'topic))
-           (td ,(ref t 'speaker))
-           (td ,(ref t 'location))
-           (td ,(ref t 'time)))))))
+    (#:each d dates
+     (if (< (Date d) ((. Dates today)))
+       (let ([ts (filter (λ (t) (== (ref t 'date) d)) talks)])
+         (convert List (map (λ (t)
+                               `((tr (td ,(ref t 'topic))
+                                     (td ,(ref t 'speaker))
+                                     (td ,(ref t 'location))
+                                     (td ,(ref t 'time)))))
+                            ts)))
+       '()))))

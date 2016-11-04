@@ -118,4 +118,5 @@ generate_page(Dict(
 generate_page(Dict(
     :title => "Mathematics Student Seminars",
     :pagetype => "home",
-    :upcoming => result), "home")
+    :dates => dates,
+    :talks => result), "home")
