@@ -265,5 +265,48 @@
             "https://www.jstor.org/stable/3072368?seq=1"
         ],
         "see-also": []
+    },
+    {
+        "topic": "Galois Theory",
+        "tags": [
+            "algebra",
+            "fields"
+        ],
+        "references": [],
+        "see-also": []
+    },
+    {
+        "topic": "Lattices,  Linear Codes, and Invariants",
+        "tags": [
+            "algebra",
+            "geometry",
+            "number-theory",
+            "coding-theory"
+        ],
+        "references": [
+            "http://www.ams.org/notices/200010/fea-elkies-1.pdf",
+            "http://www.ams.org/notices/200011/fea-elkies-2.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Symmetric Groups, Youngs Tableux and Representation Theory",
+        "tags": [
+            "algebra",
+            "groups",
+            "youngs-tableux",
+            "representation-theory"
+        ],
+        "references": [],
+        "see-also": []
+    },
+    {
+        "topic": "Hilbert’s Nullstellensatz and Schemes",
+        "tags": [
+            "algebra",
+            "combinatorics"
+        ],
+        "references": [],
+        "see-also": []
     }
 ]
