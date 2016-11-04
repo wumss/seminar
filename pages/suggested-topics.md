@@ -25,3 +25,9 @@ Here is a list of possible topics to consider:
 - The Joy of Factoring
 
 ## Physics
+
+## unsorted
+
+- Clifford algebras
+- Protein folding
+- Presburger arithmetic
