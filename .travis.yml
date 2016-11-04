@@ -22,11 +22,10 @@ before_install:
 install:
 
 script:
-    - ./julia -e 'Pkg.add("TextWrap")'
-    - ./julia -e 'Pkg.add("JSON")'
-    - ./julia -e 'Pkg.clone("https://github.com/TotalVerb/SExpressions.jl")'
-    - ./julia rebuild_schedule.jl
-    - hugo
+    - julia -e 'Pkg.add("TextWrap")'
+    - julia -e 'Pkg.add("JSON")'
+    - julia -e 'Pkg.clone("https://github.com/TotalVerb/SExpressions.jl")'
+    - julia rebuild_schedule.jl
 
 after_success:
     - ./deploy.sh
