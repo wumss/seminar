@@ -73,7 +73,7 @@ generate_page(Dict(
     :pagetype => "tags",
     :tags => tags), "tags")
 
-iscompleted(t) = Date(t[:date]) <= Dates.today()
+iscompleted(t) = Date(t[:date]) < Dates.today()
 try mkdir("public/tag") end
 for t in tags
     active_set = filter(x -> t in x[:tags], result)
