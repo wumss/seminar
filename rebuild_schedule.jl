@@ -115,8 +115,9 @@ generate_page(Dict(
     :pagetype => "archived-talks",
     :talks => talks), "archive")
 
+#=
 generate_page(Dict(
     :title => "Mathematics Student Seminars",
     :pagetype => "home",
     :dates => dates,
-    :talks => result), "home")
+    :talks => result), "home") =#
