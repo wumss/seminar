@@ -30,7 +30,7 @@
         "topic": "Presburger Arithmetic",
         "tags": [
             "computational-complexity",
-            "decidability",
+            "computability",
             "first-order-logic",
             "logic"
         ],
@@ -225,7 +225,6 @@
         "tags": [
             "computer-science",
             "computability",
-            "decidability",
             "incompleteness",
             "logic"
         ],
@@ -332,6 +331,64 @@
         ],
         "references": [
             "https://bitcoin.org/bitcoin.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Riemann Hypothesis",
+        "tags": [
+            "number-theory",
+            "open-problems",
+            "prime-numbers"
+        ],
+        "references": [
+            "http://www.claymath.org/sites/default/files/official_problem_description.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "$p$-adic Analysis",
+        "tags": [
+            "analysis",
+            "p-adic-numbers",
+            "number-theory"
+        ],
+        "references": [
+            "https://www2.math.ethz.ch/education/bachelor/seminars/hs2011/p-adic/report1.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Computable Functions",
+        "tags": [
+            "computability",
+            "computer-science",
+            "turing-machines"
+        ],
+        "references": [
+            "https://www.amazon.com/Computable-Functions-Student-Mathematical-Library/dp/0821827324/ref=sr_1_1?s=books&ie=UTF8&qid=1437716490&sr=1-1&pebp=1437716499539&perid=15CJV47PBD4EMQ11VZ5V"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Conformal Mapping",
+        "tags": [
+            "analysis"
+        ],
+        "references": [
+            "http://www.math.umn.edu/~olver/ln_/cml.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Conway’s Game of Life",
+        "tags": [
+            "cellular-automata",
+            "first-year-friendly",
+            "recreational-mathematics"
+        ],
+        "references": [
+            "http://web.mit.edu/sp.268/www/2010/lifeSlides.pdf"
         ],
         "see-also": []
     }
