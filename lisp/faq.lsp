@@ -12,4 +12,5 @@
       (label "What question do you have?"
              (textarea ([name "question"]
                         [rows 8]
-                        [cols 20]))))
+                        [cols 30])))
+      (button ([type "submit"]) "Ask"))
