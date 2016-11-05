@@ -230,6 +230,7 @@
             "logic"
         ],
         "references": [
+            "http://www.scottaaronson.com/democritus/lec3.html"
         ],
         "see-also": []
     },
@@ -306,6 +307,32 @@
             "combinatorics"
         ],
         "references": [],
+        "see-also": []
+    },
+    {
+        "topic": "Gillespie Algorithm",
+        "tags": [
+            "applied-mathematics",
+            "computational-mathematics",
+            "differential-equations",
+            "probability",
+            "stochastic-equations"
+        ],
+        "references": [
+            "https://www.cs.princeton.edu/picasso/seminarsS05/Karig_slides.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Bitcoin and Blockchains",
+        "tags": [
+            "cryptography",
+            "distributed-systems",
+            "first-year-friendly"
+        ],
+        "references": [
+            "https://bitcoin.org/bitcoin.pdf"
+        ],
         "see-also": []
     }
 ]
