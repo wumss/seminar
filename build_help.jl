@@ -19,7 +19,6 @@ end
 publics = [
     "write-markdown",
     "suggested-topics",
-    "faq",
     "important-information"]
 
 for page in readdir("pages")
@@ -35,3 +34,8 @@ for page in readdir("pages")
             :mathjaxplease => true), root)
     end
 end
+
+generate_page(Dict(
+    :title => "Frequently Asked Questions",
+    :pagetype => "faq",
+    :github => "$GITHUB/pages/faq.md"), "faq")
