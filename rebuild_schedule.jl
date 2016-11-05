@@ -119,6 +119,13 @@ for t in tags
         :suggestions => bytag[t]), "tag/$t")
 end
 
+generate_page(Dict(
+    :title => "Potential Topics",
+    :pagetype => "suggested-topics",
+    :talkdict => talkdict,
+    :suggestions => suggestions,
+    :github => "$GITHUB/lisp/suggested-topics.lsp"), "potential-topics")
+
 for file in readdir("static")
     println("Copying file $file...")
     cp("static/$file", "public/$file"; remove_destination=true)

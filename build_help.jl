@@ -19,7 +19,8 @@ end
 publics = [
     "write-markdown",
     "suggested-topics",
-    "faq"]
+    "faq",
+    "important-information"]
 
 for page in readdir("pages")
     root, ext = splitext(page)
