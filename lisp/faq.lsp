@@ -15,5 +15,8 @@
                         [cols 30])))
       (button ([type "submit"]) "Ask")
       (input ([type "hidden"]
+              [name "_cc"]
+              [value "fengyang.wang.0@gmail.com"]))
+      (input ([type "hidden"]
               [name "_next"]
-              [value "//friedeggs.github.io/thanks"])))
+              [value "//friedeggs.github.io/seminar/thanks"])))
