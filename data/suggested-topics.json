@@ -333,8 +333,8 @@
         "topic": "Computational Algebraic Geometry",
         "tags": [
             "algebra",
-            "algebraic-geometry"
-            "computer-alebra"
+            "algebraic-geometry",
+            "computer-algebra"
         ],
         "references": ["Cox, Little, O'Shea : Ideals, Varieties and Algorithms"],
         "see-also": []
