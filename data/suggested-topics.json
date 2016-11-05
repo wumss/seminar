@@ -1,4 +1,15 @@
-[   {
+[ 
+    {
+        "topic": "Combinatorial Game Theory with 'Nimbers'",
+        "tags": [
+            "combinatorics",
+            "game-theory",
+            "first-year-friendly"
+            ],
+        "references": ["John Conway : On Games and Numbers"],
+        "see-also": ["kt-GameTheory"]
+    },
+    {
         "topic": "Blockchains and Bitcoins",
         "tags": [
             "cryptography",
