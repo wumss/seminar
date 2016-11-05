@@ -6,11 +6,14 @@
 (form ([action "https://formspree.io/atiwary@uwaterloo.ca"]
        [method "post"])
       (label "How can we contact you? (Email address): "
-             (input ([name "replyto"]
+             (input ([name "_replyto"]
                      [type "text"]
                      [placeholder "example@uwaterloo.ca"])))
       (label "What question do you have?"
              (textarea ([name "question"]
                         [rows 8]
                         [cols 30])))
-      (button ([type "submit"]) "Ask"))
+      (button ([type "submit"]) "Ask")
+      (input ([type "hidden"]
+              [name "_next"]
+              [value "//friedeggs.github.io/thanks"])))
