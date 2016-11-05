@@ -10,16 +10,6 @@
         "see-also": ["kt-GameTheory"]
     },
     {
-        "topic": "Blockchains and Bitcoins",
-        "tags": [
-            "cryptography",
-            "computer-science",
-            "first-year-friendly"
-            ],
-        "references" : [],
-        "see-also": []
-    },
-    {
         "topic": "Secret Sharing Schemes and Multi-party Computation Protocols",
         "tags": [
             "cryptography",
