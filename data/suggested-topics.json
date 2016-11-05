@@ -5,7 +5,7 @@
             "knot-theory",
             "topology"
             ],
-        "references": ["http://homepages.math.uic.edu/~kauffman/RTang.pdf"
+        "references": ["http://homepages.math.uic.edu/~kauffman/RTang.pdf",
                       "C. C. Adams : The Knot Book: An elementary introduction to the mathematical theory of knots"],
         "see-also": []
     },
