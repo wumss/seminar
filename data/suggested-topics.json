@@ -1,5 +1,46 @@
 [ 
     {
+        "topic": "Rational Tangles and Conway's Theorem'",
+        "tags": [
+            "knot-theory",
+            "topology"
+            ],
+        "references": ["http://homepages.math.uic.edu/~kauffman/RTang.pdf"
+                      "C. C. Adams : The Knot Book: An elementary introduction to the mathematical theory of knots"],
+        "see-also": []
+    },
+    {
+        "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC'",
+        "tags": [
+            "set-theory",
+            "challenge!"
+        ],
+        "references": ["http://www.math.ucla.edu/~ineeman/223s.1.11s/223s-spring11-lecture-notes-6-5.pdf",
+                      "http://www-math.mit.edu/~tchow/forcing.pdf"],
+        "see-also": []
+    },
+    {
+        "topic": "Differential Equations on Fractals'",
+        "tags": [
+            "analysis",
+            "differential-equations",
+            "fractals"
+            ],
+        "references": ["Robert Strichartz : Differential Equations on Fractals - A tutorial"],
+        "see-also": []
+    },
+    {
+        "topic": "Optimal Stopping Theory and the Secretary Problem'",
+        "tags": [
+            "probability",
+            "statistics",
+            "decision-theory"
+            ],
+        "references": ["https://www.math.upenn.edu/~ted/210F10/References/Secretary.pdf",
+                       "http://theory.stanford.edu/~sergei/slides/hiring-dagstuhl.pdf"],
+        "see-also": []
+    },
+    {
         "topic": "Combinatorial Game Theory with 'Nimbers'",
         "tags": [
             "combinatorics",
@@ -63,7 +104,7 @@
         "see-also": []
     },
     {
-        "topic": "Distribution of Primes Modulo $p$",
+        "topic": "Distribution of Primes Modulo p",
         "tags": [
             "number-theory",
             "open-problems",
@@ -220,7 +261,7 @@
         "see-also": []
     },
     {
-        "topic": "Integration in Elementary Terms",
+        "topic": "Why are some functions not integrable in terms of elementary functions?",
         "tags": [
             "analysis",
             "first-year-friendly",
@@ -257,18 +298,18 @@
         "see-also": []
     },
     {
-        "topic": "P vs. NP Problem",
+        "topic": "P vs NP : An introduction to Computational Complexity",
         "tags": [
             "computability",
             "computational-complexity",
             "computer-science"
         ],
-        "references": [
+        "references": ["Arora, Bazak : Computational Complexity"
         ],
         "see-also": []
     },
     {
-        "topic": "Hindley Milner Type Inference",
+        "topic": "Haskell and Hindley Milner Type Inference",
         "tags": [
             "computer-science",
             "type-theory"
@@ -289,12 +330,13 @@
         "see-also": []
     },
     {
-        "topic": "Galois Theory",
+        "topic": "Computational Algebraic Geometry",
         "tags": [
             "algebra",
-            "fields"
+            "algebraic-geometry"
+            "computer-alebra"
         ],
-        "references": [],
+        "references": ["Cox, Little, O'Shea : Ideals, Varieties and Algorithms"],
         "see-also": []
     },
     {
@@ -319,16 +361,18 @@
             "young-tableaux",
             "representation-theory"
         ],
-        "references": [],
+        "references": ["Bruce Sagan : The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions",
+                      "http://yufeizhao.com/papers/youngtab-hcmr.pdf"],
         "see-also": []
     },
     {
-        "topic": "Hilbert’s Nullstellensatz and Schemes",
+        "topic": "Hilbert’s Nullstellensatz and an Introduction to Schemes",
         "tags": [
             "algebra",
-            "combinatorics"
+            "combinatorics",
+            "challenge!"
         ],
-        "references": [],
+        "references": ["I. G. Shaferavich : Basic Algebraic Geometry I"],
         "see-also": []
     },
     {
@@ -359,7 +403,7 @@
         "see-also": []
     },
     {
-        "topic": "Riemann Hypothesis",
+        "topic": "Dirichlet L-functions and the Riemann Hypothesis",
         "tags": [
             "number-theory",
             "open-problems",
@@ -371,7 +415,7 @@
         "see-also": []
     },
     {
-        "topic": "$p$-adic Analysis",
+        "topic": "p-adic Analysis",
         "tags": [
             "analysis",
             "p-adic-numbers",
@@ -379,6 +423,7 @@
         ],
         "references": [
             "https://www2.math.ethz.ch/education/bachelor/seminars/hs2011/p-adic/report1.pdf"
+            "Svetlana Katok : p-adic Analysis Compared with Real"
         ],
         "see-also": []
     },
@@ -395,12 +440,13 @@
         "see-also": []
     },
     {
-        "topic": "Conformal Mapping",
+        "topic": "Conformal Mapping and Inversion Theory",
         "tags": [
             "analysis"
         ],
         "references": [
-            "http://www.math.umn.edu/~olver/ln_/cml.pdf"
+            "http://www.math.umn.edu/~olver/ln_/cml.pdf",
+            "David Blair : Inversion Theory and Conformal Mapping"
         ],
         "see-also": []
     },
