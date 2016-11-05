@@ -14,6 +14,16 @@ human(d) = human(Date(d))
 
 identifier(t) = t[:identifier]
 
+function relatedto(t)
+    relevant = filter(x -> t in x[:tags], result)
+    top = [(tag, count(x -> tag in x[:tags], relevant) /
+                 (tagpopularity[tag] + 2))
+           for tag in tags if tag != t]
+    filter!(x -> x[2] > 0, top)
+    sort!(top, by=x -> -x[2])
+    take(top, 5)
+end
+
 function write_summary(t)
     generate_page(merge(Dict(
         :title => t[:topic],
@@ -102,6 +112,7 @@ for t in tags
         :tag => t,
         :pagetype => "tag",
         :brief => brief,
+        :related => relatedto(t),
         :talkdict => talkdict,
         :done => filter(iscompleted, active_set),
         :scheduled => filter(x -> !iscompleted(x), active_set),

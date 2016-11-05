@@ -4,6 +4,11 @@
    " completed talks and " (#:var (string (length scheduled)))
    " scheduled talks tagged with " (b (#:var tag)) ".")
 
+(#:when (! (isempty related))
+  (h2 "Related Tags")
+  (ul (#:each t related
+        `((li ,(tag-link (ref t 1)))))))
+
 (h2 "Completed Talks")
 
 (#:each t done
