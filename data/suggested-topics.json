@@ -1,4 +1,24 @@
-[
+[   {
+        "topic": "Blockchains and Bitcoins",
+        "tags": [
+            "cryptography",
+            "computer-science",
+            "first-year-friendly"
+            ],
+        "see-also": []
+    },
+    {
+        "topic": "Secret Sharing Schemes and Multi-party Computation Protocols",
+        "tags": [
+            "cryptography",
+            "computer-science",
+            "first-year-friendly"
+            ],
+        "see-also": []
+    },
+ 
+            
+            
     {
         "topic": "Clifford Algebras",
         "tags": [
