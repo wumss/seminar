@@ -1,5 +1,95 @@
 [
     {
+        "topic": "Automated Verification of Computational Systems",
+        "tags": [
+            "computer-science",
+            "logic",
+            "model-checking"
+        ],
+        "references": [
+            "http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Primes of the Form $x^2 + ny^2$",
+        "tags": [
+            "number-theory",
+            "prime-numbers"
+        ],
+        "references": [
+            "http://people.math.umass.edu/~bates/Primes.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Principle of Least Action",
+        "tags": [
+            "mechanics",
+            "physics"
+        ],
+        "references": [
+            "http://www.scholarpedia.org/article/Principle_of_least_action"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Buchi Automata",
+        "tags": [
+            "computer-science",
+            "automata",
+            "ω-automata"
+        ],
+        "references": [
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Timed Automata",
+        "tags": [
+            "computer-science",
+            "automata"
+        ],
+        "references": [
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "The Winding Number",
+        "tags": [
+            "analysis",
+            "geometry",
+            "topology"
+        ],
+        "references": [
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Total Functional Programming",
+        "tags": [
+            "computer-science",
+            "first-year-friendly",
+            "functional-programming"
+        ],
+        "references": [
+            "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Predicate Dispatch",
+        "tags": [
+            "computer-science",
+            "polymorphism",
+            "runtime-polymorphism"
+        ],
+        "references": [
+            "ftp://publications.ai.mit.edu/ai-publications/2001/AITR-2001-006.pdf"
+        ],
+        "see-also": []
+    },
+    {
         "topic": "Complexity of the Multivariate Resultant",
         "tags": [
             "algebraic-geometry",
