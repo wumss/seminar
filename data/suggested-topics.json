@@ -1,4 +1,16 @@
-[ 
+[
+    {
+        "topic": "Homotopy Type Theory",
+        "tags": [
+            "homotopy",
+            "type-theory",
+            "computer-science"
+        ],
+        "references": [
+            "https://homotopytypetheory.org/book/"
+        ],
+        "see-also": []
+    },
     {
         "topic": "Curry–Howard–Lambek Correspondence",
         "tags": [
