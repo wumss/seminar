@@ -1,5 +1,17 @@
 [
     {
+        "topic": "Kolmogorov complexity",
+        "tags": [
+            "computer-science",
+            "kolmogorov-complexity",
+            "information-theory"
+        ],
+        "references": [
+            "http://homepages.cwi.nl/~paulv/course-kc/KC-Lecture1.pdf"
+        ],
+        "see-also": []
+    },
+    {
         "topic": "Homotopy Type Theory",
         "tags": [
             "homotopy",
