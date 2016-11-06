@@ -1,6 +1,18 @@
 [ 
     {
-        "topic": "Rational Tangles and Conway's Theorem'",
+        "topic": "Curry–Howard–Lambek Correspondence",
+        "tags": [
+            "category-theory",
+            "computer-science",
+            "logic"
+        ],
+        "references": [
+            "http://www.math.helsinki.fi/logic/sellc-2010/course/LectureIII.pdf"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Rational Tangles and Conway's Theorem",
         "tags": [
             "knot-theory",
             "topology"
