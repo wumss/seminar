@@ -46,3 +46,6 @@
 
 (#:define (tag-link tag)
   `(a ([href ,(string "/seminar/tag/" tag)]) ,tag))
+
+(#:define (link-to url text)
+  `(a ([href ,(string "/seminar/" url)]) ,text))
