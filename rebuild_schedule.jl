@@ -116,6 +116,7 @@ for t in tags
         :talkdict => talkdict,
         :done => filter(iscompleted, active_set),
         :scheduled => filter(x -> !iscompleted(x), active_set),
+        :mathjaxplease => true,
         :suggestions => bytag[t]), "tag/$t")
 end
 
@@ -124,6 +125,7 @@ generate_page(Dict(
     :pagetype => "suggested-topics",
     :talkdict => talkdict,
     :suggestions => suggestions,
+    :mathjaxplease => true,
     :github => "$GITHUB/lisp/suggested-topics.lsp"), "potential-topics")
 
 for file in readdir("static")

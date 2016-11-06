@@ -19,17 +19,27 @@
 
 (#:define (render-suggestion s)
   (append
-    `((h3 ,(ref s 'topic))
-      (h4 "Possible References")
-      ,(Cons 'ul (convert List (map
-                                 (∘ li render-reference)
-                                 (ref s 'references)))))
+    `((h3 ,(ref s 'topic)))
+    (if (isempty (ref s 'references))
+      '()
+      `((h4 "Possible References")
+        ,(Cons 'ul (convert List (map (∘ li render-reference)
+                                      (ref s 'references))))))
     (if (isempty (ref s 'see-also))
-        '()
-        `((h4 "Related Past Talks")
-          ,(Cons 'ul (convert List (map
-                                    (∘ li archive-link)
-                                    (ref s 'see-also))))))))
+      '()
+      `((h4 "Related Past Talks")
+        ,(Cons 'ul (convert List (map (∘ li archive-link)
+                                      (ref s 'see-also))))))
+    `((p "Quick links: "
+         (a ([href ,(string "https://www.google.ca/search?q="
+                            (ref s 'topic))])
+            "Google search") ", "
+         (a ([href ,(string "http://search.arxiv.org:8081/?query="
+                            (ref s 'topic))])
+            "arXiv.org search") ", "
+         (a ([href ,(string "/seminar/potential-topics/#request")])
+            "propose to present a talk")))))
+
 
 (#:define (archive-link t)
   `(a ([href ,(string "/seminar/archive/" t)]) ,(ref (ref talkdict t) 'topic)))

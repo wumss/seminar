@@ -4,3 +4,5 @@
 
 (#:each s suggestions
   (render-suggestion s))
+
+(#:include "winter-2017.lsp")
