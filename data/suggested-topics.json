@@ -1,5 +1,18 @@
 [
     {
+        "topic": "Complexity of the Multivariate Resultant",
+        "tags": [
+            "algebraic-geometry",
+            "computer-science",
+            "computational-complexity",
+            "generalized-riemann-hypothesis"
+        ],
+        "references": [
+            "https://arxiv.org/pdf/1210.1451.pdf"
+        ],
+        "see-also": []
+    },
+    {
         "topic": "Kolmogorov complexity",
         "tags": [
             "computer-science",
