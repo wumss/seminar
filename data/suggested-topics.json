@@ -309,12 +309,13 @@
         "see-also": []
     },
     {
-        "topic": "Haskell and Hindley Milner Type Inference",
+        "topic": "Hindley–Milner Type System",
         "tags": [
             "computer-science",
             "type-theory"
         ],
         "references": [
+            "http://www.jstor.org/stable/1995158"
         ],
         "see-also": []
     },
