@@ -83,7 +83,8 @@ numbers. In other words:
 
 ```math
 \text{Player }i^{'}s\text{ Preferences} =
-u_{i}:\left( a_{1},a_{2},a_{3}\ldots a_{n} \right)\mathbb{\rightarrow R}\text{or}u_{i}:(a\mathbb{) \rightarrow R}
+u_{i}:\left( a_{1},a_{2},a_{3}\ldots a_{n} \right)\mathbb{\rightarrow R}
+\text{ or }u_{i}:(a\mathbb{) \rightarrow R}
 ```
 
 A game is symmetric if the payoffs depend only on the strategies employed, not
@@ -92,24 +93,32 @@ on who is playing them. For example, Prisoner’s Dilemma is symmetric.
 A Nash equilibrium is a situation in a game where:
 
 ```math
-u_{i}\left( a_{1}^{*}\ldots{a_{i}^{*}\ldots a}_{n}^{*} \right) \geq u_{i}\left( a_{1}^{*}\ldots a_{i}^{}\ldots a_{n}^{*} \right)\foralla_{i} \in A_{i},and\forallplayersi
+u_{i}\left( a_{1}^{*}\ldots{a_{i}^{*}\ldots a}_{n}^{*} \right) \geq
+u_{i}\left( a_{1}^{*}\ldots a_{i}^{}\ldots a_{n}^{*} \right)
+\forall a_{i} \in A_{i}\text{, and }\forall\text{ players }i
 ```
 
 Using another notation, where ``a_{- i}^{*}`` represents the actions that all
 other players ``\neq i`` have chosen,
 
 ```math
-u_{i}\left( a_{i}^{*},a_{- i}^{*} \right) \geq u_{i}\left( a_{i}^{},a_{- i}^{*} \right)\foralla_{i} \in A_{i},and\forallplayersi
+u_{i}\left( a_{i}^{*},a_{- i}^{*} \right) \geq u_{i}\left( a_{i}^{},
+a_{- i}^{*} \right)
+\forall a_{i} \in A_{i}\text{, and }\forall\text{ players }i
 ```
 
 Strict & non-strict Nash equilibrium:
 
 ```math
-Strict = u_{i}\left( a_{i}^{*},a_{- i}^{*} \right) > u_{i}\left( a_{i}^{},a_{- i}^{*} \right)\foralla_{i} \in A_{i},and\forallplayersi
+\text{Strict} = u_{i}\left( a_{i}^{*},a_{- i}^{*} \right) >
+u_{i}\left( a_{i}^{},a_{- i}^{*} \right)
+\forall a_{i} \in A_{i}\text{, and }\forall\text{ players }i
 ```
 
 ```math
-Non - strict = u_{i}\left( a_{i}^{*},a_{- i}^{*} \right) \geq u_{i}\left( a_{i}^{},a_{- i}^{*} \right)\foralla_{i} \in A_{i},and\forallplayersi
+\text{Non-strict} = u_{i}\left( a_{i}^{*},a_{- i}^{*} \right)
+\geq u_{i}\left( a_{i}^{},a_{- i}^{*} \right)
+\forall a_{i} \in A_{i}\text{, and }\forall\text{ players }i
 ```
 
 Strictly dominated strategies:
@@ -119,7 +128,8 @@ An action``a_{i}`` is strictly dominated if there is another action
 possible combinations of other players’ actions:
 
 ```math
-u\left( a_{i}^{*},a_{- i} \right) > u\left( a_{i}^{},a_{- i} \right)\forallpossiblea_{- i}
+u\left( a_{i}^{*},a_{- i} \right) > u\left( a_{i}^{},a_{- i} \right)
+\forall\text{ possible }a_{-i}
 ```
 
 Strictly dominated strategies are not played in a Nash equilibrium, so they can
@@ -131,7 +141,9 @@ An action ``a_{i}`` is said to be weakly dominated if one can *sometimes*
 improve by changing to another strategy ``a_{i}^{*}:``
 
 ```math
-n{u\left( a_{i}^{*},a_{- i} \right) \geq u\left( a_{i}^{},a_{- i} \right)\forallpossiblea_{- i}\&\existsa_{- i}\text{suchthatu}\left( a_{i}^{*},a_{- i} \right) > u\left( a_{i}^{},a_{- i} \right)}
+n{u\left( a_{i}^{*},a_{- i} \right) \geq u\left( a_{i}^{},a_{- i}
+\right)\forall\text{possible}a_{- i}\&\exists a_{- i}\text{ such that }
+u \left(a_{i}^{*},a_{- i} \right) > u\left( a_{i}^{},a_{- i} \right)}
 ```
 
 Best response functions:
@@ -159,12 +171,12 @@ available to player ``i``. In other words, a mixed strategy is a vector of real
 numbers for player ``i`` in ``N``, satisfying the property that each element is
 in the real numbers and between zero and one. That is, element ``x_{i}^{k}`` in
 mixed strategy vector ``x_{i}`` for player ``\text{i}``satisfies ``x_{i}^{k}
-\in R,\ 0 \leq x_{i}^{k} \leq 1,\forallk``. The number of elements in this
+\in R,\ 0 \leq x_{i}^{k} \leq 1,\forall k``. The number of elements in this
 vector is equal to the number of actions in player ``i``’s set of available
-actions. Thus, the vector looks as follows: ``x_{i} = (x_{i}^{1}``,``\
-x_{i}^{2},x_{i}^{3}\ldots x_{i}^{m})``, where each probability ``x_{i}^{m}`` is
-the chance out of 1 that the player ``i`` will select a corresponding action
-``a_{i}^{m}``. Alternatively, this can be written as follows: ``x_{i} = (\
+actions. Thus, the vector looks as follows: ``x_{i} = (x_{i}^{1}``,
+``x_{i}^{2},x_{i}^{3}\ldots x_{i}^{m})``, where each probability ``x_{i}^{m}``
+is the chance out of 1 that the player ``i`` will select a corresponding action
+``a_{i}^{m}``. Alternatively, this can be written as follows: ``x_{i} = (
 x_{i}^{}(a_{i}^{1})``,``x_{i}^{}\left( a_{i}^{2} \right),x_{i}^{}\left(
 a_{i}^{3} \right)\ldots x_{i}^{}\left( a_{i}^{m} \right))``, where
 ``x_{i}\left( a_{i}^{m} \right)`` is the probability of player ``i`` selecting
@@ -217,23 +229,27 @@ U_{i}\left( x \right) = \sum_{c \in A}^{}{x(c)*u_{i}(c)}
 A mixed strategy Nash equilibrium is a situation in a vNM game where:
 
 ```math
-U_{i}\left( x_{1}^{*}*\ldots*x_{i}^{*}*\ldots*x_{n}^{*} \right) \geq U_{i}\left( x_{1}^{*}*\ldots*x_{i}^{}*\ldots*x_{n}^{*} \right)\forallx_{i} \in X_{i},and\forallplayersi
+U_{i}\left( x_{1}^{*}*\ldots*x_{i}^{*}*\ldots*x_{n}^{*} \right) \geq U_{i}\left( x_{1}^{*}*\ldots*x_{i}^{}*\ldots*x_{n}^{*} \right)
+\forall x_{i} \in X_{i}\text{ , and }\forall\text{ players }i
 ```
 
 Using another notation:
 
 ```math
-U_{i}\left( x_{i}^{*},x_{- i}^{*} \right) \geq U_{i}\left( x_{i}^{},x_{- i}^{*} \right)\forallx_{i} \in X_{i},and\forallplayersi
+U_{i}\left( x_{i}^{*},x_{- i}^{*} \right) \geq U_{i}\left( x_{i}^{},x_{- i}^{*} \right)
+\forall x_{i} \in X_{i}\text{ , and }\forall\text{ players }i
 ```
 
 Strict & non-strict mixed strategy Nash equilibrium:
 
 ```math
-Strict = U_{i}\left( x_{i}^{*},x_{- i}^{*} \right) > U_{i}\left( x_{i}^{},x_{- i}^{*} \right)\forallx_{i} \in X_{i},and\forallplayersi
+\text{Strict} = U_{i}\left( x_{i}^{*},x_{- i}^{*} \right) > U_{i}\left( x_{i}^{},x_{- i}^{*} \right)
+\forall x_{i} \in X_{i}\text{ , and }\forall\text{ players }i
 ```
 
 ```math
-Non - strict = U_{i}\left( x_{i}^{*},x_{- i}^{*} \right) \geq U_{i}\left( x_{i}^{},x_{- i}^{*} \right)\forallx_{i} \in X_{i},and\forallplayersi
+\text{Non-strict} = U_{i}\left( x_{i}^{*},x_{- i}^{*} \right) \geq U_{i}\left( x_{i}^{},x_{- i}^{*} \right)
+\forall x_{i} \in X_{i}\text{ , and }\forall\text{ players }i
 ```
 
 A nondegenerate mixed strategy Nash equilibrium (a mixed strategy Nash
@@ -245,7 +261,7 @@ which this mixed strategy assigns positive probability.
 Strictly dominated strategies:
 
 In a strategic game with vNM preferences, player ``i``’s mixed strategy
-``x_{i}`` strictly dominates his/her pure non-mixed action ``a_{i}`` if ``U_{i}\
+``x_{i}`` strictly dominates his/her pure non-mixed action ``a_{i}`` if ``U_{i}
 (x_{i},a_{- i}) > u_{i}(a_{i},a_{- i})`` for every list ``a_{- i}`` of
 the other players’ pure actions. In a Nash equilibrium of a strategic game with
 ordinal preferences no player uses a strictly dominated action. The same is true
@@ -275,8 +291,7 @@ other players have chosen for the game (mixed or pure) and returns the best
 possible set of responses for player ``\text{i}``(mixed or pure). In a Nash
 equilibrium, everyone plays a best response.
 
-Solving for Nash equilibrium:
-=============================
+### Solving for Nash equilibrium
 
 1.  First, solve for *pure strategy* equilibria
     -   Elimination of strictly dominated strategies
@@ -336,8 +351,7 @@ Solving for Nash equilibrium:
         equilibrium are indifferent not only between their pure strategies, but
         also between any mix or combination of their pure strategies.
 
-Rendezvous Problem:
-===================
+### Rendezvous Problem
 
 Two people agreed to meet at a park which neither has been to. When they
 arrive, they discover that the park is huge and they have no way of finding
@@ -353,7 +367,7 @@ What is the infimum expected meeting time R (first time when the players occupy
 the same point) which can be achieved assuming the two players must adopt the
 same strategy?
 
-Other Fun Problems: ===================
+### Other Fun Problems
 
 [Gold and Pirates (Thanks Matthew, for the
 suggestion!)](http://fivethirtyeight.com/features/can-you-solve-the-puzzle-of-the-pirate-booty/)
@@ -365,25 +379,16 @@ problem!)[^1]
 description of the problem! Skip to the section on randomized problems and the
 solution Greg showed in the session is provided there.
 
-Sources / Further Reading: ==========================
+### Sources / Further Reading
 
 Extensive form games:
-<http://web.stanford.edu/~jdlevin/Econ%20203/ExtensiveForm.pdf>
-
-<http://academics.hamilton.edu/economics/cgeorges/game-theory-files/Notation-Definitions.pdf>
-
-<http://oyc.yale.edu/sites/default/files/mixed_strategies_handout_0.pdf>
-
-<http://www.inf.ed.ac.uk/teaching/courses/agta/lec2.pdf>
-
-<http://pioneer.netserv.chula.ac.th/~ptanapo1/gamebook.pdf>
-
-<http://homepages.cwi.nl/~apt/stra/ch10.pdf>
-
-<http://www.openproblemgarden.org/op/rendezvous_on_a_line>
-
-<https://www.macalester.edu/~abeverid/papers/rendezvous-line.pdf>
-
-<http://www.cdam.lse.ac.uk/Reports/Files/cdam-2007-05.pdf>
-
-<http://www.optimization-online.org/DB_FILE/2006/05/1400.pdf>
+- http://web.stanford.edu/~jdlevin/Econ%20203/ExtensiveForm.pdf
+- http://academics.hamilton.edu/economics/cgeorges/game-theory-files/Notation-Definitions.pdf
+- http://oyc.yale.edu/sites/default/files/mixed_strategies_handout_0.pdf
+- http://www.inf.ed.ac.uk/teaching/courses/agta/lec2.pdf
+- http://pioneer.netserv.chula.ac.th/~ptanapo1/gamebook.pdf
+- http://homepages.cwi.nl/~apt/stra/ch10.pdf
+- http://www.openproblemgarden.org/op/rendezvous_on_a_line
+- https://www.macalester.edu/~abeverid/papers/rendezvous-line.pdf
+- http://www.cdam.lse.ac.uk/Reports/Files/cdam-2007-05.pdf
+- http://www.optimization-online.org/DB_FILE/2006/05/1400.pdf

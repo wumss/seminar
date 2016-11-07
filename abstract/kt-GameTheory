@@ -9,19 +9,3 @@ games, and how we can “solve games” using the Nash equilibrium. Hopefully we
 get to “play” some ourselves. Towards the end, we can also review some neat
 unsolved problems in game theory that are very easy to understand, but prove
 really difficult to solve. 
-
-### Outline
-
-- Initial Auction
-- What is a game?
-    - What are the types of games which can be played?
-    - Games with perfect information, games with imperfect information,
-      symmetric vs. asymmetric games, sequential vs. simultaneous games, zero
-      versus non-zero sum, co-operative vs. non-co-operative games.
-- What kinds of strategies can be employed?
-    - Mixed vs. pure strategies
-    - How do you “solve” a game mathematically?
-    - Nash Equilibrium: history, how it was derived, and meaning
-    - Minimax Theorem: etc.
-    - Best response functions
-    - Strictly vs. weakly dominated actions
