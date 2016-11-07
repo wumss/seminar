@@ -20,34 +20,21 @@ Walkthrough:
 ============
 
 1.  Initial auction
-
 2.  What is a game? (See page 2)
-
 3.  What are the types of games which can be played?
-
-    \-Games can have perfect or imperfect information, be symmetric or
+  - Games can have perfect or imperfect information, be symmetric or
     asymmetric, sequential or simultaneous, zero or non-zero sum, co-operative
     or non-co-operative.
-
 4.  What kinds of strategies can be employed? (See page 2-3)
-
-    \-Strategies can be mixed and pure, or just pure in form
-
+  - Strategies can be mixed and pure, or just pure in form
 5.  How do you “solve” a game mathematically?
-
-    \-Nash equilibrium: history, how it was derived, and meaning (See page 2, 4)
-
-    \-Minimax theorem
-
-    \-Best response functions (See page 2, 4)
-
-    \-Comparing strictly and weakly dominated actions (See page 2, 4)
-
-    \-Further tips on calculating Nash equilibrium (See page 5-6)
-
+  - Nash equilibrium: history, how it was derived, and meaning (See page 2, 4)
+  - Minimax theorem
+  - Best response functions (See page 2, 4)
+  - Comparing strictly and weakly dominated actions (See page 2, 4)
+  - Further tips on calculating Nash equilibrium (See page 5-6)
 6.  Unsolved problems:
-
-    \-Rendezvous on a line
+  - Rendezvous on a line
 
 Interesting Results: 
 =====================
@@ -101,35 +88,35 @@ Preferences for each player are given by a “payoff” function, defined on the
 of actions each player has chosen to play (the action profile) to the real
 numbers. In other words:
 
-$$
+```math
 \text{Player\ }i^{'}s\ Preferences = u_{i}:\left( a_{1},a_{2},a_{3}\ldots a_{n} \right)\mathbb{\rightarrow R\ }\text{or\ }u_{i}:(a\mathbb{) \rightarrow R}
-$$
+```
 
 A game is symmetric if the payoffs depend only on the strategies employed, not
 on who is playing them. For example, Prisoner’s Dilemma is symmetric.
 
 A Nash equilibrium is a situation in a game where:
 
-$$
+```math
 u_{i}\left( a_{1}^{*}\ldots{a_{i}^{*}\ldots a}_{n}^{*} \right) \geq u_{i}\left( a_{1}^{*}\ldots a_{i}^{\ }\ldots a_{n}^{*} \right)\ \forall\ a_{i} \in A_{i},\ and\ \forall\ players\ i
-$$
+```
 
 Using another notation, where $$a_{- i}^{*}\$$represents the actions that all
 other players $$\neq i$$ have chosen,
 
-$$
+```math
 u_{i}\left( a_{i}^{*},\ a_{- i}^{*} \right) \geq u_{i}\left( a_{i}^{\ },a_{- i}^{*} \right)\ \forall\ a_{i} \in A_{i},\ and\ \forall\ players\ i
-$$
+```
 
 Strict & non-strict Nash equilibrium:
 
-$$
+```math
 Strict = \ u_{i}\left( a_{i}^{*},\ a_{- i}^{*} \right) > u_{i}\left( a_{i}^{\ },a_{- i}^{*} \right)\ \forall\ a_{i} \in A_{i},\ and\ \forall\ players\ i
-$$
+```
 
-$$
+```math
 Non - strict = \ u_{i}\left( a_{i}^{*},\ a_{- i}^{*} \right) \geq u_{i}\left( a_{i}^{\ },a_{- i}^{*} \right)\ \forall\ a_{i} \in A_{i},\ and\ \forall\ players\ i
-$$
+```
 
 Strictly dominated strategies:
 
@@ -137,9 +124,9 @@ An action$$\ a_{i}\$$is strictly dominated if there is another action
 $$a_{i}^{*}$$ which results in a higher payoff for player $$i$$ through all the
 possible combinations of other players’ actions:
 
-$$
+```math
 u\left( a_{i}^{*},\ a_{- i} \right) > u\left( a_{i}^{\ },\ a_{- i} \right)\ \forall\ possible\ a_{- i}
-$$
+```
 
 Strictly dominated strategies are not played in a Nash equilibrium, so they can
 be removed from the game when looking for such points.
@@ -149,9 +136,9 @@ Weakly dominated strategies:
 An action $$a_{i}\$$is said to be weakly dominated if one can *sometimes*
 improve by changing to another strategy $$a_{i}^{*}:$$
 
-$$
+```math
 \backslash n{u\left( a_{i}^{*},\ a_{- i} \right) \geq u\left( a_{i}^{\ },\ a_{- i} \right)\ \forall\ possible\ a_{- i}\ \&\ \exists\ a_{- i}\text{\ such\ that\ u}\left( a_{i}^{*},\ a_{- i} \right) > u\left( a_{i}^{\ },\ a_{- i} \right)}
-$$
+```
 
 Best response functions:
 
@@ -198,9 +185,9 @@ Preferences for each player involve two parts. The first part involves a simple
 strategies), defined on the set of given actions for each player to the real
 numbers. In other words:
 
-$$
+```math
 u_{i}:\left( a_{1},a_{2},a_{3}\ldots a_{n} \right)\mathbb{\rightarrow R\ }\text{or\ }u_{i}:(a\mathbb{) \rightarrow R}
-$$
+```
 
 The second involves the probability of that result occurring, given by the
 probability that player one selects action $$a_{1},\$$and player two selects
@@ -210,9 +197,9 @@ can just be calculated by a product: $$\left( \text{\ x}_{1}^{\ }\left( a_{1}
 \right)*\ldots*x_{n}^{\ }\left( a_{n} \right)\  \right)$$. This product
 multiplied by the payoff of the actual actions is an expected value.
 
-$$
+```math
 \left( \text{\ x}_{1}^{\ }\left( a_{1} \right)*\ x_{2}^{\ }\left( a_{2} \right)*x_{3}^{\ }\left( a_{3} \right)*\ldots*x_{n}^{\ }\left( a_{n} \right)\  \right)*u_{i}:(a_{1},a_{2},a_{3}\ldots a_{n})
-$$
+```
 
 Calculating this over every single possible combination of actions and summing
 them all gives us the expected payoff of player $$\text{i\ }$$under a mixed
@@ -222,38 +209,38 @@ a_{2} \right)*x_{3}^{\ }\left( a_{3} \right)*\ldots*x_{n}^{\ }\left( a_{n}
 \right)\  \right)$$. Let $$c = \left( a_{1},a_{2},\ldots,a_{n} \right) \in A$$
 be some given combination of pure strategies. Then you have:
 
-$$
+```math
 x\left( c \right) = \prod_{j = 1}^{n}{x_{j}^{\ }\left( a_{j} \right)}
-$$
+```
 
 Where $$a_{j}$$ is just some action for player $$j$$ in the combination of pure
 strategies $$c$$. Then:
 
-$$
+```math
 U_{i}\left( x \right) = \sum_{c \in A}^{\ }{x(c)*u_{i}(c)}
-$$
+```
 
 A mixed strategy Nash equilibrium is a situation in a vNM game where:
 
-$$
+```math
 U_{i}\left( x_{1}^{*\ }*\ldots*x_{i}^{*}*\ldots*x_{n}^{*\ } \right) \geq U_{i}\left( x_{1}^{*\ }*\ldots*x_{i}^{\ }*\ldots*x_{n}^{*\ } \right)\ \forall\ x_{i} \in X_{i},\ and\ \forall\ players\ i
-$$
+```
 
 Using another notation:
 
-$$
+```math
 U_{i}\left( x_{i}^{*},\ x_{- i}^{*\ } \right) \geq U_{i}\left( x_{i}^{\ },x_{- i}^{*\ } \right)\ \forall\ x_{i} \in X_{i},\ and\ \forall\ players\ i
-$$
+```
 
 Strict & non-strict mixed strategy Nash equilibrium:
 
-$$
+```math
 Strict = \ U_{i}\left( x_{i}^{*},\ x_{- i}^{*\ } \right) > U_{i}\left( x_{i}^{\ },x_{- i}^{*\ } \right)\ \forall\ x_{i} \in X_{i},\ and\ \forall\ players\ i
-$$
+```
 
-$$
+```math
 Non - strict = \ U_{i}\left( x_{i}^{*},\ x_{- i}^{*\ } \right) \geq U_{i}\left( x_{i}^{\ },x_{- i}^{*\ } \right)\ \forall\ x_{i} \in X_{i},\ and\ \forall\ players\ i
-$$
+```
 
 A nondegenerate mixed strategy Nash equilibrium (a mixed strategy Nash
 equilibrium that is not also a pure strategy Nash equilibrium) is never strict:
