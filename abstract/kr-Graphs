@@ -1,0 +1,11 @@
+How do we count how many holes a shape has? We can answer this question using
+homology groups, whose order's count the number of ``n``-dimensional holes.
+
+## Outline
+
+- Simplexes
+- Simplical Complexes
+- Orientation
+- Chain groups
+- Boundary Homomorphism
+- Homology Groups

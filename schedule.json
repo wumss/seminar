@@ -141,10 +141,11 @@
     },
     {
         "time": "2016-11-11T17:30:00Z",
-        "topic": "Graphs, Surfaces, and Homology",
+        "topic": "Simplical Homology",
         "speaker": "Kai Rüsch",
         "location": "MC 4020",
         "identifier": "kr-Graphs",
+        "abstract": "kr-Graphs",
         "tags": [
             "analysis",
             "graph-theory",
