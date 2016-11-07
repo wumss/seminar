@@ -1,4 +1,4 @@
 (#:markdown "../pages/archived-talks.md")
 
-(#:each t talks
+(#:each t (reverse talks)
   (render-talk-brief t))

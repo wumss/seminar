@@ -11,7 +11,7 @@
 
 (h2 "Completed Talks")
 
-(#:each t done
+(#:each t (reverse done)
   (render-talk-brief (brief t)))
 
 (h2 "Scheduled Talks")
