@@ -1,10 +1,9 @@
-Description:
-============
+### Description
 
 A game is a mathematical model between interacting decision makers, where each
 player must make choices based on a set of rules. Every individual in a game
-must also have a preferred reaction to any combination of actions taken by other
-agents.
+must also have a preferred reaction to any combination of actions taken by
+other agents.
 
 Game theory is about the study and application of these models. It involves
 various solution concepts and methods that can be employed to predict the
@@ -13,83 +12,78 @@ outcomes of strategic engagements.
 This talk will introduce the major ideas in the field. There will be a focus on
 basic definitions, types of games, and how we can “solve games” using the Nash
 equilibrium. Hopefully we’ll get to “play” some ourselves. Towards the end, we
-can also review some neat unsolved problems in game theory that are very easy to
-understand, but prove difficult to solve.
+can also review some neat unsolved problems in game theory that are very easy
+to understand, but prove difficult to solve.
 
-Walkthrough:
-============
+### Walkthrough
 
-1.  Initial auction
-2.  What is a game? (See page 2)
-3.  What are the types of games which can be played?
+- Initial auction
+- What is a game? (See page 2)
+- What are the types of games which can be played?
   - Games can have perfect or imperfect information, be symmetric or
     asymmetric, sequential or simultaneous, zero or non-zero sum, co-operative
     or non-co-operative.
-4.  What kinds of strategies can be employed? (See page 2-3)
+- What kinds of strategies can be employed? (See page 2-3)
   - Strategies can be mixed and pure, or just pure in form
-5.  How do you “solve” a game mathematically?
+- How do you “solve” a game mathematically?
   - Nash equilibrium: history, how it was derived, and meaning (See page 2, 4)
   - Minimax theorem
   - Best response functions (See page 2, 4)
   - Comparing strictly and weakly dominated actions (See page 2, 4)
   - Further tips on calculating Nash equilibrium (See page 5-6)
-6.  Unsolved problems:
+- Unsolved problems:
   - Rendezvous on a line
 
-Interesting Results: 
-=====================
+### Interesting Results
 
 [A Tutorial on the Proof of the Existence of Nash
 Equilibria](http://www.cs.ubc.ca/~jiang/papers/NashReport.pdf)
 
-Interesting Applications:
-=========================
+### Interesting Applications
 
-[Game Theory in Practice](http://www.economist.com/node/21527025); [Airline
-Pricing Strategy 1](http://www.wbiconpro.com/244-Lim.pdf) & [Airline Pricing
-Strategy 2](http://link.springer.com/article/10.1057/rpm.2008.30); [Optimization
-of Auctions
-(Theory)](https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch09.pdf)
-& [Optimization of Auctions
-(Application)](http://www.sciencedirect.com/science/article/pii/S0014292196000177);
-[Arrows Impossibility Theorem
-(Introduction)](http://www.ssc.wisc.edu/~dquint/econ698/lecture%202.pdf) &
-[Three Brief Proofs of Arrow’s Impossibility
-Theorem](http://www.math.cornell.edu/twiki/pub/SMI/SocialChoice/JohnGArrow.pdf);
-[Modeling Network Traffic using Game
-Theory](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch08.pdf);
-[Computer Science and Game Theory: A Brief
-Survey](https://www.cs.cornell.edu/home/halpern/papers/csgt.pdf); [A Theory of
-StarCraft](https://www.youtube.com/watch?v=L7XiE_V0PZ8&list=PL8F6C117EDAE9EF2E);
-[Soccer Penalty
-Kicks](http://pricetheory.uchicago.edu/levitt/Papers/ChiapporiGrosecloseLevitt2002.pdf).
+- [Game Theory in Practice](http://www.economist.com/node/21527025)
+- [Airline Pricing Strategy 1](http://www.wbiconpro.com/244-Lim.pdf)
+- [Airline Pricing Strategy 2](http://link.springer.com/article/10.1057/rpm.2008.30)
+- [Optimization of Auctions (Theory)](https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch09.pdf)
+- [Optimization of Auctions (Application)](http://www.sciencedirect.com/science/article/pii/S0014292196000177)
+- [Arrows Impossibility Theorem (Introduction)](http://www.ssc.wisc.edu/~dquint/econ698/lecture%202.pdf)
+- [Three Brief Proofs of Arrow’s Impossibility Theorem](http://www.math.cornell.edu/twiki/pub/SMI/SocialChoice/JohnGArrow.pdf)
+- [Modeling Network Traffic using Game Theory](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch08.pdf)
+- [Computer Science and Game Theory: A Brief Survey](https://www.cs.cornell.edu/home/halpern/papers/csgt.pdf)
+- [A Theory of StarCraft](https://www.youtube.com/watch?v=L7XiE_V0PZ8&list=PL8F6C117EDAE9EF2E)
+- [Soccer Penalty Kicks](http://pricetheory.uchicago.edu/levitt/Papers/ChiapporiGrosecloseLevitt2002.pdf)
 
-Game Theory Notes:
-==================
+### Game Theory Notes
 
 A game with ordinal preferences is a *tuple* or *list* (players, actions,
 preferences)
 
-Players are a set ``N = \{ 1,\ 2,\ 3,4\ldots n\}``
+Players are a set ``N = \{ 1, 2, 3,4\ldots n\}``
 
-Actions are a set of ``\text{m\ }``choices available to each player ``i`` in
-``\text{N.\ }``This gives us: ``A_{i} = \{ a_{i}^{1},a_{i}^{2},a_{i}^{3}\ldots
-a_{i}^{m}\}``. Note, not all players have to have the same number of choices
-available to them.
+Actions are a set of ``\text{m}`` choices available to each player ``i`` in
+``N``. This gives us:
 
-Let ``A = A_{1} \times A_{2} \times \ldots\  \times A_{n}`` be the set of
+```math
+A_{i} = \{ a_{i}^{1},a_{i}^{2},a_{i}^{3}\ldots a_{i}^{m}\}
+```
+Note, not all players have to have the same number of choices available to
+them.
+
+Let ``A = A_{1} \times A_{2} \times \ldots  \times A_{n}`` be the set of
 possible combinations of pure strategies among all players.
 
-Action profiles are a set composed of the actions each player has chosen for the
-game. The action profile can be written as follows: ``a = \{ a_{1},\ a_{2},\
-a_{3}\ldots a_{n}\}`` indexed by ``i`` where ``i`` is part of the player set.
+Action profiles are a set composed of the actions each player has chosen for
+the game. The action profile can be written as follows: ``a = \{ a_{1},
+a_{2}, a_{3}\ldots a_{n}\}`` indexed by ``i`` where ``i`` is part of the
+player set.
 
-Preferences for each player are given by a “payoff” function, defined on the set
-of actions each player has chosen to play (the action profile) to the real
+Preferences for each player are given by a “payoff” function, defined on the
+set of actions each player has chosen to play (the action profile) to the real
 numbers. In other words:
 
 ```math
-\text{Player\ }i^{'}s\ Preferences = u_{i}:\left( a_{1},a_{2},a_{3}\ldots a_{n} \right)\mathbb{\rightarrow R\ }\text{or\ }u_{i}:(a\mathbb{) \rightarrow R}
+\text{Player }i^{'}s\text{ Preferences} =
+u_{i}:\left( a_{1},a_{2},a_{3}\ldots a_{n} \right)\mathbb{\rightarrow R}\text{or}u_{i}:(a\mathbb{) \rightarrow R}
 ```
 
 A game is symmetric if the payoffs depend only on the strategies employed, not
@@ -98,34 +92,34 @@ on who is playing them. For example, Prisoner’s Dilemma is symmetric.
 A Nash equilibrium is a situation in a game where:
 
 ```math
-u_{i}\left( a_{1}^{*}\ldots{a_{i}^{*}\ldots a}_{n}^{*} \right) \geq u_{i}\left( a_{1}^{*}\ldots a_{i}^{\ }\ldots a_{n}^{*} \right)\ \forall\ a_{i} \in A_{i},\ and\ \forall\ players\ i
+u_{i}\left( a_{1}^{*}\ldots{a_{i}^{*}\ldots a}_{n}^{*} \right) \geq u_{i}\left( a_{1}^{*}\ldots a_{i}^{}\ldots a_{n}^{*} \right)\foralla_{i} \in A_{i},and\forallplayersi
 ```
 
-Using another notation, where ``a_{- i}^{*}\``represents the actions that all
+Using another notation, where ``a_{- i}^{*}`` represents the actions that all
 other players ``\neq i`` have chosen,
 
 ```math
-u_{i}\left( a_{i}^{*},\ a_{- i}^{*} \right) \geq u_{i}\left( a_{i}^{\ },a_{- i}^{*} \right)\ \forall\ a_{i} \in A_{i},\ and\ \forall\ players\ i
+u_{i}\left( a_{i}^{*},a_{- i}^{*} \right) \geq u_{i}\left( a_{i}^{},a_{- i}^{*} \right)\foralla_{i} \in A_{i},and\forallplayersi
 ```
 
 Strict & non-strict Nash equilibrium:
 
 ```math
-Strict = \ u_{i}\left( a_{i}^{*},\ a_{- i}^{*} \right) > u_{i}\left( a_{i}^{\ },a_{- i}^{*} \right)\ \forall\ a_{i} \in A_{i},\ and\ \forall\ players\ i
+Strict = u_{i}\left( a_{i}^{*},a_{- i}^{*} \right) > u_{i}\left( a_{i}^{},a_{- i}^{*} \right)\foralla_{i} \in A_{i},and\forallplayersi
 ```
 
 ```math
-Non - strict = \ u_{i}\left( a_{i}^{*},\ a_{- i}^{*} \right) \geq u_{i}\left( a_{i}^{\ },a_{- i}^{*} \right)\ \forall\ a_{i} \in A_{i},\ and\ \forall\ players\ i
+Non - strict = u_{i}\left( a_{i}^{*},a_{- i}^{*} \right) \geq u_{i}\left( a_{i}^{},a_{- i}^{*} \right)\foralla_{i} \in A_{i},and\forallplayersi
 ```
 
 Strictly dominated strategies:
 
-An action``\ a_{i}\``is strictly dominated if there is another action
+An action``a_{i}`` is strictly dominated if there is another action
 ``a_{i}^{*}`` which results in a higher payoff for player ``i`` through all the
 possible combinations of other players’ actions:
 
 ```math
-u\left( a_{i}^{*},\ a_{- i} \right) > u\left( a_{i}^{\ },\ a_{- i} \right)\ \forall\ possible\ a_{- i}
+u\left( a_{i}^{*},a_{- i} \right) > u\left( a_{i}^{},a_{- i} \right)\forallpossiblea_{- i}
 ```
 
 Strictly dominated strategies are not played in a Nash equilibrium, so they can
@@ -133,52 +127,52 @@ be removed from the game when looking for such points.
 
 Weakly dominated strategies:
 
-An action ``a_{i}\``is said to be weakly dominated if one can *sometimes*
+An action ``a_{i}`` is said to be weakly dominated if one can *sometimes*
 improve by changing to another strategy ``a_{i}^{*}:``
 
 ```math
-\backslash n{u\left( a_{i}^{*},\ a_{- i} \right) \geq u\left( a_{i}^{\ },\ a_{- i} \right)\ \forall\ possible\ a_{- i}\ \&\ \exists\ a_{- i}\text{\ such\ that\ u}\left( a_{i}^{*},\ a_{- i} \right) > u\left( a_{i}^{\ },\ a_{- i} \right)}
+n{u\left( a_{i}^{*},a_{- i} \right) \geq u\left( a_{i}^{},a_{- i} \right)\forallpossiblea_{- i}\&\existsa_{- i}\text{suchthatu}\left( a_{i}^{*},a_{- i} \right) > u\left( a_{i}^{},a_{- i} \right)}
 ```
 
 Best response functions:
 
-The best response function is a set valued function that takes actions which all
-other players have chosen for the game and returns the best possible set of
-responses for player ``\text{i.}`` In a Nash equilibrium, everyone plays a best
+The best response function is a set valued function that takes actions which
+all other players have chosen for the game and returns the best possible set of
+responses for player ``\text{i}`` In a Nash equilibrium, everyone plays a best
 response.
 
 A game with von Neumann-Morgenstern (vNM) preferences is a *tuple* or *list*
 (players, actions, preferences)
 
-Players are a set ``N = \{ 1,\ 2,\ 3,4\ldots n\}``
+Players are a set ``N = \{ 1,2,3,4\ldots n\}``
 
-Actions are a set of ``\text{m\ }``choices available to each player ``i`` in
-``\text{N.\ }``This gives us:``\ A_{i} = \{ a_{i}^{1},a_{i}^{2},a_{i}^{3}\ldots
+Actions are a set of ``\text{m}``choices available to each player ``i`` in
+``\text{N.}``This gives us:``A_{i} = \{ a_{i}^{1},a_{i}^{2},a_{i}^{3}\ldots
 a_{i}^{m}\}``. Note, not all players have to have the same number of choices
 available to them.
 
-Let ``A = A_{1} \times A_{2} \times \ldots\  \times A_{n}`` be the set of
+Let ``A = A_{1} \times A_{2} \times \ldots \times A_{n}`` be the set of
 possible combinations of pure strategies among all players.
 
-A mixed strategy is a probability distribution over the set of actions available
-to player ``i``. In other words, a mixed strategy is a vector of real numbers
-for player ``i`` in ``N,\``satisfying the property that each element is in the
-real numbers and between zero and one. That is, element ``x_{i}^{k}`` in mixed
-strategy vector ``x_{i}`` for player ``\text{i\ }``satisfies ``x_{i}^{k} \in R,\
-0 \leq x_{i}^{k} \leq 1,\ \forall\ k``. The number of elements in this vector is
-equal to the number of actions in player ``i``’s set of available actions. Thus,
-the vector looks as follows: ``x_{i} = (x_{i}^{1}``,``\
+A mixed strategy is a probability distribution over the set of actions
+available to player ``i``. In other words, a mixed strategy is a vector of real
+numbers for player ``i`` in ``N``, satisfying the property that each element is
+in the real numbers and between zero and one. That is, element ``x_{i}^{k}`` in
+mixed strategy vector ``x_{i}`` for player ``\text{i}``satisfies ``x_{i}^{k}
+\in R,\ 0 \leq x_{i}^{k} \leq 1,\forallk``. The number of elements in this
+vector is equal to the number of actions in player ``i``’s set of available
+actions. Thus, the vector looks as follows: ``x_{i} = (x_{i}^{1}``,``\
 x_{i}^{2},x_{i}^{3}\ldots x_{i}^{m})``, where each probability ``x_{i}^{m}`` is
 the chance out of 1 that the player ``i`` will select a corresponding action
 ``a_{i}^{m}``. Alternatively, this can be written as follows: ``x_{i} = (\
-x_{i}^{\ }(a_{i}^{1})``,``\ x_{i}^{\ }\left( a_{i}^{2} \right),x_{i}^{\ }\left(
-a_{i}^{3} \right)\ldots x_{i}^{\ }\left( a_{i}^{m} \right)\ )``, where
+x_{i}^{}(a_{i}^{1})``,``x_{i}^{}\left( a_{i}^{2} \right),x_{i}^{}\left(
+a_{i}^{3} \right)\ldots x_{i}^{}\left( a_{i}^{m} \right))``, where
 ``x_{i}\left( a_{i}^{m} \right)`` is the probability of player ``i`` selecting
 action ``a_{i}^{m}``.
 
-Let ``X_{i}\``denote the set of possible mixed strategies for player ``i``. Then
-let``\ X = X_{1} \times X_{2} \times \ldots \times X_{n}`` denote the set of all
-possible combinations of mixed strategies among all players.
+Let ``X_{i}`` denote the set of possible mixed strategies for player ``i``.
+Then let``X = X_{1} \times X_{2} \times \ldots \times X_{n}`` denote the set of
+all possible combinations of mixed strategies among all players.
 
 Preferences for each player involve two parts. The first part involves a simple
 “payoff” function (the same kind we had for a regular game with pure
@@ -186,60 +180,60 @@ strategies), defined on the set of given actions for each player to the real
 numbers. In other words:
 
 ```math
-u_{i}:\left( a_{1},a_{2},a_{3}\ldots a_{n} \right)\mathbb{\rightarrow R\ }\text{or\ }u_{i}:(a\mathbb{) \rightarrow R}
+u_{i}:\left( a_{1},a_{2},a_{3}\ldots a_{n} \right)\mathbb{\rightarrow R}\text{or}u_{i}:(a\mathbb{) \rightarrow R}
 ```
 
 The second involves the probability of that result occurring, given by the
-probability that player one selects action ``a_{1},\``and player two selects
+probability that player one selects action ``a_{1},`` and player two selects
 action ``a_{2}``, and so on, up to player ``n`` selecting action ``a_{n}``. This
-can just be calculated by a product: ``\left( \text{\ x}_{1}^{\ }\left( a_{1}
-\right)*\ x_{2}^{\ }\left( a_{2} \right)*x_{3}^{\ }\left( a_{3}
-\right)*\ldots*x_{n}^{\ }\left( a_{n} \right)\  \right)``. This product
+can just be calculated by a product: ``\left( \text{x}_{1}^{}\left( a_{1}
+\right)*x_{2}^{}\left( a_{2} \right)*x_{3}^{}\left( a_{3}
+\right)*\ldots*x_{n}^{}\left( a_{n} \right) \right)``. This product
 multiplied by the payoff of the actual actions is an expected value.
 
 ```math
-\left( \text{\ x}_{1}^{\ }\left( a_{1} \right)*\ x_{2}^{\ }\left( a_{2} \right)*x_{3}^{\ }\left( a_{3} \right)*\ldots*x_{n}^{\ }\left( a_{n} \right)\  \right)*u_{i}:(a_{1},a_{2},a_{3}\ldots a_{n})
+\left( \text{x}_{1}^{}\left( a_{1} \right)*x_{2}^{}\left( a_{2} \right)*x_{3}^{}\left( a_{3} \right)*\ldots*x_{n}^{}\left( a_{n} \right) \right)*u_{i}:(a_{1},a_{2},a_{3}\ldots a_{n})
 ```
 
 Calculating this over every single possible combination of actions and summing
-them all gives us the expected payoff of player ``\text{i\ }``under a mixed
+them all gives us the expected payoff of player ``\text{i}``under a mixed
 strategy profile. Note that we assume players make their choices independently.
-Let ``x = \left( \text{\ x}_{1}^{\ }\left( a_{1} \right)*\ x_{2}^{\ }\left(
-a_{2} \right)*x_{3}^{\ }\left( a_{3} \right)*\ldots*x_{n}^{\ }\left( a_{n}
-\right)\  \right)``. Let ``c = \left( a_{1},a_{2},\ldots,a_{n} \right) \in A``
+Let ``x = \left( \text{x}_{1}^{}\left( a_{1} \right)*x_{2}^{}\left(
+a_{2} \right)*x_{3}^{}\left( a_{3} \right)*\ldots*x_{n}^{}\left( a_{n}
+\right) \right)``. Let ``c = \left( a_{1},a_{2},\ldots,a_{n} \right) \in A``
 be some given combination of pure strategies. Then you have:
 
 ```math
-x\left( c \right) = \prod_{j = 1}^{n}{x_{j}^{\ }\left( a_{j} \right)}
+x\left( c \right) = \prod_{j = 1}^{n}{x_{j}^{}\left( a_{j} \right)}
 ```
 
 Where ``a_{j}`` is just some action for player ``j`` in the combination of pure
 strategies ``c``. Then:
 
 ```math
-U_{i}\left( x \right) = \sum_{c \in A}^{\ }{x(c)*u_{i}(c)}
+U_{i}\left( x \right) = \sum_{c \in A}^{}{x(c)*u_{i}(c)}
 ```
 
 A mixed strategy Nash equilibrium is a situation in a vNM game where:
 
 ```math
-U_{i}\left( x_{1}^{*\ }*\ldots*x_{i}^{*}*\ldots*x_{n}^{*\ } \right) \geq U_{i}\left( x_{1}^{*\ }*\ldots*x_{i}^{\ }*\ldots*x_{n}^{*\ } \right)\ \forall\ x_{i} \in X_{i},\ and\ \forall\ players\ i
+U_{i}\left( x_{1}^{*}*\ldots*x_{i}^{*}*\ldots*x_{n}^{*} \right) \geq U_{i}\left( x_{1}^{*}*\ldots*x_{i}^{}*\ldots*x_{n}^{*} \right)\forallx_{i} \in X_{i},and\forallplayersi
 ```
 
 Using another notation:
 
 ```math
-U_{i}\left( x_{i}^{*},\ x_{- i}^{*\ } \right) \geq U_{i}\left( x_{i}^{\ },x_{- i}^{*\ } \right)\ \forall\ x_{i} \in X_{i},\ and\ \forall\ players\ i
+U_{i}\left( x_{i}^{*},x_{- i}^{*} \right) \geq U_{i}\left( x_{i}^{},x_{- i}^{*} \right)\forallx_{i} \in X_{i},and\forallplayersi
 ```
 
 Strict & non-strict mixed strategy Nash equilibrium:
 
 ```math
-Strict = \ U_{i}\left( x_{i}^{*},\ x_{- i}^{*\ } \right) > U_{i}\left( x_{i}^{\ },x_{- i}^{*\ } \right)\ \forall\ x_{i} \in X_{i},\ and\ \forall\ players\ i
+Strict = U_{i}\left( x_{i}^{*},x_{- i}^{*} \right) > U_{i}\left( x_{i}^{},x_{- i}^{*} \right)\forallx_{i} \in X_{i},and\forallplayersi
 ```
 
 ```math
-Non - strict = \ U_{i}\left( x_{i}^{*},\ x_{- i}^{*\ } \right) \geq U_{i}\left( x_{i}^{\ },x_{- i}^{*\ } \right)\ \forall\ x_{i} \in X_{i},\ and\ \forall\ players\ i
+Non - strict = U_{i}\left( x_{i}^{*},x_{- i}^{*} \right) \geq U_{i}\left( x_{i}^{},x_{- i}^{*} \right)\forallx_{i} \in X_{i},and\forallplayersi
 ```
 
 A nondegenerate mixed strategy Nash equilibrium (a mixed strategy Nash
@@ -252,7 +246,7 @@ Strictly dominated strategies:
 
 In a strategic game with vNM preferences, player ``i``’s mixed strategy
 ``x_{i}`` strictly dominates his/her pure non-mixed action ``a_{i}`` if ``U_{i}\
-(x_{i},\ a_{- i})\  > \ u_{i}(a_{i}\ ,\ a_{- i})`` for every list ``a_{- i}`` of
+(x_{i},a_{- i}) > u_{i}(a_{i},a_{- i})`` for every list ``a_{- i}`` of
 the other players’ pure actions. In a Nash equilibrium of a strategic game with
 ordinal preferences no player uses a strictly dominated action. The same is true
 in a mixed strategy equilibrium. Also, a strictly dominated action is not used
@@ -261,10 +255,10 @@ with positive probability in any mixed strategy equilibrium.
 Weakly dominated strategies:
 
 In a strategic game with vNM preferences, player ``i``’s mixed strategy
-``x_{i}\``weakly dominates his/her action ``a_{i}\``if ``U_{i}\left( x_{i},\
-a_{- i} \right)\  \geq \ u_{i}\left( a_{i},\ a_{- i} \right)`` for every list
-``a_{- i}\``of the other players’ actions and ``U_{i}\left( x_{i},\ a_{- i}
-\right)\  > \ u_{i}(a_{i}\ ,\ a_{- i})`` for some list ``a_{- i}\``of the other
+``x_{i}`` weakly dominates his/her action ``a_{i}`` if ``U_{i}\left( x_{i},
+a_{- i} \right) \geq u_{i}\left( a_{i},a_{- i} \right)`` for every list
+``a_{- i}`` of the other players’ actions and ``U_{i}\left( x_{i},a_{- i}
+\right) > u_{i}(a_{i},a_{- i})`` for some list ``a_{- i}`` of the other
 players’ actions. A weakly dominated action may be used in a Nash equilibrium.
 Thus, a weakly dominated action may be used with positive probability in a mixed
 strategy equilibrium, so that we cannot eliminate weakly dominated actions from
@@ -278,7 +272,7 @@ Best response functions:
 
 The best response function is a set valued function that takes actions which all
 other players have chosen for the game (mixed or pure) and returns the best
-possible set of responses for player ``\text{i\ }``(mixed or pure). In a Nash
+possible set of responses for player ``\text{i}``(mixed or pure). In a Nash
 equilibrium, everyone plays a best response.
 
 Solving for Nash equilibrium:
@@ -305,39 +299,39 @@ Solving for Nash equilibrium:
     -   Elimination of strictly dominated strategies:
         -   Try to find a mix of two or more strategies that dominate a third
             strategy
-    -   If a mixed strategy is a best response, then each of the pure strategies
-        involved in the mix must themselves be a best response. In other words,
-        if the best response to your opponent’s action involves mixed strategy,
-        then every pure strategy in the mix is a best response. You are
-        indifferent between your pure and mixed strategies.
-        -   Proof: If a mixed strategy is a best response, then each of the pure
-            strategies involved in the mix must themselves be a best response.
-            Each must yield the same expected payoff. Why is this true? Suppose
-            it were not true. Then there must be at least one pure strategy that
-            is assigned positive probability by the best-response mix and that
-            yields a lower expected payoff. If there is more than one, focus on
-            the one that yields the lowest expected payoff. Suppose that
-            (low-yield) pure strategy from the mix is dropped, assigning the
-            weight used to one of the other (higher-yield) strategies in the
-            mix. This must raise the expected payoff (just as dropping the
-            player with the lowest batting average on a team must raise the team
-            average). But then the original mixed strategy cannot have been a
-            best response: it does not do as well as the new mixed strategy.
-            This is a contradiction.
+    -   If a mixed strategy is a best response, then each of the pure
+        strategies involved in the mix must themselves be a best response. In
+        other words, if the best response to your opponent’s action involves
+        mixed strategy, then every pure strategy in the mix is a best response.
+        You are indifferent between your pure and mixed strategies.
+        -   Proof: If a mixed strategy is a best response, then each of the
+            pure strategies involved in the mix must themselves be a best
+            response.  Each must yield the same expected payoff. Why is this
+            true? Suppose it were not true. Then there must be at least one
+            pure strategy that is assigned positive probability by the
+            best-response mix and that yields a lower expected payoff. If there
+            is more than one, focus on the one that yields the lowest expected
+            payoff. Suppose that (low-yield) pure strategy from the mix is
+            dropped, assigning the weight used to one of the other
+            (higher-yield) strategies in the mix. This must raise the expected
+            payoff (just as dropping the player with the lowest batting average
+            on a team must raise the team average). But then the original mixed
+            strategy cannot have been a best response: it does not do as well
+            as the new mixed strategy.  This is a contradiction.
     -   The expected payoff in a mixed strategy Nash equilibrium must be the
-        same as the expected payoffs of all pure actions in that mixed strategy.
-        Otherwise, then if the expected value of one action is higher, the
-        player can place a higher probability onto that action and deviate for a
-        higher payoff. Stated another way, if the expected payoffs are the same
-        across all actions in a mixed strategy Nash equilibrium for player x,
-        then this means that to achieve a mixed strategy Nash equilibrium,
-        player y must play his or her actions in a mix such that player x is
-        indifferent between any of his or her pure strategies that he or she
-        would use in a mix.
-    -   If a player does not use an action in a mixed strategy Nash equilibrium,
-        then the expected payoff of this pure strategy must be no greater than
-        the expected payoff of any of the pure strategies the player does use in
-        a mixed strategy equilibrium.
+        same as the expected payoffs of all pure actions in that mixed
+        strategy.  Otherwise, then if the expected value of one action is
+        higher, the player can place a higher probability onto that action and
+        deviate for a higher payoff. Stated another way, if the expected
+        payoffs are the same across all actions in a mixed strategy Nash
+        equilibrium for player x, then this means that to achieve a mixed
+        strategy Nash equilibrium, player y must play his or her actions in a
+        mix such that player x is indifferent between any of his or her pure
+        strategies that he or she would use in a mix.
+    -   If a player does not use an action in a mixed strategy Nash
+        equilibrium, then the expected payoff of this pure strategy must be no
+        greater than the expected payoff of any of the pure strategies the
+        player does use in a mixed strategy equilibrium.
     -   Overall, in two by two games, the players in a mixed strategy Nash
         equilibrium are indifferent not only between their pure strategies, but
         also between any mix or combination of their pure strategies.
@@ -345,21 +339,21 @@ Solving for Nash equilibrium:
 Rendezvous Problem:
 ===================
 
-Two people agreed to meet at a park which neither has been to. When they arrive,
-they discover that the park is huge and they have no way of finding each other.
-What strategy can they both adopt to ensure that they meet, and what is the
-minimum time that they can find each other by using such a strategy?
+Two people agreed to meet at a park which neither has been to. When they
+arrive, they discover that the park is huge and they have no way of finding
+each other.  What strategy can they both adopt to ensure that they meet, and
+what is the minimum time that they can find each other by using such a
+strategy?
 
 Stated more formally:
 
-Two players start at a distance of 2 on an (undirected) line (so, neither player
-knows the direction of the other) and both move at a maximum speed of 1. What is
-the infimum expected meeting time R (first time when the players occupy the same
-point) which can be achieved assuming the two players must adopt the same
-strategy?
+Two players start at a distance of 2 on an (undirected) line (so, neither
+player knows the direction of the other) and both move at a maximum speed of 1.
+What is the infimum expected meeting time R (first time when the players occupy
+the same point) which can be achieved assuming the two players must adopt the
+same strategy?
 
-Other Fun Problems:
-===================
+Other Fun Problems: ===================
 
 [Gold and Pirates (Thanks Matthew, for the
 suggestion!)](http://fivethirtyeight.com/features/can-you-solve-the-puzzle-of-the-pirate-booty/)
@@ -371,8 +365,7 @@ problem!)[^1]
 description of the problem! Skip to the section on randomized problems and the
 solution Greg showed in the session is provided there.
 
-Sources / Further Reading:
-==========================
+Sources / Further Reading: ==========================
 
 Extensive form games:
 <http://web.stanford.edu/~jdlevin/Econ%20203/ExtensiveForm.pdf>
