@@ -70,19 +70,19 @@ Game Theory Notes:
 A game with ordinal preferences is a *tuple* or *list* (players, actions,
 preferences)
 
-Players are a set $$N = \{ 1,\ 2,\ 3,4\ldots n\}$$
+Players are a set ``N = \{ 1,\ 2,\ 3,4\ldots n\}``
 
-Actions are a set of $$\text{m\ }$$choices available to each player $$i$$ in
-$$\text{N.\ }$$This gives us: $$A_{i} = \{ a_{i}^{1},a_{i}^{2},a_{i}^{3}\ldots
-a_{i}^{m}\}$$. Note, not all players have to have the same number of choices
+Actions are a set of ``\text{m\ }``choices available to each player ``i`` in
+``\text{N.\ }``This gives us: ``A_{i} = \{ a_{i}^{1},a_{i}^{2},a_{i}^{3}\ldots
+a_{i}^{m}\}``. Note, not all players have to have the same number of choices
 available to them.
 
-Let $$A = A_{1} \times A_{2} \times \ldots\  \times A_{n}$$ be the set of
+Let ``A = A_{1} \times A_{2} \times \ldots\  \times A_{n}`` be the set of
 possible combinations of pure strategies among all players.
 
 Action profiles are a set composed of the actions each player has chosen for the
-game. The action profile can be written as follows: $$a = \{ a_{1},\ a_{2},\
-a_{3}\ldots a_{n}\}$$ indexed by $$i$$ where $$i$$ is part of the player set.
+game. The action profile can be written as follows: ``a = \{ a_{1},\ a_{2},\
+a_{3}\ldots a_{n}\}`` indexed by ``i`` where ``i`` is part of the player set.
 
 Preferences for each player are given by a “payoff” function, defined on the set
 of actions each player has chosen to play (the action profile) to the real
@@ -101,8 +101,8 @@ A Nash equilibrium is a situation in a game where:
 u_{i}\left( a_{1}^{*}\ldots{a_{i}^{*}\ldots a}_{n}^{*} \right) \geq u_{i}\left( a_{1}^{*}\ldots a_{i}^{\ }\ldots a_{n}^{*} \right)\ \forall\ a_{i} \in A_{i},\ and\ \forall\ players\ i
 ```
 
-Using another notation, where $$a_{- i}^{*}\$$represents the actions that all
-other players $$\neq i$$ have chosen,
+Using another notation, where ``a_{- i}^{*}\``represents the actions that all
+other players ``\neq i`` have chosen,
 
 ```math
 u_{i}\left( a_{i}^{*},\ a_{- i}^{*} \right) \geq u_{i}\left( a_{i}^{\ },a_{- i}^{*} \right)\ \forall\ a_{i} \in A_{i},\ and\ \forall\ players\ i
@@ -120,8 +120,8 @@ Non - strict = \ u_{i}\left( a_{i}^{*},\ a_{- i}^{*} \right) \geq u_{i}\left( a_
 
 Strictly dominated strategies:
 
-An action$$\ a_{i}\$$is strictly dominated if there is another action
-$$a_{i}^{*}$$ which results in a higher payoff for player $$i$$ through all the
+An action``\ a_{i}\``is strictly dominated if there is another action
+``a_{i}^{*}`` which results in a higher payoff for player ``i`` through all the
 possible combinations of other players’ actions:
 
 ```math
@@ -133,8 +133,8 @@ be removed from the game when looking for such points.
 
 Weakly dominated strategies:
 
-An action $$a_{i}\$$is said to be weakly dominated if one can *sometimes*
-improve by changing to another strategy $$a_{i}^{*}:$$
+An action ``a_{i}\``is said to be weakly dominated if one can *sometimes*
+improve by changing to another strategy ``a_{i}^{*}:``
 
 ```math
 \backslash n{u\left( a_{i}^{*},\ a_{- i} \right) \geq u\left( a_{i}^{\ },\ a_{- i} \right)\ \forall\ possible\ a_{- i}\ \&\ \exists\ a_{- i}\text{\ such\ that\ u}\left( a_{i}^{*},\ a_{- i} \right) > u\left( a_{i}^{\ },\ a_{- i} \right)}
@@ -144,40 +144,40 @@ Best response functions:
 
 The best response function is a set valued function that takes actions which all
 other players have chosen for the game and returns the best possible set of
-responses for player $$\text{i.}$$ In a Nash equilibrium, everyone plays a best
+responses for player ``\text{i.}`` In a Nash equilibrium, everyone plays a best
 response.
 
 A game with von Neumann-Morgenstern (vNM) preferences is a *tuple* or *list*
 (players, actions, preferences)
 
-Players are a set $$N = \{ 1,\ 2,\ 3,4\ldots n\}$$
+Players are a set ``N = \{ 1,\ 2,\ 3,4\ldots n\}``
 
-Actions are a set of $$\text{m\ }$$choices available to each player $$i$$ in
-$$\text{N.\ }$$This gives us:$$\ A_{i} = \{ a_{i}^{1},a_{i}^{2},a_{i}^{3}\ldots
-a_{i}^{m}\}$$. Note, not all players have to have the same number of choices
+Actions are a set of ``\text{m\ }``choices available to each player ``i`` in
+``\text{N.\ }``This gives us:``\ A_{i} = \{ a_{i}^{1},a_{i}^{2},a_{i}^{3}\ldots
+a_{i}^{m}\}``. Note, not all players have to have the same number of choices
 available to them.
 
-Let $$A = A_{1} \times A_{2} \times \ldots\  \times A_{n}$$ be the set of
+Let ``A = A_{1} \times A_{2} \times \ldots\  \times A_{n}`` be the set of
 possible combinations of pure strategies among all players.
 
 A mixed strategy is a probability distribution over the set of actions available
-to player $$i$$. In other words, a mixed strategy is a vector of real numbers
-for player $$i$$ in $$N,\$$satisfying the property that each element is in the
-real numbers and between zero and one. That is, element $$x_{i}^{k}$$ in mixed
-strategy vector $$x_{i}$$ for player $$\text{i\ }$$satisfies $$x_{i}^{k} \in R,\
-0 \leq x_{i}^{k} \leq 1,\ \forall\ k$$. The number of elements in this vector is
-equal to the number of actions in player $$i$$’s set of available actions. Thus,
-the vector looks as follows: $$x_{i} = (x_{i}^{1}$$,$$\
-x_{i}^{2},x_{i}^{3}\ldots x_{i}^{m})$$, where each probability $$x_{i}^{m}$$ is
-the chance out of 1 that the player $$i$$ will select a corresponding action
-$$a_{i}^{m}$$. Alternatively, this can be written as follows: $$x_{i} = (\
-x_{i}^{\ }(a_{i}^{1})$$,$$\ x_{i}^{\ }\left( a_{i}^{2} \right),x_{i}^{\ }\left(
-a_{i}^{3} \right)\ldots x_{i}^{\ }\left( a_{i}^{m} \right)\ )$$, where
-$$x_{i}\left( a_{i}^{m} \right)$$ is the probability of player $$i$$ selecting
-action $$a_{i}^{m}$$.
+to player ``i``. In other words, a mixed strategy is a vector of real numbers
+for player ``i`` in ``N,\``satisfying the property that each element is in the
+real numbers and between zero and one. That is, element ``x_{i}^{k}`` in mixed
+strategy vector ``x_{i}`` for player ``\text{i\ }``satisfies ``x_{i}^{k} \in R,\
+0 \leq x_{i}^{k} \leq 1,\ \forall\ k``. The number of elements in this vector is
+equal to the number of actions in player ``i``’s set of available actions. Thus,
+the vector looks as follows: ``x_{i} = (x_{i}^{1}``,``\
+x_{i}^{2},x_{i}^{3}\ldots x_{i}^{m})``, where each probability ``x_{i}^{m}`` is
+the chance out of 1 that the player ``i`` will select a corresponding action
+``a_{i}^{m}``. Alternatively, this can be written as follows: ``x_{i} = (\
+x_{i}^{\ }(a_{i}^{1})``,``\ x_{i}^{\ }\left( a_{i}^{2} \right),x_{i}^{\ }\left(
+a_{i}^{3} \right)\ldots x_{i}^{\ }\left( a_{i}^{m} \right)\ )``, where
+``x_{i}\left( a_{i}^{m} \right)`` is the probability of player ``i`` selecting
+action ``a_{i}^{m}``.
 
-Let $$X_{i}\$$denote the set of possible mixed strategies for player $$i$$. Then
-let$$\ X = X_{1} \times X_{2} \times \ldots \times X_{n}$$ denote the set of all
+Let ``X_{i}\``denote the set of possible mixed strategies for player ``i``. Then
+let``\ X = X_{1} \times X_{2} \times \ldots \times X_{n}`` denote the set of all
 possible combinations of mixed strategies among all players.
 
 Preferences for each player involve two parts. The first part involves a simple
@@ -190,11 +190,11 @@ u_{i}:\left( a_{1},a_{2},a_{3}\ldots a_{n} \right)\mathbb{\rightarrow R\ }\text{
 ```
 
 The second involves the probability of that result occurring, given by the
-probability that player one selects action $$a_{1},\$$and player two selects
-action $$a_{2}$$, and so on, up to player $$n$$ selecting action $$a_{n}$$. This
-can just be calculated by a product: $$\left( \text{\ x}_{1}^{\ }\left( a_{1}
+probability that player one selects action ``a_{1},\``and player two selects
+action ``a_{2}``, and so on, up to player ``n`` selecting action ``a_{n}``. This
+can just be calculated by a product: ``\left( \text{\ x}_{1}^{\ }\left( a_{1}
 \right)*\ x_{2}^{\ }\left( a_{2} \right)*x_{3}^{\ }\left( a_{3}
-\right)*\ldots*x_{n}^{\ }\left( a_{n} \right)\  \right)$$. This product
+\right)*\ldots*x_{n}^{\ }\left( a_{n} \right)\  \right)``. This product
 multiplied by the payoff of the actual actions is an expected value.
 
 ```math
@@ -202,19 +202,19 @@ multiplied by the payoff of the actual actions is an expected value.
 ```
 
 Calculating this over every single possible combination of actions and summing
-them all gives us the expected payoff of player $$\text{i\ }$$under a mixed
+them all gives us the expected payoff of player ``\text{i\ }``under a mixed
 strategy profile. Note that we assume players make their choices independently.
-Let $$x = \left( \text{\ x}_{1}^{\ }\left( a_{1} \right)*\ x_{2}^{\ }\left(
+Let ``x = \left( \text{\ x}_{1}^{\ }\left( a_{1} \right)*\ x_{2}^{\ }\left(
 a_{2} \right)*x_{3}^{\ }\left( a_{3} \right)*\ldots*x_{n}^{\ }\left( a_{n}
-\right)\  \right)$$. Let $$c = \left( a_{1},a_{2},\ldots,a_{n} \right) \in A$$
+\right)\  \right)``. Let ``c = \left( a_{1},a_{2},\ldots,a_{n} \right) \in A``
 be some given combination of pure strategies. Then you have:
 
 ```math
 x\left( c \right) = \prod_{j = 1}^{n}{x_{j}^{\ }\left( a_{j} \right)}
 ```
 
-Where $$a_{j}$$ is just some action for player $$j$$ in the combination of pure
-strategies $$c$$. Then:
+Where ``a_{j}`` is just some action for player ``j`` in the combination of pure
+strategies ``c``. Then:
 
 ```math
 U_{i}\left( x \right) = \sum_{c \in A}^{\ }{x(c)*u_{i}(c)}
@@ -250,9 +250,9 @@ which this mixed strategy assigns positive probability.
 
 Strictly dominated strategies:
 
-In a strategic game with vNM preferences, player $$i$$’s mixed strategy
-$$x_{i}$$ strictly dominates his/her pure non-mixed action $$a_{i}$$ if $$U_{i}\
-(x_{i},\ a_{- i})\  > \ u_{i}(a_{i}\ ,\ a_{- i})$$ for every list $$a_{- i}$$ of
+In a strategic game with vNM preferences, player ``i``’s mixed strategy
+``x_{i}`` strictly dominates his/her pure non-mixed action ``a_{i}`` if ``U_{i}\
+(x_{i},\ a_{- i})\  > \ u_{i}(a_{i}\ ,\ a_{- i})`` for every list ``a_{- i}`` of
 the other players’ pure actions. In a Nash equilibrium of a strategic game with
 ordinal preferences no player uses a strictly dominated action. The same is true
 in a mixed strategy equilibrium. Also, a strictly dominated action is not used
@@ -260,11 +260,11 @@ with positive probability in any mixed strategy equilibrium.
 
 Weakly dominated strategies:
 
-In a strategic game with vNM preferences, player $$i$$’s mixed strategy
-$$x_{i}\$$weakly dominates his/her action $$a_{i}\$$if $$U_{i}\left( x_{i},\
-a_{- i} \right)\  \geq \ u_{i}\left( a_{i},\ a_{- i} \right)$$ for every list
-$$a_{- i}\$$of the other players’ actions and $$U_{i}\left( x_{i},\ a_{- i}
-\right)\  > \ u_{i}(a_{i}\ ,\ a_{- i})$$ for some list $$a_{- i}\$$of the other
+In a strategic game with vNM preferences, player ``i``’s mixed strategy
+``x_{i}\``weakly dominates his/her action ``a_{i}\``if ``U_{i}\left( x_{i},\
+a_{- i} \right)\  \geq \ u_{i}\left( a_{i},\ a_{- i} \right)`` for every list
+``a_{- i}\``of the other players’ actions and ``U_{i}\left( x_{i},\ a_{- i}
+\right)\  > \ u_{i}(a_{i}\ ,\ a_{- i})`` for some list ``a_{- i}\``of the other
 players’ actions. A weakly dominated action may be used in a Nash equilibrium.
 Thus, a weakly dominated action may be used with positive probability in a mixed
 strategy equilibrium, so that we cannot eliminate weakly dominated actions from
@@ -278,48 +278,38 @@ Best response functions:
 
 The best response function is a set valued function that takes actions which all
 other players have chosen for the game (mixed or pure) and returns the best
-possible set of responses for player $$\text{i\ }$$(mixed or pure). In a Nash
+possible set of responses for player ``\text{i\ }``(mixed or pure). In a Nash
 equilibrium, everyone plays a best response.
 
 Solving for Nash equilibrium:
 =============================
 
 1.  First, solve for *pure strategy* equilibria
-
     -   Elimination of strictly dominated strategies
-
     -   Best response functions: In a Nash Equilibrium, the players play their
         best responses to one another’s strategies. To find these best
         responses:
-
         -   If payoffs are differentiable, you are free to use calculus. You can
             take the derivative of the payoff function with respect to your own
             action (which is on some interval), given the fixed actions of other
             players. Set this value to zero, and ensure that you have a global
             maximum (can be done by taking the second derivative, and comparing
             to other critical points).
-
         -   If the best response function outputs are discrete or
             non-differentiable, just find where the best response function
             outputs (which are set valued) intersect.
-
         -   If the game can be displayed in a simple table, then the best
             responses for both players can just be highlighted in their
             respective cells.
-
 2.  Then find all *mixed strategy* Nash equilibria:
-
     -   Elimination of strictly dominated strategies:
-
         -   Try to find a mix of two or more strategies that dominate a third
             strategy
-
     -   If a mixed strategy is a best response, then each of the pure strategies
         involved in the mix must themselves be a best response. In other words,
         if the best response to your opponent’s action involves mixed strategy,
         then every pure strategy in the mix is a best response. You are
         indifferent between your pure and mixed strategies.
-
         -   Proof: If a mixed strategy is a best response, then each of the pure
             strategies involved in the mix must themselves be a best response.
             Each must yield the same expected payoff. Why is this true? Suppose
@@ -334,7 +324,6 @@ Solving for Nash equilibrium:
             average). But then the original mixed strategy cannot have been a
             best response: it does not do as well as the new mixed strategy.
             This is a contradiction.
-
     -   The expected payoff in a mixed strategy Nash equilibrium must be the
         same as the expected payoffs of all pure actions in that mixed strategy.
         Otherwise, then if the expected value of one action is higher, the
@@ -345,12 +334,10 @@ Solving for Nash equilibrium:
         player y must play his or her actions in a mix such that player x is
         indifferent between any of his or her pure strategies that he or she
         would use in a mix.
-
     -   If a player does not use an action in a mixed strategy Nash equilibrium,
         then the expected payoff of this pure strategy must be no greater than
         the expected payoff of any of the pure strategies the player does use in
         a mixed strategy equilibrium.
-
     -   Overall, in two by two games, the players in a mixed strategy Nash
         equilibrium are indifferent not only between their pure strategies, but
         also between any mix or combination of their pure strategies.
