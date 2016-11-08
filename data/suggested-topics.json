@@ -675,5 +675,15 @@
         ],
         "excerpt": "Volker Strassen showed that ``n^3`` matrix multiplication was not optimal in 1969. Since then, new algorithms such as Coppersmith-Winograd have further improved the time complexity of matrix multiplication. It is conjectured that matrix multiplication is possible in ``O(n^{2+ɛ})`` for any ``ɛ>0``, however small. This is one of the few remaining open problems in finite-dimensional linear algebra.",
         "see-also": []
+    },
+    {
+        "topic": "Heegner Numbers",
+        "tags": [
+            "algebra",
+            "first-year-friendly",
+            "number-theory"
+        ],
+        "references": [],
+        "see-also": []
     }
 ]
