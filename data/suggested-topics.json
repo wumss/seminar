@@ -7,7 +7,7 @@
             "model-checking"
         ],
         "references": [
-            "http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf"
+            "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)"
         ],
         "see-also": []
     },
@@ -18,7 +18,7 @@
             "prime-numbers"
         ],
         "references": [
-            "http://people.math.umass.edu/~bates/Primes.pdf"
+            "[Matthew Bates](http://people.math.umass.edu/~bates/Primes.pdf)"
         ],
         "see-also": []
     },
@@ -29,7 +29,7 @@
             "physics"
         ],
         "references": [
-            "http://www.scholarpedia.org/article/Principle_of_least_action"
+            "[Principle of Least Action (Scholarpedia)](http://www.scholarpedia.org/article/Principle_of_least_action)"
         ],
         "see-also": []
     },
@@ -73,7 +73,7 @@
             "functional-programming"
         ],
         "references": [
-            "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf"
+            "[D. A. Turner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf)"
         ],
         "see-also": []
     },
@@ -85,7 +85,7 @@
             "runtime-polymorphism"
         ],
         "references": [
-            "ftp://publications.ai.mit.edu/ai-publications/2001/AITR-2001-006.pdf"
+            "[Aaron Mark Ucko](ftp://publications.ai.mit.edu/ai-publications/2001/AITR-2001-006.pdf)"
         ],
         "see-also": []
     },
@@ -98,7 +98,7 @@
             "generalized-riemann-hypothesis"
         ],
         "references": [
-            "https://arxiv.org/pdf/1210.1451.pdf"
+            "[Bruno Grenet, Pascal Koiran, Natacha Portier](https://arxiv.org/pdf/1210.1451.pdf)"
         ],
         "see-also": []
     },
@@ -110,7 +110,7 @@
             "information-theory"
         ],
         "references": [
-            "http://homepages.cwi.nl/~paulv/course-kc/KC-Lecture1.pdf"
+            "[Paul Vitanyi](http://homepages.cwi.nl/~paulv/course-kc/KC-Lecture1.pdf)"
         ],
         "see-also": []
     },
@@ -122,7 +122,7 @@
             "computer-science"
         ],
         "references": [
-            "https://homotopytypetheory.org/book/"
+            "[Homotopy Type Theory (Book)](https://homotopytypetheory.org/book/)"
         ],
         "see-also": []
     },
@@ -134,7 +134,7 @@
             "logic"
         ],
         "references": [
-            "http://www.math.helsinki.fi/logic/sellc-2010/course/LectureIII.pdf"
+            "[Samson Abramsky](http://www.math.helsinki.fi/logic/sellc-2010/course/LectureIII.pdf)"
         ],
         "see-also": []
     },
@@ -144,8 +144,10 @@
             "knot-theory",
             "topology"
             ],
-        "references": ["http://homepages.math.uic.edu/~kauffman/RTang.pdf",
-                      "C. C. Adams : The Knot Book: An elementary introduction to the mathematical theory of knots"],
+        "references": [
+            "[Jay R. Goldman and Louis H. Kauffman](http://homepages.math.uic.edu/~kauffman/RTang.pdf)",
+            "C. C. Adams : The Knot Book: An elementary introduction to the mathematical theory of knots"
+        ],
         "see-also": []
     },
     {
@@ -154,29 +156,33 @@
             "set-theory",
             "challenge!"
         ],
-        "references": ["http://www.math.ucla.edu/~ineeman/223s.1.11s/223s-spring11-lecture-notes-6-5.pdf",
-                      "http://www-math.mit.edu/~tchow/forcing.pdf"],
+        "references": [
+            "[Itay Neeman](http://www.math.ucla.edu/~ineeman/223s.1.11s/223s-spring11-lecture-notes-6-5.pdf)",
+            "[Timothy Y. Chow](http://www-math.mit.edu/~tchow/forcing.pdf)"
+        ],
         "see-also": []
     },
     {
-        "topic": "Differential Equations on Fractals'",
+        "topic": "Differential Equations on Fractals",
         "tags": [
             "analysis",
             "differential-equations",
             "fractals"
             ],
-        "references": ["Robert Strichartz : Differential Equations on Fractals - A tutorial"],
+        "references": [
+            "Robert Strichartz : Differential Equations on Fractals - A tutorial"
+        ],
         "see-also": []
     },
     {
-        "topic": "Optimal Stopping Theory and the Secretary Problem'",
+        "topic": "Optimal Stopping Theory and the Secretary Problem",
         "tags": [
             "probability",
             "statistics",
             "decision-theory"
             ],
-        "references": ["https://www.math.upenn.edu/~ted/210F10/References/Secretary.pdf",
-                       "http://theory.stanford.edu/~sergei/slides/hiring-dagstuhl.pdf"],
+        "references": ["[Thomas S. Ferguson](https://www.math.upenn.edu/~ted/210F10/References/Secretary.pdf)",
+                       "[Sergei Vassilvitski](http://theory.stanford.edu/~sergei/slides/hiring-dagstuhl.pdf)"],
         "see-also": []
     },
     {
@@ -207,7 +213,7 @@
             "linear-algebra"
         ],
         "references": [
-            "John Baez, 2001. Clifford Algebras. http://math.ucr.edu/home/baez/octonions/node6.html"
+            "[John Baez, 2001. Clifford Algebras.](http://math.ucr.edu/home/baez/octonions/node6.html)"
         ],
         "see-also": [
             "fw-Hypercomplex"
@@ -222,7 +228,7 @@
             "optimization"
         ],
         "references": [
-            "Folding@Home Papers Collection: http://folding.stanford.edu/home/papers"
+            "[Folding@Home Papers Collection](http://folding.stanford.edu/home/papers)"
         ],
         "see-also": []
     },
@@ -235,7 +241,7 @@
             "logic"
         ],
         "references": [
-            "Michael J. Fischer and Michael O. Rabin, Super-Exponentional Complexity of Presburger Arithmetic. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.16.9759"
+            "[Michael J. Fischer and Michael O. Rabin, Super-Exponentional Complexity of Presburger Arithmetic.](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.16.9759)"
         ],
         "see-also": []
     },
@@ -247,7 +253,7 @@
             "prime-numbers"
         ],
         "references": [
-            "Gaze, E. & Gaze, J. Math Intelligencer (2016) 38: 14. doi:10.1007/s00283-015-9585-2 https://link.springer.com/article/10.1007/s00283-015-9585-2"
+            "[Gaze, E. & Gaze, J. Math Intelligencer (2016) 38: 14. doi:10.1007/s00283-015-9585-2](https://link.springer.com/article/10.1007/s00283-015-9585-2)"
         ],
         "see-also": []
     },
@@ -259,7 +265,7 @@
             "recreational-mathematics"
         ],
         "references": [
-            "http://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Guy697-712.pdf"
+            "[Richard K. Guy](http://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Guy697-712.pdf)"
         ],
         "see-also": []
     },
@@ -271,7 +277,7 @@
             "plausibility"
         ],
         "references": [
-            "http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf"
+            "[Barry Mazur](http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf)"
         ],
         "see-also": []
     },
@@ -283,7 +289,7 @@
             "geometry"
         ],
         "references": [
-            "http://www.math.harvard.edu/~mazur/papers/Area11.pdf"
+            "[Barry Mazur](http://www.math.harvard.edu/~mazur/papers/Area11.pdf)"
         ],
         "see-also": []
     },

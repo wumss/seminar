@@ -12,7 +12,8 @@
   `((h2 (a ([href ,(ref t 'url)]) ,(ref t 'title)))
     (p ,(ref t 'summary))))
 
-(#:define (render-reference r) r)
+(#:define (render-reference r)
+  ((. StdLib rendermd) r))
 
 (#:define (li x)
   `(li ,x))
