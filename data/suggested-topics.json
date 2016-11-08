@@ -1,5 +1,17 @@
 [
     {
+        "topic": "Down with Determinants",
+        "tags": [
+            "algebra",
+            "determinants",
+            "linear-algebra"
+        ],
+        "references": [
+            "http://www.axler.net/DwD.html"
+        ],
+        "see-also": []
+    },
+    {
         "topic": "Automated Verification of Computational Systems",
         "tags": [
             "computer-science",
