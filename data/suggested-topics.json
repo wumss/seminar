@@ -542,6 +542,7 @@
     {
         "topic": "Gillespie Algorithm",
         "tags": [
+            "algorithms",
             "applied-mathematics",
             "computational-mathematics",
             "differential-equations",
@@ -641,6 +642,7 @@
     {
         "topic": "Sparse Matrices",
         "tags": [
+            "algebra",
             "computational-mathematics",
             "computer-science",
             "linear-algebra"
@@ -654,14 +656,15 @@
         "see-also": []
     },
     {
-        "topic": "The Complexity of Matrix Multiplication",
+        "topic": "Complexity of Matrix Multiplication",
         "tags": [
             "algebra",
             "algorithms",
             "computational-mathematics",
             "computer-science",
             "groups",
-            "linear-algebra"
+            "linear-algebra",
+            "open-problems"
         ],
         "references": [
             "[Don Coppersmith and Shmuel Winograd](http://www.cs.umd.edu/~gasarch/TOPICS/ramsey/matrixmult.pdf)",
