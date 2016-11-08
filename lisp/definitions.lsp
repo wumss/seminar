@@ -31,6 +31,9 @@
       `((h4 "Related Past Talks")
         ,(Cons 'ul (convert List (map (∘ li archive-link)
                                       (ref s 'see-also))))))
+    (if (haskey s 'excerpt)
+      `(,((. StdLib rendermd) (ref s 'excerpt)))
+      '())
     `((p "Quick links: "
          (a ([href ,(string "https://www.google.ca/search?q="
                             (ref s 'topic))])

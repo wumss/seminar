@@ -163,7 +163,7 @@
         "see-also": []
     },
     {
-        "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC'",
+        "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC",
         "tags": [
             "set-theory",
             "challenge!"
@@ -635,6 +635,21 @@
         "references": [
             "[Melissa Gymrek](http://web.mit.edu/sp.268/www/2010/lifeSlides.pdf)"
         ],
+        "see-also": []
+    },
+    {
+        "topic": "Sparse Matrices",
+        "tags": [
+            "computational-mathematics",
+            "computer-science",
+            "linear-algebra"
+        ],
+        "references": [
+            "[Derek O'Connor, An Introduction to Sparse Matrices](http://www.maths.tcd.ie/pub/ims/nl15/nl15_6-30.pdf)",
+			"[Aydın Buluç, Jeremy T. Fineman, Matteo Frigo, John R. Gilbert, Charles E. Leiserson](http://gauss.cs.ucsb.edu/~aydin/csb2009.pdf)",
+			"[Tim Davis](http://faculty.cse.tamu.edu/davis/research.html)"
+        ],
+		"excerpt": "Sparse matrices are frequently used in scientific and numerical computation. How do they work? What new findings have there been? Speakers are encouraged to specialize this broad topic to a particular subfield of interest.",
         "see-also": []
     }
 ]
