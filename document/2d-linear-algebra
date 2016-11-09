@@ -1,0 +1,122 @@
+## Vector Spaces and Subspaces
+
+A **vector space** ``V`` is a set of objects named **vectors** over a field
+``F``, along with binary operations ``+: V×V\to V`` and ``⋅: F×V\to V``, called
+**addition** and **scalar multiplication** respectively. The ``\cdot``
+multiplication symbol is frequently omitted.
+
+A vector space must satisfy the following axioms:
+
+- Addition is associative and commutative
+- There is a zero vector and it is the additive identity
+- For all ``a∈F``, ``b∈F``, ``\mathbf{v}∈V``, we have ``(ab)\mathbf{v} =
+  a(b\mathbf{v})``
+- Tk.
+
+Note that the closure and totality properties are implicit in our definition of
+binary operations.
+
+A **subspace** ``W`` of a vector space ``V`` is a subset of vectors in ``V``
+that itself forms a vector space, inheriting the addition and scalar
+multiplication operations from ``V``.
+
+## The Vector Space ``\mathbf{R}^2``
+
+A **vector** in ``\mathbf{R}^2`` is a pair of numbers ``(a, b)`` where
+``a∈\mathbf{R}`` and ``b∈\mathbf{R}``. We define the following operations on
+vectors:
+
+- ``(a, b) + (c, d) = (a + c, b + d)``
+- ``t (a, b) = (ta, tb)`` where ``t∈\mathbf{R}``
+
+Typically we write vectors in boldface font; e.g.
+``\mathbf{v}∈\mathbf{R}^2``. We denote by ``\mathbf{0}`` the vector ``(0,
+0)``.
+
+Note ``\mathbf{R}^2`` is an example of a vector space. Then a **subspace** of
+``\mathbf{R}^2`` is a set of vectors such that:
+
+- the sum of any two vectors in the set is also in the set;
+- any scalar multiples of vectors in the set are in the set;
+- ``\mathbf{0}`` is in the set.
+
+Frequently we will write the vector ``(a, b)`` as a column vector
+
+```math
+\begin{bmatrix} a \\ b \end{bmatrix}
+```
+
+for notational convenience.
+
+## Linear Transformations
+
+A linear transformation ``T: V \to V`` on vector space ``V`` is a function
+satisfying that for any vectors ``\mathbf{u}∈V``, ``\mathbf{v}∈V``, and scalars
+``a∈F``, ``b∈F``, then
+
+```math
+T(a\mathbf{u} + b\mathbf{v}) = aT\mathbf{u} + bT\mathbf{v}
+```
+
+Note that we frequently omit the brackets when applying a linear transformation;
+that is, ``T\mathbf{u}`` means ``T(\mathbf{u})``.
+
+It is a theorem that all linear transformations from ``\mathbf{R}^2`` to itself
+are of the form
+
+```math
+(x, y) ↦ (ax + by, cx + dy)
+```
+
+so we frequently represent these linear transformations in a more compact form,
+as matrices
+
+```math
+\begin{bmatrix} a & b \\ c & d \end{bmatrix}
+```
+
+where we define
+
+```math
+\begin{bmatrix} a & b \\ c & d \end{bmatrix}
+\begin{bmatrix} x \\ y \end{bmatrix}
+= \begin{bmatrix} ax + by \\ cx + dy \end{bmatrix}
+```
+
+## 2×2 Real Matrices
+
+The 2×2 real matrices themselves form a vector space ``\mathbf{R}^{2×2}`` under
+the typical elementwise operations ``+`` and ``⋅``. Since there are four free
+real parameters, we say that such a vector space is four-dimensional. (A proper
+understanding of dimension is not needed for this talk and so I will skip it.)
+
+We define multiplication between two matrices (note that this is distinct from
+scalar multiplication) to be the composition of their linear transformations. We
+do this definition because we wish for ``(AB)\mathbf{v} = A(B\mathbf{v})``. For
+2×2 real matrices, we have the formula
+
+```math
+\begin{bmatrix} a & b \\ c & d \end{bmatrix}
+\begin{bmatrix} e & f \\ g & h \end{bmatrix}
+= \begin{bmatrix} ae + bg & af + bh \\ ce + dg & cf + dh \end{bmatrix}
+```
+
+## Linear Combinations and Spanning Sets
+
+Suppose we have some finite set of vectors ``\{\mathbf{v}_1, \dots,
+\mathbf{v}_n\} ⊆ V`` from real vector space ``V``. Then for any scalars ``\{a_1,
+\dots, a_n\} ⊆ \mathbf{R}``, the vector
+
+```math
+\mathbf{v} = a_1\mathbf{v}_1 + \dots + a_n\mathbf{v}_n
+```
+
+is said to be a **linear combination** of ``\{\mathbf{v}_1, \dots,
+\mathbf{v}_n\}``. (We can have linear combinations of an infinite number of
+vectors, but there is some more subtlety and it is not needed for this talk.)
+
+Suppose we have some set of vectors ``S = \{\mathbf{v}_1, \dots,
+\mathbf{v}_n\}`` from vector space ``V``. Then the set of all linear
+combinations of ``S`` is a subspace of ``V``, and we call it
+``\operatorname{span}{S}``. This subspace is the smallest subspace of ``V`` that
+contains all vectors in ``S``.

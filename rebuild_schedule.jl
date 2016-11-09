@@ -1,6 +1,7 @@
 #!/usr/bin/env julia
 
 using JSON
+using English
 using DataStructures
 
 include("build_help.jl")
@@ -44,9 +45,22 @@ end
 summarize(t) = "Talk by $(t[:speaker])."
 
 function brief(t)
-    Dict(:title => t[:topic],
-         :url => "/seminar/archive/$(identifier(t))",
-         :summary => summarize(t))
+    if haskey(t, :type) && t[:type] == "reference"
+        Dict(:title => t[:title],
+             :url => "document/$(t[:id])",
+             :summary => join(flatten([
+                ["This is a reference document on $(t[:title])",
+                 "by $(ItemList(t[:authors]))."],
+                (haskey(t, :subsetof) && !isempty(t[:subsetof]) ?
+                    ["It covers a subset of the material of",
+                     "$(ItemList(t[:subsetof], Disjunction()))."] :
+                    [])
+             ]), " "))
+    else
+        Dict(:title => t[:topic],
+             :url => "/seminar/archive/$(identifier(t))",
+             :summary => summarize(t))
+    end
 end
 
 result = JSON.parsefile("schedule.json", dicttype=Dict{Symbol,Any})
@@ -83,6 +97,9 @@ end
 
 # suggestion gathering
 include("topic-suggestions.jl")
+
+# documents
+include("documents.jl")
 tags = sort(collect(tags), by=t -> -tagpopularity[t])
 
 generate_page(Dict(
@@ -116,6 +133,7 @@ for t in tags
         :talkdict => talkdict,
         :done => filter(iscompleted, active_set),
         :scheduled => filter(x -> !iscompleted(x), active_set),
+        :documents => docs_bytag[t],
         :mathjaxplease => true,
         :suggestions => bytag[t]), "tag/$t")
 end

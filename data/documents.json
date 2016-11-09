@@ -1,0 +1,18 @@
+[
+    {
+        "id": "2d-linear-algebra",
+        "title": "Two-Dimensional Linear Algebra",
+        "authors": [
+            "Fengyang Wang"
+        ],
+        "subsetof": [
+            "course:MATH 136",
+            "course:MATH 146"
+        ],
+        "tags": [
+            "algebra",
+            "linear-algebra"
+        ],
+        "type": "reference"
+    }
+]

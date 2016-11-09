@@ -691,10 +691,9 @@
 	"tags": [
 	    "algebra",
 	    "number-theory",
-	    "groups",
+	    "groups"
 	    ],
-	"references": ["(http://www.math.umn.edu/~musiker/schoof.pdf)"],
+	"references": ["[Schoof](http://www.math.umn.edu/~musiker/schoof.pdf)"],
 	"see-also": []
     }
-	
 ]
