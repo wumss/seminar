@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8" /><link rel="stylesheet" href="//yegor256.github.io/tacit/tacit.min.css" /><link rel="stylesheet" href="/seminar/css/custom.css" /><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    jax: [
+        "input/TeX",
+        "input/MathML",
+        "input/AsciiMath",
+        "output/CommonHTML"
+    ],
+    extensions: [
+        "tex2jax.js",
+        "mml2jax.js",
+        "asciimath2jax.js",
+        "MathMenu.js",
+        "MathZoom.js",
+        "AssistiveMML.js"
+    ],
+    TeX: {
+        extensions: [
+            "AMSmath.js",
+            "AMSsymbols.js",
+            "noErrors.js",
+            "noUndefined.js"
+        ]
+    },
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+    },
+    "HTML-CSS": {
+        availableFonts: ["TeX"]
+    }
+});
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script><title>Two-Dimensional Linear Algebra</title></head><body><nav><ul><li><a href="/seminar/">Math Seminar Home</a></li><li><a href="/seminar/archive">archive</a></li><li><a href="/seminar/tags">tags</a></li><li><a href="/seminar/faq">faq</a></li><li><a href="/seminar/potential-topics/#request">speak!</a></li></ul></nav><section><article><h1>Two-Dimensional Linear Algebra</h1><p>This is a reference document on Two-Dimensional Linear Algebra by Fengyang Wang. It covers a subset of the material of course:MATH 136 or course:MATH 146.</p><div class="markdown"><h2>Vector Spaces and Subspaces</h2>
+<p>A <strong>vector space</strong> &#36;V&#36; is a set of objects named <strong>vectors</strong> over a field &#36;F&#36;, along with binary operations &#36;&#43;: V×V\to V&#36; and &#36;⋅: F×V\to V&#36;, called <strong>addition</strong> and <strong>scalar multiplication</strong> respectively. The &#36;\cdot&#36; multiplication symbol is frequently omitted.</p>
+<p>A vector space must satisfy the following axioms:</p>
+<ul>
+<li><p>Addition is associative and commutative</p>
+</li>
+<li><p>There is a zero vector and it is the additive identity</p>
+</li>
+<li><p>For all &#36;a∈F&#36;, &#36;b∈F&#36;, &#36;\mathbf&#123;v&#125;∈V&#36;, we have &#36;&#40;ab&#41;\mathbf&#123;v&#125; &#61; a&#40;b\mathbf&#123;v&#125;&#41;&#36;</p>
+</li>
+<li><p>Tk.</p>
+</li>
+</ul>
+<p>Note that the closure and totality properties are implicit in our definition of binary operations.</p>
+<p>A <strong>subspace</strong> &#36;W&#36; of a vector space &#36;V&#36; is a subset of vectors in &#36;V&#36; that itself forms a vector space, inheriting the addition and scalar multiplication operations from &#36;V&#36;.</p>
+<h2>The Vector Space &#36;\mathbf&#123;R&#125;^2&#36;</h2>
+<p>A <strong>vector</strong> in &#36;\mathbf&#123;R&#125;^2&#36; is a pair of numbers &#36;&#40;a, b&#41;&#36; where &#36;a∈\mathbf&#123;R&#125;&#36; and &#36;b∈\mathbf&#123;R&#125;&#36;. We define the following operations on vectors:</p>
+<ul>
+<li><p>&#36;&#40;a, b&#41; &#43; &#40;c, d&#41; &#61; &#40;a &#43; c, b &#43; d&#41;&#36;</p>
+</li>
+<li><p>&#36;t &#40;a, b&#41; &#61; &#40;ta, tb&#41;&#36; where &#36;t∈\mathbf&#123;R&#125;&#36;</p>
+</li>
+</ul>
+<p>Typically we write vectors in boldface font; e.g. &#36;\mathbf&#123;v&#125;∈\mathbf&#123;R&#125;^2&#36;. We denote by &#36;\mathbf&#123;0&#125;&#36; the vector &#36;&#40;0, 0&#41;&#36;.</p>
+<p>Note &#36;\mathbf&#123;R&#125;^2&#36; is an example of a vector space. Then a <strong>subspace</strong> of &#36;\mathbf&#123;R&#125;^2&#36; is a set of vectors such that:</p>
+<ul>
+<li><p>the sum of any two vectors in the set is also in the set;</p>
+</li>
+<li><p>any scalar multiples of vectors in the set are in the set;</p>
+</li>
+<li><p>&#36;\mathbf&#123;0&#125;&#36; is in the set.</p>
+</li>
+</ul>
+<p>Frequently we will write the vector &#36;&#40;a, b&#41;&#36; as a column vector</p>
+&#36;\begin&#123;bmatrix&#125; a \\ b \end&#123;bmatrix&#125;&#36;
+<p>for notational convenience.</p>
+<h2>Linear Transformations</h2>
+<p>A linear transformation &#36;T: V \to V&#36; on vector space &#36;V&#36; is a function satisfying that for any vectors &#36;\mathbf&#123;u&#125;∈V&#36;, &#36;\mathbf&#123;v&#125;∈V&#36;, and scalars &#36;a∈F&#36;, &#36;b∈F&#36;, then</p>
+&#36;T&#40;a\mathbf&#123;u&#125; &#43; b\mathbf&#123;v&#125;&#41; &#61; aT\mathbf&#123;u&#125; &#43; bT\mathbf&#123;v&#125;&#36;
+<p>Note that we frequently omit the brackets when applying a linear transformation; that is, &#36;T\mathbf&#123;u&#125;&#36; means &#36;T&#40;\mathbf&#123;u&#125;&#41;&#36;.</p>
+<p>It is a theorem that all linear transformations from &#36;\mathbf&#123;R&#125;^2&#36; to itself are of the form</p>
+&#36;&#40;x, y&#41; ↦ &#40;ax &#43; by, cx &#43; dy&#41;&#36;
+<p>so we frequently represent these linear transformations in a more compact form, as matrices</p>
+&#36;\begin&#123;bmatrix&#125; a &amp; b \\ c &amp; d \end&#123;bmatrix&#125;&#36;
+<p>where we define</p>
+&#36;\begin&#123;bmatrix&#125; a &amp; b \\ c &amp; d \end&#123;bmatrix&#125;
+\begin&#123;bmatrix&#125; x \\ y \end&#123;bmatrix&#125;
+&#61; \begin&#123;bmatrix&#125; ax &#43; by \\ cx &#43; dy \end&#123;bmatrix&#125;&#36;
+<h2>2×2 Real Matrices</h2>
+<p>The 2×2 real matrices themselves form a vector space &#36;\mathbf&#123;R&#125;^&#123;2×2&#125;&#36; under the typical elementwise operations &#36;&#43;&#36; and &#36;⋅&#36;. Since there are four free real parameters, we say that such a vector space is four-dimensional. &#40;A proper understanding of dimension is not needed for this talk and so I will skip it.&#41;</p>
+<p>We define multiplication between two matrices &#40;note that this is distinct from scalar multiplication&#41; to be the composition of their linear transformations. We do this definition because we wish for &#36;&#40;AB&#41;\mathbf&#123;v&#125; &#61; A&#40;B\mathbf&#123;v&#125;&#41;&#36;. For 2×2 real matrices, we have the formula</p>
+&#36;\begin&#123;bmatrix&#125; a &amp; b \\ c &amp; d \end&#123;bmatrix&#125;
+\begin&#123;bmatrix&#125; e &amp; f \\ g &amp; h \end&#123;bmatrix&#125;
+&#61; \begin&#123;bmatrix&#125; ae &#43; bg &amp; af &#43; bh \\ ce &#43; dg &amp; cf &#43; dh \end&#123;bmatrix&#125;&#36;
+<h2>Linear Combinations and Spanning Sets</h2>
+<p>Suppose we have some finite set of vectors &#36;\&#123;\mathbf&#123;v&#125;_1, \dots, \mathbf&#123;v&#125;_n\&#125; ⊆ V&#36; from real vector space &#36;V&#36;. Then for any scalars &#36;\&#123;a_1, \dots, a_n\&#125; ⊆ \mathbf&#123;R&#125;&#36;, the vector</p>
+&#36;\mathbf&#123;v&#125; &#61; a_1\mathbf&#123;v&#125;_1 &#43; \dots &#43; a_n\mathbf&#123;v&#125;_n&#36;
+<p>is said to be a <strong>linear combination</strong> of &#36;\&#123;\mathbf&#123;v&#125;_1, \dots, \mathbf&#123;v&#125;_n\&#125;&#36;. &#40;We can have linear combinations of an infinite number of vectors, but there is some more subtlety and it is not needed for this talk.&#41;</p>
+<p>Suppose we have some set of vectors &#36;S &#61; \&#123;\mathbf&#123;v&#125;_1, \dots, \mathbf&#123;v&#125;_n\&#125;&#36; from vector space &#36;V&#36;. Then the set of all linear combinations of &#36;S&#36; is a subspace of &#36;V&#36;, and we call it &#36;\operatorname&#123;span&#125;&#123;S&#125;&#36;. This subspace is the smallest subspace of &#36;V&#36; that contains all vectors in &#36;S&#36;.</p>
+</div><h2>Tags</h2><ul><li><a href="/seminar/tag/algebra">algebra</a></li><li><a href="/seminar/tag/linear-algebra">linear-algebra</a></li></ul></article></section></body></html>
