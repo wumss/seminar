@@ -1,11 +1,16 @@
-From the graph of Facebook friendships to the neurons inside your brain, networks are all around us. We’ll go over some surprising _connections_ in network theory and see some of the following:
+From the graph of Facebook friendships to the neurons inside your brain,
+networks are all around us. We’ll go over some surprising *connections* in
+network theory and see some of the following:
 
 ## Outline
 
 - Random graphs
- - Phase transitions of the Erdos-Renyi random graph, and emergence of the so-called “giant” component 
- - If time permits, discovering that the uniqueness of this component approaches probability of ``\frac{5\pi}{18}``
- - The Rado graph and its connection to first order logic on graphs
+  - Phase transitions of the Erdos-Renyi random graph, and emergence of the
+    so-called “giant” component 
+  - If time permits, discovering that the uniqueness of this component
+    approaches probability of ``\frac{5\pi}{18}``
+  - The Rado graph and its connection to first order logic on graphs
 - Spectral theory of general undirected graphs
- - What the eigenvalues of the adjacency and Laplacian matrices say about the properties of a graph
- - Connections to computer vision and dimensionality reduction
+  - What the eigenvalues of the adjacency and Laplacian matrices say about the
+    properties of a graph
+  - Connections to computer vision and dimensionality reduction
