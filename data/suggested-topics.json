@@ -685,5 +685,16 @@
         ],
         "references": [],
         "see-also": []
+    },
+    {
+	"topic": "Schoof's Algorithm",
+	"tags": [
+	    "algebra",
+	    "number-theory",
+	    "groups",
+	    ],
+	"references": ["(http://www.math.umn.edu/~musiker/schoof.pdf)"],
+	"see-also": []
     }
+	
 ]
