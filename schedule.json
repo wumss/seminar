@@ -1,20 +1,5 @@
 [
     {
-        "time": "2016-10-12T18:30:00Z",
-        "topic": "Quadratic Reciprocity",
-        "speaker": "Fengyang Wang",
-        "location": "Online",
-        "abstract": "fw-NumberTheory",
-        "summary": "fw-NumberTheory",
-        "identifier": "fw-NumberTheory",
-        "tags": [
-            "first-year-friendly",
-            "number-theory",
-            "prime-numbers",
-            "reciprocity"
-        ]
-    },
-    {
         "time": "2016-10-12T17:30:00Z",
         "topic": "Groups",
         "speaker": "Fengyang Wang",

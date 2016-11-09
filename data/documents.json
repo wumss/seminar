@@ -6,12 +6,28 @@
             "Fengyang Wang"
         ],
         "subsetof": [
-            "course:MATH 136",
-            "course:MATH 146"
+            "MATH 136",
+            "MATH 146"
         ],
         "tags": [
             "algebra",
             "linear-algebra"
+        ],
+        "type": "reference"
+    },
+    {
+        "id": "quadratic-reciprocity",
+        "title": "Quadratic Reciprocity",
+        "authors": [
+            "Fengyang Wang"
+        ],
+        "subsetof": [
+            "PMATH 740"
+        ],
+        "tags": [
+            "number-theory",
+            "prime-numbers",
+            "reciprocity"
         ],
         "type": "reference"
     }

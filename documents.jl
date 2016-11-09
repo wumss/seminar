@@ -1,6 +1,6 @@
 documents = JSON.parsefile("data/documents.json";
                            dicttype=Dict{Symbol,Any})
-sort!(documents, by=x -> x[:topic])
+sort!(documents, by=x -> x[:title])
 
 docs_bytag = DefaultDict(String, Vector{Any}, () -> [])
 try mkdir("public/document") end
