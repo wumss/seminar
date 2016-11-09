@@ -58,7 +58,7 @@ function brief(t)
              ]), " "))
     else
         Dict(:title => t[:topic],
-             :url => "/seminar/archive/$(identifier(t))",
+             :url => "archive/$(identifier(t))",
              :summary => summarize(t))
     end
 end
