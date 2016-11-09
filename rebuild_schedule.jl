@@ -4,6 +4,7 @@ using JSON
 using English
 using DataStructures
 
+include("tags.jl")
 include("build_help.jl")
 
 try
@@ -14,16 +15,6 @@ human(d::Date) = Dates.format(d, "E U d, YYYY")
 human(d) = human(Date(d))
 
 identifier(t) = t[:identifier]
-
-function relatedto(t)
-    relevant = filter(x -> t in x[:tags], result)
-    top = [(tag, count(x -> tag in x[:tags], relevant) /
-                 (tagpopularity[tag] + 2))
-           for tag in tags if tag != t]
-    filter!(x -> x[2] > 0, top)
-    sort!(top, by=x -> -x[2])
-    take(top, 5)
-end
 
 function write_summary(t)
     generate_page(merge(Dict(
@@ -85,14 +76,24 @@ end
 
 # tag collection
 talkdict = Dict{String,Any}()
-tagpopularity = DefaultDict(String, Int, 0)
+
+tagmatrix = TagMatrix()
+function populate!(m::TagMatrix, tags, value)
+    for tag in tags
+        m.popularity[tag] += value
+        for tag2 in tags
+            if tag2 > tag
+                m.correlation[(tag, tag2)] += value
+            end
+        end
+    end
+end
+
 for t in result
     talkdict[identifier(t)] = t
     union!(tags, t[:tags])
     value = valuate(t)
-    for tag in t[:tags]
-        tagpopularity[tag] += value
-    end
+    populate!(tagmatrix, t[:tags], value)
 end
 
 # suggestion gathering
@@ -100,7 +101,7 @@ include("topic-suggestions.jl")
 
 # documents
 include("documents.jl")
-tags = sort(collect(tags), by=t -> -tagpopularity[t])
+tags = sort(collect(tags), by=t -> -tagmatrix.popularity[t])
 
 generate_page(Dict(
     :title => "Archived Talks",
@@ -129,7 +130,7 @@ for t in tags
         :tag => t,
         :pagetype => "tag",
         :brief => brief,
-        :related => relatedto(t),
+        :related => relatedto(tagmatrix, t),
         :talkdict => talkdict,
         :done => filter(iscompleted, active_set),
         :scheduled => filter(x -> !iscompleted(x), active_set),

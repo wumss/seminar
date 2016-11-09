@@ -8,9 +8,9 @@ for d in documents
     union!(tags, d[:tags])
     # update tag popularity
     for t in d[:tags]
-        tagpopularity[t] += 1
         push!(docs_bytag[t], d)
     end
+    populate!(tagmatrix, d[:tags], 2)
 
     generate_page(merge(Dict(
         :document => d,

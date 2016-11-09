@@ -7,7 +7,7 @@ for s in suggestions
     union!(tags, s[:tags])
     # update tag popularity
     for t in s[:tags]
-        tagpopularity[t] += 1
         push!(bytag[t], s)
     end
+    populate!(tagmatrix, s[:tags], 1)
 end
