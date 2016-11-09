@@ -9,7 +9,7 @@
   `(li (a ([href ,(string "/seminar/" url)]) ,text)))
 
 (#:define (render-talk-brief t)
-  `((h2 (a ([href ,(ref t 'url)]) ,(ref t 'title)))
+  `((h2 (a ([href ,(string "/seminar/" (ref t 'url))]) ,(ref t 'title)))
     (p ,(ref t 'summary))))
 
 (#:define (render-reference r)

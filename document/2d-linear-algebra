@@ -7,11 +7,16 @@ multiplication symbol is frequently omitted.
 
 A vector space must satisfy the following axioms:
 
-- Addition is associative and commutative
+- Addition is associative
+- Addition is commutative
 - There is a zero vector and it is the additive identity
+- Each vector has an additive inverse
 - For all ``a∈F``, ``b∈F``, ``\mathbf{v}∈V``, we have ``(ab)\mathbf{v} =
   a(b\mathbf{v})``
-- Tk.
+- For all ``a∈F``, ``\mathbf{u}∈V``, and ``\mathbf{v}∈V``, we have
+  ``a(\mathbf{u}+\mathbf{v}) = a\mathbf{u} + a\mathbf{v}``
+- For all ``a∈F``, ``b∈F``, ``\mathbf{v}∈V``, we have ``(a+b)\mathbf{v} =
+  a\mathbf{v} + b\mathbf{v}``
 
 Note that the closure and totality properties are implicit in our definition of
 binary operations.
