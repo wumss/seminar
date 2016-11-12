@@ -16,6 +16,15 @@ for d in documents
         :document => d,
         :pagetype => "document",
         :mathjaxplease => true,
-        :brief => brief
+        :brief => brief,
+        :github => "$GITHUB/document/$(d[:id])"
     ), d), "document/$(d[:id])")
 end
+
+generate_page(Dict(
+    :title => "Documents",
+    :pagetype => "documents",
+    :documents => documents,
+    :brief => brief,
+    :mathjaxplease => true,
+    :github => "$GITHUB/pages/document.md"), "document")
