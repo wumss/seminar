@@ -158,7 +158,9 @@
         "identifier": "fw-Hypercomplex",
         "tags": [
             "algebra",
-            "linear-algebra"
+            "clifford-algebras",
+            "linear-algebra",
+            "numbers"
         ]
     },
     {
