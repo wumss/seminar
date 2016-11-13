@@ -1,2 +1,23 @@
-(Preliminary) I’ll talk about these at a rough level and try to explain a tiny
-bit about how these relate to Fermat’s Last Theorem.
+Elliptic Curves lie in the intersection of Algebra, Geometry, Number Theory and Complex Analysis. While my talk won't require any experience with complex analysis or algebraic geometry, I hope to expose you to this active area of research. I could tell you that the meat of Wiles' proof of Fermat's Last Theorem involved proving a special case conjecture previously known as the Taniyama Shimura conjecture involving elliptic curves, or that the Birch and Swinnerton-Dyer conjecture is an open millenium problem that talks about the relation between the arithmetic behaviour of elliptic curves and the analytic behaviour of an L-function, or that elliptic curves over finite fields is so useful for cryptography that there was a memo that recommended elliptic curves for federal government use in 1999, but you're a math student so I don't need to wow you with applications. Right?
+
+## Outline
+- Introduction (25 mins)
+    - Why rational points on curves?
+    - The Projective Plane
+    - Introduction to Elliptic Curves
+    - Why Elliptic Curves?
+    - Weirstrauss Normal Form
+    - The Group Law
+
+- Points of Finite Order (10 mins)
+    - Nagell Lutz
+    - The Torsion subgroup of E(\mathbb{Q}) and Mazur's Theorem
+
+- Mordell's Theorem (15 mins)
+    - Neron Tate Height
+    - Mordell's Theorem
+    - Rank of an elliptic curve
+
+- Integer Points on Cubic Curves (10 mins)
+    - Siegel's Theorem
+    - Taxicab Numbers and Sums of two cubes
