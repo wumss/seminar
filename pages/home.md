@@ -10,7 +10,7 @@ others.
 We meet every Friday, generally in MC 4020. See our [FAQ](/seminar/faq) for
 frequently asked questions, and the [archive](/seminar/archive) for talks
 before today’s date. To browse talks by topic, see the [tags](/seminar/tags)
-page.
+page. Here is a link to our [facebook group](https://www.facebook.com/groups/334849026859566/).
 
 ## Talk Submissions for Winter 2017
 
