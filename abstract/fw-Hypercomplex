@@ -1,13 +1,37 @@
-We all know that ``\mathrm{i}^2=-1``. But what if it weren’t? This talk
-explores generalizations of the complex numbers.
+There are exactly three distinct two-dimensional unital algebras over the reals,
+up to isomorphism. Each of these algebras corresponds to a unique geometry, with
+applications. This talk will develop the concepts needed to understand
+two-dimensional algebras over the reals, starting from the definitions of key
+concepts. We will rediscover the familiar complex numbers and generalize its
+construction to find the other hypercomplex number systems. We will then prove
+the result that these are the unique hypercomplex number systems, up to
+isomorphism. Finally, we will discuss possible generalizations to ``n``
+dimensions. Please ensure that you have a good understanding of fundamental
+concepts of [two-dimensional linear
+algebra](/seminar/document/2d-linear-algebra).
+
+We will use [Catoni, F., Cannata, R., Catoni, V., & Zampetti, P.
+(2004)](http://link.springer.com/article/10.1007/s00006-004-0008-2) as a
+reference.
 
 ### Outline
 
-- Rotation dilation matrices in two dimensions
-- Complex geometry
-- General ``2\times2`` real matrices
-- Geometry of the split-complex numbers
-- Geometry of the dual numbers
-- Equivalence of hypercomplex number algebras up to isomorphism
-- The general linear group ``\mathsf{GL}(2, \mathbb{R})``
-- Generalization to ``n`` dimensions
+- Definition of the complex number field ``\mathbf{C}`` (10 mins)
+  - Rotation matrices in two dimensions
+  - Dilation matrices in two dimensions
+  - Proofs and definitions of various facts and operations
+  - Geometry of the complex numbers
+- Unital algebras (10 mins)
+  - Definition of key terms
+  - Definition of related concepts
+- Discovery of the hypercomplex number systems (25 mins)
+  - General ``2\times 2`` real matrices
+  - The split-complex numbers, and geometry thereof
+  - The dual numbers, and geometry thereof
+  - Equivalence of hypercomplex number algebras up to isomorphism
+- Applications of the hypercomplex numbers (5 mins)
+  - Differentiation of analytic functions
+- Generalizations (5 mins)
+  - The general linear group ``\mathsf{GL}(2, \mathbf{R})``
+  - Generalization to ``n`` dimensions
+  - Clifford algebras
