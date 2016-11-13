@@ -1,0 +1,146 @@
+### Simplexes 
+## Definition
+	Let $v^0,\dots,v^n$ be $n+1$ vectors in $\euc{N},n\geq 1$. They are called \defobj{affinely linearly independent} if $v^1 - v^0,\dots,v^n - v^0$ are linearly independent. By convention if $n= 0$ then $v^0$ is affinely linearly independent even if its 0.
+
+## Definition
+	Let $v^0,\dots,v^n$ be vectors in $\euc{N}$. A vector $v$ is said to be \defobj{affinely dependent} on them if there exist real numbers $\lambda_0,\dots,\lambda_n$ such that
+	$$
+	\lambda_1 + \dots + \lambda_n = 1 \textrm { and } v = \lambda_0v^0 + \dots \lambda_nv^n
+	$$
+
+## Definition
+	Let $v^0,\dots,v^n$ be a-independent. The \defobj{(closed) simplex} with vertices $v^0,\dots,v^n$ is the set of points a-dependent on $v^0,\dots,v^n$ and with every barycentric coordinate greater than or equal to 0. The simplex is said to be \defobj{spanned} by $v^0,\dots,v^n$. The points with barycentric coordinate greater than 0 are said to be the \defobj{interior} of the simplex, and the set of interior points is sometimes called the \defobj{open simplex} with vertices $v^0,\dots,v^n$. The \defobj{boundary} of the simplex consists of those points which are not interior.
+  We denote a (closed) simplex with a-indepenent vertices $v^0,\dots,v^n$ by $(v^0\dots v^n)$ and often represent it by a symbol $s_n$ or just $s$. The integer $n$ is called the \defobj{dimension} of $(v^0 \dots v^n)$. A simplex of dimension $n$ is called an $n$-simplex.
+
+## Definition
+	Let $s_n = (v^1 \dots v^n)$ be a simplex. A \defobj{face} of $s_n$ is a simplex whose vertices form a (non-empty) subset of $\{v^0,\dots,v^n\}$. If the subset is proper we say the face is a \defobj{proper face}. If $s_p$ is a face of $s_n$ we write $s_p < s_n$ or $s_n > s_p$. Note $s_n < s_n$ for any simplex $s_n$.
+
+### Ordered and Oriented Simplexes
+## Definition
+	Let $s_n = (v^0 \dots v^n)$ be a simplex. An \defobj{orientation} for $s_n$ is a collection of orderings for the vertices consisting of a particular ordering and all even permuations of it. An \defobj{oriented n-simplex} $\sigma_n$ is an $n$-simplex $s_n$, together with an orientation for $s_n$.
+
+	We write $\sigma_n = (v^0 \dots v^n)$ to mean $\sigma_n$ is the oriented $n$-simplex with vertices $(v^0,\dots,v^n)$ and orientation given by the ordering displayed and all even permutations of it. It will always be clear from the context wether $(v^0 \dots v^n)$ means simplex or orientated simplex. When $n > 0$ we write $-\sigma_n$ for the oriented simplex consisting of the same $n$-simplex and the collection of other possible orderings of the vertices. Thus by definition $-(-\sigma_n) = \sigma_n$.
+
+### Simplical Complexes
+## Definition
+A \defobj{simplical complex} is a finite set $K$ of simplexes in $\euc{N}$ with the following two properties
+	- if $s \in K$ and $t < s$ ($t$ is a face of $s$) then $t \in s$
+	- intersection condition: if $s \in K$ and $t \in K$ then $s \cap t$ is either empty or else a face of both $s$ and $t$
+The \defobj{dimension} of $K$ is the largest dimension of any simplex in $K$. The \defobj{underlying space} of $K$, denoted $\abs{K}$, is the set of points in $\euc{N}$ which belong to at least one simplex of $K$.
+\end{defn}
+\begin{defn}
+	A \defobj{subcomplex} of a simplical complex $K$ is a subset $L$ of $K$ which is itself a simplical complex. (This is if and only if $L$ has the property that)
+	$$
+	s \in L \land t < s \Rightarrow t \in L
+	$$
+	The subcomplex is called \defobj{proper} if $L \neq K$.
+	An \defobj{oriented simplical complex} is a simplical complex in which every simplex is provided an orientation.
+\end{defn}
+
+### Abstract Simplicial Complexes
+\begin{defn}
+	An \defobj{abstract simplical complex} is a pair $X = (V,S)$ where $V$ is a finite set whose elements are called the \defobj{vertices} of $X$ and $S$ is a set of non-empty subsets of $V$. Each element $s \in S$ is called a \defobj{simplex} of $X$ and if $s \in S$ has precisely $n+1$ elements, $s$ is called an $n$-simplex. $S$ is required to statisfy the following two conditions
+	\begin{enumerate}
+		\item $v \in V \Rightarrow \{v\} \in S $
+		\item $s \in S, t\subset s \Rightarrow t \in S$
+	\end{enumerate}
+	The \defobj{dimension} of $X$ is so long as $V \neq \emptyset$ the largest $n$ for which $S$ contains an $n$-simplex. 
+\end{defn}
+
+\begin{defn}
+	Two abstract simplical complexes $X = (V,S), X' = (V',S')$ are said to be \defobj{isomorhic} if there is a bijection $f: V \rightarrow V'$ with the property that
+	$$
+	\{v^0,\dots,v^n\} \in S \Leftrightarrow \{f(x^0),\dots,f(x^n)\} \in S'
+	$$
+\end{defn}
+\begin{defn}
+	A \defobj{realization} of an abstract simplical complex $X$ is a simplical complex whose corresponding abstract simplical complex is isomorphic to $X$.
+\end{defn}
+\begin{theorem}
+	Every abstract simplical complex of dimension $n$ has a realization in $\euc{2n + 1}$.
+\end{theorem}
+\section*{Chain Groups and Boundary Homomorphisms}
+\begin{defn}
+	Let $K$ be an oriented simplical complex of dimension $n$, and let $\alpha_p$ be the number of $p$-simplexes of $K$. For $0 \leq p \leq n$ let $\sigma_p^1,\dots,\sigma_p^{\alpha_p}$ be the oriented $p$-simplexes of $K$; for such $p$ the $p$th chain group of $K$, denoted $C_p(K)$ is the free abelian group on the set $\{\sigma_p^1,\dots,\sigma_p^{\alpha_p}\}$. Thus an element of $C_p(K)$ is a linear combination
+	$$
+	\lambda_1\sigma_p^1 + \dots + \lambda_{\alpha_p}\sigma_p^{\alpha_p}
+	$$
+	with $\lambda$'s integers. This is called a $p$-chain on $K$ and two $p$-chains are added by adding the corresponding coefficients. When writing down $p$-chains it is customary to omit $p$-simplexes whose coefficient is zero, unless they are all zero, in which case we write 0.
+\end{defn}
+\begin{defn}
+	Let $\sigma = (v^0 \dots v^p)$ be an oriented $p$-simplex of $K$ for some $p > 0$. The \defobj{boundary} of $\sigma$ is the $(p-1)$-chain 
+	$$
+	\partial \sigma = \partial_p \sigma = \sum_{i=0}^p (-1)^i(v_0 \dots \hat{v^i} \dots v^p)
+	$$
+	For $p = 0$ the boundary is defined to be 0. The \defobj{boundary homomorphism} $\partial = \partial_p : C_p(K) \rightarrow C_{p-1}(K)$ is defined by
+	$$
+	\partial_p(\Sigma\lambda_i\sigma_p^i) = \Sigma\lambda_i\partial_p(\sigma_p^i)
+	$$
+	for $0 \leq p \leq n$ and is defined to be the trivial homomorphism otherwise.
+\end{defn}
+\begin{defn}
+	The \defobj{augmentation}
+	$$
+	\epsilon : C_0(K) \rightarrow \mathbb{Z}
+	$$
+	is the homomorphism defined by
+	$$
+	\epsilon(\Sigma\lambda_i\sigma_0^i) = \Sigma\lambda_i
+	$$
+	the sequences
+	$$
+	\dots 0 \rightarrow 0 \rightarrow C_n(K) \xrightarrow{\partial} C_{n-1}(K) \rightarrow \dots \rightarrow C_1(K) \xrightarrow{\partial} C_0(K) \rightarrow 0 \rightarrow 0 \dots 
+	$$
+	and 
+	$$
+	\dots 0 \rightarrow 0 \rightarrow C_n(K) \xrightarrow{\partial} C_{n-1}(K) \rightarrow \dots \rightarrow C_1(K) \xrightarrow{\partial} C_0(K) \xrightarrow{\epsilon} \mathbb{Z} \rightarrow 0 \dots 
+	$$
+\end{defn}
+are called the \defobj{chain complex} of $K$ and the \defobj{augmented chain complex} of $K$, respectively.
+
+\begin{prop}
+	For any $p$, the homomorphism 
+	$$
+	\partial \circ \partial = \partial_{p-1}\circ \partial_p : C_p(K) \rightarrow C_{p-2}(K)
+	$$
+	is trivial. Also $\epsilon \circ \partial_1:C_1(K) \rightarrow \mathbb{Z}$ is trivial.
+\end{prop}
+
+
+\begin{cor}
+	For any $p$
+	$$
+	\Ima \partial_{p+1} \subset \Ker \partial_p
+	$$
+	Also
+	$$
+	\Ima \partial_p \subset \Ker \epsilon
+	$$
+\end{cor}
+
+\section*{Homology Groups}
+\begin{defn}
+	Consider the sequence
+	$$
+	C_{p+1}(K) \xrightarrow{\partial_{p+1}} C_p(K) \xrightarrow{\partial_p} \rightarrow C_{p-1}(K)
+	$$
+	$\Ker \partial_p$ is denoted by $Z_p$ or $Z_p(K)$ and the elements of $Z_p$ are called $p$-cycles. $Z_p$ is a free, finitely generated group. $\Ima \partial_{p+1}$ is denoted by $B_p$ or $B_p(K)$ and the elements of $B_p$ are called $p$-boundaries. $B_p$ is a free finitely generated group.
+	
+	Since $B_p \subset Z_p$ there is a quotient group $H_p(K) = Z_p / B_p(K)$ called the $p$th \defobj{homology group} of $K$. 
+	
+	The quotient group $\Ker \epsilon / B_0(K)$ is denoted $\tilde{H}_0(K)$ and is called the \defobj{reduced zeroth homology group} of $K$.
+\end{defn}
+
+\begin{defn}
+	An element of $H_p(K)$ is a coset $\bar{z} = z + B_p(K)$ where $z \in Z_p(K)$. We use the notation $\{z\}$ for this coset. It is called the \defobj{homology class} of the cycle $z$. Any cycle $z' \in \{z\}$ is called a \defobj{representative cycle} for $\{z\}$. We say that $z$ and $z'$ are \defobj{homologous} if $z - z' \in B_p(K)$ and write $z \sim z'$
+\end{defn}
+
+\begin{prop}
+	$v \sim v'$ if and only $v$ and $v'$ lie in the same connected component of $K$
+\end{prop}
+
+\begin{prop}
+	Let $K$ be a non-empty oriented simplical complex with $k$ components $K_1,\dots,K_k$ and let $v^i$ be a vertex in $K_i$. Then $H_0(K)$ is freely generated by the homology class $\{v^i\}$ for $i = 1,\dots,k$. Thus $H_0(K) \simeq \mathbb{Z}^k$. 
+\end{prop}
+
+$H_0(K) \cong \mathbb{Z}^k$ where $k$ is the number of connected components of $K$.
