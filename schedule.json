@@ -182,11 +182,14 @@
         "topic": "Quandles: The Algebra of Knots",
         "speaker": "Brennen Creighton-Young",
         "location": "MC 4020",
-        "identifier": "bc-Quandles",
+        "identifier": "bcy-KnotTheory",
         "abstract": "bcy-KnotTheory",
         "tags": [
             "algebra",
-            "knot-theory"
+            "groups",
+            "linear-algebra",
+            "knot-theory",
+            "module-theory"
         ]
     },
     {

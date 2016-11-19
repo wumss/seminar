@@ -1,22 +1,30 @@
-
-One of the major goals of knot theory is to identify when two knots can be deformed continuously into each other. Though this is a straight forward idea, the rigorous definition of this, the notion of ambient isotopy, is practically unusable. This talk will provide a quick overview of basic knot theory and will work towards developing numerous algebraic strategies to identify when two knots are ambient isotopic. We will focus mostly on providing motivation for keis, an algebraic representation of knots, as well as their generalization, quandles. Quandles will prove to be not only helpful with respect to the goal of the classification of knots, but also as rich algebraic structures. The talk will involve small amounts of group theory, linear algebra and module theory.
+One of the major goals of knot theory is to identify when two knots can be
+deformed continuously into each other. Though this is a straight forward idea,
+the rigorous definition of this, the notion of ambient isotopy, is practically
+unusable. This talk will provide a quick overview of basic knot theory and will
+work towards developing numerous algebraic strategies to identify when two
+knots are ambient isotopic. We will focus mostly on providing motivation for
+keis, an algebraic representation of knots, as well as their generalization,
+quandles. Quandles will prove to be not only helpful with respect to the goal
+of the classification of knots, but also as rich algebraic structures. The talk
+will involve small amounts of group theory, linear algebra and module theory.
 
 ### Outline
 
 - Introduction to Knot Theory (15 mins)
-	- Knots, links and knot diagrams
-	- Knot equivalence and ambient isotopy
-	- Reidemeister moves
-	- Knot invariants - crossing number, Fox tricoloring
+  - Knots, links and knot diagrams
+  - Knot equivalence and ambient isotopy
+  - Reidemeister moves
+  - Knot invariants — crossing number, Fox tricoloring
 - Keis as Algebraic Representations of Knots (15 mins)
-	- Definitions and motivation
-	- The free kei on a set and the fundamental kei of a knot
-	- Presentation matrix of a kei 
-	- Kei homomorphisms, colorings, the counting invariant
+  - Definitions and motivation
+  - The free kei on a set and the fundamental kei of a knot
+  - Presentation matrix of a kei 
+  - Kei homomorphisms, colorings, the counting invariant
 - Quandles (15 mins)
-	- The dihedral and Alexander quandles
-	- Quandle homomorphisms and colorings
-	- The Alexander modules and Alexander polynomial
+  - The dihedral and Alexander quandles
+  - Quandle homomorphisms and colorings
+  - The Alexander modules and Alexander polynomial
 - In Conclusion (10 mins)
-	- A brief discussion on generalizations
-	- Knot theory and mathematical physics
+  - A brief discussion on generalizations
+  - Knot theory and mathematical physics
