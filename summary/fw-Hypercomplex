@@ -157,6 +157,12 @@ so if ``z \ne 0_\mathbf{C}``, then there is ``z^{-1}``, an inverse for ``z``. We
 have, here, verified all the field axioms (in a somewhat disorganized fashion).
 So ``\mathbf{C}`` is a field.
 
+You may already be familiar with the geometry of complex numbers. After all,
+it's the standard Euclidean geometry that we see every day. The unit circle on
+the complex numbers is the familiar unit circle:
+
+![Unit circle, ``x^2 + y^2 = 1``, of complex numbers](/seminar/images/circle.png)
+
 ## Unital Algebra
 
 Let us define formally an **algebra** ``A`` over a field ``\mathbf{R}`` as a
@@ -255,6 +261,8 @@ familiar unit circle. On the split-complex numbers, the same unit circle is
 actually a hyperbola. It may not be surprising, then, that the geometry of the
 split-complex numbers is called a **hyperbolic geometry**.
 
+![Unit circle, ``x^2 - y^2 = 1``, of split-complex numbers](/seminar/images/hyperbola.png)
+
 An application of the split complex numbers is for (signed) interval arithmetic.
 Let ``a ± b`` be an interval; it represents all numbers in ``[a - b, a + b]``.
 This can be used to represent some kind of physical measurement. If we add two
@@ -346,6 +354,8 @@ The geometry of dual numbers is quite strange, because no vertical line segments
 have any length, and the distance between two points is entirely determined by
 their horizontal distance. This type of geometry is called a **parabolic
 geometry**.
+
+![Unit circle, ``x^2 = 1``, of dual numbers](/seminar/images/parallel-lines.png)
 
 Furthermore, unlike either the complex numbers or the split-complex numbers, the
 generating element ``\mathrm{ɛ}`` of the dual numbers is itself a zero-divisor.
