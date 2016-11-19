@@ -159,9 +159,10 @@
         "identifier": "fw-Hypercomplex",
         "tags": [
             "algebra",
-            "clifford-algebras",
+            "algebras",
             "linear-algebra",
-            "numbers"
+            "numbers",
+            "vector-spaces"
         ]
     },
     {

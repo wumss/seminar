@@ -1,3 +1,4 @@
+;; todo: will be held on if the talk has not yet been held
 (p "This talk on "
    (#:var topic)
    " was held on "
