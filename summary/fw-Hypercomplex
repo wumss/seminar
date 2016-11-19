@@ -59,7 +59,7 @@ By making the substitution ``a = t\cos θ`` and ``b = t\sin θ``, we can express
 this as
 
 ```math
-tR = \begin{bmatrix} a & -b & b & a \end{bmatrix}
+tR = \begin{bmatrix} a & -b \\ b & a \end{bmatrix}
 ```
 
 We now have a characterization of all linear transformations that either dilate
@@ -252,7 +252,8 @@ whenever ``a = \pm b``, instead of only when ``z = 0``.
 
 Geometrically, the unit circle on the complex numbers, ``\|z\| = 1``, is the
 familiar unit circle. On the split-complex numbers, the same unit circle is
-actually a hyperbola.
+actually a hyperbola. It may not be surprising, then, that the geometry of the
+split-complex numbers is called a **hyperbolic geometry**.
 
 An application of the split complex numbers is for (signed) interval arithmetic.
 Let ``a ± b`` be an interval; it represents all numbers in ``[a - b, a + b]``.
@@ -343,7 +344,8 @@ form a field.
 The unit circle ``\|z\| = 1`` on the dual numbers is a pair of parallel lines.
 The geometry of dual numbers is quite strange, because no vertical line segments
 have any length, and the distance between two points is entirely determined by
-their horizontal distance.
+their horizontal distance. This type of geometry is called a **parabolic
+geometry**.
 
 Furthermore, unlike either the complex numbers or the split-complex numbers, the
 generating element ``\mathrm{ɛ}`` of the dual numbers is itself a zero-divisor.
@@ -365,8 +367,8 @@ the matrices. We now have the remarkable identity:
 f(a + bɛ)
 &= g(ɛ) \\
 &= g\left( \begin{bmatrix} 0 & b \\ 0 & 0 \end{bmatrix} \right) \\
-&= \sum_{n=0}^∞
-f^{(n)}\frac{{\left(\begin{bmatrix} 0 & b \\ 0 & 0 \end{bmatrix}\right)}^n}{n!}
+&= \sum_{n=0}^∞ f^{(n)}(a)
+\frac{{\left(\begin{bmatrix} 0 & b \\ 0 & 0 \end{bmatrix}\right)}^n}{n!}
 \\ &= f(a) + bf'(a)ɛ
 \end{align*}
 ```
@@ -416,7 +418,8 @@ Let ``A`` be a two-dimensional unital commutative associative
 isomorphic to ``\mathbf{S}``, or it is isomorphic to ``\mathbf{D}``.
 
 **Proof.** Let ``1`` be the multiplicative identity, and let ``x∈A`` be any
-vector not parallel to ``1``. Let ``x^2 = a + bx``. We write
+vector not parallel to ``1``. Then ``\operatorname{span}\{1, x\}`` forms a
+basis. Let ``x^2 = a + bx``. We write
 
 ```math
 \begin{align*}

@@ -16,22 +16,21 @@ reference.
 
 ### Outline
 
-- Definition of the complex number field ``\mathbf{C}`` (10 mins)
+- Definition of the complex number field ``\mathbf{C}`` (20 mins)
   - Rotation matrices in two dimensions
   - Dilation matrices in two dimensions
   - Proofs and definitions of various facts and operations
   - Geometry of the complex numbers
-- Unital algebras (10 mins)
+- Unital algebras (5 mins)
   - Definition of key terms
   - Definition of related concepts
-- Discovery of the hypercomplex number systems (25 mins)
+- Discovery of the hypercomplex number systems (20 mins)
   - General ``2\times 2`` real matrices
   - The split-complex numbers, and geometry thereof
   - The dual numbers, and geometry thereof
-  - Equivalence of hypercomplex number algebras up to isomorphism
-- Applications of the hypercomplex numbers (5 mins)
+- Applications of the hypercomplex numbers (10 mins)
+  - Interval analysis
   - Differentiation of analytic functions
+- Equivalence of hypercomplex number algebras up to isomorphism (5 mins)
 - Generalizations (5 mins)
-  - The general linear group ``\mathsf{GL}(2, \mathbf{R})``
-  - Generalization to ``n`` dimensions
-  - Clifford algebras
+  - Potential generalization to ``n`` dimensions
