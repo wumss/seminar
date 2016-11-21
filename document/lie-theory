@@ -75,6 +75,7 @@ b-ci & a-di
 i & 0 \\
 0 & -i
 \end{pmatrix}
+\end{align*}
 ```
 
 Now, consider the purely imaginary quaternions ``\rho =
