@@ -30,5 +30,17 @@
             "reciprocity"
         ],
         "type": "reference"
+    },
+    {
+        "id": "lie-theory",
+        "title": "Lie Theory",
+        "authors": [
+            "Aiden Patterson"
+        ],
+        "tags": [
+            "algebra",
+            "lie-theory"
+        ],
+        "type": "reference"
     }
 ]

@@ -1,0 +1,227 @@
+## Geometry of complex numbers and the Quaternions
+
+The main aim of this section is to study groups of linear transformations (the
+orthogonal transformations) by representing them as matrix groups. The group of
+all rotations on ``\mathbb{R}^2`` is denoted ``SO(2)``, for the "special
+orthogonal" linear transformations from ``\mathbb{R}^2`` to ``\mathbb{R}^2``.
+When represented as matrices, they have the property that their determinant is
+1, and that ``AA^t=A^tA=I``, which also means that they admit a basis of
+eigenvectors.
+
+We consider the rotation matrix on ``\mathbb{R}^2``.
+
+```math
+R_θ =
+\begin{pmatrix}
+\cos(θ) & -\sin(θ) \\
+\sin(θ) & \cos(θ)
+\end{pmatrix}  = \cos(θ)
+\begin{pmatrix}
+1 & 0 \\
+0 & 1
+\end{pmatrix}  + \sin(θ)
+\begin{pmatrix}
+0 & -1 \\
+1 & 0
+\end{pmatrix}
+```
+
+Defining the first matrix to be ``\mathbf{1}``, and the second to be
+``\mathbf{i}``, we get the regular identities fro complex numbers. We also see
+that for any complex number ``z=a\mathbf{1}+b\mathbf{i}``, we can write
+
+```math
+z=\begin{pmatrix}
+a & -b \\
+b & a
+\end{pmatrix}
+```
+
+and
+
+```math
+|z| = \det \begin{pmatrix}
+a & -b \\
+b & a
+\end{pmatrix} = a^2+b^2 = |a+bi|
+```
+
+We can try a similar process over ``\mathbb{R}^4``, One thought is to associate
+them with a ``2× 2`` matrix over ``\mathbb{C}``. We want all of the
+matrices to rotate the vector ``(1,0)^t`` in orthogonal ways (under the
+standard inner product on ``\mathbb{R}^n``)
+
+```math
+z=a\mathbf{1}+b\mathbf{i}+c\mathbf{j} + d\mathbf{k} = \begin{pmatrix}
+a+di & -b-ci \\
+b-ci & a-di
+\end{pmatrix}  =
+a\begin{pmatrix}
+1 & 0 \\
+0 & 1
+\end{pmatrix} + b
+\begin{pmatrix}
+0 & -1 \\
+1 & 0
+\end{pmatrix}  +c
+\begin{pmatrix}
+0 & -i \\
+-i & 0
+\end{pmatrix}  +d
+\begin{pmatrix}
+i & 0 \\
+0 & -i
+\end{pmatrix}
+```
+
+Now, consider the purely imaginary quaternions ``\rho =
+b\mathbf{i}+c\mathbf{j}+d\mathbf{k}``, which are the orthogonal compliments to
+the real quaternions ``a\mathbf{1}``. For a purely imaginary product, we see
+that
+
+```math
+\mathbf{u}\mathbf{v}= \mathbf{u}\cdot \mathbf{v} + \mathbf{u}× \mathbf{v}
+```
+
+We notice that this product is algebraically closed when ``\mathbf{u}\cdot
+\mathbf{v}=0``, meaning ``\mathbf{u}`` and ``\mathbf{v}`` are orthogonal. There
+is some interesting matrix algebra related to the representation of complex
+numbers, and the quaternions. Notice that if we take the conjugate of ``a+bi``
+we get ``a-bi``, which has the matrix representation
+
+```math
+\overline{z}=
+\begin{pmatrix}
+a & b \\
+-b & a
+\end{pmatrix}
+ = z^t
+```
+
+And for the quaternion conjugate
+``\overline{z}=a\mathbf{1}-b\mathbf{i}-c\mathbf{j}-d\mathbf{k}``, we have
+
+```math
+\overline{z}=
+\begin{pmatrix}
+a-di & b+ci \\
+-b+ci & a+di
+\end{pmatrix} = z^{*}
+```
+
+This means that for quaternions (as they are not commutative)
+``\overline{z_1z_2}=\bar{z_2}\bar{z_1}``. Consider unit quaternions in the form
+``z=\cos(θ)+u\sin(θ)``, where ``u`` is a pure complex quaternion. A rotation
+through the angle ``θ`` can be defined as ``t^{-1}zt``, where
+``t=\cos(θ/2)+u\sin(θ)``. This is a rotation by theta through the axis ``u`` in
+``\mathbb{R}^3``. The same rotation is induced by ``-t``, as
+``(-t)^{-1}z(-t)=t^{-1}zt``. Thus rotations in ``\mathbb{R}^3`` are induced by
+pairs of antipodal unit quaternions.
+
+It is also useful to be able to talk about reflections in terms of quaternions
+as well. A Reflection in the hyperplane ``O`` which is orthogonal to the unit
+quaternion ``u`` is a map which sends each ``q∈ \mathbb{R}^4``  to
+``-u\bar{q}u``. A linear map is called orientation preserving if its matrix
+representation has a positive determinant, and orientation reversing otherwise.
+Based on this map, reflections are orientation reversing. Rotations about ``O``
+are orientation preserving isometries which fix ``O``. By the Cartan-Dieudonné
+theorem, every rotation in an ``n`` dimensional symmetric bilinear space can be
+represented by the product of at most n reflections. Since the determinant of a
+reflection is negative, this shows that in ``\mathbb{R}^4`` every rotation is
+the product of 0, 2, or 4 reflections. If the form of the reflection is
+considered, it is easy to see that a rotation is a map ``q\mapsto vqw`` for
+unit quaternions ``v,w``.
+
+## Groups
+
+The unit quaternions are usually denoted by the set ``\mathbb{S}^{3}``, as they
+define a sphere in ``\mathbb{R}^4``. Each unit quaternion was shown to be
+equivalent to the set of all complex matrices in the form
+
+```math
+Q= \begin{pmatrix}
+a+di & -b-ci \\
+b-ci & a-di
+\end{pmatrix}  \, \, \, \, \, \, \, \, \textrm{where}  \, \, \, \, \, \, \, \, \det Q =1
+```
+
+This group is usually denoted ``\textrm{SU}(2)``, for the ``2× 2`` special
+unitary matrices. The related group ``\textrm{SO}(3)``, or the group of all
+rotations in ``\mathbb{R}^3``, is somewhat of a refinement on
+``\textrm{SU}(2)``. Unit quaternions correspond to rotations of
+``\mathbb{R}^3``, with antipodal pares of quaternions giving rise to the same
+rotation in ``\mathbb{R}^3``. This suggests that it is possible to construct a
+2-1 homomorphism from ``\textrm{SU}(2)`` to ``\textrm{SO}(3)``.
+
+A useful property of groups is that many of them may be represented as a direct
+product of groups ``A`` and ``B`` under the product of pairs operation
+``(a_1,b_1)(a_2,b_2)=(a_1a_2,b_1,b_2)``. An example of this kind of group is
+``\mathbb{R}^n`` with vector addition. Another interesting example is the group
+of ``n× n`` matrices. If ``A,B∈ \mathbb{M}_{n× n}(\mathbb{F})``, then We can
+write all elements in ``A× B`` in the form
+
+```math
+\begin{pmatrix}
+a & \mathbf{0} \\
+\mathbf{0} & b
+\end{pmatrix}  \, \, \, \, \, \textrm{such that } a∈ A \, \, \, b∈ B
+```
+
+Since the elements of ``\mathbb{R}`` are isomorphic to the group of matrices
+
+```math
+\left\{\begin{pmatrix}
+1 & x \\
+0 & 1
+\end{pmatrix} :  \, \, \, \, \, x∈ \mathbb{R} \right\}
+```
+
+It follows that ``\mathbb{R}^n`` is isomorphic to a group of ``2n× 2n``
+matrices. Replacing ``\mathbb{R}`` by ``\mathbb{S}^2`` gives a similar
+isomorphism with ``θ`` in place for ``x``. The group ``\mathbb{S}^1×
+\mathbb{S}^1`` is called the unit torus, as for ``θ, ϕ∈ \mathbb{S}^1``, we
+can specify a point ``(θ, ϕ)`` which corresponds to a point on the surface
+of the torus moving ``θ`` radians across along the outside edge, and ``ϕ``
+along the inside edge. This group is denoted ``\mathbb{T}^2``  (figure 1).
+
+!(Torus)[]
+
+``\mathbb{S}^2×\mathbb{S}^1=\mathbb{T}^2``
+
+Since ``\mathbb{R}`` and ``\mathbb{S}^1`` are abelian groups, their products
+are abelian as well. It can be shown with some work that ``\mathbb{R}^m×
+\mathbb{T}^n`` for ``m,n∈ \mathbb{N}`` include all connected abelian matrix
+Lie groups. (Note that ``\mathbb{S}^n`` is not associated with a Cartesian
+product the way that ``\mathbb{R}^n`` is,and
+``\mathbb{T}^n\ncong\mathbb{S}^n``).
+
+Now, we can try classifying rotations in ``\mathbb{R}^4`` (the group SO(4)) by
+associating them with the group SU(2). Recall that all rotations can be
+represented by the form ``q\mapsto vqw``, but since if ``v`` is a quaternion,
+then ``v^{-1}`` exists, so there is no harm in defining the map to instead be
+``q\mapsto v^{-1}qw``. With this in mind, consider the group ``\textrm{SU}(2)×
+\textrm{SU}(2)``. There is a homomorphism from ``\textrm{SU}(2)×
+\textrm{SU}(2)`` to ``\textrm{SO}(4)`` which takes ``(v,w)∈ \textrm{SU}(2)×
+\textrm{SU}(2)`` to ``f(q)=v^{-1}qw``. We again encounter the antipodal pares
+which produce the same rotation, so the homomorphism has a kernel of two
+elements. It is possible to find a nontrivial subgroup of ``\textrm{SO}(4)``
+which is normal by considering the image of the subgroup of points ``(v,1)``
+in ``\textrm{SU}(2)× \textrm{SU}(2)``. This means that ``\textrm{SO}(4)`` is
+not simple.
+
+## Why are we talking about this?
+
+In 1870, Sophus Lie was studying the symmetries of differential equations,
+which generally form "continuous" groups. The analogous problem for
+polynomials was solved by Galois previously, so there was incentive to solve
+the related problem for these new kinds of groups. This lead to a study of
+simplicity in these continuous groups. Lie understood these groups as groups
+generated by infinitesimal elements, which lead him to believe that
+``\textrm{SO}(n)`` should be generalised to consider infinitesimal rotations.
+Today we separate the infinitesimal rotations out into a group
+``\mathfrak{so}(n)`` called the \textit{Lie Algebra} of ``\textrm{SO}(n)``.
+Similarly, the infinitesimal elements of a group G form a Lie algebra
+``\mathfrak{g}``, which captures most of the important structures of G, but is
+easier to handle. Using this notion of a generalise group, Lie was able to
+prove simplicity for all but a finite number of Lie algebras - namely those of
+the exceptional groups.
