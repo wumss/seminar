@@ -37,8 +37,12 @@
         "authors": [
             "Aidan Patterson"
         ],
+        "subsetof": [
+            "PMATH 763"
+        ],
         "tags": [
             "algebra",
+            "groups",
             "lie-theory"
         ],
         "type": "reference"
