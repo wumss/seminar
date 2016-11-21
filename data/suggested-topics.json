@@ -686,13 +686,47 @@
         "see-also": []
     },
     {
-	"topic": "Schoof's Algorithm",
-	"tags": [
-	    "algebra",
-	    "number-theory",
-	    "groups"
-	    ],
-	"references": ["[Schoof](http://www.math.umn.edu/~musiker/schoof.pdf)"],
-	"see-also": []
+	    "topic": "Schoof's Algorithm",
+	    "tags": [
+	        "algebra",
+	        "number-theory",
+	        "groups"
+	        ],
+	    "references": ["[Schoof](http://www.math.umn.edu/~musiker/schoof.pdf)"],
+	    "see-also": []
+    },
+    {
+        "topic": "Voting Theory",
+        "tags": [
+            "representation-theory"
+        ],
+        "references" : [],
+        "see-also": []
+    },
+    {
+        "topic": "Young Tableaux",
+        "tags": [
+            "representation-theory",
+            "combinatorics"
+        ],
+        "references" : [],
+        "see-also": []
+    },
+    {
+        "topic": "Toronto Spaces",
+        "tags": [
+            "topology"
+        ],
+        "references" : ["[William Rea Brian](https://wrbrian.files.wordpress.com/2012/01/thetorontoproblem.pdf"],
+        "see-also": []
+    },
+    {
+        "topic": "Jordan Curve Theorem",
+        "tags": [
+            "topology",
+            "homology"
+        ],
+        "references" : [],
+        "see-also": []
     }
 ]
