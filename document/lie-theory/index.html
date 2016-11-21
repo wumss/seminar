@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8" /><link rel="stylesheet" href="//yegor256.github.io/tacit/tacit.min.css" /><link rel="stylesheet" href="/seminar/css/custom.css" /><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    jax: [
+        "input/TeX",
+        "input/MathML",
+        "input/AsciiMath",
+        "output/CommonHTML"
+    ],
+    extensions: [
+        "tex2jax.js",
+        "mml2jax.js",
+        "asciimath2jax.js",
+        "MathMenu.js",
+        "MathZoom.js",
+        "AssistiveMML.js"
+    ],
+    TeX: {
+        extensions: [
+            "AMSmath.js",
+            "AMSsymbols.js",
+            "noErrors.js",
+            "noUndefined.js"
+        ]
+    },
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+    },
+    "HTML-CSS": {
+        availableFonts: ["TeX"]
+    }
+});
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script><title>Lie Theory</title></head><body><nav><ul><li><a href="/seminar/">Math Seminar Home</a></li><li><a href="/seminar/archive">archive</a></li><li><a href="/seminar/tags">tags</a></li><li><a href="/seminar/faq">faq</a></li><li><a href="/seminar/potential-topics/#request">speak!</a></li></ul></nav><section><article><h1>Lie Theory</h1><p>This is a reference document on Lie Theory by Aiden Patterson.</p><div class="markdown"><h2>Geometry of complex numbers and the Quaternions</h2>
+<p>The main aim of this section is to study groups of linear transformations &#40;the orthogonal transformations&#41; by representing them as matrix groups. The group of all rotations on &#36;\mathbb&#123;R&#125;^2&#36; is denoted &#36;SO&#40;2&#41;&#36;, for the &quot;special orthogonal&quot; linear transformations from &#36;\mathbb&#123;R&#125;^2&#36; to &#36;\mathbb&#123;R&#125;^2&#36;. When represented as matrices, they have the property that their determinant is 1, and that &#36;AA^t&#61;A^tA&#61;I&#36;, which also means that they admit a basis of eigenvectors.</p>
+<p>We consider the rotation matrix on &#36;\mathbb&#123;R&#125;^2&#36;.</p>
+&#36;R_θ &#61;
+\begin&#123;pmatrix&#125;
+\cos&#40;θ&#41; &amp; -\sin&#40;θ&#41; \\
+\sin&#40;θ&#41; &amp; \cos&#40;θ&#41;
+\end&#123;pmatrix&#125;  &#61; \cos&#40;θ&#41;
+\begin&#123;pmatrix&#125;
+1 &amp; 0 \\
+0 &amp; 1
+\end&#123;pmatrix&#125;  &#43; \sin&#40;θ&#41;
+\begin&#123;pmatrix&#125;
+0 &amp; -1 \\
+1 &amp; 0
+\end&#123;pmatrix&#125;&#36;
+<p>Defining the first matrix to be &#36;\mathbf&#123;1&#125;&#36;, and the second to be &#36;\mathbf&#123;i&#125;&#36;, we get the regular identities fro complex numbers. We also see that for any complex number &#36;z&#61;a\mathbf&#123;1&#125;&#43;b\mathbf&#123;i&#125;&#36;, we can write</p>
+&#36;z&#61;\begin&#123;pmatrix&#125;
+a &amp; -b \\
+b &amp; a
+\end&#123;pmatrix&#125;&#36;
+<p>and</p>
+&#36;|z| &#61; \det \begin&#123;pmatrix&#125;
+a &amp; -b \\
+b &amp; a
+\end&#123;pmatrix&#125; &#61; a^2&#43;b^2 &#61; |a&#43;bi|&#36;
+<p>We can try a similar process over &#36;\mathbb&#123;R&#125;^4&#36;, One thought is to associate them with a &#36;2× 2&#36; matrix over &#36;\mathbb&#123;C&#125;&#36;. We want all of the matrices to rotate the vector &#36;&#40;1,0&#41;^t&#36; in orthogonal ways &#40;under the standard inner product on &#36;\mathbb&#123;R&#125;^n&#36;&#41;</p>
+&#36;z&#61;a\mathbf&#123;1&#125;&#43;b\mathbf&#123;i&#125;&#43;c\mathbf&#123;j&#125; &#43; d\mathbf&#123;k&#125; &#61; \begin&#123;pmatrix&#125;
+a&#43;di &amp; -b-ci \\
+b-ci &amp; a-di
+\end&#123;pmatrix&#125;  &#61;
+a\begin&#123;pmatrix&#125;
+1 &amp; 0 \\
+0 &amp; 1
+\end&#123;pmatrix&#125; &#43; b
+\begin&#123;pmatrix&#125;
+0 &amp; -1 \\
+1 &amp; 0
+\end&#123;pmatrix&#125;  &#43;c
+\begin&#123;pmatrix&#125;
+0 &amp; -i \\
+-i &amp; 0
+\end&#123;pmatrix&#125;  &#43;d
+\begin&#123;pmatrix&#125;
+i &amp; 0 \\
+0 &amp; -i
+\end&#123;pmatrix&#125;&#36;
+<p>Now, consider the purely imaginary quaternions &#36;\rho &#61; b\mathbf&#123;i&#125;&#43;c\mathbf&#123;j&#125;&#43;d\mathbf&#123;k&#125;&#36;, which are the orthogonal compliments to the real quaternions &#36;a\mathbf&#123;1&#125;&#36;. For a purely imaginary product, we see that</p>
+&#36;\mathbf&#123;u&#125;\mathbf&#123;v&#125;&#61; \mathbf&#123;u&#125;\cdot \mathbf&#123;v&#125; &#43; \mathbf&#123;u&#125;× \mathbf&#123;v&#125;&#36;
+<p>We notice that this product is algebraically closed when &#36;\mathbf&#123;u&#125;\cdot \mathbf&#123;v&#125;&#61;0&#36;, meaning &#36;\mathbf&#123;u&#125;&#36; and &#36;\mathbf&#123;v&#125;&#36; are orthogonal. There is some interesting matrix algebra related to the representation of complex numbers, and the quaternions. Notice that if we take the conjugate of &#36;a&#43;bi&#36; we get &#36;a-bi&#36;, which has the matrix representation</p>
+&#36;\overline&#123;z&#125;&#61;
+\begin&#123;pmatrix&#125;
+a &amp; b \\
+-b &amp; a
+\end&#123;pmatrix&#125;
+ &#61; z^t&#36;
+<p>And for the quaternion conjugate &#36;\overline&#123;z&#125;&#61;a\mathbf&#123;1&#125;-b\mathbf&#123;i&#125;-c\mathbf&#123;j&#125;-d\mathbf&#123;k&#125;&#36;, we have</p>
+&#36;\overline&#123;z&#125;&#61;
+\begin&#123;pmatrix&#125;
+a-di &amp; b&#43;ci \\
+-b&#43;ci &amp; a&#43;di
+\end&#123;pmatrix&#125; &#61; z^&#123;*&#125;&#36;
+<p>This means that for quaternions &#40;as they are not commutative&#41; &#36;\overline&#123;z_1z_2&#125;&#61;\bar&#123;z_2&#125;\bar&#123;z_1&#125;&#36;. Consider unit quaternions in the form &#36;z&#61;\cos&#40;θ&#41;&#43;u\sin&#40;θ&#41;&#36;, where &#36;u&#36; is a pure complex quaternion. A rotation through the angle &#36;θ&#36; can be defined as &#36;t^&#123;-1&#125;zt&#36;, where &#36;t&#61;\cos&#40;θ/2&#41;&#43;u\sin&#40;θ&#41;&#36;. This is a rotation by theta through the axis &#36;u&#36; in &#36;\mathbb&#123;R&#125;^3&#36;. The same rotation is induced by &#36;-t&#36;, as &#36;&#40;-t&#41;^&#123;-1&#125;z&#40;-t&#41;&#61;t^&#123;-1&#125;zt&#36;. Thus rotations in &#36;\mathbb&#123;R&#125;^3&#36; are induced by pairs of antipodal unit quaternions.</p>
+<p>It is also useful to be able to talk about reflections in terms of quaternions as well. A Reflection in the hyperplane &#36;O&#36; which is orthogonal to the unit quaternion &#36;u&#36; is a map which sends each &#36;q∈ \mathbb&#123;R&#125;^4&#36;  to &#36;-u\bar&#123;q&#125;u&#36;. A linear map is called orientation preserving if its matrix representation has a positive determinant, and orientation reversing otherwise. Based on this map, reflections are orientation reversing. Rotations about &#36;O&#36; are orientation preserving isometries which fix &#36;O&#36;. By the Cartan-Dieudonné theorem, every rotation in an &#36;n&#36; dimensional symmetric bilinear space can be represented by the product of at most n reflections. Since the determinant of a reflection is negative, this shows that in &#36;\mathbb&#123;R&#125;^4&#36; every rotation is the product of 0, 2, or 4 reflections. If the form of the reflection is considered, it is easy to see that a rotation is a map &#36;q\mapsto vqw&#36; for unit quaternions &#36;v,w&#36;.</p>
+<h2>Groups</h2>
+<p>The unit quaternions are usually denoted by the set &#36;\mathbb&#123;S&#125;^&#123;3&#125;&#36;, as they define a sphere in &#36;\mathbb&#123;R&#125;^4&#36;. Each unit quaternion was shown to be equivalent to the set of all complex matrices in the form</p>
+&#36;Q&#61; \begin&#123;pmatrix&#125;
+a&#43;di &amp; -b-ci \\
+b-ci &amp; a-di
+\end&#123;pmatrix&#125;  \, \, \, \, \, \, \, \, \textrm&#123;where&#125;  \, \, \, \, \, \, \, \, \det Q &#61;1&#36;
+<p>This group is usually denoted &#36;\textrm&#123;SU&#125;&#40;2&#41;&#36;, for the &#36;2× 2&#36; special unitary matrices. The related group &#36;\textrm&#123;SO&#125;&#40;3&#41;&#36;, or the group of all rotations in &#36;\mathbb&#123;R&#125;^3&#36;, is somewhat of a refinement on &#36;\textrm&#123;SU&#125;&#40;2&#41;&#36;. Unit quaternions correspond to rotations of &#36;\mathbb&#123;R&#125;^3&#36;, with antipodal pares of quaternions giving rise to the same rotation in &#36;\mathbb&#123;R&#125;^3&#36;. This suggests that it is possible to construct a 2-1 homomorphism from &#36;\textrm&#123;SU&#125;&#40;2&#41;&#36; to &#36;\textrm&#123;SO&#125;&#40;3&#41;&#36;.</p>
+<p>A useful property of groups is that many of them may be represented as a direct product of groups &#36;A&#36; and &#36;B&#36; under the product of pairs operation &#36;&#40;a_1,b_1&#41;&#40;a_2,b_2&#41;&#61;&#40;a_1a_2,b_1,b_2&#41;&#36;. An example of this kind of group is &#36;\mathbb&#123;R&#125;^n&#36; with vector addition. Another interesting example is the group of &#36;n× n&#36; matrices. If &#36;A,B∈ \mathbb&#123;M&#125;_&#123;n× n&#125;&#40;\mathbb&#123;F&#125;&#41;&#36;, then We can write all elements in &#36;A× B&#36; in the form</p>
+&#36;\begin&#123;pmatrix&#125;
+a &amp; \mathbf&#123;0&#125; \\
+\mathbf&#123;0&#125; &amp; b
+\end&#123;pmatrix&#125;  \, \, \, \, \, \textrm&#123;such that &#125; a∈ A \, \, \, b∈ B&#36;
+<p>Since the elements of &#36;\mathbb&#123;R&#125;&#36; are isomorphic to the group of matrices</p>
+&#36;\left\&#123;\begin&#123;pmatrix&#125;
+1 &amp; x \\
+0 &amp; 1
+\end&#123;pmatrix&#125; :  \, \, \, \, \, x∈ \mathbb&#123;R&#125; \right\&#125;&#36;
+<p>It follows that &#36;\mathbb&#123;R&#125;^n&#36; is isomorphic to a group of &#36;2n× 2n&#36; matrices. Replacing &#36;\mathbb&#123;R&#125;&#36; by &#36;\mathbb&#123;S&#125;^2&#36; gives a similar isomorphism with &#36;θ&#36; in place for &#36;x&#36;. The group &#36;\mathbb&#123;S&#125;^1× \mathbb&#123;S&#125;^1&#36; is called the unit torus, as for &#36;θ, ϕ∈ \mathbb&#123;S&#125;^1&#36;, we can specify a point &#36;&#40;θ, ϕ&#41;&#36; which corresponds to a point on the surface of the torus moving &#36;θ&#36; radians across along the outside edge, and &#36;ϕ&#36; along the inside edge. This group is denoted &#36;\mathbb&#123;T&#125;^2&#36;  &#40;figure 1&#41;.</p>
+<p>&#33;&#40;Torus&#41;&#91;&#93;</p>
+<p>&#36;\mathbb&#123;S&#125;^2×\mathbb&#123;S&#125;^1&#61;\mathbb&#123;T&#125;^2&#36;</p>
+<p>Since &#36;\mathbb&#123;R&#125;&#36; and &#36;\mathbb&#123;S&#125;^1&#36; are abelian groups, their products are abelian as well. It can be shown with some work that &#36;\mathbb&#123;R&#125;^m× \mathbb&#123;T&#125;^n&#36; for &#36;m,n∈ \mathbb&#123;N&#125;&#36; include all connected abelian matrix Lie groups. &#40;Note that &#36;\mathbb&#123;S&#125;^n&#36; is not associated with a Cartesian product the way that &#36;\mathbb&#123;R&#125;^n&#36; is,and &#36;\mathbb&#123;T&#125;^n\ncong\mathbb&#123;S&#125;^n&#36;&#41;.</p>
+<p>Now, we can try classifying rotations in &#36;\mathbb&#123;R&#125;^4&#36; &#40;the group SO&#40;4&#41;&#41; by associating them with the group SU&#40;2&#41;. Recall that all rotations can be represented by the form &#36;q\mapsto vqw&#36;, but since if &#36;v&#36; is a quaternion, then &#36;v^&#123;-1&#125;&#36; exists, so there is no harm in defining the map to instead be &#36;q\mapsto v^&#123;-1&#125;qw&#36;. With this in mind, consider the group &#36;\textrm&#123;SU&#125;&#40;2&#41;× \textrm&#123;SU&#125;&#40;2&#41;&#36;. There is a homomorphism from &#36;\textrm&#123;SU&#125;&#40;2&#41;× \textrm&#123;SU&#125;&#40;2&#41;&#36; to &#36;\textrm&#123;SO&#125;&#40;4&#41;&#36; which takes &#36;&#40;v,w&#41;∈ \textrm&#123;SU&#125;&#40;2&#41;× \textrm&#123;SU&#125;&#40;2&#41;&#36; to &#36;f&#40;q&#41;&#61;v^&#123;-1&#125;qw&#36;. We again encounter the antipodal pares which produce the same rotation, so the homomorphism has a kernel of two elements. It is possible to find a nontrivial subgroup of &#36;\textrm&#123;SO&#125;&#40;4&#41;&#36; which is normal by considering the image of the subgroup of points &#36;&#40;v,1&#41;&#36; in &#36;\textrm&#123;SU&#125;&#40;2&#41;× \textrm&#123;SU&#125;&#40;2&#41;&#36;. This means that &#36;\textrm&#123;SO&#125;&#40;4&#41;&#36; is not simple.</p>
+<h2>Why are we talking about this?</h2>
+<p>In 1870, Sophus Lie was studying the symmetries of differential equations, which generally form &quot;continuous&quot; groups. The analogous problem for polynomials was solved by Galois previously, so there was incentive to solve the related problem for these new kinds of groups. This lead to a study of simplicity in these continuous groups. Lie understood these groups as groups generated by infinitesimal elements, which lead him to believe that &#36;\textrm&#123;SO&#125;&#40;n&#41;&#36; should be generalised to consider infinitesimal rotations. Today we separate the infinitesimal rotations out into a group &#36;\mathfrak&#123;so&#125;&#40;n&#41;&#36; called the \textit&#123;Lie Algebra&#125; of &#36;\textrm&#123;SO&#125;&#40;n&#41;&#36;. Similarly, the infinitesimal elements of a group G form a Lie algebra &#36;\mathfrak&#123;g&#125;&#36;, which captures most of the important structures of G, but is easier to handle. Using this notion of a generalise group, Lie was able to prove simplicity for all but a finite number of Lie algebras - namely those of the exceptional groups.</p>
+</div><h2>Tags</h2><ul><li><a href="/seminar/tag/algebra">algebra</a></li><li><a href="/seminar/tag/lie-theory">lie-theory</a></li></ul></article><footer><p>Help improve this page by <a href="https://github.com/friedeggs/seminar/blob/master/document/lie-theory">editing it on GitHub</a>.</p></footer></section></body></html>
