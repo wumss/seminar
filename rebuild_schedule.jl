@@ -67,7 +67,7 @@ talks = []
 
 for t in result
     write_summary(t)
-    if Date(x[:date]) < Dates.today()
+    if Date(t[:date]) < Dates.today()
         push!(talks, brief(t))
     end
 end
