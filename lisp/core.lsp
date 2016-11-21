@@ -15,6 +15,7 @@
              (#:template nav-link "archive" "archive")
              (#:template nav-link "tags" "tags")
              (#:template nav-link "faq" "faq")
+             (#:template nav-link "document" "library")
              (#:template nav-link "potential-topics/#request" "speak!")))
     (section
       (article
