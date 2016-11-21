@@ -696,23 +696,6 @@
 	    "see-also": []
     },
     {
-        "topic": "Voting Theory",
-        "tags": [
-            "representation-theory"
-        ],
-        "references" : [],
-        "see-also": []
-    },
-    {
-        "topic": "Young Tableaux",
-        "tags": [
-            "representation-theory",
-            "combinatorics"
-        ],
-        "references" : [],
-        "see-also": []
-    },
-    {
         "topic": "Toronto Spaces",
         "tags": [
             "topology"
