@@ -65,9 +65,9 @@ dates = unique(map(x -> x[:date], result))
 tags = Set{String}()
 talks = []
 
-for d in dates
-    for t in filter(x -> x[:date] == d, result)
-        write_summary(t)
+for t in result
+    write_summary(t)
+    if Date(x[:date]) < Dates.today()
         push!(talks, brief(t))
     end
 end
