@@ -179,6 +179,19 @@
     },
     {
         "time": "2016-11-25T17:30:00Z",
+        "topic": "Naïve Lie Theory",
+        "speaker": "Aidan Patterson",
+        "location": "MC 4020",
+        "identifier": "ap-Lie",
+        "abstract": "ap-Lie",
+        "tags": [
+            "algebra",
+            "groups",
+            "lie-theory"
+        ]
+    },
+    {
+        "time": "2016-11-25T18:30:00Z",
         "topic": "Quandles: The Algebra of Knots",
         "speaker": "Brennen Creighton-Young",
         "location": "MC 4020",
@@ -190,19 +203,6 @@
             "linear-algebra",
             "knot-theory",
             "module-theory"
-        ]
-    },
-    {
-        "time": "2016-11-25T18:30:00Z",
-        "topic": "Naïve Lie Theory",
-        "speaker": "Aidan Patterson",
-        "location": "MC 4020",
-        "identifier": "ap-Lie",
-        "abstract": "ap-Lie",
-        "tags": [
-            "algebra",
-            "groups",
-            "lie-theory"
         ]
     },
     {
