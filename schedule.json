@@ -215,16 +215,5 @@
             "analysis",
             "harmonic-analysis"
         ]
-    },
-    {
-        "time": "2016-12-02T18:30:00Z",
-        "topic": "Symmetries and Their Role in Physics",
-        "speaker": "Vasudev Shyam",
-        "location": "MC 4020",
-        "identifier": "vs-Symmetries",
-        "tags": [
-            "physics",
-            "symmetry"
-        ]
     }
 ]
