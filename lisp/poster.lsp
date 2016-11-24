@@ -8,7 +8,7 @@
           [height 276]
           [xlink:href "https://friedeggs.github.io/seminar/seminar.png"]
           [x 11]
-          [y 100]))
+          [y 80]))
   (text ([fill "#000000"]
          [font-size 40]
          [font-family "Ubuntu"]
@@ -29,6 +29,13 @@
             [x 50]
             [y ,(+ (* 240 i) 240)])
            ,(ref (ref talks i) 'topic))
+     (text ([fill "#000000"]
+            [font-size 30]
+            [font-family "Ubuntu"]
+            [x 800]
+            [y ,(+ (* 240 i) 240)]
+            [text-anchor "end"])
+           ,(String (ref (ref (ref talks i) 'time) (colon 1 5))))
      (text ([fill "#000000"]
             [font-size 18]
             [font-family "Ubuntu"]
