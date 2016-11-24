@@ -65,10 +65,19 @@ dates = unique(map(x -> x[:date], result))
 tags = Set{String}()
 talks = []
 
+nexttalks = []
+nextdate = Date(9999,12,31)
 for t in result
     write_summary(t)
     if Date(t[:date]) < Dates.today()
         push!(talks, brief(t))
+    else
+        if Date(t[:date]) < nextdate
+            nextdate = Date(t[:date])
+            nexttalks = [t]
+        elseif Date(t[:date]) == nextdate
+            push!(nexttalks, t)
+        end
     end
 end
 
@@ -144,6 +153,13 @@ generate_page(Dict(
     :suggestions => suggestions,
     :mathjaxplease => true,
     :github => "$GITHUB/lisp/suggested-topics.lsp"), "potential-topics")
+
+generate_page(Dict(
+    :title => "Poster",
+    :pagetype => "poster",
+    :github => "$GITHUB/lisp/poster.lsp",
+    :date => nextdate,
+    :talks => nexttalks), "poster")
 
 for file in readdir("static")
     println("Copying file $file...")
