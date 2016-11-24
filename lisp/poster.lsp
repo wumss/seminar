@@ -22,6 +22,18 @@
          [x 50]
          [y 420])
         "All are welcome.")
+  (text ([fill "#000000"]
+         [font-size 18]
+         [font-family "Ubuntu"]
+         [x 50]
+         [y 990])
+        "For more details, visit us at our website:")
+  (text ([fill "#000000"]
+         [font-size 18]
+         [font-family "Ubuntu"]
+         [x 50]
+         [y 1020])
+        "https://friedeggs.github.io/seminar")
   (#:each i (colon 1 (length talks))
    `((text ([fill "#000000"]
             [font-size 30]

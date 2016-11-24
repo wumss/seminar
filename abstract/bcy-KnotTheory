@@ -1,13 +1,19 @@
-One of the major goals of knot theory is to identify when two knots can be
-deformed continuously into each other. Though this is a straight forward idea,
-the rigorous definition of this, the notion of ambient isotopy, is practically
-unusable. This talk will provide a quick overview of basic knot theory and will
-work towards developing numerous algebraic strategies to identify when two
-knots are ambient isotopic. We will focus mostly on providing motivation for
-keis, an algebraic representation of knots, as well as their generalization,
-quandles. Quandles will prove to be not only helpful with respect to the goal
-of the classification of knots, but also as rich algebraic structures. The talk
-will involve small amounts of group theory, linear algebra and module theory.
+One of the major goals of knot theory is to determine whether or knot two knots
+can be continuously deformed into one another. This idea can be fully captured
+algebraically — and leads us to algebraic structures that not only capture the
+desired notion of knot deformations, but reveal themselves as truly fascinating
+mathematical objects. We will use only linear algebra and elementary abstract
+algebra.
+
+Though continuous deformation is a straight forward idea, the rigorous
+definition of this, the notion of ambient isotopy, is practically unusable.
+This talk will provide a quick overview of basic knot theory and will work
+towards developing numerous algebraic strategies to identify when two knots are
+ambient isotopic. We will focus mostly on providing motivation for keis, an
+algebraic representation of knots, as well as their generalization, quandles.
+Quandles will prove to be not only helpful with respect to the goal of the
+classification of knots, but also as rich algebraic structures. The talk will
+involve small amounts of group theory, linear algebra and module theory.
 
 ### Outline
 
