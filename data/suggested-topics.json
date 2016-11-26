@@ -1,5 +1,17 @@
 [
     {
+        "topic": "The Mathematics of Gerrymandering",
+        "tags": [
+            "voting-theory",
+            "social-choice",
+	    "geometry"
+         ],
+        "references": [
+            "[Hodge, Marshall, Patterson](http://www.maa.org/sites/default/files/pdf/upload_library/22/Polya/Hodge2011.pdf)"
+        ],
+        "see-also": []
+    },		
+    {
         "topic": "Waring's Problem and writing numbers as sums of powers",
         "tags": [
             "additive-number-theory",
