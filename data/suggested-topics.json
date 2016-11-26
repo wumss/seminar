@@ -3,7 +3,7 @@
         "topic": "The Brachistochrone and the Calculus of Variations",
         "tags": [
             "applied-math",
-            "calculus-of-variations",
+            "calculus-of-variations"
            ],
         "references": [
             "[Yutuka Nishiyama](http://www.osaka-ue.ac.jp/zemi/nishiyama/math2010/cycloid.pdf)"
@@ -14,7 +14,7 @@
         "topic": "Waring's Problem and writing numbers as sums of powers",
         "tags": [
             "additive-number-theory",
-            "number-theory",
+            "number-theory"
          ],
         "references": [
             "[Nathanson](https://www.amazon.ca/Additive-Number-Theory-Classical-Bases/dp/038794656X#reader_038794656X)"
@@ -26,7 +26,7 @@
         "tags": [
             "human-computer-interaction",
             "encryption",
-            "security",
+            "security"
          ],
         "references": [
    		"[Macrae, et all](http://www.cs.toronto.edu/~abari/papers/GeoPass_TIFS_2016.pdf)",
