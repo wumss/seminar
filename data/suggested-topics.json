@@ -31,8 +31,7 @@
         "references": [
    		"[Macrae, et all](http://www.cs.toronto.edu/~abari/papers/GeoPass_TIFS_2016.pdf)",
             "[Al Ameen, Wright](https://arxiv.org/pdf/1408.2852.pdf)", 
-            "[Thorpe, et all](https://cups.cs.cmu.edu/soups/2013/proceedings/a14_Thorpe.pdf)",
-           
+            "[Thorpe, et all](https://cups.cs.cmu.edu/soups/2013/proceedings/a14_Thorpe.pdf)"          
         ],
         "see-also": ["Users often choose passwords that are easy to remember but also easy to guess. Both textual [1–3] and graphical passwords [4–8] have failed to provide a viable solution to this usability-security tension. It thus remains a critical challenge in password research to design an authentication scheme that is resilient to guessing attacks while offering good memorability."]
     },	
