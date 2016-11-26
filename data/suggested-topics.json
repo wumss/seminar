@@ -3,8 +3,8 @@
         "topic": "Geometric Group Theory",
         "tags": [
             "algebra",
-            "applied-math",
-	    "dynamical-systems"
+            "group-theory",
+	    "topology", "geometry"
          ],
         "references": [
             "[Kraft](https://www.math.ucdavis.edu/~kapovich/280-2009/bhb-ggtcourse.pdf)" ],
@@ -28,7 +28,8 @@
         "tags": [
             "voting-theory",
             "social-choice",
-	    "geometry"
+	    "geometry",
+            "HOT"
          ],
         "references": [
             "[Hodge, Marshall, Patterson](http://www.maa.org/sites/default/files/pdf/upload_library/22/Polya/Hodge2011.pdf)"
@@ -71,23 +72,14 @@
 	    "excerpt": "Johann Bernoulli posed the problem of the brachistochrone to the readers of Acta Eruditorum in June, 1696. He published his solution in the journal in May of the following year, and noted that the solution is the same curve as Huygens's tautochrone curve. After deriving the differential equation for the curve by the method given above, he went on to show that it does yield a cycloid. Bernoulli allowed six months for the solutions but none were received during this period. At the request of Leibniz, the time was publicly extended for a year and a half. On 29 January 1697 the challenge was received by Isaac Newton, who found it in his mail, in a letter from Johann Bernoulli, when he arrived home from the Royal Mint at 4 p.m., and stayed up all night to solve it and mailed the solution anonymously by the next post. Upon reading the solution, Bernoulli immediately recognized its author, exclaiming that he 'recognizes a lion from his claw marks'. This story gives some idea of Newton's power, since Johann Bernoulli took two weeks to solve it. At the end, five mathematicians responded with solutions: Newton, Jakob Bernoulli (Johann's brother), Gottfried Leibniz, Ehrenfried Walther von Tschirnhaus and Guillaume de l'Hôpital. Four of the solutions (excluding l'Hôpital's) were published in the same edition of the journal as Johann Bernoulli's. In his paper Jakob Bernoulli gave a proof of the condition for least time similar to that above before showing that its solution is a cycloid.[8] According to Newtonian scholar Tom Whiteside, In an attempt to outdo his brother, Jakob Bernoulli created a harder version of the brachistochrone problem. In solving it, he developed new methods that were refined by Leonhard Euler into what the latter called (in 1766) the calculus of variations. ",
         "see-also": []
     },
-    {
-        "topic": "Waring's Problem and writing numbers as sums of powers",
-        "tags": [
-            "additive-number-theory",
-            "number-theory"
-         ],
-        "references": [
-            "[Nathanson](https://www.amazon.ca/Additive-Number-Theory-Classical-Bases/dp/038794656X#reader_038794656X)"
-        ],
-        "see-also": []
-    },	
+   
     {
         "topic": "Geographic Authentication Schemes",
         "tags": [
             "human-computer-interaction",
             "encryption",
-            "security"
+            "security",
+            "HOT"
          ],
         "references": [
    		"[Macrae, et all](http://www.cs.toronto.edu/~abari/papers/GeoPass_TIFS_2016.pdf)",
@@ -114,7 +106,8 @@
         "tags": [
             "computer-science",
             "logic",
-            "model-checking"
+            "model-checking",
+	    "HOT"
         ],
         "references": [
             "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)"
@@ -264,7 +257,8 @@
         "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC",
         "tags": [
             "set-theory",
-            "challenge!"
+            "challenge!",
+	    "HOT"
         ],
         "references": [
             "[Itay Neeman](http://www.math.ucla.edu/~ineeman/223s.1.11s/223s-spring11-lecture-notes-6-5.pdf)",
@@ -277,7 +271,8 @@
         "tags": [
             "analysis",
             "differential-equations",
-            "fractals"
+            "fractals",
+            "HOT"
             ],
         "references": [
             "Robert Strichartz : Differential Equations on Fractals - A tutorial"
@@ -289,7 +284,8 @@
         "tags": [
             "probability",
             "statistics",
-            "decision-theory"
+            "decision-theory",
+            "HOT"
             ],
         "references": [
             "[Thomas S. Ferguson](https://www.math.upenn.edu/~ted/210F10/References/Secretary.pdf)",
@@ -302,7 +298,8 @@
         "tags": [
             "combinatorics",
             "game-theory",
-            "first-year-friendly"
+            "first-year-friendly",
+	    "HOT"
             ],
         "references": ["John Conway : On Games and Numbers"],
         "see-also": ["kt-GameTheory"]
@@ -337,7 +334,8 @@
             "biology",
             "computer-science",
             "markov-model",
-            "optimization"
+            "optimization",
+            "HOT"
         ],
         "references": [
             "[Folding@Home Papers Collection](http://folding.stanford.edu/home/papers)"
@@ -410,7 +408,8 @@
         "tags": [
             "cryptography",
             "number-theory",
-            "quantum-algorithms"
+            "quantum-algorithms",
+            "HOT"
         ],
         "references": [
             "[Samuel S. Wagstaff (Jr.)](https://books.google.ca/books/about/The_Joy_of_Factoring.html?id=rowCAQAAQBAJ&redir_esc=y)"
@@ -422,7 +421,8 @@
         "tags": [
             "first-year-friendly",
             "number-theory",
-            "prime-numbers"
+            "prime-numbers",
+            "HOT"
         ],
         "references": [
             "[Andrew Granville, Prime Number Patterns](https://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Granville.pdf)",
@@ -555,7 +555,8 @@
             "computability",
             "computational-complexity",
             "computer-science",
-            "open-problems"
+            "open-problems",
+            "HOT"
         ],
         "references": [
             "Arora, Bazak: Computational Complexity"
@@ -657,7 +658,8 @@
             "computer-science",
             "cryptography",
             "distributed-systems",
-            "first-year-friendly"
+            "first-year-friendly",
+            "HOT"
         ],
         "references": [
             "[Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)"
@@ -680,7 +682,8 @@
         "tags": [
             "number-theory",
             "open-problems",
-            "prime-numbers"
+            "prime-numbers",
+	    "HOT"
         ],
         "references": [
             "[E. Bombieri, Problems of the Millennium: The Riemann Hypothesis](http://www.claymath.org/sites/default/files/official_problem_description.pdf)"
@@ -774,13 +777,14 @@
         "see-also": []
     },
     {
-        "topic": "Heegner Numbers",
+        "topic": "Almost Integers",
         "tags": [
             "algebra",
             "first-year-friendly",
-            "number-theory"
+            "number-theory",
+	    "HOT"
         ],
-        "references": [],
+        "references": ["[Panju](http://mathreview.uwaterloo.ca/archive/voli/2/panju.pdf)"],
         "see-also": []
     },
     {
@@ -803,10 +807,11 @@
         "see-also": []
     },
     {
-        "topic": "Jordan Curve Theorem",
+        "topic": "The Jordan Curve Theorem",
         "tags": [
             "topology",
-            "homology"
+            "homology",
+	    "algebraic-topology"
         ],
         "references" : [],
         "see-also": []
