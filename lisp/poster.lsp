@@ -47,7 +47,7 @@
             [x 800]
             [y ,(+ (* 240 i) 240)]
             [text-anchor "end"])
-           ,(String (ref (ref (ref talks i) 'time) (colon 1 5))))
+           ,(ref (ref (ref talks i) 'time) (colon 1 5)))
      (text ([fill "#000000"]
             [font-size 18]
             [font-family "Ubuntu"]
@@ -57,8 +57,8 @@
      (foreignObject
        ([x 50] [y ,(+ (* 240 i) 290)] [width 750] [height 400])
        (p ([style "font-family:Ubuntu; font-size: 16pt;"])
-          ,(join (ref (split
+          ,(join (take (split
                         (readstring
                           (string "abstract/"
                                   (ref (ref talks i) 'identifier))) ".")
-                      (colon 1 3)) ".") ".")))))
+                       (Int 3)) ".") ".")))))
