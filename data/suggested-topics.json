@@ -1,5 +1,17 @@
 [
     {
+        "topic": "The Cantor Set and Dynamical systems",
+        "tags": [
+            "analysis",
+            "applied-math",
+	    "dynamical-systems"
+         ],
+        "references": [
+            "[Kraft](https://www.jstor.org/stable/pdf/2589144.pdf)", "[Math Stackexchange](https://math.stackexchange.com/questions/265925/where-do-cantor-sets-naturally-occur)"
+        ],
+        "see-also": []
+    },	
+    {
         "topic": "The Mathematics of Gerrymandering",
         "tags": [
             "voting-theory",
