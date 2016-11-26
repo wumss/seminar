@@ -1,5 +1,17 @@
 [ 
     {
+	"topic": "Bloom Filters and Probabilistic Data Structures",
+	"tags": [
+		"data-structures",
+		"probability",
+		"algorithms"
+	],
+	"references": [
+	"[Blustein](https://www.cs.dal.ca/sites/default/files/technical_reports/CS-2002-10.pdf)"
+	],
+	"see-also": []
+    },
+    {
 	"topic": "Geometry and Billiards",
 	"tags": [
 		"differential-geometry",
@@ -45,7 +57,7 @@
 	"tags": [
 		"clifford-algebra",
 		"algebra",
-		"machine-learning",
+		"machine-learning"
 	],
 	"references": [
 	"[Bucholtz, Tachibana, Hitzner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.5449&rep=rep1&type=pdf)"
