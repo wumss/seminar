@@ -1,5 +1,42 @@
 [
     {
+        "topic": "The Brachistochrone and the Calculus of Variations",
+        "tags": [
+            "applied-math",
+            "calculus-of-variations",
+           ],
+        "references": [
+            "[Yutuka Nishiyama](http://www.osaka-ue.ac.jp/zemi/nishiyama/math2010/cycloid.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Waring's Problem and writing numbers as sums of powers",
+        "tags": [
+            "additive-number-theory",
+            "number-theory",
+         ],
+        "references": [
+            "[Nathanson](https://www.amazon.ca/Additive-Number-Theory-Classical-Bases/dp/038794656X#reader_038794656X)"
+        ],
+        "see-also": []
+    },	
+    {
+        "topic": "Geographic Authentication Schemes",
+        "tags": [
+            "human-computer-interaction",
+            "encryption",
+            "security",
+         ],
+        "references": [
+   		"[Macrae, et all](http://www.cs.toronto.edu/~abari/papers/GeoPass_TIFS_2016.pdf)",
+            "[Al Ameen, Wright](https://arxiv.org/pdf/1408.2852.pdf)", 
+            "[Thorpe, et all](https://cups.cs.cmu.edu/soups/2013/proceedings/a14_Thorpe.pdf)",
+           
+        ],
+        "see-also": ["Users often choose passwords that are easy to remember but also easy to guess. Both textual [1–3] and graphical passwords [4–8] have failed to provide a viable solution to this usability-security tension. It thus remains a critical challenge in password research to design an authentication scheme that is resilient to guessing attacks while offering good memorability."]
+    },	
+    {
         "topic": "Down with Determinants",
         "tags": [
             "algebra",
