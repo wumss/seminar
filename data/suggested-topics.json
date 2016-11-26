@@ -1,5 +1,17 @@
 [
     {
+        "topic": "Geometric Group Theory",
+        "tags": [
+            "algebra",
+            "applied-math",
+	    "dynamical-systems"
+         ],
+        "references": [
+            "[Kraft](https://www.math.ucdavis.edu/~kapovich/280-2009/bhb-ggtcourse.pdf)" ],
+	    "excerpt": "The field of geometric group theory emerged from Gromov’s insight that even mathematical objects such as groups, which are defined completely in algebraic terms, can be profitably viewed as geometric objects and studied with geometric techniques Contemporary geometric group theory has broadened its scope considerably, but retains this basic philosophy of reformulating in geometric terms problems from diverse areas of mathematics and then solving them with a variety of tools. The growing list of areas where this general approach has been successful includes low-dimensional topology, the theory of manifolds, algebraic topology, complex dynamics, combinatorial group theory, algebra, logic, the study of various classical families of groups, Riemannian geometry and representation theory.",
+        "see-also": []
+    },
+   {
         "topic": "The Cantor Set and Dynamical systems",
         "tags": [
             "analysis",
