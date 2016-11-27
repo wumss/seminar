@@ -8,7 +8,7 @@
     "first-year-friendly topics")
    ". Once you have found a topic, whether a suggested topic or one of "
    "your own choosing, please fill out the "
-   (#:template link-to "potential-topics/#request" "form")
+   (#:template link-to "submit-talk" "form")
    " to submit a talk proposal.")
 
 (#:each s suggestions
