@@ -20,7 +20,8 @@
 
 (#:define (render-suggestion s)
   (append
-    `((h3 ,(ref s 'topic)))
+    `((h3 ,(ref s 'topic))
+      ,(Cons 'p (render-inline-tags (ref s 'tags))))
     (if (isempty (ref s 'references))
       '()
       `((h4 "Possible References")
@@ -42,16 +43,14 @@
                             (ref s 'topic))])
             "arXiv.org search") ", "
          (a ([href ,(string "/seminar/potential-topics/#request")])
-            "propose to present a talk")
-         "; tags: "
-         ,(render-inline-tags (ref s 'tags))))))
+            "propose to present a talk")))))
 
 (#:define (interpolate item between)
   (if (isempty between) '()
     (Cons (car between) (Cons item (interpolate item (cdr between))))))
 
 (#:define (render-inline-tags ts)
-  (Cons 'span (interpolate " " (convert List (map tag-link (sort ts))))))
+  (interpolate " " (convert List (map tag-link (sort ts)))))
 
 (#:define (archive-link t)
   `(a ([href ,(string "/seminar/archive/" t)]) ,(ref (ref talkdict t) 'topic)))
