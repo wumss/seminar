@@ -48,16 +48,16 @@
 
 (#:define (interpolate item between)
   (if (isempty between) '()
-    (Cons (car between) (Cons item (cdr between)))))
+    (Cons (car between) (Cons item (interpolate item (cdr between))))))
 
 (#:define (render-inline-tags ts)
-  (Cons 'span (interpolate " " (convert List (map tag-link ts)))))
+  (Cons 'span (interpolate " " (convert List (map tag-link (sort ts))))))
 
 (#:define (archive-link t)
   `(a ([href ,(string "/seminar/archive/" t)]) ,(ref (ref talkdict t) 'topic)))
 
 (#:define (tag-link tag)
-  `(a ([href ,(string "/seminar/tag/" tag)]) ,tag))
+  `(a ([class "tag-link"] [href ,(string "/seminar/tag/" tag)]) ,tag))
 
 (#:define (link-to url text)
   `(a ([href ,(string "/seminar/" url)]) ,text))
