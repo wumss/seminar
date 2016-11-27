@@ -1,5 +1,18 @@
 [ 
     {
+	"topic": "Representation theory and Voting Theory",
+	"tags": [
+		"representation-theory",
+		"algebra",
+		"voting-theory"
+	],
+	"references": [
+	"[Crissman, Orrison](https://arxiv.org/abs/1508.05891)",
+	"[Daugherty, et all](https://arxiv.org/abs/0712.2837)"
+	],
+	"see-also": []
+    },
+   {
 	"topic": "Bloom Filters and Probabilistic Data Structures",
 	"tags": [
 		"data-structures",
