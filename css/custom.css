@@ -32,8 +32,15 @@ a.tag-link {
 
 a.tag-hot:before, a.tag-hot:after {
     font-weight: normal;
-    content: ' 🔥 ';
     color: red;
+}
+
+a.tag-hot:before {
+    content: '🔥 ';
+}
+
+a.tag-hot:after {
+    content: ' 🔥';
 }
 
 a.tag-hot {
