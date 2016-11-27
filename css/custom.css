@@ -25,7 +25,18 @@ footer {
 a.tag-link {
     border: 1px solid black;
     border-radius: .5ex;
-    padding: 0 .5ex;
-    color: antiquewhite;
-    background-color: black;
+    padding: .2ex .7ex;
+    white-space: nowrap;
+}
+
+a.tag-hot:before, a.tag-hot:after {
+    font-weight: normal;
+    content: ' 🔥 ';
+    color: red;
+    font-family: "Noto Color Emoji";
+}
+
+a.tag-hot {
+    font-weight: bold;
+    text-transform: capitalize;
 }
