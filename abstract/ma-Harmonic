@@ -1,1 +1,9 @@
-TBA
+Fourier analysis was initially introduced as a way to study the thermodynamic heat equation. At its simplest, it is the study of how to represent functions as an 
+infinite sum of sines and cosines. However, the evil mathematicians felt that Fourier analysis was too simple and decided to steal it from the hardworking 
+physicists and expand on it. In addition, they decided to complicate it by introducing Harmonic analysis. So, what is the difference between Harmonic and 
+Fourier analysis? We say that Harmonic analysis is the process of representing functions on a locally compact group G as a sum of the characters of the group, and 
+Fourier analysis restricts this process to abelian groups.
+
+In this talk I will introduce the Fourier series, the Fourier transform and how it applies to abelian groups. What about non-abelian groups, you might ask? 
+The answer is Harmonic analysis! Finally, I will explain the role of Fourier transform in quantum mechanics, specifically how the Fourier transform interchanges 
+position and momentum space.
