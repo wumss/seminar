@@ -57,7 +57,8 @@
   `(a ([href ,(string "/seminar/archive/" t)]) ,(ref (ref talkdict t) 'topic)))
 
 (#:define (tag-link tag)
-  `(a ([class "tag-link"] [href ,(string "/seminar/tag/" tag)]) ,tag))
+  `(a ([class ,(string "tag-link tag-" tag)]
+       [href ,(string "/seminar/tag/" tag)]) ,tag))
 
 (#:define (link-to url text)
   `(a ([href ,(string "/seminar/" url)]) ,text))

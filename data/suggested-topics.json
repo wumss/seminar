@@ -54,7 +54,7 @@
    { 
 	"topic": "Geometric Computing with Clifford Algebra",
 	"tags": [
-		"clifford-algebra",
+		"clifford-algebras",
 		"theoretical-computer-science",
 		"applied-math",
 		"computer-vision"
@@ -68,7 +68,7 @@
    { 
 	"topic": "Clifford Neurons",
 	"tags": [
-		"clifford-algebra",
+		"clifford-algebras",
 		"algebra",
 		"machine-learning"
 	],
@@ -120,7 +120,7 @@
             "voting-theory",
             "social-choice",
 	    "geometry",
-            "HOT"
+            "hot"
          ],
         "references": [
             "[Hodge, Marshall, Patterson](http://www.maa.org/sites/default/files/pdf/upload_library/22/Polya/Hodge2011.pdf)"
@@ -170,7 +170,7 @@
             "human-computer-interaction",
             "encryption",
             "security",
-            "HOT"
+            "hot"
          ],
         "references": [
    		"[Macrae, et all](http://www.cs.toronto.edu/~abari/papers/GeoPass_TIFS_2016.pdf)",
@@ -198,7 +198,7 @@
             "computer-science",
             "logic",
             "model-checking",
-	    "HOT"
+	    "hot"
         ],
         "references": [
             "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)"
@@ -349,7 +349,7 @@
         "tags": [
             "set-theory",
             "challenge!",
-	    "HOT"
+	    "hot"
         ],
         "references": [
             "[Itay Neeman](http://www.math.ucla.edu/~ineeman/223s.1.11s/223s-spring11-lecture-notes-6-5.pdf)",
@@ -363,7 +363,7 @@
             "analysis",
             "differential-equations",
             "fractals",
-            "HOT"
+            "hot"
             ],
         "references": [
             "Robert Strichartz : Differential Equations on Fractals - A tutorial"
@@ -376,7 +376,7 @@
             "probability",
             "statistics",
             "decision-theory",
-            "HOT"
+            "hot"
             ],
         "references": [
             "[Thomas S. Ferguson](https://www.math.upenn.edu/~ted/210F10/References/Secretary.pdf)",
@@ -390,7 +390,7 @@
             "combinatorics",
             "game-theory",
             "first-year-friendly",
-	    "HOT"
+	    "hot"
             ],
         "references": ["John Conway : On Games and Numbers"],
         "see-also": ["kt-GameTheory"]
@@ -426,7 +426,7 @@
             "computer-science",
             "markov-model",
             "optimization",
-            "HOT"
+            "hot"
         ],
         "references": [
             "[Folding@Home Papers Collection](http://folding.stanford.edu/home/papers)"
@@ -500,7 +500,7 @@
             "cryptography",
             "number-theory",
             "quantum-algorithms",
-            "HOT"
+            "hot"
         ],
         "references": [
             "[Samuel S. Wagstaff (Jr.)](https://books.google.ca/books/about/The_Joy_of_Factoring.html?id=rowCAQAAQBAJ&redir_esc=y)"
@@ -513,7 +513,7 @@
             "first-year-friendly",
             "number-theory",
             "prime-numbers",
-            "HOT"
+            "hot"
         ],
         "references": [
             "[Andrew Granville, Prime Number Patterns](https://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Granville.pdf)",
@@ -647,7 +647,7 @@
             "computational-complexity",
             "computer-science",
             "open-problems",
-            "HOT"
+            "hot"
         ],
         "references": [
             "Arora, Bazak: Computational Complexity"
@@ -750,7 +750,7 @@
             "cryptography",
             "distributed-systems",
             "first-year-friendly",
-            "HOT"
+            "hot"
         ],
         "references": [
             "[Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)"
@@ -774,7 +774,7 @@
             "number-theory",
             "open-problems",
             "prime-numbers",
-	    "HOT"
+	    "hot"
         ],
         "references": [
             "[E. Bombieri, Problems of the Millennium: The Riemann Hypothesis](http://www.claymath.org/sites/default/files/official_problem_description.pdf)"
@@ -873,7 +873,7 @@
             "algebra",
             "first-year-friendly",
             "number-theory",
-	    "HOT"
+	    "hot"
         ],
         "references": ["[Panju](http://mathreview.uwaterloo.ca/archive/voli/2/panju.pdf)"],
         "see-also": []
