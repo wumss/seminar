@@ -27,13 +27,13 @@ a.tag-link {
     border-radius: .5ex;
     padding: .2ex .7ex;
     white-space: nowrap;
+    line-height: 3.5ex;
 }
 
 a.tag-hot:before, a.tag-hot:after {
     font-weight: normal;
     content: ' 🔥 ';
     color: red;
-    font-family: "Noto Color Emoji";
 }
 
 a.tag-hot {
