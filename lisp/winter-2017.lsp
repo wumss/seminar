@@ -1,4 +1,4 @@
-(h2 ([id "request"]) "Submit a Talk Request")
+(h1 ([id "request"]) "Submit a Talk Request")
 
 (p "Talk request submissions for Winter 2017 are open! "
    "Submit a talk request using the form below.")

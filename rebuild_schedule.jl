@@ -155,6 +155,11 @@ generate_page(Dict(
     :github => "$GITHUB/lisp/suggested-topics.lsp"), "potential-topics")
 
 generate_page(Dict(
+    :title => "Talk Submission Form",
+    :pagetype => "winter-2017",
+    :github => "$GITHUB/lisp/winter-2017.lsp"), "submit-talk")
+
+generate_page(Dict(
     :title => "Poster",
     :pagetype => "poster",
     :github => "$GITHUB/lisp/poster.lsp",

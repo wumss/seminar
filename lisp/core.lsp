@@ -16,7 +16,8 @@
              (#:template nav-link "tags" "tags")
              (#:template nav-link "faq" "faq")
              (#:template nav-link "document" "library")
-             (#:template nav-link "potential-topics/#request" "speak!")))
+             (#:template nav-link "potential-topics" "topics")
+             (#:template nav-link "submit-talk" "speak!")))
     (section
       (article
         (#:include (string pagetype ".lsp")))

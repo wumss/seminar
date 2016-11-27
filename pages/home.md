@@ -17,5 +17,5 @@ page. Here is a link to our [facebook group](https://www.facebook.com/groups/334
 Talk submissions for Winter 2017 are now open! Please take a look at our
 [suggested topics](/seminar/potential-topics), or browse potential topics by
 [tag](/seminar/tags). To submit a talk, fill out our
-[form](/seminar/potential-topics/#request). We recommend you read the
-[important information for speakers](/seminar/important-information) first.
+[form](/seminar/submit-talk). We recommend you read the [important information
+for speakers](/seminar/important-information) first.
