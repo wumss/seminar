@@ -187,7 +187,8 @@
         "tags": [
             "algebra",
             "groups",
-            "lie-theory"
+            "lie-groups",
+            "linear-algebra"
         ]
     },
     {
@@ -199,10 +200,12 @@
         "abstract": "bcy-KnotTheory",
         "tags": [
             "algebra",
+            "geometric-topology",
             "groups",
             "linear-algebra",
             "knot-theory",
-            "module-theory"
+            "module-theory",
+            "quandles"
         ]
     },
     {
@@ -214,7 +217,9 @@
         "abstract": "ma-Harmonic",
         "tags": [
             "analysis",
-            "harmonic-analysis"
+            "fourier-analysis",
+            "harmonic-analysis",
+            "physics"
         ]
     }
 ]

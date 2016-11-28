@@ -94,8 +94,10 @@
         "topic": "Geometric Group Theory",
         "tags": [
             "algebra",
+            "geometric-topology",
+            "geometry",
             "group-theory",
-	    "topology", "geometry"
+            "topology"
          ],
         "references": [
             "[Kraft](https://www.math.ucdavis.edu/~kapovich/280-2009/bhb-ggtcourse.pdf)" ],
@@ -251,7 +253,10 @@
     {
         "topic": "The Winding Number",
         "tags": [
+            "algebraic-topology",
             "analysis",
+            "differential-geometry",
+            "geometric-topology",
             "geometry",
             "topology"
         ],
@@ -336,6 +341,7 @@
         "topic": "Rational Tangles and Conway's Theorem",
         "tags": [
             "knot-theory",
+            "geometric-topology",
             "topology"
             ],
         "references": [
@@ -348,8 +354,8 @@
         "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC",
         "tags": [
             "set-theory",
-            "challenge!",
-	    "hot"
+            "challenge",
+            "hot"
         ],
         "references": [
             "[Itay Neeman](http://www.math.ucla.edu/~ineeman/223s.1.11s/223s-spring11-lecture-notes-6-5.pdf)",
@@ -572,6 +578,7 @@
     {
         "topic": "Penrose Tilings",
         "tags": [
+            "geometric-topology",
             "geometry",
             "topology"
         ],
@@ -583,6 +590,7 @@
     {
         "topic": "Low Dimensional Geometry",
         "tags": [
+            "geometric-topology",
             "geometry",
             "multivariate-calculus",
             "topology"
@@ -721,7 +729,7 @@
         "tags": [
             "algebra",
             "combinatorics",
-            "challenge!"
+            "challenge"
         ],
         "references": [
             "I. G. Shaferavich : Basic Algebraic Geometry I"
@@ -902,7 +910,8 @@
         "tags": [
             "topology",
             "homology",
-	    "algebraic-topology"
+            "algebraic-topology",
+            "geometric-topology"
         ],
         "references" : [],
         "see-also": []
