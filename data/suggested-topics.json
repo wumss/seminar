@@ -923,7 +923,7 @@
         ],
         "references" : ["[Andreas Willig](http://www.cs.ucf.edu/~lboloni/Teaching/EEL6785_Fall2010/slides/QueueingTheory.pdf)"
         ],
-	"excerpt" : "Queueing theory is the mathematical study of waiting lines, or queues.In queueing theory, a model is constructed so that queue lengths and waiting time can be predicted. Queueing theory is generally considered a branch of operations research because the results are often used when making business decisions about the resources needed to provide a service. "
+	"excerpt" : "Queueing theory is the mathematical study of waiting lines, or queues.In queueing theory, a model is constructed so that queue lengths and waiting time can be predicted. Queueing theory is generally considered a branch of operations research because the results are often used when making business decisions about the resources needed to provide a service. ",
         "see-also": []
     },
     {
