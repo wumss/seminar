@@ -1,10 +1,10 @@
-In light of the recently concluded Elections or as John Oliver would call it   **"A horifying glimpse at Satan's Pinterest Board 2016"** , "The One who must not be named" 
-has repeatedly insinuated that the elections have been rigged. Our humble aim, present a  <b> voting scheme </b> where:
+In light of the recently concluded Elections or as John Oliver would call it   "A horifying glimpse at Satan's Pinterest Board 2016" , "The One who must not be named" 
+has repeatedly insinuated that the elections have been rigged. Our humble aim, present a   voting scheme  where:
 - each voter casts exactly one ballot. 
 - voting is anonymous. 
 We delve into two areas on our way to prove our goal : 
-- <b> Blind Signatures </b> , which allow for anonymous voting 
-- <b> Pallier Cryptosystem </b>, which gives us the ability to sum up the votes 
+-  Blind Signatures  , which allow for anonymous voting 
+-  Pallier Cryptosystem , which gives us the ability to sum up the votes 
   even though they have been encrypted thus allowing the election to be 
   "publicily audited". 
 We might also, if time permit, talk about more modern systems of enabling fair elections 
