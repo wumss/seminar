@@ -915,5 +915,29 @@
         ],
         "references" : [],
         "see-also": []
-    }
+    },
+     {
+        "topic": "Queueing Theory" ,
+        "tags": [
+            "computer-science"
+        ],
+        "references" : ["[Andreas Willig](http://www.cs.ucf.edu/~lboloni/Teaching/EEL6785_Fall2010/slides/QueueingTheory.pdf)"
+        ],
+	"excerpt" : "Queueing theory is the mathematical study of waiting lines, or queues.In queueing theory, a model is constructed so that queue lengths and waiting time can be predicted. Queueing theory is generally considered a branch of operations research because the results are often used when making business decisions about the resources needed to provide a service. "
+        "see-also": []
+    },
+    {
+        "topic": "Tropical geometry and Computational Biology" ,
+        "tags": [
+            "computer-science", 
+            "algebra", 
+            "geometry", 
+	    "algebraic-geometry
+        ],
+        "references" : ["[Diane Maclagan, Bernd Sturmfels](https://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalBook20.4.14.pdf)", 
+		        "[David Speyer, Bernd Strumgfels] (https://math.berkeley.edu/~bernd/mathmag.pdf)"],
+	"excerpt": "Tropical geometry is a combinatorial shadow of algebraic geometry, offering new polyhedral tools to compute invariants of algebraic varieties. It is based on tropical algebra, where the sum of twonumbers is their minimum and the product is their sum. This turnspolynomials into piecewise-linear functions, and their zero sets into polyhedralcomplexes.",
+        "see-also": []
+    },
+    
 ]
