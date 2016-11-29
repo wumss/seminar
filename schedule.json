@@ -230,8 +230,8 @@
        "identifier": "ss-Voting",
        "abstract": "ss-Voting",
        "tags": [
-            "cryptography"
-            "algebra"
+            "cryptography",
+            "algebra",
             "groups" 
        ]
     }
