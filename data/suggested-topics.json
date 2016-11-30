@@ -1,5 +1,15 @@
 [ 
     {
+	"topics": "Cake cutting algorithms",
+	"tags": [
+	"algorithms",
+	"optimization"
+	],
+	"references": [
+	"[Robertson, Webb](https://www.amazon.com/Cake-Cutting-Algorithms-Fair-You-Can/dp/1568810768/ref=sr_1_1?s=books&ie=UTF8&qid=1480468807&sr=1-1&keywords=cake+cutting+algorithms)"],
+	"see-also": []
+    },
+    {
 	"topic": "Representation theory and Voting Theory",
 	"tags": [
 		"representation-theory",
