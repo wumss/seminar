@@ -1,6 +1,6 @@
 [ 
     {
-	"topics": "Cake cutting algorithms",
+	"topic": "Cake cutting algorithms",
 	"tags": [
 	"algorithms",
 	"optimization"
