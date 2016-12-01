@@ -14,5 +14,8 @@
    (#:template link-to "submit-talk" "form")
    " to submit a talk proposal.")
 
+(p "Remember these topics are meant as suggestions to spark ideas! "
+   "Feel free to take any topic mentioned here and make it your own.")
+
 (#:each s suggestions
   (render-suggestion s))
