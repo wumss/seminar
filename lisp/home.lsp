@@ -24,3 +24,11 @@
            `((tr (th ([colspan 4]) "Talks on " ,(human d))))
            (convert List (flatten (map talk-row ts)))))
          '()))))
+
+(h2 "Website Information")
+
+(p "This website was last regenerated on "
+   (#:var (human d))
+   " by Htsx with Julia "
+   (#:var (string VERSION))
+   ".")
