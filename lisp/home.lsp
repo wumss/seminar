@@ -28,7 +28,7 @@
 (h2 "Website Information")
 
 (p "This website was last regenerated on "
-   (#:var (human d))
+   (#:var (human ((. Dates today))))
    " by Htsx with Julia "
    (#:var (string VERSION))
    ".")
