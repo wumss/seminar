@@ -3,7 +3,7 @@
 (#:define (human d) (human (Date d)))
 
 (#:define (time-part t)
-  (String (collect (take t (Int 5)))))
+  (String (collect (take t 5))))
 
 (#:define (nav-link url text)
   `(li (a ([href ,(string "/seminar/" url)]) ,text)))
