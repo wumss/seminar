@@ -1,8 +1,3 @@
-#!/usr/bin/env julia
-
-using SExpressions
-using FunctionalCollections
-
 const GITHUB = "https://github.com/friedeggs/seminar/blob/master"
 
 try mkdir("public") end
