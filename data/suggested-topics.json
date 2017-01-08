@@ -1,104 +1,105 @@
 [ 
     {
-	"topic": "Cake cutting algorithms",
-	"tags": [
-	"algorithms",
-	"optimization"
-	],
-	"references": [
-	"[Robertson, Webb](https://www.amazon.com/Cake-Cutting-Algorithms-Fair-You-Can/dp/1568810768/ref=sr_1_1?s=books&ie=UTF8&qid=1480468807&sr=1-1&keywords=cake+cutting+algorithms)"],
-	"see-also": []
+        "topic": "Cake cutting algorithms",
+        "tags": [
+            "algorithms",
+            "optimization"
+        ],
+        "references": [
+            "[Robertson, Webb](https://www.amazon.com/Cake-Cutting-Algorithms-Fair-You-Can/dp/1568810768/ref=sr_1_1?s=books&ie=UTF8&qid=1480468807&sr=1-1&keywords=cake+cutting+algorithms)"
+        ],
+        "see-also": []
     },
     {
-	"topic": "Representation theory and Voting Theory",
-	"tags": [
-		"representation-theory",
-		"algebra",
-		"voting-theory"
-	],
-	"references": [
-	"[Crissman, Orrison](https://arxiv.org/abs/1508.05891)",
-	"[Daugherty, et all](https://arxiv.org/abs/0712.2837)"
-	],
-	"see-also": []
-    },
-   {
-	"topic": "Bloom Filters and Probabilistic Data Structures",
-	"tags": [
-		"data-structures",
-		"probability",
-		"algorithms"
-	],
-	"references": [
-	"[Blustein](https://www.cs.dal.ca/sites/default/files/technical_reports/CS-2002-10.pdf)"
-	],
-	"see-also": []
+        "topic": "Representation theory and Voting Theory",
+        "tags": [
+            "representation-theory",
+            "algebra",
+            "voting-theory"
+        ],
+        "references": [
+            "[Crissman, Orrison](https://arxiv.org/abs/1508.05891)",
+            "[Daugherty, et all](https://arxiv.org/abs/0712.2837)"
+        ],
+        "see-also": []
     },
     {
-	"topic": "Geometry and Billiards",
-	"tags": [
-		"differential-geometry",
-		"classical-mechanics"
-	],
-	"references": [
-	"[Sergei Tabachnikov](https://www.math.psu.edu/tabachni/Books/billiardsgeometry.pdf)"
-	],
-	"see-also": []
+        "topic": "Bloom Filters and Probabilistic Data Structures",
+        "tags": [
+            "data-structures",
+            "probability",
+            "algorithms"
+        ],
+        "references": [
+            "[Blustein](https://www.cs.dal.ca/sites/default/files/technical_reports/CS-2002-10.pdf)"
+        ],
+        "see-also": []
     },
-   {
-	"topic": "Symmetries and their Role in Physics",
-	"tags": [
-		"physics",
-		"classical-mechanics"
-	],
-	"references": [
-	"[Eduardo Fradkin](http://eduardo.physics.illinois.edu/phys582/582-chapter3.pdf)",
-	"[John Baez](http://math.ucr.edu/home/baez/noether.html)",
-	"[Stephen Haywood](http://www.phy.pku.edu.cn/~qhcao/resources/class/QM/symmetry.pdf)",
-	"[Richard Feynman](http://www.feynmanlectures.caltech.edu/III_17.html)",
-	"[Hanc, Tuleja, Hancova](http://www.eftaylor.com/pub/symmetry.html)",
-	"[David Gross](http://www.pnas.org/content/93/25/14256.full)"
-	],
-	"see-also": []
+    {
+        "topic": "Geometry and Billiards",
+        "tags": [
+            "differential-geometry",
+            "classical-mechanics"
+        ],
+        "references": [
+            "[Sergei Tabachnikov](https://www.math.psu.edu/tabachni/Books/billiardsgeometry.pdf)"
+        ],
+        "see-also": []
     },
-   { 
-	"topic": "Geometric Computing with Clifford Algebra",
-	"tags": [
-		"clifford-algebras",
-		"theoretical-computer-science",
-		"applied-mathematics",
-		"computer-vision"
-	],
-	"references": [
-	"[Gerald Sommer](https://books.google.ca/books?id=umyrCAAAQBAJ&dq=Clifford+Neuron&source=gbs_navlinks_s)"
-	],
-	   "excerpt": "Clifford algebra, then called geometric algebra, was introduced more than a cenetury ago by William K. Clifford, building on work by Grassmann and Hamilton. Clifford or geometric algebra shows strong unifying aspects and turned out in the 1960s to be a most adequate formalism for describing different geometry-related algebraic systems as specializations of one 'mother algebra' in various subfields of physics and engineering. Recent work outlines that Clifford algebra provides a universal and powerfull algebraic framework for an elegant and coherent representation of various problems occuring in computer science, signal processing, neural computing, image processing, pattern recognition, computer vision, and robotics. This monograph-like anthology introduces the concepts and framework of Clifford algebra and provides computer scientists, engineers, physicists, and mathematicians with a rich source of examples of how to work with this formalism.",
-	"see-also": []
-   },
-   { 
-	"topic": "Clifford Neurons",
-	"tags": [
-		"clifford-algebras",
-		"algebra",
-		"machine-learning"
-	],
-	"references": [
-	"[Bucholtz, Tachibana, Hitzner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.5449&rep=rep1&type=pdf)"
-	],
-	"see-also": []
+    {
+        "topic": "Symmetries and their Role in Physics",
+        "tags": [
+            "physics",
+            "classical-mechanics"
+        ],
+        "references": [
+            "[Eduardo Fradkin](http://eduardo.physics.illinois.edu/phys582/582-chapter3.pdf)",
+            "[John Baez](http://math.ucr.edu/home/baez/noether.html)",
+            "[Stephen Haywood](http://www.phy.pku.edu.cn/~qhcao/resources/class/QM/symmetry.pdf)",
+            "[Richard Feynman](http://www.feynmanlectures.caltech.edu/III_17.html)",
+            "[Hanc, Tuleja, Hancova](http://www.eftaylor.com/pub/symmetry.html)",
+            "[David Gross](http://www.pnas.org/content/93/25/14256.full)"
+        ],
+        "see-also": []
+    },
+    { 
+        "topic": "Geometric Computing with Clifford Algebra",
+        "tags": [
+            "clifford-algebras",
+            "theoretical-computer-science",
+            "applied-mathematics",
+            "computer-vision"
+        ],
+        "references": [
+            "[Gerald Sommer](https://books.google.ca/books?id=umyrCAAAQBAJ&dq=Clifford+Neuron&source=gbs_navlinks_s)"
+        ],
+        "excerpt": "Clifford algebra, then called geometric algebra, was introduced more than a cenetury ago by William K. Clifford, building on work by Grassmann and Hamilton. Clifford or geometric algebra shows strong unifying aspects and turned out in the 1960s to be a most adequate formalism for describing different geometry-related algebraic systems as specializations of one 'mother algebra' in various subfields of physics and engineering. Recent work outlines that Clifford algebra provides a universal and powerfull algebraic framework for an elegant and coherent representation of various problems occuring in computer science, signal processing, neural computing, image processing, pattern recognition, computer vision, and robotics. This monograph-like anthology introduces the concepts and framework of Clifford algebra and provides computer scientists, engineers, physicists, and mathematicians with a rich source of examples of how to work with this formalism.",
+        "see-also": []
+    },
+    { 
+        "topic": "Clifford Neurons",
+        "tags": [
+            "clifford-algebras",
+            "algebra",
+            "machine-learning"
+        ],
+        "references": [
+            "[Bucholtz, Tachibana, Hitzner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.5449&rep=rep1&type=pdf)"
+        ],
+        "see-also": []
     },
     {
         "topic": "Dirichlet's Theorem on Primes in Arithmetic progression",
         "tags": [
             "number-theory",
             "analytic-number-theory",
-	    "analysis",
+            "analysis",
             "complex-analysis"
-         ],
+        ],
         "references": [
             "[Pete Clark](https://web.math.pmf.unizg.hr/nastava/studnatj/Dirichlet_theorem.pdf)",
             "[Apostol](http://www.plouffe.fr/simon/math/IntrodAnalyticNTApostol.pdf)" ],
-        "see-also": []
+            "see-also": []
     },
     {
         "topic": "Geometric Group Theory",
@@ -108,19 +109,19 @@
             "geometry",
             "group-theory",
             "topology"
-         ],
+        ],
         "references": [
             "[Kraft](https://www.math.ucdavis.edu/~kapovich/280-2009/bhb-ggtcourse.pdf)" ],
-	    "excerpt": "The field of geometric group theory emerged from Gromov’s insight that even mathematical objects such as groups, which are defined completely in algebraic terms, can be profitably viewed as geometric objects and studied with geometric techniques Contemporary geometric group theory has broadened its scope considerably, but retains this basic philosophy of reformulating in geometric terms problems from diverse areas of mathematics and then solving them with a variety of tools. The growing list of areas where this general approach has been successful includes low-dimensional topology, the theory of manifolds, algebraic topology, complex dynamics, combinatorial group theory, algebra, logic, the study of various classical families of groups, Riemannian geometry and representation theory.",
-        "see-also": []
+            "excerpt": "The field of geometric group theory emerged from Gromov’s insight that even mathematical objects such as groups, which are defined completely in algebraic terms, can be profitably viewed as geometric objects and studied with geometric techniques Contemporary geometric group theory has broadened its scope considerably, but retains this basic philosophy of reformulating in geometric terms problems from diverse areas of mathematics and then solving them with a variety of tools. The growing list of areas where this general approach has been successful includes low-dimensional topology, the theory of manifolds, algebraic topology, complex dynamics, combinatorial group theory, algebra, logic, the study of various classical families of groups, Riemannian geometry and representation theory.",
+            "see-also": []
     },
-   {
+    {
         "topic": "The Cantor Set and Dynamical systems",
         "tags": [
             "analysis",
             "applied-mathematics",
-	    "dynamical-systems"
-         ],
+            "dynamical-systems"
+        ],
         "references": [
             "[Kraft](https://www.jstor.org/stable/pdf/2589144.pdf)", "[Math Stackexchange](https://math.stackexchange.com/questions/265925/where-do-cantor-sets-naturally-occur)"
         ],
@@ -131,9 +132,9 @@
         "tags": [
             "voting-theory",
             "social-choice",
-	    "geometry",
+            "geometry",
             "hot"
-         ],
+        ],
         "references": [
             "[Hodge, Marshall, Patterson](http://www.maa.org/sites/default/files/pdf/upload_library/22/Polya/Hodge2011.pdf)"
         ],
@@ -144,7 +145,7 @@
         "tags": [
             "additive-number-theory",
             "number-theory"
-         ],
+        ],
         "references": [
             "[Nathanson](https://www.amazon.ca/Additive-Number-Theory-Classical-Bases/dp/038794656X#reader_038794656X)"
         ],
@@ -155,12 +156,12 @@
         "tags": [
             "number-theory",
             "analytic-number-theory",
-	    "analysis"
-           ],
+            "analysis"
+        ],
         "references": [
             "[Ireland](https://archive.org/details/springer_10.1007-978-1-4757-2103-4)"            
         ],
-	    "excerpt": "The Bernoulli numbers are a set of numbers that were discovered by Jacob Bernoulli (1654-1705). This set of numbers holds a deep relationship with the Riemann zeta function. The Riemann zeta function has been found to have a relationship with prime numbers. The Bernoulli numbers have also been found to be useful for proofs of a restricted version of Fermat’s Last theorem.",
+        "excerpt": "The Bernoulli numbers are a set of numbers that were discovered by Jacob Bernoulli (1654-1705). This set of numbers holds a deep relationship with the Riemann zeta function. The Riemann zeta function has been found to have a relationship with prime numbers. The Bernoulli numbers have also been found to be useful for proofs of a restricted version of Fermat’s Last theorem.",
         "see-also": []
     },
     {
@@ -168,14 +169,14 @@
         "tags": [
             "applied-mathematics",
             "calculus-of-variations"
-           ],
+        ],
         "references": [
             "[Yutuka Nishiyama](http://www.osaka-ue.ac.jp/zemi/nishiyama/math2010/cycloid.pdf)"
         ],
-	    "excerpt": "Johann Bernoulli posed the problem of the brachistochrone to the readers of Acta Eruditorum in June, 1696. He published his solution in the journal in May of the following year, and noted that the solution is the same curve as Huygens's tautochrone curve. After deriving the differential equation for the curve by the method given above, he went on to show that it does yield a cycloid. Bernoulli allowed six months for the solutions but none were received during this period. At the request of Leibniz, the time was publicly extended for a year and a half. On 29 January 1697 the challenge was received by Isaac Newton, who found it in his mail, in a letter from Johann Bernoulli, when he arrived home from the Royal Mint at 4 p.m., and stayed up all night to solve it and mailed the solution anonymously by the next post. Upon reading the solution, Bernoulli immediately recognized its author, exclaiming that he 'recognizes a lion from his claw marks'. This story gives some idea of Newton's power, since Johann Bernoulli took two weeks to solve it. At the end, five mathematicians responded with solutions: Newton, Jakob Bernoulli (Johann's brother), Gottfried Leibniz, Ehrenfried Walther von Tschirnhaus and Guillaume de l'Hôpital. Four of the solutions (excluding l'Hôpital's) were published in the same edition of the journal as Johann Bernoulli's. In his paper Jakob Bernoulli gave a proof of the condition for least time similar to that above before showing that its solution is a cycloid.[8] According to Newtonian scholar Tom Whiteside, In an attempt to outdo his brother, Jakob Bernoulli created a harder version of the brachistochrone problem. In solving it, he developed new methods that were refined by Leonhard Euler into what the latter called (in 1766) the calculus of variations. ",
+        "excerpt": "Johann Bernoulli posed the problem of the brachistochrone to the readers of Acta Eruditorum in June, 1696. He published his solution in the journal in May of the following year, and noted that the solution is the same curve as Huygens's tautochrone curve. After deriving the differential equation for the curve by the method given above, he went on to show that it does yield a cycloid. Bernoulli allowed six months for the solutions but none were received during this period. At the request of Leibniz, the time was publicly extended for a year and a half. On 29 January 1697 the challenge was received by Isaac Newton, who found it in his mail, in a letter from Johann Bernoulli, when he arrived home from the Royal Mint at 4 p.m., and stayed up all night to solve it and mailed the solution anonymously by the next post. Upon reading the solution, Bernoulli immediately recognized its author, exclaiming that he 'recognizes a lion from his claw marks'. This story gives some idea of Newton's power, since Johann Bernoulli took two weeks to solve it. At the end, five mathematicians responded with solutions: Newton, Jakob Bernoulli (Johann's brother), Gottfried Leibniz, Ehrenfried Walther von Tschirnhaus and Guillaume de l'Hôpital. Four of the solutions (excluding l'Hôpital's) were published in the same edition of the journal as Johann Bernoulli's. In his paper Jakob Bernoulli gave a proof of the condition for least time similar to that above before showing that its solution is a cycloid.[8] According to Newtonian scholar Tom Whiteside, In an attempt to outdo his brother, Jakob Bernoulli created a harder version of the brachistochrone problem. In solving it, he developed new methods that were refined by Leonhard Euler into what the latter called (in 1766) the calculus of variations. ",
         "see-also": []
     },
-   
+
     {
         "topic": "Geographic Authentication Schemes",
         "tags": [
@@ -183,13 +184,13 @@
             "encryption",
             "security",
             "hot"
-         ],
+        ],
         "references": [
-   		"[Macrae, et all](http://www.cs.toronto.edu/~abari/papers/GeoPass_TIFS_2016.pdf)",
+            "[Macrae, et all](http://www.cs.toronto.edu/~abari/papers/GeoPass_TIFS_2016.pdf)",
             "[Al Ameen, Wright](https://arxiv.org/pdf/1408.2852.pdf)", 
             "[Thorpe, et all](https://cups.cs.cmu.edu/soups/2013/proceedings/a14_Thorpe.pdf)"          
         ],
-	    "excerpt": "Users often choose passwords that are easy to remember but also easy to guess. Both textual and graphical passwords have failed to provide a viable solution to this usability-security tension. It thus remains a critical challenge in password research to design an authentication scheme that is resilient to guessing attacks while offering good memorability.",
+        "excerpt": "Users often choose passwords that are easy to remember but also easy to guess. Both textual and graphical passwords have failed to provide a viable solution to this usability-security tension. It thus remains a critical challenge in password research to design an authentication scheme that is resilient to guessing attacks while offering good memorability.",
         "see-also": []
     },	
     {
@@ -210,7 +211,7 @@
             "computer-science",
             "logic",
             "model-checking",
-	    "hot"
+            "hot"
         ],
         "references": [
             "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)"
@@ -353,7 +354,7 @@
             "knot-theory",
             "geometric-topology",
             "topology"
-            ],
+        ],
         "references": [
             "[Jay R. Goldman and Louis H. Kauffman](http://homepages.math.uic.edu/~kauffman/RTang.pdf)",
             "C. C. Adams : The Knot Book: An elementary introduction to the mathematical theory of knots"
@@ -380,7 +381,7 @@
             "differential-equations",
             "fractals",
             "hot"
-            ],
+        ],
         "references": [
             "Robert Strichartz : Differential Equations on Fractals - A tutorial"
         ],
@@ -393,7 +394,7 @@
             "statistics",
             "decision-theory",
             "hot"
-            ],
+        ],
         "references": [
             "[Thomas S. Ferguson](https://www.math.upenn.edu/~ted/210F10/References/Secretary.pdf)",
             "[Sergei Vassilvitski](http://theory.stanford.edu/~sergei/slides/hiring-dagstuhl.pdf)"
@@ -406,8 +407,8 @@
             "combinatorics",
             "game-theory",
             "first-year-friendly",
-	    "hot"
-            ],
+            "hot"
+        ],
         "references": ["John Conway : On Games and Numbers"],
         "see-also": ["kt-GameTheory"]
     },
@@ -417,7 +418,7 @@
             "cryptography",
             "computer-science",
             "first-year-friendly"
-            ],
+        ],
         "references" : [],
         "see-also": []
     },
@@ -792,7 +793,7 @@
             "number-theory",
             "open-problems",
             "prime-numbers",
-	    "hot"
+            "hot"
         ],
         "references": [
             "[E. Bombieri, Problems of the Millennium: The Riemann Hypothesis](http://www.claymath.org/sites/default/files/official_problem_description.pdf)"
@@ -858,10 +859,10 @@
         ],
         "references": [
             "[Derek O'Connor, An Introduction to Sparse Matrices](http://www.maths.tcd.ie/pub/ims/nl15/nl15_6-30.pdf)",
-			"[Aydın Buluç, Jeremy T. Fineman, Matteo Frigo, John R. Gilbert, Charles E. Leiserson](http://gauss.cs.ucsb.edu/~aydin/csb2009.pdf)",
-			"[Tim Davis](http://faculty.cse.tamu.edu/davis/research.html)"
+            "[Aydın Buluç, Jeremy T. Fineman, Matteo Frigo, John R. Gilbert, Charles E. Leiserson](http://gauss.cs.ucsb.edu/~aydin/csb2009.pdf)",
+            "[Tim Davis](http://faculty.cse.tamu.edu/davis/research.html)"
         ],
-		"excerpt": "Sparse matrices are frequently used in scientific and numerical computation. How do they work? What new findings have there been? Speakers are encouraged to specialize this broad topic to a particular subfield of interest.",
+        "excerpt": "Sparse matrices are frequently used in scientific and numerical computation. How do they work? What new findings have there been? Speakers are encouraged to specialize this broad topic to a particular subfield of interest.",
         "see-also": []
     },
     {
@@ -891,20 +892,20 @@
             "algebra",
             "first-year-friendly",
             "number-theory",
-	    "hot"
+            "hot"
         ],
         "references": ["[Panju](http://mathreview.uwaterloo.ca/archive/voli/2/panju.pdf)"],
         "see-also": []
     },
     {
-	    "topic": "Schoof's Algorithm",
-	    "tags": [
-	        "algebra",
-	        "number-theory",
-	        "groups"
-	        ],
-	    "references": ["[Schoof](http://www.math.umn.edu/~musiker/schoof.pdf)"],
-	    "see-also": []
+        "topic": "Schoof's Algorithm",
+        "tags": [
+            "algebra",
+            "number-theory",
+            "groups"
+        ],
+        "references": ["[Schoof](http://www.math.umn.edu/~musiker/schoof.pdf)"],
+        "see-also": []
     },
     {
         "topic": "Toronto Spaces",
@@ -926,14 +927,15 @@
         "references" : [],
         "see-also": []
     },
-     {
+    {
         "topic": "Queueing Theory" ,
         "tags": [
             "computer-science"
         ],
-        "references" : ["[Andreas Willig](http://www.cs.ucf.edu/~lboloni/Teaching/EEL6785_Fall2010/slides/QueueingTheory.pdf)"
+        "references" : [
+            "[Andreas Willig](http://www.cs.ucf.edu/~lboloni/Teaching/EEL6785_Fall2010/slides/QueueingTheory.pdf)"
         ],
-	"excerpt" : "Queueing theory is the mathematical study of waiting lines, or queues.In queueing theory, a model is constructed so that queue lengths and waiting time can be predicted. Queueing theory is generally considered a branch of operations research because the results are often used when making business decisions about the resources needed to provide a service. ",
+        "excerpt" : "Queueing theory is the mathematical study of waiting lines, or queues.In queueing theory, a model is constructed so that queue lengths and waiting time can be predicted. Queueing theory is generally considered a branch of operations research because the results are often used when making business decisions about the resources needed to provide a service. ",
         "see-also": []
     },
     {
@@ -942,12 +944,14 @@
             "computer-science", 
             "algebra", 
             "geometry", 
-	    "algebraic-geometry"
+            "algebraic-geometry"
         ],
-        "references" : ["[Diane Maclagan, Bernd Sturmfels](https://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalBook20.4.14.pdf)", 
-		        "[David Speyer, Bernd Strumgfels] (https://math.berkeley.edu/~bernd/mathmag.pdf)"],
-	"excerpt": "Tropical geometry is a combinatorial shadow of algebraic geometry, offering new polyhedral tools to compute invariants of algebraic varieties. It is based on tropical algebra, where the sum of twonumbers is their minimum and the product is their sum. This turnspolynomials into piecewise-linear functions, and their zero sets into polyhedralcomplexes.",
+        "references" : [
+            "[Diane Maclagan, Bernd Sturmfels](https://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalBook20.4.14.pdf)", 
+            "[David Speyer, Bernd Strumgfels] (https://math.berkeley.edu/~bernd/mathmag.pdf)"
+        ],
+        "excerpt": "Tropical geometry is a combinatorial shadow of algebraic geometry, offering new polyhedral tools to compute invariants of algebraic varieties. It is based on tropical algebra, where the sum of twonumbers is their minimum and the product is their sum. This turnspolynomials into piecewise-linear functions, and their zero sets into polyhedralcomplexes.",
         "see-also": []
     }
-    
+
 ]
