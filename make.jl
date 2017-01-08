@@ -54,7 +54,7 @@ end
 
 function write_summary(t)
     generate_page(Dict(
-        :title => t[:topic],
+        :title => topic(t),
         :pagetype => "archive",
         :mathjaxplease => true,
         :talk => t), "archive/$(identifier(t))"; modules=[Talks])
@@ -67,7 +67,6 @@ map!(result, result) do d
     d[:date], d[:time] = split(d[:time], 'T')
     d
 end
-dates = unique(map(x -> x[:date], result))
 
 talks = []
 
@@ -75,13 +74,13 @@ nexttalks = []
 nextdate = Date(9999,12,31)
 for t in result
     write_summary(t)
-    if Date(t[:date]) < Dates.today()
+    if iscompleted(t)
         push!(talks, brief(t))
     else
-        if Date(t[:date]) < nextdate
-            nextdate = Date(t[:date])
+        if date(t) < nextdate
+            nextdate = date(t)
             nexttalks = [t]
-        elseif Date(t[:date]) == nextdate
+        elseif date(t) == nextdate
             push!(nexttalks, t)
         end
     end
@@ -95,7 +94,7 @@ tagmatrix = TagMatrix()
 for t in result
     talkdict[identifier(t)] = t
     value = valuate(t)
-    populate!(tagmatrix, t[:tags], value)
+    populate!(tagmatrix, tags(t), value)
 end
 
 # suggestion gathering
@@ -103,7 +102,7 @@ include("topic-suggestions.jl")
 
 # documents
 include("documents.jl")
-tags = popular(tagmatrix)
+alltags = popular(tagmatrix)
 
 generate_page(Dict(
     :title => "Archived Talks",
@@ -114,7 +113,6 @@ generate_page(Dict(
 generate_page(Dict(
     :title => "Mathematics Student Seminars",
     :pagetype => "home",
-    :dates => dates,
     :talks => result,
     :github => "$GITHUB/lisp/home.lsp",
     :mathjaxplease => true), ""; modules=[Talks])
@@ -122,15 +120,15 @@ generate_page(Dict(
 generate_page(Dict(
     :title => "List of Tags",
     :pagetype => "tags",
-    :tags => tags), "tags")
+    :tags => alltags), "tags")
 
 # Generate tag pages
-for t in tags
-    active_set = filter(x -> t in x[:tags], result)
+for t in alltags
+    active_set = filter(x -> t in tags(x), result)
     generate_page(Dict(
         :title => "Tag $t",
-        :tag => t,
         :pagetype => "tag",
+        :tag => t,
         :related => relatedto(tagmatrix, t),
         :talkdict => talkdict,
         :talks => active_set,
@@ -147,6 +145,7 @@ generate_page(Dict(
     :mathjaxplease => true,
     :github => "$GITHUB/lisp/suggested-topics.lsp"), "potential-topics")
 
+# Generate poster
 generate_page(Dict(
     :title => "Poster",
     :pagetype => "poster",

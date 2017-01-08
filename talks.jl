@@ -7,7 +7,7 @@ using SExpressions.Lists
 topic(t) = t[:topic]
 location(t) = t[:location]
 speaker(t) = t[:speaker]
-date(t) = t[:date]
+date(t) = Date(t[:date])
 tags(t) = t[:tags]
 
 identifier(t) = t[:identifier]

@@ -1,6 +1,7 @@
+;; TODO: This definition is defined in Julia too; ideally we would like not to
+;; repeat code.
 (#:define (human (:: d Date))
   ((. Dates format) d "E U d, YYYY"))
-(#:define (human d) (human (Date d)))
 
 (#:define (time-part t)
   (String (collect (take t 5))))

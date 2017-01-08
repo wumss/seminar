@@ -11,19 +11,18 @@ for d in documents
     end
     populate!(tagmatrix, d[:tags], 2)
 
-    generate_page(merge(Dict(
+    generate_page(Dict(
+        :title => d[:title],
         :document => d,
         :pagetype => "document",
         :mathjaxplease => true,
-        :brief => brief,
         :github => "$GITHUB/document/$(d[:id])"
-    ), d), "document/$(d[:id])")
+    ), "document/$(d[:id])"; modules=[Talks])
 end
 
 generate_page(Dict(
     :title => "Documents",
     :pagetype => "documents",
     :documents => documents,
-    :brief => brief,
     :mathjaxplease => true,
-    :github => "$GITHUB/pages/document.md"), "document")
+    :github => "$GITHUB/pages/document.md"), "document"; modules=[Talks])
