@@ -1,5 +1,6 @@
 module Talks
 
+using Base.Iterators
 using English
 using SExpressions.Lists
 
