@@ -100,8 +100,7 @@ for t in tags
         :pagetype => "tag",
         :related => relatedto(tagmatrix, t),
         :talkdict => talkdict,
-        :done => filter(iscompleted, active_set),
-        :scheduled => filter(!iscompleted, active_set),
+        :talks => active_set,
         :documents => docs_bytag[t],
         :mathjaxplease => true,
         :suggestions => bytag[t]), "tag/$t"; modules=[Talks])
