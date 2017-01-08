@@ -53,11 +53,11 @@ for (k, v) in lisppublics
 end
 
 function write_summary(t)
-    generate_page(merge(Dict(
+    generate_page(Dict(
         :title => t[:topic],
         :pagetype => "archive",
-        :mathjaxplease => true
-    ), t), "archive/$(identifier(t))")
+        :mathjaxplease => true,
+        :talk => t), "archive/$(identifier(t))"; modules=[Talks])
 end
 
 # Parse the schedule

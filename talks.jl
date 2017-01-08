@@ -4,6 +4,12 @@ using Base.Iterators
 using English
 using SExpressions.Lists
 
+topic(t) = t[:topic]
+location(t) = t[:location]
+speaker(t) = t[:speaker]
+date(t) = t[:date]
+tags(t) = t[:tags]
+
 identifier(t) = t[:identifier]
 iscompleted(t) = Date(t[:date]) < Dates.today()
 
@@ -42,6 +48,7 @@ function brief(t)
 end
 
 export abstractpath, hasabstract, summarypath, hassummary, identifier,
-       iscompleted, valuate, summarize, brief
+       iscompleted, valuate, summarize, brief, topic, location, speaker, date,
+       tags
 
 end

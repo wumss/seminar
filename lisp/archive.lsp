@@ -1,24 +1,24 @@
 ;; todo: will be held on if the talk has not yet been held
 (p "This talk on "
-   (#:var topic)
+   (#:var (topic talk))
    " was held on "
-   (#:var (human date))
+   (#:var (human (date talk)))
    " in "
-   (#:var location)
+   (#:var (location talk))
    ". The speaker was "
-   (#:var speaker)
+   (#:var (speaker talk))
    ".")
 
-(#:when (defined? 'abstract)
+(#:when (hasabstract talk)
   (h2 "Abstract")
-  (#:markdown (string "../abstract/" abstract)))
+  (#:markdown (string "../" (abstractpath talk))))
 
-(#:when (and (defined? 'summary) (!= summary (. Base summary)))
+(#:when (hassummary talk)
   (h2 "Summary")
-  (#:markdown (string "../summary/" summary)))
+  (#:markdown (string "../" (summarypath talk))))
 
 (h2 "Tags")
 
 (ul
-  (#:each tag tags
+  (#:each tag (tags talk)
     `((li ,(tag-link tag)))))
