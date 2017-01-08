@@ -37,7 +37,9 @@ of the expected format. The recommended examples are:
 
 - Koosha Totonchi, [Game
   Theory](https://github.com/friedeggs/seminar/blob/master/summary/kt-GameTheory)
+
 - Fengyang Wang, [2D Linear
   Algebra](https://github.com/friedeggs/seminar/blob/master/document/2d-linear-algebra)
+
   This one is actually a document, not a talk summary, but is a good example
   nevertheless.
