@@ -1,12 +1,13 @@
 #!/usr/bin/env julia
 
+using Compat
 using JSON
 using English
 using DataStructures
+using SExpressions.Htsx.StdLib.Tags
 
 include("talks.jl")
-include("tags.jl")
-include("build_help.jl")
+include("htsx-glue.jl")
 
 using .Talks
 
@@ -56,16 +57,6 @@ end
 talkdict = Dict{String,Any}()
 
 tagmatrix = TagMatrix()
-function populate!(m::TagMatrix, tags, value)
-    for tag in tags
-        m.popularity[tag] += value
-        for tag2 in tags
-            if tag2 > tag
-                m.correlation[(tag, tag2)] += value
-            end
-        end
-    end
-end
 
 for t in result
     talkdict[identifier(t)] = t
@@ -110,7 +101,7 @@ for t in tags
         :related => relatedto(tagmatrix, t),
         :talkdict => talkdict,
         :done => filter(iscompleted, active_set),
-        :scheduled => filter(x -> !iscompleted(x), active_set),
+        :scheduled => filter(!iscompleted, active_set),
         :documents => docs_bytag[t],
         :mathjaxplease => true,
         :suggestions => bytag[t]), "tag/$t"; modules=[Talks])

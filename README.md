@@ -8,7 +8,7 @@ Generate the site (note that the scripts are, for historical reasons, named
 somewhat misleadingly):
 
 ```sh
-./rebuild_schedule.jl
+./make.jl
 ```
 
 Push the generated `public` folder to the `gh-pages` branch.
