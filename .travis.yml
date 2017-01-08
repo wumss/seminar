@@ -27,7 +27,7 @@ script:
     - julia -e 'Pkg.clone("https://github.com/TotalVerb/English.jl")'
     - julia -e 'Pkg.add("DataStructures")'
     - julia -e 'Pkg.clone("https://github.com/TotalVerb/SExpressions.jl")'
-    - julia rebuild_schedule.jl
+    - julia make.jl
 
 after_success:
     - ./deploy.sh
