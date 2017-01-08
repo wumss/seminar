@@ -7,11 +7,11 @@ const GITHUB = "https://github.com/friedeggs/seminar/blob/master"
 
 try mkdir("public") end
 
-function generate_page(data, root, page="lisp/core.lsp")
+function generate_page(data, root, page="lisp/core.lsp"; modules=[])
     println(STDERR, "Generating page $root...")
     try mkdir("public/$root") end
     open("public/$root/index.html", "w") do f
-        SExpressions.Htsx.tohtml(f, page, data)
+        SExpressions.Htsx.tohtml(f, page, data; modules=modules)
         println(f)
     end
 end

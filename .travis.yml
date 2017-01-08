@@ -22,6 +22,7 @@ before_install:
 install:
 
 script:
+    - julia -e 'Pkg.checkout("Compat")'
     - julia -e 'Pkg.add("TextWrap")'
     - julia -e 'Pkg.add("JSON")'
     - julia -e 'Pkg.clone("https://github.com/TotalVerb/English.jl")'

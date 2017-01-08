@@ -5,10 +5,10 @@
                 (td ,(ref t 'speaker))
                 (td ,(ref t 'location))
                 (td ,(String (time-part (ref t 'time))))))
-          (if (haskey t 'abstract)
+          (if (hasabstract t)
             `((tr (td ([colspan 4])
                       (#:markdown
-                       ,(string "../abstract/" (ref t 'abstract))))))
+                       ,(string "../" (abstractpath t))))))
             '())))
 
 (h2 "Upcoming Talks")
