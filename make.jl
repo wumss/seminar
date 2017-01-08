@@ -11,12 +11,46 @@ include("htsx-glue.jl")
 
 using .Talks
 
-try
-    mkdir("public/archive")
-end
+const GITHUB = "https://github.com/friedeggs/seminar/blob/master"
 
 human(d::Date) = Dates.format(d, "E U d, YYYY")
 human(d) = human(Date(d))
+
+# Make needed directories
+for directory in ["public", "public/archive", "public/tag"]
+    try mkdir(directory) end
+end
+
+# Make simple static pages
+publics = Dict(
+    "write-markdown"        => "Markdown Guide",
+    "important-information" => "Important Information for Speakers",
+    "thanks"                => "Thank You for Your Feedback")
+
+for page in readdir("pages")
+    root, ext = splitext(page)
+    if ext == ".md" && haskey(publics, root)
+        data = stringmime("text/html",
+                          Base.Markdown.parse(readstring("pages/$page")))
+        generate_page(Dict(
+            :title => root,
+            :page => root,
+            :pagetype => "page",
+            :github => "$GITHUB/pages/$page",
+            :mathjaxplease => true), root)
+    end
+end
+
+# Make input-less lisp static pages
+lisppublics = Dict("faq"         => "Frequently Asked Questions",
+                   "submit-talk" => "Talk Submission Form")
+
+for (k, v) in lisppublics
+    generate_page(Dict(
+        :title => v,
+        :pagetype => k,
+        :github => "$GITHUB/lisp/$k.lsp"), k)
+end
 
 function write_summary(t)
     generate_page(merge(Dict(
@@ -26,6 +60,7 @@ function write_summary(t)
     ), t), "archive/$(identifier(t))")
 end
 
+# Parse the schedule
 result = JSON.parsefile("data/schedule.json", dicttype=Dict{Symbol,Any})
 sort!(result, by=x -> x[:time])
 map!(result, result) do d
@@ -34,7 +69,6 @@ map!(result, result) do d
 end
 dates = unique(map(x -> x[:date], result))
 
-tags = Set{String}()
 talks = []
 
 nexttalks = []
@@ -60,7 +94,6 @@ tagmatrix = TagMatrix()
 
 for t in result
     talkdict[identifier(t)] = t
-    union!(tags, t[:tags])
     value = valuate(t)
     populate!(tagmatrix, t[:tags], value)
 end
@@ -70,7 +103,7 @@ include("topic-suggestions.jl")
 
 # documents
 include("documents.jl")
-tags = sort(collect(tags), by=t -> -tagmatrix.popularity[t])
+tags = popular(tagmatrix)
 
 generate_page(Dict(
     :title => "Archived Talks",
@@ -91,7 +124,7 @@ generate_page(Dict(
     :pagetype => "tags",
     :tags => tags), "tags")
 
-try mkdir("public/tag") end
+# Generate tag pages
 for t in tags
     active_set = filter(x -> t in x[:tags], result)
     generate_page(Dict(
@@ -115,18 +148,14 @@ generate_page(Dict(
     :github => "$GITHUB/lisp/suggested-topics.lsp"), "potential-topics")
 
 generate_page(Dict(
-    :title => "Talk Submission Form",
-    :pagetype => "winter-2017",
-    :github => "$GITHUB/lisp/winter-2017.lsp"), "submit-talk")
-
-generate_page(Dict(
     :title => "Poster",
     :pagetype => "poster",
     :github => "$GITHUB/lisp/poster.lsp",
     :date => nextdate,
     :talks => nexttalks), "poster")
 
+# Copy static files
 for file in readdir("static")
-    println("Copying file $file...")
+    info(file; prefix="COPYING: ")
     cp("static/$file", "public/$file"; remove_destination=true)
 end

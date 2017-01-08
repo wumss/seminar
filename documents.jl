@@ -5,7 +5,6 @@ sort!(documents, by=x -> x[:title])
 docs_bytag = DefaultDict{String, Vector{Any}}(() -> [])
 try mkdir("public/document") end
 for d in documents
-    union!(tags, d[:tags])
     # update tag popularity
     for t in d[:tags]
         push!(docs_bytag[t], d)

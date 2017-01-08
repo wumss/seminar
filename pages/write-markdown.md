@@ -1,9 +1,10 @@
 # Write Talk Summaries
 
-Talk summaries can be written in Markdown. Currently, the flavor of Markdown
-we use is Julia flavored markdown.
+Talk summaries can be written in Markdown. Currently, the flavor of Markdown we
+use is Julia flavored markdown.
 
-A few of the details about Julia flavored markdown:
+If you are already familiar with Markdown, here are a few of the specific
+details about Julia flavored markdown:
 
 - Enclose inline math like ``` ``x = \frac{a}{b}`` ```. We support a large
   amount of LaTeX, including the AMS math libraries.
@@ -15,7 +16,9 @@ x = \frac{a}{b}
 ```
 `````
 
-Otherwise, consult a guide on markdown.
+If you are not yet familiar with Markdown, or you wish to learn more about
+Julia flavoured markdown, consult the documentation of [Julia flavoured
+markdown](http://docs.julialang.org/en/release-0.5/manual/documentation/#markdown-syntax).
 
 ## Uploading Talk Summaries
 
