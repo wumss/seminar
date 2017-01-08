@@ -2,7 +2,7 @@ documents = JSON.parsefile("data/documents.json";
                            dicttype=Dict{Symbol,Any})
 sort!(documents, by=x -> x[:title])
 
-docs_bytag = DefaultDict(String, Vector{Any}, () -> [])
+docs_bytag = DefaultDict{String, Vector{Any}}(() -> [])
 try mkdir("public/document") end
 for d in documents
     union!(tags, d[:tags])
