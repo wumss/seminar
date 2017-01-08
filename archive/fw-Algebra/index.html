@@ -31,4 +31,117 @@
         availableFonts: ["TeX"]
     }
 });
-</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script><title>Groups</title></head><body><nav><ul><li><a href="/seminar/">Math Seminar Home</a></li><li><a href="/seminar/archive">archive</a></li><li><a href="/seminar/tags">tags</a></li><li><a href="/seminar/faq">faq</a></li><li><a href="/seminar/document">library</a></li><li><a href="/seminar/potential-topics">topics</a></li><li><a href="/seminar/submit-talk">speak!</a></li></ul></nav><section><article><p>This talk on Groups was held on Wednesday October 12, 2016 in MC 4020. The speaker was Fengyang Wang.</p><h2>Tags</h2><ul><li><a href="/seminar/tag/algebra" class="tag-link tag-algebra">algebra</a></li><li><a href="/seminar/tag/first-year-friendly" class="tag-link tag-first-year-friendly">first-year-friendly</a></li><li><a href="/seminar/tag/groups" class="tag-link tag-groups">groups</a></li></ul></article></section></body></html>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script><title>Groups</title></head><body><nav><ul><li><a href="/seminar/">Math Seminar Home</a></li><li><a href="/seminar/archive">archive</a></li><li><a href="/seminar/tags">tags</a></li><li><a href="/seminar/faq">faq</a></li><li><a href="/seminar/document">library</a></li><li><a href="/seminar/potential-topics">topics</a></li><li><a href="/seminar/submit-talk">speak!</a></li></ul></nav><section><article><p>This talk on Groups was held on Wednesday October 12, 2016 in MC 4020. The speaker was Fengyang Wang.</p><h2>Abstract</h2><div class="markdown"><p>This talk will cover the basics of group theory. There are no official prerequisites for this talk, but MATH 145 and MATH 146 are an asset. The group theory part of the talk will mostly be based on <a href="http://mathcamp.org/2015/abel/abel.pdf">Alekseev, 2004</a>, specifically sections 1.1 &#40;motivation&#41;, 1.2 &#40;transformation groups&#41;, 1.5, 1.9, and 1.13 &#40;various morphisms&#41;, and 1.11 &#40;quotient groups&#41;.</p>
+<p>Due to time constraints, it is inevitable that some content must be rushed. I will not go over proofs and derivations in full rigour, and I highly advise studying the reference material after the talk to catch up on what you may have missed. Please message me in advance if there are any other subjects in particular that you would like me to discuss.</p>
+</div><h2>Summary</h2><div class="markdown"><p>This talk on Algebra covers material that may be important for future talks.</p>
+<h2>Abstract Algebra</h2>
+<p>Algebra is about structure and maps that preserve structure.</p>
+<p>In mathematics, we investigate particular sets and how they behave. Many results on certain sets actually apply to a wide class of sets. Algebra allows us to generalize these results. We investigate sets and their structures by appealing to fundamental structural properties. This investigation leads to the revelation that certain kinds of structure are especially prevalent and useful.</p>
+<p>In MATH 136 or MATH 146, we have seen fields and vector spaces, which are a particularly important sort of structure. Today I will be talking about another useful sort of structure: the group.</p>
+<h2>Binary Operators and Distinguished Elements</h2>
+<p>What do I mean by &lt;q&gt;structure&lt;/q&gt;? There are two common forms of structure: binary operators, and distinguished elements.</p>
+<p>Given a set &#36;S&#36;, we call a function &#36;f: S\times S\to S&#36; a <em>binary operator</em>. Binary operators are typically written in infix notation; that is, we write &#36;afb&#36; instead of &#36;f&#40;a, b&#41;&#36;. Furthermore, we often use symbols such as &#36;&#43;&#36;, &#36;⋅&#36;, &#36;∨&#36;, &#36;⊖&#36; or similar for these operators.</p>
+<p>Conventionally, we may omit certain binary operators, such as the &#36;∘&#36; for function composition or the &#36;⋅&#36; for multiplication. That is, we may write &#36;ab&#36; to denote &#36;a⋅b&#36;.</p>
+<p>A &lt;q&gt;distinguished element&lt;/q&gt; of &#36;S&#36; is simply a specific element &#36;x\in S&#36; that satisfies certain properties, usually in relation to binary operators.</p>
+<h2>Example</h2>
+<p>Consider the set of real functions defined everywhere, which I will denote as &#36;\mathbf&#123;R&#125;^\mathbf&#123;R&#125;&#36;. What sort of structure can we find in this set? Let&#39;s focus on binary operations. One obvious binary operation is &#36;∘&#36;, which represents function composition. We define</p>
+&#36;&#40;f ∘ g&#41;&#40;x&#41; &#61; f&#40;g&#40;x&#41;&#41;&#36;
+<p>The first property we note is that composition is associative; that is, for all real functions &#36;f&#36;, &#36;g&#36;, and &#36;h&#36;, we have:</p>
+&#36;&#40;f ∘ g&#41; ∘ h &#61; x ↦ f&#40;g&#40;h&#40;x&#41;&#41;&#41; &#61; f ∘ &#40;g ∘ h&#41;&#36;
+<p>For associative binary operations, we frequently omit the parentheses. That is, we may simply write &#36;f ∘ g ∘ h&#36;.</p>
+<p>Next we note that there is a distinguished element of &#36;S&#36;, which we will name &#36;I&#36;, with the property that for all &#36;x&#36;:</p>
+&#36;I&#40;x&#41; &#61; x&#36;
+<p>This &#36;I&#36; is frequently known as the &lt;q&gt;identity function&lt;/q&gt;. It happens to be the identity element of the &#36;∘&#36; operation; that is, for all &#36;f\in S&#36;, we have</p>
+&#36;I ∘ f &#61; f ∘ I &#61; f&#36;
+<h2>Monoids</h2>
+<p>A <strong>monoid</strong> is a set &#36;S&#36; with distinguished element &#36;e\in S&#36; together with a binary operation &#36;⋅: S\times S\to S&#36;, such that:</p>
+<ul>
+<li><p>&#36;⋅&#36; is associative,</p>
+</li>
+<li><p>and &#36;e&#36; is an identity element of the &#36;⋅&#36; operation.</p>
+</li>
+</ul>
+<p>or more formally,</p>
+<ul>
+<li><p>&#36;&#40;ab&#41;c &#61; a&#40;bc&#41;&#36; for all &#36;a,b,c\in S&#36;</p>
+</li>
+<li><p>&#36;ea&#61;ae&#61;a&#36; for all &#36;a\in S&#36;</p>
+</li>
+</ul>
+<p>An example of a monoid is the set of strings, under binary operator concatenation, with identity element the empty string &#36;ɛ&#36;. They are very closely related to monads, a concept seen in category theory and computer science.</p>
+<h2>Example</h2>
+<p>Consider again the set of real functions defined everywhere. This time, consider the subset &#36;Φ&#36; of bijective real functions. Since the composition of bijections remains a bijection, we see that this set is still a monoid under function composition &#36;∘&#36;. But indeed, there is more structure to be explored here. Every bijection &#36;φ\inΦ&#36; admits an inverse &#36;φ^&#123;-1&#125;&#36;. The crucial property of the inverse is that &#36;φφ^&#123;-1&#125;&#61;φ^&#123;-1&#125;φ&#61;I&#36;, where &#36;I&#36; is the identity element of the &#36;∘&#36; operation.</p>
+<p>Such an algebraic structure, a monoid with inverses, is called a &lt;q&gt;group&lt;/q&gt;. The particular group of bijections seen above is called a &lt;q&gt;symmetric group&lt;/q&gt;.</p>
+<h2>Groups</h2>
+<p>A <strong>group</strong> is a set &#36;S&#36; with distinguished element &#36;e\in S&#36; together with a binary operation &#36;⋅: S\times S\to S&#36;, such that:</p>
+<ul>
+<li><p>&#36;⋅&#36; is associative,</p>
+</li>
+<li><p>&#36;e&#36; is an identity element of the &#36;⋅&#36; operation,</p>
+</li>
+<li><p>every element has an inverse</p>
+</li>
+</ul>
+<p>or more formally,</p>
+<ul>
+<li><p>&#36;&#40;ab&#41;c &#61; a&#40;bc&#41;&#36; for all &#36;a,b,c\in S&#36;</p>
+</li>
+<li><p>&#36;ea&#61;ae&#61;a&#36; for all &#36;a\in S&#36;</p>
+</li>
+<li><p>for all &#36;a\in S&#36;, there is &#36;a^&#123;-1&#125;\in S&#36; with &#36;aa^&#123;-1&#125;&#61;a^&#123;-1&#125;a&#61;e&#36;</p>
+</li>
+</ul>
+<p>It is easy to prove, although we will not do it, that the identity of a group is unique, and that each element has a <em>unique</em> inverse element.</p>
+<p>An example of a group is the integers, under operation &#36;&#43;&#36;. This associative binary operation is in fact also commutative &#40;that is, &#36;a&#43;b&#61;b&#43;a&#36; for all integers &#36;a&#36; and &#36;b&#36;&#41;. Groups where the associative binary operation is also commutative are called <strong>abelian groups</strong>. As a notational convenience, the &#36;&#43;&#36; operator is conventionally reserved for abelian groups.</p>
+<p>Note that the integers, under operation &#36;⋅&#36;, do not form a group because &#36;0&#36; does not admit an inverse.</p>
+<h2>Structure-Preserving Maps</h2>
+<p>A <strong>morphism</strong> between algebraic structures &#36;G&#36; and &#36;H&#36; is a map &#36;f: G\to H&#36; that preserves some kind of structure. In particular, we define a <strong>homomorphism</strong> between groups as a map that preserves the associative binary operation. &#40;From this, it follows that the inverse is also preserved.&#41; By this, we mean that if &#36;a,b\in G&#36;, then</p>
+&#36;f&#40;a&#41;f&#40;b&#41; &#61; f&#40;ab&#41;&#36;
+<p>Note that there is no requirement that the operation &#36;f&#36; be invertible; indeed, the map &#36;x ↦ 0&#36; from the group of integers under addition to itself is a homomorphism.</p>
+<p>We define <strong>monomorphism</strong> to be a one-to-one homomorphism and an <strong>epimorphism</strong> to be an onto homomorphism. A fact that we will not prove &#40;but is easy to show&#41; is that the nullspace of a monomorphism is the singleton set containing the identity element of &#36;G&#36;.</p>
+<p>A group <strong>isomorphism</strong> is a one-to-one and onto homomorphism. Group isomorphisms admit inverse maps. Of course, these terms are also applicable beyond groups; for monoids, graphs, vector spaces, etc., the various morphisms preserve the respective algebraic structures.</p>
+<h2>Subgroups</h2>
+<p>Recall that in MATH 136 or MATH 146, we had the concept of subspaces. A subspace of a vector space &#36;V&#36; could be constructed by taking a subset &#36;W ⊆ V&#36;, which forms a vector space in its own right under the same operations addition &#36;&#43;&#36; and scalar multilpication &#36;⋅&#36; as &#36;V&#36;. In other words, when we restricted the operations of &#36;V&#36; to subset &#36;W&#36;, and the resulting space remains a vector space, then &#36;W&#36; is a subspace of &#36;V&#36;.</p>
+<p>We can similarly define a <strong>subgroup</strong> &#36;H&#36; of &#36;G&#36; to be a subset of elements of &#36;G&#36; together with the associative binary operation &#36;∘&#36; of &#36;G&#36;, such that &#36;&#40;H, ∘&#41;&#36; &#40;&#36;H&#36; together with the restriction of &#36;∘&#36; to &#36;H&#36;&#41; forms a group in its own right. We typically write &#36;H ≤ G&#36;.</p>
+<p>Note that the set containing only the identity element, &#36;\&#123;e\&#125;&#36;, is a <strong>trivial subgroup</strong> of &#36;G&#36;. Furthermore, &#36;G&#36; itself is a subgroup of &#36;G&#36;.</p>
+<h3>Example</h3>
+<p>Consider the symmetric group of real bijections under function composition, mentioned earlier. Then the set of linear functions with non-zero coefficients, &#36;\&#123;x ↦ mx \mid m\in\mathbf&#123;R&#125;∖\&#123;0\&#125;\&#125;&#36; is a subgroup. In general, a subgroup of a symmetric group is called a permutation group.</p>
+<h2>Cosets</h2>
+<p>Suppose &#36;G&#36; is a group and &#36;H&#36; is a subgroup. Then a <strong>left coset</strong> of &#36;H&#36; in &#36;G&#36; is a set</p>
+&#36;gH &#61; \&#123;gh \mid h\in H\&#125;&#36;
+<p>where &#36;g&#36; is some &#40;fixed&#41; element of &#36;G&#36;. This particular coset is called the left coset of &#36;H&#36; in &#36;G&#36; with respect to &#36;g&#36;.</p>
+<p>Similarly, we can defined a <strong>right coset</strong> of &#36;H&#36; in &#36;G&#36; as a set</p>
+&#36;Hg &#61; \&#123;hg \mid h\in H\&#125;&#36;
+<p>Recall that in MATH 146, we defined a coset of a vector space &#36;W&#36; in &#36;V&#36; in a similar fashion, with vector addition replacing the associative binary operation. One difference is that because the associative binary operation is not necessarily commutative, the left and right cosets may differ.</p>
+<p>It is often more useful when the left and right cosets of &#36;H&#36; in &#36;G&#36; happen to be the same cosets. &#40;This is the case, for instance, in linear algebra.&#41; When &#36;gH &#61; Hg&#36; for all &#36;g\in G&#36;, then we say that &#36;H&#36; is a <strong>normal subgroup</strong> of &#36;G&#36;.</p>
+<h2>Quotient Groups</h2>
+<p>Note that it is possible to intutively understand a coset of &#36;H&#36; in &#36;G&#36; to be some &lt;q&gt;translated&lt;/q&gt; copy of &#36;H&#36; in &#36;G&#36;. Cosets of &#36;H&#36; in &#36;G&#36; with respect to two distinct elements &#36;g&#36; may indeed still be the same coset. Let &#36;G / H&#36; &#40;pronounced &lt;q&gt;&#36;G&#36; modulo &#36;H&#36;&lt;/q&gt;&#41; be the set of cosets of &#36;H&#36; in &#36;G&#36;. Although we will not prove it, it is straightforward to show that any two cosets are either disjoint or entirely coincident.</p>
+<p>I quote the following lede from the Wikipedia article on <a href="https://en.wikipedia.org/wiki/Quotient_group">quotient groups</a>, as an alternative way of thinking about quotient groups:</p>
+<blockquote>
+<p>A quotient group or factor group is a mathematical group obtained by aggregating similar elements of a larger group using an equivalence relation that preserves the group structure.</p>
+</blockquote>
+<p>As an example, consider the group of integers under addition, and the group of even integers under addition &#40;we will call these groups &#36;\mathbf&#123;Z&#125;&#36; and &#36;2\mathbf&#123;Z&#125;&#36; respectively&#41;. &#36;2\mathbf&#123;Z&#125;&#36; is automatically a normal subgroup of &#36;\mathbf&#123;Z&#125;&#36;, because the group operation is additive &#40;i.e., commutative&#41;. Then the cosets of &#36;2\mathbf&#123;Z&#125;&#36; in &#36;\mathbf&#123;Z&#125;&#36; are &#36;\mathbf&#123;Z&#125;&#36; and &#36;\mathbf&#123;Z&#125;&#43;1&#36;, the set of even integers and the set of odd integers. The quotient group &#36;\mathbf&#123;Z&#125;/2\mathbf&#123;Z&#125;&#36; is therefore:</p>
+&#36;\mathbf&#123;Z&#125;/2\mathbf&#123;Z&#125; &#61; \&#123;2\mathbf&#123;Z&#125;, 2\mathbf&#123;Z&#125;&#43;1\&#125;&#36;
+<p>Note that this set is naturally isomorphic to the set of booleans &#36;\mathbf&#123;Z&#125;_2 &#61; \&#123;0, 1\&#125;&#36;.</p>
+<p>We can define an epimorphism &#36;π: G\to G/H&#36; sending every element of &#36;G&#36; to the coset of &#36;H&#36; in &#36;G&#36; it belongs to. Such an epimorphism is typically called the <strong>canonical projection</strong> from &#36;G&#36; to &#36;G/H&#36;.</p>
+<h3>First Isomorphism Theorem</h3>
+<p>Let &#36;G&#36; and &#36;H&#36; be groups, and &#36;f: G\to H&#36; be a homomorphism. Then</p>
+<ul>
+<li><p>&#36;\operatorname&#123;kernel&#125;&#40;f&#41;&#36; is a normal subgroup of &#36;G&#36;</p>
+</li>
+<li><p>&#36;\operatorname&#123;image&#125;&#40;f&#41;&#36; is a subgroup of &#36;H&#36;</p>
+</li>
+<li><p>&#36;\operatorname&#123;image&#125;&#40;f&#41;&#36; is isomorphic to &#36;G/\operatorname&#123;kernel&#125;&#40;f&#41;&#36;</p>
+</li>
+</ul>
+<h3>Example</h3>
+<p>Let &#36;\mathbf&#123;R&#125;\setminus\&#123;0\&#125;&#36; denote the group of real numbers, except zero, under multiplication. Let &#36;\mathsf&#123;GL&#125;&#40;n, \mathbf&#123;R&#125;&#41;&#36; &#40;the <strong>general linear group</strong>&#41; denote the group of invertible &#36;n\times n&#36; real matrices under multiplication. Then note, by properties of the determinant, that the determinant &#36;\operatorname&#123;det&#125;&#36; is a homomorphism between &#36;\mathsf&#123;GL&#125;&#40;n, \mathbf&#123;R&#125;&#41;&#36; and &#36;\mathbf&#123;R&#125;\setminus\&#123;0\&#125;&#36;.</p>
+<p>Let &#36;\mathsf&#123;SL&#125;&#40;n, \mathbf&#123;R&#125;&#41;&#36; &#40;the <strong>special linear group</strong>&#41; denote the group of &#36;n\times n&#36; real matrices with determinant &#36;1&#36;, under multiplication. Then, by the first isomorphism theorem, the quotient group &#36;\mathsf&#123;GL&#125;&#40;n, \mathbf&#123;R&#125;&#41; / \mathsf&#123;SL&#125;&#40;n, \mathbf&#123;R&#125;&#41;&#36; is isomorphic to &#36;\mathbf&#123;R&#125;\setminus\&#123;0\&#125;&#36;. &#40;Note that in this case, since the identity element is &#36;1&#36;, therefore &#36;\mathsf&#123;SL&#125;&#40;n, \mathbf&#123;R&#125;&#41;&#36; is precisely the kernel of the &#36;\operatorname&#123;det&#125;&#36; morphism.&#41;</p>
+<h2>Finite Groups and Lagrange’s Theorem</h2>
+<p>An important class of groups is the class of groups with finitely many elements, known as finite groups. Define the <strong>order</strong> of a finite group to be the number of elements it contains.</p>
+<p>If &#36;H&#36; is a subgroup of &#36;G&#36;, then defined the <strong>index</strong> &#36;&#91;G : H&#93;&#36; to be the number of left cosets of &#36;H&#36; in &#36;G&#36;. Then there is an important result known as Lagrange’s Theorem:</p>
+&#36;&#91;G : H&#93; &#61; \frac&#123;|G|&#125;&#123;|H|&#125;&#36;
+<p>In particular, for finite group &#36;G&#36; and normal subgroup &#36;H&#36;, we have</p>
+&#36;|G / H| &#61; \frac&#123;|G|&#125;&#123;|H|&#125;&#36;
+<p>which emphasizes that the quotient group is indeed, as its name would suggest, a generalization of division.</p>
+</div><h2>Tags</h2><ul><li><a href="/seminar/tag/algebra" class="tag-link tag-algebra">algebra</a></li><li><a href="/seminar/tag/first-year-friendly" class="tag-link tag-first-year-friendly">first-year-friendly</a></li><li><a href="/seminar/tag/groups" class="tag-link tag-groups">groups</a></li></ul></article></section></body></html>
