@@ -774,7 +774,9 @@
         "references": [
             "[Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)"
         ],
-        "see-also": []
+        "see-also": [
+            "bz-Bitcoin"
+        ]
     },
     {
         "topic": "Dirichlet L-functions and the Generalized Riemann Hypothesis",

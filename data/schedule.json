@@ -270,16 +270,21 @@
             "first-year-friendly",
             "space-efficiency"
         ],
-        "identifier": "Luthfi-change-me",
-        "speaker": "Luthfi"
+        "identifier": "lm-BF",
+        "speaker": "Luthfi Mawarid"
     },
     {
         "location": "MC 4045",
         "time": "2017-02-03T18:30:00Z",
-        "topic": "Bitcoins",
-        "tags": [],
-        "identifier": "Ben-change-me",
-        "speaker": "Ben"
+        "topic": "Bitcoin",
+        "tags": [
+            "computer-science",
+            "cryptography",
+            "distributed-systems",
+            "first-year-friendly"
+        ],
+        "identifier": "bz-Bitcoin",
+        "speaker": "Ben Zhang"
     },
     {
         "location": "MC 4045",
@@ -287,15 +292,19 @@
         "topic": "?",
         "tags": [],
         "identifier": "Jacob-change-me",
-        "speaker": "Jacob"
+        "speaker": "Jacob Jackson"
     },
     {
         "location": "MC 4045",
         "time": "2017-02-10T18:30:00Z",
         "topic": "Repeated Binomial Coefficients",
-        "tags": [],
-        "identifier": "Fengyang-change-me",
-        "speaker": "Fengyang"
+        "tags": [
+            "binomial-coefficients",
+            "combinatorics",
+            "first-year-friendly"
+        ],
+        "identifier": "fw-RBC",
+        "speaker": "Fengyang Wang"
     },
     {
         "location": "MC 4045",
