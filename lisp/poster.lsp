@@ -18,7 +18,7 @@
              [x 50]
              [y 385])
             (#:var (human date))
-            " in " (#:var (ref (ref talks 1) 'location)))
+            " in " (#:var (location (ref talks 1))))
       (text ([fill "#000000"]
              [font-size 20]
              [font-family "Ubuntu"]
@@ -56,7 +56,7 @@
                 [font-family "Ubuntu"]
                 [x 50]
                 [y ,(+ (* 240 i) 270)])
-               "by " ,(ref (ref talks i) 'speaker))
+               "by " ,(speaker (ref talks i)))
          (foreignObject
            ([x 50] [y ,(+ (* 240 i) 290)] [width 750] [height 400])
            (p ([style "font-family:Ubuntu; font-size: 16pt;"])

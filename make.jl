@@ -151,7 +151,7 @@ generate_page(Dict(
     :pagetype => "poster",
     :github => "$GITHUB/lisp/poster.lsp",
     :date => nextdate,
-    :talks => nexttalks), "poster")
+    :talks => nexttalks), "poster"; modules=[Talks])
 
 # Copy static files
 for file in readdir("static")
