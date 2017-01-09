@@ -104,7 +104,7 @@
     {
         "time": "2016-11-04T17:30:00Z",
         "topic": "Game Theory",
-        "speaker": "Koosha Totonchi",
+        "speaker": "Koosha Totonchi Totonchi",
         "location": "MC 4020",
         "identifier": "kt-GameTheory",
         "tags": [
@@ -192,7 +192,7 @@
     {
         "time": "2016-12-02T17:30:00Z",
         "topic": "How to Complicate Fourier Analysis",
-        "speaker": "Mohamed Ayman",
+        "speaker": "Mohamed El Mandouh",
         "location": "MC 4020",
         "identifier": "ma-Harmonic",
         "tags": [
@@ -217,17 +217,22 @@
     {
         "location": "MC 4045",
         "time": "2017-01-20T17:30:00Z",
-        "topic": "Finite and infinite e.f. games",
-        "tags": [],
-        "identifier": "Koosha-change-me",
-        "speaker": "Koosha"
+        "topic": "Finite and infinite extensive form games",
+        "tags": [
+            "combinatorial-game-theory",
+            "extensive-form-games",
+            "imperfect-information",
+            "game-theory"
+        ],
+        "identifier": "kt-EFG",
+        "speaker": "Koosha Totonchi"
     },
     {
         "location": "MC 4045",
         "time": "2017-01-20T18:30:00Z",
         "topic": "Roth's theorem",
         "tags": [],
-        "identifier": "Anton Mosunov-change-me",
+        "identifier": "am-RT",
         "speaker": "Anton Mosunov"
     },
     {
@@ -235,7 +240,7 @@
         "time": "2017-01-27T17:30:00Z",
         "topic": "Integrability of Riccati eqns",
         "tags": [],
-        "identifier": "Letian Chen-change-me",
+        "identifier": "lc-Riccati",
         "speaker": "Letian Chen"
     },
     {
@@ -332,23 +337,23 @@
         "topic": "crypto?",
         "tags": [],
         "identifier": "Sidhant-change-me",
-        "speaker": "Sidhant"
+        "speaker": "Sidhant Saraogi"
     },
     {
         "location": "MC 4045",
         "time": "2017-03-10T18:30:00Z",
         "topic": "p-adics",
         "tags": [],
-        "identifier": "Akshay-change-me",
-        "speaker": "Akshay"
+        "identifier": "at-padic",
+        "speaker": "Akshay Tiwary"
     },
     {
         "location": "MC 4045",
         "time": "2017-03-17T17:30:00Z",
         "topic": "Total functional programming",
         "tags": [],
-        "identifier": "Adam -change-me",
-        "speaker": "Adam "
+        "identifier": "ah-TFP",
+        "speaker": "Adam"
     },
     {
         "location": "MC 4045",
@@ -364,7 +369,7 @@
         "topic": "Brachistochrone",
         "tags": [],
         "identifier": "Manas-change-me",
-        "speaker": "Manas"
+        "speaker": "Manas Joshi"
     },
     {
         "location": "MC 4045",
@@ -372,7 +377,7 @@
         "topic": "Physics?",
         "tags": [],
         "identifier": "Mohamed-change-me",
-        "speaker": "Mohamed"
+        "speaker": "Mohamed El Mandouh"
     },
     {
         "location": "MC 4045",
@@ -387,7 +392,7 @@
         "time": "2017-03-31T18:30:00Z",
         "topic": "Cantor set and Dynamical systems",
         "tags": [],
-        "identifier": "James-change-me",
-        "speaker": "James"
+        "identifier": "jb-Cantor",
+        "speaker": "James Bai"
     }
 ]
