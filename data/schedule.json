@@ -216,7 +216,39 @@
     },
     {
         "location": "MC 4045",
-        "time": "5T17:30:00Z",
+        "time": "2017-01-20T17:30:00Z",
+        "topic": "Finite and infinite e.f. games",
+        "tags": [],
+        "identifier": "Koosha-change-me",
+        "speaker": "Koosha"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-01-20T18:30:00Z",
+        "topic": "Roth's theorem",
+        "tags": [],
+        "identifier": "Anton Mosunov-change-me",
+        "speaker": "Anton Mosunov"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-01-27T17:30:00Z",
+        "topic": "Integrability of Riccati eqns",
+        "tags": [],
+        "identifier": "Letian Chen-change-me",
+        "speaker": "Letian Chen"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-01-27T18:30:00Z",
+        "topic": "?",
+        "tags": [],
+        "identifier": "Felix-change-me",
+        "speaker": "Felix"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-02-03T17:30:00Z",
         "topic": "Bloom Filters",
         "tags": [],
         "identifier": "Luthfi-change-me",
@@ -224,10 +256,138 @@
     },
     {
         "location": "MC 4045",
-        "time": "5T18:30:00Z",
+        "time": "2017-02-03T18:30:00Z",
         "topic": "Bitcoins",
         "tags": [],
         "identifier": "Ben-change-me",
         "speaker": "Ben"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-02-10T17:30:00Z",
+        "topic": "?",
+        "tags": [],
+        "identifier": "Jacob-change-me",
+        "speaker": "Jacob"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-02-10T18:30:00Z",
+        "topic": "Repeated Binomial Coefficients",
+        "tags": [],
+        "identifier": "Fengyang-change-me",
+        "speaker": "Fengyang"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-02-17T17:30:00Z",
+        "topic": "Quantum Computing",
+        "tags": [],
+        "identifier": "Michael-change-me",
+        "speaker": "Michael"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-02-17T18:30:00Z",
+        "topic": "Ordinals",
+        "tags": [],
+        "identifier": "Eddie-change-me",
+        "speaker": "Eddie"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-02-24T17:30:00Z",
+        "topic": "",
+        "tags": [],
+        "identifier": "READING WEEK-change-me",
+        "speaker": "READING WEEK"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-02-24T18:30:00Z",
+        "topic": "",
+        "tags": [],
+        "identifier": "-change-me",
+        "speaker": ""
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-03T17:30:00Z",
+        "topic": "Secure MP computation",
+        "tags": [],
+        "identifier": "Zihao-change-me",
+        "speaker": "Zihao"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-03T18:30:00Z",
+        "topic": "?",
+        "tags": [],
+        "identifier": "Brennen-change-me",
+        "speaker": "Brennen"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-10T17:30:00Z",
+        "topic": "crypto?",
+        "tags": [],
+        "identifier": "Sidhant-change-me",
+        "speaker": "Sidhant"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-10T18:30:00Z",
+        "topic": "p-adics",
+        "tags": [],
+        "identifier": "Akshay-change-me",
+        "speaker": "Akshay"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-17T17:30:00Z",
+        "topic": "Total functional programming",
+        "tags": [],
+        "identifier": "Adam -change-me",
+        "speaker": "Adam "
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-17T18:30:00Z",
+        "topic": "?",
+        "tags": [],
+        "identifier": "Frieda-change-me",
+        "speaker": "Frieda"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-24T17:30:00Z",
+        "topic": "Brachistochrone",
+        "tags": [],
+        "identifier": "Manas-change-me",
+        "speaker": "Manas"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-24T18:30:00Z",
+        "topic": "Physics?",
+        "tags": [],
+        "identifier": "Mohamed-change-me",
+        "speaker": "Mohamed"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-31T17:30:00Z",
+        "topic": "?",
+        "tags": [],
+        "identifier": "Laindon-change-me",
+        "speaker": "Laindon"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-31T18:30:00Z",
+        "topic": "Cantor set and Dynamical systems",
+        "tags": [],
+        "identifier": "James-change-me",
+        "speaker": "James"
     }
 ]
