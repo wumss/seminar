@@ -265,10 +265,12 @@
         "time": "2017-02-03T17:30:00Z",
         "topic": "Bloom Filters",
         "tags": [
+            "algorithms",
             "computer-science",
             "data-structures",
             "first-year-friendly",
-            "space-efficiency"
+            "space-efficiency",
+            "probability"
         ],
         "identifier": "lm-BF",
         "speaker": "Luthfi Mawarid"
@@ -357,9 +359,9 @@
     {
         "location": "MC 4045",
         "time": "2017-03-10T17:30:00Z",
-        "topic": "crypto?",
+        "topic": "Zero Knowledge Proofs",
         "tags": [],
-        "identifier": "Sidhant-change-me",
+        "identifier": "ss-ZKP",
         "speaker": "Sidhant Saraogi"
     },
     {

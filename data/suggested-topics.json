@@ -26,14 +26,18 @@
     {
         "topic": "Bloom Filters and Probabilistic Data Structures",
         "tags": [
+            "computer-science",
             "data-structures",
             "probability",
+            "space-efficiency",
             "algorithms"
         ],
         "references": [
             "[Blustein](https://www.cs.dal.ca/sites/default/files/technical_reports/CS-2002-10.pdf)"
         ],
-        "see-also": []
+        "see-also": [
+            "lm-BF"
+        ]
     },
     {
         "topic": "Geometry and Billiards",
