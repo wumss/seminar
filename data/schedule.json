@@ -258,7 +258,7 @@
         "topic": "?",
         "tags": [],
         "identifier": "Felix-change-me",
-        "speaker": "Felix"
+        "speaker": "Felix Bauckholt"
     },
     {
         "location": "MC 4045",
@@ -356,7 +356,7 @@
         "topic": "?",
         "tags": [],
         "identifier": "Brennen-change-me",
-        "speaker": "Brennen"
+        "speaker": "Brennen Creighton-Young"
     },
     {
         "location": "MC 4045",
@@ -392,7 +392,7 @@
         "topic": "?",
         "tags": [],
         "identifier": "Frieda-change-me",
-        "speaker": "Frieda"
+        "speaker": "Frieda Rong"
     },
     {
         "location": "MC 4045",
@@ -405,9 +405,16 @@
     {
         "location": "MC 4045",
         "time": "2017-03-24T18:30:00Z",
-        "topic": "Physics?",
-        "tags": [],
-        "identifier": "Mohamed-change-me",
+        "topic": "Representation Theory for Particle Physics",
+        "tags": [
+            "algebra",
+            "linear-algebra",
+            "groups",
+            "particle-physics",
+            "physics",
+            "representation-theory"
+        ],
+        "identifier": "me-RTPP",
         "speaker": "Mohamed El Mandouh"
     },
     {
