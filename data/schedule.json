@@ -104,7 +104,7 @@
     {
         "time": "2016-11-04T17:30:00Z",
         "topic": "Game Theory",
-        "speaker": "Koosha Totonchi Totonchi",
+        "speaker": "Koosha Totonchi",
         "location": "MC 4020",
         "identifier": "kt-GameTheory",
         "tags": [
@@ -221,6 +221,7 @@
         "tags": [
             "combinatorial-game-theory",
             "extensive-form-games",
+            "first-year-friendly",
             "imperfect-information",
             "game-theory"
         ],
@@ -230,8 +231,13 @@
     {
         "location": "MC 4045",
         "time": "2017-01-20T18:30:00Z",
-        "topic": "Roth's theorem",
-        "tags": [],
+        "topic": "Diophantine Approximation and the Discovery of Transcendental Numbers",
+        "tags": [
+            "diophantine-approximation",
+            "first-year-friendly",
+            "number-theory",
+            "transcendental-numbers"
+        ],
         "identifier": "am-RT",
         "speaker": "Anton Mosunov"
     },

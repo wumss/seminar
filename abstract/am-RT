@@ -1,0 +1,8 @@
+In 1844, Joseph Liouville discovered transcendental numbers — those numbers
+that are not roots of polynomials with rational coefficients. Nowadays, we see
+Liouville’s discovery as the foundation of Diophantine approximation, a
+fascinating subarea of number theory, which studies how well algebraic numbers
+can be approximated by the rationals. In my talk, I will prove the classical
+result of Liouville and explain further advances in the area, such as Thue’s
+theorem and the celebrated theorem of Roth, which enabled its discoverer to
+receive the Fields medal in 1958.
