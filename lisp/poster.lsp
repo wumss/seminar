@@ -61,7 +61,8 @@
            ([x 50] [y ,(+ (* 240 i) 290)] [width 750] [height 400])
            (p ([style "font-family:Ubuntu; font-size: 16pt;"])
               ,(join (take (split
-                             (readstring
-                               (string "abstract/"
-                                       (ref (ref talks i) 'identifier))) ".")
+                             (if (hasabstract (ref talks i))
+                               (readstring
+                                 (abstractpath (ref talks i)))
+                               "No abstract available.") ".")
                            3) ".") "."))))))
