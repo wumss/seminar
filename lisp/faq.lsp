@@ -12,7 +12,7 @@
       (label "What question do you have?"
              (textarea ([name "question"]
                         [rows 8]
-                        [cols 30])))
+                        [cols 50])))
       (button ([type "submit"]) "Ask")
       (input ([type "hidden"]
               [name "_cc"]

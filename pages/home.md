@@ -13,10 +13,12 @@ We meet every Friday (rooms have not yet been booked for this term). See our
 topic, see the [tags](/seminar/tags) page. Here is a link to our [facebook
 group](https://www.facebook.com/groups/334849026859566/).
 
-## Talk Submissions for Winter 2017
+## Talks for Winter 2017
 
-Talk submissions for Winter 2017 are now open! Please take a look at our
-[suggested topics](/seminar/potential-topics), or browse potential topics by
+Talks for Winter 2017 have been scheduled. If you are interested in speaker
+this term or in a future term, please take a look at our [suggested
+topics](/seminar/potential-topics), or browse potential topics by
 [tag](/seminar/tags). To submit a talk, fill out our
-[form](/seminar/submit-talk). We recommend you read the [important information
-for speakers](/seminar/important-information) first.
+[form](/seminar/submit-talk). If you are speaking this term or looking to speak
+in a future term, we recommend you read the [important information for
+speakers](/seminar/important-information) first.
