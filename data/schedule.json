@@ -312,17 +312,23 @@
         "location": "MC 4045",
         "time": "2017-02-17T17:30:00Z",
         "topic": "Quantum Computing",
-        "tags": [],
-        "identifier": "Michael-change-me",
-        "speaker": "Michael"
+        "tags": [
+            "quantum-algorithms",
+            "quantum-computing"
+        ],
+        "identifier": "mp-QC",
+        "speaker": "Michael Pang"
     },
     {
         "location": "MC 4045",
         "time": "2017-02-17T18:30:00Z",
         "topic": "Ordinals",
-        "tags": [],
-        "identifier": "Eddie-change-me",
-        "speaker": "Eddie"
+        "tags": [
+            "first-year-friendly",
+            "ordinals"
+        ],
+        "identifier": "eo-Ordinals",
+        "speaker": "Eddie Onochie"
     },
     {
         "location": "MC 4045",
