@@ -24,6 +24,7 @@ install:
 script:
     - julia -e 'Pkg.add("TextWrap")'
     - julia -e 'Pkg.add("JSON")'
+    - julia -e 'Pkg.checkout("JSON")'
     - julia -e 'Pkg.clone("https://github.com/TotalVerb/English.jl")'
     - julia -e 'Pkg.add("DataStructures")'
     - julia -e 'Pkg.clone("https://github.com/TotalVerb/SExpressions.jl")'
