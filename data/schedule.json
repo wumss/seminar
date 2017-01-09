@@ -244,8 +244,11 @@
     {
         "location": "MC 4045",
         "time": "2017-01-27T17:30:00Z",
-        "topic": "Integrability of Riccati eqns",
-        "tags": [],
+        "topic": "Integrability of Riccati equations",
+        "tags": [
+            "differential-equations",
+            "integrals"
+        ],
         "identifier": "lc-Riccati",
         "speaker": "Letian Chen"
     },
@@ -261,7 +264,12 @@
         "location": "MC 4045",
         "time": "2017-02-03T17:30:00Z",
         "topic": "Bloom Filters",
-        "tags": [],
+        "tags": [
+            "computer-science",
+            "data-structures",
+            "first-year-friendly",
+            "space-efficiency"
+        ],
         "identifier": "Luthfi-change-me",
         "speaker": "Luthfi"
     },
