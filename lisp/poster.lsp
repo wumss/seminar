@@ -11,25 +11,25 @@
               [height 276]
               [xlink:href "https://friedeggs.github.io/seminar/seminar.png"]
               [x 11]
-              [y 80]))
+              [y 70]))
       (text ([fill "#000000"]
              [font-size 40]
              [font-family "Ubuntu"]
              [x 50]
-             [y 385])
+             [y 375])
             (#:var (human date))
             " in " (#:var (location (ref talks 1))))
       (text ([fill "#000000"]
              [font-size 20]
              [font-family "Ubuntu"]
              [x 50]
-             [y 420])
+             [y 410])
             "All are welcome.")
       (text ([fill "#000000"]
              [font-size 18]
              [font-family "Ubuntu"]
              [x 50]
-             [y 990])
+             [y 995])
             "For more details, visit us at our website:")
       (text ([fill "#000000"]
              [font-size 18]
@@ -42,27 +42,27 @@
                 [font-size 30]
                 [font-family "Ubuntu"]
                 [x 50]
-                [y ,(+ (* 240 i) 240)])
+                [y ,(+ (* 240 i) 230)])
                ,(ref (ref talks i) 'topic))
          (text ([fill "#000000"]
                 [font-size 30]
                 [font-family "Ubuntu"]
                 [x 800]
-                [y ,(+ (* 240 i) 240)]
+                [y ,(+ (* 240 i) 230)]
                 [text-anchor "end"])
                ,(ref (ref (ref talks i) 'time) (colon 1 5)))
          (text ([fill "#000000"]
                 [font-size 18]
                 [font-family "Ubuntu"]
                 [x 50]
-                [y ,(+ (* 240 i) 270)])
+                [y ,(+ (* 240 i) 260)])
                "by " ,(speaker (ref talks i)))
          (foreignObject
-           ([x 50] [y ,(+ (* 240 i) 290)] [width 750] [height 400])
+           ([x 50] [y ,(+ (* 240 i) 280)] [width 750] [height 400])
            (p ([style "font-family:Ubuntu; font-size: 16pt;"])
               ,(join (take (split
                              (if (hasabstract (ref talks i))
                                (readstring
                                  (abstractpath (ref talks i)))
-                               "No abstract available.") ".")
+                               "No abstract available") ".")
                            3) ".") "."))))))

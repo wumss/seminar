@@ -217,7 +217,7 @@
     {
         "location": "MC 4045",
         "time": "2017-01-20T17:30:00Z",
-        "topic": "Finite and infinite extensive form games",
+        "topic": "Finite and Infinite Extensive Form Games",
         "tags": [
             "combinatorial-game-theory",
             "extensive-form-games",
@@ -244,7 +244,7 @@
     {
         "location": "MC 4045",
         "time": "2017-01-27T17:30:00Z",
-        "topic": "Integrability of Riccati equations",
+        "topic": "Integrability of Riccati Equations",
         "tags": [
             "differential-equations",
             "integrals"
@@ -381,7 +381,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-17T17:30:00Z",
-        "topic": "Total functional programming",
+        "topic": "Total Functional Programming",
         "tags": [],
         "identifier": "ah-TFP",
         "speaker": "Adam Hofmann"
@@ -428,7 +428,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-31T18:30:00Z",
-        "topic": "Cantor set and Dynamical systems",
+        "topic": "Cantor Set and Dynamical Systems",
         "tags": [],
         "identifier": "jb-Cantor",
         "speaker": "James Bai"
