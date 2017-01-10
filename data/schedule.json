@@ -420,9 +420,13 @@
     {
         "location": "MC 4045",
         "time": "2017-03-31T17:30:00Z",
-        "topic": "?",
-        "tags": [],
-        "identifier": "Laindon-change-me",
+        "topic": "Group Theoretic Attacks on the Enigma Cipher",
+        "tags": [
+            "algebra",
+            "cryptography",
+            "groups"
+        ],
+        "identifier": "lb-Enigma",
         "speaker": "Laindon Burnett"
     },
     {
