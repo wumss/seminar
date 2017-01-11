@@ -362,7 +362,10 @@
         "location": "MC 4045",
         "time": "2017-03-10T17:30:00Z",
         "topic": "Zero Knowledge Proofs",
-        "tags": [],
+        "tags": [
+            "cryptography",
+            "zero-knowledge-proofs"
+        ],
         "identifier": "ss-ZKP",
         "speaker": "Sidhant Saraogi"
     },
@@ -382,7 +385,11 @@
         "location": "MC 4045",
         "time": "2017-03-17T17:30:00Z",
         "topic": "Total Functional Programming",
-        "tags": [],
+        "tags": [
+            "computer-science",
+            "first-year-friendly",
+            "functional-programming"
+        ],
         "identifier": "ah-TFP",
         "speaker": "Adam Hofmann"
     },
@@ -398,8 +405,12 @@
         "location": "MC 4045",
         "time": "2017-03-24T17:30:00Z",
         "topic": "Brachistochrone",
-        "tags": [],
-        "identifier": "Manas-change-me",
+        "tags": [
+            "applied-mathematics",
+            "calculus-of-variations",
+            "physics"
+        ],
+        "identifier": "mj-BCV",
         "speaker": "Manas Joshi"
     },
     {
@@ -433,7 +444,11 @@
         "location": "MC 4045",
         "time": "2017-03-31T18:30:00Z",
         "topic": "Cantor Set and Dynamical Systems",
-        "tags": [],
+        "tags": [
+            "analysis",
+            "applied-mathematics",
+            "dynamical-systems"
+        ],
         "identifier": "jb-Cantor",
         "speaker": "James Bai"
     }
