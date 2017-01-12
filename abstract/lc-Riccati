@@ -1,7 +1,7 @@
 In 1841, 3 years before Joseph Liouville discovered transcendental numbers,
 Joseph Liouville showed that the Riccati equation ``y' = ay^2 + bx^m`` has a
-quadrature solution if and only if ``m = 0, -2, \frac{4m}{2m±1}``. Nowadays, we
-see Liouville's results as the foundation to qualitative analysis to
+quadrature solution if and only if ``m = 0, -2, -\frac{4n}{2n±1}``. Nowadays,
+we see Liouville's results as the foundation to qualitative analysis to
 differential equations, a fascinating subarea of DEs, which studies for example
 the existence and uniqueness of different kinds of equations. In my talk, I
 will (hopefully) prove the classical result of Liouville after a quick review
