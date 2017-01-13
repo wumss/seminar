@@ -47,4 +47,81 @@
 <li><p>Homology Groups</p>
 </li>
 </ul>
+</div><h2>Summary</h2><div class="markdown"><h2>Simplexes</h2>
+<h3>Definitions</h3>
+<p>Let &#36;v^0,\dots,v^n&#36; be &#36;n&#43;1&#36; vectors in &#36;\euc&#123;N&#125;,n\geq 1&#36;. They are called <strong>affinely linearly independent</strong> if &#36;v^1 - v^0,\dots,v^n - v^0&#36; are linearly independent. By convention if &#36;n&#61; 0&#36; then &#36;v^0&#36; is affinely linearly independent even if its 0.</p>
+<p>Let &#36;v^0,\dots,v^n&#36; be vectors in &#36;\euc&#123;N&#125;&#36;. A vector &#36;v&#36; is said to be <strong>affinely dependent</strong> on them if there exist real numbers &#36;\lambda_0,\dots,\lambda_n&#36; such that</p>
+&#36;\lambda_1 &#43; \dots &#43; \lambda_n &#61; 1 \textrm &#123; and &#125; v &#61; \lambda_0v^0 &#43; \dots
+\lambda_nv^n&#36;
+<p>Let &#36;v^0,\dots,v^n&#36; be a-independent. The <strong>&#40;closed&#41; simplex</strong> with vertices &#36;v^0,\dots,v^n&#36; is the set of points a-dependent on &#36;v^0,\dots,v^n&#36; and with every barycentric coordinate greater than or equal to 0. The simplex is said to be <strong>spanned</strong> by &#36;v^0,\dots,v^n&#36;. The points with barycentric coordinate greater than 0 are said to be the <strong>interior</strong> of the simplex, and the set of interior points is sometimes called the <strong>open simplex</strong> with vertices &#36;v^0,\dots,v^n&#36;. The <strong>boundary</strong> of the simplex consists of those points which are not interior. We denote a &#40;closed&#41; simplex with a-indepenent vertices &#36;v^0,\dots,v^n&#36; by &#36;&#40;v^0\dots v^n&#41;&#36; and often represent it by a symbol &#36;s_n&#36; or just &#36;s&#36;. The integer &#36;n&#36; is called the <strong>dimension</strong> of &#36;&#40;v^0 \dots v^n&#41;&#36;. A simplex of dimension &#36;n&#36; is called an &#36;n&#36;-simplex.</p>
+<p>Let &#36;s_n &#61; &#40;v^1 \dots v^n&#41;&#36; be a simplex. A <strong>face</strong> of &#36;s_n&#36; is a simplex whose vertices form a &#40;non-empty&#41; subset of &#36;\&#123;v^0,\dots,v^n\&#125;&#36;. If the subset is proper we say the face is a <strong>proper face</strong>. If &#36;s_p&#36; is a face of &#36;s_n&#36; we write &#36;s_p &lt; s_n&#36; or &#36;s_n &gt; s_p&#36;. Note &#36;s_n &lt; s_n&#36; for any simplex &#36;s_n&#36;.</p>
+<h3>Ordered and Oriented Simplexes</h3>
+<p>Let &#36;s_n &#61; &#40;v^0 \dots v^n&#41;&#36; be a simplex. An <strong>orientation</strong> for &#36;s_n&#36; is a collection of orderings for the vertices consisting of a particular ordering and all even permuations of it. An <strong>oriented n-simplex</strong> &#36;\sigma_n&#36; is an &#36;n&#36;-simplex &#36;s_n&#36;, together with an orientation for &#36;s_n&#36;.</p>
+<p>We write &#36;\sigma_n &#61; &#40;v^0 \dots v^n&#41;&#36; to mean &#36;\sigma_n&#36; is the oriented &#36;n&#36;-simplex with vertices &#36;&#40;v^0,\dots,v^n&#41;&#36; and orientation given by the ordering displayed and all even permutations of it. It will always be clear from the context wether &#36;&#40;v^0 \dots v^n&#41;&#36; means simplex or orientated simplex. When &#36;n &gt; 0&#36; we write &#36;-\sigma_n&#36; for the oriented simplex consisting of the same &#36;n&#36;-simplex and the collection of other possible orderings of the vertices. Thus by definition &#36;-&#40;-\sigma_n&#41; &#61; \sigma_n&#36;.</p>
+<h3>Simplical Complexes</h3>
+<p>A <strong>simplical complex</strong> is a finite set &#36;K&#36; of simplexes in &#36;\euc&#123;N&#125;&#36; with the following two properties:</p>
+<pre><code>- if &#96;&#96;s \in K&#96;&#96; and &#96;&#96;t &lt; s&#96;&#96; &#40;&#96;&#96;t&#96;&#96; is a face of &#96;&#96;s&#96;&#96;&#41; then &#96;&#96;t \in s&#96;&#96;
+
+- intersection condition: if &#96;&#96;s \in K&#96;&#96; and &#96;&#96;t \in K&#96;&#96; then &#96;&#96;s \cap t&#96;&#96; is
+  either empty or else a face of both &#96;&#96;s&#96;&#96; and &#96;&#96;t&#96;&#96;</code></pre>
+<p>The <strong>dimension</strong> of &#36;K&#36; is the largest dimension of any simplex in &#36;K&#36;. The <strong>underlying space</strong> of &#36;K&#36;, denoted &#36;\abs&#123;K&#125;&#36;, is the set of points in &#36;\euc&#123;N&#125;&#36; which belong to at least one simplex of &#36;K&#36;.</p>
+<p>A <strong>subcomplex</strong> of a simplical complex &#36;K&#36; is a subset &#36;L&#36; of &#36;K&#36; which is itself a simplical complex. &#40;This is if and only if &#36;L&#36; has the property that&#41;</p>
+&#36;s \in L \land t &lt; s \Rightarrow t \in L&#36;
+<p>The subcomplex is called <strong>proper</strong> if &#36;L \neq K&#36;.</p>
+<p>An <strong>oriented simplical complex</strong> is a simplical complex in which every simplex is provided an orientation.</p>
+<h3>Abstract Simplicial Complexes</h3>
+<p>An <strong>abstract simplical complex</strong> is a pair &#36;X &#61; &#40;V,S&#41;&#36; where &#36;V&#36; is a finite set whose elements are called the <strong>vertices</strong> of &#36;X&#36; and &#36;S&#36; is a set of non-empty subsets of &#36;V&#36;. Each element &#36;s \in S&#36; is called a <strong>simplex</strong> of &#36;X&#36; and if &#36;s \in S&#36; has precisely &#36;n&#43;1&#36; elements, &#36;s&#36; is called an &#36;n&#36;-simplex. &#36;S&#36; is required to statisfy the following two conditions</p>
+<ol>
+<li><p>&#36;v \in V \Rightarrow \&#123;v\&#125; \in S&#36;</p>
+</li>
+<li><p>&#36;s \in S, t\subset s \Rightarrow t \in S&#36;</p>
+</li>
+</ol>
+<p>The <strong>dimension</strong> of &#36;X&#36; is so long as &#36;V \neq \emptyset&#36; the largest &#36;n&#36; for which &#36;S&#36; contains an &#36;n&#36;-simplex.</p>
+<p>Two abstract simplical complexes &#36;X &#61; &#40;V,S&#41;, X&#39; &#61; &#40;V&#39;,S&#39;&#41;&#36; are said to be <strong>isomorphic</strong> if there is a bijection &#36;f: V \rightarrow V&#39;&#36; with the property that</p>
+&#36;\&#123;v^0,\dots,v^n\&#125; \in S \Leftrightarrow \&#123;f&#40;x^0&#41;,\dots,f&#40;x^n&#41;\&#125; \in S&#39;&#36;
+<p>A <strong>realization</strong> of an abstract simplical complex &#36;X&#36; is a simplical complex whose corresponding abstract simplical complex is isomorphic to &#36;X&#36;.</p>
+<p><strong>Theorem</strong>: Every abstract simplical complex of dimension &#36;n&#36; has a realization in &#36;\euc&#123;2n &#43; 1&#125;&#36;.</p>
+<h3>Chain Groups and Boundary Homomorphisms</h3>
+<p>Let &#36;K&#36; be an oriented simplical complex of dimension &#36;n&#36;, and let &#36;\alpha_p&#36; be the number of &#36;p&#36;-simplexes of &#36;K&#36;. For &#36;0 \leq p \leq n&#36; let &#36;\sigma_p^1,\dots,\sigma_p^&#123;\alpha_p&#125;&#36; be the oriented &#36;p&#36;-simplexes of &#36;K&#36;; for such &#36;p&#36; the &#36;p&#36;th chain group of &#36;K&#36;, denoted &#36;C_p&#40;K&#41;&#36; is the free abelian group on the set &#36;\&#123;\sigma_p^1,\dots,\sigma_p^&#123;\alpha_p&#125;\&#125;&#36;. Thus an element of &#36;C_p&#40;K&#41;&#36; is a linear combination</p>
+&#36;\lambda_1\sigma_p^1 &#43; \dots &#43; \lambda_&#123;\alpha_p&#125;\sigma_p^&#123;\alpha_p&#125;&#36;
+<p>with &#36;\lambda&#36;&#39;s integers. This is called a &#36;p&#36;-chain on &#36;K&#36; and two &#36;p&#36;-chains are added by adding the corresponding coefficients. When writing down &#36;p&#36;-chains it is customary to omit &#36;p&#36;-simplexes whose coefficient is zero, unless they are all zero, in which case we write 0.</p>
+<p>Let &#36;\sigma &#61; &#40;v^0 \dots v^p&#41;&#36; be an oriented &#36;p&#36;-simplex of &#36;K&#36; for some &#36;p &gt; 0&#36;. The <strong>boundary</strong> of &#36;\sigma&#36; is the &#36;&#40;p-1&#41;&#36;-chain</p>
+&#36;\partial \sigma &#61; \partial_p \sigma &#61; \sum_&#123;i&#61;0&#125;^p &#40;-1&#41;^i&#40;v_0 \dots \hat&#123;v^i&#125;
+\dots v^p&#41;&#36;
+<p>For &#36;p &#61; 0&#36; the boundary is defined to be 0. The <strong>boundary homomorphism</strong> &#36;\partial &#61; \partial_p : C_p&#40;K&#41; \rightarrow C_&#123;p-1&#125;&#40;K&#41;&#36; is defined by</p>
+&#36;\partial_p&#40;\Sigma\lambda_i\sigma_p^i&#41; &#61; \Sigma\lambda_i\partial_p&#40;\sigma_p^i&#41;&#36;
+<p>for &#36;0 \leq p \leq n&#36; and is defined to be the trivial homomorphism otherwise.</p>
+<p>The <strong>augmentation</strong></p>
+&#36;\epsilon : C_0&#40;K&#41; \rightarrow \mathbb&#123;Z&#125;&#36;
+<p>is the homomorphism defined by</p>
+&#36;\epsilon&#40;\Sigma\lambda_i\sigma_0^i&#41; &#61; \Sigma\lambda_i&#36;
+<p>the sequences</p>
+&#36;\dots 0 \rightarrow 0 \rightarrow C_n&#40;K&#41; \xrightarrow&#123;\partial&#125; C_&#123;n-1&#125;&#40;K&#41;
+\rightarrow \dots \rightarrow C_1&#40;K&#41; \xrightarrow&#123;\partial&#125; C_0&#40;K&#41; \rightarrow
+0 \rightarrow 0 \dots&#36;
+<p>and</p>
+&#36;\dots 0 \rightarrow 0 \rightarrow C_n&#40;K&#41; \xrightarrow&#123;\partial&#125; C_&#123;n-1&#125;&#40;K&#41;
+\rightarrow \dots \rightarrow C_1&#40;K&#41; \xrightarrow&#123;\partial&#125; C_0&#40;K&#41;
+\xrightarrow&#123;\epsilon&#125; \mathbb&#123;Z&#125; \rightarrow 0 \dots&#36;
+<p>are called the <strong>chain complex</strong> of &#36;K&#36; and the <strong>augmented chain complex</strong> of &#36;K&#36;, respectively.</p>
+<p><strong>Proposition</strong>: For any &#36;p&#36;, the homomorphism</p>
+&#36;\partial \circ \partial &#61; \partial_&#123;p-1&#125;\circ \partial_p : C_p&#40;K&#41; \rightarrow
+C_&#123;p-2&#125;&#40;K&#41;&#36;
+<p>is trivial. Also &#36;\epsilon \circ \partial_1:C_1&#40;K&#41; \rightarrow \mathbb&#123;Z&#125;&#36; is trivial.</p>
+<p><strong>Corollary</strong>: For any &#36;p&#36;</p>
+&#36;\Ima \partial_&#123;p&#43;1&#125; \subset \Ker \partial_p&#36;
+<p>and also</p>
+&#36;\Ima \partial_p \subset \Ker \epsilon&#36;
+<h3>Homology Groups</h3>
+<p>Consider the sequence</p>
+&#36;C_&#123;p&#43;1&#125;&#40;K&#41; \xrightarrow&#123;\partial_&#123;p&#43;1&#125;&#125; C_p&#40;K&#41; \xrightarrow&#123;\partial_p&#125;
+\rightarrow C_&#123;p-1&#125;&#40;K&#41;&#36;
+<p>&#36;\Ker \partial_p&#36; is denoted by &#36;Z_p&#36; or &#36;Z_p&#40;K&#41;&#36; and the elements of &#36;Z_p&#36; are called &#36;p&#36;-cycles. &#36;Z_p&#36; is a free, finitely generated group. &#36;\Ima \partial_&#123;p&#43;1&#125;&#36; is denoted by &#36;B_p&#36; or &#36;B_p&#40;K&#41;&#36; and the elements of &#36;B_p&#36; are called &#36;p&#36;-boundaries. &#36;B_p&#36; is a free finitely generated group.</p>
+<p>Since &#36;B_p \subset Z_p&#36; there is a quotient group &#36;H_p&#40;K&#41; &#61; Z_p / B_p&#40;K&#41;&#36; called the &#36;p&#36;th <strong>homology group</strong> of &#36;K&#36;.</p>
+<p>The quotient group &#36;\Ker \epsilon / B_0&#40;K&#41;&#36; is denoted &#36;\tilde&#123;H&#125;_0&#40;K&#41;&#36; and is called the <strong>reduced zeroth homology group</strong> of &#36;K&#36;.</p>
+<p>An element of &#36;H_p&#40;K&#41;&#36; is a coset &#36;\bar&#123;z&#125; &#61; z &#43; B_p&#40;K&#41;&#36; where &#36;z \in Z_p&#40;K&#41;&#36;. We use the notation &#36;\&#123;z\&#125;&#36; for this coset. It is called the <strong>homology class</strong> of the cycle &#36;z&#36;. Any cycle &#36;z&#39; \in \&#123;z\&#125;&#36; is called a <strong>representative cycle</strong> for &#36;\&#123;z\&#125;&#36;. We say that &#36;z&#36; and &#36;z&#39;&#36; are <strong>homologous</strong> if &#36;z - z&#39; \in B_p&#40;K&#41;&#36; and write &#36;z \sim z&#39;&#36;</p>
+<p><strong>Proposition</strong>: &#36;v \sim v&#39;&#36; if and only &#36;v&#36; and &#36;v&#39;&#36; lie in the same connected component of &#36;K&#36;</p>
+<p><strong>Proposition</strong>: Let &#36;K&#36; be a non-empty oriented simplical complex with &#36;k&#36; components &#36;K_1,\dots,K_k&#36; and let &#36;v^i&#36; be a vertex in &#36;K_i&#36;. Then &#36;H_0&#40;K&#41;&#36; is freely generated by the homology class &#36;\&#123;v^i\&#125;&#36; for &#36;i &#61; 1,\dots,k&#36;. Thus &#36;H_0&#40;K&#41; \simeq \mathbb&#123;Z&#125;^k&#36;.</p>
+<p>&#36;H_0&#40;K&#41; \cong \mathbb&#123;Z&#125;^k&#36; where &#36;k&#36; is the number of connected components of &#36;K&#36;.</p>
 </div><h2>Tags</h2><ul><li><a href="/seminar/tag/analysis" class="tag-link tag-analysis">analysis</a></li><li><a href="/seminar/tag/graph-theory" class="tag-link tag-graph-theory">graph-theory</a></li><li><a href="/seminar/tag/homology" class="tag-link tag-homology">homology</a></li><li><a href="/seminar/tag/topology" class="tag-link tag-topology">topology</a></li></ul></article></section></body></html>
