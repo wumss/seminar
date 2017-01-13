@@ -11,7 +11,7 @@ include("htsx-glue.jl")
 
 using .Talks
 
-const GITHUB = "https://github.com/friedeggs/seminar/blob/master"
+const GITHUB = "https://github.com/wumss/seminar/blob/master"
 
 human(d::Date) = Dates.format(d, "E U d, YYYY")
 human(d) = human(Date(d))
