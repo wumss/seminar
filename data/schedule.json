@@ -103,7 +103,7 @@
     },
     {
         "time": "2016-11-04T17:30:00Z",
-        "topic": "Game Theory",
+        "topic": "Game Theory (Part 1)",
         "speaker": "Koosha Totonchi",
         "location": "MC 4020",
         "identifier": "kt-GameTheory",
@@ -217,7 +217,7 @@
     {
         "location": "MC 4045",
         "time": "2017-01-20T17:30:00Z",
-        "topic": "Finite and Infinite Extensive Form Games",
+        "topic": "Game Theory (Part 2): Extensive Form Finite and Infinite Games",
         "tags": [
             "combinatorial-game-theory",
             "extensive-form-games",
