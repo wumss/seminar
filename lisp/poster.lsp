@@ -9,7 +9,7 @@
       ;       [y 86]) "Mathematics Student Seminars")
       (image ([width 828]
               [height 276]
-              [xlink:href "https://friedeggs.github.io/seminar/seminar.png"]
+              [xlink:href "https://wumss.github.io/seminar/seminar.png"]
               [x 11]
               [y 70]))
       (text ([fill "#000000"]
