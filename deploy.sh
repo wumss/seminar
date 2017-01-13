@@ -9,7 +9,7 @@ if [ ! -d "$SOURCE_DIR" ]; then
   exit 1
 fi
 
-REPO="git@github.com:friedeggs/seminar.git"
+REPO="git@github.com:wumss/seminar.git"
 
 if [ -n "$TRAVIS_BUILD_ID" ]; then
   # When running on Travis we need to use SSH to deploy to GitHub

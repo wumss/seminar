@@ -36,7 +36,7 @@
              [font-family "Ubuntu"]
              [x 50]
              [y 1020])
-            "https://friedeggs.github.io/seminar")
+            "https://wumss.github.io/seminar")
       (#:each i (colon 1 (length talks))
        `((text ([fill "#000000"]
                 [font-size 30]
