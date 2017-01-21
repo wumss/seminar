@@ -3,6 +3,8 @@
 (html
   (head
     (meta ([charset "utf-8"]))
+    (meta ([name "google-site-verification"]
+           [content "NaytRH7PCHM8SH9XV-xgMLEi_1m1wS9lPBAIvTJ-wvs"]))
     (link ([rel "stylesheet"]
            [href "//yegor256.github.io/tacit/tacit.min.css"]))
     (link ([rel "stylesheet"]
