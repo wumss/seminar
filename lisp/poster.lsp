@@ -17,7 +17,7 @@
              [font-family "Ubuntu"]
              [x 50]
              [y 375])
-            (#:var (human date))
+            (#:var (human (date (ref talks 1))))
             " in " (#:var (location (ref talks 1))))
       (text ([fill "#000000"]
              [font-size 20]
