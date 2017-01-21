@@ -3,6 +3,3 @@ towards motivating Shannon's Source Coding Theorem. We will use rather simple
 examples (for e.g. Repetition Codes) to explain the idea of noisy channels and 
 similarly simple examples to explain the idea behind the theorem and 
 eventually try to prove it for a rather specific example. (if we have the time !)
-
-Required reading: [Stirling’s Approximation \[PDF\]
-](https://friedeggs.github.io/seminar/abel-required-reading.pdf)
