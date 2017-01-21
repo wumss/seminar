@@ -255,9 +255,12 @@
     {
         "location": "MC 4045",
         "time": "2017-01-27T18:30:00Z",
-        "topic": "?",
-        "tags": [],
-        "identifier": "Felix-change-me",
+        "topic": "Tensor Products",
+        "tags": [
+            "linear-algebra",
+            "tensors"
+        ],
+        "identifier": "fb-Tensor",
         "speaker": "Felix Bauckholt"
     },
     {
@@ -353,9 +356,11 @@
     {
         "location": "MC 4045",
         "time": "2017-03-03T18:30:00Z",
-        "topic": "?",
-        "tags": [],
-        "identifier": "Brennen-change-me",
+        "topic": "Invariant Theory",
+        "tags": [
+            "invariants"
+        ],
+        "identifier": "bcy-Invariant",
         "speaker": "Brennen Creighton-Young"
     },
     {
