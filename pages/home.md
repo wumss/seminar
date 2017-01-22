@@ -1,6 +1,6 @@
 # Mathematics Student Seminars
 
-![](.png)
+![](/seminar.png)
 
 This is the website for the student-run University of Waterloo mathematics
 student seminars. We are a group of mathematics and computer science students
