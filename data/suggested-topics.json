@@ -1,5 +1,136 @@
 [ 
     {
+        "topic": "Fishburn numbers and their Applications in Enumeration",
+        "tags": [
+            "number-theory"
+        ],
+        "references": [
+            "[Andrews, Sellers](http://www.personal.psu.edu/jxs23/andrews_sellers_fishburn_jntwinnie_final.pdf)",
+            "[Paul Levande](https://www.math.upenn.edu/~plevande/dissertationversion.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Galois Field Arithmetic",
+        "tags": [
+            "fields",
+            "cryptography"
+        ],
+        "references": [
+            "[Plank, Greenan, Miller](http://web.eecs.utk.edu/~plank/plank/papers/FAST-2013-GF.html)",
+            "[Christoforus Juan Benvenuto](https://www.math.washington.edu/~morrow/336_12/papers/juan.pdf)",
+            "[Finite Field Arithmetic](http://www.springer.com/?SGWID=4-102-45-110359-0)"
+        ],
+        "see-also" : []
+    },
+    {
+        "topic": "Lindstrom-Gessel-Viennot Lemma",
+        "tags": [
+            "algebra",
+            "combinatorics",
+        ],
+        "references": [
+            "[Qiaochu Yuan](https://qchu.wordpress.com/2009/11/17/the-lindstrom-gessel-viennot-lemma/)",
+            "[Vijay Kodiyalam](https://www.youtube.com/watch?v=01n-DUtY9ns)"
+        ],
+        "see-also": []
+    },
+    {
+       "topic": "Fuzzy Logic",
+       "tags": [
+            "logic",
+            "set-theory"
+       ],
+       "references": [
+            "[R. Rojas](https://page.mi.fu-berlin.de/rojas/neural/chapter/K11.pdf)",
+            "[Franck Dernoncourt](http://www.francky.me/doc/course/fuzzy_logic.pdf)"
+       ],
+       "see-also": []
+    },
+    {
+        "topic": "Monsky's Theorem",
+        "tags": [
+            "combinatorics",
+            "algebra",
+            "geometry"
+        ],
+        "references": [
+            "[Wikipedia](https://en.m.wikipedia.org/wiki/Monsky%27s_theorem)",
+            "[Andreu Ferre Moragues](https://math.osu.edu/sites/math.osu.edu/files/ferre_MonskyThm_2016.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Entropy in Mathematics and Information Theory",
+        "tags": [
+            "information-theory"
+        ],
+        "references": [
+            "[Robert M. Gray](https://ee.stanford.edu/~gray/it.pdf)",
+            "[Tom Carter](http://astarte.csustan.edu/~tom/SFI-CSSS/info-theory/info-lec.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Random Walks and Self-Avoiding Walks",
+        "tags": [
+            "combinatorics",
+            "probability"
+        ],
+        "references": [
+            "[Tony Guttmann](http://www.ms.unimelb.edu.au/~guttmann@unimelb/lectures/MAV2003.pdf)",
+            "[Gordon Slade](https://www.math.ubc.ca/~slade/spa_proceedings.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Markov Equation and Irrational Numbers",
+        "tags": [
+            "algebra",
+            "number-theory"
+        ],
+        "references": [
+            "[Caroline Series](https://perso.univ-rennes1.fr/serge.cantat/Documents/series-geometry-markoff.pdf)",
+            "[Spalding, Veselov](https://arxiv.org/pdf/1603.08360.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Rental Harmony Theorem",
+        "tags": [
+            "optimization"
+        ],
+        "references": [
+            "[Francis Edward Su](http://www3.math.tu-berlin.de/combi/wp_henk/wp-content/uploads/2011/05/rentsu.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Continued Fractions and Hyperbolic Geometry",
+        "tags": [
+            "number-theory",
+            "algebra",
+            "geometry"
+        ],
+        "references": [
+            "[Caroline Series](http://homepages.warwick.ac.uk/~masbb/HypGeomandCntdFractions-2.pdf)",
+            "[Mairi Walker](http://www.maths.ed.ac.uk/~mkalck/GAMES/Mairi.pdf)",
+            "[Ian Short](http://www.emis.de/journals/AASF/Vol31/short.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Quivers and Platonic Solids",
+        "tags": [
+            "geometry",
+            "graph-theory"
+        ],
+        "references": [
+            "[Gwyn Bellamy](https://www.lms.ac.uk/sites/lms.ac.uk/files/gwyn_bellamy_plato.pdf)"
+        ],
+        "see-also": []
+    },
+    {
         "topic": "Cake cutting algorithms",
         "tags": [
             "algorithms",
@@ -11,7 +142,7 @@
         "see-also": []
     },
     {
-        "topic": "Representation theory and Voting Theory",
+        "topic": "Representation Theory and Voting Theory",
         "tags": [
             "representation-theory",
             "algebra",
