@@ -7,10 +7,10 @@
   (String (collect (take t 5))))
 
 (#:define (nav-link url text)
-  `(li (a ([href ,(string "/seminar/" url)]) ,text)))
+  `(li (a ([href ,(string "/" url)]) ,text)))
 
 (#:define (render-talk-brief t)
-  `((h2 (a ([href ,(string "/seminar/" (ref t 'url))]) ,(ref t 'title)))
+  `((h2 (a ([href ,(string "/" (ref t 'url))]) ,(ref t 'title)))
     (p ,(ref t 'summary))))
 
 (#:define (render-reference r)
@@ -43,7 +43,7 @@
          (a ([href ,(string "http://search.arxiv.org:8081/?query="
                             (ref s 'topic))])
             "arXiv.org search") ", "
-         (a ([href ,(string "/seminar/potential-topics/#request")])
+         (a ([href ,(string "/potential-topics/#request")])
             "propose to present a talk")))))
 
 (#:define (interpolate item between)
@@ -54,11 +54,11 @@
   (interpolate " " (convert List (map tag-link (sort ts)))))
 
 (#:define (archive-link t)
-  `(a ([href ,(string "/seminar/archive/" t)]) ,(ref (ref talkdict t) 'topic)))
+  `(a ([href ,(string "/archive/" t)]) ,(ref (ref talkdict t) 'topic)))
 
 (#:define (tag-link tag)
   `(a ([class ,(string "tag-link tag-" tag)]
-       [href ,(string "/seminar/tag/" tag)]) ,tag))
+       [href ,(string "/tag/" tag)]) ,tag))
 
 (#:define (link-to url text)
-  `(a ([href ,(string "/seminar/" url)]) ,text))
+  `(a ([href ,(string "/" url)]) ,text))

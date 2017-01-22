@@ -19,4 +19,4 @@
               [value "fengyang.wang.0@gmail.com"]))
       (input ([type "hidden"]
               [name "_next"]
-              [value "//wumss.github.io/seminar/thanks"])))
+              [value "//uwseminars.com/thanks"])))

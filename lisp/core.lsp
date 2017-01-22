@@ -8,7 +8,7 @@
     (link ([rel "stylesheet"]
            [href "//yegor256.github.io/tacit/tacit.min.css"]))
     (link ([rel "stylesheet"]
-           [href "/seminar/css/custom.css"]))
+           [href "/css/custom.css"]))
     (#:when (defined? 'mathjaxplease)
      (#:include "mathjax.lsp"))
     (title (#:var title)))

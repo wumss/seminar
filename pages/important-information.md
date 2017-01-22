@@ -18,7 +18,7 @@
 - If you decide to prepare notes for your talk, we would appreciate if you
   could send them to us to use for inclusion on the website.
 
-- Notes must be translated into [Markdown](/seminar/write-markdown), but we
+- Notes must be translated into [Markdown](/write-markdown), but we
   will accept notes in any format and will try our best to convert it to
   Markdown.
 
@@ -26,7 +26,7 @@
 
 - Please come in time for your talk.
 
-- If you are not confident about your talk, please [contact us](/seminar/faq)
+- If you are not confident about your talk, please [contact us](/faq)
   and request that we hold a session to go over it.
 
 - Please make the effort to attend as many talks as possible. The seminar is

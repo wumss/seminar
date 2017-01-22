@@ -7,7 +7,7 @@ term.
 
 ## How do I write a talk summary?
 
-Talk summaries are written in [Markdown](/seminar/write-markdown). See the link
+Talk summaries are written in [Markdown](/write-markdown). See the link
 for more details.
 
 ## Where can I leave feedback?

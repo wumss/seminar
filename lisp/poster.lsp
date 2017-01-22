@@ -9,7 +9,7 @@
       ;       [y 86]) "Mathematics Student Seminars")
       (image ([width 828]
               [height 276]
-              [xlink:href "https://wumss.github.io/seminar/seminar.png"]
+              [xlink:href "http://uwseminars.com/seminar.png"]
               [x 11]
               [y 70]))
       (text ([fill "#000000"]
@@ -36,7 +36,7 @@
              [font-family "Ubuntu"]
              [x 50]
              [y 1020])
-            "https://wumss.github.io/seminar")
+            "http://uwseminars.com")
       (#:each i (colon 1 (length talks))
        `((text ([fill "#000000"]
                 [font-size 30]
