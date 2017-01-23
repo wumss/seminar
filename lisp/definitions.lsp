@@ -43,7 +43,7 @@
          (a ([href ,(string "http://search.arxiv.org:8081/?query="
                             (ref s 'topic))])
             "arXiv.org search") ", "
-         (a ([href ,(string "/potential-topics/#request")])
+         (a ([href ,(string "/submit-talk")])
             "propose to present a talk")))))
 
 (#:define (interpolate item between)
