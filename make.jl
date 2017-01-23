@@ -134,7 +134,7 @@ for t in alltags
         :talks => active_set,
         :documents => docs_bytag[t],
         :mathjaxplease => true,
-        :suggestions => bytag[t]), "tag/$t"; modules=[Talks])
+        :suggestions => bytag[t]), "tag/$t"; modules=[Talks, English])
 end
 
 generate_page(Dict(

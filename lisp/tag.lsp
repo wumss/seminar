@@ -1,8 +1,14 @@
 (h1 "Tag " (#:var tag))
 
-(p "There have been " (#:var (string (count iscompleted talks)))
-   " completed talks and " (#:var (string (count (! iscompleted) talks)))
-   " scheduled talks tagged with " (b (#:var tag)) ".")
+(p "There have been "
+   (#:var (string (ItemList (List
+                              (ItemQuantity
+                                (count iscompleted talks)
+                                "completed talks")
+                              (ItemQuantity
+                                (count (! iscompleted) talks)
+                                "scheduled talks")))))
+   " tagged with " (b (#:var tag)) ".")
 
 (#:when (! (isempty related))
   (h2 "Related Tags")
