@@ -1,19 +1,22 @@
 (h1 "Tag " (#:var tag))
 
 (p "There have been "
-   (#:var (string (ItemList (List
-                              (ItemQuantity
-                                (count iscompleted talks)
-                                "completed talk")
-                              (ItemQuantity
-                                (count (! iscompleted) talks)
-                                "scheduled talk")
-                              (ItemQuantity
-                                (length documents)
-                                "document")
-                              (ItemQuantity
-                                (length suggestions)
-                                "topic suggestion")))))
+   (#:var
+    (string
+      (ItemList (filter (! isnothing)
+                        (List
+                          (ItemQuantity
+                            (count iscompleted talks)
+                            "completed talk")
+                          (ItemQuantity
+                            (count (! iscompleted) talks)
+                            "scheduled talk")
+                          (ItemQuantity
+                            (length documents)
+                            "document")
+                          (ItemQuantity
+                            (length suggestions)
+                            "topic suggestion"))))))
    " tagged with " (b (#:var tag)) ".")
 
 (#:when (! (isempty related))
@@ -21,22 +24,26 @@
   (ul (#:each t related
         `((li ,(tag-link (ref t 1)))))))
 
-(h2 "Completed Talks")
+(#:when (! (iszero (count iscompleted talks)))
+ (h2 "Completed Talks")
 
-(#:each t (reverse (filter iscompleted talks))
-  (render-talk-brief (brief t)))
+ (#:each t (reverse (filter iscompleted talks))
+  (render-talk-brief (brief t))))
 
-(h2 "Scheduled Talks")
+(#:when (! (iszero (count (! iscompleted) talks)))
+ (h2 "Scheduled Talks")
 
-(#:each t (filter (! iscompleted) talks)
-  (render-talk-brief (brief t)))
+ (#:each t (filter (! iscompleted) talks)
+  (render-talk-brief (brief t))))
 
-(h2 "Documents")
+(#:when (! (isempty documents))
+ (h2 "Documents")
 
-(#:each t documents
-  (render-talk-brief (brief t)))
+ (#:each t documents
+  (render-talk-brief (brief t))))
 
-(h2 ([id "suggestions"]) "Talk Suggestions")
+(#:when (! (isempty suggestions))
+ (h2 ([id "suggestions"]) "Talk Suggestions")
 
-(#:each s suggestions
-  (render-suggestion s))
+ (#:each s suggestions
+  (render-suggestion s)))
