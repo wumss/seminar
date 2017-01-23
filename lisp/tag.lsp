@@ -4,10 +4,10 @@
    (#:var (string (ItemList (List
                               (ItemQuantity
                                 (count iscompleted talks)
-                                "completed talks")
+                                "completed talk")
                               (ItemQuantity
                                 (count (! iscompleted) talks)
-                                "scheduled talks")))))
+                                "scheduled talk")))))
    " tagged with " (b (#:var tag)) ".")
 
 (#:when (! (isempty related))
