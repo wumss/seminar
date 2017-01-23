@@ -1093,5 +1093,18 @@
         ],
         "excerpt": "Tropical geometry is a combinatorial shadow of algebraic geometry, offering new polyhedral tools to compute invariants of algebraic varieties. It is based on tropical algebra, where the sum of twonumbers is their minimum and the product is their sum. This turnspolynomials into piecewise-linear functions, and their zero sets into polyhedralcomplexes.",
         "see-also": []
+    },
+    {
+        "topic": "The Stochastic Lotka-Volterra Equation",
+        "tags": [
+            "applied-mathematics",
+            "ecology",
+            "differential-equations",
+            "stochastic-equations"
+        ],
+        "references": [
+            "[Mathworks](http://www.mathworks.com/help/simbio/examples/stochastic-simulation-of-the-lotka-volterra-reactions.html)"
+        ],
+        "excerpt": "The famous Lotka-Volterra equations model the population of a predator and a prey, which are of course closely related. Stochastic variations on the Lotka-Volterra equations can be an illuminating introduction to the methods used to solve stochastic differential equations."
     }
 ]
