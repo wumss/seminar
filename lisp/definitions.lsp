@@ -28,7 +28,7 @@
       `((h4 "Possible References")
         ,(Cons 'ul (convert List (map (∘ li render-reference)
                                       (ref s 'references))))))
-    (if (isempty (ref s 'see-also))
+    (if (isempty (get s 'see-also '()))
       '()
       `((h4 "Related Past Talks")
         ,(Cons 'ul (convert List (map (∘ li archive-link)
