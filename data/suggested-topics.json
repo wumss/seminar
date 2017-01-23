@@ -13,7 +13,7 @@
     {
         "topic": "Galois Field Arithmetic",
         "tags": [
-            "fields",
+            "field-theory",
             "cryptography"
         ],
         "references": [
@@ -641,7 +641,7 @@
     {
         "topic": "What is Area?",
         "tags": [
-            "area",
+            "measure-theory",
             "first-year-friendly",
             "geometry"
         ],
