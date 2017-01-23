@@ -7,7 +7,7 @@ student seminars. We are a group of mathematics and computer science students
 who are interested in learning new topics and presenting our new knowledge to
 others.
 
-We meet every Friday (rooms have not yet been booked for this term). See our
+We meet every Friday in MC 4045. See our
 [FAQ](/faq) for frequently asked questions, and the
 [archive](/archive) for talks before today’s date. To browse talks by
 topic, see the [tags](/tags) page. Here is a link to our [facebook
