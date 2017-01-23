@@ -280,16 +280,14 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-03T18:30:00Z",
-        "topic": "Bitcoin",
+        "time": "2017-02-10T17:30:00Z",
+        "topic": "Quantum Computing",
         "tags": [
-            "computer-science",
-            "cryptography",
-            "distributed-systems",
-            "first-year-friendly"
+            "quantum-algorithms",
+            "quantum-computing"
         ],
-        "identifier": "bz-Bitcoin",
-        "speaker": "Ben Zhang"
+        "identifier": "mp-QC",
+        "speaker": "Michael Pang"
     },
     {
         "location": "MC 4045",
@@ -306,13 +304,15 @@
     {
         "location": "MC 4045",
         "time": "2017-02-17T17:30:00Z",
-        "topic": "Quantum Computing",
+        "topic": "Bitcoin",
         "tags": [
-            "quantum-algorithms",
-            "quantum-computing"
+            "computer-science",
+            "cryptography",
+            "distributed-systems",
+            "first-year-friendly"
         ],
-        "identifier": "mp-QC",
-        "speaker": "Michael Pang"
+        "identifier": "bz-Bitcoin",
+        "speaker": "Ben Zhang"
     },
     {
         "location": "MC 4045",
