@@ -7,7 +7,13 @@
                                 "completed talk")
                               (ItemQuantity
                                 (count (! iscompleted) talks)
-                                "scheduled talk")))))
+                                "scheduled talk")
+                              (ItemQuantity
+                                (length documents)
+                                "document")
+                              (ItemQuantity
+                                (length suggestions)
+                                "topic suggestion")))))
    " tagged with " (b (#:var tag)) ".")
 
 (#:when (! (isempty related))
