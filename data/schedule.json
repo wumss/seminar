@@ -292,13 +292,13 @@
     {
         "location": "MC 4045",
         "time": "2017-02-10T18:30:00Z",
-        "topic": "Repeated Binomial Coefficients",
+        "topic": "$q$-analogs",
         "tags": [
-            "binomial-coefficients",
+            "q-analogs",
             "combinatorics",
             "first-year-friendly"
         ],
-        "identifier": "fw-RBC",
+        "identifier": "fw-q",
         "speaker": "Fengyang Wang"
     },
     {
