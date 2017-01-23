@@ -51,6 +51,7 @@
         "identifier": "nk-Types",
         "tags": [
             "computer-science",
+            "object-oriented-programming",
             "type-theory"
         ]
     },
@@ -75,7 +76,8 @@
         "tags": [
             "computer-science",
             "first-year-friendly",
-            "machine-learning"
+            "machine-learning",
+            "optimization"
         ]
     },
     {
@@ -86,6 +88,7 @@
         "identifier": "rw-Convex",
         "tags": [
             "first-year-friendly",
+            "gradient-descent",
             "machine-learning",
             "optimization"
         ]
@@ -108,6 +111,7 @@
         "location": "MC 4020",
         "identifier": "kt-GameTheory",
         "tags": [
+            "economics",
             "first-year-friendly",
             "game-theory"
         ]
@@ -132,7 +136,9 @@
         "location": "MC 4020",
         "identifier": "fr-RandomGraphs",
         "tags": [
-            "graph-theory"
+            "graph-theory",
+            "networks",
+            "probability"
         ]
     },
     {
@@ -210,8 +216,9 @@
         "location": "MC-4020",
         "identifier": "ss-Voting",
         "tags": [
-            "cryptography",
             "algebra",
+            "cryptography",
+            "encryption",
             "groups" 
         ]
     },
@@ -221,6 +228,7 @@
         "topic": "Game Theory (Part 2): Extensive Form Finite and Infinite Games",
         "tags": [
             "combinatorial-game-theory",
+            "economics",
             "extensive-form-games",
             "first-year-friendly",
             "imperfect-information",
