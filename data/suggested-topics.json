@@ -336,7 +336,6 @@
         "topic": "Down with Determinants",
         "tags": [
             "algebra",
-            "determinants",
             "linear-algebra"
         ],
         "references": [
@@ -383,8 +382,7 @@
         "topic": "Buchi Automata",
         "tags": [
             "computer-science",
-            "automata",
-            "ω-automata"
+            "automata"
         ],
         "references": [
         ],
@@ -432,8 +430,7 @@
         "topic": "Predicate Dispatch",
         "tags": [
             "computer-science",
-            "polymorphism",
-            "runtime-polymorphism"
+            "polymorphism"
         ],
         "references": [
             "[Aaron Mark Ucko](ftp://publications.ai.mit.edu/ai-publications/2001/AITR-2001-006.pdf)"
@@ -634,8 +631,7 @@
         "topic": "Plausible Conjectures",
         "tags": [
             "conjectures",
-            "first-year-friendly",
-            "plausibility"
+            "first-year-friendly"
         ],
         "references": [
             "[Barry Mazur](http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf)"
@@ -699,8 +695,7 @@
         "tags": [
             "computational-complexity",
             "number-theory",
-            "prime-numbers",
-            "prime-sieves"
+            "prime-numbers"
         ],
         "references": [
             "[Dimitris Koukoulopoulos](http://www.dms.umontreal.ca/~koukoulo/documents/notes/sievemethods.pdf)"
@@ -869,7 +864,6 @@
         "tags": [
             "algebra",
             "groups",
-            "young-tableaux",
             "representation-theory"
         ],
         "references": [
@@ -1100,5 +1094,4 @@
         "excerpt": "Tropical geometry is a combinatorial shadow of algebraic geometry, offering new polyhedral tools to compute invariants of algebraic varieties. It is based on tropical algebra, where the sum of twonumbers is their minimum and the product is their sum. This turnspolynomials into piecewise-linear functions, and their zero sets into polyhedralcomplexes.",
         "see-also": []
     }
-
 ]
