@@ -144,9 +144,11 @@
         "tags": [
             "algebra",
             "algebras",
+            "complex-numbers",
+            "dual-numbers",
             "linear-algebra",
-            "numbers",
-            "vector-spaces"
+            "split-complex-numbers",
+            "numbers"
         ]
     },
     {
