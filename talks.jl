@@ -21,7 +21,6 @@ hassummary(talk) = isfile(summarypath(talk))
 
 function valuate(talk)
     sum([1,
-         talk[:location] != "Online",
          iscompleted(talk),
          hasabstract(talk),
          hassummary(talk)])
