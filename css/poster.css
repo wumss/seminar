@@ -5,12 +5,13 @@
     background-color: white;
     position: relative;
     padding: 50px;
+    background: #66BDFF;
 }
 
 .banner {
     position: absolute;
     top: 70px;
-    left: 11px;
+    left: 50px;
 }
 
 .location-time {
