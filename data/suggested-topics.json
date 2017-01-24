@@ -418,7 +418,8 @@
         "tags": [
             "computer-science",
             "first-year-friendly",
-            "functional-programming"
+            "functional-programming",
+            "tech-talks"
         ],
         "references": [
             "[D. A. Turner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf)"
@@ -1130,5 +1131,16 @@
             "[Bartholomay](http://link.springer.com/article/10.1007/BF02478351)"
         ],
         "excerpt": "In 1960, A.F. Bartholomay wrote about a mathematical model of chemical reaction mechanisms using set theory."
+    },
+    {
+        "topic": "Branch Prediction",
+        "tags": [
+            "computer-science",
+            "tech-talks"
+        ],
+        "references": [
+            "[Agner Fog](http://www.agner.org/optimize/microarchitecture.pdf)"
+        ],
+        "excerpt": "A branch is a machine code instruction that may conditionally or unconditionally cause execution to switch to a different part of code. Conditional branches are often expensive relative to other low-level operations. Understanding branches, pipelines, branch prediction, and branch elimination is key to optimizing modern code."
     }
 ]

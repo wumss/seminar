@@ -403,7 +403,8 @@
         "tags": [
             "computer-science",
             "first-year-friendly",
-            "functional-programming"
+            "functional-programming",
+            "tech-talks"
         ],
         "identifier": "ah-TFP",
         "speaker": "Adam Hofmann"
