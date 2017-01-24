@@ -1,0 +1,49 @@
+.minipage {
+    font-family: "Ubuntu";
+    width: 850px;
+    height: 1100px;
+    background-color: white;
+    position: relative;
+    padding: 50px;
+}
+
+.banner {
+    position: absolute;
+    top: 70px;
+    left: 11px;
+}
+
+.location-time {
+    font-size: 40px;
+    position: absolute;
+    top: 375px;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+}
+
+.website-link {
+    font-size: 18px;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 1000px;
+}
+
+.talks {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 420px;
+}
+
+.talks time {
+    position: relative;
+    font-size: 30px;
+    top: -46px;
+    float: right;
+}
+
+.talk-abstract {
+    font-size: 16px;
+}
