@@ -9,6 +9,10 @@
            [href "//yegor256.github.io/tacit/tacit.min.css"]))
     (link ([rel "stylesheet"]
            [href "/css/custom.css"]))
+    (#:when (defined? 'extracss)
+     (#:each css extracss
+      `((link ([rel "stylesheet"]
+               [href ,(string "/css/" css ".css")])))))
     (#:when (defined? 'mathjaxplease)
      (#:include "mathjax.lsp"))
     (title (#:var title)))

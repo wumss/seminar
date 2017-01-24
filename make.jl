@@ -104,6 +104,15 @@ include("topic-suggestions.jl")
 include("documents.jl")
 alltags = popular(tagmatrix)
 
+# Generate poster
+generate_page(Dict(
+    :title => "Poster",
+    :pagetype => "poster",
+    :github => "$GITHUB/lisp/poster.lsp",
+    :extracss => ["poster"],
+    :mathjaxplease => true,
+    :talks => nexttalks), "poster"; modules=[Talks, English])
+
 generate_page(Dict(
     :title => "Archived Talks",
     :pagetype => "archived-talks",
@@ -146,13 +155,6 @@ generate_page(Dict(
     :mathjaxplease => true,
     :github => "$GITHUB/lisp/suggested-topics.lsp"), "potential-topics";
                modules=[Talks])
-
-# Generate poster
-generate_page(Dict(
-    :title => "Poster",
-    :pagetype => "poster",
-    :github => "$GITHUB/lisp/poster.lsp",
-    :talks => nexttalks), "poster"; modules=[Talks])
 
 # Copy static files
 for file in readdir("static")
