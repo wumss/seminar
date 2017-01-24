@@ -25,7 +25,7 @@
       ,(Cons 'p (render-inline-tags (ref s 'tags))))
     (if (isempty (ref s 'references))
       '()
-      `((h4 "Possible References")
+      `((p "Possible reference materials for this topic include")
         ,(Cons 'ul (convert List (map (∘ li render-reference)
                                       (ref s 'references))))))
     (if (isempty (get s 'see-also '()))
