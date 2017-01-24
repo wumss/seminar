@@ -1,5 +1,8 @@
 (h1 "Tag " (#:var tag))
 
+(#:when (isfile (string "wiki/tag/" tag ".md"))
+ (#:markdown (string "../wiki/tag/" tag ".md")))
+
 (p "There have been "
    (#:var
     (string

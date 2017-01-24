@@ -134,6 +134,7 @@ for t in alltags
         :talks => active_set,
         :documents => docs_bytag[t],
         :mathjaxplease => true,
+        :github => "$GITHUB/wiki/tag/$t.md",
         :suggestions => bytag[t]), "tag/$t"; modules=[Talks, English])
 end
 
