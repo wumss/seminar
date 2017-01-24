@@ -1,7 +1,7 @@
 language: julia
 
 julia:
-  - nightly
+    - nightly
 
 env:
     global:
@@ -12,21 +12,17 @@ env:
         - DEPLOY_BRANCH="master"
 
 branches:
-  only:
-  - master
+    only:
+        - master
 
 before_install:
-- openssl aes-256-cbc -K $encrypted_372990b028ab_key -iv $encrypted_372990b028ab_iv
-  -in travis_key.enc -out travis_key -d
+    - openssl aes-256-cbc -K $encrypted_372990b028ab_key -iv $encrypted_372990b028ab_iv
+      -in travis_key.enc -out travis_key -d
 
 install:
-
-script:
-    - julia -e 'Pkg.add("JSON")'
-    - julia -e 'Pkg.clone("https://github.com/TotalVerb/English.jl")'
-    - julia -e 'Pkg.add("DataStructures")'
-    - julia -e 'Pkg.clone("https://github.com/TotalVerb/SExpressions.jl")'
-    - julia make.jl
+    script:
+    - julia --color=yes travis/get-packages.jl
+    - julia --color=yes make.jl
 
 after_success:
     - ./deploy.sh
