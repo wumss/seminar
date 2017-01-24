@@ -27,4 +27,5 @@
                                    "No abstract available."))
                               3) " "))))))
       (p ([class "website-link"])
-         "For more details, go to http://uwseminars.com")))
+         "For more details, go to http://uwseminars.com, "
+         "or UW Student Seminars on Facebook")))
