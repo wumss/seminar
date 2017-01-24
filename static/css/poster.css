@@ -5,7 +5,8 @@
     background-color: white;
     position: relative;
     padding: 50px;
-    background: #66BDFF;
+    /* background: #8DF; */
+    background: #FD8;
 }
 
 .banner {
@@ -21,6 +22,7 @@
     left: 50px;
     right: 50px;
     text-align: center;
+    font-weight: bold;
 }
 
 .website-link {
