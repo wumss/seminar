@@ -2,9 +2,9 @@
  (p "There are currently no scheduled talks."))
 (#:when (! (isempty talks))
  (div ([class "minipage"])
-      (img ([width 828]
-            [height 276]
-            [src "http://uwseminars.com/seminar.png"]
+      (img ([width 750]
+            [height 285]
+            [src "http://uwseminars.com/seminar-transparent.png"]
             [class "banner"]))
       (p ([class "location-time"])
          (#:var (human (date (ref talks 1))))
