@@ -1136,11 +1136,28 @@
         "topic": "Branch Prediction",
         "tags": [
             "computer-science",
+            "first-year-friendly",
             "tech-talks"
         ],
         "references": [
             "[Agner Fog](http://www.agner.org/optimize/microarchitecture.pdf)"
         ],
         "excerpt": "A branch is a machine code instruction that may conditionally or unconditionally cause execution to switch to a different part of code. Conditional branches are often expensive relative to other low-level operations. Understanding branches, pipelines, branch prediction, and branch elimination is key to optimizing modern code."
+    },
+    {
+        "topic": "Complex Event Processing Systems",
+        "tags": [
+            "computer-science",
+            "data-science",
+            "distributed-systems",
+            "first-year-friendly",
+            "parallel-computing",
+            "tech-talks"
+        ],
+        "references": [
+            "[Apache Storm](https://storm.apache.org)",
+            "Kulkarni, S., Bhagat, N., Fu, M., Kedigehalli, V., Kellogg, C., Mittal, S., ... & Taneja, S. (2015, May). Twitter heron: Stream processing at scale. In Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data (pp. 239-250). ACM. doi:10.1145/2723372.2742788"
+        ],
+        "excerpt": "The ever-increasing amount of information that needs to be processed has led to the development of Complex Event Processing systems such as Apache Storm or Twitter Heron. These systems distribute a workload over many machines in a cluster, and offer both efficiency and fault-tolerance."
     }
 ]
