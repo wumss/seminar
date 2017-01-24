@@ -1,3 +1,9 @@
+;; setup
+(#:execute
+ (= related (relatedto tagmatrix tag))
+ (= subtopics (subtags tagmatrix tag)))
+
+;; document
 (h1 "Tag " (#:var tag))
 
 (#:when (isfile (string "wiki/tag/" tag ".md"))
@@ -21,6 +27,12 @@
                             (length suggestions)
                             "topic suggestion"))))))
    " tagged with " (b (#:var tag)) ".")
+
+(#:when (> (length subtopics) 1)
+ (p "There are many subfields of " (b (#:var tag))
+    ", including: ")
+ (ul (#:each t subtopics
+      `((li ,(tag-link t))))))
 
 (#:when (! (isempty related))
   (h2 "Related Tags")

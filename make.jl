@@ -11,7 +11,7 @@ include("htsx-glue.jl")
 
 using .Talks
 
-const GITHUB = "https://github.com/wumss/seminar/blob/master"
+const GITHUB = "https://github.com/wumss/seminar/edit/master"
 
 human(d::Date) = Dates.format(d, "E U d, YYYY")
 human(d) = human(Date(d))
@@ -129,13 +129,13 @@ for t in alltags
         :title => "Tag $t",
         :pagetype => "tag",
         :tag => t,
-        :related => relatedto(tagmatrix, t),
+        :tagmatrix => tagmatrix,
         :talkdict => talkdict,
         :talks => active_set,
         :documents => docs_bytag[t],
         :mathjaxplease => true,
         :github => "$GITHUB/wiki/tag/$t.md",
-        :suggestions => bytag[t]), "tag/$t"; modules=[Talks, English])
+        :suggestions => bytag[t]), "tag/$t"; modules=[Tags, Talks, English])
 end
 
 generate_page(Dict(
