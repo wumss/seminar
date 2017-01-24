@@ -1159,5 +1159,33 @@
             "Kulkarni, S., Bhagat, N., Fu, M., Kedigehalli, V., Kellogg, C., Mittal, S., ... & Taneja, S. (2015, May). Twitter heron: Stream processing at scale. In Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data (pp. 239-250). ACM. doi:10.1145/2723372.2742788"
         ],
         "excerpt": "The ever-increasing amount of information that needs to be processed has led to the development of Complex Event Processing systems such as Apache Storm or Twitter Heron. These systems distribute a workload over many machines in a cluster, and offer both efficiency and fault-tolerance."
+    },
+    {
+        "topic": "Dealing with Missing Data",
+        "tags": [
+            "computer-science",
+            "data-science",
+            "first-year-friendly",
+            "statistics",
+            "tech-talks"
+        ],
+        "references": [
+            "[Wikipedia](https://en.wikipedia.org/wiki/Missing_data)"
+        ],
+        "excerpt": "Data are rarely perfect. Robust data science tools must have ways to deal with missing data. However, this is not always easy. A balance must be struck between performance and convenience."
+    },
+    {
+        "topic": "IEEE 754-2008: Floating Point Arithmetic",
+        "tags": [
+            "computer-science",
+            "computational-mathematics",
+            "floating-points",
+            "tech-talks"
+        ],
+        "references": [
+            "[IEEE floating point on Wikipedia](https://en.wikipedia.org/wiki/IEEE_floating_point)",
+			"[What Every Computer Scientist Should Know About Floating-Point Arithmetic](http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)"
+        ],
+        "excerpt": "Most programming languages provide a floating-point type. What is floating point, and how does it work? What caveats should programmers be aware of?"
     }
 ]
