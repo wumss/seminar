@@ -21,18 +21,19 @@
 
 (#:define (render-suggestion s)
   (append
+    `((h3 ,(ref s 'topic)))
     (if (haskey s 'excerpt)
       `(,((. StdLib rendermd) (ref s 'excerpt)))
       '())
     (if (isempty (ref s 'references))
       '()
       `((p "Possible reference materials for this topic include")
-        ,(Cons 'ul (convert List (map (∘ li render-reference)
+        ,(cons 'ul (convert list (map (∘ li render-reference)
                                       (ref s 'references))))))
     (if (isempty (get s 'see-also '()))
       '()
       `((p "Past and scheduled talks on a related subject include")
-        ,(Cons 'ul (convert List (map (∘ li archive-link)
+        ,(cons 'ul (convert list (map (∘ li archive-link)
                                       (ref s 'see-also))))))
     `((p "Quick links: "
          (a ([href ,(string "https://www.google.ca/search?q="
@@ -43,15 +44,14 @@
             "arXiv.org search") ", "
          (a ([href ,(string "/submit-talk")])
             "propose to present a talk")))
-    `((h3 ,(ref s 'topic))
-      ,(Cons 'p (render-inline-tags (ref s 'tags))))))
+    `(,(cons 'p (render-inline-tags (ref s 'tags))))))
 
 (#:define (interpolate item between)
   (if (isempty between) '()
-    (Cons (car between) (Cons item (interpolate item (cdr between))))))
+    (cons (car between) (cons item (interpolate item (cdr between))))))
 
 (#:define (render-inline-tags ts)
-  (interpolate " " (convert List (map tag-link (sort ts)))))
+  (interpolate " " (convert list (map tag-link (sort ts)))))
 
 (#:define (archive-link t)
   `(a ([href ,(string "/archive/" t)]) ,(ref (ref talkdict t) 'topic)))
