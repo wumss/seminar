@@ -144,7 +144,8 @@ generate_page(Dict(
     :talkdict => talkdict,
     :suggestions => suggestions,
     :mathjaxplease => true,
-    :github => "$GITHUB/lisp/suggested-topics.lsp"), "potential-topics")
+    :github => "$GITHUB/lisp/suggested-topics.lsp"), "potential-topics";
+               modules=[Talks])
 
 # Generate poster
 generate_page(Dict(

@@ -54,7 +54,9 @@
   (interpolate " " (convert list (map tag-link (sort ts)))))
 
 (#:define (archive-link t)
-  `(a ([href ,(string "/archive/" t)]) ,(ref (ref talkdict t) 'topic)))
+ `(span
+    (a ([href ,(string "/archive/" t)]) ,(topic (ref talkdict t)))
+    " by " ,(speaker (ref talkdict t))))
 
 (#:define (tag-link tag)
   `(a ([class ,(string "tag-link tag-" tag)]
