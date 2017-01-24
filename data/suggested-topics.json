@@ -200,6 +200,7 @@
     { 
         "topic": "Geometric Computing with Clifford Algebra",
         "tags": [
+            "computer-science",
             "clifford-algebras",
             "theoretical-computer-science",
             "applied-mathematics",
@@ -443,7 +444,8 @@
             "algebraic-geometry",
             "computer-science",
             "computational-complexity",
-            "generalized-riemann-hypothesis"
+            "generalized-riemann-hypothesis",
+            "theoretical-computer-science"
         ],
         "references": [
             "[Bruno Grenet, Pascal Koiran, Natacha Portier](https://arxiv.org/pdf/1210.1451.pdf)"
@@ -455,7 +457,8 @@
         "tags": [
             "computer-science",
             "kolmogorov-complexity",
-            "information-theory"
+            "information-theory",
+            "theoretical-computer-science"
         ],
         "references": [
             "[Paul Vitanyi](http://homepages.cwi.nl/~paulv/course-kc/KC-Lecture1.pdf)"
@@ -596,7 +599,8 @@
             "computational-complexity",
             "computability",
             "first-order-logic",
-            "logic"
+            "logic",
+            "theoretical-computer-science"
         ],
         "references": [
             "[Michael J. Fischer and Michael O. Rabin, Super-Exponentional Complexity of Presburger Arithmetic.](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.16.9759)"
@@ -694,6 +698,7 @@
         "topic": "Sieve Methods",
         "tags": [
             "computational-complexity",
+            "computer-science",
             "number-theory",
             "prime-numbers"
         ],
@@ -790,7 +795,8 @@
             "computer-science",
             "computability",
             "incompleteness",
-            "logic"
+            "logic",
+            "theoretical-computer-science"
         ],
         "references": [
             "[Scott Aaronson](http://www.scottaaronson.com/democritus/lec3.html)"
@@ -804,7 +810,8 @@
             "computational-complexity",
             "computer-science",
             "open-problems",
-            "hot"
+            "hot",
+            "theoretical-computer-science"
         ],
         "references": [
             "Arora, Bazak: Computational Complexity"
@@ -839,7 +846,8 @@
         "tags": [
             "algebra",
             "algebraic-geometry",
-            "computer-algebra"
+            "computer-algebra",
+            "computer-science"
         ],
         "references": [
             "Cox, Little, O'Shea : Ideals, Varieties and Algorithms"
@@ -959,6 +967,7 @@
         "tags": [
             "computability",
             "computer-science",
+            "theoretical-computer-science",
             "turing-machines"
         ],
         "references": [
@@ -1071,12 +1080,13 @@
     {
         "topic": "Queueing Theory" ,
         "tags": [
-            "computer-science"
+            "computer-science",
+            "optimization"
         ],
         "references" : [
             "[Andreas Willig](http://www.cs.ucf.edu/~lboloni/Teaching/EEL6785_Fall2010/slides/QueueingTheory.pdf)"
         ],
-        "excerpt" : "Queueing theory is the mathematical study of waiting lines, or queues.In queueing theory, a model is constructed so that queue lengths and waiting time can be predicted. Queueing theory is generally considered a branch of operations research because the results are often used when making business decisions about the resources needed to provide a service. ",
+        "excerpt": "Queueing theory is the mathematical study of waiting lines, or queues. In queueing theory, a model is constructed so that queue lengths and waiting time can be predicted. Queueing theory is generally considered a branch of operations research because the results are often used when making business decisions about the resources needed to provide a service. ",
         "see-also": []
     },
     {

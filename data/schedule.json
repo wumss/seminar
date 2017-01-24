@@ -29,7 +29,9 @@
         "location": "MC 4020",
         "identifier": "zf-Graphs",
         "tags": [
-            "graph-theory"
+            "graph-theory",
+            "infiniteness",
+            "universal-graphs"
         ]
     },
     {
@@ -39,6 +41,7 @@
         "location": "MC 5479",
         "identifier": "ss-Information",
         "tags": [
+            "coding-theory",
             "information-theory",
             "probability"
         ]
@@ -101,7 +104,8 @@
         "identifier": "gp-Integration",
         "tags": [
             "analysis",
-            "integration"
+            "integration",
+            "measure-theory"
         ]
     },
     {
@@ -164,8 +168,11 @@
         "location": "MC 4020",
         "identifier": "at-Elliptic",
         "tags": [
+            "algebra",
             "analysis",
-            "elliptic-curves"
+            "elliptic-curves",
+            "groups",
+            "number-theory"
         ]
     },
     {
@@ -231,7 +238,6 @@
             "economics",
             "extensive-form-games",
             "first-year-friendly",
-            "imperfect-information",
             "game-theory"
         ],
         "identifier": "kt-EFG",
@@ -242,9 +248,11 @@
         "time": "2017-01-20T18:30:00Z",
         "topic": "Diophantine Approximation and the Discovery of Transcendental Numbers",
         "tags": [
+            "algebraic-numbers",
             "diophantine-approximation",
             "first-year-friendly",
             "number-theory",
+            "polynomials",
             "transcendental-numbers"
         ],
         "identifier": "am-RT",
@@ -292,6 +300,7 @@
         "time": "2017-02-10T17:30:00Z",
         "topic": "Quantum Computing",
         "tags": [
+            "computer-science",
             "quantum-algorithms",
             "quantum-computing"
         ],
