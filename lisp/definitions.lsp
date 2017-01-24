@@ -21,8 +21,9 @@
 
 (#:define (render-suggestion s)
   (append
-    `((h3 ,(ref s 'topic))
-      ,(Cons 'p (render-inline-tags (ref s 'tags))))
+    (if (haskey s 'excerpt)
+      `(,((. StdLib rendermd) (ref s 'excerpt)))
+      '())
     (if (isempty (ref s 'references))
       '()
       `((p "Possible reference materials for this topic include")
@@ -30,12 +31,9 @@
                                       (ref s 'references))))))
     (if (isempty (get s 'see-also '()))
       '()
-      `((h4 "Related Past Talks")
+      `((p "Past and scheduled talks on a related subject include")
         ,(Cons 'ul (convert List (map (∘ li archive-link)
                                       (ref s 'see-also))))))
-    (if (haskey s 'excerpt)
-      `(,((. StdLib rendermd) (ref s 'excerpt)))
-      '())
     `((p "Quick links: "
          (a ([href ,(string "https://www.google.ca/search?q="
                             (ref s 'topic))])
@@ -44,7 +42,9 @@
                             (ref s 'topic))])
             "arXiv.org search") ", "
          (a ([href ,(string "/submit-talk")])
-            "propose to present a talk")))))
+            "propose to present a talk")))
+    `((h3 ,(ref s 'topic))
+      ,(Cons 'p (render-inline-tags (ref s 'tags))))))
 
 (#:define (interpolate item between)
   (if (isempty between) '()
