@@ -1,6 +1,11 @@
 (#:when (isempty talks)
  (p "There are currently no scheduled talks."))
 (#:when (! (isempty talks))
+ (h1 "Marketing Poster")
+ (p (label ([for "color-pick"])
+           "Color: " (input ([type "text"]
+                             [value "#FFF"]
+                             [id "color-pick"]))))
  (div ([class "minipage"])
       (img ([width 750]
             [height 285]
@@ -28,4 +33,6 @@
                               3) " "))))))
       (p ([class "website-link"])
          "For more details, go to http://uwseminars.com, "
-         "or UW Student Seminars on Facebook")))
+         "or the UW Student Seminars group on Facebook")))
+
+(script ([src "/scripts/poster.js"]))
