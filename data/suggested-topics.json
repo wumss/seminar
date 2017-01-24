@@ -1106,5 +1106,19 @@
             "[Mathworks](http://www.mathworks.com/help/simbio/examples/stochastic-simulation-of-the-lotka-volterra-reactions.html)"
         ],
         "excerpt": "The famous Lotka-Volterra equations model the population of a predator and a prey, which are of course closely related. Stochastic variations on the Lotka-Volterra equations can be an illuminating introduction to the methods used to solve stochastic differential equations."
+    },
+    {
+        "topic": "Molecular Set Theory",
+        "tags": [
+            "applied-mathematics",
+            "biology",
+            "category-theory",
+            "chemistry",
+            "set-theory"
+        ],
+        "references": [
+            "[Bartholomay](http://link.springer.com/article/10.1007/BF02478351)"
+        ],
+        "excerpt": "In 1960, A.F. Bartholomay wrote about a mathematical model of chemical reaction mechanisms using set theory."
     }
 ]
