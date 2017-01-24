@@ -1187,5 +1187,46 @@
 			"[What Every Computer Scientist Should Know About Floating-Point Arithmetic](http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)"
         ],
         "excerpt": "Most programming languages provide a floating-point type. What is floating point, and how does it work? What caveats should programmers be aware of?"
+    },
+    {
+        "topic": "Zero-Cost Abstraction",
+        "references": [
+            "[Abstraction without overhead: traits in Rust](https://blog.rust-lang.org/2015/05/11/traits.html)",
+            "[Some thoughts on generic programming in Julia](https://eschnett.github.io/julia/2016/06/23/some-thoughts-on-generic-programming-in-julia)"
+        ],
+        "excerpt": "Computer science is, fundamentally, about abstraction and efficiency. A programmer would rather use high-level bricks to build a product than worry about low-level details. Regrettably, the use of high-level bricks often comes at a cost in efficiency, forcing programmers to worry about low-level details. Recently, many programming languages have begun to stress the importance of zero-cost abstractions: ways to construct high-level bricks with zero efficiency cost.",
+        "tags": [
+            "computer-science",
+            "efficiency",
+            "abstraction",
+            "tech-talks",
+            "first-year-friendly"
+        ]
+    },
+    {
+        "topic": "Understanding LLVM",
+        "references": [
+            "[The LLVM Compiler Infrastructure Project](http://llvm.org/)"
+        ],
+        "excerpt": "The LLVM Compiler Infrastructure Project now powers a wide variety of software, including major programming languages including Rust and Julia, as well as compilers for the popular C and C++ programming languages. Understanding how LLVM works, and being able to read some LLVM bytecode, is extremely useful for optimizing code.",
+        "tags": [
+            "computer-science",
+            "efficiency",
+            "tech-talks",
+            "first-year-friendly",
+            "programming-languages"
+        ]
+    },
+    {
+        "topic": "Jupyter Notebooks",
+        "references": [
+            "[Project Jupyter](http://jupyter.org/)"
+        ],
+        "excerpt": "Jupyter Notebooks are a must-have for any data scientist or engineer. They are available for a wide variety of programming languages, particularly Python.",
+        "tags": [
+            "tutorial",
+            "tech-talks",
+            "data-science"
+        ]
     }
 ]
