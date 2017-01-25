@@ -136,8 +136,12 @@
         "topic": "Cake cutting algorithms",
         "tags": [
             "algorithms",
+            "computer-science",
+            "economics",
+            "game-theory",
             "optimization",
-            "recreational-mathematics"
+            "recreational-mathematics",
+            "social-choice"
         ],
         "references": [
             "[Robertson, Webb](https://www.amazon.com/Cake-Cutting-Algorithms-Fair-You-Can/dp/1568810768/ref=sr_1_1?s=books&ie=UTF8&qid=1480468807&sr=1-1&keywords=cake+cutting+algorithms)"
@@ -275,6 +279,7 @@
     {
         "topic": "The Mathematics of Gerrymandering",
         "tags": [
+            "economics",
             "voting-theory",
             "social-choice",
             "geometry",
