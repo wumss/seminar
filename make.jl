@@ -13,12 +13,12 @@ using .Talks
 
 const GITHUB = "https://github.com/wumss/seminar/edit/master"
 
-human(d::Date) = Dates.format(d, "E U d, YYYY")
-human(d) = human(Date(d))
-
 # Make needed directories
 for directory in ["public", "public/archive", "public/tag"]
-    try mkdir(directory) end
+    try
+        mkdir(directory)
+        info(directory; prefix="DIRECTORY: ")
+    end
 end
 
 # Make simple static pages
@@ -74,10 +74,11 @@ for t in result
     if iscompleted(t)
         push!(talks, brief(t))
     else
-        if date(t) < nextdate
-            nextdate = date(t)
+        curdate = Date(datetime(t))
+        if curdate < nextdate
+            nextdate = curdate
             nexttalks = [t]
-        elseif date(t) == nextdate
+        elseif curdate == nextdate
             push!(nexttalks, t)
         end
     end

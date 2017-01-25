@@ -1,5 +1,3 @@
-;; TODO: This definition is defined in Julia too; ideally we would like not to
-;; repeat code.
 (#:define (human (:: d (. Dates TimeType)))
   ((. Dates format) d "E U d, YYYY"))
 

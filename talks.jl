@@ -31,7 +31,14 @@ function valuate(talk)
          hasabstract(talk),
          hassummary(talk)])
 end
-summarize(t) = "Talk by $(t[:speaker])."
+summarize(t) = string(
+    "Talk by $(t[:speaker]). ",
+    if hassummary(t)
+        "A summary for this talk is available."
+    else
+        "The speaker has not provided a summary of this talk."
+    end
+)
 
 function brief(t)
     if haskey(t, :type) && t[:type] == "reference"
