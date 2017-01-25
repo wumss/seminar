@@ -555,6 +555,7 @@
     {
         "topic": "Combinatorial Game Theory with 'Nimbers'",
         "tags": [
+            "combinatorial-game-theory",
             "combinatorics",
             "game-theory",
             "first-year-friendly",
@@ -608,6 +609,7 @@
         "tags": [
             "computational-complexity",
             "computability",
+            "computer-science",
             "first-order-logic",
             "logic",
             "theoretical-computer-science"
@@ -911,6 +913,7 @@
             "algorithms",
             "applied-mathematics",
             "computational-mathematics",
+            "computer-science",
             "differential-equations",
             "probability",
             "stochastic-equations"
@@ -918,6 +921,7 @@
         "references": [
             "[David Karig](https://www.cs.princeton.edu/picasso/seminarsS05/Karig_slides.pdf)"
         ],
+        "excerpt": "The Gillespie Algorithm for stochastic equations is used heavily in a number of fields of applied mathematics, in particular computational systems biology.",
         "see-also": []
     },
     {
