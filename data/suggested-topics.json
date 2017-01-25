@@ -2,6 +2,7 @@
     {
         "topic": "Fishburn numbers and their Applications in Enumeration",
         "tags": [
+            "combinatorics",
             "number-theory"
         ],
         "references": [
@@ -63,7 +64,8 @@
     {
         "topic": "Entropy in Mathematics and Information Theory",
         "tags": [
-            "information-theory"
+            "information-theory",
+            "probability"
         ],
         "references": [
             "[Robert M. Gray](https://ee.stanford.edu/~gray/it.pdf)",
@@ -134,7 +136,8 @@
         "topic": "Cake cutting algorithms",
         "tags": [
             "algorithms",
-            "optimization"
+            "optimization",
+            "recreational-mathematics"
         ],
         "references": [
             "[Robertson, Webb](https://www.amazon.com/Cake-Cutting-Algorithms-Fair-You-Can/dp/1568810768/ref=sr_1_1?s=books&ie=UTF8&qid=1480468807&sr=1-1&keywords=cake+cutting+algorithms)"
@@ -174,7 +177,9 @@
         "topic": "Geometry and Billiards",
         "tags": [
             "differential-geometry",
-            "classical-mechanics"
+            "classical-mechanics",
+            "geometry",
+            "physics"
         ],
         "references": [
             "[Sergei Tabachnikov](https://www.math.psu.edu/tabachni/Books/billiardsgeometry.pdf)"
@@ -469,7 +474,9 @@
     {
         "topic": "Homotopy Type Theory",
         "tags": [
+            "algebra",
             "algebraic-topology",
+            "topology",
             "type-theory",
             "computer-science"
         ],
@@ -635,8 +642,8 @@
     {
         "topic": "Plausible Conjectures",
         "tags": [
-            "conjectures",
-            "first-year-friendly"
+            "first-year-friendly",
+            "open-problems"
         ],
         "references": [
             "[Barry Mazur](http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf)"
@@ -834,6 +841,9 @@
     {
         "topic": "A Cohomological Viewpoint on Elementary School Arithmetic",
         "tags": [
+            "algebra",
+            "algebraic-topology",
+            "groups",
             "homology",
             "topology"
         ],
@@ -979,7 +989,8 @@
     {
         "topic": "Conformal Mapping and Inversion Theory",
         "tags": [
-            "analysis"
+            "analysis",
+            "complex-analysis"
         ],
         "references": [
             "[Peter J. Olver](http://www.math.umn.edu/~olver/ln_/cml.pdf)",
@@ -1041,6 +1052,8 @@
         "topic": "Almost Integers",
         "tags": [
             "algebra",
+            "algebraic-numbers",
+            "field-theory",
             "first-year-friendly",
             "number-theory",
             "hot"
@@ -1135,7 +1148,9 @@
     {
         "topic": "Branch Prediction",
         "tags": [
+            "compilers",
             "computer-science",
+            "efficiency",
             "first-year-friendly",
             "tech-talks"
         ],
@@ -1165,6 +1180,7 @@
         "tags": [
             "computer-science",
             "data-science",
+            "efficiency",
             "first-year-friendly",
             "statistics",
             "tech-talks"
@@ -1210,6 +1226,7 @@
         ],
         "excerpt": "The LLVM Compiler Infrastructure Project now powers a wide variety of software, including major programming languages including Rust and Julia, as well as compilers for the popular C and C++ programming languages. Understanding how LLVM works, and being able to read some LLVM bytecode, is extremely useful for optimizing code.",
         "tags": [
+            "compilers",
             "computer-science",
             "efficiency",
             "tech-talks",
