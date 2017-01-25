@@ -179,6 +179,7 @@
             "differential-geometry",
             "classical-mechanics",
             "geometry",
+            "mechanics",
             "physics"
         ],
         "references": [
@@ -190,7 +191,8 @@
         "topic": "Symmetries and their Role in Physics",
         "tags": [
             "physics",
-            "classical-mechanics"
+            "classical-mechanics",
+            "mechanics"
         ],
         "references": [
             "[Eduardo Fradkin](http://eduardo.physics.illinois.edu/phys582/582-chapter3.pdf)",
@@ -248,7 +250,7 @@
             "algebra",
             "geometric-topology",
             "geometry",
-            "group-theory",
+            "groups",
             "topology"
         ],
         "references": [
@@ -346,8 +348,7 @@
         ],
         "references": [
             "[Sheldon Axler](http://www.axler.net/DwD.html)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Automated Verification of Computational Systems",
@@ -388,7 +389,8 @@
         "topic": "Buchi Automata",
         "tags": [
             "computer-science",
-            "automata"
+            "automata",
+            "theoretical-computer-science"
         ],
         "references": [
         ],
@@ -398,7 +400,8 @@
         "topic": "Timed Automata",
         "tags": [
             "computer-science",
-            "automata"
+            "automata",
+            "theoretical-computer-science"
         ],
         "references": [
         ],
@@ -450,7 +453,6 @@
             "algebraic-geometry",
             "computer-science",
             "computational-complexity",
-            "generalized-riemann-hypothesis",
             "theoretical-computer-science"
         ],
         "references": [
@@ -665,6 +667,8 @@
     {
         "topic": "The Joy of Factoring",
         "tags": [
+            "algorithms",
+            "computer-science",
             "cryptography",
             "number-theory",
             "quantum-algorithms",
@@ -687,8 +691,7 @@
             "[Andrew Granville, Prime Number Patterns](https://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Granville.pdf)",
             "[Paul T. Bateman and Roger A. Horn, A Heuristic Asymptotic Formula Concerning the Distribution of Prime Numbers](https://www.jstor.org/stable/2004056)",
             "[Keith Conrad, Irreducible Values of Polynomials: a Non-analogy](http://www.math.uconn.edu/~kconrad/articles/texel.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Reciprocity Laws",
@@ -698,8 +701,6 @@
         ],
         "references": [
             "[B. F. Wyman](https://www.jstor.org/stable/2317083)"
-        ],
-        "see-also": [
         ]
     },
     {
@@ -804,7 +805,8 @@
             "computability",
             "incompleteness",
             "logic",
-            "theoretical-computer-science"
+            "theoretical-computer-science",
+            "turing-machines"
         ],
         "references": [
             "[Scott Aaronson](http://www.scottaaronson.com/democritus/lec3.html)"
@@ -937,7 +939,6 @@
     {
         "topic": "Dirichlet L-functions and the Generalized Riemann Hypothesis",
         "tags": [
-            "generalized-riemann-hypothesis",
             "number-theory",
             "open-problems",
             "prime-numbers"
@@ -1244,6 +1245,20 @@
             "tutorial",
             "tech-talks",
             "data-science"
+        ]
+    },
+    {
+        "topic": "Abstraction in Technical Computing",
+        "references": [
+            "[Jeffrey Werner Bezanson](https://github.com/JeffBezanson/phdthesis/blob/master/main.pdf)"
+        ],
+        "excerpt": "Scientists, mathematicians, and engineers have an increasing need to write efficient computer programs. One approach to allowing efficient technical computing involves a powerful type system and dispatch system to enable generic, staged, and higher-order programming.",
+        "tags": [
+            "computer-science",
+            "polymorphism",
+            "programming-languages",
+            "tech-talks",
+            "type-theory"
         ]
     }
 ]
