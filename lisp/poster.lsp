@@ -12,12 +12,12 @@
             [src "http://uwseminars.com/seminar-transparent.png"]
             [class "banner"]))
       (p ([class "location-time"])
-         (#:var (human (date (ref talks 1))))
+         (#:var (human (datetime (ref talks 1))))
          " in " (#:var (location (ref talks 1))))
       (div ([class "talks"])
            (#:each t talks
             `((h2 ,(topic t))
-              (time ,(ref (ref t 'time) (colon 1 5)))
+              (time ,(time-part (datetime t)))
               (p ([fill "#000000"]
                   [font-size 18]
                   [font-family "Ubuntu"]

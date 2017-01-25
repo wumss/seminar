@@ -1,10 +1,10 @@
 ;; TODO: This definition is defined in Julia too; ideally we would like not to
 ;; repeat code.
-(#:define (human (:: d Date))
+(#:define (human (:: d (. Dates TimeType)))
   ((. Dates format) d "E U d, YYYY"))
 
 (#:define (time-part t)
-  (String (collect (take t 5))))
+  ((. Dates format) t "HH:MM"))
 
 (#:define (nav-link url text)
   `(li (a ([href ,(string "/" url)]) ,text)))

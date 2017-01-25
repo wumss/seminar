@@ -2,7 +2,7 @@
 (p "This talk on "
    (#:var (topic talk))
    " was held on "
-   (#:var (human (date talk)))
+   (#:var (human (datetime talk)))
    " in "
    (#:var (location talk))
    ". The speaker was "

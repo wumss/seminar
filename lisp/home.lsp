@@ -4,7 +4,7 @@
   (append `((tr (td ,(topic t))
                 (td ,(speaker t))
                 (td ,(location t))
-                (td ,(String (time-part (ref t 'time))))))
+                (td ,(time-part (datetime t)))))
           (if (hasabstract t)
             `((tr (td ([colspan 4])
                       (#:markdown
@@ -17,9 +17,9 @@
   (thead
     (tr (th "Topic") (th "Speaker") (th "Location") (th "Time")))
   (tbody
-    (#:each d (unique (map date talks))
+    (#:each d (unique (map (∘ Date datetime) talks))
      (if (≥ (Date d) ((. Dates today)))
-       (let ([ts (filter (λ (t) (== (date t) d)) talks)])
+       (let ([ts (filter (λ (t) (== (Date (datetime t)) d)) talks)])
          (append
            `((tr (th ([colspan 4]) "Talks on " ,(human d))))
            (convert List (flatten (map talk-row ts)))))

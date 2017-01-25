@@ -4,14 +4,20 @@ using Base.Iterators
 using English
 using SExpressions.Lists
 
+# TODO: make non-mutating and return object instead of dict
+function fromjson(obj)
+    obj[:time] = DateTime(obj[:time], "y-m-dTH:M:SZ")
+    obj
+end
+
 topic(t) = t[:topic]
 location(t) = t[:location]
 speaker(t) = t[:speaker]
-date(t) = Date(t[:date])
+datetime(t) = t[:time]
 tags(t) = t[:tags]
 
 identifier(t) = t[:identifier]
-iscompleted(t) = Date(t[:date]) < Dates.today()
+iscompleted(t) = Date(datetime(t)) < Dates.today()
 
 abstractpath(talk) = "abstract/$(identifier(talk))"
 hasabstract(talk) = isfile(abstractpath(talk))
@@ -48,6 +54,8 @@ end
 
 export abstractpath, hasabstract, summarypath, hassummary, identifier,
        iscompleted, valuate, summarize, brief, topic, location, speaker, date,
-       tags
+       datetime, tags, fromjson
+
+Base.@deprecate date(t) Date(datetime(t))
 
 end

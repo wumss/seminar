@@ -217,7 +217,7 @@
         ]
     },
     { 
-        "time": "2016-12-02T18:30Z",
+        "time": "2016-12-02T18:30:00Z",
         "topic": "Voting with Homomorphic Encryption", 
         "speaker": "Sidhant Saraogi",
         "location": "MC-4020",

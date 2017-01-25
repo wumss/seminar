@@ -62,11 +62,8 @@ end
 
 # Parse the schedule
 result = JSON.parsefile("data/schedule.json", dicttype=Dict{Symbol,Any})
-sort!(result, by=x -> x[:time])
-map!(result, result) do d
-    d[:date], d[:time] = split(d[:time], 'T')
-    d
-end
+result = [Talks.fromjson(obj) for obj in result]
+sort!(result, by=x -> datetime(x))
 
 talks = []
 
