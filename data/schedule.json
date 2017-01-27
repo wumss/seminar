@@ -297,6 +297,18 @@
     },
     {
         "location": "MC 4045",
+        "time": "2017-02-03T18:30:00Z",
+        "topic": "$q$-analogs",
+        "tags": [
+            "q-analogs",
+            "combinatorics",
+            "first-year-friendly"
+        ],
+        "identifier": "fw-q",
+        "speaker": "Fengyang Wang"
+    },
+    {
+        "location": "MC 4045",
         "time": "2017-02-10T17:30:00Z",
         "topic": "Quantum Computing",
         "tags": [
@@ -310,14 +322,13 @@
     {
         "location": "MC 4045",
         "time": "2017-02-10T18:30:00Z",
-        "topic": "$q$-analogs",
+        "topic": "Ordinals",
         "tags": [
-            "q-analogs",
-            "combinatorics",
-            "first-year-friendly"
+            "first-year-friendly",
+            "ordinals"
         ],
-        "identifier": "fw-q",
-        "speaker": "Fengyang Wang"
+        "identifier": "eo-Ordinals",
+        "speaker": "Eddie Onochie"
     },
     {
         "location": "MC 4045",
@@ -331,17 +342,6 @@
         ],
         "identifier": "bz-Bitcoin",
         "speaker": "Ben Zhang"
-    },
-    {
-        "location": "MC 4045",
-        "time": "2017-02-17T18:30:00Z",
-        "topic": "Ordinals",
-        "tags": [
-            "first-year-friendly",
-            "ordinals"
-        ],
-        "identifier": "eo-Ordinals",
-        "speaker": "Eddie Onochie"
     },
     {
         "location": "MC 4045",

@@ -1,0 +1,22 @@
+Some of the most interesting results in combinatorics are generalizations of
+simple problems or theorems to problems or theorems parameterized by a
+parameter ``q`` (often complex-valued). By taking the limit as ``q\to1``, the
+simple problems can be recovered. Surprisingly, many of these ``q``-analogs
+take similar forms, and are seen across a wide variety of problems that may
+initially seem unrelated.
+
+Concepts from MATH 239 will be used. It is heavily recommended that people who
+have not taken MATH 239 or an equivalent course read the linked material (not
+yet ready; will be by Monday.)
+
+## Outline
+
+- Review of prerequisite concepts. (15 minutes)
+    - Partitions of a positive integer.
+    - The Ferrers diagram.
+    - Ordinary generating functions.
+- Permutations of ``\{1\ldots n\}`` with ``k`` inversions. (15 minutes)
+- The ``q``-analog of non-negative integers. (5 minutes)
+- The ``q``-analog of the gamma function and factorial. (5 minutes)
+- Distinct partitions of ``k`` that fit in ``m\times n`` rectangles. (15 minutes)
+- The ``q``-analog of binomial coefficients. (15 minutes)
