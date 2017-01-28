@@ -1,0 +1,27 @@
+With the advent of big data, the ability to process large volumes of data is
+becoming increasingly important. For instance, when dealing with large data sets,
+we may want to perform simple operations such as counting the number of unique
+elements or checking whether or not an element is present in the set. While
+there are deterministic data structures, such as hash tables, that can perform
+these quickly, the sheer size of the data involved makes their use largely 
+impractical and unscalable.Instead, we may want to trade-off some accuracy in our 
+answers in exchange for greater space efficiency and ease of parallelization. 
+For this, we introduce the concept of probabilistic data structures. 
+
+In this talk, we will mainly focus on Bloom filters, which are commonly used to
+test set membership and speed up data access. We will explore its main use cases,
+its implementation details, and the mathematics behind it. If time permits, I
+will also talk about the count min-sketch, used for frequency counting, and/or
+the HyperLogLog counter, used for cardinality estimation.
+
+This talk will assume basic knowledge of probability.
+
+## Outline 
+- What are probabilistic data structures? (5 minutes)
+- Bloom filters
+    - What are bloom filters used for? (5 minutes)
+    - Implementation details (~10 minutes)
+    - Mathematics: minimizing the false positive rate and finding the
+      optimal number of hash functions (~15 minutes)
+- Count min-sketch (~10-15 minutes)
+- HyperLogLog counter (~10-15 minutes)
