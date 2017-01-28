@@ -27,7 +27,6 @@ hassummary(talk) = isfile(summarypath(talk))
 
 function valuate(talk)
     sum([1,
-         iscompleted(talk),
          hasabstract(talk),
          hassummary(talk)])
 end
