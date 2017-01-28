@@ -368,9 +368,12 @@
     {
         "location": "MC 4045",
         "time": "2017-03-03T17:30:00Z",
-        "topic": "TBD",
-        "tags": [],
-        "identifier": "ly-TBD",
+        "topic": "Universal Property of Quotients",
+        "tags": [
+            "algebra",
+            "category-theory"
+        ],
+        "identifier": "ly-UPQ",
         "speaker": "Lirong Yang"
     },
     {
