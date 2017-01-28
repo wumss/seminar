@@ -31,4 +31,26 @@
         availableFonts: ["TeX"]
     }
 });
-</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script><title>Bloom Filters</title></head><body><nav><ul><li><a href="/">Math Seminar Home</a></li><li><a href="/archive">archive</a></li><li><a href="/tags">tags</a></li><li><a href="/faq">faq</a></li><li><a href="/document">library</a></li><li><a href="/potential-topics">topics</a></li><li><a href="/submit-talk">speak</a></li></ul></nav><section><article><p>This talk on Bloom Filters was held on Friday February 3, 2017 in MC 4045. The speaker was Luthfi Mawarid.</p><h2>Tags</h2><ul><li><a href="/tag/algorithms" class="tag-link tag-algorithms">algorithms</a></li><li><a href="/tag/computer-science" class="tag-link tag-computer-science">computer-science</a></li><li><a href="/tag/data-structures" class="tag-link tag-data-structures">data-structures</a></li><li><a href="/tag/first-year-friendly" class="tag-link tag-first-year-friendly">first-year-friendly</a></li><li><a href="/tag/space-efficiency" class="tag-link tag-space-efficiency">space-efficiency</a></li><li><a href="/tag/probability" class="tag-link tag-probability">probability</a></li></ul></article></section></body></html>
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script><title>Bloom Filters and Other Probabilistic Data Structures</title></head><body><nav><ul><li><a href="/">Math Seminar Home</a></li><li><a href="/archive">archive</a></li><li><a href="/tags">tags</a></li><li><a href="/faq">faq</a></li><li><a href="/document">library</a></li><li><a href="/potential-topics">topics</a></li><li><a href="/submit-talk">speak</a></li></ul></nav><section><article><p>This talk on Bloom Filters and Other Probabilistic Data Structures was held on Friday February 3, 2017 in MC 4045. The speaker was Luthfi Mawarid.</p><h2>Abstract</h2><div class="markdown"><p>With the advent of big data, the ability to process large volumes of data is becoming increasingly important. For instance, when dealing with large data sets, we may want to perform simple operations such as counting the number of unique elements or checking whether or not an element is present in the set. While there are deterministic data structures, such as hash tables, that can perform these quickly, the sheer size of the data involved makes their use largely  impractical and unscalable.Instead, we may want to trade-off some accuracy in our  answers in exchange for greater space efficiency and ease of parallelization.  For this, we introduce the concept of probabilistic data structures. </p>
+<p>In this talk, we will mainly focus on Bloom filters, which are commonly used to test set membership and speed up data access. We will explore its main use cases, its implementation details, and the mathematics behind it. If time permits, I will also talk about the count min-sketch, used for frequency counting, and/or the HyperLogLog counter, used for cardinality estimation.</p>
+<p>This talk will assume basic knowledge of probability.</p>
+<h2>Outline</h2>
+<ul>
+<li><p>What are probabilistic data structures? &#40;5 minutes&#41;</p>
+</li>
+<li><p>Bloom filters</p>
+<ul>
+<li><p>What are bloom filters used for? &#40;5 minutes&#41;</p>
+</li>
+<li><p>Implementation details &#40;~10 minutes&#41;</p>
+</li>
+<li><p>Mathematics: minimizing the false positive rate and finding the optimal number of hash functions &#40;~15 minutes&#41;</p>
+</li>
+</ul>
+</li>
+<li><p>Count min-sketch &#40;~10-15 minutes&#41;</p>
+</li>
+<li><p>HyperLogLog counter &#40;~10-15 minutes&#41;</p>
+</li>
+</ul>
+</div><h2>Tags</h2><ul><li><a href="/tag/algorithms" class="tag-link tag-algorithms">algorithms</a></li><li><a href="/tag/computer-science" class="tag-link tag-computer-science">computer-science</a></li><li><a href="/tag/data-structures" class="tag-link tag-data-structures">data-structures</a></li><li><a href="/tag/first-year-friendly" class="tag-link tag-first-year-friendly">first-year-friendly</a></li><li><a href="/tag/space-efficiency" class="tag-link tag-space-efficiency">space-efficiency</a></li><li><a href="/tag/probability" class="tag-link tag-probability">probability</a></li></ul></article></section></body></html>
