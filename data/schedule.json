@@ -284,7 +284,7 @@
     {
         "location": "MC 4045",
         "time": "2017-02-03T17:30:00Z",
-        "topic": "Bloom Filters",
+        "topic": "Bloom Filters and Other Probabilistic Data Structures",
         "tags": [
             "algorithms",
             "computer-science",
@@ -293,7 +293,7 @@
             "space-efficiency",
             "probability"
         ],
-        "identifier": "lm-BF",
+        "identifier": "lm-ProbDataStruct",
         "speaker": "Luthfi Mawarid"
     },
     {
