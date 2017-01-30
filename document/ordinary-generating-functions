@@ -6,3 +6,27 @@ denote it by ``\mathbf{N} \cup \{0\} = \{0, 1, 2, \ldots\}``.
 A **sequence** ``(a_n)_{n\ge0}`` is a function ``\mathbf{N} \cup \{0\} \to
 \mathbf{C}``. We denote by ``a_k`` the result of evaluating this function at
 natural number ``k``.
+
+An example of a sequence is the **triangular numbers** ``(T_n)_{n\ge0}``, which
+counts the number of edges in a complete graph of order ``n``. We have, for
+example, ``T_0 = 0``, ``T_1 = 0``, ``T_2 = 1``, ``T_3 = 3``, ``T_4 = 6``.
+
+A common way to describe a sequence is by an explicit **closed form**, which
+gives the function directly. For the aforementioned sequence of triangular
+numbers, there is a simple closed form:
+
+```math
+T(n) = \frac{n(n-1)}{2}
+```
+
+Sometimes, a closed form may not be easy to find or may not be feasible to
+compute, and we instead can use a **recurrence relation**. A recurrence
+relation describes, recursively, the values of the sequence. For the triangular
+numbers, we can find the following recurrence relation:
+
+```math
+T(n) = \begin{cases}
+    0 & n = 0
+    T(n-1) + n - 1 & n > 0
+\end{cases}
+```
