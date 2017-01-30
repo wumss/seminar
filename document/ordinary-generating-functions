@@ -9,14 +9,14 @@ natural number ``k``.
 
 An example of a sequence is the **triangular numbers** ``(T_n)_{n\ge0}``, which
 counts the number of edges in a complete graph of order ``n``. We have, for
-example, ``T_0 = 0``, ``T_1 = 0``, ``T_2 = 1``, ``T_3 = 3``, ``T_4 = 6``.
+example, ``T_0 = 0``, ``T_1 = 1``, ``T_2 = 3``, ``T_3 = 6``, ``T_4 = 10``.
 
 A common way to describe a sequence is by an explicit **closed form**, which
 gives the function directly. For the aforementioned sequence of triangular
 numbers, there is a simple closed form:
 
 ```math
-T(n) = \frac{n(n-1)}{2}
+T(n) = \frac{n(n+1)}{2}
 ```
 
 Sometimes, a closed form may not be easy to find or may not be feasible to
@@ -26,7 +26,40 @@ numbers, we can find the following recurrence relation:
 
 ```math
 T(n) = \begin{cases}
-    0 & n = 0
-    T(n-1) + n - 1 & n > 0
+    0 & n = 0 \\
+    T(n-1) + n & n > 0
 \end{cases}
 ```
+
+A third representation of a sequence, which is often more compact and sometimes
+more computationally useful than the two mentioned here, is by analogy with a
+power series. Recall (MATH 138 / MATH 148) that a power series is a
+generalization of a polynomial, with arbitrarily large powers of the formal
+variable ``x``. In general, we may write power series as
+
+```math
+G(x) = g_0 + g_1 x + g_2 x^2 + \dots
+```
+
+or, using summation notation, as
+
+```math
+G(x) = \sum_{n\ge0} g_n x^n
+```
+
+Note, in particular, that the coefficients ``(g_n)_{n\ge0}`` form a sequence.
+We may exploit this similarity between sequences and power series to help
+describe sequences through their analogous power series. For instance, the
+triangular numbers are described by the power series
+
+```math
+T(x) = \sum_{n\ge0} T_n x^n = \sum_{n\ge0} \frac{n(n+1)}{2} x^n
+```
+
+Importantly, this power series admits a simple form:
+
+```math
+T(x) = \frac{x}{(1-x)^3}
+```
+
+It is this compact format that makes generating functions useful.
