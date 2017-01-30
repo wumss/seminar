@@ -1,0 +1,8 @@
+## Sequences
+
+The set of natural numbers, including zero, is important in combinatorics. We
+denote it by ``\mathbf{N} \cup \{0\} = \{0, 1, 2, \ldots\}``.
+
+A **sequence** ``(a_n)_{n\ge0}`` is a function ``\mathbf{N} \cup \{0\} \to
+\mathbf{C}``. We denote by ``a_k`` the result of evaluating this function at
+natural number ``k``.

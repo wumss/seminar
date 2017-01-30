@@ -47,5 +47,21 @@
             "linear-algebra"
         ],
         "type": "reference"
+    },
+    {
+        "id": "ordinary-generating-functions",
+        "title": "Ordinary Generating Functions",
+        "authors": [
+            "Fengyang Wang"
+        ],
+        "subsetof": [
+            "MATH 239",
+            "MATH 249"
+        ],
+        "tags": [
+            "combinatorics",
+            "enumeration"
+        ],
+        "type": "reference"
     }
 ]
