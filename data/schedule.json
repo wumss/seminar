@@ -284,21 +284,6 @@
     {
         "location": "MC 4045",
         "time": "2017-02-03T17:30:00Z",
-        "topic": "Bloom Filters and Other Probabilistic Data Structures",
-        "tags": [
-            "algorithms",
-            "computer-science",
-            "data-structures",
-            "first-year-friendly",
-            "space-efficiency",
-            "probability"
-        ],
-        "identifier": "lm-BF",
-        "speaker": "Luthfi Mawarid"
-    },
-    {
-        "location": "MC 4045",
-        "time": "2017-02-03T18:30:00Z",
         "topic": "$q$-analogs",
         "tags": [
             "q-analogs",
@@ -308,6 +293,18 @@
         ],
         "identifier": "fw-q",
         "speaker": "Fengyang Wang"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-02-03T18:30:00Z",
+        "topic": "$p$-adic Analysis",
+        "tags": [
+            "analysis",
+            "number-theory",
+            "p-adic-numbers"
+        ],
+        "identifier": "at-padic",
+        "speaker": "Akshay Tiwary"
     },
     {
         "location": "MC 4045",
@@ -368,13 +365,15 @@
     {
         "location": "MC 4045",
         "time": "2017-03-03T17:30:00Z",
-        "topic": "Universal Property of Quotients",
+        "topic": "Total Functional Programming",
         "tags": [
-            "algebra",
-            "category-theory"
+            "computer-science",
+            "first-year-friendly",
+            "functional-programming",
+            "tech-talks"
         ],
-        "identifier": "ly-UPQ",
-        "speaker": "Lirong Yang"
+        "identifier": "ah-TFP",
+        "speaker": "Adam Hofmann"
     },
     {
         "location": "MC 4045",
@@ -400,35 +399,36 @@
     {
         "location": "MC 4045",
         "time": "2017-03-10T18:30:00Z",
-        "topic": "$p$-adic Analysis",
+        "topic": "Bloom Filters and Other Probabilistic Data Structures",
         "tags": [
-            "analysis",
-            "number-theory",
-            "p-adic-numbers"
+            "algorithms",
+            "computer-science",
+            "data-structures",
+            "first-year-friendly",
+            "space-efficiency",
+            "probability"
         ],
-        "identifier": "at-padic",
-        "speaker": "Akshay Tiwary"
+        "identifier": "lm-BF",
+        "speaker": "Luthfi Mawarid"
     },
     {
         "location": "MC 4045",
         "time": "2017-03-17T17:30:00Z",
-        "topic": "Total Functional Programming",
-        "tags": [
-            "computer-science",
-            "first-year-friendly",
-            "functional-programming",
-            "tech-talks"
-        ],
-        "identifier": "ah-TFP",
-        "speaker": "Adam Hofmann"
-    },
-    {
-        "location": "MC 4045",
-        "time": "2017-03-17T18:30:00Z",
         "topic": "?",
         "tags": [],
         "identifier": "Frieda-change-me",
         "speaker": "Frieda Rong"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-17T18:30:00Z",
+        "topic": "Universal Property of Quotients",
+        "tags": [
+            "algebra",
+            "category-theory"
+        ],
+        "identifier": "ly-UPQ",
+        "speaker": "Lirong Yang"
     },
     {
         "location": "MC 4045",
