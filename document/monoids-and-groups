@@ -36,9 +36,9 @@ that satisfies certain properties, usually in relation to binary operators.
 
 ## Example
 
-Consider the set of real functions defined everywhere, which I will denote as
+Consider the set of real functions defined everywhere, which we denote as
 ``\mathbf{R}^\mathbf{R}``. What sort of structure can we find in this set?
-Let's focus on binary operations. One obvious binary operation is ``∘``, which
+Let’s focus on binary operations. One obvious binary operation is ``∘``, which
 represents function composition. We define
 
 ```math
@@ -85,8 +85,8 @@ or more formally,
 
 An example of a monoid is the set of strings, under binary operator
 concatenation, with identity element the empty string ``ɛ``. They are very
-closely related to monads, a concept seen in category theory and computer
-science.
+closely related to monads, a concept seen in [category
+theory](/tag/category-theory) and [computer science](/tag/computer-science).
 
 ## Example
 
