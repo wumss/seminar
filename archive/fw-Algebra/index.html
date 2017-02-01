@@ -39,10 +39,10 @@
 <p>In mathematics, we investigate particular sets and how they behave. Many results on certain sets actually apply to a wide class of sets. Algebra allows us to generalize these results. We investigate sets and their structures by appealing to fundamental structural properties. This investigation leads to the revelation that certain kinds of structure are especially prevalent and useful.</p>
 <p>In MATH 136 or MATH 146, we have seen fields and vector spaces, which are a particularly important sort of structure. Today I will be talking about another useful sort of structure: the group.</p>
 <h2>Binary Operators and Distinguished Elements</h2>
-<p>What do I mean by &lt;q&gt;structure&lt;/q&gt;? There are two common forms of structure: binary operators, and distinguished elements.</p>
+<p>What do I mean by <strong>structure</strong>? There are two common forms of structure: binary operators, and distinguished elements.</p>
 <p>Given a set &#36;S&#36;, we call a function &#36;f: S\times S\to S&#36; a <em>binary operator</em>. Binary operators are typically written in infix notation; that is, we write &#36;afb&#36; instead of &#36;f&#40;a, b&#41;&#36;. Furthermore, we often use symbols such as &#36;&#43;&#36;, &#36;⋅&#36;, &#36;∨&#36;, &#36;⊖&#36; or similar for these operators.</p>
 <p>Conventionally, we may omit certain binary operators, such as the &#36;∘&#36; for function composition or the &#36;⋅&#36; for multiplication. That is, we may write &#36;ab&#36; to denote &#36;a⋅b&#36;.</p>
-<p>A &lt;q&gt;distinguished element&lt;/q&gt; of &#36;S&#36; is simply a specific element &#36;x\in S&#36; that satisfies certain properties, usually in relation to binary operators.</p>
+<p>A <strong>distinguished element</strong> of &#36;S&#36; is simply a specific element &#36;x\in S&#36; that satisfies certain properties, usually in relation to binary operators.</p>
 <h2>Example</h2>
 <p>Consider the set of real functions defined everywhere, which I will denote as &#36;\mathbf&#123;R&#125;^\mathbf&#123;R&#125;&#36;. What sort of structure can we find in this set? Let&#39;s focus on binary operations. One obvious binary operation is &#36;∘&#36;, which represents function composition. We define</p>
 &#36;&#40;f ∘ g&#41;&#40;x&#41; &#61; f&#40;g&#40;x&#41;&#41;&#36;
@@ -51,7 +51,7 @@
 <p>For associative binary operations, we frequently omit the parentheses. That is, we may simply write &#36;f ∘ g ∘ h&#36;.</p>
 <p>Next we note that there is a distinguished element of &#36;S&#36;, which we will name &#36;I&#36;, with the property that for all &#36;x&#36;:</p>
 &#36;I&#40;x&#41; &#61; x&#36;
-<p>This &#36;I&#36; is frequently known as the &lt;q&gt;identity function&lt;/q&gt;. It happens to be the identity element of the &#36;∘&#36; operation; that is, for all &#36;f\in S&#36;, we have</p>
+<p>This &#36;I&#36; is frequently known as the <strong>identity function</strong>. It happens to be the identity element of the &#36;∘&#36; operation; that is, for all &#36;f\in S&#36;, we have</p>
 &#36;I ∘ f &#61; f ∘ I &#61; f&#36;
 <h2>Monoids</h2>
 <p>A <strong>monoid</strong> is a set &#36;S&#36; with distinguished element &#36;e\in S&#36; together with a binary operation &#36;⋅: S\times S\to S&#36;, such that:</p>
@@ -71,7 +71,7 @@
 <p>An example of a monoid is the set of strings, under binary operator concatenation, with identity element the empty string &#36;ɛ&#36;. They are very closely related to monads, a concept seen in category theory and computer science.</p>
 <h2>Example</h2>
 <p>Consider again the set of real functions defined everywhere. This time, consider the subset &#36;Φ&#36; of bijective real functions. Since the composition of bijections remains a bijection, we see that this set is still a monoid under function composition &#36;∘&#36;. But indeed, there is more structure to be explored here. Every bijection &#36;φ\inΦ&#36; admits an inverse &#36;φ^&#123;-1&#125;&#36;. The crucial property of the inverse is that &#36;φφ^&#123;-1&#125;&#61;φ^&#123;-1&#125;φ&#61;I&#36;, where &#36;I&#36; is the identity element of the &#36;∘&#36; operation.</p>
-<p>Such an algebraic structure, a monoid with inverses, is called a &lt;q&gt;group&lt;/q&gt;. The particular group of bijections seen above is called a &lt;q&gt;symmetric group&lt;/q&gt;.</p>
+<p>Such an algebraic structure, a monoid with inverses, is called a <strong>group</strong>. The particular group of bijections seen above is called a <strong>symmetric group</strong>.</p>
 <h2>Groups</h2>
 <p>A <strong>group</strong> is a set &#36;S&#36; with distinguished element &#36;e\in S&#36; together with a binary operation &#36;⋅: S\times S\to S&#36;, such that:</p>
 <ul>
@@ -115,7 +115,7 @@
 <p>Recall that in MATH 146, we defined a coset of a vector space &#36;W&#36; in &#36;V&#36; in a similar fashion, with vector addition replacing the associative binary operation. One difference is that because the associative binary operation is not necessarily commutative, the left and right cosets may differ.</p>
 <p>It is often more useful when the left and right cosets of &#36;H&#36; in &#36;G&#36; happen to be the same cosets. &#40;This is the case, for instance, in linear algebra.&#41; When &#36;gH &#61; Hg&#36; for all &#36;g\in G&#36;, then we say that &#36;H&#36; is a <strong>normal subgroup</strong> of &#36;G&#36;.</p>
 <h2>Quotient Groups</h2>
-<p>Note that it is possible to intutively understand a coset of &#36;H&#36; in &#36;G&#36; to be some &lt;q&gt;translated&lt;/q&gt; copy of &#36;H&#36; in &#36;G&#36;. Cosets of &#36;H&#36; in &#36;G&#36; with respect to two distinct elements &#36;g&#36; may indeed still be the same coset. Let &#36;G / H&#36; &#40;pronounced &lt;q&gt;&#36;G&#36; modulo &#36;H&#36;&lt;/q&gt;&#41; be the set of cosets of &#36;H&#36; in &#36;G&#36;. Although we will not prove it, it is straightforward to show that any two cosets are either disjoint or entirely coincident.</p>
+<p>Note that it is possible to intutively understand a coset of &#36;H&#36; in &#36;G&#36; to be some translated copy of &#36;H&#36; in &#36;G&#36;. Cosets of &#36;H&#36; in &#36;G&#36; with respect to two distinct elements &#36;g&#36; may indeed still be the same coset. Let &#36;G / H&#36; &#40;read as &#36;G&#36; modulo &#36;H&#36;&#41; be the set of cosets of &#36;H&#36; in &#36;G&#36;. Although we will not prove it, it is straightforward to show that any two cosets are either disjoint or entirely coincident.</p>
 <p>I quote the following lede from the Wikipedia article on <a href="https://en.wikipedia.org/wiki/Quotient_group">quotient groups</a>, as an alternative way of thinking about quotient groups:</p>
 <blockquote>
 <p>A quotient group or factor group is a mathematical group obtained by aggregating similar elements of a larger group using an equivalence relation that preserves the group structure.</p>
