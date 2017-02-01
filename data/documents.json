@@ -63,5 +63,20 @@
             "enumeration"
         ],
         "type": "reference"
+    },
+    {
+        "id": "monoids-and-groups",
+        "title": "Monoids and Groups",
+        "authors": [
+            "Fengyang Wang"
+        ],
+        "subsetof": [
+            "PMATH 347"
+        ],
+        "tags": [
+            "algebra",
+            "groups"
+        ],
+        "type": "reference"
     }
 ]

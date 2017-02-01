@@ -1,6 +1,7 @@
-**Note**: This talk summary is preserved for historical reasons. The more
-up-to-date [Monoids and Groups](/document/monoids-and-groups) document is
-preferred.
+This document is mostly based on [Alekseev,
+2004](http://mathcamp.org/2015/abel/abel.pdf), specifically sections 1.1
+(motivation), 1.2 (transformation groups), 1.5, 1.9, and 1.13 (various
+morphisms), and 1.11 (quotient groups).
 
 ## Abstract Algebra
 
@@ -13,13 +14,13 @@ appealing to fundamental structural properties. This investigation leads to the
 revelation that certain kinds of structure are especially prevalent and useful.
 
 In MATH 136 or MATH 146, we have seen fields and vector spaces, which are a
-particularly important sort of structure. Today I will be talking about another
-useful sort of structure: the group.
+particularly important sort of structure. Another useful sort of structure is
+the group, which is the focus of this document.
 
 ## Binary Operators and Distinguished Elements
 
-What do I mean by **structure**? There are two common forms of structure:
-binary operators, and distinguished elements.
+What is **structure**? There are two common forms of structure: binary
+operators, and distinguished elements.
 
 Given a set ``S``, we call a function ``f: S\times S\to S`` a *binary
 operator*. Binary operators are typically written in infix notation; that is,
@@ -204,7 +205,7 @@ not necessarily commutative, the left and right cosets may differ.
 It is often more useful when the left and right cosets of ``H`` in ``G`` happen
 to be the same cosets. (This is the case, for instance, in linear algebra.)
 When ``gH = Hg`` for all ``g\in G``, then we say that ``H`` is a **normal
-subgroup** of ``G``.
+subgroup** of ``G``. We typically write ``H ⊴ G``.
 
 ## Quotient Groups
 
