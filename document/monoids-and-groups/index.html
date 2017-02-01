@@ -42,7 +42,7 @@
 <p>Conventionally, we may omit certain binary operators, such as the &#36;∘&#36; for function composition or the &#36;⋅&#36; for multiplication. That is, we may write &#36;ab&#36; to denote &#36;a⋅b&#36;.</p>
 <p>A <strong>distinguished element</strong> of &#36;S&#36; is simply a specific element &#36;x\in S&#36; that satisfies certain properties, usually in relation to binary operators.</p>
 <h2>Example</h2>
-<p>Consider the set of real functions defined everywhere, which I will denote as &#36;\mathbf&#123;R&#125;^\mathbf&#123;R&#125;&#36;. What sort of structure can we find in this set? Let&#39;s focus on binary operations. One obvious binary operation is &#36;∘&#36;, which represents function composition. We define</p>
+<p>Consider the set of real functions defined everywhere, which we denote as &#36;\mathbf&#123;R&#125;^\mathbf&#123;R&#125;&#36;. What sort of structure can we find in this set? Let’s focus on binary operations. One obvious binary operation is &#36;∘&#36;, which represents function composition. We define</p>
 &#36;&#40;f ∘ g&#41;&#40;x&#41; &#61; f&#40;g&#40;x&#41;&#41;&#36;
 <p>The first property we note is that composition is associative; that is, for all real functions &#36;f&#36;, &#36;g&#36;, and &#36;h&#36;, we have:</p>
 &#36;&#40;f ∘ g&#41; ∘ h &#61; x ↦ f&#40;g&#40;h&#40;x&#41;&#41;&#41; &#61; f ∘ &#40;g ∘ h&#41;&#36;
@@ -66,7 +66,7 @@
 <li><p>&#36;ea&#61;ae&#61;a&#36; for all &#36;a\in S&#36;</p>
 </li>
 </ul>
-<p>An example of a monoid is the set of strings, under binary operator concatenation, with identity element the empty string &#36;ɛ&#36;. They are very closely related to monads, a concept seen in category theory and computer science.</p>
+<p>An example of a monoid is the set of strings, under binary operator concatenation, with identity element the empty string &#36;ɛ&#36;. They are very closely related to monads, a concept seen in <a href="/tag/category-theory">category theory</a> and <a href="/tag/computer-science">computer science</a>.</p>
 <h2>Example</h2>
 <p>Consider again the set of real functions defined everywhere. This time, consider the subset &#36;Φ&#36; of bijective real functions. Since the composition of bijections remains a bijection, we see that this set is still a monoid under function composition &#36;∘&#36;. But indeed, there is more structure to be explored here. Every bijection &#36;φ\inΦ&#36; admits an inverse &#36;φ^&#123;-1&#125;&#36;. The crucial property of the inverse is that &#36;φφ^&#123;-1&#125;&#61;φ^&#123;-1&#125;φ&#61;I&#36;, where &#36;I&#36; is the identity element of the &#36;∘&#36; operation.</p>
 <p>Such an algebraic structure, a monoid with inverses, is called a <strong>group</strong>. The particular group of bijections seen above is called a <strong>symmetric group</strong>.</p>
