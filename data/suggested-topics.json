@@ -1208,6 +1208,7 @@
         "tags": [
             "computer-science",
             "computational-mathematics",
+            "first-year-friendly",
             "floating-points",
             "tech-talks"
         ],
@@ -1254,6 +1255,7 @@
         ],
         "excerpt": "Jupyter Notebooks are a must-have for any data scientist or engineer. They are available for a wide variety of programming languages, particularly Python.",
         "tags": [
+            "first-year-friendly",
             "tutorial",
             "tech-talks",
             "data-science"
@@ -1267,6 +1269,7 @@
         "excerpt": "Scientists, mathematicians, and engineers have an increasing need to write efficient computer programs. One approach to allowing efficient technical computing involves a powerful type system and dispatch system to enable generic, staged, and higher-order programming.",
         "tags": [
             "computer-science",
+            "first-year-friendly",
             "polymorphism",
             "programming-languages",
             "tech-talks",
