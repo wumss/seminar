@@ -16,7 +16,7 @@ useful sort of structure: the group.
 
 ## Binary Operators and Distinguished Elements
 
-What do I mean by <q>structure</q>? There are two common forms of structure:
+What do I mean by **structure**? There are two common forms of structure:
 binary operators, and distinguished elements.
 
 Given a set ``S``, we call a function ``f: S\times S\to S`` a *binary
@@ -28,7 +28,7 @@ Conventionally, we may omit certain binary operators, such as the ``∘`` for
 function composition or the ``⋅`` for multiplication. That is, we may write
 ``ab`` to denote ``a⋅b``.
 
-A <q>distinguished element</q> of ``S`` is simply a specific element ``x\in S``
+A **distinguished element** of ``S`` is simply a specific element ``x\in S``
 that satisfies certain properties, usually in relation to binary operators.
 
 ## Example
@@ -42,8 +42,8 @@ represents function composition. We define
 (f ∘ g)(x) = f(g(x))
 ```
 
-The first property we note is that composition is associative; that is, for
-all real functions ``f``, ``g``, and ``h``, we have:
+The first property we note is that composition is associative; that is, for all
+real functions ``f``, ``g``, and ``h``, we have:
 
 ```math
 (f ∘ g) ∘ h = x ↦ f(g(h(x))) = f ∘ (g ∘ h)
@@ -59,9 +59,9 @@ Next we note that there is a distinguished element of ``S``, which we will name
 I(x) = x
 ```
 
-This ``I`` is frequently known as the <q>identity function</q>. It happens to
-be the identity element of the ``∘`` operation; that is, for all ``f\in S``,
-we have
+This ``I`` is frequently known as the **identity function**. It happens to be
+the identity element of the ``∘`` operation; that is, for all ``f\in S``, we
+have
 
 ```math
 I ∘ f = f ∘ I = f
@@ -95,9 +95,8 @@ here. Every bijection ``φ\inΦ`` admits an inverse ``φ^{-1}``. The crucial
 property of the inverse is that ``φφ^{-1}=φ^{-1}φ=I``, where ``I`` is the
 identity element of the ``∘`` operation.
 
-Such an algebraic structure, a monoid with inverses, is called a <q>group</q>.
-The particular group of bijections seen above is called a <q>symmetric
-group</q>.
+Such an algebraic structure, a monoid with inverses, is called a **group**.
+The particular group of bijections seen above is called a **symmetric group**.
 
 ## Groups
 
@@ -208,11 +207,11 @@ subgroup** of ``G``.
 ## Quotient Groups
 
 Note that it is possible to intutively understand a coset of ``H`` in ``G`` to
-be some <q>translated</q> copy of ``H`` in ``G``. Cosets of ``H`` in ``G`` with
+be some translated copy of ``H`` in ``G``. Cosets of ``H`` in ``G`` with
 respect to two distinct elements ``g`` may indeed still be the same coset. Let
-``G / H`` (pronounced <q>``G`` modulo ``H``</q>) be the set of cosets of ``H``
-in ``G``. Although we will not prove it, it is straightforward to show that any
-two cosets are either disjoint or entirely coincident.
+``G / H`` (read as ``G`` modulo ``H``) be the set of cosets of ``H`` in ``G``.
+Although we will not prove it, it is straightforward to show that any two
+cosets are either disjoint or entirely coincident.
 
 I quote the following lede from the Wikipedia article on [quotient
 groups](https://en.wikipedia.org/wiki/Quotient_group), as an alternative way of
