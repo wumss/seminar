@@ -77,7 +77,7 @@
 <p>Denote by &#36;S_n&#36; the set of bijections</p>
 &#36;\sigma: \&#123;1\dots n\&#125;\to\&#123;1\dots n\&#125;&#36;
 <p>We can think of permutations in several, equivalent ways. A useful way to think of a permutation is a rearrangement of the numbers &#36;1&#36; to &#36;n&#36;. We can write a rearrangement out as a list. For example,</p>
-&#36;\sigma \begin&#123;pmatrix&#125;
+&#36;\sigma &#61; \begin&#123;pmatrix&#125;
  1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\
  3 &amp; 5 &amp; 1 &amp; 2 &amp; 4
 \end&#123;pmatrix&#125; \in S_5&#36;
@@ -89,4 +89,9 @@
 &#36;\max \&#123; \operatorname&#123;inv&#125;&#40;\sigma&#41; : \sigma \in S_n \&#125; &#61; \binom&#123;n&#125;&#123;2&#125;&#36;
 <h2>Generating Functions</h2>
 <p>&#40;During the talk, a brief overview of <a href="/document/ordinary-generating-functions">generating functions</a> was given. This content is subsumed by the linked summary.&#41;</p>
+<h2>Counting Inversions</h2>
+<p>Fix &#36;n&#36;. We shift our focus to &#36;S_n&#36;, and we want to consider the weight function &#36;\operatorname&#123;inv&#125;: S_n \to \mathbf&#123;N&#125;\cup\&#123;0\&#125;&#36;.</p>
+<p>Write</p>
+&#36;F_n&#40;q&#41; &#61; \sum_&#123;\sigma\in S_n&#125; q^&#123;\operatorname&#123;inv&#125;&#40;\sigma&#41;&#125;&#36;
+<p>so that &#36;F_n&#40;q&#41;&#36; is the ordinary generating function for &#36;S_n&#36; with weight function &#36;\operatorname&#123;inv&#125;&#36;. Note that this generating function is actually a polynomial, because &#36;S_n&#36; is a finite set.</p>
 </div><h2>Tags</h2><ul><li><a href="/tag/q-analogs" class="tag-link tag-q-analogs">q-analogs</a></li><li><a href="/tag/combinatorics" class="tag-link tag-combinatorics">combinatorics</a></li><li><a href="/tag/enumeration" class="tag-link tag-enumeration">enumeration</a></li><li><a href="/tag/first-year-friendly" class="tag-link tag-first-year-friendly">first-year-friendly</a></li></ul></article></section></body></html>
