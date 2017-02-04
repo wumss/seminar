@@ -19,13 +19,13 @@ parts, the numbers ``a_i`` are the parts, and ``|p|`` (the size of ``p``) is
 
 As a notational convenience, define
 
-```
+```math
 \operatorname{length}(p) = k
 ```
 
 to be the number of parts, and
 
-```
+```math
 \operatorname{maximum}(p) = \max \{a_i : i \in [1, k]\}
 ```
 
@@ -47,3 +47,25 @@ interchanging rows and columns, we obtain
 
 which is the Ferrers diagram of another partition of ``17``: ``(5, 3, 3, 2, 2,
 1, 1)``. These two partitions of ``17`` are called **conjugates**.
+
+## Permutations
+
+Denote by ``S_n`` the set of bijections
+
+```math
+\sigma: \{1\dots n\}\to\{1\dots n\}
+```
+
+We can think of permutations in several, equivalent ways. A useful way to think
+of a permutation is a rearrangement of the numbers ``1`` to ``n``. We can write
+a rearrangement out as a list. For example,
+
+```math
+\sigma \begin{pmatrix}
+ 1 & 2 & 3 & 4 & 5 \\
+ 3 & 5 & 1 & 2 & 4
+\end{pmatrix} \in S_5
+```
+
+is a permuatation with ``\simga(1) = 3``, ``\sigma(2) = 5``, ``\sigma(3) = 1``,
+``\sigma(4) = 2``, and ``\sigma(5) = 4``.
