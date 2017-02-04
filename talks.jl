@@ -10,7 +10,7 @@ function fromjson(obj)
     obj
 end
 
-topic(t) = t[:topic]
+title(t) = t[:title]
 location(t) = t[:location]
 speaker(t) = t[:speaker]
 datetime(t) = t[:time]
@@ -52,7 +52,7 @@ function brief(t)
                     [])
              ]), " "))
     else
-        Dict(:title => t[:topic],
+        Dict(:title => title(t),
              :url => "archive/$(identifier(t))",
              :summary => summarize(t))
     end
@@ -60,8 +60,9 @@ end
 
 export abstractpath, hasabstract, summarypath, hassummary, identifier,
        iscompleted, valuate, summarize, brief, topic, location, speaker, date,
-       datetime, tags, fromjson
+       datetime, tags, fromjson, title
 
 Base.@deprecate date(t) Date(datetime(t))
+Base.@deprecate topic(t) title(t)
 
 end

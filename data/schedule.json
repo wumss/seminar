@@ -1,7 +1,7 @@
 [
     {
         "time": "2016-10-12T17:30:00Z",
-        "topic": "Groups",
+        "title": "Groups",
         "speaker": "Fengyang Wang",
         "location": "MC 4020",
         "identifier": "fw-Algebra",
@@ -13,7 +13,7 @@
     },
     {
         "time": "2016-10-12T18:30:00Z",
-        "topic": "Ultrafilters",
+        "title": "Ultrafilters",
         "speaker": "Felix Bauckholt",
         "location": "MC 4020",
         "identifier": "fb-Ultrafilters",
@@ -24,7 +24,7 @@
     },
     {
         "time": "2016-10-12T19:30:00Z",
-        "topic": "Infinitely Awesome Graphs",
+        "title": "Infinitely Awesome Graphs",
         "speaker": "Zouhaier Ferchiou",
         "location": "MC 4020",
         "identifier": "zf-Graphs",
@@ -36,7 +36,7 @@
     },
     {
         "time": "2016-10-14T17:30:00Z",
-        "topic": "Information Theory",
+        "title": "Information Theory",
         "speaker": "Sidhant Saraogi",
         "location": "MC 5479",
         "identifier": "ss-Information",
@@ -48,7 +48,7 @@
     },
     {
         "time": "2016-10-14T18:30:00Z",
-        "topic": "Types and Object-Oriented Programming",
+        "title": "Types and Object-Oriented Programming",
         "speaker": "Nikita Kapustin",
         "location": "MC 5479",
         "identifier": "nk-Types",
@@ -60,7 +60,7 @@
     },
     {
         "time": "2016-10-21T17:30:00Z",
-        "topic": "Category Theory",
+        "title": "Category Theory",
         "speaker": "Luthfi Mawarid",
         "location": "MC 4020",
         "identifier": "lm-CategoryTheory",
@@ -72,7 +72,7 @@
     },
     {
         "time": "2016-10-21T18:30:00Z",
-        "topic": "Reinforcement Learning in Games",
+        "title": "Reinforcement Learning in Games",
         "speaker": "Agastya Kalra",
         "location": "MC 4020",
         "identifier": "ak-ReinforcementLearning",
@@ -85,7 +85,7 @@
     },
     {
         "time": "2016-10-28T17:30:00Z",
-        "topic": "Convex Optimization",
+        "title": "Convex Optimization",
         "speaker": "Rolina Wu",
         "location": "MC 4020",
         "identifier": "rw-Convex",
@@ -98,7 +98,7 @@
     },
     {
         "time": "2016-10-28T18:30:00Z",
-        "topic": "Integration",
+        "title": "Integration",
         "speaker": "Gregory Patchell",
         "location": "MC 4020",
         "identifier": "gp-Integration",
@@ -110,7 +110,7 @@
     },
     {
         "time": "2016-11-04T17:30:00Z",
-        "topic": "Game Theory (Part 1)",
+        "title": "Game Theory (Part 1)",
         "speaker": "Koosha Totonchi",
         "location": "MC 4020",
         "identifier": "kt-GameTheory",
@@ -122,7 +122,7 @@
     },
     {
         "time": "2016-11-11T17:30:00Z",
-        "topic": "Simplicial Homology",
+        "title": "Simplicial Homology",
         "speaker": "Kai Rüsch",
         "location": "MC 4020",
         "identifier": "kr-Graphs",
@@ -135,7 +135,7 @@
     },
     {
         "time": "2016-11-11T18:30:00Z",
-        "topic": "Random Graphs and Complex Networks",
+        "title": "Random Graphs and Complex Networks",
         "speaker": "Frieda Rong",
         "location": "MC 4020",
         "identifier": "fr-RandomGraphs",
@@ -147,7 +147,7 @@
     },
     {
         "time": "2016-11-18T17:30:00Z",
-        "topic": "Hypercomplex Numbers",
+        "title": "Hypercomplex Numbers",
         "speaker": "Fengyang Wang",
         "location": "MC 4020",
         "identifier": "fw-Hypercomplex",
@@ -163,7 +163,7 @@
     },
     {
         "time": "2016-11-18T18:30:00Z",
-        "topic": "Basic Elliptic Curves",
+        "title": "Basic Elliptic Curves",
         "speaker": "Akshay Tiwary",
         "location": "MC 4020",
         "identifier": "at-Elliptic",
@@ -177,7 +177,7 @@
     },
     {
         "time": "2016-11-25T17:30:00Z",
-        "topic": "Naïve Lie Theory",
+        "title": "Naïve Lie Theory",
         "speaker": "Aidan Patterson",
         "location": "MC 4020",
         "identifier": "ap-Lie",
@@ -190,7 +190,7 @@
     },
     {
         "time": "2016-11-25T18:30:00Z",
-        "topic": "Quandles: The Algebra of Knots",
+        "title": "Quandles: The Algebra of Knots",
         "speaker": "Brennen Creighton-Young",
         "location": "MC 4020",
         "identifier": "bcy-KnotTheory",
@@ -205,7 +205,7 @@
     },
     {
         "time": "2016-12-02T17:30:00Z",
-        "topic": "How to Complicate Fourier Analysis",
+        "title": "How to Complicate Fourier Analysis",
         "speaker": "Mohamed El Mandouh",
         "location": "MC 4020",
         "identifier": "ma-Harmonic",
@@ -218,7 +218,7 @@
     },
     { 
         "time": "2016-12-02T18:30:00Z",
-        "topic": "Voting with Homomorphic Encryption", 
+        "title": "Voting with Homomorphic Encryption", 
         "speaker": "Sidhant Saraogi",
         "location": "MC-4020",
         "identifier": "ss-Voting",
@@ -232,7 +232,7 @@
     {
         "location": "MC 4045",
         "time": "2017-01-20T17:30:00Z",
-        "topic": "Game Theory (Part 2): Extensive Form Finite and Infinite Games",
+        "title": "Game Theory (Part 2): Extensive Form Finite and Infinite Games",
         "tags": [
             "combinatorial-game-theory",
             "economics",
@@ -246,7 +246,7 @@
     {
         "location": "MC 4045",
         "time": "2017-01-20T18:30:00Z",
-        "topic": "Diophantine Approximation and the Discovery of Transcendental Numbers",
+        "title": "Diophantine Approximation and the Discovery of Transcendental Numbers",
         "tags": [
             "algebraic-numbers",
             "diophantine-approximation",
@@ -261,7 +261,7 @@
     {
         "location": "MC 4045",
         "time": "2017-01-27T17:30:00Z",
-        "topic": "Integrability of Riccati Equations",
+        "title": "Integrability of Riccati Equations",
         "tags": [
             "differential-equations",
             "integrals"
@@ -272,7 +272,7 @@
     {
         "location": "MC 4045",
         "time": "2017-01-27T18:30:00Z",
-        "topic": "Tensor Products",
+        "title": "Tensor Products",
         "tags": [
             "algebra",
             "linear-algebra",
@@ -284,7 +284,7 @@
     {
         "location": "MC 4045",
         "time": "2017-02-03T17:30:00Z",
-        "topic": "$q$-analogs",
+        "title": "$q$-analogs",
         "tags": [
             "q-analogs",
             "combinatorics",
@@ -297,7 +297,7 @@
     {
         "location": "MC 4045",
         "time": "2017-02-03T18:30:00Z",
-        "topic": "$p$-adic Analysis",
+        "title": "$p$-adic Numbers",
         "tags": [
             "analysis",
             "number-theory",
@@ -309,7 +309,7 @@
     {
         "location": "MC 4045",
         "time": "2017-02-10T17:30:00Z",
-        "topic": "Quantum Computing",
+        "title": "Quantum Computing",
         "tags": [
             "computer-science",
             "quantum-algorithms",
@@ -321,10 +321,11 @@
     {
         "location": "MC 4045",
         "time": "2017-02-10T18:30:00Z",
-        "topic": "Ordinals",
+        "title": "Ordinals",
         "tags": [
             "first-year-friendly",
-            "ordinals"
+            "ordinals",
+            "set-theory"
         ],
         "identifier": "eo-Ordinals",
         "speaker": "Eddie Onochie"
@@ -332,7 +333,7 @@
     {
         "location": "MC 4045",
         "time": "2017-02-17T17:30:00Z",
-        "topic": "Bitcoin",
+        "title": "Bitcoin",
         "tags": [
             "computer-science",
             "cryptography",
@@ -345,7 +346,7 @@
     {
         "location": "MC 4045",
         "time": "2017-02-17T18:30:00Z",
-        "topic": "General Secure Multi-Party Computation from any Linear Secret-Sharing Scheme",
+        "title": "General Secure Multi-Party Computation from any Linear Secret-Sharing Scheme",
         "tags": [
             "computer-science",
             "cryptography",
@@ -357,7 +358,7 @@
     {
         "location": "MC 4045",
         "time": "2017-02-24T17:30:00Z",
-        "topic": "",
+        "title": "",
         "tags": [],
         "identifier": "READING WEEK-change-me",
         "speaker": "READING WEEK"
@@ -365,7 +366,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-03T17:30:00Z",
-        "topic": "Total Functional Programming",
+        "title": "Total Functional Programming",
         "tags": [
             "computer-science",
             "first-year-friendly",
@@ -378,7 +379,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-03T18:30:00Z",
-        "topic": "Invariant Theory",
+        "title": "Invariant Theory",
         "tags": [
             "invariants"
         ],
@@ -388,7 +389,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-10T17:30:00Z",
-        "topic": "Zero Knowledge Proofs",
+        "title": "Zero Knowledge Proofs",
         "tags": [
             "cryptography",
             "zero-knowledge-proofs"
@@ -399,7 +400,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-10T18:30:00Z",
-        "topic": "Bloom Filters and Other Probabilistic Data Structures",
+        "title": "Bloom Filters and Other Probabilistic Data Structures",
         "tags": [
             "algorithms",
             "computer-science",
@@ -414,7 +415,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-17T17:30:00Z",
-        "topic": "?",
+        "title": "?",
         "tags": [],
         "identifier": "Frieda-change-me",
         "speaker": "Frieda Rong"
@@ -422,7 +423,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-17T18:30:00Z",
-        "topic": "Universal Property of Quotients",
+        "title": "Universal Property of Quotients",
         "tags": [
             "algebra",
             "category-theory"
@@ -433,7 +434,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-24T17:30:00Z",
-        "topic": "Brachistochrone",
+        "title": "Brachistochrone",
         "tags": [
             "applied-mathematics",
             "calculus-of-variations",
@@ -445,7 +446,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-24T18:30:00Z",
-        "topic": "Representation Theory for Particle Physics",
+        "title": "Representation Theory for Particle Physics",
         "tags": [
             "algebra",
             "linear-algebra",
@@ -460,7 +461,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-31T17:30:00Z",
-        "topic": "Group Theoretic Attacks on the Enigma Cipher",
+        "title": "Group Theoretic Attacks on the Enigma Cipher",
         "tags": [
             "algebra",
             "cryptography",
@@ -472,7 +473,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-31T18:30:00Z",
-        "topic": "Cantor Set and Dynamical Systems",
+        "title": "Cantor Set and Dynamical Systems",
         "tags": [
             "analysis",
             "applied-mathematics",

@@ -1,4 +1,8 @@
 (#:include "definitions.lsp")
+(#:execute
+ (if (! (isdefined 'page-title))
+   ((. Base depwarn) "title is deprecated, use page-title" 'lisp)))
+
 
 (html
   (head
@@ -15,7 +19,7 @@
                [href ,(string "/css/" css ".css")])))))
     (#:when (defined? 'mathjaxplease)
      (#:include "mathjax.lsp"))
-    (title (#:var title)))
+    (title (#:var (if (isdefined 'page-title) page-title title))))
   (body
     (nav (ul (#:template nav-link "" "Math Seminar Home")
              (#:template nav-link "archive" "archive")
