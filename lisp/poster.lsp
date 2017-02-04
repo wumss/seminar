@@ -16,7 +16,7 @@
          " in " (#:var (location (ref talks 1))))
       (div ([class "talks"])
            (#:each t talks
-            `((h2 ,(topic t))
+            `((h2 ,(title t))
               (time ,(time-part (datetime t)))
               (p ([fill "#000000"]
                   [font-size 18]

@@ -1,7 +1,7 @@
 (#:markdown "../pages/home.md")
 
 (#:define (talk-row t)
-  (append `((tr (td ,(topic t))
+  (append `((tr (td ,(title t))
                 (td ,(speaker t))
                 (td ,(location t))
                 (td ,(time-part (datetime t)))))

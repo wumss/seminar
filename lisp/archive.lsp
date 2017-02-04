@@ -1,6 +1,6 @@
 ;; todo: will be held on if the talk has not yet been held
 (p "This talk on "
-   (#:var (topic talk))
+   (#:var (title talk))
    " was held on "
    (#:var (human (datetime talk)))
    " in "

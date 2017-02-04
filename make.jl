@@ -33,7 +33,7 @@ for page in readdir("pages")
         data = stringmime("text/html",
                           Base.Markdown.parse(readstring("pages/$page")))
         generate_page(Dict(
-            :title => root,
+            :pagetitle => root,
             :page => root,
             :pagetype => "page",
             :github => "$GITHUB/pages/$page",
@@ -47,14 +47,14 @@ lisppublics = Dict("faq"         => "Frequently Asked Questions",
 
 for (k, v) in lisppublics
     generate_page(Dict(
-        :title => v,
+        :pagetitle => v,
         :pagetype => k,
         :github => "$GITHUB/lisp/$k.lsp"), k)
 end
 
 function write_summary(t)
     generate_page(Dict(
-        :title => topic(t),
+        :pagetitle => title(t),
         :pagetype => "archive",
         :mathjaxplease => true,
         :talk => t), "archive/$(identifier(t))"; modules=[Talks])
@@ -104,7 +104,7 @@ alltags = popular(tagmatrix)
 
 # Generate poster
 generate_page(Dict(
-    :title => "Poster",
+    :pagetitle => "Poster",
     :pagetype => "poster",
     :github => "$GITHUB/lisp/poster.lsp",
     :extracss => ["poster"],
@@ -112,20 +112,20 @@ generate_page(Dict(
     :talks => nexttalks), "poster"; modules=[Talks, English])
 
 generate_page(Dict(
-    :title => "Archived Talks",
+    :pagetitle => "Archived Talks",
     :pagetype => "archived-talks",
     :talks => talks,
     :mathjaxplease => true), "archive"; modules=[Talks])
 
 generate_page(Dict(
-    :title => "Mathematics Student Seminars",
+    :pagetitle => "Mathematics Student Seminars",
     :pagetype => "home",
     :talks => result,
     :github => "$GITHUB/lisp/home.lsp",
     :mathjaxplease => true), ""; modules=[Talks])
 
 generate_page(Dict(
-    :title => "List of Tags",
+    :pagetitle => "List of Tags",
     :pagetype => "tags",
     :tags => alltags), "tags")
 
@@ -133,7 +133,7 @@ generate_page(Dict(
 for t in alltags
     active_set = filter(x -> t in tags(x), result)
     generate_page(Dict(
-        :title => "Tag $t",
+        :pagetitle => "Tag $t",
         :pagetype => "tag",
         :tag => t,
         :tagmatrix => tagmatrix,
@@ -146,7 +146,7 @@ for t in alltags
 end
 
 generate_page(Dict(
-    :title => "Potential Topics",
+    :pagetitle => "Potential Topics",
     :pagetype => "suggested-topics",
     :talkdict => talkdict,
     :suggestions => suggestions,

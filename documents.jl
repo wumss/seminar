@@ -12,7 +12,7 @@ for d in documents
     populate!(tagmatrix, d[:tags], 2)
 
     generate_page(Dict(
-        :title => d[:title],
+        :pagetitle => d[:title],
         :document => d,
         :pagetype => "document",
         :mathjaxplease => true,
@@ -21,7 +21,7 @@ for d in documents
 end
 
 generate_page(Dict(
-    :title => "Documents",
+    :pagetitle => "Documents",
     :pagetype => "documents",
     :documents => documents,
     :mathjaxplease => true,

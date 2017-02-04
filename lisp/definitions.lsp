@@ -53,7 +53,7 @@
 
 (#:define (archive-link t)
  `(span
-    (a ([href ,(string "/archive/" t)]) ,(topic (ref talkdict t)))
+    (a ([href ,(string "/archive/" t)]) ,(title (ref talkdict t)))
     " by " ,(speaker (ref talkdict t))))
 
 (#:define (tag-link tag)
