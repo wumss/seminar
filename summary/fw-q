@@ -1,0 +1,32 @@
+## Partitions of an Integer
+
+Let ``n\in\mathbf{N}\cup\{0\}``. Define a **partition** of ``n`` to be a
+multiset
+
+```math
+p = \{a_1 \dots a_k\}
+```
+
+with
+
+```math
+\sum_{i=1}^k a_i = n
+```
+
+and each ``a_i\in\mathbf{Z}^+``. We say that the partition ``p`` has ``k``
+parts, the numbers ``a_i`` are the parts, and ``|p|`` (the size of ``p``) is
+``n``.
+
+As a notational convenience, define
+
+```
+\operatorname{length}(p) = k
+```
+
+to be the number of parts, and
+
+```
+\operatorname{maximum}(p) = \max \{a_i : i \in [1, k]\}
+```
+
+to be the largest part.
