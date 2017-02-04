@@ -61,7 +61,7 @@ of a permutation is a rearrangement of the numbers ``1`` to ``n``. We can write
 a rearrangement out as a list. For example,
 
 ```math
-\sigma \begin{pmatrix}
+\sigma = \begin{pmatrix}
  1 & 2 & 3 & 4 & 5 \\
  3 & 5 & 1 & 2 & 4
 \end{pmatrix} \in S_5
@@ -99,3 +99,18 @@ As an exercise, show that
 (During the talk, a brief overview of [generating
 functions](/document/ordinary-generating-functions) was given. This content is
 subsumed by the linked summary.)
+
+## Counting Inversions
+
+Fix ``n``. We shift our focus to ``S_n``, and we want to consider the weight
+function ``\operatorname{inv}: S_n \to \mathbf{N}\cup\{0\}``.
+
+Write
+
+```math
+F_n(q) = \sum_{\sigma\in S_n} q^{\operatorname{inv}(\sigma)}
+```
+
+so that ``F_n(q)`` is the ordinary generating function for ``S_n`` with weight
+function ``\operatorname{inv}``. Note that this generating function is actually
+a polynomial, because ``S_n`` is a finite set.
