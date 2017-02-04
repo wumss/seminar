@@ -63,9 +63,9 @@
 &#36;\sum_&#123;i&#61;1&#125;^k a_i &#61; n&#36;
 <p>and each &#36;a_i\in\mathbf&#123;Z&#125;^&#43;&#36;. We say that the partition &#36;p&#36; has &#36;k&#36; parts, the numbers &#36;a_i&#36; are the parts, and &#36;|p|&#36; &#40;the size of &#36;p&#36;&#41; is &#36;n&#36;.</p>
 <p>As a notational convenience, define</p>
-<pre><code>\operatorname&#123;length&#125;&#40;p&#41; &#61; k</code></pre>
+&#36;\operatorname&#123;length&#125;&#40;p&#41; &#61; k&#36;
 <p>to be the number of parts, and</p>
-<pre><code>\operatorname&#123;maximum&#125;&#40;p&#41; &#61; \max \&#123;a_i : i \in &#91;1, k&#93;\&#125;</code></pre>
+&#36;\operatorname&#123;maximum&#125;&#40;p&#41; &#61; \max \&#123;a_i : i \in &#91;1, k&#93;\&#125;&#36;
 <p>to be the largest part.</p>
 <p>Let &#36;n &#61; 3&#36;. Then the partitions of &#36;n&#36; are &#36;&#40;3&#41;&#36;, &#36;&#40;2, 1&#41;&#36;, and &#36;&#40;1, 1, 1&#41;&#36;. If we take a partition and arrange it so that the largest part comes first, then we can represent it graphically.</p>
 <p>For example , &#36;&#40;7, 5, 3, 1, 1&#41;&#36; is a partition of &#36;17&#36;. Graphically, we can draw a diagram of this, by making each part its own row:</p>
@@ -73,4 +73,13 @@
 <p>This diagram is called the <strong>Ferrers diagram</strong>. If we transpose it, by interchanging rows and columns, we obtain</p>
 <p><img src="/images/ferrers5332211.png" alt="Ferrers diagram for 5332211" /></p>
 <p>which is the Ferrers diagram of another partition of &#36;17&#36;: &#36;&#40;5, 3, 3, 2, 2, 1, 1&#41;&#36;. These two partitions of &#36;17&#36; are called <strong>conjugates</strong>.</p>
+<h2>Permutations</h2>
+<p>Denote by &#36;S_n&#36; the set of bijections</p>
+&#36;\sigma: \&#123;1\dots n\&#125;\to\&#123;1\dots n\&#125;&#36;
+<p>We can think of permutations in several, equivalent ways. A useful way to think of a permutation is a rearrangement of the numbers &#36;1&#36; to &#36;n&#36;. We can write a rearrangement out as a list. For example,</p>
+&#36;\sigma \begin&#123;pmatrix&#125;
+ 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\
+ 3 &amp; 5 &amp; 1 &amp; 2 &amp; 4
+\end&#123;pmatrix&#125; \in S_5&#36;
+<p>is a permuatation with &#36;\simga&#40;1&#41; &#61; 3&#36;, &#36;\sigma&#40;2&#41; &#61; 5&#36;, &#36;\sigma&#40;3&#41; &#61; 1&#36;, &#36;\sigma&#40;4&#41; &#61; 2&#36;, and &#36;\sigma&#40;5&#41; &#61; 4&#36;.</p>
 </div><h2>Tags</h2><ul><li><a href="/tag/q-analogs" class="tag-link tag-q-analogs">q-analogs</a></li><li><a href="/tag/combinatorics" class="tag-link tag-combinatorics">combinatorics</a></li><li><a href="/tag/enumeration" class="tag-link tag-enumeration">enumeration</a></li><li><a href="/tag/first-year-friendly" class="tag-link tag-first-year-friendly">first-year-friendly</a></li></ul></article></section></body></html>
