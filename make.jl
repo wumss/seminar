@@ -4,7 +4,7 @@ using Compat
 using JSON
 using English
 using DataStructures
-using SExpressions.Htsx.StdLib.Tags
+using Remarkable.Tags
 
 include("talks.jl")
 include("htsx-glue.jl")

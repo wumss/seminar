@@ -3,6 +3,9 @@ module Talks
 using Base.Iterators
 using English
 using SExpressions.Lists
+using Remarkable.Articles
+import Remarkable.Articles: title
+import Remarkable.Tags: tags
 
 # TODO: make non-mutating and return object instead of dict
 function fromjson(obj)
@@ -11,10 +14,10 @@ function fromjson(obj)
 end
 
 title(t) = t[:title]
+tags(t) = t[:tags]
 location(t) = t[:location]
 speaker(t) = t[:speaker]
 datetime(t) = t[:time]
-tags(t) = t[:tags]
 
 identifier(t) = t[:identifier]
 iscompleted(t) = Date(datetime(t)) < Dates.today()
