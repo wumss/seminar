@@ -30,3 +30,20 @@ to be the number of parts, and
 ```
 
 to be the largest part.
+
+Let ``n = 3``. Then the partitions of ``n`` are ``(3)``, ``(2, 1)``, and ``(1,
+1, 1)``. If we take a partition and arrange it so that the largest part comes
+first, then we can represent it graphically.
+
+For example , ``(7, 5, 3, 1, 1)`` is a partition of ``17``. Graphically, we can
+draw a diagram of this, by making each part its own row:
+
+![Ferrers diagram for 75311](/images/ferrers75311.png)
+
+This diagram is called the **Ferrers diagram**. If we transpose it, by
+interchanging rows and columns, we obtain
+
+![Ferrers diagram for 5332211](/images/ferrers5332211.png)
+
+which is the Ferrers diagram of another partition of ``17``: ``(5, 3, 3, 2, 2,
+1, 1)``. These two partitions of ``17`` are called **conjugates**.
