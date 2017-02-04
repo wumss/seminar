@@ -69,3 +69,27 @@ a rearrangement out as a list. For example,
 
 is a permuatation with ``\simga(1) = 3``, ``\sigma(2) = 5``, ``\sigma(3) = 1``,
 ``\sigma(4) = 2``, and ``\sigma(5) = 4``.
+
+A permutation may also be thought of as defining a new ordering on the items.
+For instance, we may think of the permutation ``\sigma`` above as defining a
+new ordering ``\prec`` with ``3 \prec 5 \prec 1 \prec 2 \prec 4``. We may
+sometimes be interested in how different the order ``\prec`` is compared to the
+standard order ``<``. We can measure this degree of difference by looking at
+how many pairs of numbers are out of order.
+
+More formally, define an **inversion** of permutation ``\sigma`` to be an
+unordered pair ``\{i < j\}`` such that ``\sigma(i) > \sigma(j)``. The
+inversions are precisely the pairs of indices where ``i < j`` but ``j \prec i``
+according to the order induced by ``\sigma``.
+
+For instance, the inversions in the permutation above are ``\{1, 3\}, \{1, 4\},
+\{2, 3\}, \{2, 4\}, \{2, 5\}``. The total number of inversions of permutation
+``\sigma`` is ``5``, so we may write ``\operatorname{inv}(\sigma) = 5``. In
+general, we define ``\operatorname{inv}(\sigma)`` to be the number of
+inversions of permutation ``\sigma``.
+
+As an exercise, show that
+
+```math
+\max \{ \operatorname{inv}(\sigma) : \sigma \in S_n \} = \binom{n}{2}
+```
