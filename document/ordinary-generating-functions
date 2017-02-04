@@ -63,3 +63,37 @@ T(x) = \frac{x}{(1-x)^3}
 ```
 
 It is this compact format that makes generating functions useful.
+
+## Enumeration
+
+Let ``S`` be a set. Often, we want to enumerate the elements in ``S`` based on
+some particular metrics. One common kind of metric is to assign to each element
+of ``S`` some non-negative integer. We call this kind of metric a **weight
+function**.
+
+More formally, a weight function for ``S`` is a function
+
+```math
+w: S \to \mathbf{N} \cup \{0\}
+```
+
+A common task in enumeration is to count how many objects in ``S`` have weight
+``n``; that is, to find the size of the set
+
+```math
+\{a\in S : w(a) = n\}
+```
+
+and especially to solve this problem in general for all
+``n\in\mathbf{N}\cup\{0\}``. Furthermore, it is often convenient to encode this
+information into a compact, algebraically useful form, if possible.
+
+Generating functions enable us to do this. We can encode all the information
+above as coefficients for some power series. That is, we can define
+
+```math
+G(x) = \sum_{a\in S} x^{w(a)}
+```
+
+to be the (single-variable) generating function for weight function ``w`` over
+``S``.
