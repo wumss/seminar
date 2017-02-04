@@ -51,4 +51,14 @@
 <p>Importantly, this power series admits a simple form:</p>
 &#36;T&#40;x&#41; &#61; \frac&#123;x&#125;&#123;&#40;1-x&#41;^3&#125;&#36;
 <p>It is this compact format that makes generating functions useful.</p>
+<h2>Enumeration</h2>
+<p>Let &#36;S&#36; be a set. Often, we want to enumerate the elements in &#36;S&#36; based on some particular metrics. One common kind of metric is to assign to each element of &#36;S&#36; some non-negative integer. We call this kind of metric a <strong>weight function</strong>.</p>
+<p>More formally, a weight function for &#36;S&#36; is a function</p>
+&#36;w: S \to \mathbf&#123;N&#125; \cup \&#123;0\&#125;&#36;
+<p>A common task in enumeration is to count how many objects in &#36;S&#36; have weight &#36;n&#36;; that is, to find the size of the set</p>
+&#36;\&#123;a\in S : w&#40;a&#41; &#61; n\&#125;&#36;
+<p>and especially to solve this problem in general for all &#36;n\in\mathbf&#123;N&#125;\cup\&#123;0\&#125;&#36;. Furthermore, it is often convenient to encode this information into a compact, algebraically useful form, if possible.</p>
+<p>Generating functions enable us to do this. We can encode all the information above as coefficients for some power series. That is, we can define</p>
+&#36;G&#40;x&#41; &#61; \sum_&#123;a\in S&#125; x^&#123;w&#40;a&#41;&#125;&#36;
+<p>to be the &#40;single-variable&#41; generating function for weight function &#36;w&#36; over &#36;S&#36;.</p>
 </div><h2>Tags</h2><ul><li><a href="/tag/combinatorics" class="tag-link tag-combinatorics">combinatorics</a></li><li><a href="/tag/enumeration" class="tag-link tag-enumeration">enumeration</a></li></ul></article><footer><p>Help improve this page by <a href="https://github.com/wumss/seminar/edit/master/document/ordinary-generating-functions">editing it on GitHub</a>.</p></footer></section></body></html>
