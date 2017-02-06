@@ -2,7 +2,7 @@
 
 using Compat
 using JSON
-using English
+using EnglishText
 using DataStructures
 using Remarkable.Tags
 
@@ -109,7 +109,7 @@ generate_page(Dict(
     :github => "$GITHUB/lisp/poster.lsp",
     :extracss => ["poster"],
     :mathjaxplease => true,
-    :talks => nexttalks), "poster"; modules=[Talks, English])
+    :talks => nexttalks), "poster"; modules=[Talks, EnglishText])
 
 generate_page(Dict(
     :pagetitle => "Archived Talks",
@@ -142,7 +142,8 @@ for t in alltags
         :documents => docs_bytag[t],
         :mathjaxplease => true,
         :github => "$GITHUB/wiki/tag/$t.md",
-        :suggestions => bytag[t]), "tag/$t"; modules=[Tags, Talks, English])
+        :suggestions => bytag[t]), "tag/$t";
+                  modules=[Tags, Talks, EnglishText])
 end
 
 generate_page(Dict(

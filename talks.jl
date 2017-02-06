@@ -1,7 +1,7 @@
 module Talks
 
 using Base.Iterators
-using English
+using EnglishText
 using SExpressions.Lists
 using Remarkable.Articles
 import Remarkable.Articles: title
