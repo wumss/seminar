@@ -184,7 +184,7 @@
     {
         "topic": "Geometry and Billiards",
         "tags": [
-            "differential-geometry",
+            "differential geometry",
             "classical-mechanics",
             "geometry",
             "mechanics",
@@ -257,7 +257,7 @@
         "topic": "Geometric Group Theory",
         "tags": [
             "algebra",
-            "geometric-topology",
+            "geometric topology",
             "geometry",
             "group theory",
             "topology"
@@ -421,10 +421,11 @@
     {
         "topic": "The Winding Number",
         "tags": [
-            "algebraic-topology",
+            "algebra",
+            "algebraic topology",
             "analysis",
-            "differential-geometry",
-            "geometric-topology",
+            "differential geometry",
+            "geometric topology",
             "geometry",
             "topology"
         ],
@@ -488,7 +489,7 @@
         "topic": "Homotopy Type Theory",
         "tags": [
             "algebra",
-            "algebraic-topology",
+            "algebraic topology",
             "topology",
             "type theory",
             "computer science"
@@ -514,7 +515,7 @@
         "topic": "Rational Tangles and Conway's Theorem",
         "tags": [
             "knot-theory",
-            "geometric-topology",
+            "geometric topology",
             "topology"
         ],
         "references": [
@@ -754,7 +755,7 @@
     {
         "topic": "Penrose Tilings",
         "tags": [
-            "geometric-topology",
+            "geometric topology",
             "geometry",
             "topology"
         ],
@@ -766,7 +767,7 @@
     {
         "topic": "Low Dimensional Geometry",
         "tags": [
-            "geometric-topology",
+            "geometric topology",
             "geometry",
             "multivariate-calculus",
             "topology"
@@ -857,7 +858,7 @@
         "topic": "A Cohomological Viewpoint on Elementary School Arithmetic",
         "tags": [
             "algebra",
-            "algebraic-topology",
+            "algebraic topology",
             "group theory",
             "homology",
             "topology"
@@ -1099,10 +1100,11 @@
     {
         "topic": "The Jordan Curve Theorem",
         "tags": [
+            "algebra",
             "topology",
             "homology",
-            "algebraic-topology",
-            "geometric-topology"
+            "algebraic topology",
+            "geometric topology"
         ],
         "references" : [],
         "see-also": []
