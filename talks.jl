@@ -20,6 +20,7 @@ speaker(t) = t[:speaker]
 datetime(t) = t[:time]
 
 identifier(t) = t[:identifier]
+url(t) = "archive/$(identifier(t))"
 iscompleted(t) = Date(datetime(t)) < Dates.today()
 
 abstractpath(talk) = "abstract/$(identifier(talk))"
@@ -34,7 +35,7 @@ function valuate(talk)
          hassummary(talk)])
 end
 summarize(t) = string(
-    "Talk by $(t[:speaker]). ",
+    "This is a talk by $(t[:speaker]). ",
     if hassummary(t)
         "A summary for this talk is available."
     else
@@ -56,7 +57,7 @@ function brief(t)
              ]), " "))
     else
         Dict(:title => title(t),
-             :url => "archive/$(identifier(t))",
+             :url => url(t),
              :summary => summarize(t))
     end
 end

@@ -4,6 +4,7 @@ using Compat
 using JSON
 using EnglishText
 using DataStructures
+using Remarkable.Common
 using Remarkable.Tags
 
 include("talks.jl")
@@ -57,7 +58,8 @@ function write_summary(t)
         :pagetitle => title(t),
         :pagetype => "archive",
         :mathjaxplease => true,
-        :talk => t), "archive/$(identifier(t))"; modules=[Talks])
+        :talk => t), "archive/$(identifier(t))";
+        modules=[Talks])
 end
 
 # Parse the schedule
@@ -127,11 +129,12 @@ generate_page(Dict(
 generate_page(Dict(
     :pagetitle => "List of Tags",
     :pagetype => "tags",
-    :tags => alltags), "tags")
+    :alltags => alltags), "tags"; modules=[])
 
 # Generate tag pages
 for t in alltags
-    active_set = filter(x -> t in tags(x), result)
+    # TODO: eventually we want to get away from using strings
+    active_set = filter(x -> tagname(t) in tags(x), result)
     generate_page(Dict(
         :pagetitle => "Tag $t",
         :pagetype => "tag",
@@ -142,8 +145,8 @@ for t in alltags
         :documents => docs_bytag[t],
         :mathjaxplease => true,
         :github => "$GITHUB/wiki/tag/$t.md",
-        :suggestions => bytag[t]), "tag/$t";
-                  modules=[Tags, Talks, EnglishText])
+        :suggestions => bytag[t]), "tag/$(urinormalize(tagname(t)))";
+                  modules=[Talks, EnglishText])
 end
 
 generate_page(Dict(

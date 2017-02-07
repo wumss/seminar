@@ -1,3 +1,4 @@
-Ordinal construction, transfinite induction and recursion, ordinal arithmetic,
-cardinal construction and arithmetic, philosophy of infinity and the paradox of
-the "infinite number".
+In this talk we will talk about ordinals and the philosophy of infinity. We
+will define what ordinals are and how to construct them. We will also define
+transfinite recursion and use the axiom of choice to give meaning to the
+"cardinality" of a set.

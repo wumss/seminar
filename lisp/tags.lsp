@@ -1,5 +1,5 @@
 (#:markdown "../pages/tags.md")
 
 (ul
-  (#:each tag tags
+  (#:each tag alltags
    `((li ,(tag-link tag)))))

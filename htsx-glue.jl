@@ -1,10 +1,12 @@
+const EXTRA_MODULES = [Tags, Common]
 function generate_page(data, root, page="lisp/core.lsp"; modules=[])
     start = Dates.now()
     info(isempty(root) ? "Index Page" : root; prefix="GENERATING: ")
 
     try mkdir("public/$root") end
     open("public/$root/index.html", "w") do f
-        SExpressions.Htsx.tohtml(f, page, data; modules=modules)
+        SExpressions.Htsx.tohtml(f, page, data;
+                                 modules=vcat(EXTRA_MODULES, modules))
         println(f)
     end
 

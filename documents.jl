@@ -2,14 +2,14 @@ documents = JSON.parsefile("data/documents.json";
                            dicttype=Dict{Symbol,Any})
 sort!(documents, by=x -> x[:title])
 
-docs_bytag = DefaultDict{String, Vector{Any}}(() -> [])
+docs_bytag = DefaultDict{Tag, Vector{Any}}(() -> [])
 try mkdir("public/document") end
 for d in documents
     # update tag popularity
-    for t in d[:tags]
-        push!(docs_bytag[t], d)
-    end
     populate!(tagmatrix, d[:tags], 2)
+    for t in d[:tags]
+        push!(docs_bytag[tagobject(tagmatrix, t)], d)
+    end
 
     generate_page(Dict(
         :pagetitle => d[:title],

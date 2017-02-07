@@ -56,9 +56,15 @@
     (a ([href ,(string "/archive/" t)]) ,(title (ref talkdict t)))
     " by " ,(speaker (ref talkdict t))))
 
-(#:define (tag-link tag)
-  `(a ([class ,(string "tag-link tag-" tag)]
-       [href ,(string "/tag/" tag)]) ,tag))
+;; TODO: in the long term, we want to use tag objects instead of strings
+;; everywhere.
+(#:define (tag-link (:: tag-name String))
+ (let ([uri (urinormalize tag-name)])
+   `(a ([class ,(string "tag-link tag-" uri)]
+        [href ,(string "/tag/" uri)]) ,tag-name)))
+
+(#:define (tag-link (:: tag Tag))
+ (tag-link (tagname tag)))
 
 (#:define (link-to url text)
   `(a ([href ,(string "/" url)]) ,text))
