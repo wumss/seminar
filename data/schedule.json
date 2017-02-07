@@ -303,19 +303,19 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-10T17:30:00Z",
+        "time": "2017-02-10T18:30:00Z",
         "title": "Quantum Computing",
         "tags": [
             "computer science",
-            "quantum-algorithms",
-            "quantum-computing"
+            "quantum algorithm",
+            "quantum computing"
         ],
         "identifier": "mp-QC",
         "speaker": "Michael Pang"
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-10T18:30:00Z",
+        "time": "2017-02-10T17:30:00Z",
         "title": "Ordinals",
         "tags": [
             "first year friendly",
