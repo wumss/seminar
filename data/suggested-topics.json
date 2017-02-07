@@ -4,7 +4,7 @@
         "tags": [
             "combinatorics",
             "enumeration",
-            "number-theory"
+            "number theory"
         ],
         "references": [
             "[Andrews, Sellers](http://www.personal.psu.edu/jxs23/andrews_sellers_fishburn_jntwinnie_final.pdf)",
@@ -90,7 +90,7 @@
         "topic": "Markov Equation and Irrational Numbers",
         "tags": [
             "algebra",
-            "number-theory"
+            "number theory"
         ],
         "references": [
             "[Caroline Series](https://perso.univ-rennes1.fr/serge.cantat/Documents/series-geometry-markoff.pdf)",
@@ -111,7 +111,7 @@
     {
         "topic": "Continued Fractions and Hyperbolic Geometry",
         "tags": [
-            "number-theory",
+            "number theory",
             "algebra",
             "geometry"
         ],
@@ -241,7 +241,7 @@
     {
         "topic": "Dirichlet's Theorem on Primes in Arithmetic progression",
         "tags": [
-            "number-theory",
+            "number theory",
             "analytic-number-theory",
             "analysis",
             "complex-analysis"
@@ -257,7 +257,7 @@
             "algebra",
             "geometric-topology",
             "geometry",
-            "groups",
+            "group theory",
             "topology"
         ],
         "references": [
@@ -297,7 +297,7 @@
         "topic": "Waring's Problem and writing numbers as sums of powers",
         "tags": [
             "additive-number-theory",
-            "number-theory"
+            "number theory"
         ],
         "references": [
             "[Nathanson](https://www.amazon.ca/Additive-Number-Theory-Classical-Bases/dp/038794656X#reader_038794656X)"
@@ -307,7 +307,7 @@
     {
         "topic": "Bernoulli Numbers and their Applications in Modern Number Theory",
         "tags": [
-            "number-theory",
+            "number theory",
             "analytic-number-theory",
             "analysis"
         ],
@@ -352,7 +352,7 @@
         "topic": "Down with Determinants",
         "tags": [
             "algebra",
-            "linear-algebra"
+            "linear algebra"
         ],
         "references": [
             "[Sheldon Axler](http://www.axler.net/DwD.html)"
@@ -374,7 +374,7 @@
     {
         "topic": "Primes of the Form $x^2 + ny^2$",
         "tags": [
-            "number-theory",
+            "number theory",
             "prime-numbers"
         ],
         "references": [
@@ -589,7 +589,7 @@
         "tags": [
             "algebra",
             "clifford-algebras",
-            "linear-algebra"
+            "linear algebra"
         ],
         "references": [
             "[John Baez, 2001. Clifford Algebras.](http://math.ucr.edu/home/baez/octonions/node6.html)"
@@ -630,7 +630,7 @@
     {
         "topic": "Distribution of Primes Modulo p",
         "tags": [
-            "number-theory",
+            "number theory",
             "open-problems",
             "prime-numbers"
         ],
@@ -680,7 +680,7 @@
             "algorithms",
             "computer science",
             "cryptography",
-            "number-theory",
+            "number theory",
             "quantum-algorithms",
             "hot"
         ],
@@ -693,7 +693,7 @@
         "topic": "Patterns in Primes",
         "tags": [
             "first year friendly",
-            "number-theory",
+            "number theory",
             "prime-numbers",
             "hot"
         ],
@@ -706,7 +706,7 @@
     {
         "topic": "Reciprocity Laws",
         "tags": [
-            "number-theory",
+            "number theory",
             "reciprocity"
         ],
         "references": [
@@ -718,7 +718,7 @@
         "tags": [
             "computational-complexity",
             "computer science",
-            "number-theory",
+            "number theory",
             "prime-numbers"
         ],
         "references": [
@@ -741,7 +741,7 @@
         "tags": [
             "algebra",
             "geometry",
-            "groups"
+            "group theory"
         ],
         "references": [
             "[J. H. CONWAY and N. J. A. SLOANE, Sphere Packings, Lattices and Groups, Springer, New York, 1993.](https://books.google.ca/books/about/Sphere_Packings_Lattices_and_Groups.html?id=hoTjBwAAQBAJ&redir_esc=y)"
@@ -855,7 +855,7 @@
         "tags": [
             "algebra",
             "algebraic-topology",
-            "groups",
+            "group theory",
             "homology",
             "topology"
         ],
@@ -882,7 +882,7 @@
         "tags": [
             "algebra",
             "geometry",
-            "number-theory",
+            "number theory",
             "coding-theory"
         ],
         "references": [
@@ -894,7 +894,7 @@
         "topic": "Symmetric Groups, Young Tableaux and Representation Theory",
         "tags": [
             "algebra",
-            "groups",
+            "group theory",
             "representation-theory"
         ],
         "references": [
@@ -951,7 +951,7 @@
     {
         "topic": "Dirichlet L-functions and the Generalized Riemann Hypothesis",
         "tags": [
-            "number-theory",
+            "number theory",
             "open-problems",
             "prime-numbers"
         ],
@@ -961,7 +961,7 @@
     {
         "topic": "The Riemann Hypothesis",
         "tags": [
-            "number-theory",
+            "number theory",
             "open-problems",
             "prime-numbers",
             "hot"
@@ -976,7 +976,7 @@
         "tags": [
             "analysis",
             "p-adic-numbers",
-            "number-theory"
+            "number theory"
         ],
         "references": [
             "[Felix Hensel, Waltraud Lederle, Simone Montemezzani](https://www2.math.ethz.ch/education/bachelor/seminars/hs2011/p-adic/report1.pdf)",
@@ -1030,7 +1030,7 @@
             "algebra",
             "computational-mathematics",
             "computer science",
-            "linear-algebra"
+            "linear algebra"
         ],
         "references": [
             "[Derek O'Connor, An Introduction to Sparse Matrices](http://www.maths.tcd.ie/pub/ims/nl15/nl15_6-30.pdf)",
@@ -1047,8 +1047,8 @@
             "algorithms",
             "computational-mathematics",
             "computer science",
-            "groups",
-            "linear-algebra",
+            "group theory",
+            "linear algebra",
             "open-problems"
         ],
         "references": [
@@ -1068,7 +1068,7 @@
             "algebraic-numbers",
             "field-theory",
             "first year friendly",
-            "number-theory",
+            "number theory",
             "hot"
         ],
         "references": ["[Panju](http://mathreview.uwaterloo.ca/archive/voli/2/panju.pdf)"],
@@ -1078,8 +1078,8 @@
         "topic": "Schoof's Algorithm",
         "tags": [
             "algebra",
-            "number-theory",
-            "groups"
+            "number theory",
+            "group theory"
         ],
         "references": ["[Schoof](http://www.math.umn.edu/~musiker/schoof.pdf)"],
         "see-also": []

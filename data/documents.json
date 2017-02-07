@@ -11,7 +11,7 @@
         ],
         "tags": [
             "algebra",
-            "linear-algebra"
+            "linear algebra"
         ],
         "type": "reference"
     },
@@ -25,7 +25,7 @@
             "PMATH 740"
         ],
         "tags": [
-            "number-theory",
+            "number theory",
             "prime-numbers",
             "reciprocity"
         ],
@@ -42,9 +42,9 @@
         ],
         "tags": [
             "algebra",
-            "groups",
+            "group theory",
             "lie-groups",
-            "linear-algebra"
+            "linear algebra"
         ],
         "type": "reference"
     },
@@ -76,7 +76,7 @@
         ],
         "tags": [
             "algebra",
-            "groups"
+            "group theory"
         ],
         "type": "reference"
     }

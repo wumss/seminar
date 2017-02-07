@@ -7,8 +7,7 @@
         "identifier": "fw-Algebra",
         "tags": [
             "algebra",
-            "first year friendly",
-            "groups"
+            "group theory"
         ]
     },
     {
@@ -66,7 +65,6 @@
         "identifier": "lm-CategoryTheory",
         "tags": [
             "category-theory",
-            "first year friendly",
             "computer science"
         ]
     },
@@ -78,7 +76,6 @@
         "identifier": "ak-ReinforcementLearning",
         "tags": [
             "computer science",
-            "first year friendly",
             "machine-learning",
             "optimization"
         ]
@@ -90,7 +87,6 @@
         "location": "MC 4020",
         "identifier": "rw-Convex",
         "tags": [
-            "first year friendly",
             "gradient-descent",
             "machine-learning",
             "optimization"
@@ -156,7 +152,7 @@
             "algebras",
             "complex-numbers",
             "dual-numbers",
-            "linear-algebra",
+            "linear algebra",
             "split-complex-numbers",
             "numbers"
         ]
@@ -171,8 +167,8 @@
             "algebra",
             "analysis",
             "elliptic-curves",
-            "groups",
-            "number-theory"
+            "group theory",
+            "number theory"
         ]
     },
     {
@@ -183,9 +179,9 @@
         "identifier": "ap-Lie",
         "tags": [
             "algebra",
-            "groups",
+            "group theory",
             "lie-groups",
-            "linear-algebra"
+            "linear algebra"
         ]
     },
     {
@@ -197,8 +193,8 @@
         "tags": [
             "algebra",
             "geometric-topology",
-            "groups",
-            "linear-algebra",
+            "group theory",
+            "linear algebra",
             "knot-theory",
             "module-theory"
         ]
@@ -226,7 +222,7 @@
             "algebra",
             "cryptography",
             "encryption",
-            "groups" 
+            "group theory" 
         ]
     },
     {
@@ -250,8 +246,7 @@
         "tags": [
             "algebraic-numbers",
             "diophantine-approximation",
-            "first year friendly",
-            "number-theory",
+            "number theory",
             "polynomials",
             "transcendental-numbers"
         ],
@@ -275,7 +270,7 @@
         "title": "Tensor Products",
         "tags": [
             "algebra",
-            "linear-algebra",
+            "linear algebra",
             "tensors"
         ],
         "identifier": "fb-Tensor",
@@ -300,7 +295,7 @@
         "title": "$p$-adic Numbers",
         "tags": [
             "analysis",
-            "number-theory",
+            "number theory",
             "p-adic-numbers"
         ],
         "identifier": "at-padic",
@@ -449,8 +444,8 @@
         "title": "Representation Theory for Particle Physics",
         "tags": [
             "algebra",
-            "linear-algebra",
-            "groups",
+            "linear algebra",
+            "group theory",
             "particle-physics",
             "physics",
             "representation-theory"
@@ -465,7 +460,7 @@
         "tags": [
             "algebra",
             "cryptography",
-            "groups"
+            "group theory"
         ],
         "identifier": "lb-Enigma",
         "speaker": "Laindon Burnett"
