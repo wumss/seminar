@@ -22,6 +22,10 @@ footer {
     text-align: center;
 }
 
+li > a.tag-link {
+    border: none;
+}
+
 a.tag-link {
     border: 1px solid black;
     border-radius: .5ex;
