@@ -220,7 +220,7 @@
             "clifford algebra",
             "theoretical computer science",
             "applied mathematics",
-            "computer-vision"
+            "computer vision"
         ],
         "references": [
             "[Gerald Sommer](https://books.google.ca/books?id=umyrCAAAQBAJ&dq=Clifford+Neuron&source=gbs_navlinks_s)"
@@ -462,6 +462,7 @@
     {
         "topic": "Complexity of the Multivariate Resultant",
         "tags": [
+            "algebra",
             "algebraic geometry",
             "computer science",
             "computational complexity",
@@ -476,7 +477,7 @@
         "topic": "Kolmogorov complexity",
         "tags": [
             "computer science",
-            "kolmogorov-complexity",
+            "Kolmogorov complexity",
             "information-theory",
             "theoretical computer science"
         ],
@@ -873,7 +874,6 @@
         "tags": [
             "algebra",
             "algebraic geometry",
-            "computer-algebra",
             "computer science"
         ],
         "references": [

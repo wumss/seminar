@@ -129,7 +129,7 @@ generate_page(Dict(
 generate_page(Dict(
     :pagetitle => "List of Tags",
     :pagetype => "tags",
-    :alltags => alltags), "tags"; modules=[])
+    :tagmatrix => tagmatrix), "tags"; modules=[])
 
 # Generate tag pages
 for t in alltags

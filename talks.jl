@@ -31,7 +31,6 @@ hassummary(talk) = isfile(summarypath(talk))
 
 function valuate(talk)
     sum([1,
-         hasabstract(talk),
          hassummary(talk)])
 end
 summarize(t) = string(

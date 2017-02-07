@@ -181,7 +181,7 @@
         "tags": [
             "algebra",
             "group theory",
-            "lie group",
+            "Lie group",
             "linear algebra"
         ]
     },
@@ -245,10 +245,9 @@
         "title": "Diophantine Approximation and the Discovery of Transcendental Numbers",
         "tags": [
             "algebraic number",
-            "diophantine-approximation",
+            "diophantine approximation",
             "number theory",
-            "polynomials",
-            "transcendental-numbers"
+            "polynomials"
         ],
         "identifier": "am-RT",
         "speaker": "Anton Mosunov"
@@ -307,8 +306,7 @@
         "title": "Quantum Computing",
         "tags": [
             "computer science",
-            "quantum algorithm",
-            "quantum computing"
+            "quantum algorithm"
         ],
         "identifier": "mp-QC",
         "speaker": "Michael Pang"
