@@ -332,7 +332,7 @@
         "tags": [
             "computer science",
             "cryptography",
-            "distributed-systems",
+            "distributed system",
             "first year friendly"
         ],
         "identifier": "bz-Bitcoin",
@@ -399,9 +399,9 @@
         "tags": [
             "algorithms",
             "computer science",
-            "data structures",
+            "data structure",
             "first year friendly",
-            "space-efficiency",
+            "space efficiency",
             "probability"
         ],
         "identifier": "lm-BF",

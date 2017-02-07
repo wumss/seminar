@@ -168,9 +168,9 @@
         "topic": "Bloom Filters and Probabilistic Data Structures",
         "tags": [
             "computer science",
-            "data structures",
+            "data structure",
             "probability",
-            "space-efficiency",
+            "space efficiency",
             "algorithms"
         ],
         "references": [
@@ -216,7 +216,7 @@
         "tags": [
             "computer science",
             "clifford-algebras",
-            "theoretical-computer science",
+            "theoretical computer science",
             "applied-mathematics",
             "computer-vision"
         ],
@@ -398,7 +398,7 @@
         "tags": [
             "computer science",
             "automata",
-            "theoretical-computer science"
+            "theoretical computer science"
         ],
         "references": [
         ],
@@ -409,7 +409,7 @@
         "tags": [
             "computer science",
             "automata",
-            "theoretical-computer science"
+            "theoretical computer science"
         ],
         "references": [
         ],
@@ -458,10 +458,10 @@
     {
         "topic": "Complexity of the Multivariate Resultant",
         "tags": [
-            "algebraic-geometry",
+            "algebraic geometry",
             "computer science",
-            "computational-complexity",
-            "theoretical-computer science"
+            "computational complexity",
+            "theoretical computer science"
         ],
         "references": [
             "[Bruno Grenet, Pascal Koiran, Natacha Portier](https://arxiv.org/pdf/1210.1451.pdf)"
@@ -474,7 +474,7 @@
             "computer science",
             "kolmogorov-complexity",
             "information-theory",
-            "theoretical-computer science"
+            "theoretical computer science"
         ],
         "references": [
             "[Paul Vitanyi](http://homepages.cwi.nl/~paulv/course-kc/KC-Lecture1.pdf)"
@@ -615,12 +615,12 @@
     {
         "topic": "Presburger Arithmetic",
         "tags": [
-            "computational-complexity",
+            "computational complexity",
             "computability",
             "computer science",
             "first-order-logic",
             "logic",
-            "theoretical-computer science"
+            "theoretical computer science"
         ],
         "references": [
             "[Michael J. Fischer and Michael O. Rabin, Super-Exponentional Complexity of Presburger Arithmetic.](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.16.9759)"
@@ -716,7 +716,7 @@
     {
         "topic": "Sieve Methods",
         "tags": [
-            "computational-complexity",
+            "computational complexity",
             "computer science",
             "number theory",
             "prime-numbers"
@@ -815,7 +815,7 @@
             "computability",
             "incompleteness",
             "logic",
-            "theoretical-computer science",
+            "theoretical computer science",
             "turing-machines"
         ],
         "references": [
@@ -827,11 +827,11 @@
         "topic": "P vs. NP",
         "tags": [
             "computability",
-            "computational-complexity",
+            "computational complexity",
             "computer science",
             "open-problems",
             "hot",
-            "theoretical-computer science"
+            "theoretical computer science"
         ],
         "references": [
             "Arora, Bazak: Computational Complexity"
@@ -868,7 +868,7 @@
         "topic": "Computational Algebraic Geometry",
         "tags": [
             "algebra",
-            "algebraic-geometry",
+            "algebraic geometry",
             "computer-algebra",
             "computer science"
         ],
@@ -920,7 +920,7 @@
         "tags": [
             "algorithms",
             "applied-mathematics",
-            "computational-mathematics",
+            "computational mathematics",
             "computer science",
             "differential-equations",
             "probability",
@@ -937,7 +937,7 @@
         "tags": [
             "computer science",
             "cryptography",
-            "distributed-systems",
+            "distributed system",
             "first year friendly",
             "hot"
         ],
@@ -991,7 +991,7 @@
         "tags": [
             "computability",
             "computer science",
-            "theoretical-computer science",
+            "theoretical computer science",
             "turing-machines"
         ],
         "references": [
@@ -1028,7 +1028,7 @@
         "topic": "Sparse Matrices",
         "tags": [
             "algebra",
-            "computational-mathematics",
+            "computational mathematics",
             "computer science",
             "linear algebra"
         ],
@@ -1045,7 +1045,7 @@
         "tags": [
             "algebra",
             "algorithms",
-            "computational-mathematics",
+            "computational mathematics",
             "computer science",
             "group theory",
             "linear algebra",
@@ -1122,7 +1122,7 @@
             "computer science", 
             "algebra", 
             "geometry", 
-            "algebraic-geometry"
+            "algebraic geometry"
         ],
         "references" : [
             "[Diane Maclagan, Bernd Sturmfels](https://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalBook20.4.14.pdf)", 
@@ -1177,7 +1177,7 @@
         "tags": [
             "computer science",
             "data-science",
-            "distributed-systems",
+            "distributed system",
             "first year friendly",
             "parallel computing",
             "Tech Talks"
@@ -1207,7 +1207,7 @@
         "topic": "IEEE 754-2008: Floating Point Arithmetic",
         "tags": [
             "computer science",
-            "computational-mathematics",
+            "computational mathematics",
             "first year friendly",
             "floating point numbers",
             "Tech Talks"
