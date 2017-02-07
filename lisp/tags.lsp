@@ -21,3 +21,6 @@
 (ul
   (#:each tag minortags
    `((li ,(tag-link tag)))))
+
+(script ([src "/scripts/collapse.js"]))
+(script "CollapsibleLists.applyTo(document.querySelector('ul'), true);")
