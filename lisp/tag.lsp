@@ -8,7 +8,7 @@
 (h1 (#:var (ucfirst (tagname tag))))
 
 (#:when (isfile (string "wiki/tag/" uri ".md"))
- (#:markdown (string "../wiki/tag/" uri ".md")))
+ (include (string "../wiki/tag/" uri ".md") #:markdown))
 
 (p "There have been "
    (#:var

@@ -11,11 +11,11 @@
 
 (#:when (hasabstract talk)
   (h2 "Abstract")
-  (#:markdown (string "../" (abstractpath talk))))
+  (include (string "../" (abstractpath talk)) #:markdown))
 
 (#:when (hassummary talk)
   (h2 "Summary")
-  (#:markdown (string "../" (summarypath talk))))
+  (include (string "../" (summarypath talk)) #:markdown))
 
 (h2 "Tags")
 

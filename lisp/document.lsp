@@ -3,7 +3,7 @@
 
 (p (#:var (ref (brief document) 'summary)))
 
-(#:markdown (string "../document/" (ref document 'id)))
+(include (string "../document/" (ref document 'id)) #:markdown)
 
 (h2 "Tags")
 

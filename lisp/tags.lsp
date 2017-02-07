@@ -1,4 +1,4 @@
-(#:markdown "../pages/tags.md")
+(include "../pages/tags.md" #:markdown)
 
 (#:execute
  (= alltags (collect (tags tagmatrix)))
