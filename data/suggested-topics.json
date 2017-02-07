@@ -41,7 +41,7 @@
        "topic": "Fuzzy Logic",
        "tags": [
             "logic",
-            "set-theory"
+            "set theory"
        ],
        "references": [
             "[R. Rojas](https://page.mi.fu-berlin.de/rojas/neural/chapter/K11.pdf)",
@@ -126,7 +126,7 @@
         "topic": "Quivers and Platonic Solids",
         "tags": [
             "geometry",
-            "graph-theory"
+            "graph theory"
         ],
         "references": [
             "[Gwyn Bellamy](https://www.lms.ac.uk/sites/lms.ac.uk/files/gwyn_bellamy_plato.pdf)"
@@ -139,9 +139,9 @@
             "algorithms",
             "computer science",
             "economics",
-            "game-theory",
+            "game theory",
             "optimization",
-            "recreational-mathematics",
+            "recreational mathematics",
             "social-choice"
         ],
         "references": [
@@ -152,10 +152,10 @@
     {
         "topic": "Representation Theory and Voting Theory",
         "tags": [
-            "representation-theory",
+            "representation theory",
             "algebra",
             "economics",
-            "voting-theory",
+            "voting theory",
             "social-choice"
         ],
         "references": [
@@ -217,7 +217,7 @@
             "computer science",
             "clifford-algebras",
             "theoretical computer science",
-            "applied-mathematics",
+            "applied mathematics",
             "computer-vision"
         ],
         "references": [
@@ -269,7 +269,7 @@
         "topic": "The Cantor Set and Dynamical systems",
         "tags": [
             "analysis",
-            "applied-mathematics",
+            "applied mathematics",
             "dynamical-systems"
         ],
         "references": [
@@ -283,7 +283,7 @@
         "topic": "The Mathematics of Gerrymandering",
         "tags": [
             "economics",
-            "voting-theory",
+            "voting theory",
             "social-choice",
             "geometry",
             "hot"
@@ -320,7 +320,7 @@
     {
         "topic": "The Brachistochrone and the Calculus of Variations",
         "tags": [
-            "applied-mathematics",
+            "applied mathematics",
             "calculus-of-variations",
             "physics"
         ],
@@ -375,7 +375,7 @@
         "topic": "Primes of the Form $x^2 + ny^2$",
         "tags": [
             "number theory",
-            "prime-numbers"
+            "prime number"
         ],
         "references": [
             "[Matthew Bates](http://people.math.umass.edu/~bates/Primes.pdf)"
@@ -523,7 +523,7 @@
     {
         "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC",
         "tags": [
-            "set-theory",
+            "set theory",
             "challenge",
             "hot"
         ],
@@ -565,7 +565,7 @@
         "tags": [
             "combinatorial-game-theory",
             "combinatorics",
-            "game-theory",
+            "game theory",
             "first year friendly",
             "hot"
         ],
@@ -631,8 +631,8 @@
         "topic": "Distribution of Primes Modulo p",
         "tags": [
             "number theory",
-            "open-problems",
-            "prime-numbers"
+            "open problem",
+            "prime number"
         ],
         "references": [
             "[Gaze, E. & Gaze, J. Math Intelligencer (2016) 38: 14. doi:10.1007/s00283-015-9585-2](https://link.springer.com/article/10.1007/s00283-015-9585-2)"
@@ -643,8 +643,8 @@
         "topic": "The Strong Law of Small Numbers",
         "tags": [
             "first year friendly",
-            "numbers",
-            "recreational-mathematics"
+            "number theory",
+            "recreational mathematics"
         ],
         "references": [
             "[Richard K. Guy](http://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Guy697-712.pdf)"
@@ -655,7 +655,7 @@
         "topic": "Plausible Conjectures",
         "tags": [
             "first year friendly",
-            "open-problems"
+            "open problem"
         ],
         "references": [
             "[Barry Mazur](http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf)"
@@ -694,7 +694,7 @@
         "tags": [
             "first year friendly",
             "number theory",
-            "prime-numbers",
+            "prime number",
             "hot"
         ],
         "references": [
@@ -719,7 +719,7 @@
             "computational complexity",
             "computer science",
             "number theory",
-            "prime-numbers"
+            "prime number"
         ],
         "references": [
             "[Dimitris Koukoulopoulos](http://www.dms.umontreal.ca/~koukoulo/documents/notes/sievemethods.pdf)"
@@ -801,7 +801,7 @@
         "tags": [
             "analysis",
             "integration",
-            "graph-theory"
+            "graph theory"
         ],
         "references": [
             "[P. Mark Kayll](https://www.maa.org/sites/default/files/pdf/upload_library/22/Allendoerfer/Kayll-2012.pdf)"
@@ -829,7 +829,7 @@
             "computability",
             "computational complexity",
             "computer science",
-            "open-problems",
+            "open problem",
             "hot",
             "theoretical computer science"
         ],
@@ -895,7 +895,7 @@
         "tags": [
             "algebra",
             "group theory",
-            "representation-theory"
+            "representation theory"
         ],
         "references": [
             "Bruce Sagan : The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions",
@@ -919,7 +919,7 @@
         "topic": "Gillespie Algorithm",
         "tags": [
             "algorithms",
-            "applied-mathematics",
+            "applied mathematics",
             "computational mathematics",
             "computer science",
             "differential-equations",
@@ -952,8 +952,8 @@
         "topic": "Dirichlet L-functions and the Generalized Riemann Hypothesis",
         "tags": [
             "number theory",
-            "open-problems",
-            "prime-numbers"
+            "open problem",
+            "prime number"
         ],
         "references": [],
         "see-also": []
@@ -962,8 +962,8 @@
         "topic": "The Riemann Hypothesis",
         "tags": [
             "number theory",
-            "open-problems",
-            "prime-numbers",
+            "open problem",
+            "prime number",
             "hot"
         ],
         "references": [
@@ -1017,7 +1017,7 @@
             "automata",
             "cellular-automata",
             "first year friendly",
-            "recreational-mathematics"
+            "recreational mathematics"
         ],
         "references": [
             "[Melissa Gymrek](http://web.mit.edu/sp.268/www/2010/lifeSlides.pdf)"
@@ -1049,7 +1049,7 @@
             "computer science",
             "group theory",
             "linear algebra",
-            "open-problems"
+            "open problem"
         ],
         "references": [
             "[Don Coppersmith and Shmuel Winograd](http://www.cs.umd.edu/~gasarch/TOPICS/ramsey/matrixmult.pdf)",
@@ -1134,7 +1134,7 @@
     {
         "topic": "The Stochastic Lotka-Volterra Equation",
         "tags": [
-            "applied-mathematics",
+            "applied mathematics",
             "ecology",
             "differential-equations",
             "stochastic-equations"
@@ -1147,11 +1147,11 @@
     {
         "topic": "Molecular Set Theory",
         "tags": [
-            "applied-mathematics",
+            "applied mathematics",
             "biology",
             "category-theory",
             "chemistry",
-            "set-theory"
+            "set theory"
         ],
         "references": [
             "[Bartholomay](http://link.springer.com/article/10.1007/BF02478351)"

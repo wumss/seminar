@@ -17,8 +17,11 @@
         "location": "MC 4020",
         "identifier": "fb-Ultrafilters",
         "tags": [
-            "hyperreal-numbers",
-            "set-theory"
+            "analysis",
+            "set theory",
+            "order theory",
+            "non-standard analysis",
+            "hyperreal numbers"
         ]
     },
     {
@@ -28,7 +31,7 @@
         "location": "MC 4020",
         "identifier": "zf-Graphs",
         "tags": [
-            "graph-theory",
+            "graph theory",
             "infiniteness",
             "universal-graphs"
         ]
@@ -113,7 +116,7 @@
         "tags": [
             "economics",
             "first year friendly",
-            "game-theory"
+            "game theory"
         ]
     },
     {
@@ -124,7 +127,7 @@
         "identifier": "kr-Graphs",
         "tags": [
             "analysis",
-            "graph-theory",
+            "graph theory",
             "homology",
             "topology"
         ]
@@ -136,7 +139,7 @@
         "location": "MC 4020",
         "identifier": "fr-RandomGraphs",
         "tags": [
-            "graph-theory",
+            "graph theory",
             "networks",
             "probability"
         ]
@@ -149,12 +152,10 @@
         "identifier": "fw-Hypercomplex",
         "tags": [
             "algebra",
-            "algebras",
-            "complex-numbers",
-            "dual-numbers",
+            "complex number",
+            "dual number",
             "linear algebra",
-            "split-complex-numbers",
-            "numbers"
+            "split-complex number"
         ]
     },
     {
@@ -180,7 +181,7 @@
         "tags": [
             "algebra",
             "group theory",
-            "lie-groups",
+            "lie group",
             "linear algebra"
         ]
     },
@@ -233,8 +234,7 @@
             "combinatorial-game-theory",
             "economics",
             "extensive-form-games",
-            "first year friendly",
-            "game-theory"
+            "game theory"
         ],
         "identifier": "kt-EFG",
         "speaker": "Koosha Totonchi"
@@ -320,7 +320,7 @@
         "tags": [
             "first year friendly",
             "ordinals",
-            "set-theory"
+            "set theory"
         ],
         "identifier": "eo-Ordinals",
         "speaker": "Eddie Onochie"
@@ -376,7 +376,9 @@
         "time": "2017-03-03T18:30:00Z",
         "title": "Invariant Theory",
         "tags": [
-            "invariants"
+            "algebra",
+            "group theory",
+            "invariant theory"
         ],
         "identifier": "bcy-Invariant",
         "speaker": "Brennen Creighton-Young"
@@ -387,7 +389,7 @@
         "title": "Zero Knowledge Proofs",
         "tags": [
             "cryptography",
-            "zero-knowledge-proofs"
+            "zero-knowledge proof"
         ],
         "identifier": "ss-ZKP",
         "speaker": "Sidhant Saraogi"
@@ -431,7 +433,7 @@
         "time": "2017-03-24T17:30:00Z",
         "title": "Brachistochrone",
         "tags": [
-            "applied-mathematics",
+            "applied mathematics",
             "calculus-of-variations",
             "physics"
         ],
@@ -448,7 +450,7 @@
             "group theory",
             "particle-physics",
             "physics",
-            "representation-theory"
+            "representation theory"
         ],
         "identifier": "me-RTPP",
         "speaker": "Mohamed El Mandouh"
@@ -471,7 +473,7 @@
         "title": "Cantor Set and Dynamical Systems",
         "tags": [
             "analysis",
-            "applied-mathematics",
+            "applied mathematics",
             "dynamical-systems"
         ],
         "identifier": "jb-Cantor",
