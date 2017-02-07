@@ -62,10 +62,7 @@ function brief(t)
 end
 
 export abstractpath, hasabstract, summarypath, hassummary, identifier,
-       iscompleted, valuate, summarize, brief, topic, location, speaker, date,
+       iscompleted, valuate, summarize, brief, location, speaker,
        datetime, tags, fromjson, title
-
-Base.@deprecate date(t) Date(datetime(t))
-Base.@deprecate topic(t) title(t)
 
 end
