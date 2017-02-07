@@ -363,7 +363,7 @@
         "tags": [
             "computer science",
             "logic",
-            "model-checking",
+            "model checking",
             "hot"
         ],
         "references": [
@@ -551,7 +551,7 @@
         "tags": [
             "probability",
             "statistics",
-            "decision-theory",
+            "decision theory",
             "hot"
         ],
         "references": [
@@ -1179,7 +1179,7 @@
             "data-science",
             "distributed-systems",
             "first year friendly",
-            "parallel-computing",
+            "parallel computing",
             "Tech Talks"
         ],
         "references": [
@@ -1209,7 +1209,7 @@
             "computer science",
             "computational-mathematics",
             "first year friendly",
-            "floating-points",
+            "floating point numbers",
             "Tech Talks"
         ],
         "references": [

@@ -46,6 +46,6 @@
     float: right;
 }
 
-.talk-abstract {
+div.talk-abstract p {
     font-size: 16px;
 }

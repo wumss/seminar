@@ -23,7 +23,7 @@
                   [font-family "Ubuntu"]
                   [x 50])
                  "by " ,(speaker t))
-              (p ([class "talk-abstract"])
+              (div ([class "talk-abstract"])
                  ,((. StdLib rendermd)
                    (join (take (sentences
                                  (if (hasabstract t)
