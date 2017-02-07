@@ -79,7 +79,7 @@
         "identifier": "ak-ReinforcementLearning",
         "tags": [
             "computer science",
-            "machine-learning",
+            "machine learning",
             "optimization"
         ]
     },
@@ -91,7 +91,7 @@
         "identifier": "rw-Convex",
         "tags": [
             "gradient-descent",
-            "machine-learning",
+            "machine learning",
             "optimization"
         ]
     },
@@ -104,7 +104,7 @@
         "tags": [
             "analysis",
             "integration",
-            "measure-theory"
+            "measure theory"
         ]
     },
     {
@@ -208,8 +208,8 @@
         "identifier": "ma-Harmonic",
         "tags": [
             "analysis",
-            "fourier-analysis",
-            "harmonic-analysis",
+            "fourier analysis",
+            "harmonic analysis",
             "physics"
         ]
     },
@@ -244,7 +244,7 @@
         "time": "2017-01-20T18:30:00Z",
         "title": "Diophantine Approximation and the Discovery of Transcendental Numbers",
         "tags": [
-            "algebraic-numbers",
+            "algebraic number",
             "diophantine-approximation",
             "number theory",
             "polynomials",
@@ -474,7 +474,7 @@
         "tags": [
             "analysis",
             "applied mathematics",
-            "dynamical-systems"
+            "dynamical system"
         ],
         "identifier": "jb-Cantor",
         "speaker": "James Bai"

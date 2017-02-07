@@ -15,7 +15,8 @@
     {
         "topic": "Galois Field Arithmetic",
         "tags": [
-            "field-theory",
+            "algebra",
+            "field theory",
             "cryptography"
         ],
         "references": [
@@ -214,8 +215,9 @@
     { 
         "topic": "Geometric Computing with Clifford Algebra",
         "tags": [
+            "algebra",
             "computer science",
-            "clifford-algebras",
+            "clifford algebra",
             "theoretical computer science",
             "applied mathematics",
             "computer-vision"
@@ -229,9 +231,9 @@
     { 
         "topic": "Clifford Neurons",
         "tags": [
-            "clifford-algebras",
+            "clifford algebra",
             "algebra",
-            "machine-learning"
+            "machine learning"
         ],
         "references": [
             "[Bucholtz, Tachibana, Hitzner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.5449&rep=rep1&type=pdf)"
@@ -242,9 +244,9 @@
         "topic": "Dirichlet's Theorem on Primes in Arithmetic progression",
         "tags": [
             "number theory",
-            "analytic-number-theory",
+            "analytic number theory",
             "analysis",
-            "complex-analysis"
+            "complex analysis"
         ],
         "references": [
             "[Pete Clark](https://web.math.pmf.unizg.hr/nastava/studnatj/Dirichlet_theorem.pdf)",
@@ -270,7 +272,7 @@
         "tags": [
             "analysis",
             "applied mathematics",
-            "dynamical-systems"
+            "dynamical system"
         ],
         "references": [
             "[Kraft](https://www.jstor.org/stable/pdf/2589144.pdf)", "[Math Stackexchange](https://math.stackexchange.com/questions/265925/where-do-cantor-sets-naturally-occur)"
@@ -308,8 +310,9 @@
         "topic": "Bernoulli Numbers and their Applications in Modern Number Theory",
         "tags": [
             "number theory",
-            "analytic-number-theory",
-            "analysis"
+            "analytic number theory",
+            "analysis",
+            "complex analysis"
         ],
         "references": [
             "[Ireland](https://archive.org/details/springer_10.1007-978-1-4757-2103-4)"            
@@ -588,7 +591,7 @@
         "topic": "Clifford Algebras",
         "tags": [
             "algebra",
-            "clifford-algebras",
+            "clifford algebra",
             "linear algebra"
         ],
         "references": [
@@ -599,18 +602,17 @@
         ]
     },
     {
-        "topic": "Protein Folding",
+        "topic": "Protein Structure Prediction",
         "tags": [
             "biology",
+            "chemistry",
             "computer science",
-            "markov-model",
             "optimization",
             "hot"
         ],
         "references": [
             "[Folding@Home Papers Collection](http://folding.stanford.edu/home/papers)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Presburger Arithmetic",
@@ -665,7 +667,8 @@
     {
         "topic": "What is Area?",
         "tags": [
-            "measure-theory",
+            "analysis",
+            "measure theory",
             "first year friendly",
             "geometry"
         ],
@@ -1003,7 +1006,7 @@
         "topic": "Conformal Mapping and Inversion Theory",
         "tags": [
             "analysis",
-            "complex-analysis"
+            "complex analysis"
         ],
         "references": [
             "[Peter J. Olver](http://www.math.umn.edu/~olver/ln_/cml.pdf)",
@@ -1065,8 +1068,8 @@
         "topic": "Almost Integers",
         "tags": [
             "algebra",
-            "algebraic-numbers",
-            "field-theory",
+            "algebraic number",
+            "field theory",
             "first year friendly",
             "number theory",
             "hot"
