@@ -7,7 +7,7 @@
         "identifier": "fw-Algebra",
         "tags": [
             "algebra",
-            "first-year-friendly",
+            "first year friendly",
             "groups"
         ]
     },
@@ -53,9 +53,9 @@
         "location": "MC 5479",
         "identifier": "nk-Types",
         "tags": [
-            "computer-science",
+            "computer science",
             "object-oriented-programming",
-            "type-theory"
+            "type theory"
         ]
     },
     {
@@ -66,8 +66,8 @@
         "identifier": "lm-CategoryTheory",
         "tags": [
             "category-theory",
-            "first-year-friendly",
-            "computer-science"
+            "first year friendly",
+            "computer science"
         ]
     },
     {
@@ -77,8 +77,8 @@
         "location": "MC 4020",
         "identifier": "ak-ReinforcementLearning",
         "tags": [
-            "computer-science",
-            "first-year-friendly",
+            "computer science",
+            "first year friendly",
             "machine-learning",
             "optimization"
         ]
@@ -90,7 +90,7 @@
         "location": "MC 4020",
         "identifier": "rw-Convex",
         "tags": [
-            "first-year-friendly",
+            "first year friendly",
             "gradient-descent",
             "machine-learning",
             "optimization"
@@ -116,7 +116,7 @@
         "identifier": "kt-GameTheory",
         "tags": [
             "economics",
-            "first-year-friendly",
+            "first year friendly",
             "game-theory"
         ]
     },
@@ -237,7 +237,7 @@
             "combinatorial-game-theory",
             "economics",
             "extensive-form-games",
-            "first-year-friendly",
+            "first year friendly",
             "game-theory"
         ],
         "identifier": "kt-EFG",
@@ -250,7 +250,7 @@
         "tags": [
             "algebraic-numbers",
             "diophantine-approximation",
-            "first-year-friendly",
+            "first year friendly",
             "number-theory",
             "polynomials",
             "transcendental-numbers"
@@ -289,7 +289,7 @@
             "q-analogs",
             "combinatorics",
             "enumeration",
-            "first-year-friendly"
+            "first year friendly"
         ],
         "identifier": "fw-q",
         "speaker": "Fengyang Wang"
@@ -311,7 +311,7 @@
         "time": "2017-02-10T17:30:00Z",
         "title": "Quantum Computing",
         "tags": [
-            "computer-science",
+            "computer science",
             "quantum-algorithms",
             "quantum-computing"
         ],
@@ -323,7 +323,7 @@
         "time": "2017-02-10T18:30:00Z",
         "title": "Ordinals",
         "tags": [
-            "first-year-friendly",
+            "first year friendly",
             "ordinals",
             "set-theory"
         ],
@@ -335,10 +335,10 @@
         "time": "2017-02-17T17:30:00Z",
         "title": "Bitcoin",
         "tags": [
-            "computer-science",
+            "computer science",
             "cryptography",
             "distributed-systems",
-            "first-year-friendly"
+            "first year friendly"
         ],
         "identifier": "bz-Bitcoin",
         "speaker": "Ben Zhang"
@@ -348,9 +348,9 @@
         "time": "2017-02-17T18:30:00Z",
         "title": "General Secure Multi-Party Computation from any Linear Secret-Sharing Scheme",
         "tags": [
-            "computer-science",
+            "computer science",
             "cryptography",
-            "first-year-friendly"
+            "first year friendly"
         ],
         "identifier": "zz-SSS",
         "speaker": "Zihao Zhu"
@@ -368,10 +368,10 @@
         "time": "2017-03-03T17:30:00Z",
         "title": "Total Functional Programming",
         "tags": [
-            "computer-science",
-            "first-year-friendly",
+            "computer science",
+            "first year friendly",
             "functional-programming",
-            "tech-talks"
+            "Tech Talks"
         ],
         "identifier": "ah-TFP",
         "speaker": "Adam Hofmann"
@@ -403,9 +403,9 @@
         "title": "Bloom Filters and Other Probabilistic Data Structures",
         "tags": [
             "algorithms",
-            "computer-science",
-            "data-structures",
-            "first-year-friendly",
+            "computer science",
+            "data structures",
+            "first year friendly",
             "space-efficiency",
             "probability"
         ],

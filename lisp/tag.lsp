@@ -5,7 +5,7 @@
  (= uri (urinormalize (tagname tag))))
 
 ;; document
-(h1 "Tag " (#:var (tagname tag)))
+(h1 (#:var (ucfirst (tagname tag))))
 
 (#:when (isfile (string "wiki/tag/" uri ".md"))
  (#:markdown (string "../wiki/tag/" uri ".md")))

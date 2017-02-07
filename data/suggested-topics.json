@@ -137,7 +137,7 @@
         "topic": "Cake cutting algorithms",
         "tags": [
             "algorithms",
-            "computer-science",
+            "computer science",
             "economics",
             "game-theory",
             "optimization",
@@ -167,8 +167,8 @@
     {
         "topic": "Bloom Filters and Probabilistic Data Structures",
         "tags": [
-            "computer-science",
-            "data-structures",
+            "computer science",
+            "data structures",
             "probability",
             "space-efficiency",
             "algorithms"
@@ -214,9 +214,9 @@
     { 
         "topic": "Geometric Computing with Clifford Algebra",
         "tags": [
-            "computer-science",
+            "computer science",
             "clifford-algebras",
-            "theoretical-computer-science",
+            "theoretical-computer science",
             "applied-mathematics",
             "computer-vision"
         ],
@@ -361,7 +361,7 @@
     {
         "topic": "Automated Verification of Computational Systems",
         "tags": [
-            "computer-science",
+            "computer science",
             "logic",
             "model-checking",
             "hot"
@@ -396,9 +396,9 @@
     {
         "topic": "Buchi Automata",
         "tags": [
-            "computer-science",
+            "computer science",
             "automata",
-            "theoretical-computer-science"
+            "theoretical-computer science"
         ],
         "references": [
         ],
@@ -407,9 +407,9 @@
     {
         "topic": "Timed Automata",
         "tags": [
-            "computer-science",
+            "computer science",
             "automata",
-            "theoretical-computer-science"
+            "theoretical-computer science"
         ],
         "references": [
         ],
@@ -432,10 +432,10 @@
     {
         "topic": "Total Functional Programming",
         "tags": [
-            "computer-science",
-            "first-year-friendly",
+            "computer science",
+            "first year friendly",
             "functional-programming",
-            "tech-talks"
+            "Tech Talks"
         ],
         "references": [
             "[D. A. Turner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf)"
@@ -447,7 +447,7 @@
     {
         "topic": "Predicate Dispatch",
         "tags": [
-            "computer-science",
+            "computer science",
             "polymorphism"
         ],
         "references": [
@@ -459,9 +459,9 @@
         "topic": "Complexity of the Multivariate Resultant",
         "tags": [
             "algebraic-geometry",
-            "computer-science",
+            "computer science",
             "computational-complexity",
-            "theoretical-computer-science"
+            "theoretical-computer science"
         ],
         "references": [
             "[Bruno Grenet, Pascal Koiran, Natacha Portier](https://arxiv.org/pdf/1210.1451.pdf)"
@@ -471,10 +471,10 @@
     {
         "topic": "Kolmogorov complexity",
         "tags": [
-            "computer-science",
+            "computer science",
             "kolmogorov-complexity",
             "information-theory",
-            "theoretical-computer-science"
+            "theoretical-computer science"
         ],
         "references": [
             "[Paul Vitanyi](http://homepages.cwi.nl/~paulv/course-kc/KC-Lecture1.pdf)"
@@ -487,8 +487,8 @@
             "algebra",
             "algebraic-topology",
             "topology",
-            "type-theory",
-            "computer-science"
+            "type theory",
+            "computer science"
         ],
         "references": [
             "[Homotopy Type Theory (Book)](https://homotopytypetheory.org/book/)"
@@ -499,7 +499,7 @@
         "topic": "Curry–Howard–Lambek Correspondence",
         "tags": [
             "category-theory",
-            "computer-science",
+            "computer science",
             "logic"
         ],
         "references": [
@@ -566,7 +566,7 @@
             "combinatorial-game-theory",
             "combinatorics",
             "game-theory",
-            "first-year-friendly",
+            "first year friendly",
             "hot"
         ],
         "references": ["John Conway : On Games and Numbers"],
@@ -576,8 +576,8 @@
         "topic": "Secret Sharing Schemes and Multi-party Computation Protocols",
         "tags": [
             "cryptography",
-            "computer-science",
-            "first-year-friendly"
+            "computer science",
+            "first year friendly"
         ],
         "references" : [],
         "see-also": [
@@ -602,7 +602,7 @@
         "topic": "Protein Folding",
         "tags": [
             "biology",
-            "computer-science",
+            "computer science",
             "markov-model",
             "optimization",
             "hot"
@@ -617,10 +617,10 @@
         "tags": [
             "computational-complexity",
             "computability",
-            "computer-science",
+            "computer science",
             "first-order-logic",
             "logic",
-            "theoretical-computer-science"
+            "theoretical-computer science"
         ],
         "references": [
             "[Michael J. Fischer and Michael O. Rabin, Super-Exponentional Complexity of Presburger Arithmetic.](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.16.9759)"
@@ -642,7 +642,7 @@
     {
         "topic": "The Strong Law of Small Numbers",
         "tags": [
-            "first-year-friendly",
+            "first year friendly",
             "numbers",
             "recreational-mathematics"
         ],
@@ -654,7 +654,7 @@
     {
         "topic": "Plausible Conjectures",
         "tags": [
-            "first-year-friendly",
+            "first year friendly",
             "open-problems"
         ],
         "references": [
@@ -666,7 +666,7 @@
         "topic": "What is Area?",
         "tags": [
             "measure-theory",
-            "first-year-friendly",
+            "first year friendly",
             "geometry"
         ],
         "references": [
@@ -678,7 +678,7 @@
         "topic": "The Joy of Factoring",
         "tags": [
             "algorithms",
-            "computer-science",
+            "computer science",
             "cryptography",
             "number-theory",
             "quantum-algorithms",
@@ -692,7 +692,7 @@
     {
         "topic": "Patterns in Primes",
         "tags": [
-            "first-year-friendly",
+            "first year friendly",
             "number-theory",
             "prime-numbers",
             "hot"
@@ -717,7 +717,7 @@
         "topic": "Sieve Methods",
         "tags": [
             "computational-complexity",
-            "computer-science",
+            "computer science",
             "number-theory",
             "prime-numbers"
         ],
@@ -729,7 +729,7 @@
     {
         "topic": "The Nine Point Circle",
         "tags": [
-            "first-year-friendly",
+            "first year friendly",
             "geometry"
         ],
         "references": [
@@ -776,7 +776,7 @@
     {
         "topic": "Hyperbolic Geometry",
         "tags": [
-            "first-year-friendly",
+            "first year friendly",
             "geometry"
         ],
         "references": [
@@ -788,7 +788,7 @@
         "topic": "Why are some functions not integrable in terms of elementary functions?",
         "tags": [
             "analysis",
-            "first-year-friendly",
+            "first year friendly",
             "integration"
         ],
         "references": [
@@ -811,11 +811,11 @@
     {
         "topic": "Completeness, Incompleteness, and Turing Machines",
         "tags": [
-            "computer-science",
+            "computer science",
             "computability",
             "incompleteness",
             "logic",
-            "theoretical-computer-science",
+            "theoretical-computer science",
             "turing-machines"
         ],
         "references": [
@@ -828,10 +828,10 @@
         "tags": [
             "computability",
             "computational-complexity",
-            "computer-science",
+            "computer science",
             "open-problems",
             "hot",
-            "theoretical-computer-science"
+            "theoretical-computer science"
         ],
         "references": [
             "Arora, Bazak: Computational Complexity"
@@ -841,8 +841,8 @@
     {
         "topic": "Hindley–Milner Type System",
         "tags": [
-            "computer-science",
-            "type-theory"
+            "computer science",
+            "type theory"
         ],
         "references": [
             "[R. Hindley](http://www.jstor.org/stable/1995158)",
@@ -870,7 +870,7 @@
             "algebra",
             "algebraic-geometry",
             "computer-algebra",
-            "computer-science"
+            "computer science"
         ],
         "references": [
             "Cox, Little, O'Shea : Ideals, Varieties and Algorithms"
@@ -921,7 +921,7 @@
             "algorithms",
             "applied-mathematics",
             "computational-mathematics",
-            "computer-science",
+            "computer science",
             "differential-equations",
             "probability",
             "stochastic-equations"
@@ -935,10 +935,10 @@
     {
         "topic": "Bitcoin and Blockchains",
         "tags": [
-            "computer-science",
+            "computer science",
             "cryptography",
             "distributed-systems",
-            "first-year-friendly",
+            "first year friendly",
             "hot"
         ],
         "references": [
@@ -990,8 +990,8 @@
         "topic": "Computable Functions",
         "tags": [
             "computability",
-            "computer-science",
-            "theoretical-computer-science",
+            "computer science",
+            "theoretical-computer science",
             "turing-machines"
         ],
         "references": [
@@ -1016,7 +1016,7 @@
         "tags": [
             "automata",
             "cellular-automata",
-            "first-year-friendly",
+            "first year friendly",
             "recreational-mathematics"
         ],
         "references": [
@@ -1029,7 +1029,7 @@
         "tags": [
             "algebra",
             "computational-mathematics",
-            "computer-science",
+            "computer science",
             "linear-algebra"
         ],
         "references": [
@@ -1046,7 +1046,7 @@
             "algebra",
             "algorithms",
             "computational-mathematics",
-            "computer-science",
+            "computer science",
             "groups",
             "linear-algebra",
             "open-problems"
@@ -1067,7 +1067,7 @@
             "algebra",
             "algebraic-numbers",
             "field-theory",
-            "first-year-friendly",
+            "first year friendly",
             "number-theory",
             "hot"
         ],
@@ -1107,7 +1107,7 @@
     {
         "topic": "Queueing Theory" ,
         "tags": [
-            "computer-science",
+            "computer science",
             "optimization"
         ],
         "references" : [
@@ -1119,7 +1119,7 @@
     {
         "topic": "Tropical geometry and Computational Biology" ,
         "tags": [
-            "computer-science", 
+            "computer science", 
             "algebra", 
             "geometry", 
             "algebraic-geometry"
@@ -1162,10 +1162,10 @@
         "topic": "Branch Prediction",
         "tags": [
             "compilers",
-            "computer-science",
+            "computer science",
             "efficiency",
-            "first-year-friendly",
-            "tech-talks"
+            "first year friendly",
+            "Tech Talks"
         ],
         "references": [
             "[Agner Fog](http://www.agner.org/optimize/microarchitecture.pdf)"
@@ -1175,12 +1175,12 @@
     {
         "topic": "Complex Event Processing Systems",
         "tags": [
-            "computer-science",
+            "computer science",
             "data-science",
             "distributed-systems",
-            "first-year-friendly",
+            "first year friendly",
             "parallel-computing",
-            "tech-talks"
+            "Tech Talks"
         ],
         "references": [
             "[Apache Storm](https://storm.apache.org)",
@@ -1191,12 +1191,12 @@
     {
         "topic": "Dealing with Missing Data",
         "tags": [
-            "computer-science",
+            "computer science",
             "data-science",
             "efficiency",
-            "first-year-friendly",
+            "first year friendly",
             "statistics",
-            "tech-talks"
+            "Tech Talks"
         ],
         "references": [
             "[Wikipedia](https://en.wikipedia.org/wiki/Missing_data)"
@@ -1206,11 +1206,11 @@
     {
         "topic": "IEEE 754-2008: Floating Point Arithmetic",
         "tags": [
-            "computer-science",
+            "computer science",
             "computational-mathematics",
-            "first-year-friendly",
+            "first year friendly",
             "floating-points",
-            "tech-talks"
+            "Tech Talks"
         ],
         "references": [
             "[IEEE floating point on Wikipedia](https://en.wikipedia.org/wiki/IEEE_floating_point)",
@@ -1226,11 +1226,11 @@
         ],
         "excerpt": "Computer science is, fundamentally, about abstraction and efficiency. A programmer would rather use high-level bricks to build a product than worry about low-level details. Regrettably, the use of high-level bricks often comes at a cost in efficiency, forcing programmers to worry about low-level details. Recently, many programming languages have begun to stress the importance of zero-cost abstractions: ways to construct high-level bricks with zero efficiency cost.",
         "tags": [
-            "computer-science",
+            "computer science",
             "efficiency",
             "abstraction",
-            "tech-talks",
-            "first-year-friendly"
+            "Tech Talks",
+            "first year friendly"
         ]
     },
     {
@@ -1241,11 +1241,11 @@
         "excerpt": "The LLVM Compiler Infrastructure Project now powers a wide variety of software, including major programming languages including Rust and Julia, as well as compilers for the popular C and C++ programming languages. Understanding how LLVM works, and being able to read some LLVM bytecode, is extremely useful for optimizing code.",
         "tags": [
             "compilers",
-            "computer-science",
+            "computer science",
             "efficiency",
-            "tech-talks",
-            "first-year-friendly",
-            "programming-languages"
+            "Tech Talks",
+            "first year friendly",
+            "programming languages"
         ]
     },
     {
@@ -1255,9 +1255,9 @@
         ],
         "excerpt": "Jupyter Notebooks are a must-have for any data scientist or engineer. They are available for a wide variety of programming languages, particularly Python.",
         "tags": [
-            "first-year-friendly",
+            "first year friendly",
             "tutorial",
-            "tech-talks",
+            "Tech Talks",
             "data-science"
         ]
     },
@@ -1268,12 +1268,12 @@
         ],
         "excerpt": "Scientists, mathematicians, and engineers have an increasing need to write efficient computer programs. One approach to allowing efficient technical computing involves a powerful type system and dispatch system to enable generic, staged, and higher-order programming.",
         "tags": [
-            "computer-science",
-            "first-year-friendly",
+            "computer science",
+            "first year friendly",
             "polymorphism",
-            "programming-languages",
-            "tech-talks",
-            "type-theory"
+            "programming languages",
+            "Tech Talks",
+            "type theory"
         ]
     }
 ]
