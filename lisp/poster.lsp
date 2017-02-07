@@ -33,7 +33,6 @@
                                    "No abstract available."))
                               3) " "))))))
       (p ([class "website-link"])
-         "For more details, go to http://uwseminars.com, "
-         "or the UW Student Seminars group on Facebook")))
+         "For more details, go to http://uwseminars.com")))
 
 (script ([src "/scripts/poster.js"]))
