@@ -8,19 +8,18 @@
  (= (tohtml (:: t (. Tags TagTree)))
     (if (isempty (children t))
       `(li ,(tag-link (root t)))
-      `(li ,(tag-link (root t)) ,(tohtml (children t)))))
- (= (tohtml (:: ts (. Tags TagForest)))
-    (cons 'ul (map tohtml (convert list ts)))))
+      `(li ,(tag-link (root t)) ,(tohtml (children t) #f))))
+ (= (tohtml (:: ts (. Tags TagForest)) isroot)
+    (append '(ul)
+            (if isroot '(([class "collapsibleList"])) '())
+            (map tohtml (convert list ts)))))
 
-(h2 "Major tags")
-
-(include (tohtml tagforest) #:object)
-
-(h2 "Minor tags")
-
-(ul
-  (#:each tag minortags
-   `((li ,(tag-link tag)))))
+(include (append (tohtml tagforest #t)
+                 `((li "uncategorized"
+                       ,(cons 'ul
+                              (map (∘ li tag-link)
+                                   (convert list minortags))))))
+         #:object)
 
 (script ([src "/scripts/collapse.js"]))
-(script "CollapsibleLists.applyTo(document.querySelector('ul'), true);")
+(script "CollapsibleLists.apply(true);")

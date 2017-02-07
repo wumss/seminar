@@ -61,3 +61,24 @@ h1 {
 h2 {
     font-size: 1.8em;
 }
+
+/* CollapsibleLists */
+.collapsibleList li {
+    cursor: auto;
+}
+
+li.collapsibleListOpen, li.collapsibleListClosed {
+    cursor: pointer;
+    padding-left: 1ex;
+}
+li.collapsibleListOpen:before {
+    content: "[−]";
+    font-weight: bold;
+    color: rgb(150, 60, 60);
+}
+
+li.collapsibleListClosed:before {
+    content: "[+]";
+    font-weight: bold;
+    color: rgb(60, 150, 60);
+}
