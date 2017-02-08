@@ -1,0 +1,5 @@
+Introduction to quantum computing. We start off by tackling a classical problem
+via deterministic and probabilistic computation and then motivate a quantum
+model of computation. Along the way we lay out some of the mathematics needed
+to describe quantum computation and how it corresponds to key concepts in
+quantum mechanics such as interference and superposition.
