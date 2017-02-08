@@ -93,8 +93,7 @@ tagmatrix = TagMatrix()
 
 for t in result
     talkdict[identifier(t)] = t
-    value = valuate(t)
-    populate!(tagmatrix, tags(t), value)
+    populate!(tagmatrix, tags(t))
 end
 
 # suggestion gathering

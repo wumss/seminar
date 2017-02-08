@@ -33,7 +33,7 @@
         "tags": [
             "graph theory",
             "infiniteness",
-            "universal-graphs"
+            "universal graph"
         ]
     },
     {
@@ -43,9 +43,10 @@
         "location": "MC 5479",
         "identifier": "ss-Information",
         "tags": [
-            "coding-theory",
-            "information-theory",
-            "probability"
+            "coding theory",
+            "information theory",
+            "probability",
+            "statistics"
         ]
     },
     {
@@ -67,7 +68,7 @@
         "location": "MC 4020",
         "identifier": "lm-CategoryTheory",
         "tags": [
-            "category-theory",
+            "category theory",
             "computer science"
         ]
     },
@@ -90,7 +91,7 @@
         "location": "MC 4020",
         "identifier": "rw-Convex",
         "tags": [
-            "gradient-descent",
+            "gradient descent",
             "machine learning",
             "optimization"
         ]
@@ -167,7 +168,7 @@
         "tags": [
             "algebra",
             "analysis",
-            "elliptic-curves",
+            "elliptic curve",
             "group theory",
             "number theory"
         ]
@@ -196,8 +197,8 @@
             "geometric topology",
             "group theory",
             "linear algebra",
-            "knot-theory",
-            "module-theory"
+            "knot theory",
+            "module theory"
         ]
     },
     {
@@ -257,7 +258,7 @@
         "time": "2017-01-27T17:30:00Z",
         "title": "Integrability of Riccati Equations",
         "tags": [
-            "differential-equations",
+            "differential equations",
             "integrals"
         ],
         "identifier": "lc-Riccati",
@@ -363,7 +364,7 @@
         "tags": [
             "computer science",
             "first year friendly",
-            "functional-programming",
+            "functional programming",
             "Tech Talks"
         ],
         "identifier": "ah-TFP",
@@ -421,7 +422,7 @@
         "title": "Universal Property of Quotients",
         "tags": [
             "algebra",
-            "category-theory"
+            "category theory"
         ],
         "identifier": "ly-UPQ",
         "speaker": "Lirong Yang"
@@ -446,7 +447,7 @@
             "algebra",
             "linear algebra",
             "group theory",
-            "particle-physics",
+            "particle physics",
             "physics",
             "representation theory"
         ],

@@ -66,8 +66,9 @@
     {
         "topic": "Entropy in Mathematics and Information Theory",
         "tags": [
-            "information-theory",
-            "probability"
+            "information theory",
+            "probability",
+            "statistics"
         ],
         "references": [
             "[Robert M. Gray](https://ee.stanford.edu/~gray/it.pdf)",
@@ -143,7 +144,7 @@
             "game theory",
             "optimization",
             "recreational mathematics",
-            "social-choice"
+            "social choice"
         ],
         "references": [
             "[Robertson, Webb](https://www.amazon.com/Cake-Cutting-Algorithms-Fair-You-Can/dp/1568810768/ref=sr_1_1?s=books&ie=UTF8&qid=1480468807&sr=1-1&keywords=cake+cutting+algorithms)"
@@ -157,7 +158,7 @@
             "algebra",
             "economics",
             "voting theory",
-            "social-choice"
+            "social choice"
         ],
         "references": [
             "[Crissman, Orrison](https://arxiv.org/abs/1508.05891)",
@@ -185,7 +186,7 @@
         "topic": "Geometry and Billiards",
         "tags": [
             "differential geometry",
-            "classical-mechanics",
+            "classical mechanics",
             "geometry",
             "mechanics",
             "physics"
@@ -199,7 +200,7 @@
         "topic": "Symmetries and their Role in Physics",
         "tags": [
             "physics",
-            "classical-mechanics",
+            "classical mechanics",
             "mechanics"
         ],
         "references": [
@@ -233,7 +234,8 @@
         "tags": [
             "clifford algebra",
             "algebra",
-            "machine learning"
+            "machine learning",
+            "optimization"
         ],
         "references": [
             "[Bucholtz, Tachibana, Hitzner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.5449&rep=rep1&type=pdf)"
@@ -286,9 +288,8 @@
         "tags": [
             "economics",
             "voting theory",
-            "social-choice",
-            "geometry",
-            "hot"
+            "social choice",
+            "geometry"
         ],
         "references": [
             "[Hodge, Marshall, Patterson](http://www.maa.org/sites/default/files/pdf/upload_library/22/Polya/Hodge2011.pdf)"
@@ -340,8 +341,7 @@
         "tags": [
             "human-computer-interaction",
             "encryption",
-            "security",
-            "hot"
+            "security"
         ],
         "references": [
             "[Macrae, et all](http://www.cs.toronto.edu/~abari/papers/GeoPass_TIFS_2016.pdf)",
@@ -366,8 +366,7 @@
         "tags": [
             "computer science",
             "logic",
-            "model checking",
-            "hot"
+            "model checking"
         ],
         "references": [
             "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)"
@@ -438,7 +437,7 @@
         "tags": [
             "computer science",
             "first year friendly",
-            "functional-programming",
+            "functional programming",
             "Tech Talks"
         ],
         "references": [
@@ -478,8 +477,9 @@
         "tags": [
             "computer science",
             "Kolmogorov complexity",
-            "information-theory",
-            "theoretical computer science"
+            "information theory",
+            "theoretical computer science",
+            "statistics"
         ],
         "references": [
             "[Paul Vitanyi](http://homepages.cwi.nl/~paulv/course-kc/KC-Lecture1.pdf)"
@@ -503,7 +503,7 @@
     {
         "topic": "Curry–Howard–Lambek Correspondence",
         "tags": [
-            "category-theory",
+            "category theory",
             "computer science",
             "logic"
         ],
@@ -515,7 +515,7 @@
     {
         "topic": "Rational Tangles and Conway's Theorem",
         "tags": [
-            "knot-theory",
+            "knot theory",
             "geometric topology",
             "topology"
         ],
@@ -529,8 +529,7 @@
         "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC",
         "tags": [
             "set theory",
-            "challenge",
-            "hot"
+            "challenge"
         ],
         "references": [
             "[Itay Neeman](http://www.math.ucla.edu/~ineeman/223s.1.11s/223s-spring11-lecture-notes-6-5.pdf)",
@@ -542,9 +541,8 @@
         "topic": "Differential Equations on Fractals",
         "tags": [
             "analysis",
-            "differential-equations",
-            "fractals",
-            "hot"
+            "differential equations",
+            "fractals"
         ],
         "references": [
             "Robert Strichartz : Differential Equations on Fractals - A tutorial"
@@ -556,8 +554,7 @@
         "tags": [
             "probability",
             "statistics",
-            "decision theory",
-            "hot"
+            "decision theory"
         ],
         "references": [
             "[Thomas S. Ferguson](https://www.math.upenn.edu/~ted/210F10/References/Secretary.pdf)",
@@ -571,8 +568,7 @@
             "combinatorial-game-theory",
             "combinatorics",
             "game theory",
-            "first year friendly",
-            "hot"
+            "first year friendly"
         ],
         "references": ["John Conway : On Games and Numbers"],
         "see-also": ["kt-GameTheory"]
@@ -609,8 +605,7 @@
             "biology",
             "chemistry",
             "computer science",
-            "optimization",
-            "hot"
+            "optimization"
         ],
         "references": [
             "[Folding@Home Papers Collection](http://folding.stanford.edu/home/papers)"
@@ -686,8 +681,7 @@
             "computer science",
             "cryptography",
             "number theory",
-            "quantum algorithm",
-            "hot"
+            "quantum algorithm"
         ],
         "references": [
             "[Samuel S. Wagstaff (Jr.)](https://books.google.ca/books/about/The_Joy_of_Factoring.html?id=rowCAQAAQBAJ&redir_esc=y)"
@@ -699,8 +693,7 @@
         "tags": [
             "first year friendly",
             "number theory",
-            "prime number",
-            "hot"
+            "prime number"
         ],
         "references": [
             "[Andrew Granville, Prime Number Patterns](https://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Granville.pdf)",
@@ -770,7 +763,7 @@
         "tags": [
             "geometric topology",
             "geometry",
-            "multivariate-calculus",
+            "multivariate calculus",
             "topology"
         ],
         "references": [
@@ -821,7 +814,7 @@
             "incompleteness",
             "logic",
             "theoretical computer science",
-            "turing-machines"
+            "turing machine"
         ],
         "references": [
             "[Scott Aaronson](http://www.scottaaronson.com/democritus/lec3.html)"
@@ -835,7 +828,6 @@
             "computational complexity",
             "computer science",
             "open problem",
-            "hot",
             "theoretical computer science"
         ],
         "references": [
@@ -887,7 +879,7 @@
             "algebra",
             "geometry",
             "number theory",
-            "coding-theory"
+            "coding theory"
         ],
         "references": [
             "Noam D. Elkies, [Part 1](http://www.ams.org/notices/200010/fea-elkies-1.pdf) and [Part 2](http://www.ams.org/notices/200011/fea-elkies-2.pdf)"
@@ -926,7 +918,7 @@
             "applied mathematics",
             "computational mathematics",
             "computer science",
-            "differential-equations",
+            "differential equations",
             "probability",
             "stochastic-equations"
         ],
@@ -942,8 +934,7 @@
             "computer science",
             "cryptography",
             "distributed system",
-            "first year friendly",
-            "hot"
+            "first year friendly"
         ],
         "references": [
             "[Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)"
@@ -967,8 +958,7 @@
         "tags": [
             "number theory",
             "open problem",
-            "prime number",
-            "hot"
+            "prime number"
         ],
         "references": [
             "[E. Bombieri, Problems of the Millennium: The Riemann Hypothesis](http://www.claymath.org/sites/default/files/official_problem_description.pdf)"
@@ -996,7 +986,7 @@
             "computability",
             "computer science",
             "theoretical computer science",
-            "turing-machines"
+            "turing machine"
         ],
         "references": [
             "[A. Shen, N. K. Vereshchagin](https://www.amazon.com/Computable-Functions-Student-Mathematical-Library/dp/0821827324/ref=sr_1_1?s=books&ie=UTF8&qid=1437716490&sr=1-1&pebp=1437716499539&perid=15CJV47PBD4EMQ11VZ5V)"
@@ -1019,9 +1009,11 @@
         "topic": "Conway’s Game of Life",
         "tags": [
             "automata",
-            "cellular-automata",
+            "cellular automata",
+            "computer science",
             "first year friendly",
-            "recreational mathematics"
+            "recreational mathematics",
+            "theoretical computer science"
         ],
         "references": [
             "[Melissa Gymrek](http://web.mit.edu/sp.268/www/2010/lifeSlides.pdf)"
@@ -1072,8 +1064,7 @@
             "algebraic number",
             "field theory",
             "first year friendly",
-            "number theory",
-            "hot"
+            "number theory"
         ],
         "references": ["[Panju](http://mathreview.uwaterloo.ca/archive/voli/2/panju.pdf)"],
         "see-also": []
@@ -1141,7 +1132,7 @@
         "tags": [
             "applied mathematics",
             "ecology",
-            "differential-equations",
+            "differential equations",
             "stochastic-equations"
         ],
         "references": [
@@ -1154,7 +1145,7 @@
         "tags": [
             "applied mathematics",
             "biology",
-            "category-theory",
+            "category theory",
             "chemistry",
             "set theory"
         ],
@@ -1181,10 +1172,11 @@
         "topic": "Complex Event Processing Systems",
         "tags": [
             "computer science",
-            "data-science",
+            "data science",
             "distributed system",
             "first year friendly",
             "parallel computing",
+            "statistics",
             "Tech Talks"
         ],
         "references": [
@@ -1197,7 +1189,7 @@
         "topic": "Dealing with Missing Data",
         "tags": [
             "computer science",
-            "data-science",
+            "data science",
             "efficiency",
             "first year friendly",
             "statistics",
@@ -1263,7 +1255,8 @@
             "first year friendly",
             "tutorial",
             "Tech Talks",
-            "data-science"
+            "data science",
+            "statistics"
         ]
     },
     {

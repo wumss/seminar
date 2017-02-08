@@ -29,7 +29,7 @@ hasabstract(talk) = isfile(abstractpath(talk))
 summarypath(talk) = "summary/$(identifier(talk))"
 hassummary(talk) = isfile(summarypath(talk))
 
-function valuate(talk)
+Base.@deprecate function valuate(talk)
     sum([1,
          hassummary(talk)])
 end
