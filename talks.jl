@@ -29,10 +29,8 @@ hasabstract(talk) = isfile(abstractpath(talk))
 summarypath(talk) = "summary/$(identifier(talk))"
 hassummary(talk) = isfile(summarypath(talk))
 
-Base.@deprecate function valuate(talk)
-    sum([1,
-         hassummary(talk)])
-end
+Base.@deprecate valuate(talk) 1 + hassummary(talk)
+
 summarize(t) = string(
     "This is a talk by $(t[:speaker]). ",
     if hassummary(t)
