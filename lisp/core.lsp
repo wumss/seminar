@@ -17,7 +17,7 @@
      (#:include "mathjax.lsp"))
     (title (#:var pagetitle)))
   (body
-    (nav (ul (#:template nav-link "" "Math Seminar Home")
+    (nav (ul (#:template nav-link "" "Home")
              (#:template nav-link "archive" "archive")
              (#:template nav-link "tags" "tags")
              (#:template nav-link "faq" "faq")
