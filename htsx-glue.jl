@@ -4,6 +4,7 @@ function generate_page(data, root, page="lisp/core.lsp"; modules=[])
     info(isempty(root) ? "Index Page" : root; prefix="GENERATING: ")
 
     try mkdir("public/$root") end
+    data[:currentpage] = root
     open("public/$root/index.html", "w") do f
         SExpressions.Htsx.tohtml(f, page, data;
                                  modules=vcat(EXTRA_MODULES, modules))

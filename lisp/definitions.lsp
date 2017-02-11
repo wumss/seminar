@@ -5,7 +5,9 @@
   ((. Dates format) t "HH:MM"))
 
 (#:define (nav-link url text)
-  `(li (a ([href ,(string "/" url)]) ,text)))
+ (if (== url currentpage)
+   `(li ([class "current"]) (a ([href ,(string "/" url)]) ,text))
+   `(li (a ([href ,(string "/" url)]) ,text))))
 
 (#:define (render-talk-brief t)
   `((h3 (a ([href ,(string "/" (ref t 'url))]) ,(ref t 'title)))

@@ -14,6 +14,12 @@ nav ul li {
     display: inline-block;
     vertical-align: middle;
     padding: 0 5px;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+}
+nav ul li.current {
+    border-bottom: 2px solid lightskyblue;
 }
 nav ul li a {
     color: rgb(200, 200, 200);
