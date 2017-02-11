@@ -1,17 +1,33 @@
-li p {
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    background: black;
+    padding: 10px;
+}
+nav ul {
     margin: 0;
 }
-
-nav > form {
-    display: inline;
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+nav ul li a {
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: white;
+}
+body > section {
+    margin-top: 70px;
 }
 
-nav > form * {
-    display: inline;
-}
-
-nav > ul > li:nth-child(1) {
-    font-size: 1.2em;
+li p {
+    margin: 0;
 }
 
 img {

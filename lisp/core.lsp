@@ -17,7 +17,12 @@
      (#:include "mathjax.lsp"))
     (title (#:var pagetitle)))
   (body
-    (nav (ul (#:template nav-link "" "Home")
+    (nav (ul (a ([href "/"])
+                (img ([src "/images/logo.png"]
+                      [height "64"]
+                      [width "64"]
+                      [alt "Home"]
+                      [title "Home"])))
              (#:template nav-link "archive" "archive")
              (#:template nav-link "tags" "tags")
              (#:template nav-link "faq" "faq")
