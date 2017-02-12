@@ -74,7 +74,7 @@ nextdate = Date(9999,12,31)
 for t in result
     write_summary(t)
     if iscompleted(t)
-        push!(talks, brief(t))
+        push!(talks, t)
     else
         curdate = Date(datetime(t))
         if curdate < nextdate

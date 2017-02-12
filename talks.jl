@@ -52,7 +52,7 @@ function brief(t)
                      "$(ItemList(t[:subsetof], Disjunction()))."] :
                     [])
              ]), " "))
-    else
+    else  # TODO: delete this
         Dict(:title => title(t),
              :url => url(t),
              :summary => summarize(t))
@@ -61,6 +61,6 @@ end
 
 export abstractpath, hasabstract, summarypath, hassummary, identifier,
        iscompleted, valuate, summarize, brief, location, speaker,
-       datetime, tags, fromjson, title
+       datetime, tags, fromjson, title, url
 
 end
