@@ -9,8 +9,7 @@
         "references": [
             "[Andrews, Sellers](http://www.personal.psu.edu/jxs23/andrews_sellers_fishburn_jntwinnie_final.pdf)",
             "[Paul Levande](https://www.math.upenn.edu/~plevande/dissertationversion.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Galois Field Arithmetic",
@@ -23,8 +22,7 @@
             "[Plank, Greenan, Miller](http://web.eecs.utk.edu/~plank/plank/papers/FAST-2013-GF.html)",
             "[Christoforus Juan Benvenuto](https://www.math.washington.edu/~morrow/336_12/papers/juan.pdf)",
             "[Finite Field Arithmetic](http://www.springer.com/?SGWID=4-102-45-110359-0)"
-        ],
-        "see-also" : []
+        ]
     },
     {
         "topic": "Lindstrom-Gessel-Viennot Lemma",
@@ -35,8 +33,7 @@
         "references": [
             "[Qiaochu Yuan](https://qchu.wordpress.com/2009/11/17/the-lindstrom-gessel-viennot-lemma/)",
             "[Vijay Kodiyalam](https://www.youtube.com/watch?v=01n-DUtY9ns)"
-        ],
-        "see-also": []
+        ]
     },
     {
        "topic": "Fuzzy Logic",
@@ -47,8 +44,7 @@
        "references": [
             "[R. Rojas](https://page.mi.fu-berlin.de/rojas/neural/chapter/K11.pdf)",
             "[Franck Dernoncourt](http://www.francky.me/doc/course/fuzzy_logic.pdf)"
-       ],
-       "see-also": []
+       ]
     },
     {
         "topic": "Monsky's Theorem",
@@ -60,8 +56,7 @@
         "references": [
             "[Wikipedia](https://en.m.wikipedia.org/wiki/Monsky%27s_theorem)",
             "[Andreu Ferre Moragues](https://math.osu.edu/sites/math.osu.edu/files/ferre_MonskyThm_2016.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Entropy in Mathematics and Information Theory",
@@ -73,8 +68,7 @@
         "references": [
             "[Robert M. Gray](https://ee.stanford.edu/~gray/it.pdf)",
             "[Tom Carter](http://astarte.csustan.edu/~tom/SFI-CSSS/info-theory/info-lec.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Random Walks and Self-Avoiding Walks",
@@ -85,8 +79,7 @@
         "references": [
             "[Tony Guttmann](http://www.ms.unimelb.edu.au/~guttmann@unimelb/lectures/MAV2003.pdf)",
             "[Gordon Slade](https://www.math.ubc.ca/~slade/spa_proceedings.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Markov Equation and Irrational Numbers",
@@ -97,18 +90,18 @@
         "references": [
             "[Caroline Series](https://perso.univ-rennes1.fr/serge.cantat/Documents/series-geometry-markoff.pdf)",
             "[Spalding, Veselov](https://arxiv.org/pdf/1603.08360.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Rental Harmony Theorem",
         "tags": [
-            "optimization"
+            "economics",
+            "optimization",
+            "social choice"
         ],
         "references": [
             "[Francis Edward Su](http://www3.math.tu-berlin.de/combi/wp_henk/wp-content/uploads/2011/05/rentsu.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Continued Fractions and Hyperbolic Geometry",
@@ -127,8 +120,11 @@
     {
         "topic": "Quivers and Platonic Solids",
         "tags": [
+            "algebra",
             "geometry",
-            "graph theory"
+            "graph theory",
+            "linear algebra",
+            "representation theory"
         ],
         "references": [
             "[Gwyn Bellamy](https://www.lms.ac.uk/sites/lms.ac.uk/files/gwyn_bellamy_plato.pdf)"
@@ -154,6 +150,7 @@
     {
         "topic": "Representation Theory and Voting Theory",
         "tags": [
+            "linear algebra",
             "representation theory",
             "algebra",
             "economics",
@@ -299,7 +296,7 @@
     {
         "topic": "Waring's Problem and writing numbers as sums of powers",
         "tags": [
-            "additive-number-theory",
+            "additive number theory",
             "number theory"
         ],
         "references": [
@@ -325,7 +322,7 @@
         "topic": "The Brachistochrone and the Calculus of Variations",
         "tags": [
             "applied mathematics",
-            "calculus-of-variations",
+            "calculus of variations",
             "physics"
         ],
         "references": [
@@ -339,7 +336,8 @@
     {
         "topic": "Geographic Authentication Schemes",
         "tags": [
-            "human-computer-interaction",
+            "computer science",
+            "human-computer interaction",
             "encryption",
             "security"
         ],
@@ -565,7 +563,7 @@
     {
         "topic": "Combinatorial Game Theory with 'Nimbers'",
         "tags": [
-            "combinatorial-game-theory",
+            "combinatorial game theory",
             "combinatorics",
             "game theory",
             "first year friendly"
@@ -920,7 +918,7 @@
             "computer science",
             "differential equations",
             "probability",
-            "stochastic-equations"
+            "stochastic equations"
         ],
         "references": [
             "[David Karig](https://www.cs.princeton.edu/picasso/seminarsS05/Karig_slides.pdf)"
@@ -969,7 +967,7 @@
         "topic": "p-adic Analysis",
         "tags": [
             "analysis",
-            "p-adic-numbers",
+            "p-adic numbers",
             "number theory"
         ],
         "references": [
@@ -1133,7 +1131,7 @@
             "applied mathematics",
             "ecology",
             "differential equations",
-            "stochastic-equations"
+            "stochastic equations"
         ],
         "references": [
             "[Mathworks](http://www.mathworks.com/help/simbio/examples/stochastic-simulation-of-the-lotka-volterra-reactions.html)"
@@ -1242,7 +1240,7 @@
             "efficiency",
             "Tech Talks",
             "first year friendly",
-            "programming languages"
+            "programming language"
         ]
     },
     {
@@ -1269,7 +1267,7 @@
             "computer science",
             "first year friendly",
             "polymorphism",
-            "programming languages",
+            "programming language",
             "Tech Talks",
             "type theory"
         ]

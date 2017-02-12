@@ -57,7 +57,7 @@
         "identifier": "nk-Types",
         "tags": [
             "computer science",
-            "object-oriented-programming",
+            "object oriented programming",
             "type theory"
         ]
     },
@@ -231,7 +231,7 @@
         "time": "2017-01-20T17:30:00Z",
         "title": "Game Theory (Part 2): Extensive Form Finite and Infinite Games",
         "tags": [
-            "combinatorial-game-theory",
+            "combinatorial game theory",
             "economics",
             "extensive-form-games",
             "game theory"
@@ -294,7 +294,7 @@
         "tags": [
             "analysis",
             "number theory",
-            "p-adic-numbers"
+            "p-adic numbers"
         ],
         "identifier": "at-padic",
         "speaker": "Akshay Tiwary"
