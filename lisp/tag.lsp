@@ -44,19 +44,19 @@
  (h2 "Completed Talks")
 
  (#:each t (reverse (filter iscompleted talks))
-  (render-talk-brief (brief t))))
+  (render-talk-brief t)))
 
 (#:when (! (iszero (count (! iscompleted) talks)))
  (h2 "Scheduled Talks")
 
  (#:each t (filter (! iscompleted) talks)
-  (render-talk-brief (brief t))))
+  (render-talk-brief t)))
 
 (#:when (! (isempty documents))
  (h2 "Documents")
 
  (#:each t documents
-  (render-talk-brief (brief t))))
+  (render-document-brief (brief t))))
 
 (#:when (! (isempty suggestions))
  (h2 ([id "suggestions"]) "Talk Suggestions")

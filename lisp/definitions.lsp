@@ -10,9 +10,32 @@
       `(li ([class "current"]) (a ([href ,(string "/" url)]) ,text))
       `(li (a ([href ,(string "/" url)]) ,text))))
 
-  (define (render-talk-brief t)
+  (define (render-document-brief t)
     `((h3 (a ([href ,(string "/" (ref t 'url))]) ,(ref t 'title)))
       (p ,(ref t 'summary))))
+
+  (define (cut-abstracts-at-h2 abstracts)
+    (if (or (empty? abstracts)
+            (and (pair? (car abstracts)) (== (car (car abstracts)) 'h2)))
+      '()
+      (cons (car abstracts) (cut-abstracts-at-h2 (cdr abstracts)))))
+
+  (define (cut-abstract-at-h2 abstract)
+    (if (== (car abstract) 'div)
+      (cut-abstracts-at-h2 (cdr abstract))))
+
+  (define (render-talk-brief t)
+    (append
+      `((h3 (a ([href ,(string "/" (url t))]) ,(title t)))
+        (p "Delivered by " ,(speaker t) " on " ,(human (datetime t))))
+      (if (hasabstract t)
+        (cut-abstract-at-h2
+          ((. StdLib rendermd) (readstring (abstractpath t))))
+        '())
+      (if (hassummary t)
+        `((a ([href ,(string "/" (url t))])
+             "A summary of this talk is available here."))
+        '())))
 
   (define (render-reference r)
     ((. StdLib rendermd) r))
