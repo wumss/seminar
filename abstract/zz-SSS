@@ -1,0 +1,22 @@
+As more and more sensitive data gets digitized, there is a need to ensure privacy 
+and reliability of the data, especially in the face of adversarial parties who 
+attempt to corrupt or unwanted access to sensitive secrets.
+
+In many instances such as online gambling, bidding, and even Google's targeted 
+advertisements, a client wants to be able to take inputs from multiple sources 
+(for example, auction bids) and produce an output (for example, the highest bidder)
+without revealing any information about the other inputs.  We will use such 
+scenarios as well as more cryptography related ones in order to motivate 
+Multi-Party Computation as a method to compute on encrypted data.  With MPC, we 
+will quickly see it's limitations with unsecure channels and first develop secret 
+sharing schemes (specifically linear secret sharing schemes) such as Shamir's 
+scheme, and soon after, verifiable secret sharing schemes.
+
+We will introduce the different types of adversarial structures and explore both 
+the robustness and limitations of secret sharing schemes against them.
+
+Finally, we will show that all Linear Secret Sharing Schemes can be constructed 
+to be verifiable.  We will explore the consequences of this and discuss techniques
+in their construction.
+
+Prereqs: Math136 used in proofs
