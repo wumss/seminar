@@ -1,4 +1,4 @@
-(include "definitions.lsp" #:remark)
+(include "definitions.rem" #:remark)
 
 (html
   (head
@@ -14,7 +14,7 @@
       `((link ([rel "stylesheet"]
                [href ,(string "/css/" css ".css")])))))
     (#:when (defined? 'mathjaxplease)
-     (include "mathjax.lsp" #:remark))
+     (include "mathjax.rem" #:remark))
     (title (remark pagetitle)))
   (body
     (nav (ul (li (a ([href "/"])
@@ -31,7 +31,7 @@
              (#:template nav-link "submit-talk" "speak")))
     (section
       (article
-        (include (string pagetype ".lsp") #:remark))
+        (include (string pagetype ".rem") #:remark))
       (#:when (defined? 'github)
        (footer (p "Help improve this page by "
                   ;; can't use the obvious #:var, so use ugly workaround

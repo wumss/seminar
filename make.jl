@@ -50,7 +50,7 @@ for (k, v) in lisppublics
     generate_page(Dict(
         :pagetitle => v,
         :pagetype => k,
-        :github => "$GITHUB/lisp/$k.lsp"), k)
+        :github => "$GITHUB/remark/$k.rem"), k)
 end
 
 function write_summary(t)
@@ -107,7 +107,7 @@ alltags = popular(tagmatrix)
 generate_page(Dict(
     :pagetitle => "Poster",
     :pagetype => "poster",
-    :github => "$GITHUB/lisp/poster.lsp",
+    :github => "$GITHUB/remark/poster.rem",
     :extracss => ["poster"],
     :mathjaxplease => true,
     :talks => nexttalks), "poster"; modules=[Talks, EnglishText])
@@ -122,7 +122,7 @@ generate_page(Dict(
     :pagetitle => "Mathematics Student Seminars",
     :pagetype => "home",
     :talks => result,
-    :github => "$GITHUB/lisp/home.lsp",
+    :github => "$GITHUB/remark/home.rem",
     :mathjaxplease => true), ""; modules=[Talks])
 
 generate_page(Dict(
@@ -154,7 +154,7 @@ generate_page(Dict(
     :talkdict => talkdict,
     :suggestions => suggestions,
     :mathjaxplease => true,
-    :github => "$GITHUB/lisp/suggested-topics.lsp"), "potential-topics";
+    :github => "$GITHUB/remark/suggested-topics.rem"), "potential-topics";
                modules=[Talks])
 
 # Copy static files

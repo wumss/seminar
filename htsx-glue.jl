@@ -1,5 +1,5 @@
 const EXTRA_MODULES = [Tags, Common]
-function generate_page(data, root, page="lisp/core.lsp"; modules=[])
+function generate_page(data, root, page="remark/core.rem"; modules=[])
     start = Dates.now()
     info(isempty(root) ? "Index Page" : root; prefix="GENERATING: ")
 
