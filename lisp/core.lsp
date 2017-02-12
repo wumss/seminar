@@ -1,4 +1,4 @@
-(#:include "definitions.lsp")
+(include "definitions.lsp" #:remark)
 
 (html
   (head
@@ -14,8 +14,8 @@
       `((link ([rel "stylesheet"]
                [href ,(string "/css/" css ".css")])))))
     (#:when (defined? 'mathjaxplease)
-     (#:include "mathjax.lsp"))
-    (title (#:var pagetitle)))
+     (include "mathjax.lsp" #:remark))
+    (title (remark pagetitle)))
   (body
     (nav (ul (li (a ([href "/"])
                     (img ([src "/images/logo.png"]
@@ -31,7 +31,7 @@
              (#:template nav-link "submit-talk" "speak")))
     (section
       (article
-        (#:include (string pagetype ".lsp")))
+        (include (string pagetype ".lsp") #:remark))
       (#:when (defined? 'github)
        (footer (p "Help improve this page by "
                   ;; can't use the obvious #:var, so use ugly workaround

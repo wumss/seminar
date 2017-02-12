@@ -1,12 +1,12 @@
 ;; todo: will be held on if the talk has not yet been held
 (p "This talk on "
-   (#:var (title talk))
+   (remark (title talk))
    " was held on "
-   (#:var (human (datetime talk)))
+   (remark (human (datetime talk)))
    " in "
-   (#:var (location talk))
+   (remark (location talk))
    ". The speaker was "
-   (#:var (speaker talk))
+   (remark (speaker talk))
    ".")
 
 (#:when (hasabstract talk)

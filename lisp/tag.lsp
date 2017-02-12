@@ -1,17 +1,17 @@
 ;; setup
-(#:execute
- (= related (relatedto tagmatrix tag))
- (= subtopics (subtags tagmatrix tag))
- (= uri (urinormalize (tagname tag))))
+(remark
+  (define related (relatedto tagmatrix tag))
+  (define subtopics (subtags tagmatrix tag))
+  (define uri (urinormalize (tagname tag))))
 
 ;; document
-(h1 (#:var (ucfirst (tagname tag))))
+(h1 (remark (ucfirst (tagname tag))))
 
 (#:when (isfile (string "wiki/tag/" uri ".md"))
  (include (string "../wiki/tag/" uri ".md") #:markdown))
 
 (p "There have been "
-   (#:var
+   (remark
     (string
       (ItemList (filter (! isnothing)
                         (List
@@ -27,10 +27,10 @@
                           (ItemQuantity
                             (length suggestions)
                             "topic suggestion"))))))
-   " tagged with " (b (#:var (tagname tag))) ".")
+   " tagged with " (b (remark (tagname tag))) ".")
 
 (#:when (> (length subtopics) 1)
- (p "There are many subfields of " (b (#:var (tagname tag)))
+ (p "There are many subfields of " (b (remark (tagname tag)))
     ", including: ")
  (ul (#:each t subtopics
       `((li ,(tag-link t))))))

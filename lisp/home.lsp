@@ -1,14 +1,15 @@
 (include "../pages/home.md" #:markdown)
 
-(#:define (talk-row t)
-  (append `((tr (td ,(title t))
-                (td ,(speaker t))
-                (td ,(location t))
-                (td ,(time-part (datetime t)))))
-          (if (hasabstract t)
-            `((tr (td ([colspan 4])
-                      (include ,(string "../" (abstractpath t)) #:markdown))))
-            '())))
+(remark
+  (define (talk-row t)
+    (append `((tr (td ,(title t))
+                  (td ,(speaker t))
+                  (td ,(location t))
+                  (td ,(time-part (datetime t)))))
+            (if (hasabstract t)
+              `((tr (td ([colspan 4])
+                        (include ,(string "../" (abstractpath t)) #:markdown))))
+              '()))))
 
 (h2 "Upcoming Talks")
 
@@ -22,12 +23,12 @@
          (append
            `((tr (th ([colspan 4]) "Talks on " ,(human d))))
            (convert List (flatten (map talk-row ts)))))
-         '()))))
+       '()))))
 
 (h2 "Website Information")
 
 (p "This website was last regenerated on "
-   (#:var (human ((. Dates today))))
+   (remark (human ((. Dates today))))
    " by Htsx with Julia "
-   (#:var (string VERSION))
+   (remark (string VERSION))
    ".")

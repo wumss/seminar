@@ -12,8 +12,8 @@
             [src "http://uwseminars.com/seminar-transparent.png"]
             [class "banner"]))
       (p ([class "location-time"])
-         (#:var (human (datetime (ref talks 1))))
-         " in " (#:var (location (ref talks 1))))
+         (remark (human (datetime (ref talks 1))))
+         " in " (remark (location (ref talks 1))))
       (div ([class "talks"])
            (#:each t talks
             `((h2 ,(title t))

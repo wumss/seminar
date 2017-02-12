@@ -7,7 +7,7 @@
    (#:template link-to "tag/first-year-friendly"
     "first-year-friendly topics")
    ". We have "
-   (#:var (string (length suggestions)))
+   (remark (string (length suggestions)))
    " potential topics for you to choose from, or you could create your own! "
    "Once you have found a topic, whether a suggested topic or one of "
    "your own choosing, please fill out the "

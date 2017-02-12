@@ -1,7 +1,7 @@
 ;; TODO: we ought not to use ref so often, as it's brittle to changes in format
-(h1 (#:var (ref document 'title)))
+(h1 (remark (ref document 'title)))
 
-(p (#:var (ref (brief document) 'summary)))
+(p (remark (ref (brief document) 'summary)))
 
 (include (string "../document/" (ref document 'id)) #:markdown)
 
