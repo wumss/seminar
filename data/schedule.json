@@ -116,7 +116,6 @@
         "identifier": "kt-GameTheory",
         "tags": [
             "economics",
-            "first year friendly",
             "game theory"
         ]
     },
@@ -283,8 +282,7 @@
         "tags": [
             "q-analogs",
             "combinatorics",
-            "enumeration",
-            "first year friendly"
+            "enumeration"
         ],
         "identifier": "fw-q",
         "speaker": "Fengyang Wang"
@@ -317,7 +315,6 @@
         "time": "2017-02-10T17:30:00Z",
         "title": "Ordinals",
         "tags": [
-            "first year friendly",
             "ordinals",
             "set theory"
         ],
@@ -331,8 +328,7 @@
         "tags": [
             "computer science",
             "cryptography",
-            "distributed system",
-            "first year friendly"
+            "distributed system"
         ],
         "identifier": "bz-Bitcoin",
         "speaker": "Ben Zhang"
@@ -343,8 +339,7 @@
         "title": "General Secure Multi-Party Computation from any Linear Secret-Sharing Scheme",
         "tags": [
             "computer science",
-            "cryptography",
-            "first year friendly"
+            "cryptography"
         ],
         "identifier": "zz-SSS",
         "speaker": "Zihao Zhu"
@@ -363,7 +358,6 @@
         "title": "Total Functional Programming",
         "tags": [
             "computer science",
-            "first year friendly",
             "functional programming",
             "Tech Talks"
         ],
@@ -401,7 +395,6 @@
             "algorithms",
             "computer science",
             "data structure",
-            "first year friendly",
             "space efficiency",
             "probability"
         ],
