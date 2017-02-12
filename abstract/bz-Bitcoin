@@ -1,0 +1,20 @@
+In this talk, we will learn about the principles behind the Double Spend
+Problem, the Blockchain, and explore the various ways this technology is being
+used today.
+
+Transferring money in the physical world is easy. However, the transfer of
+virtual currency is not as easy to validate. The Double Spend Problem has long
+stood in the way of a free (libre et gratis) virtual currency, and the world
+found a need for a third party (usually in the form of large banks) to validate
+all virtual transactions. 
+
+In 2008, a mysterious individual known as Satoshi Nakamoto published a paper
+titled "Bitcoin: A Peer-to-Peer Electronic Cash System" which describes a
+system for virtual transactions to be validated through the distributed
+computing power of the community. The system, known as the Blockchain, uses
+hashing and non-deterministic mathematics to protect itself from Double
+Spending attacks. Nakamoto's paper led to the creation of free online
+currencies such Bitcoin, Litecoin, and Ethereum, which are used in marketplaces
+today.
+
+Prerequisite Information: Middle school math.
