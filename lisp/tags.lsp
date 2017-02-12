@@ -5,7 +5,20 @@
   (define majortags
     (filter (λ (t) (> ((. Tags popularity) tagmatrix t) 2)) alltags))
   (define minortags
-    (filter (λ (t) (≤ ((. Tags popularity) tagmatrix t) 2)) alltags))
+    (filter (λ (t) (≤ ((. Tags popularity) tagmatrix t) 2)) alltags)))
+
+;; TODO: this is a really good idea in theory, but we need a way to associate
+;; tag names with their URIs from the JavaScript side before it's practical.
+;;(p (label "Find a tag: "
+;;          (input ([type "text"]
+;;                  [id "selectedtag"]
+;;                  [list "taglist"]))
+;;          (datalist ([id "taglist"])
+;;                    (#:each t alltags
+;;                     `((option ([value ,(tagname t)]))))))
+;;   (button ([id "tagclick"]) "View tag page"))
+
+(remark
   (define tagforest (forest tagmatrix majortags))
   (define (tohtml (:: t (. Tags TagTree)))
     (if (isempty (children t))
@@ -24,3 +37,5 @@
 
 (script ([src "/scripts/collapse.js"]))
 (script "CollapsibleLists.apply(true);")
+;; TODO: see above
+;; (script ([src "/scripts/tagclick.js"]))
