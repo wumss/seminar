@@ -15,13 +15,13 @@ is a strict total-ordering if the following two conditions hold.
 A totally ordered set ``(A, <)`` is well ordered if every non-empty subset of
 ``A`` has a smallest element with respect to ``<``. \end{defn}
 
-We define the natural numbers as follows. Let ``0 := \empty``, and ``n := (n -
+We define the natural numbers as follows. Let ``0 := \varnothing``, and ``n := (n -
 1) \cup \{n - 1\}`` for non-zero natural numbers. But this is circular because
 we don't have induction yet. So for this, we need the axiom of induction. This
 says the following.
 
 **Axiom of Infinity**
-There is a set ``I`` such that ``\empty \in I`` and for every ``x \in I`` we
+There is a set ``I`` such that ``\varnothing \in I`` and for every ``x \in I`` we
 have ``S(x) \in I`` where ``S(x) = x \cup \{x\}``.
 
 Define ``\omega`` to be the smallest subset of ``I`` that satisfies this
@@ -54,13 +54,13 @@ Now let's prove the first part of our theorem.
 Suppose that ``X \subseteq \omega`` has no least element and ``X \subseteq \omega``. Let
 
 ```math
-J = \{n \in \omega : S(n) \cap X = \empty\}.
+J = \{n \in \omega : S(n) \cap X = \varnothing\}.
 ```
 
 Since ``X`` has no least element we cannot have ``0 \in X``. Hence ``S(0) \cap
-X = \empty`` and this means that ``0 \in J``. Now suppose that ``n \in J``
-which means ``S(n) \cap X = \empty``. Now ``S(n) \not in X`` because it would
-be least. Hence ``S(S(n)) \cap X = \empty `` so ``S(n) \in J``.
+X = \varnothing`` and this means that ``0 \in J``. Now suppose that ``n \in J``
+which means ``S(n) \cap X = \varnothing``. Now ``S(n) \not in X`` because it would
+be least. Hence ``S(S(n)) \cap X = \varnothing `` so ``S(n) \in J``.
 
 Now here's an important theorem we will not prove.
 
@@ -153,5 +153,6 @@ virtually immediately said yes. Then I asked about ``2^2``, and he again said
 yes, but with a perceptible delay. Then ``2^3``, and yes, but with more delay.
 This continued for a couple of more times, till it was obvious how he was
 handling this objection. Sure, he was prepared to always answer yes, but he was
-going to take ``2^100`` times as long to answer yes to ``2^100`` then he would
-to answering ``2^1``. There is no way that I could get very far with this.
+going to take ``2^{100}`` times as long to answer yes to ``2^{100}`` then he
+would to answering ``2^1``. There is no way that I could get very far with
+this.
