@@ -43,13 +43,13 @@
 </li>
 </ul>
 <p>A totally ordered set &#36;&#40;A, &lt;&#41;&#36; is well ordered if every non-empty subset of &#36;A&#36; has a smallest element with respect to &#36;&lt;&#36;. \end&#123;defn&#125;</p>
-<p>We define the natural numbers as follows. Let &#36;0 :&#61; \empty&#36;, and &#96;&#96;n :&#61; &#40;n -</p>
+<p>We define the natural numbers as follows. Let &#36;0 :&#61; \varnothing&#36;, and &#96;&#96;n :&#61; &#40;n -</p>
 <ol>
 <li><p>\cup &#123;n - 1&#125;&#96;&#96; for non-zero natural numbers. But this is circular because</p>
 </li>
 </ol>
 <p>we don&#39;t have induction yet. So for this, we need the axiom of induction. This says the following.</p>
-<p><strong>Axiom of Infinity</strong> There is a set &#36;I&#36; such that &#36;\empty \in I&#36; and for every &#36;x \in I&#36; we have &#36;S&#40;x&#41; \in I&#36; where &#36;S&#40;x&#41; &#61; x \cup \&#123;x\&#125;&#36;.</p>
+<p><strong>Axiom of Infinity</strong> There is a set &#36;I&#36; such that &#36;\varnothing \in I&#36; and for every &#36;x \in I&#36; we have &#36;S&#40;x&#41; \in I&#36; where &#36;S&#40;x&#41; &#61; x \cup \&#123;x\&#125;&#36;.</p>
 <p>Define &#36;\omega&#36; to be the smallest subset of &#36;I&#36; that satisfies this property &#40;call any set that satisfies this property _inductive_&#41;. Formally this is the following:</p>
 &#36;\omega &#61; \bigcap \Big\&#123;J \subseteq I : 0 \in J, \text&#123;
 for all x &#125; \in \text&#123; J we have &#125; S&#40;x&#41; \in J\Big\&#125;.&#36;
@@ -61,8 +61,8 @@ for all x &#125; \in \text&#123; J we have &#125; S&#40;x&#41; \in J\Big\&#125;.
 <p>Proof: Observe that &#36;J &#61; \&#123;0\&#125; \cup \&#123;n \in \omega : 0 in n\&#125; \subseteq \omega&#36; and is inductive.</p>
 <p>Now let&#39;s prove the first part of our theorem.</p>
 <p>Suppose that &#36;X \subseteq \omega&#36; has no least element and &#36;X \subseteq \omega&#36;. Let</p>
-&#36;J &#61; \&#123;n \in \omega : S&#40;n&#41; \cap X &#61; \empty\&#125;.&#36;
-<p>Since &#36;X&#36; has no least element we cannot have &#36;0 \in X&#36;. Hence &#36;S&#40;0&#41; \cap X &#61; \empty&#36; and this means that &#36;0 \in J&#36;. Now suppose that &#36;n \in J&#36; which means &#36;S&#40;n&#41; \cap X &#61; \empty&#36;. Now &#36;S&#40;n&#41; \not in X&#36; because it would be least. Hence &#36;S&#40;S&#40;n&#41;&#41; \cap X &#61; \empty&#36; so &#36;S&#40;n&#41; \in J&#36;.</p>
+&#36;J &#61; \&#123;n \in \omega : S&#40;n&#41; \cap X &#61; \varnothing\&#125;.&#36;
+<p>Since &#36;X&#36; has no least element we cannot have &#36;0 \in X&#36;. Hence &#36;S&#40;0&#41; \cap X &#61; \varnothing&#36; and this means that &#36;0 \in J&#36;. Now suppose that &#36;n \in J&#36; which means &#36;S&#40;n&#41; \cap X &#61; \varnothing&#36;. Now &#36;S&#40;n&#41; \not in X&#36; because it would be least. Hence &#36;S&#40;S&#40;n&#41;&#41; \cap X &#61; \varnothing&#36; so &#36;S&#40;n&#41; \in J&#36;.</p>
 <p>Now here&#39;s an important theorem we will not prove.</p>
 <p><strong>Proposition</strong>. Every element of &#36;\omega&#36; is a subset of &#36;\omega&#36;.</p>
 <p>Using this we can finally define an ordinal.</p>
@@ -101,5 +101,5 @@ for all x &#125; \in \text&#123; J we have &#125; S&#40;x&#41; \in J\Big\&#125;.
 <blockquote>
 <p>I have seen some ultrafinitists go so far as to challenge the existence of</p>
 </blockquote>
-<p>&#36;2^&#123;100&#125;&#36; as a natural number, in the sense of there being a series of “points” of that length. There is the obvious “draw the line” objection, asking where in &#36;2^1&#36;, &#36;2^2&#36;, &#36;2^3&#36;, ... , &#36;2^&#123;100&#125;&#36; do we stop having “Platonistic reality”? Here this … is totally innocent, in that it can be easily be replaced by &#36;100&#36; items &#40;names&#41; separated by commas. I raised just this objection with the &#40;extreme&#41; ultrafinitist Yessenin-Volpin during a lecture of his. He asked me to be more specific. I then proceeded to start with &#36;2^1&#36; and asked him whether this is “real” or something to that effect. He virtually immediately said yes. Then I asked about &#36;2^2&#36;, and he again said yes, but with a perceptible delay. Then &#36;2^3&#36;, and yes, but with more delay. This continued for a couple of more times, till it was obvious how he was handling this objection. Sure, he was prepared to always answer yes, but he was going to take &#36;2^100&#36; times as long to answer yes to &#36;2^100&#36; then he would to answering &#36;2^1&#36;. There is no way that I could get very far with this.</p>
+<p>&#36;2^&#123;100&#125;&#36; as a natural number, in the sense of there being a series of “points” of that length. There is the obvious “draw the line” objection, asking where in &#36;2^1&#36;, &#36;2^2&#36;, &#36;2^3&#36;, ... , &#36;2^&#123;100&#125;&#36; do we stop having “Platonistic reality”? Here this … is totally innocent, in that it can be easily be replaced by &#36;100&#36; items &#40;names&#41; separated by commas. I raised just this objection with the &#40;extreme&#41; ultrafinitist Yessenin-Volpin during a lecture of his. He asked me to be more specific. I then proceeded to start with &#36;2^1&#36; and asked him whether this is “real” or something to that effect. He virtually immediately said yes. Then I asked about &#36;2^2&#36;, and he again said yes, but with a perceptible delay. Then &#36;2^3&#36;, and yes, but with more delay. This continued for a couple of more times, till it was obvious how he was handling this objection. Sure, he was prepared to always answer yes, but he was going to take &#36;2^&#123;100&#125;&#36; times as long to answer yes to &#36;2^&#123;100&#125;&#36; then he would to answering &#36;2^1&#36;. There is no way that I could get very far with this.</p>
 </div><h2>Tags</h2><ul><li><a href="/tag/first-year-friendly" class="tag-link tag-first-year-friendly">first year friendly</a></li><li><a href="/tag/ordinals" class="tag-link tag-ordinals">ordinals</a></li><li><a href="/tag/set-theory" class="tag-link tag-set-theory">set theory</a></li></ul></article></section></body></html>
