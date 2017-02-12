@@ -1,0 +1,157 @@
+Notes by Akshay Tiwary.
+
+We use natural numbers for two things. For ordering things and for measuring
+the size of a set. Ordinals generalize natural numbers but also work for
+infinite sets.
+
+Let's talk about well-ordered sets first.
+
+**Definition**. Let ``<`` be a binary relation on  set ``A``. We say that ``(A, <)``
+is a strict total-ordering if the following two conditions hold.
+
+  - For every ``x,y \in A`` we have exactly one of ``x < y`` or ``x = y`` or ``y < x``.
+  - For all ``x,y,z \in A`` we have that if ``x < y`` and ``y < x`` then ``x < z``.
+
+A totally ordered set ``(A, <)`` is well ordered if every non-empty subset of
+``A`` has a smallest element with respect to ``<``. \end{defn}
+
+We define the natural numbers as follows. Let ``0 := \empty``, and ``n := (n -
+1) \cup \{n - 1\}`` for non-zero natural numbers. But this is circular because
+we don't have induction yet. So for this, we need the axiom of induction. This
+says the following.
+
+**Axiom of Infinity**
+There is a set ``I`` such that ``\empty \in I`` and for every ``x \in I`` we
+have ``S(x) \in I`` where ``S(x) = x \cup \{x\}``.
+
+Define ``\omega`` to be the smallest subset of ``I`` that satisfies this
+property (call any set that satisfies this property _inductive_). Formally
+this is the following:
+
+```math
+\omega = \bigcap \Big\{J \subseteq I : 0 \in J, \text{
+for all x } \in \text{ J we have } S(x) \in J\Big\}.
+```
+
+``\omega`` is the formal definition of the natural numbers.
+
+Here is a theorem that is our first result.
+
+**Theorem**.
+``(\omega, \in)`` is a strict well order and for every ``n \in \omega``, ``(n,
+\in) `` is also a strict well order.
+
+Here is a lemma that we will need.
+
+**Lemma**.
+Let ``n \in \omega``. Then either ``0 = n`` or ``0 \in n``.
+
+Proof: Observe that ``J = \{0\} \cup \{n \in \omega : 0 in n\} \subseteq
+\omega`` and is inductive.
+
+Now let's prove the first part of our theorem.
+
+Suppose that ``X \subseteq \omega`` has no least element and ``X \subseteq \omega``. Let
+
+```math
+J = \{n \in \omega : S(n) \cap X = \empty\}.
+```
+
+Since ``X`` has no least element we cannot have ``0 \in X``. Hence ``S(0) \cap
+X = \empty`` and this means that ``0 \in J``. Now suppose that ``n \in J``
+which means ``S(n) \cap X = \empty``. Now ``S(n) \not in X`` because it would
+be least. Hence ``S(S(n)) \cap X = \empty `` so ``S(n) \in J``.
+
+Now here's an important theorem we will not prove.
+
+**Proposition**.
+Every element of ``\omega`` is a subset of ``\omega``.
+
+Using this we can finally define an ordinal.
+
+An **ordinal** is a set satisfying the following two properties.
+
+  - ``(\alpha, \in) `` is a strict well-ordering
+  - Every element of ``\alpha`` is a subset of ``\alpha``.
+
+Observe that subsets of ordinals are not always ordinals as ``\{\{0\}\}
+\subseteq 2`` but ``\{\{0\}\} \not\in 2``. However we have the following
+result.
+
+**Proposition**.
+If ``\alpha, \beta`` are ordinals with ``\alpha \neq \beta`` and ``\alpha
+\subseteq \beta`` then ``\alpha \in \beta``.
+
+We have a very cool result for ordinals that we will not prove here.
+
+**Proposition**.
+Let ``\alpha, \beta`` be ordinals. Then either ``\alpha \in \beta``, ``\alpha =
+\beta`` or ``\beta \in \alpha``.
+
+Let ``E`` be a set of ordinals. Let ``X = \bigcup E``. Then ``X`` is an
+ordinal. [Exercise] You can check that ``\sup E`` is the least upper bound of
+``E`` where ``< `` is membership.
+
+We can state the principle of transfinite induction as follows.
+
+**Proposition: Transfinite Induction**.
+Suppose that ``P(x)`` is a well-formed statement about an ordinal ``x``. Suppose
+
+  - P(0) is true.
+
+  - If ``P(\alpha)`` is true for some ordinal ``\alpha`` then ``P(S(\alpha))`` is true.
+
+  - If ``\alpha`` is a limit ordinal and ``\alpha > 0`` then ``P(\beta)`` is
+    true for all ``\beta < \alpha`` then ``P(\alpha)`` is true.
+
+Since we don't have time we will explain transfinite recursion by using it to
+define ordinal addition.
+
+**Definition**.
+Let ``\beta`` be an ordinal. First define ``\beta + 0 = \beta``. Then for an
+ordinal ``\alpha`` define ``\beta + S(\alpha) = S(\beta + \alpha)``. Lastly if
+``\alpha`` is a limit ordinal (an ordinal that is not a successor ordinal i.e
+not of the form ``S(x)`` for any ordinal ``x``) then define
+
+```math
+\beta + \alpha = \sup\{\beta + \gamma : \gamma > \alpha\}.
+```
+
+Here is a huge theorem.
+
+**Proposition**.
+Let ``(A, <)`` be any strict well ordering. Then there is a unique ordinal
+``\alpha`` such that ``(A, <) `` is isomorphic to ``(\alpha, \in)`` as an
+ordering (please google/ask what an isomorphism of orderings is).
+
+Hence if we have the axiom of choice, then every set is well-orderable. Hence
+we can define the notion of a _cardinal_ for any set.
+
+**Definition**.
+An ordinal ``\alpha`` is a cardinal if there is no ordinal ``\beta < \alpha``
+such that there is a bijection ``f : \beta \to \alpha``.
+
+So the axiom of choice guarantees that there is a cardinal for every set.
+
+Okay that's enough math. Let's talk about the Philosophy of infinity.
+
+A finitist will deny infinite mathematics. But an ultrafinitist denies the
+mathematics of very large numbers. Read Harvey M Friedman's
+[account](https://dialinf.wordpress.com/2009/02/16/achilles-tortoise-and-yessenin-volpin/)
+on meeting an ultrafinitist "Philosophical Problems in Logic".
+
+> I have seen some ultrafinitists go so far as to challenge the existence of
+``2^{100}`` as a natural number, in the sense of there being a series of
+“points” of that length. There is the obvious “draw the line” objection, asking
+where in ``2^1``, ``2^2``, ``2^3``, ... , ``2^{100}`` do we stop having
+“Platonistic reality”? Here this … is totally innocent, in that it can be
+easily be replaced by ``100`` items (names) separated by commas. I raised just
+this objection with the (extreme) ultrafinitist Yessenin-Volpin during a
+lecture of his. He asked me to be more specific. I then proceeded to start with
+``2^1`` and asked him whether this is “real” or something to that effect. He
+virtually immediately said yes. Then I asked about ``2^2``, and he again said
+yes, but with a perceptible delay. Then ``2^3``, and yes, but with more delay.
+This continued for a couple of more times, till it was obvious how he was
+handling this objection. Sure, he was prepared to always answer yes, but he was
+going to take ``2^100`` times as long to answer yes to ``2^100`` then he would
+to answering ``2^1``. There is no way that I could get very far with this.
