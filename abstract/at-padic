@@ -3,7 +3,7 @@ al number. We will define the p-adic absolute value and see that this absolute
 value is Non-archimedean and that this fact leads to a a geometry that is very 
 different from the geometry of the Real numbers (every p-adic triangle is isosc
 eles!). In addition I will show you some fun ideas from p-adic numbers (which I
-will denote by ``\Q_p`` like the fact that ``\sum_{n = 1}^{\infty} 3^n`` 
+will denote by ``\mathbb{Q}_p`` like the fact that ``\sum_{n = 1}^{\infty} 3^n`` 
 converges and how every element of ``\mathbb{Q}_p`` has a base ``p`` expansion.
 This is meant to be a very leisurely talk with almost no prerequisites and it 
 should be fun so please come for it! 
