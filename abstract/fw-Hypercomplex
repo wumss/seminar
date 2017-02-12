@@ -8,13 +8,13 @@ the result that these are the unique hypercomplex number systems, up to
 isomorphism. Finally, we will discuss possible generalizations to ``n``
 dimensions. Please ensure that you have a good understanding of fundamental
 concepts of [two-dimensional linear
-algebra](/seminar/document/2d-linear-algebra).
+algebra](/document/2d-linear-algebra).
 
 We will use [Catoni, F., Cannata, R., Catoni, V., & Zampetti, P.
 (2004)](http://link.springer.com/article/10.1007/s00006-004-0008-2) as a
 reference.
 
-### Outline
+## Outline
 
 - Definition of the complex number field ``\mathbf{C}`` (20 mins)
   - Rotation matrices in two dimensions

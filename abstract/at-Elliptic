@@ -1,6 +1,6 @@
 Elliptic Curves lie in the intersection of Algebra, Geometry, Number Theory and Complex Analysis. While my talk won't require any experience with complex analysis or algebraic geometry, I hope to expose you to this active area of research. Although I *could* tell you that the meat of Wiles' proof of Fermat's Last Theorem involved proving a special case conjecture previously known as the Taniyama Shimura conjecture involving elliptic curves, or that the Birch and Swinnerton-Dyer conjecture is an open millenium prize problem that talks about the relation between the arithmetic behaviour of elliptic curves and the analytic behaviour of an L-function, or that elliptic curves over finite fields is so useful for cryptography that there was a memo that recommended elliptic curves for federal government use in 1999, I don't have to because you're a math student who will attend this talk without needing to be wowed with cool applications, right?
 
-### Outline
+## Outline
 - Introduction (25 mins)
     - Why rational points on curves?
     - The Projective Plane

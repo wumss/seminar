@@ -25,4 +25,5 @@ generate_page(Dict(
     :pagetype => "documents",
     :documents => documents,
     :mathjaxplease => true,
+    :talks => talks,
     :github => "$GITHUB/pages/document.md"), "document"; modules=[Talks])
