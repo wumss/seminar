@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 .minipage {
-    font-family: "Ubuntu";
+    font-family: 'Ubuntu', sans-serif;
     width: 850px;
     height: 1100px;
     background-color: white;
@@ -10,13 +12,13 @@
 .banner {
     position: absolute;
     top: 50px;
-    left: 50px;
+    left: 125px;
 }
 
 .location-time {
     font-size: 40px;
     position: absolute;
-    top: 360px;
+    top: 310px;
     left: 50px;
     right: 50px;
     text-align: center;
@@ -35,15 +37,15 @@
     position: absolute;
     left: 50px;
     right: 50px;
-    top: 410px;
+    top: 375px;
     font-size: 1.2em;
     line-height: 1.5em;
 }
 
 .talks time {
     position: relative;
-    font-size: 30px;
-    top: -46px;
+    font-size: 35px;
+    top: -51px;
     float: right;
 }
 
