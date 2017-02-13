@@ -3,9 +3,9 @@
 (remark
   (define alltags (collect (tags tagmatrix)))
   (define majortags
-    (filter (λ (t) (> ((. Tags popularity) tagmatrix t) 2)) alltags))
+    (filter (λ (t) (> ((.popularity Tags) tagmatrix t) 2)) alltags))
   (define minortags
-    (filter (λ (t) (≤ ((. Tags popularity) tagmatrix t) 2)) alltags)))
+    (filter (λ (t) (≤ ((.popularity Tags) tagmatrix t) 2)) alltags)))
 
 ;; TODO: this is a really good idea in theory, but we need a way to associate
 ;; tag names with their URIs from the JavaScript side before it's practical.
@@ -20,11 +20,11 @@
 
 (remark
   (define tagforest (forest tagmatrix majortags))
-  (define (tohtml (:: t (. Tags TagTree)))
+  (define (tohtml (:: t (.TagTree Tags)))
     (if (isempty (children t))
       `(li ,(tag-link (root t)))
       `(li ,(tag-link (root t)) ,(tohtml (children t) #f))))
-  (define (tohtml (:: ts (. Tags TagForest)) isroot)
+  (define (tohtml (:: ts (.TagForest Tags)) isroot)
     (append '(ul)
             (if isroot '(([class "collapsibleList"])) '())
             (map tohtml (convert list ts))))

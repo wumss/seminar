@@ -1,9 +1,9 @@
 (remark
-  (define (human (:: d (. Dates TimeType)))
-    ((. Dates format) d "E U d, YYYY"))
+  (define (human (:: d (.TimeType Dates)))
+    ((.format Dates) d "E U d, YYYY"))
 
   (define (time-part t)
-    ((. Dates format) t "HH:MM"))
+    ((.format Dates) t "HH:MM"))
 
   (define (nav-link url text)
     (if (== url currentpage)
@@ -30,7 +30,7 @@
         (p "Delivered by " ,(speaker t) " on " ,(human (datetime t))))
       (if (hasabstract t)
         (cut-abstract-at-h2
-          ((. StdLib rendermd) (readstring (abstractpath t))))
+          ((.rendermd StdLib) (readstring (abstractpath t))))
         '())
       (if (hassummary t)
         `((a ([href ,(string "/" (url t))])
@@ -38,7 +38,7 @@
         '())))
 
   (define (render-reference r)
-    ((. StdLib rendermd) r))
+    ((.rendermd StdLib) r))
 
   (define (li x)
     `(li ,x))
@@ -47,7 +47,7 @@
     (append
       `((h3 ,(ref s 'topic)))
       (if (haskey s 'excerpt)
-        `(,((. StdLib rendermd) (ref s 'excerpt)))
+        `(,((.rendermd StdLib) (ref s 'excerpt)))
         '())
       (if (isempty (ref s 'references))
         '()

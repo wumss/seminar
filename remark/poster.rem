@@ -25,7 +25,7 @@
                  "by " ,(speaker t))
               (div ([class "talk-abstract"]
                     [contenteditable "true"])
-                 ,((. StdLib rendermd)
+                 ,((.rendermd StdLib)
                    (join (take (sentences
                                  (if (hasabstract t)
                                    (readstring
