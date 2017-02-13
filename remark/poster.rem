@@ -7,8 +7,8 @@
                              [value "#FFF"]
                              [id "color-pick"]))))
  (div ([class "minipage"])
-      (img ([width 750]
-            [height 285]
+      (img ([width 600]
+            [height 228]
             [src "http://uwseminars.com/seminar-transparent.png"]
             [class "banner"]))
       (p ([class "location-time"])
@@ -16,7 +16,7 @@
          " in " (remark (location (ref talks 1))))
       (div ([class "talks"])
            (#:each t talks
-            `((h2 ,(title t))
+            `((h2 ([contenteditable "true"]) ,(title t))
               (time ,(time-part (datetime t)))
               (p ([fill "#000000"]
                   [font-size 18]
