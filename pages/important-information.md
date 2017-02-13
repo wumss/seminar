@@ -32,4 +32,6 @@
 - Please make the effort to attend as many talks as possible. The seminar is
   about both teaching and learning.
 
-- Please read [Chris Godsil’s comments] on how to deliver a good talk.
+- Please read [Chris Godsil’s
+  comments](http://www.math.uwaterloo.ca/~cgodsil/Advice/talks.pdf) on how to
+  deliver a good talk.
