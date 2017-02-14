@@ -1271,5 +1271,21 @@
             "Tech Talks",
             "type theory"
         ]
+    },
+    {
+        "topic": "Constructive Mathematics",
+        "references": [
+            "(Talk) [Andrej Bauer, Five Stages of Accepting Constructive Mathematics](https://www.youtube.com/watch?v=zmhd8clDd_Y)"
+        ],
+        "excerpt": "Constructive mathematics, or mathematics without the law of the excluded middle, is becoming more popular thanks to connections with computer science, category theory, and topology. Its logical foundations may be initially difficult to grasp for those used to a classical system.",
+        "tags": [
+            "computability",
+            "computer science",
+            "constructive mathematics",
+            "logic",
+            "topology",
+            "type theory",
+            "philosophy"
+        ]
     }
 ]
