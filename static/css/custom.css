@@ -104,3 +104,8 @@ li.collapsibleListClosed:before {
     font-weight: bold;
     color: rgb(60, 150, 60);
 }
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+}

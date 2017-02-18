@@ -1,0 +1,25 @@
+(h1 "Potential Topic Tool")
+
+(h2 "Instructions")
+(ol
+  (li "Wait for data to load.")
+  (li "Press Add Topic button to add a new suggested topic.")
+  (li "Fill out the required information.")
+  (li "Press Save to save changes locally.")
+  (li "When done, press Generate JSON to generate JSON.")
+  (li "Click "
+      (a ([href "https://github.com/wumss/seminar/edit/master/data/suggested-topics.json"]) "here")
+      " and paste the JSON in the Result textbox, then commit or make a"
+      " pull request."))
+
+(h2 "Tool")
+
+(p "Current status: " (span ([id "status"]) "Please wait for data to load."))
+
+(p "List of Suggested Topics"
+   (ul ([id "suggested"])))
+
+(p (label "Result"
+          (textarea ([id "committed"] [rows 15] [cols 2]))))
+
+(script ([src "/scripts/pttool.js"]))

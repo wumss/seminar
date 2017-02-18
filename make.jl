@@ -22,6 +22,12 @@ for directory in ["public", "public/archive", "public/tag"]
     end
 end
 
+# Copy static files
+for file in readdir("static")
+    info(file; prefix="COPYING: ")
+    cp("static/$file", "public/$file"; remove_destination=true)
+end
+
 # Make simple static pages
 publics = Dict(
     "write-markdown"        => "Markdown Guide",
@@ -44,7 +50,8 @@ end
 
 # Make input-less lisp static pages
 lisppublics = Dict("faq"         => "Frequently Asked Questions",
-                   "submit-talk" => "Talk Submission Form")
+                   "submit-talk" => "Talk Submission Form",
+                   "pttool"      => "Potential Topics Tool")
 
 for (k, v) in lisppublics
     generate_page(Dict(
@@ -156,9 +163,3 @@ generate_page(Dict(
     :mathjaxplease => true,
     :github => "$GITHUB/remark/suggested-topics.rem"), "potential-topics";
                modules=[Talks])
-
-# Copy static files
-for file in readdir("static")
-    info(file; prefix="COPYING: ")
-    cp("static/$file", "public/$file"; remove_destination=true)
-end
