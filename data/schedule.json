@@ -347,11 +347,17 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-24T17:30:00Z",
-        "title": "",
-        "tags": [],
-        "identifier": "READING WEEK-change-me",
-        "speaker": "READING WEEK"
+        "time": "2017-02-24T18:30:00Z",
+        "title": "Inverse Galois Theory",
+        "tags": [
+            "algebra",
+            "field theory",
+            "Galois theory",
+            "group theory",
+            "open problem"
+        ],
+        "identifier": "dl-IGT",
+        "speaker": "David Liu"
     },
     {
         "location": "MC 4045",
