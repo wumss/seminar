@@ -3,10 +3,9 @@
 (h2 "Instructions")
 (ol
   (li "Wait for data to load.")
-  (li "Press Add Topic button to add a new suggested topic.")
-  (li "Fill out the required information.")
-  (li "Press Save to save changes locally.")
-  (li "When done, press Generate JSON to generate JSON.")
+  (li "Fill out the required information to add a new topic.")
+  (li "Note: separate tags with a comma, and separate references by a new line.")
+  (li "When done, press Copy to clipboard to copy the data.")
   (li "Click "
       (a ([href "https://github.com/wumss/seminar/edit/master/data/suggested-topics.json"]) "here")
       " and paste the JSON in the Result textbox, then commit or make a"
@@ -19,7 +18,21 @@
 (p "List of Suggested Topics"
    (ul ([id "suggested"])))
 
-(p (label "Result"
-          (textarea ([id "committed"] [rows 15] [cols 2]))))
+(h3 "Add topic")
+(p (label "Topic: " (input ([type "text"] [id "attopic"]))))
+(p (label "Tags: " (input ([type "text"] [id "attags"]))))
+(p (label "References: "
+          (textarea ([rows 5] [cols 2] [id "atreferences"]))))
+(p (label "Excerpt: "
+          (textarea ([rows 10] [cols 2] [id "atexcerpt"]))))
 
+(p (label "Result"
+          (textarea ([readonly "readonly"]
+                     [id "committed"]
+                     [rows 15] [cols 2])))
+   (button ([class "copyclipboard"]
+            [data-clipboard-target "#committed"])
+           "Copy to clipboard"))
+
+(script ([src "https://cdn.jsdelivr.net/clipboard.js/1.6.0/clipboard.min.js"]))
 (script ([src "/scripts/pttool.js"]))
