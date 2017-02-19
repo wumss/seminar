@@ -428,6 +428,18 @@
         ]
     },
     {
+        "topic": "Fermi Estimation",
+        "tags": [
+            "physics",
+            "approximation",
+            "statistics"
+        ],
+        "references": [
+            "[Art of approximation in science and engineering](http://web.mit.edu/6.055/)"
+        ],
+        "excerpt": "Physicist Enrico Fermi was known for his impressive order-of-magnitude estimation. He was famously able to estimate the yield of the Trinity test atomic bomb to about a factor of two. Why is Fermi estimation so useful and accurate? What are the techniques to make better approximations? How can and do scientists, mathematicians, engineers, and others use Fermi estimation in their work?"
+    },
+    {
         "topic": "Fishburn numbers and their Applications in Enumeration",
         "tags": [
             "combinatorics",
