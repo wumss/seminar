@@ -897,6 +897,18 @@
         ]
     },
     {
+        "topic": "Purely Functional Data Structures",
+        "tags": [
+            "computer science",
+            "data structures",
+            "functional programming"
+        ],
+        "references": [
+            "[Haim Kapland and Robert E. Tarjan, Purely Functional, Real-Time Deques with Catenation](http://www.math.tau.ac.il/~haimk/adv-ds-2000/jacm-final.pdf)"
+        ],
+        "excerpt": "Persistent (or purely function) data structures are those whose operations do not mutate the existing data structure, but rather create a new data structure that might share some state. These data structures are useful because there is no need to copy memory; rather the data structure can be shared among multiple objects. Techniques for making these data structures fast, memory-efficient, or real-time are an active area of research in functional programming."
+    },
+    {
         "topic": "Queueing Theory",
         "tags": [
             "computer science",
