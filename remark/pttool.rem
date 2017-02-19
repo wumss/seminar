@@ -19,8 +19,14 @@
    (ul ([id "suggested"])))
 
 (h3 "Add topic")
-(p (label "Topic: " (input ([type "text"] [id "attopic"]))))
-(p (label "Tags: " (input ([type "text"] [id "attags"]))))
+(p (label "Topic: " (input ([type "text"]
+                            [class "wide"]
+                            [placeholder "Inverse Galois Theory"]
+                            [id "attopic"]))))
+(p (label "Tags: " (input ([type "text"]
+                           [class "wide"]
+                           [placeholder "algebra, group theory, field theory, Galois theory"]
+                           [id "attags"]))))
 (p (label "References: "
           (textarea ([rows 5] [cols 2] [id "atreferences"]))))
 (p (label "Excerpt: "
