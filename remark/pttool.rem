@@ -28,17 +28,28 @@
                            [placeholder "algebra, group theory, field theory, Galois theory"]
                            [id "attags"]))))
 (p (label "References: "
-          (textarea ([rows 5] [cols 2] [id "atreferences"]))))
+          (textarea ([rows 5]
+                     [cols 2] 
+                     [id "atreferences"]
+                     [placeholder "[Author, Title](https://link.com/one/reference/per/line)"]))))
 (p (label "Excerpt: "
-          (textarea ([rows 10] [cols 2] [id "atexcerpt"]))))
+          (textarea ([rows 10]
+                     [cols 2]
+                     [id "atexcerpt"]
+                     [placeholder "Brief summary of topic."]))))
 
 (p (label "Result"
           (textarea ([readonly "readonly"]
                      [id "committed"]
-                     [rows 15] [cols 2])))
+                     [rows 15]
+                     [cols 2])))
    (button ([class "copyclipboard"]
             [data-clipboard-target "#committed"])
            "Copy to clipboard"))
+
+(p "When finished, paste the content "
+   (a ([href "https://github.com/wumss/seminar/edit/master/data/suggested-topics.json"])
+      "here"))
 
 (script ([src "https://cdn.jsdelivr.net/clipboard.js/1.6.0/clipboard.min.js"]))
 (script ([src "/scripts/pttool.js"]))
