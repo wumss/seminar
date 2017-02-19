@@ -331,6 +331,20 @@
         "see-also": []
     },
     {
+        "topic": "Costas Arrays",
+        "tags": [
+            "field theory",
+            "algebra",
+            "number theory",
+            "prime number"
+        ],
+        "references": [
+            "[Nanoexplanations, the blog of Aaron Sterling](https://nanoexplanations.wordpress.com/2011/10/09/an-independent-discovery-of-costas-arrays/)",
+            "[Lionel Barker, Konstantinos Drakakis, Scott Richard, On the Complexity of the Verification of the Costas Property](http://eeme.ucd.ie/~kdrakaka/work/publications/020.On_The_Complexity_Of_The_Verification_Of_The_Costas_Property.pdf)"
+        ],
+        "excerpt": "Permutation matrices for which all ``\\frac{n(n-1)}{2}`` displacements between all pairs of 1s are distinct are known as Costas arrays, and these have important applications in sonar. The Welch construction of Costas arrays uses concepts from number theory, whereas the Lempel-Golomb construction uses concepts from field theory."
+    },
+    {
         "topic": "Curry–Howard–Lambek Correspondence",
         "tags": [
             "category theory",
