@@ -109,3 +109,7 @@ textarea {
     box-sizing: border-box;
     width: 100%;
 }
+
+input[type="submit"], input[type="reset"], button {
+    color: black;
+}
