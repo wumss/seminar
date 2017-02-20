@@ -117,7 +117,7 @@
         "topic": "Buchi Automata",
         "tags": [
             "computer science",
-            "automaton",
+            "automata",
             "theoretical computer science"
         ],
         "references": [],
@@ -319,8 +319,8 @@
     {
         "topic": "Conway’s Game of Life",
         "tags": [
-            "automaton",
-            "cellular automaton",
+            "automata",
+            "cellular automata",
             "computer science",
             "first year friendly",
             "recreational mathematics",
@@ -1019,6 +1019,20 @@
         ]
     },
     {
+        "topic": "Separating Words Problem",
+        "tags": [
+            "computer science",
+            "theoretical computer science",
+            "automaton",
+            "open problem"
+        ],
+        "references": [
+            "[Wikipedia: Separating words problem](https://en.wikipedia.org/wiki/Separating_words_problem)",
+            "[J.M. Robson, Separating strings with small automata](http://www.sciencedirect.com/science/article/pii/0020019089902159?via%3Dihub)"
+        ],
+        "excerpt": "Given two strings, we can write a computer program to tell them apart. A special kind of very simple computer program that accepts or rejects strings, using only a finite number of states while reading the string, is called a deterministic finite automaton. (These deterministic finite automata can also be expressed as a regular expression.) For any two strings of length ``n``, there is some deterministic finite automaton (or regular expression) that recognizes one and not the other, and there is some smallest one. In the worst case, it is known (Robson 1989) that any two strings of length ``n`` can be separated by an automaton of size ``O(n^{2/5} (\\log n)^{3/5})``, but this is not known to be optimal. The optimal upper bound remains an open problem."
+    },
+    {
         "topic": "Sieve Methods",
         "tags": [
             "computational complexity",
@@ -1237,7 +1251,7 @@
         "topic": "Timed Automata",
         "tags": [
             "computer science",
-            "automaton",
+            "automata",
             "theoretical computer science"
         ],
         "references": [],
