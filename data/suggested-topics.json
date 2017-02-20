@@ -117,7 +117,7 @@
         "topic": "Buchi Automata",
         "tags": [
             "computer science",
-            "automata",
+            "automaton",
             "theoretical computer science"
         ],
         "references": [],
@@ -318,8 +318,8 @@
     {
         "topic": "Conway’s Game of Life",
         "tags": [
-            "automata",
-            "cellular automata",
+            "automaton",
+            "cellular automaton",
             "computer science",
             "first year friendly",
             "recreational mathematics",
@@ -1238,7 +1238,7 @@
         "topic": "Timed Automata",
         "tags": [
             "computer science",
-            "automata",
+            "automaton",
             "theoretical computer science"
         ],
         "references": [],
