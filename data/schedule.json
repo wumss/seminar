@@ -21,7 +21,7 @@
             "set theory",
             "order theory",
             "non-standard analysis",
-            "hyperreal numbers"
+            "hyperreal number"
         ]
     },
     {
@@ -153,9 +153,7 @@
         "tags": [
             "algebra",
             "complex number",
-            "dual number",
-            "linear algebra",
-            "split-complex number"
+            "linear algebra"
         ]
     },
     {
@@ -233,7 +231,6 @@
         "tags": [
             "combinatorial game theory",
             "economics",
-            "extensive-form-games",
             "game theory"
         ],
         "identifier": "kt-EFG",
@@ -246,8 +243,7 @@
         "tags": [
             "algebraic number",
             "diophantine approximation",
-            "number theory",
-            "polynomials"
+            "number theory"
         ],
         "identifier": "am-RT",
         "speaker": "Anton Mosunov"
@@ -257,8 +253,8 @@
         "time": "2017-01-27T17:30:00Z",
         "title": "Integrability of Riccati Equations",
         "tags": [
-            "differential equations",
-            "integrals"
+            "differential equation",
+            "integration"
         ],
         "identifier": "lc-Riccati",
         "speaker": "Letian Chen"
@@ -280,7 +276,6 @@
         "time": "2017-02-03T17:30:00Z",
         "title": "$q$-analogs",
         "tags": [
-            "q-analogs",
             "combinatorics",
             "enumeration"
         ],
@@ -294,7 +289,7 @@
         "tags": [
             "analysis",
             "number theory",
-            "p-adic numbers"
+            "p-adic number"
         ],
         "identifier": "at-padic",
         "speaker": "Akshay Tiwary"
@@ -315,7 +310,7 @@
         "time": "2017-02-10T17:30:00Z",
         "title": "Ordinals",
         "tags": [
-            "ordinals",
+            "ordinal number",
             "set theory"
         ],
         "identifier": "eo-Ordinals",

@@ -102,7 +102,7 @@
     {
         "topic": "Branch Prediction",
         "tags": [
-            "compilers",
+            "compiler",
             "computer science",
             "efficiency",
             "first year friendly",
@@ -306,7 +306,8 @@
         "tags": [
             "number theory",
             "algebra",
-            "geometry"
+            "geometry",
+            "hyperbolic geometry"
         ],
         "references": [
             "[Caroline Series](http://homepages.warwick.ac.uk/~masbb/HypGeomandCntdFractions-2.pdf)",
@@ -375,8 +376,8 @@
         "topic": "Differential Equations on Fractals",
         "tags": [
             "analysis",
-            "differential equations",
-            "fractals"
+            "differential equation",
+            "fractal"
         ],
         "references": [
             "Robert Strichartz : Differential Equations on Fractals - A tutorial"
@@ -468,8 +469,8 @@
     {
         "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC",
         "tags": [
-            "set theory",
-            "challenge"
+            "logic",
+            "set theory"
         ],
         "references": [
             "[Itay Neeman](http://www.math.ucla.edu/~ineeman/223s.1.11s/223s-spring11-lecture-notes-6-5.pdf)",
@@ -570,9 +571,9 @@
             "applied mathematics",
             "computational mathematics",
             "computer science",
-            "differential equations",
+            "differential equation",
             "probability",
-            "stochastic equations"
+            "stochastic equation"
         ],
         "references": [
             "[David Karig](https://www.cs.princeton.edu/picasso/seminarsS05/Karig_slides.pdf)"
@@ -584,8 +585,7 @@
         "topic": "Hilbert’s Nullstellensatz and an Introduction to Schemes",
         "tags": [
             "algebra",
-            "combinatorics",
-            "challenge"
+            "combinatorics"
         ],
         "references": [
             "I. G. Shaferavich : Basic Algebraic Geometry I"
@@ -789,7 +789,7 @@
         "topic": "p-adic Analysis",
         "tags": [
             "analysis",
-            "p-adic numbers",
+            "p-adic number",
             "number theory"
         ],
         "references": [
@@ -853,7 +853,6 @@
             "computational complexity",
             "computability",
             "computer science",
-            "first-order-logic",
             "logic",
             "theoretical computer science"
         ],
@@ -1200,8 +1199,8 @@
         "tags": [
             "applied mathematics",
             "ecology",
-            "differential equations",
-            "stochastic equations"
+            "differential equation",
+            "stochastic equation"
         ],
         "references": [
             "[Mathworks](http://www.mathworks.com/help/simbio/examples/stochastic-simulation-of-the-lotka-volterra-reactions.html)"
@@ -1291,7 +1290,7 @@
         ],
         "excerpt": "The LLVM Compiler Infrastructure Project now powers a wide variety of software, including major programming languages including Rust and Julia, as well as compilers for the popular C and C++ programming languages. Understanding how LLVM works, and being able to read some LLVM bytecode, is extremely useful for optimizing code.",
         "tags": [
-            "compilers",
+            "compiler",
             "computer science",
             "efficiency",
             "Tech Talks",
