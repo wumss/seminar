@@ -1300,6 +1300,19 @@
         ]
     },
     {
+        "topic": "Unique Games Conjecture",
+        "tags": [
+            "computer science",
+            "theoretical computer science",
+            "computational complexity",
+            "open problems"
+        ],
+        "references": [
+            "[Erica Klarreich, Approximately Hard: The Unique Games Conjecture](https://www.simonsfoundation.org/mathematics-and-physical-science/approximately-hard-the-unique-games-conjecture/)"
+        ],
+        "excerpt": "The Unique Games Conjecture, if true, implies that many problems that lack exact polynomial time solutions also lack approximate polynomial time solutions. It was formulated by Subhash Khot in 2002 and is still unsolved."
+    },
+    {
         "topic": "Waring's Problem and writing numbers as sums of powers",
         "tags": [
             "additive number theory",
