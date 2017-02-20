@@ -8,15 +8,11 @@
   (li "When done, press Copy to clipboard to copy the data.")
   (li "Click "
       (a ([href "https://github.com/wumss/seminar/edit/master/data/suggested-topics.json"]) "here")
-      " and paste the JSON in the Result textbox, then commit or make a"
-      " pull request."))
+      " and paste, then commit or make a pull request."))
 
 (h2 "Tool")
 
 (p "Current status: " (span ([id "status"]) "Please wait for data to load."))
-
-(p "List of Suggested Topics"
-   (ul ([id "suggested"])))
 
 (h3 "Add topic")
 (p (label "Topic: " (input ([type "text"]
@@ -49,7 +45,10 @@
 
 (p "When finished, paste the content "
    (a ([href "https://github.com/wumss/seminar/edit/master/data/suggested-topics.json"])
-      "here"))
+      "here") ".")
+
+(p "Here is a current list of suggested topics in alphabetical order."
+   (ul ([id "suggested"])))
 
 (script ([src "https://cdn.jsdelivr.net/clipboard.js/1.6.0/clipboard.min.js"]))
 (script ([src "/scripts/pttool.js"]))
