@@ -342,20 +342,6 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-24T18:30:00Z",
-        "title": "Inverse Galois Theory",
-        "tags": [
-            "algebra",
-            "field theory",
-            "Galois theory",
-            "group theory",
-            "open problem"
-        ],
-        "identifier": "dl-IGT",
-        "speaker": "David Liu"
-    },
-    {
-        "location": "MC 4045",
         "time": "2017-03-03T17:30:00Z",
         "title": "Total Functional Programming",
         "tags": [
@@ -369,14 +355,16 @@
     {
         "location": "MC 4045",
         "time": "2017-03-03T18:30:00Z",
-        "title": "Invariant Theory",
+        "title": "Bloom Filters and Other Probabilistic Data Structures",
         "tags": [
-            "algebra",
-            "group theory",
-            "invariant theory"
+            "algorithms",
+            "computer science",
+            "data structure",
+            "space efficiency",
+            "probability"
         ],
-        "identifier": "bcy-Invariant",
-        "speaker": "Brennen Creighton-Young"
+        "identifier": "lm-BF",
+        "speaker": "Luthfi Mawarid"
     },
     {
         "location": "MC 4045",
@@ -392,21 +380,33 @@
     {
         "location": "MC 4045",
         "time": "2017-03-10T18:30:00Z",
-        "title": "Bloom Filters and Other Probabilistic Data Structures",
+        "title": "Invariant Theory",
         "tags": [
-            "algorithms",
-            "computer science",
-            "data structure",
-            "space efficiency",
-            "probability"
+            "algebra",
+            "group theory",
+            "invariant theory"
         ],
-        "identifier": "lm-BF",
-        "speaker": "Luthfi Mawarid"
+        "identifier": "bcy-Invariant",
+        "speaker": "Brennen Creighton-Young"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-17T17:00:00Z",
+        "title": "Inverse Galois Theory",
+        "tags": [
+            "algebra",
+            "field theory",
+            "Galois theory",
+            "group theory",
+            "open problem"
+        ],
+        "identifier": "dl-IGT",
+        "speaker": "David Liu"
     },
     {
         "location": "MC 4045",
         "time": "2017-03-17T17:30:00Z",
-        "title": "?",
+        "title": "To Be Determined",
         "tags": [],
         "identifier": "Frieda-change-me",
         "speaker": "Frieda Rong"
