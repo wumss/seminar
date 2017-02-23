@@ -391,7 +391,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-17T17:00:00Z",
+        "time": "2017-03-17T17:30:00Z",
         "title": "Inverse Galois Theory",
         "tags": [
             "algebra",
@@ -402,14 +402,6 @@
         ],
         "identifier": "dl-IGT",
         "speaker": "David Liu"
-    },
-    {
-        "location": "MC 4045",
-        "time": "2017-03-17T17:30:00Z",
-        "title": "To Be Determined",
-        "tags": [],
-        "identifier": "Frieda-change-me",
-        "speaker": "Frieda Rong"
     },
     {
         "location": "MC 4045",
@@ -451,7 +443,15 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-31T17:30:00Z",
+        "time": "2017-03-31T17:00:00Z",
+        "title": "To Be Determined",
+        "tags": [],
+        "identifier": "Frieda-change-me",
+        "speaker": "Frieda Rong"
+    },
+    {
+        "location": "MC 4045",
+        "time": "2017-03-31T18:00:00Z",
         "title": "Group Theoretic Attacks on the Enigma Cipher",
         "tags": [
             "algebra",
@@ -463,7 +463,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-31T18:30:00Z",
+        "time": "2017-03-31T19:00:00Z",
         "title": "Cantor Set and Dynamical Systems",
         "tags": [
             "analysis",
