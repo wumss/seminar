@@ -1,0 +1,6 @@
+Total functional programming is a paradigm of functional programming with the additional restriction that all functions must be total; that is, every function is defined for every element of its domain.
+
+The immediate benefits of total functional programming are clear; every function in a total language is guaranteed to terminate and not cause a runtime error. This talk will cover the basics of writing and understanding functions that are total, as well as benefits that come from having totality.
+
+Also in the scope of this talk is the major trade offs of total functional programming, including Turing completeness and things like input and output that seem unattainable. This is accompanied by strategies to write functions with non-trivial proofs of termination such that totality is guaranteed and verifiable by the interpreter.
+
