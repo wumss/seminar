@@ -126,7 +126,7 @@ generate_page(Dict(
     :mathjaxplease => true), "archive"; modules=[Talks])
 
 generate_page(Dict(
-    :pagetitle => "Mathematics Student Seminars",
+    :pagetitle => "UW Student Seminars",
     :pagetype => "home",
     :talks => result,
     :github => "$GITHUB/remark/home.rem",
