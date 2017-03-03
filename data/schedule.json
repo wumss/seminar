@@ -215,7 +215,7 @@
         "time": "2016-12-02T18:30:00Z",
         "title": "Voting with Homomorphic Encryption", 
         "speaker": "Sidhant Saraogi",
-        "location": "MC-4020",
+        "location": "MC 4020",
         "identifier": "ss-Voting",
         "tags": [
             "algebra",
@@ -369,10 +369,13 @@
     {
         "location": "MC 4045",
         "time": "2017-03-10T17:30:00Z",
-        "title": "Zero Knowledge Proofs",
+        "title": "Quantum Algorithms from Linear Algebra",
         "tags": [
-            "cryptography",
-            "zero-knowledge proof"
+            "algebra",
+            "computer science",
+            "algorithm",
+            "quantum algorithm",
+            "linear algebra"
         ],
         "identifier": "ss-ZKP",
         "speaker": "Sidhant Saraogi"
