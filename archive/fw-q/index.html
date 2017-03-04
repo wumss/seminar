@@ -42,4 +42,16 @@ F_n(q)
 &amp;= \sum_{\sigma\in S_n} q^{\operatorname{inv}(\sigma)} \\
 &amp;= \sum_{m=1}^n \sum_{\sigma'\in S_{n-1}}
 q^{\operatorname{inv}(φ^{-1}(m, σ'))} \\
-\end{align*}\]</div><p>At this point, we ask: what is <span>$\operatorname{inv}(φ^{-1}(m, σ'))$</span>? Can we find a formula for this in terms of <span>$\operatorname{inv}(σ')$</span>? Indeed, we can. Note that, if <span>$σ = φ^{-1}(m, σ')$</span>, then <span>$σ(1) = m$</span>. But this is inverted with exactly <span>$m-1$</span> other positions. The remaining inversions of <span>$σ$</span> do not involve <span>$σ(1)$</span>, and hence must be inversions of <span>$σ'$</span>.</p><p>We therefore obtain the formula</p><div>\[\operatorname{inv}(φ^{-1}(m, σ')) = m - 1 + \operatorname{inv}(σ')\]</div><p>(NB: this summary is incomplete and under construction.)</p></div><h2>Tags</h2><ul><li><a class="tag-link tag-combinatorics" href="/tag/combinatorics">combinatorics</a></li><li><a class="tag-link tag-enumeration" href="/tag/enumeration">enumeration</a></li></ul></article></section></body></html>
+\end{align*}\]</div><p>At this point, we ask: what is <span>$\operatorname{inv}(φ^{-1}(m, σ'))$</span>? Can we find a formula for this in terms of <span>$\operatorname{inv}(σ')$</span>? Indeed, we can. Note that, if <span>$σ = φ^{-1}(m, σ')$</span>, then <span>$σ(1) = m$</span>. But this is inverted with exactly <span>$m-1$</span> other positions. The remaining inversions of <span>$σ$</span> do not involve <span>$σ(1)$</span>, and hence must be inversions of <span>$σ'$</span>.</p><p>We therefore obtain the formula</p><div>\[\operatorname{inv}(φ^{-1}(m, σ')) = m - 1 + \operatorname{inv}(σ')\]</div><p>Substituting into our earlier work, we obtain</p><div>\[\begin{align*}
+F_n(q)
+&amp;= \sum_{m=1}^n \sum_{\sigma'\in S_{n-1}}
+q^{\operatorname{inv}(φ^{-1}(m, σ'))} \\
+&amp;= \sum_{m=1}^n \sum_{\sigma'\in S_{n-1}} q^{m-1+\operatorname{inv}(σ')} \\
+&amp;= \sum_{m=1}^n \sum_{\sigma'\in S_{n-1}} q^{m-1} q^\operatorname{inv}(σ')} \\
+&amp;= \sum_{m=1}^n q^{m-1} \sum_{\sigma'\in S_{n-1}} q^\operatorname{inv}(σ')} \\
+\end{align*}\]</div><p>But now we recognize that the inner sum is in fact simply <span>$F_{n-1}(q)$</span>! Hence,</p><div>\[\begin{align*}
+F_n(q)
+&amp;= \sum_{m=1}^n q^{m-1} F_{n-1}(q) \\
+&amp;= F_{n-1}(q) \sum_{m=1}^n q^{m-1} \\
+&amp;= F_{n-1}(q) \frac{1-q^n}{1-q}
+\end{align*}\]</div><p>so the functional equation we obtain is</p><div>\[F_n(q) = F_{n-1}(q) \frac{1-q^n}{1-q}\]</div><p>(NB: this summary is incomplete and under construction.)</p></div><h2>Tags</h2><ul><li><a class="tag-link tag-combinatorics" href="/tag/combinatorics">combinatorics</a></li><li><a class="tag-link tag-enumeration" href="/tag/enumeration">enumeration</a></li></ul></article></section></body></html>
