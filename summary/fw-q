@@ -151,4 +151,16 @@ q^{\operatorname{inv}(φ^{-1}(m, σ'))} \\
 \end{align*}
 ```
 
+At this point, we ask: what is ``\operatorname{inv}(φ^{-1}(m, σ'))``? Can we
+find a formula for this in terms of ``\operatorname{inv}(σ')``? Indeed, we can.
+Note that, if ``σ = φ^{-1}(m, σ')``, then ``σ(1) = m``. But this is inverted
+with exactly ``m-1`` other positions. The remaining inversions of ``σ`` do not
+involve ``σ(1)``, and hence must be inversions of ``σ'``.
+
+We therefore obtain the formula
+
+```math
+\operatorname{inv}(φ^{-1}(m, σ')) = m - 1 + \operatorname{inv}(σ')
+```
+
 (NB: this summary is incomplete and under construction.)
