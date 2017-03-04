@@ -171,8 +171,8 @@ F_n(q)
 &= \sum_{m=1}^n \sum_{σ'\in S_{n-1}}
 q^{\operatorname{inv}(φ^{-1}(m, σ'))} \\
 &= \sum_{m=1}^n \sum_{σ'\in S_{n-1}} q^{m-1+\operatorname{inv}(σ')} \\
-&= \sum_{m=1}^n \sum_{σ'\in S_{n-1}} q^{m-1} q^\operatorname{inv}(σ')} \\
-&= \sum_{m=1}^n q^{m-1} \sum_{σ'\in S_{n-1}} q^\operatorname{inv}(σ')} \\
+&= \sum_{m=1}^n \sum_{σ'\in S_{n-1}} q^{m-1} q^{\operatorname{inv}(σ')} \\
+&= \sum_{m=1}^n q^{m-1} \sum_{σ'\in S_{n-1}} q^{\operatorname{inv}(σ')}
 \end{align*}
 ```
 
