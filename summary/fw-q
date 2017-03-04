@@ -163,4 +163,35 @@ We therefore obtain the formula
 \operatorname{inv}(φ^{-1}(m, σ')) = m - 1 + \operatorname{inv}(σ')
 ```
 
+Substituting into our earlier work, we obtain
+
+```math
+\begin{align*}
+F_n(q)
+&= \sum_{m=1}^n \sum_{\sigma'\in S_{n-1}}
+q^{\operatorname{inv}(φ^{-1}(m, σ'))} \\
+&= \sum_{m=1}^n \sum_{\sigma'\in S_{n-1}} q^{m-1+\operatorname{inv}(σ')} \\
+&= \sum_{m=1}^n \sum_{\sigma'\in S_{n-1}} q^{m-1} q^\operatorname{inv}(σ')} \\
+&= \sum_{m=1}^n q^{m-1} \sum_{\sigma'\in S_{n-1}} q^\operatorname{inv}(σ')} \\
+\end{align*}
+```
+
+But now we recognize that the inner sum is in fact simply ``F_{n-1}(q)``!
+Hence,
+
+```math
+\begin{align*}
+F_n(q)
+&= \sum_{m=1}^n q^{m-1} F_{n-1}(q) \\
+&= F_{n-1}(q) \sum_{m=1}^n q^{m-1} \\
+&= F_{n-1}(q) \frac{1-q^n}{1-q}
+\end{align*}
+```
+
+so the functional equation we obtain is
+
+```math
+F_n(q) = F_{n-1}(q) \frac{1-q^n}{1-q}
+```
+
 (NB: this summary is incomplete and under construction.)
