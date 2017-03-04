@@ -132,3 +132,23 @@ A sensible definition of ``σ'`` would be:
   σ(k+1) - 1 & \text{otherwise}
 \end{cases}
 ```
+
+Importantly, we can see that this defines a bijection
+
+```math
+φ: S_n → \{1, \dots, n\} \times S_{n-1}
+```
+
+We will use this bijection to find a functional equation that allows us to
+determine ``F_n(q)``. By applying the bijection, we find
+
+```math
+\begin{align*}
+F_n(q)
+&= \sum_{\sigma\in S_n} q^{\operatorname{inv}(\sigma)} \\
+&= \sum_{m=1}^n \sum_{\sigma'\in S_{n-1}}
+q^{\operatorname{inv}(φ^{-1}(m, σ'))} \\
+\end{align*}
+```
+
+(NB: this summary is incomplete and under construction.)
