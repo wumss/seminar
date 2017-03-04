@@ -114,3 +114,21 @@ F_n(q) = \sum_{\sigma\in S_n} q^{\operatorname{inv}(\sigma)}
 so that ``F_n(q)`` is the ordinary generating function for ``S_n`` with weight
 function ``\operatorname{inv}``. Note that this generating function is actually
 a polynomial, because ``S_n`` is a finite set.
+
+To accomplish this task, we will first consider a recursive decomposition of
+permutations. Let ``σ ∈ S_n``. We split ``σ`` up into two pieces of
+information, which together are enough to recover ``σ``:
+
+- ``σ(1)``; i.e., where ``1`` gets sent to by ``σ``. Note that ``σ(1) ∈ \{1,
+  \dots, n\}``.
+- ``σ' ∈ S_{n-1}``, a permutation that describes where ``2`` to ``n`` are sent
+  by ``σ``.
+
+A sensible definition of ``σ'`` would be:
+
+```math
+σ'(k) = \begin{cases}
+  σ(k+1) & \text{if }σ(k-1) < m \\
+  σ(k+1) - 1 & \text{otherwise}
+\end{cases}
+```
