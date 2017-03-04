@@ -3,6 +3,7 @@
 using Compat
 using JSON
 using EnglishText
+using Glob
 using DataStructures
 using Remarkable.Common
 using Remarkable.Tags
@@ -70,7 +71,12 @@ function write_summary(t)
 end
 
 # Parse the schedule
-result = JSON.parsefile("data/schedule.json", dicttype=Dict{Symbol,Any})
+result = []
+for file ∈ glob("data/schedule/*.json")
+    info(file; prefix="READ: ")
+    append!(result,
+            JSON.parsefile(file, dicttype=Dict{Symbol,Any}))
+end
 result = [Talks.fromjson(obj) for obj in result]
 sort!(result, by=x -> datetime(x))
 
