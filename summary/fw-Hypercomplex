@@ -359,7 +359,11 @@ geometry**.
 
 Furthermore, unlike either the complex numbers or the split-complex numbers, the
 generating element ``\mathrm{ɛ}`` of the dual numbers is itself a zero-divisor.
-Indeed, ``\mathrm{ɛ}^2 = \begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}^2 = 0``.
+Indeed,
+
+```math
+\mathrm{ɛ}^2 = \begin{bmatrix} 0 & 1 \\ 0 & 0 \end{bmatrix}^2 = 0
+```
 
 Despite these irregularities, the dual numbers are among the most incredible
 number systems, and are used frequently in computational mathematics. Why? Let
