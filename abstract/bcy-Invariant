@@ -1,0 +1,3 @@
+Symmetries naturally arise throughout the natural sciences, from particle physics to organic chemistry. Symmetries of these sorts can be better understood by using the tools of group theory, particularly group actions, to capture any underlying structure that may be present. It may seem natural to study how group actions behave with polynomials - but this turns out to be rather unenlightening. For this reason, we aim to extend the notion of a group action to polynomial rings in a meaningful way. By doing this we set the foundation for invariant theory, which looks at polynomials that remain unchanged under a given action.
+
+The talk will assume linear algebra, and abstract algebra will certainly help.
