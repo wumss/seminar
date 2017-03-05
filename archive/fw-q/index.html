@@ -47,8 +47,8 @@ F_n(q)
 &amp;= \sum_{m=1}^n \sum_{σ'\in S_{n-1}}
 q^{\operatorname{inv}(φ^{-1}(m, σ'))} \\
 &amp;= \sum_{m=1}^n \sum_{σ'\in S_{n-1}} q^{m-1+\operatorname{inv}(σ')} \\
-&amp;= \sum_{m=1}^n \sum_{σ'\in S_{n-1}} q^{m-1} q^\operatorname{inv}(σ')} \\
-&amp;= \sum_{m=1}^n q^{m-1} \sum_{σ'\in S_{n-1}} q^\operatorname{inv}(σ')} \\
+&amp;= \sum_{m=1}^n \sum_{σ'\in S_{n-1}} q^{m-1} q^{\operatorname{inv}(σ')} \\
+&amp;= \sum_{m=1}^n q^{m-1} \sum_{σ'\in S_{n-1}} q^{\operatorname{inv}(σ')}
 \end{align*}\]</div><p>But now we recognize that the inner sum is in fact simply <span>$F_{n-1}(q)$</span>! Hence,</p><div>\[\begin{align*}
 F_n(q)
 &amp;= \sum_{m=1}^n q^{m-1} F_{n-1}(q) \\
