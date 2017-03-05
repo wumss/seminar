@@ -144,7 +144,7 @@
     {
         "location": "MC 4045",
         "time": "2017-03-10T17:30:00Z",
-        "title": "Quantum Algorithms from Linear Algebra",
+        "title": "Quantum Algorithms from Only Linear Algebra",
         "tags": [
             "algebra",
             "computer science",
