@@ -10,6 +10,11 @@ term.
 Talk summaries are written in [Markdown](/write-markdown). See the link
 for more details.
 
+## What should I know as a speaker?
+
+Please read the [important information for speakers](/important-information)
+for a guide on how to effectively speak in our talks.
+
 ## Where can I leave feedback?
 
 If you attended a talk and want to give feedback on it, you can do so with this
