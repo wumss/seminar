@@ -157,18 +157,6 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-10T18:30:00Z",
-        "title": "Invariant Theory",
-        "tags": [
-            "algebra",
-            "group theory",
-            "invariant theory"
-        ],
-        "identifier": "bcy-Invariant",
-        "speaker": "Brennen Creighton-Young"
-    },
-    {
-        "location": "MC 4045",
         "time": "2017-03-17T17:30:00Z",
         "title": "Inverse Galois Theory",
         "tags": [
