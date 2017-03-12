@@ -228,7 +228,7 @@
             "[Don Coppersmith and Shmuel Winograd](http://www.cs.umd.edu/~gasarch/TOPICS/ramsey/matrixmult.pdf)",
             "[H. Cohn, R. Kleinberg, B. Szegedy and C. Umans, \"Group-theoretic algorithms for matrix multiplication,\" 46th Annual IEEE Symposium on Foundations of Computer Science (FOCS'05), 2005, pp. 379-388. doi: 10.1109/SFCS.2005.39](http://ieeexplore.ieee.org/document/1530730/?section=abstract&part=1)",
             "[Andrew James Stothers, On The Complexity of Matrix Multiplication](http://www.maths.ed.ac.uk/sites/default/files/atoms/files/stothers.pdf)",
-            "[Chris Umans](Approaches to bounding the exponent of matrix multiplication)",
+            "[Chris Umans, Approaches to bounding the exponent of matrix multiplication](https://galton.uchicago.edu/mart/slides/Umans-talk-1.pdf)",
             "[Richard Strong Bowen, Bob Chen, Hendrik Orem, and Martijn van Schaardenburg: Group-Theoretic Partial Matrix Multiplication](https://www.ma.utexas.edu/users/horem/gtpmm.pdf)"
         ],
         "excerpt": "Volker Strassen showed that ``n^3`` matrix multiplication was not optimal in 1969. Since then, new algorithms such as Coppersmith-Winograd have further improved the time complexity of matrix multiplication. It is conjectured that matrix multiplication is possible in ``O(n^{2+ɛ})`` for any ``ɛ>0``, however small. This is one of the few remaining open problems in finite-dimensional linear algebra.",
