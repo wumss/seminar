@@ -25,6 +25,19 @@
            (convert List (flatten (map talk-row ts)))))
        '()))))
 
+(h2 "Search Website")
+(script "
+  (function() {
+    var cx = '000785727465403873112:isjwrocsaqo';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();")
+(gcse:search)
+
 (h2 "Website Information")
 
 (p "This website was last regenerated on "
