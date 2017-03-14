@@ -110,8 +110,28 @@ textarea {
     width: 100%;
 }
 
-input[type="submit"], input[type="reset"], button {
+input[type="submit"], input[type="reset"], button, body input.gsc-search-button, body .cse input.gsc-search-button {
     color: black;
+	background: #DDD;
+	border-radius: 3.6px;
+    border: none;
+    height: auto;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 29.7px;
+    cursor: pointer;
+	display: inline;
+	margin-bottom: 18px;
+	margin-right: 7.2px;
+	padding: 6.525px 23.4px;
+	text-align: center;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover, button, body input.gsc-search-button:hover, body .cse input.gsc-search-button:hover {
+	background: #9C9;
 }
 
 input[type="text"].wide {
