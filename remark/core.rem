@@ -5,6 +5,8 @@
     (meta ([charset "utf-8"]))
     (meta ([name "google-site-verification"]
            [content "NaytRH7PCHM8SH9XV-xgMLEi_1m1wS9lPBAIvTJ-wvs"]))
+    (meta ([name "viewport"]
+           [content "width=device-width, initial-scale=1"]))
     (link ([rel "stylesheet"]
            [href "//yegor256.github.io/tacit/tacit.min.css"]))
     (link ([rel "stylesheet"]
