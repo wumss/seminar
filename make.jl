@@ -148,7 +148,7 @@ for t in alltags
     # TODO: eventually we want to get away from using strings
     active_set = filter(x -> tagname(t) in tags(x), result)
     generate_page(Dict(
-        :pagetitle => "Tag $t",
+        :pagetitle => ucfirst(tagname(t)),
         :pagetype => "tag",
         :tag => t,
         :tagmatrix => tagmatrix,
