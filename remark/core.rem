@@ -20,7 +20,10 @@
      (include "mathjax.rem" #:remark))
     (title (remark pagetitle)))
   (body
-    (nav (ul (li (a ([href "/"])
+    (nav (input ([id "nav-trigger"]
+                 [class "nav-trigger"]
+                 [type "checkbox"]))
+         (ul (li (a ([href "/"])
                     (img ([src "/images/logo.png"]
                           [height "64"]
                           [width "64"]
@@ -31,9 +34,6 @@
              (#:template nav-link "faq" "faq")
              (#:template nav-link "document" "library")
              (#:template nav-link "potential-topics" "topics"))
-         (input ([id "nav-trigger"]
-                 [class "nav-trigger"]
-                 [type "checkbox"]))
          (label ([for "nav-trigger"])))
     (section
       (article
