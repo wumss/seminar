@@ -138,3 +138,37 @@ input[type="text"].wide {
     box-sizing: border-box;
     width: 100%;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+    body > section {
+        padding: 1em;
+        margin: 0;
+        border: none;
+    }
+    nav {
+        width: 100%;
+        background: black;
+        height: auto;
+        position: relative;
+    }
+    nav ul li {
+        margin: 6px 0;
+        padding: 2px 0;
+        display: block;
+        background: #555;
+    }
+    nav ul li:first-child {
+        background: black;
+        display: block;
+    }
+    nav ul li:first-child a {
+        text-align: left;
+    }
+    nav ul li a {
+        display: block;
+        text-align: center;
+    }
+}
