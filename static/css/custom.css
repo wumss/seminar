@@ -199,8 +199,10 @@ input[type="text"].wide {
     }
 }
 
-label[for="nav-trigger"] {
-    display: none;
+@media screen and (min-width: 601px) {
+    label[for="nav-trigger"] {
+        display: none;
+    }
 }
 
 .nav-trigger {
