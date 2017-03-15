@@ -30,7 +30,11 @@
              (#:template nav-link "tags" "tags")
              (#:template nav-link "faq" "faq")
              (#:template nav-link "document" "library")
-             (#:template nav-link "potential-topics" "topics")))
+             (#:template nav-link "potential-topics" "topics"))
+         (input ([id "nav-trigger"]
+                 [class "nav-trigger"]
+                 [type "checkbox"]))
+         (label ([for "nav-trigger"])))
     (section
       (article
         (include (string pagetype ".rem") #:remark))
