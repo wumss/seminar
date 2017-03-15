@@ -22,7 +22,8 @@
   (body
     (nav (input ([id "nav-trigger"]
                  [class "nav-trigger"]
-                 [type "checkbox"]))
+                 [type "checkbox"]
+                 [checked "checked"]))
          (ul (li (a ([href "/"])
                     (img ([src "/images/logo.png"]
                           [height "64"]
