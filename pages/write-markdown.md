@@ -36,10 +36,10 @@ We highly recommend that you read the example talk summary files to get an idea
 of the expected format. The recommended examples are:
 
 - Koosha Totonchi, [Game
-  Theory](https://github.com/friedeggs/blob/master/summary/kt-GameTheory)
+  Theory](https://github.com/wumss/seminar/blob/master/summary/kt-GameTheory)
 
 - Fengyang Wang, [2D Linear
-  Algebra](https://github.com/friedeggs/blob/master/document/2d-linear-algebra)
+  Algebra](https://github.com/wunss/seminar/blob/master/document/2d-linear-algebra)
 
   This one is actually a document, not a talk summary, but is a good example
   nevertheless.
