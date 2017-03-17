@@ -42,6 +42,6 @@
 
 (p "This website was last regenerated on "
    (remark (human ((.today Dates))))
-   " by Htsx with Julia "
+   " by Remarkable with Julia "
    (remark (string VERSION))
    ".")

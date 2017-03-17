@@ -6,7 +6,7 @@ function generate_page(data, root, page="remark/core.rem"; modules=[])
     try mkdir("public/$root") end
     data[:currentpage] = root
     open("public/$root/index.html", "w") do f
-        SExpressions.Htsx.tohtml(f, page, data;
+        Remarkable.Remark.tohtml(f, page, data;
                                  modules=vcat(EXTRA_MODULES, modules))
         println(f)
     end
