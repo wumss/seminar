@@ -79,5 +79,21 @@
             "group theory"
         ],
         "type": "reference"
+    },
+    {
+        "id": "galois-theory",
+        "title": "Galois Theory",
+        "authors": [
+            "Akshay Tiwary",
+            "Fengyang Wang"
+        ],
+        "subsetof": [
+            "PMATH 348"
+        ],
+        "tags": [
+            "field theory",
+            "Galois theory"
+        ],
+        "type": "reference"
     }
 ]

@@ -290,3 +290,14 @@ In particular, for finite group ``G`` and normal subgroup ``H``, we have
 
 which emphasizes that the quotient group is indeed, as its name would suggest,
 a generalization of division.
+
+## The Universal Property of Quotients for Groups
+
+Let ``G`` be a group, ``H`` be a normal subgroup of ``G``. Let \(\pi: G \to
+G/H\) be the natural projection from ``G`` to ``G/H``. Let ``Z`` be some other
+group and suppose there is a group homomorphism ``\varphi: G \to Z`` such that
+``H \subseteq \operatorname{ker}(\varphi)``. Then there is a unique homomorphism
+``\widetilde{\varphi} : G/H \to Z`` such that ``\widetilde{\varphi} \circ \pi =
+\varphi``.
+
+This important result is known as the **Universal Property of Quotients**.
