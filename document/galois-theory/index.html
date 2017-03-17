@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8" /><meta name="google-site-verification" content="NaytRH7PCHM8SH9XV-xgMLEi_1m1wS9lPBAIvTJ-wvs" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link href="//yegor256.github.io/tacit/tacit.min.css" rel="stylesheet" /><link href="/css/custom.css" rel="stylesheet" /><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-93527069-1', 'auto');
+ga('send', 'pageview');
+</script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    jax: [
+        "input/TeX",
+        "input/MathML",
+        "input/AsciiMath",
+        "output/CommonHTML"
+    ],
+    extensions: [
+        "tex2jax.js",
+        "mml2jax.js",
+        "asciimath2jax.js",
+        "MathMenu.js",
+        "MathZoom.js",
+        "AssistiveMML.js"
+    ],
+    TeX: {
+        extensions: [
+            "AMSmath.js",
+            "AMSsymbols.js",
+            "noErrors.js",
+            "noUndefined.js"
+        ]
+    },
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+    },
+    "HTML-CSS": {
+        availableFonts: ["TeX"]
+    }
+});
+</script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script><title>Galois Theory</title></head><body><nav><input id="nav-trigger" type="checkbox" class="nav-trigger" checked="checked" /><ul><li><a href="/"><img src="/images/logo.png" height="64" title="Home" alt="Home" width="64" /></a></li><li><a href="/archive">archive</a></li><li><a href="/tags">tags</a></li><li><a href="/faq">faq</a></li><li><a href="/document">library</a></li><li><a href="/potential-topics">topics</a></li></ul><label for="nav-trigger"></label></nav><section><article><h1>Galois Theory</h1><p>This is a reference document on Galois Theory by Akshay Tiwary and Fengyang Wang. It covers a subset of the material of PMATH 348.</p><div><h2>Fields</h2><p>A <strong>field</strong> is a collection of objects which can be added and subtracted, and further can be multiplied and (except zero) divided. Furthermore, the multiplication distributes over addition. For example: <span>$\mathbf{Q}$</span>, the rational numbers; <span>$\mathbf{R}$</span>, the real numbers; <span>$\mathbf{C}$</span>, the complex numbers.</p><p>When a field is contained within another field, e.g. <span>$\mathbf{Q}\subseteq\mathbf{C}$</span>, we call the larger field a \textbf{field extension} of the smaller field. Note that the larger field is naturally a vector space over the smaller field, by only allowing multiplication of elements of the larger field by elements of the smaller field.</p><p>If <span>$K \subseteq L$</span> are fields, then an element <span>$\alpha\in L$</span> is <strong>algebraic</strong> over <span>$K$</span> if it is the root of some nonzero polynomial with coefficients in <span>$K$</span>. For instance <span>$i$</span> is a root of <span>$x^2 + 1$</span> so <span>$i$</span> is algebraic over <span>$\mathbf{Q}$</span>. <span>$\pi$</span> is <strong>transcendental</strong> (not algebraic) over <span>$\mathbf{Q}$</span>.</p><p>If <span>$L$</span> contains only algebraic elements over <span>$K$</span>, then <span>$L$</span> is an algebraic extension of <span>$K$</span>. Otherwise <span>$L$</span> is a transcendental extension. For instance <span>$\mathbf{Q} \subseteq \mathbf{C}$</span> is transcendental, whereas (\mathbf{R} \subseteq \mathbf{C}) is algebraic. Can you see why?</p><p>If <span>$a$</span> is algebraic over <span>$K$</span> then the <strong>minimal polynomial</strong> of <span>$a$</span> over <span>$K$</span> is the smallest degree nonzero monic polynomial with coefficients in K with <span>$a$</span> as a root.</p><p>Let <span>$K \subseteq L$</span> be an extension. Then <span>$[L : K] = \operatorname{dim}_K L$</span> is the <strong>degree</strong> of <span>$L$</span> over <span>$K$</span>. We will use that ([K(a) : K] = \operatorname{deg}_K a).</p><p>If <span>$K \subseteq L$</span> are fields, and <span>$S \subseteq L$</span> is a set, then <span>$K(S)$</span> is the smallest subfield of <span>$L$</span> (i.e. <span>$K(S)\subseteq L$</span>) such that (S \subseteq K(S)) and <span>$K \subseteq K(S)$</span>. For example (\mathbf{Q}(\sqrt[3]{2}) = {a + b\sqrt[3]{2} + c\sqrt[3]{2}^2 : (a, b, c) \in \mathbf{Q}^3}). (Check that this is a field, and that it's smallest.)</p><h2>Galois Theory</h2><p>From now on, we mostly work with <span>$\mathbf{Q}\subseteq\mathbf{C}$</span>.</p><p>If <span>$p$</span> is a nonzero polynomial with coefficients in <span>$\mathbf{Q}$</span>, then the <strong>splitting field</strong> of <span>$p$</span> is the smallest field containing all roots of <span>$p$</span>. For example the splitting fiesld of <span>$x^2 + 1$</span> is (\mathbf{Q}(i) = {a + bi : (a, b) \in \mathbf{Q}^2}).</p><p>Let <span>$K \subseteq L$</span>. An <strong>automorphism</strong> <span>$\varphi$</span> of the extension <span>$L/K$</span> is a map that preserves the field structure and the extension structure. (That is, it fixes all elements of <span>$K$</span>, and is compatible with the field operations.) More concretely <span>$\varphi: L \to L$</span> is a bijection such that <span>$\varphi(ab^{-1}-c) = \varphi(a)\varphi(b)^{-1} - \varphi(c)$</span> and (\varphi(k) = k) for <span>$k\in K$</span>.</p><p>If <span>$\mathbf{Q} \subseteq K \subseteq L \subseteq \mathbf{C}$</span> with <span>$L$</span> finite-dimensional over <span>$K$</span> as a vector space, and <span>$L$</span> is the splitting field for some <span>$f(x)\in K[x]$</span>, then we say <span>$L/K$</span> is <strong>Galois</strong>. Furthermore we define the <strong>Galois group</strong> of <span>$L/K$</span> to be <span>$\operatorname{Gal}(L/K) = \{\sigma : \sigma\text{ an automorphism of L/K}\}$</span>.</p><p>If <span>$\mathbf{Q} \subseteq K \subseteq L \subseteq \mathbf{C}$</span> with <span>$L/K$</span> Galois, then the <strong>fundamental theorem of Galois theory</strong> says:</p><pre><code class="language-none">- there is a correspondence between subfields of ``L`` that contain ``K``
+  and the subgroups of ``\operatorname{Gal}(L/K)``
+- the normal subgroups of ``\operatorname{Gal}(L/K)`` correspond to Galois
+  extensions of ``K``
+- ``|\operatorname{Gal}(L/K)| = [K : L]``</code></pre></div><h2>Tags</h2><ul><li><a class="tag-link tag-field-theory" href="/tag/field-theory">field theory</a></li><li><a class="tag-link tag-galois-theory" href="/tag/galois-theory">Galois theory</a></li></ul></article><footer><p>Help improve this page by <a href="https://github.com/wumss/seminar/edit/master/document/galois-theory">editing it on GitHub</a>.</p></footer></section></body></html>
