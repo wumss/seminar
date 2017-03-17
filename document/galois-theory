@@ -33,9 +33,14 @@ is the **degree** of ``L`` over ``K``. We will use that ``[K(a) : K] =
 
 If ``K \subseteq L`` are fields, and ``S \subseteq L`` is a set, then ``K(S)``
 is the smallest subfield of ``L`` (i.e. ``K(S)\subseteq L``) such that ``S
-\subseteq K(S)`` and ``K \subseteq K(S)``. For example ``\mathbf{Q}(\sqrt[3]{2}) =
-\{a + b\sqrt[3]{2} + c\sqrt[3]{2}^2 : (a, b, c) \in \mathbf{Q}^3\}``. (Check
-that this is a field, and that it's smallest.)
+\subseteq K(S)`` and ``K \subseteq K(S)``. For example
+
+```math
+\mathbf{Q}(\sqrt[3]{2}) =
+\{a + b\sqrt[3]{2} + c\sqrt[3]{2}^2 : (a, b, c) \in \mathbf{Q}^3\}
+```
+
+(Exercise: Check that this is a field, and that it's smallest.)
 
 ## Galois Theory
 
@@ -43,15 +48,18 @@ From now on, we mostly work with ``\mathbf{Q}\subseteq\mathbf{C}``.
 
 If ``p`` is a nonzero polynomial with coefficients in ``\mathbf{Q}``, then the
 **splitting field** of ``p`` is the smallest field containing all roots of
-``p``. For example the splitting fiesld of ``x^2 + 1`` is ``\mathbf{Q}(i) = \{a +
-bi : (a, b) \in \mathbf{Q}^2\}``.
+``p``. For example the splitting field of ``x^2 + 1`` is
+
+```math
+\mathbf{Q}(i) = \{a + bi : (a, b) \in \mathbf{Q}^2\}
+```
 
 Let ``K \subseteq L``. An **automorphism** ``\varphi`` of the extension ``L/K``
 is a map that preserves the field structure and the extension structure. (That
 is, it fixes all elements of ``K``, and is compatible with the field
 operations.) More concretely ``\varphi: L \to L`` is a bijection such that
-``\varphi(ab^{-1}-c) = \varphi(a)\varphi(b)^{-1} - \varphi(c)`` and ``\varphi(k) =
-k`` for ``k\in K``.
+``\varphi(ab^{-1}-c) = \varphi(a)\varphi(b)^{-1} - \varphi(c)`` for ``(a, b, c)
+\in L^3`` and ``\varphi(k) = k`` for ``k\in K``.
 
 If ``\mathbf{Q} \subseteq K \subseteq L \subseteq \mathbf{C}`` with ``L``
 finite-dimensional over ``K`` as a vector space, and ``L`` is the splitting
