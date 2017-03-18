@@ -161,16 +161,16 @@ products](/images/tensor-product-construction.png)
 where
 
 ```math
-K = ⟨ (x_1, λy_1 + y_2) - λ(x_1, y_1) - (x_1, y_2),
+K = ⟨ (x_1, λy_1 + y_2) - λ(x_1, y_1) - (x_1, y_2), \\
       (λx_1 + x_2, y_1) - λ(x_1, y_1) - (x_2, y_1) : \\
       x_1 ∈ M, x_2 ∈ M, y_1 ∈ N, y_2 ∈ N, λ ∈ R ⟩
 ```
 
-Let ``\mathcal{C}`` be the category of algebraic structures where the structure
-is either a set with a binary operation or something else (see defn). Let ``q :
-A \to \overline{A}`` the quotient of ``A`` by ``P`` in ``\mathcal{C}`` and
-``\overline{A} \cong \{q^{-1}(a) : a ∈ A \}`` which is the fibers of ``q``
-and ``q : A \to A/N = \{q^{-1}(a)  : a ∈ A/N\} = aN``.
+Let ``\mathcal{C}`` be the category of algebraic structures. Algebraic
+structures are sets with one or more operations defined on it, which satisfy
+certain axioms. Let ``q : A \to \overline{A}`` the quotient of ``A`` by ``P``
+in ``\mathcal{C}`` and ``\overline{A} \cong \{q^{-1}(a) : a ∈ A \}`` which is
+the fibers of ``q`` and ``q : A \to A/N = \{q^{-1}(a)  : a ∈ A/N\} = aN``.
 
 Note that if the quotient exists, it is always of the form ``q : A \to A/\sim``
 where ``\sim`` is an equivalence relation.
