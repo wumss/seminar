@@ -62,8 +62,8 @@ Let ``\mathcal{C}`` be a concrete category (there is a forgetful functor from
 the category of ``\mathcal{D} \leq \mathcal{C}^{A}`` where
 
 ```math
-\operatorname{ob}(\mathcal{D}) = \{ f : A \to X ∈ \mathcal{C}^A : \text{ for all }
-S ∈ P, f(a) = f(b) \text{ for all } a,b ∈ S \subseteq A\}.
+\operatorname{ob}(\mathcal{D}) = \{ f : A \to X ∈ \mathcal{C}^A : \\
+\text{ for all } S ∈ P, f(a) = f(b) \text{ for all } a,b ∈ S \subseteq A\}.
 ```
 
 In other words, ``q : A \to \overline{A}`` is a quotient if and only if
