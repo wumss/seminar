@@ -648,6 +648,7 @@
         "topic": "Integrals and Graph Theory",
         "tags": [
             "analysis",
+            "combinatorics",
             "integration",
             "graph theory"
         ],
@@ -923,6 +924,7 @@
         "topic": "Quivers and Platonic Solids",
         "tags": [
             "algebra",
+            "combinatorics",
             "geometry",
             "graph theory",
             "linear algebra",

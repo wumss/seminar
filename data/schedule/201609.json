@@ -31,8 +31,8 @@
         "location": "MC 4020",
         "identifier": "zf-Graphs",
         "tags": [
+            "combinatorics",
             "graph theory",
-            "infiniteness",
             "universal graph"
         ]
     },
@@ -127,7 +127,6 @@
         "identifier": "kr-Graphs",
         "tags": [
             "analysis",
-            "graph theory",
             "homology",
             "topology"
         ]
@@ -139,6 +138,7 @@
         "location": "MC 4020",
         "identifier": "fr-RandomGraphs",
         "tags": [
+            "combinatorics",
             "graph theory",
             "networks",
             "probability"
