@@ -24,7 +24,7 @@ is a map ``q : \mathbf{Z} \to \mathbf{Z}/2\mathbf{Z}`` given by ``n \to n +
 2\mathbf{Z}``.
 
 **Example**.
-We have a map ``[0,1] \to S^{1} \cong [0,1]/\sim`` where ``x \sim y`` if and
+We have a map ``[0,1] \to S^{1} ≅ [0,1]/∼`` where ``x ∼ y`` if and
 only if ``x = y`` or ``\{x,y\} ⊆ \{0,1\}``.
 
 ## Introduction to Categories
@@ -169,14 +169,14 @@ K = ⟨ (x_1, λy_1 + y_2) - λ(x_1, y_1) - (x_1, y_2), \\
 Let ``\mathcal{C}`` be the category of algebraic structures. Algebraic
 structures are sets with one or more operations defined on it, which satisfy
 certain axioms. Let ``q : A \to \overline{A}`` the quotient of ``A`` by ``P``
-in ``\mathcal{C}`` and ``\overline{A} \cong \{q^{-1}(a) : a ∈ A \}`` which is
+in ``\mathcal{C}`` and ``\overline{A} ≅ \{q^{-1}(a) : a ∈ A \}`` which is
 the fibers of ``q`` and ``q : A \to A/N = \{q^{-1}(a)  : a ∈ A/N\} = aN``.
 
-Note that if the quotient exists, it is always of the form ``q : A \to A/\sim``
-where ``\sim`` is an equivalence relation.
+Note that if the quotient exists, it is always of the form ``q : A \to A/∼``
+where ``∼`` is an equivalence relation.
 
 **Proposition**. (First Isomorphism Theorem)
-Let ``f : A \to B ∈ \mathcal{C}``. Then ``A/\sim \cong
+Let ``f : A \to B ∈ \mathcal{C}``. Then ``A/∼ ≅
 \operatorname{Image}(f) ∈ \mathcal{C}``.
 
 Let's finish with some remarks. In a general concrete category, when is a
