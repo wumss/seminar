@@ -1,4 +1,10 @@
-const EXTRA_MODULES = [Tags, Common]
+using SExpressions
+using SchemeSyntax
+
+for line in SExpressions.parsefile("remark/definitions.rkt")
+    eval(SchemeSyntax.tojulia(line))
+end
+const EXTRA_MODULES = [Tags, Common, UWSeminars]
 function generate_page(data, root, page="remark/core.rem"; modules=[])
     start = Dates.now()
     info(isempty(root) ? "Index Page" : root; prefix="GENERATING: ")

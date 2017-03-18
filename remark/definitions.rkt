@@ -1,14 +1,18 @@
-(remark
+(module UWSeminars
+  (require (.Common Remarkable))
+  (require (.Tags Remarkable))
+  (require SExpressions)
+  (require (.Talks Main))
+  (require (.StdLib (.Remark Remarkable)))
+
+  (provide human time-part render-document-brief render-talk-brief
+           render-reference li interpolate render-inline-tags tag-link link-to)
+
   (define (human (:: d (.TimeType Dates)))
     ((.format Dates) d "E U d, YYYY"))
 
   (define (time-part t)
     ((.format Dates) t "HH:MM"))
-
-  (define (nav-link url text)
-    (if (== url currentpage)
-      `(li ([class "current"]) (a ([href ,(string "/" url)]) ,text))
-      `(li (a ([href ,(string "/" url)]) ,text))))
 
   (define (render-document-brief t)
     `((h3 (a ([href ,(string "/" (ref t 'url))]) ,(ref t 'title)))
@@ -47,44 +51,12 @@
   (define (li x)
     `(li ,x))
 
-  (define (render-suggestion s)
-    (append
-      `((h3 ,(ref s 'topic)))
-      (if (haskey s 'excerpt)
-        `(,((.rendermd StdLib) (ref s 'excerpt)))
-        '())
-      (if (isempty (ref s 'references))
-        '()
-        `((p "Possible reference materials for this topic include")
-          ,(cons 'ul (convert list (map (∘ li render-reference)
-                                        (ref s 'references))))))
-      (if (isempty (get s 'see-also '()))
-        '()
-        `((p "Past and scheduled talks on a related subject include")
-          ,(cons 'ul (convert list (map (∘ li archive-link)
-                                        (ref s 'see-also))))))
-      `((p "Quick links: "
-           (a ([href ,(string "https://www.google.ca/search?q="
-                              (ref s 'topic))])
-              "Google search") ", "
-           (a ([href ,(string "http://search.arxiv.org:8081/?query="
-                              (ref s 'topic))])
-              "arXiv.org search") ", "
-           (a ([href ,(string "/submit-talk")])
-              "propose to present a talk")))
-      `(,(cons 'p (render-inline-tags (ref s 'tags))))))
-
   (define (interpolate item between)
     (if (isempty between) '()
       (cons (car between) (cons item (interpolate item (cdr between))))))
 
   (define (render-inline-tags ts)
     (interpolate " " (convert list (map tag-link (sort ts)))))
-
-  (define (archive-link t)
-    `(span
-       (a ([href ,(string "/archive/" t)]) ,(title (ref talkdict t)))
-       " by " ,(speaker (ref talkdict t))))
 
   ;; TODO: in the long term, we want to use tag objects instead of strings
   ;; everywhere.
