@@ -26,8 +26,12 @@
 
   (define (render-talk-brief t)
     (append
-      `((h3 (a ([href ,(string "/" (url t))]) ,(title t)))
-        (p "Delivered by " ,(speaker t) " on " ,(human (datetime t))))
+      (list (append `(h3 (a ([href ,(string "/" (url t))]) ,(title t)))
+                    (if (and (hassummary t)
+                             (> (datetime t)
+                                (- ((.today Dates)) ((.Day Dates) 10))))
+                      '(" (New!)") '())))
+      `((p "Delivered by " ,(speaker t) " on " ,(human (datetime t))))
       (if (hasabstract t)
         (cut-abstract-at-h2
           ((.rendermd StdLib) (readstring (abstractpath t))))

@@ -172,11 +172,11 @@ certain axioms. Let ``q : A \to \overline{A}`` the quotient of ``A`` by ``P``
 in ``\mathcal{C}`` and ``\overline{A} ≅ \{q^{-1}(a) : a ∈ A \}`` which is
 the fibers of ``q`` and ``q : A \to A/N = \{q^{-1}(a)  : a ∈ A/N\} = aN``.
 
-Note that if the quotient exists, it is always of the form ``q : A \to A/∼``
+Note that if the quotient exists, it is always of the form ``q : A \to A/\!∼``
 where ``∼`` is an equivalence relation.
 
 **Proposition**. (First Isomorphism Theorem)
-Let ``f : A \to B ∈ \mathcal{C}``. Then ``A/∼ ≅
+Let ``f : A \to B ∈ \mathcal{C}``. Then ``A/\!∼\, ≅
 \operatorname{Image}(f) ∈ \mathcal{C}``.
 
 Let's finish with some remarks. In a general concrete category, when is a
