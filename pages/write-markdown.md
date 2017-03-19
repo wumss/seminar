@@ -24,11 +24,11 @@ markdown](http://docs.julialang.org/en/release-0.5/manual/documentation/#markdow
 
 You can submit talk summaries to any of the organizers, or directly submit a
 Pull Request on GitHub. We store summaries in [this
-folder](https://github.com/friedeggs/tree/master/summary) of our GitHub
+folder](https://github.com/wumss/seminar/tree/master/summary) of our GitHub
 repository. Currently, we also have to modify the [schedule
-file](https://github.com/friedeggs/blob/master/schedule.json) for the
-talk summary to show up. Please name the new file according to the convention
-of the summary folder.
+file](https://github.com/wumss/seminar/blob/master/schedule.json) for the talk
+summary to show up. Please name the new file according to the convention of the
+summary folder.
 
 ## Examples
 
