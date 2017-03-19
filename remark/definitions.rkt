@@ -63,10 +63,10 @@
   (define (tag-link (:: tag-name String))
     (let ([uri (urinormalize tag-name)])
       `(a ([class ,(string "tag-link tag-" uri)]
-           [href ,(string "/tag/" uri)]) ,tag-name)))
+           [href ,(string "/tag/" uri "/")]) ,tag-name)))
 
   (define (tag-link (:: tag Tag))
     (tag-link (tagname tag)))
 
   (define (link-to url text)
-    `(a ([href ,(string "/" url)]) ,text)))
+    `(a ([href ,(string "/" url "/")]) ,text)))
