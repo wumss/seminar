@@ -71,7 +71,7 @@ In other words, ``q : A \to \overline{A}`` is a quotient if and only if
 
   1. ``q : A \to \overline{A} ∈
      \operatorname{Hom}_{\mathcal{C}}(A,\overline{A})`` and
-     for all ``S ∈ P, q(a) = q(b)`` for all ``a,b ∈ S \subseteq A\``
+     for all ``S ∈ P, q(a) = q(b)`` for all ``a,b ∈ S \subseteq A``
   2. for all ``f : A \to X`` satisfying (1), there is a unique ``\overline{A} \to C``
      in ``\mathcal{C}`` such that the diagram commutes:
 
@@ -119,7 +119,7 @@ which is a partition on ``A``. The quotient map ``q : A \to \overline{A}`` is gi
 by ``y = q(x)`` if and only if ``x ∈ y``.
 
 In ``\mathrm{Grp}`` we let ``\overline{A} : A/N`` where ``N =
-\<{axa^{-1} : a ∈ A, x ∈ S\}>`` is the normal closure of ``S``, where
+⟨{axa^{-1} : a ∈ A, x ∈ S\}⟩`` is the normal closure of ``S``, where
 
 ```math
 S_C = \{xy^{-1} : x,y ∈ C\}
