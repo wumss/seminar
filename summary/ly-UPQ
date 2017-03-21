@@ -119,7 +119,7 @@ which is a partition on ``A``. The quotient map ``q : A \to \overline{A}`` is gi
 by ``y = q(x)`` if and only if ``x ∈ y``.
 
 In ``\mathrm{Grp}`` we let ``\overline{A} : A/N`` where ``N =
-⟨{axa^{-1} : a ∈ A, x ∈ S\}⟩`` is the normal closure of ``S``, where
+⟨\{axa^{-1} : a ∈ A, x ∈ S\}⟩`` is the normal closure of ``S``, where
 
 ```math
 S_C = \{xy^{-1} : x,y ∈ C\}
