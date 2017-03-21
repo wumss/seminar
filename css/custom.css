@@ -209,3 +209,20 @@ input[type="text"].wide {
     position: absolute;
     clip: rect(0, 0, 0, 0);
 }
+
+@media print {
+    body {
+        font-family: "Linux Libertine O", serif;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    a { color: black }
+    nav { display: none }
+    body > section {
+        margin: 0;
+    }
+    body > section article {
+        padding: 1em;
+        border: none;
+    }
+}
