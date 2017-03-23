@@ -17,10 +17,12 @@
                                         (ref s 'see-also))))))
       `((p "Quick links: "
            (a ([href ,(string "https://www.google.ca/search?q="
-                              (ref s 'topic))])
+                              (ref s 'topic))]
+               [rel "nofollow"])
               "Google search") ", "
            (a ([href ,(string "http://search.arxiv.org:8081/?query="
-                              (ref s 'topic))])
+                              (ref s 'topic))]
+               [rel "nofollow"])
               "arXiv.org search") ", "
            (a ([href ,(string "/submit-talk")])
               "propose to present a talk")))
