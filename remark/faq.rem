@@ -1,7 +1,7 @@
 (include "../pages/faq.md" #:markdown)
 
 (h2 "Did we answer your question?")
-(p "If not, please ask us!")
+(p "If not, please ask us! Use this form to get in contact with us.")
 
 (form ([action "https://formspree.io/atiwary@uwaterloo.ca"]
        [method "post"])
@@ -9,7 +9,8 @@
              (input ([name "_replyto"]
                      [type "text"]
                      [placeholder "example@uwaterloo.ca"])))
-      (label "What question do you have?"
+      (label "Leave as many additional details as you like — we’ll contact you
+              if we need anything else."
              (textarea ([name "question"]
                         [rows 8]
                         [cols 2])))

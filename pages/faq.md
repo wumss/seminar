@@ -1,9 +1,20 @@
 # Frequently Asked Questions
 
+## How can I help out?
+
+There are many ways to help us out:
+
+ - Attend the talks! The more people in the audience, the better.
+ - Register to speak for the talks.
+ - Join our organizing team. We’re looking for help organizing the meetings, as
+   well as administrative tasks such as applying for equipment use and becoming
+   a FEDS club. To sign up, send your Facebook and GitHub names through the
+   form at the bottom of the page.
+
 ## How do I sign up to talk?
 
-Stay tuned. We will make an announcement soon about talks for the Winter 2017
-term.
+Fill out the form on the [talk registration](/submit-talk) page. We’ll contact
+you about the status of your application.
 
 ## How do I write a talk summary?
 
