@@ -38,6 +38,9 @@ li p {
 
 img {
     max-width: 100%;
+    display: block;
+    width: auto;
+    margin: auto;
 }
 
 footer {
