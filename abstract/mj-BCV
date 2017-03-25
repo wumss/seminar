@@ -1,0 +1,6 @@
+In the late 1600’s, Johann Bernoulli came out with a problem to challenge the world’s greatest mathematicians.
+The problem, known as the Brachistochrone, had garnered some interest and eventually was solved by
+Johann, Jacob Bernoulli and Newton amongst others. In this talk, we will analyze
+the solution given by Leonard Euler (and Lagrange), which started a new field of Calculus, 
+called the Calculus of Variations. We will prove the most fundamental equation,  Euler-Lagrange,
+and see how this can be applied to solve the Brachistochrone problem.
