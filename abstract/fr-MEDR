@@ -1,0 +1,11 @@
+In this talk, we consider embeddings which preserve the pairwise distances of a set of points. 
+It is often useful to find mappings from one high dimensional space to a lower dimensional space
+that preserve the geometry of the points. One source of applications is in streaming large amounts of data,
+for which storage is costly and/or impractical. However, the study of such embeddings has also inspired
+developments in the design of approximation algorithms and compressed sensing.
+
+At the crux of the talk is the remarkable Johnson-Lindenstrauss lemma. This fundamental result shows
+that for Euclidean spaces, it is possible to achieve significant dimensionality reduction of a set of
+points while approximately preserving the pairwise distances. An elementary proof will be given, along 
+with subsequent speed improvements with sparse projections and an interesting use of the Fourier transform.
+We will also discuss applications of the lemma to the fields mentioned above.
