@@ -74,7 +74,7 @@
              (#:template nav-link "document" "library")
              (#:template nav-link "potential-topics" "topics"))
          (label ([for "nav-trigger"])))
-    (section
+    (main
       (article
         (include (string pagetype ".rem") #:remark))
       (#:when (defined? 'github)
