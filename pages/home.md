@@ -10,11 +10,12 @@ questions, and the [archive](/archive/) for talks before today’s date. To
 browse talks by topic, see the [tags](/tags/) page. Here is a link to our
 [facebook group](https://www.facebook.com/groups/334849026859566/).
 
-## Talks for Winter 2017
+## Talks for Spring 2017
 
-Talks for Winter 2017 have been scheduled. If you are interested in speaker
-this term or in a future term, please take a look at our [suggested
+We are looking for speakers for Spring 2017. If you are interested in speaking
+next term, please take a look at our [suggested
 topics](/potential-topics/), or browse potential topics by [tag](/tags/). To
-submit a talk, fill out our [form](/submit-talk/). If you are speaking this
-term or looking to speak in a future term, we recommend you read the [important
-information for speakers](/important-information/) first.
+submit a talk proposal, fill out our [form](/submit-talk/). If you are planning
+to speak in any term, we recommend you read the 
+[important information for speakers](/important-information/) first. If you have 
+any questions for us, we have a contact form on the [FAQ](/faq/) page. 
