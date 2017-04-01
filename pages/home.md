@@ -5,9 +5,11 @@ student seminars. We are a group of mathematics and computer science students
 who are interested in learning new topics and presenting our new knowledge to
 others.
 
-We meet every Friday in MC 4045. See our [FAQ](/faq/) for frequently asked
-questions, and the [archive](/archive/) for talks before today’s date. To
-browse talks by topic, see the [tags](/tags/) page. Here is a link to our
+We have yet to schedule talks for Spring 2017. Come back to the website nearer
+to the start of the term to check out the schedule. See our [FAQ](/faq/) 
+for frequently asked questions, and the [archive](/archive/) for talks 
+before today’s date. To browse talks by topic, see the [tags](/tags/) page.
+Here is a link to our
 [facebook group](https://www.facebook.com/groups/334849026859566/).
 
 ## Talks for Spring 2017
