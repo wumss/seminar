@@ -6,11 +6,12 @@
     height: 1100px;
     position: relative;
     padding: 50px;
-    background: url("/images/seminars-poster-blank.png") no-repeat center center fixed;
+    background: url("/images/seminars-poster-blank.png");
     background-size: cover;
 }
 
 .banner {
+    display: none;
     position: absolute;
     top: 50px;
     left: 125px;
