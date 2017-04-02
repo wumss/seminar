@@ -1,0 +1,18 @@
+[
+    {
+        "location": "TBD",
+        "time": "2017-05-01T17:30:00Z",
+        "title": "UW Seminars First Talk",
+        "tags": [],
+        "identifier": "welcome",
+        "speaker": "Akshay Tiwary"
+    },
+    {
+        "location": "TBD",
+        "time": "2017-05-01T18:30:00Z",
+        "title": "UW Seminars Second Talk",
+        "tags": [],
+        "identifier": "exit",
+        "speaker": "Manas Joshi"
+    }
+]
