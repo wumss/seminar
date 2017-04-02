@@ -4,9 +4,10 @@
     font-family: 'Ubuntu', sans-serif;
     width: 850px;
     height: 1100px;
-    background-color: white;
     position: relative;
     padding: 50px;
+    background: url("/images/seminars-poster-blank.png") no-repeat center center fixed;
+    background-size: cover;
 }
 
 .banner {
