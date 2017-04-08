@@ -1,0 +1,129 @@
+Cantor Set
+==========
+
+To begin with, I’ll give an example of a stereotypical cantor set. You
+start with an interval ``[0,1]`` and cut off the middle third and repeat
+this process for each of the two smaller intervals.
+
+If we let ``C_0 = [0,1]``, we can describe this process mathematically as
+```math C_n = \frac{C_{n-1}}{3} \cup \Big(\frac{2}{3} + \frac{C_{n-1}}{3} \Big)``` 
+and then we define ```math C = \bigcap_{n=1}^{\infty} C_n``` ``C`` is the
+stereotypical Cantor set.
+
+An interesting property is that this set has measure zero, and is
+uncountable. Let’s define what measure zero is.
+
+For all ``\varepsilon > 0`` there exists a sequence of intervals ``\{U_n\}``
+such that ``A \subseteq \bigcup_{n=1}^{\infty} U_n`` and that
+``\sum_{n =1}^{\infty} {\left|U_n\right|} < \infty`` where we naturally
+define the length of an interval as
+``{\left|(a,b)\right|} = {\left|[a,b]\right|} = b - a``.
+
+How do we show that that Cantor set is uncountable? Well we have a
+surjection to the set of ternary numbers. Every number in the cantor set
+can represented as a ternary number without 1 in any of it’s digits
+(Since 1 represents the removed middle third). Look this up on Google.
+
+In order to measure and compare the Cantor set with other fractal, we
+utilize something called the Hausdorff dimension.
+
+The Hausdorff dimension is defined by first taking the Hausdorff content
+which is defined as
+```math C_H^{d}(S) = \inf \Big\{ \sum_{i} r_i^d : r_i \text{ are balls covering S} \Big\}```
+and then we define ```math \text{dim}_H(X) = \inf\{d \geq 1 : C_H^{d} = 0\}``` 
+This is not easy to calculate, we are going to use a shortcut.
+
+It is not hard to see that ``C = C/3 \cup (2/3 + C/3)`` and
+``C/3 \cap (2/3 \cap C/3) = {\varnothing}``. A shortcut is taking the
+Hausdorff measure as follows,
+```math H^{t}(C) = H^{t}(C/3) + H^{t}(1/3C + 2/3) = 2H^{t}(C/3)``` 
+```math H^{t}(C) = 2 \cdot \frac{1}{3}^{t}H^{t}(C)```
+```math 1=2 \cdot \frac{1}{3}^{t}```  so ```math t = \frac{\log 2}{\log 3}``` Thus, the
+cantor set has dimension ``\frac{\log 2}{\log 3}``!
+
+Note that above we assumed that ``H^{t}(C)``, ``H^{t}(C/3)`` and
+``H^{t}(1/3C + 2/3)`` is finite – this is a reasonable assumption but we
+will not justify why this is the case here. So take it for granted for
+now.
+
+Dynamical Systems
+=================
+
+Let’s talk about Dynamical Systems. They are systems that describe that
+values through time. A Chaotic dynamical system is a dynamical system
+which is very sensitive to initial conditions – even a small change in
+initial conditions results in a huge change in outcome. An example of a
+chaotic dynamical system is a double pendulum – look this up!
+
+Cantor sets are related to dynamical systems! Let’s describe this.
+
+Let’s consider the following set of functions for
+``u \in {{\mathbb{R}}}```math ``f_{u}(x) = u x(1 -x)```  This equation looks nice
+but it is not. When ``u \geq 2 + \sqrt {5}`` the above equation messes a
+lot of things up. Let’s define
+```math \Lambda_n = \{x \in [0,1] :  f_u^{n}(x) \in [0,1]\}```  and then define
+```math \Lambda = \bigcap_{n=1}^{\infty}\Lambda_n```  This is the set of
+``x \in [0,1]`` such that ``f_u(x)`` is in ``[0,1]`` which can be repeatedly
+applied and it stays in ``[0,1]``.
+
+This is a Cantor set! But I forgot to give a definition of a cantor set
+before so let’s give the definition here.
+
+A Cantor set is closed and bounded, perfect and has no intervals.
+
+In order to show that that set is a Cantor set, let’s prove the
+following lemma.
+
+In ``\Lambda_n``, all intervals are bounded above in length by
+``\frac{1}{t}`` for some ``t > 1``.
+
+If x is in ``\Lambda_1``, then ``f^\prime(x)`` is greater than or equal to
+the absolute value of the derivative of ``f(x)`` at
+```math \frac{1}{2} \pm \frac{\sqrt{u^2 -4u}}{2u}```  In this way we get the t
+which we’re looking for. The second part of the lemma can be proved
+using a contradiction with the first part of the lemma and the mean
+value theorem.
+
+``\Lambda`` is a Cantor Set.
+
+``\Lambda`` is clearly closed and bounded because it is an intersection of
+closed sets.
+
+If you look at the Cantor middle third set, we know for sure that the
+endpoints of the intervals are in the Cantor set. Something similar
+happens in our case.
+
+For ``x \in \Lambda`` and for all ``\varepsilon > 0`` we can find ``n`` such
+that ``1/t^n < \varepsilon``. And we can find two boundary points which
+are close to ``x`` by looking at ``\Lambda_n``.
+
+And for the third property, given interval of length ``\varepsilon`` we
+can find ``n`` such that ``1/t^n < \varepsilon``.
+
+Chaos
+=====
+
+How does this relate to Chaos? Suppose we have a point ``x`` and we apply
+``f`` to it a many times. Since ``x \in \Lambda``, ``f^{n}(x)`` is mapped to a
+point in ``[0,1]`` for each ``n \in {{\mathbb{N}}}``. Since ``\Lambda``
+contains no intervals, there is a point close to ``x`` which is not in
+``\Lambda``. So there is a small ``y`` such that ``F^k(x + y) \not\in [0,1]``
+for some large enough ``k``. But since ``\Lambda `` is perfect, there is
+some point very close to ``x`` (but not ``x``), say ``x + z`` where ``z `` is
+very small such that ``f^l(z) \not \in [0,1] `` for large enough ``l``.
+
+This is an example of chaos because in our case we can move ``x`` a tiny
+amount and get wild changes in ``f``. It is a similar idea to the phrase
+“a Butterfly flapping its wings in New Mexico causes a hurricane in
+China” as even there a small change in initial conditions causes a huge
+change in the outcome.
+
+In our case, since the invariant of ``f`` is a cantor set, the behavior of
+the system is sensitive to very small changes. This can be used to prove
+that ``f`` is topologically transitive on the set ``\Lambda`` and is then
+used to prove that the whole function is chaotic.
+
+For an extension on this topic, a useful source is the below publishing.
+
+Holmgren, Richard A. A first course in discrete dynamical systems. New
+York: Springer, 2002. Print.
