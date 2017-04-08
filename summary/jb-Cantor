@@ -83,10 +83,10 @@ chaotic dynamical system is a double pendulum – look this up!
 Cantor sets are related to dynamical systems! Let’s describe this.
 
 Let’s consider the following set of functions for
-``u \in {{\mathbf{R}}}
+``u \in {{\mathbf{R}}}``
 ```math
- ``f_{u}(x) = u x(1 -x)
- ``` 
+ f_{u}(x) = u x(1 -x)
+``` 
  This equation looks nice
 but it is not. When ``u \geq 2 + \sqrt {5}`` the above equation messes a
 lot of things up. Let’s define
