@@ -58,7 +58,7 @@ chaotic dynamical system is a double pendulum – look this up!
 Cantor sets are related to dynamical systems! Let’s describe this.
 
 Let’s consider the following set of functions for
-``u \in {{\mathbb{R}}}```math ``f_{u}(x) = u x(1 -x)```  This equation looks nice
+``u \in {{\mathbf{R}}}```math ``f_{u}(x) = u x(1 -x)```  This equation looks nice
 but it is not. When ``u \geq 2 + \sqrt {5}`` the above equation messes a
 lot of things up. Let’s define
 ```math \Lambda_n = \{x \in [0,1] :  f_u^{n}(x) \in [0,1]\}```  and then define
@@ -105,7 +105,7 @@ Chaos
 
 How does this relate to Chaos? Suppose we have a point ``x`` and we apply
 ``f`` to it a many times. Since ``x \in \Lambda``, ``f^{n}(x)`` is mapped to a
-point in ``[0,1]`` for each ``n \in {{\mathbb{N}}}``. Since ``\Lambda``
+point in ``[0,1]`` for each ``n \in {{\mathbf{N}}}``. Since ``\Lambda``
 contains no intervals, there is a point close to ``x`` which is not in
 ``\Lambda``. So there is a small ``y`` such that ``F^k(x + y) \not\in [0,1]``
 for some large enough ``k``. But since ``\Lambda `` is perfect, there is
