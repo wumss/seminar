@@ -6,8 +6,15 @@ start with an interval ``[0,1]`` and cut off the middle third and repeat
 this process for each of the two smaller intervals.
 
 If we let ``C_0 = [0,1]``, we can describe this process mathematically as
-```math C_n = \frac{C_{n-1}}{3} \cup \Big(\frac{2}{3} + \frac{C_{n-1}}{3} \Big)``` 
-and then we define ```math C = \bigcap_{n=1}^{\infty} C_n``` ``C`` is the
+
+```math
+ C_n = \frac{C_{n-1}}{3} \cup \Big(\frac{2}{3} + \frac{C_{n-1}}{3} \Big)
+``` 
+ and then we define 
+```math
+ C = \bigcap_{n=1}^{\infty} C_n
+ ``` 
+ `C`` is the
 stereotypical Cantor set.
 
 An interesting property is that this set has measure zero, and is
@@ -29,16 +36,34 @@ utilize something called the Hausdorff dimension.
 
 The Hausdorff dimension is defined by first taking the Hausdorff content
 which is defined as
-```math C_H^{d}(S) = \inf \Big\{ \sum_{i} r_i^d : r_i \text{ are balls covering S} \Big\}```
-and then we define ```math \text{dim}_H(X) = \inf\{d \geq 1 : C_H^{d} = 0\}``` 
-This is not easy to calculate, we are going to use a shortcut.
+
+```math
+ C_H^{d}(S) = \inf \Big\{ \sum_{i} r_i^d : r_i \text{ are balls covering S} \Big\}```
+and then we define 
+```math
+ \text{dim}_H(X) = \inf\{d \geq 1 : C_H^{d} = 0\}
+ ``` 
+ This is not easy to calculate, we are going to use a shortcut.
 
 It is not hard to see that ``C = C/3 \cup (2/3 + C/3)`` and
 ``C/3 \cap (2/3 \cap C/3) = {\varnothing}``. A shortcut is taking the
 Hausdorff measure as follows,
-```math H^{t}(C) = H^{t}(C/3) + H^{t}(1/3C + 2/3) = 2H^{t}(C/3)``` 
-```math H^{t}(C) = 2 \cdot \frac{1}{3}^{t}H^{t}(C)```
-```math 1=2 \cdot \frac{1}{3}^{t}```  so ```math t = \frac{\log 2}{\log 3}``` Thus, the
+
+```math
+ H^{t}(C) = H^{t}(C/3) + H^{t}(1/3C + 2/3) = 2H^{t}(C/3)
+ ``` 
+
+```math
+ H^{t}(C) = 2 \cdot \frac{1}{3}^{t}H^{t}(C)```
+
+```math
+ 1=2 \cdot \frac{1}{3}^{t}
+ ``` 
+ so 
+ ```math
+ t = \frac{\log 2}{\log 3}
+ ``` 
+ hus, the
 cantor set has dimension ``\frac{\log 2}{\log 3}``!
 
 Note that above we assumed that ``H^{t}(C)``, ``H^{t}(C/3)`` and
@@ -58,11 +83,23 @@ chaotic dynamical system is a double pendulum – look this up!
 Cantor sets are related to dynamical systems! Let’s describe this.
 
 Let’s consider the following set of functions for
-``u \in {{\mathbf{R}}}```math ``f_{u}(x) = u x(1 -x)```  This equation looks nice
+``u \in {{\mathbf{R}}}
+```math
+ ``f_{u}(x) = u x(1 -x)
+ ``` 
+ This equation looks nice
 but it is not. When ``u \geq 2 + \sqrt {5}`` the above equation messes a
 lot of things up. Let’s define
-```math \Lambda_n = \{x \in [0,1] :  f_u^{n}(x) \in [0,1]\}```  and then define
-```math \Lambda = \bigcap_{n=1}^{\infty}\Lambda_n```  This is the set of
+
+```math
+ \Lambda_n = \{x \in [0,1] :  f_u^{n}(x) \in [0,1]\}
+ ``` 
+ and then define
+
+```math
+ \Lambda = \bigcap_{n=1}^{\infty}\Lambda_n
+``` 
+ This is the set of
 ``x \in [0,1]`` such that ``f_u(x)`` is in ``[0,1]`` which can be repeatedly
 applied and it stays in ``[0,1]``.
 
@@ -79,7 +116,11 @@ In ``\Lambda_n``, all intervals are bounded above in length by
 
 If x is in ``\Lambda_1``, then ``f^\prime(x)`` is greater than or equal to
 the absolute value of the derivative of ``f(x)`` at
-```math \frac{1}{2} \pm \frac{\sqrt{u^2 -4u}}{2u}```  In this way we get the t
+
+```math
+ \frac{1}{2} \pm \frac{\sqrt{u^2 -4u}}{2u}
+``` 
+ In this way we get the t
 which we’re looking for. The second part of the lemma can be proved
 using a contradiction with the first part of the lemma and the mean
 value theorem.
