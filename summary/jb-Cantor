@@ -14,7 +14,7 @@ If we let ``C_0 = [0,1]``, we can describe this process mathematically as
 ```math
  C = \bigcap_{n=1}^{\infty} C_n
  ``` 
- `C`` is the
+ ``C`` is the
 stereotypical Cantor set.
 
 An interesting property is that this set has measure zero, and is
