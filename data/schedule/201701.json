@@ -181,14 +181,14 @@
     {
         "location": "MC 4045",
         "time": "2017-03-24T18:30:00Z",
-        "title": "Lie Groups in Physics",
+        "title": "Lie Groups and Special Relativity",
         "tags": [
             "algebra",
             "linear algebra",
             "group theory",
-            "particle physics",
+            "Lie group",
             "physics",
-            "representation theory"
+            "mechanics"
         ],
         "identifier": "me-RTPP",
         "speaker": "Mohamed El Mandouh"
@@ -197,7 +197,14 @@
         "location": "MC 4045",
         "time": "2017-03-31T17:30:00Z",
         "title": "Metric embeddings and dimensionality reduction",
-        "tags": [],
+        "tags": [
+            "algebra",
+            "algorithm",
+            "computer science",
+            "data science",
+            "linear algebra",
+            "probability"
+        ],
         "identifier": "fr-MEDR",
         "speaker": "Frieda Rong"
     },
@@ -220,7 +227,8 @@
         "tags": [
             "analysis",
             "applied mathematics",
-            "dynamical system"
+            "dynamical system",
+            "physics"
         ],
         "identifier": "jb-Cantor",
         "speaker": "James Bai"
