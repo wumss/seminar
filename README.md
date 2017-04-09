@@ -3,6 +3,10 @@
 A simple static site for an informal math seminar series. The site is built
 with [HTSX](https://github.com/TotalVerb/SExpressions.jl).
 
+Here are some tutorials on how to edit the website:
+
+- [Talks, abstract, summaries](https://www.youtube.com/watch?v=0bCAP7vxUAU)
+
 ## To deploy:
 Generate the site (note that the scripts are, for historical reasons, named
 somewhat misleadingly):
