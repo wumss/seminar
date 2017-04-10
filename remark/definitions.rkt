@@ -41,8 +41,8 @@
           ((.rendermd StdLib) (readstring (abstractpath t))))
         '())
       (if (hassummary t)
-        `((a ([href ,(string "/" (url t))])
-             "A summary of this talk is available here."))
+        `((p (a ([href ,(string "/" (url t))])
+                "A summary of this talk is available here.")))
         '())))
 
   (define (render-reference r)
