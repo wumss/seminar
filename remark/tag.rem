@@ -7,8 +7,9 @@
 ;; document
 (h1 (remark (ucfirst (tagname tag))))
 
-(#:when (isfile (string "wiki/tag/" uri ".md"))
- (include (string "../wiki/tag/" uri ".md") #:markdown))
+(remark
+  (when (isfile (string "wiki/tag/" uri ".md"))
+    (include-markdown (string "../wiki/tag/" uri ".md"))))
 
 (p "There have been "
    (remark
@@ -29,37 +30,38 @@
                             "topic suggestion"))))))
    " tagged with " (b (remark (tagname tag))) ".")
 
-(#:when (> (length subtopics) 1)
- (p "There are many subfields of " (b (remark (tagname tag)))
-    ", including: ")
- (ul (#:each t subtopics
-      `((li ,(tag-link t))))))
+(remarks
+  (when (> (length subtopics) 1)
+    `((p "There are many subfields of " (b (remark (tagname tag)))
+         ", including: ")
+      (ul (#:each t subtopics
+           `((li ,(tag-link t))))))))
 
-(#:when (! (isempty related))
-  (h2 "Related Tags")
-  (ul (#:each t related
-        `((li ,(tag-link (ref t 1)))))))
+(remarks
+  (when (! (isempty related))
+    `((h2 "Related Tags")
+      (ul (#:each t related `((li ,(tag-link (ref t 1)))))))))
 
-(#:when (! (iszero (count iscompleted talks)))
- (h2 "Completed Talks")
+(remarks
+  (when (! (iszero (count iscompleted talks)))
+    `((h2 "Completed Talks")
+      (#:each t (reverse (filter iscompleted talks))
+       (render-talk-brief t)))))
 
- (#:each t (reverse (filter iscompleted talks))
-  (render-talk-brief t)))
+(remarks
+  (when (! (iszero (count (! iscompleted) talks)))
+    `((h2 "Scheduled Talks")
+      (#:each t (filter (! iscompleted) talks)
+       (render-talk-brief t)))))
 
-(#:when (! (iszero (count (! iscompleted) talks)))
- (h2 "Scheduled Talks")
+(remarks
+  (when (! (isempty documents))
+    `((h2 "Documents")
+      (#:each t documents
+       (render-document-brief (brief t))))))
 
- (#:each t (filter (! iscompleted) talks)
-  (render-talk-brief t)))
-
-(#:when (! (isempty documents))
- (h2 "Documents")
-
- (#:each t documents
-  (render-document-brief (brief t))))
-
-(#:when (! (isempty suggestions))
- (h2 ([id "suggestions"]) "Talk Suggestions")
-
- (#:each s suggestions
-  (render-suggestion s)))
+(remarks
+  (when (! (isempty suggestions))
+    `((h2 ([id "suggestions"]) "Talk Suggestions")
+      (#:each s suggestions
+       (render-suggestion s)))))

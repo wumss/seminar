@@ -1,4 +1,4 @@
-(include "../pages/tags.md" #:markdown)
+(remark (include-markdown "../pages/tags.md"))
 
 (remark
   (define alltags (collect (tags tagmatrix)))

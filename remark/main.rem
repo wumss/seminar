@@ -50,10 +50,12 @@
     (link ([rel "stylesheet"]
            [href "/css/custom.css"]))
     (include "ga.rem" #:remark)
-    (#:when (defined? 'extracss)
-     (#:each css extracss
-      `((link ([rel "stylesheet"]
-               [href ,(string "/css/" css ".css")])))))
+    (remarks
+      (when (defined? 'extracss)
+        (map (λ (css)
+                `(link ([rel "stylesheet"]
+                        [href ,(string "/css/" css ".css")])))
+             extracss)))
     (#:when (defined? 'mathjaxplease)
      (include "mathjax.rem" #:remark))
     (title (remark pagetitle)))
@@ -78,9 +80,10 @@
     (main
       (article
         (include (string pagetype ".rem") #:remark))
-      (#:when (defined? 'github)
-       (footer (p "Help improve this page by "
-                  ;; can't use the obvious #:var, so use ugly workaround
-                  ;; todo: support #:var in attributes in Remark
-                  (#:each _ 0 `(((a ([href ,github]) "editing it on GitHub"))))
-                  "."))))))
+      (remark
+        (when (defined? 'github)
+          `(footer (p "Help improve this page by "
+                      ;; can't use the obvious #:var, so use ugly workaround
+                      ;; todo: support #:var in attributes in Remark
+                      (#:each _ 0 `(((a ([href ,github]) "editing it on GitHub")))))
+                   "."))))))

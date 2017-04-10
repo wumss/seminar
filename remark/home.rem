@@ -1,4 +1,4 @@
-(include "../pages/home.md" #:markdown)
+(remark (include-markdown "../pages/home.md"))
 
 (remark
   (define (talk-row t)
@@ -8,7 +8,7 @@
                   (td ,(time-part (datetime t)))))
             (if (hasabstract t)
               `((tr (td ([colspan 4])
-                        (include ,(string "../" (abstractpath t)) #:markdown))))
+                        (remark (include-markdown ,(string "../" (abstractpath t)))))))
               '()))))
 
 ;; (h2 "Upcoming Talks")

@@ -1,4 +1,4 @@
-(include "../pages/faq.md" #:markdown)
+(remark (include-markdown "../pages/faq.md"))
 
 (h2 "Did we answer your question?")
 (p "If not, please ask us! Use this form to get in contact with us.")

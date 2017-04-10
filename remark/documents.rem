@@ -1,4 +1,4 @@
-(include "../pages/documents.md" #:markdown)
+(remark (include-markdown "../pages/documents.md"))
 
 (h2 "Summarized Talks")
 

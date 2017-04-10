@@ -9,13 +9,15 @@
    (remark (speaker talk))
    ".")
 
-(#:when (hasabstract talk)
-  (h2 "Abstract")
-  (include (string "../" (abstractpath talk)) #:markdown))
+(remarks
+  (when (hasabstract talk)
+    `((h2 "Abstract")
+      ,(include-markdown (string "../" (abstractpath talk))))))
 
-(#:when (hassummary talk)
-  (h2 "Summary")
-  (include (string "../" (summarypath talk)) #:markdown))
+(remarks
+  (when (hassummary talk)
+    `((h2 "Summary")
+      ,(include-markdown (string "../" (summarypath talk))))))
 
 (h2 "Tags")
 

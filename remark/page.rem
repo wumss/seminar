@@ -1,1 +1,1 @@
-(include (string "../pages/" page ".md") #:markdown)
+(remark (include-markdown (string "../pages/" page ".md")))
