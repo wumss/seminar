@@ -5,13 +5,19 @@ using JSON
 using EnglishText
 using Glob
 using DataStructures
+using SExpressions
+using SchemeSyntax
 using Remarkable.Common
 using Remarkable.Tags
+using Remarkable.StaticSites
 
 include("talks.jl")
-include("htsx-glue.jl")
-
 using .Talks
+
+for line in SExpressions.parsefile("remark/definitions.rkt")
+    eval(SchemeSyntax.tojulia(line))
+end
+const site = StaticSite(default_modules=[Tags, Common, UWSeminars])
 
 const GITHUB = "https://github.com/wumss/seminar/edit/master"
 
