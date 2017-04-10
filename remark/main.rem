@@ -56,8 +56,8 @@
                 `(link ([rel "stylesheet"]
                         [href ,(string "/css/" css ".css")])))
              extracss)))
-    (#:when (defined? 'mathjaxplease)
-     (include "mathjax.rem" #:remark))
+    (remark (when (defined? 'mathjaxplease)
+              `(include "mathjax.rem" #:remark)))
     (title (remark pagetitle)))
   (body
     (header
