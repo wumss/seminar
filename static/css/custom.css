@@ -1,37 +1,3 @@
-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 90px;
-    background: black;
-    padding: 10px;
-}
-nav ul {
-    margin: 0;
-}
-nav ul li {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 5px;
-    text-align: center;
-    box-sizing: border-box;
-    border-bottom: 2px solid black;
-}
-nav ul li.current {
-    border-bottom: 2px solid lightskyblue;
-}
-nav ul li a {
-    color: rgb(200, 200, 200);
-    font-size: 20px;
-}
-nav ul li a:hover {
-    color: white;
-}
-body > main {
-    margin-top: 70px;
-}
-
 li p {
     margin: 0;
 }
