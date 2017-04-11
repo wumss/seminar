@@ -8,7 +8,7 @@
 (h2 "Tags")
 
 (ul
-  ;; TODO: technically tags is for talks, not documents
-  ;; make sure to update once talks get a non-JSON data structure
-  (#:each tag (tags document)
+  ;; TODO: this is a little brittle
+  ;; make sure to update once documents get a non-JSON data structure
+  (#:each tag (ref document 'tags)
     `((li ,(tag-link tag)))))

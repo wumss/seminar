@@ -31,7 +31,7 @@
   (define (archive-link t)
     `(span
        (a ([href ,(string "/archive/" t)]) ,(title (ref talkdict t)))
-       " by " ,(speaker (ref talkdict t))))
+       " by " ,(ItemList (authors (ref talkdict t)))))
 
   (define (nav-link url text)
     (if (== url currentpage)

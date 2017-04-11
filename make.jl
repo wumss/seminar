@@ -7,6 +7,7 @@ using Glob
 using DataStructures
 using SExpressions
 using SchemeSyntax
+using Remarkable.Articles
 using Remarkable.Common
 using Remarkable.Tags
 using Remarkable.StaticSites
@@ -17,7 +18,8 @@ using .Talks
 for line in SExpressions.parsefile("remark/definitions.rkt")
     eval(SchemeSyntax.tojulia(line))
 end
-const site = StaticSite(default_modules=[Tags, Common, UWSeminars])
+const site = StaticSite(default_modules=[Tags, Common, UWSeminars, EnglishText,
+                                         Articles])
 
 const GITHUB = "https://github.com/wumss/seminar/edit/master"
 
@@ -63,6 +65,9 @@ function write_summary(t)
                   modules=[Talks])
 end
 
+# tag collection
+tagmatrix = TagMatrix()
+
 # Parse the schedule
 result = []
 for file ∈ glob("data/schedule/*.json")
@@ -70,13 +75,15 @@ for file ∈ glob("data/schedule/*.json")
     append!(result,
             JSON.parsefile(file, dicttype=Dict{Symbol,Any}))
 end
-result = [Talks.fromjson(obj) for obj in result]
+result = [Talks.fromjson(obj, tagmatrix) for obj in result]
 sort!(result, by=x -> datetime(x))
 
 talks = []
 
 nexttalks = []
 nextdate = Date(9999,12,31)
+talkdict = Dict{String,Any}()
+
 for t in result
     write_summary(t)
     if iscompleted(t)
@@ -90,16 +97,8 @@ for t in result
             push!(nexttalks, t)
         end
     end
-end
 
-# tag collection
-talkdict = Dict{String,Any}()
-
-tagmatrix = TagMatrix()
-
-for t in result
     talkdict[identifier(t)] = t
-    populate!(tagmatrix, tags(t))
 end
 
 # suggestion gathering
@@ -116,7 +115,7 @@ generate_page(site, "poster"; data=Dict(
     :github => "$GITHUB/remark/poster.rem",
     :extracss => ["poster"],
     :mathjaxplease => true,
-    :talks => nexttalks), modules=[Talks, EnglishText])
+    :talks => nexttalks), modules=[Talks])
 
 generate_page(site, "archive"; data=Dict(
     :pagetitle => "Archived Talks",
@@ -139,8 +138,7 @@ generate_page(site, "tags"; data=Dict(
     :tagmatrix => tagmatrix), modules=[])
 
 for t in alltags
-    # TODO: eventually we want to get away from using strings
-    active_set = filter(x -> tagname(t) in tags(x), result)
+    active_set = filter(x -> t in tags(x), result)
     generate_page(site, "tag/$(urinormalize(tagname(t)))"; data=Dict(
         :pagetitle => ucfirst(tagname(t)),
         :pagetype => "tag",
@@ -151,7 +149,7 @@ for t in alltags
         :documents => docs_bytag[t],
         :mathjaxplease => true,
         :github => "$GITHUB/wiki/tag/$t.md",
-        :suggestions => bytag[t]), modules=[Talks, EnglishText])
+        :suggestions => bytag[t]), modules=[Talks])
 end
 
 generate_page(site, "potential-topics"; data=Dict(

@@ -1,9 +1,11 @@
 (module UWSeminars
+  (require (.Articles Remarkable))
   (require (.Common Remarkable))
   (require (.Tags Remarkable))
   (require SExpressions)
   (require (.Talks Main))
   (require (.StdLib (.Remark Remarkable)))
+  (require EnglishText)
 
   (provide human time-part render-document-brief render-talk-brief
            render-reference li interpolate render-inline-tags tag-link link-to)
@@ -35,7 +37,7 @@
                              (> (datetime t)
                                 (- ((.today Dates)) ((.Day Dates) 10))))
                       '(" (New!)") '())))
-      `((p "Delivered by " ,(speaker t) " on " ,(human (datetime t))))
+      `((p "Delivered by " ,(ItemList (authors t)) " on " ,(human (datetime t))))
       (if (hasabstract t)
         (cut-abstract-at-h2
           ((.rendermd StdLib) (readstring (abstractpath t))))

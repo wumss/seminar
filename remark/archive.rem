@@ -5,8 +5,8 @@
    (remark (human (datetime talk)))
    " in "
    (remark (location talk))
-   ". The speaker was "
-   (remark (speaker talk))
+   ". The talk was given by "
+   (remark (ItemList (authors talk)))
    ".")
 
 (remarks

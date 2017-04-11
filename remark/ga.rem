@@ -1,1 +1,1 @@
-(script (include "ga.js" #:text))
+(script (remark (include-text "ga.js")))

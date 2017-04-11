@@ -3,7 +3,7 @@
 (remark
   (define (talk-row t)
     (append `((tr (td ,(title t))
-                  (td ,(speaker t))
+                  (td ,(ItemList (authors t)))
                   (td ,(location t))
                   (td ,(time-part (datetime t)))))
             (if (hasabstract t)

@@ -4,22 +4,17 @@ using Base.Iterators
 using EnglishText
 using SExpressions.Lists
 using Remarkable.Articles
-import Remarkable.Articles: title
-import Remarkable.Tags: tags
+using Remarkable.Tags
 
-# TODO: make non-mutating and return object instead of dict
-function fromjson(obj)
-    obj[:time] = DateTime(obj[:time], "y-m-dTH:M:SZ")
-    obj
+function fromjson(obj, tagmatrix)
+    properties = ArticleMetadata(obj[:identifier],
+                                 obj[:title],
+                                 [obj[:speaker]],
+                                 DateTime(obj[:time], "y-m-dTH:M:SZ"))
+    tag!(properties, tagmatrix, obj[:tags])
+    LivePerformance(properties, obj[:location])
 end
 
-title(t) = t[:title]
-tags(t) = t[:tags]
-location(t) = t[:location]
-speaker(t) = t[:speaker]
-datetime(t) = t[:time]
-
-identifier(t) = t[:identifier]
 url(t) = "archive/$(identifier(t))"
 iscompleted(t) = Date(datetime(t)) < Dates.today()
 
@@ -47,8 +42,7 @@ function brief(t)
     end
 end
 
-export abstractpath, hasabstract, summarypath, hassummary, identifier,
-       iscompleted, valuate, brief, location, speaker,
-       datetime, tags, fromjson, title, url
+export abstractpath, hasabstract, summarypath, hassummary, iscompleted,
+       valuate, brief, fromjson, url
 
 end
