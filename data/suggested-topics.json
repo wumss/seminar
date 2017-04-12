@@ -249,6 +249,1352 @@
         "see-also": []
     },
     {
+        "topic": "Compressed Sensing",
+        "tags": [
+            "algebra",
+            "linear algebra",
+            "statistics",
+            "information theory",
+            "signal processing"
+        ],
+        "references": [
+            "[Compressed Sensing Makes Every Pixel Count](http://www.ams.org/samplings/math-history/hap7-pixel.pdf)",
+            "[Davenport, M. A., Duarte, M. F., Eldar, Y. C., & Kutyniok, G. (2011). Introduction to compressed sensing. Preprint, 93(1), 2.](http://statweb.stanford.edu/~markad/publications/ddek-chapter1-2011.pdf)"
+        ],
+        "excerpt": "Compressed sensing is about minimizing the information gathered and stored by sensors, reducing the need for file compression later on for transmission. This can reduce costs for certain applications, such as non-visible wavelength cameras."
+    },
+    {
+        "topic": "Computable Functions",
+        "tags": [
+            "computability",
+            "computer science",
+            "theoretical computer science",
+            "turing machine"
+        ],
+        "references": [
+            "[A. Shen, N. K. Vereshchagin](https://www.amazon.com/Computable-Functions-Student-Mathematical-Library/dp/0821827324/ref=sr_1_1?s=books&ie=UTF8&qid=1437716490&sr=1-1&pebp=1437716499539&perid=15CJV47PBD4EMQ11VZ5V)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Computational Algebraic Geometry",
+        "tags": [
+            "algebra",
+            "algebraic geometry",
+            "computer science"
+        ],
+        "references": [
+            "Cox, Little, O'Shea : Ideals, Varieties and Algorithms"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Conformal Mapping and Inversion Theory",
+        "tags": [
+            "analysis",
+            "complex analysis"
+        ],
+        "references": [
+            "[Peter J. Olver](http://www.math.umn.edu/~olver/ln_/cml.pdf)",
+            "David Blair : Inversion Theory and Conformal Mapping"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Constructive Mathematics",
+        "references": [
+            "(Talk) [Andrej Bauer, Five Stages of Accepting Constructive Mathematics](https://www.youtube.com/watch?v=zmhd8clDd_Y)"
+        ],
+        "excerpt": "Constructive mathematics, or mathematics without the law of the excluded middle, is becoming more popular thanks to connections with computer science, category theory, and topology. Its logical foundations may be initially difficult to grasp for those used to a classical system.",
+        "tags": [
+            "computability",
+            "computer science",
+            "constructive mathematics",
+            "logic",
+            "topology",
+            "type theory",
+            "philosophy"
+        ]
+    },
+    {
+        "topic": "Continued Fractions and Hyperbolic Geometry",
+        "tags": [
+            "number theory",
+            "algebra",
+            "geometry",
+            "hyperbolic geometry"
+        ],
+        "references": [
+            "[Caroline Series](http://homepages.warwick.ac.uk/~masbb/HypGeomandCntdFractions-2.pdf)",
+            "[Mairi Walker](http://www.maths.ed.ac.uk/~mkalck/GAMES/Mairi.pdf)",
+            "[Ian Short](http://www.emis.de/journals/AASF/Vol31/short.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Conway’s Game of Life",
+        "tags": [
+            "automaton",
+            "cellular automaton",
+            "computer science",
+            "first year friendly",
+            "recreational mathematics",
+            "theoretical computer science"
+        ],
+        "references": [
+            "[Melissa Gymrek](http://web.mit.edu/sp.268/www/2010/lifeSlides.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Costas Arrays",
+        "tags": [
+            "field theory",
+            "algebra",
+            "number theory",
+            "prime number"
+        ],
+        "references": [
+            "[Nanoexplanations, the blog of Aaron Sterling](https://nanoexplanations.wordpress.com/2011/10/09/an-independent-discovery-of-costas-arrays/)",
+            "[Lionel Barker, Konstantinos Drakakis, Scott Richard, On the Complexity of the Verification of the Costas Property](http://eeme.ucd.ie/~kdrakaka/work/publications/020.On_The_Complexity_Of_The_Verification_Of_The_Costas_Property.pdf)"
+        ],
+        "excerpt": "Permutation matrices for which all ``\\frac{n(n-1)}{2}`` displacements between all pairs of 1s are distinct are known as Costas arrays, and these have important applications in sonar. The Welch construction of Costas arrays uses concepts from number theory, whereas the Lempel-Golomb construction uses concepts from field theory."
+    },
+    {
+        "topic": "Curry–Howard–Lambek Correspondence",
+        "tags": [
+            "category theory",
+            "computer science",
+            "logic"
+        ],
+        "references": [
+            "[Samson Abramsky](http://www.math.helsinki.fi/logic/sellc-2010/course/LectureIII.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Dealing with Missing Data",
+        "tags": [
+            "computer science",
+            "data science",
+            "efficiency",
+            "first year friendly",
+            "statistics",
+            "Tech Talks"
+        ],
+        "references": [
+            "[Wikipedia](https://en.wikipedia.org/wiki/Missing_data)"
+        ],
+        "excerpt": "Data are rarely perfect. Robust data science tools must have ways to deal with missing data. However, this is not always easy. A balance must be struck between performance and convenience."
+    },
+    {
+        "topic": "Differential Equations on Fractals",
+        "tags": [
+            "analysis",
+            "differential equation",
+            "fractal"
+        ],
+        "references": [
+            "Robert Strichartz : Differential Equations on Fractals - A tutorial"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Dirichlet L-functions and the Generalized Riemann Hypothesis",
+        "tags": [
+            "number theory",
+            "open problem",
+            "prime number"
+        ],
+        "references": [],
+        "see-also": []
+    },
+    {
+        "topic": "Dirichlet's Theorem on Primes in Arithmetic progression",
+        "tags": [
+            "number theory",
+            "analytic number theory",
+            "analysis",
+            "complex analysis"
+        ],
+        "references": [
+            "[Pete Clark](https://web.math.pmf.unizg.hr/nastava/studnatj/Dirichlet_theorem.pdf)",
+            "[Apostol](http://www.plouffe.fr/simon/math/IntrodAnalyticNTApostol.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Distribution of Primes Modulo p",
+        "tags": [
+            "number theory",
+            "open problem",
+            "prime number"
+        ],
+        "references": [
+            "[Gaze, E. & Gaze, J. Math Intelligencer (2016) 38: 14. doi:10.1007/s00283-015-9585-2](https://link.springer.com/article/10.1007/s00283-015-9585-2)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Down with Determinants",
+        "tags": [
+            "algebra",
+            "linear algebra"
+        ],
+        "references": [
+            "[Sheldon Axler](http://www.axler.net/DwD.html)"
+        ]
+    },
+    {
+        "topic": "Entropy in Mathematics and Information Theory",
+        "tags": [
+            "information theory",
+            "probability",
+            "statistics"
+        ],
+        "references": [
+            "[Robert M. Gray](https://ee.stanford.edu/~gray/it.pdf)",
+            "[Tom Carter](http://astarte.csustan.edu/~tom/SFI-CSSS/info-theory/info-lec.pdf)"
+        ]
+    },
+    {
+        "topic": "Fermi Estimation",
+        "tags": [
+            "physics",
+            "approximation",
+            "statistics"
+        ],
+        "references": [
+            "[Art of approximation in science and engineering](http://web.mit.edu/6.055/)"
+        ],
+        "excerpt": "Physicist Enrico Fermi was known for his impressive order-of-magnitude estimation. He was famously able to estimate the yield of the Trinity test atomic bomb to about a factor of two. Why is Fermi estimation so useful and accurate? What are the techniques to make better approximations? How can and do scientists, mathematicians, engineers, and others use Fermi estimation in their work?"
+    },
+    {
+        "topic": "Fishburn numbers and their Applications in Enumeration",
+        "tags": [
+            "combinatorics",
+            "enumeration",
+            "number theory"
+        ],
+        "references": [
+            "[Andrews, Sellers](http://www.personal.psu.edu/jxs23/andrews_sellers_fishburn_jntwinnie_final.pdf)",
+            "[Paul Levande](https://www.math.upenn.edu/~plevande/dissertationversion.pdf)"
+        ]
+    },
+    {
+        "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC",
+        "tags": [
+            "logic",
+            "set theory"
+        ],
+        "references": [
+            "[Itay Neeman](http://www.math.ucla.edu/~ineeman/223s.1.11s/223s-spring11-lecture-notes-6-5.pdf)",
+            "[Timothy Y. Chow](http://www-math.mit.edu/~tchow/forcing.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Fuzzy Logic",
+        "tags": [
+            "logic",
+            "set theory"
+        ],
+        "references": [
+            "[R. Rojas](https://page.mi.fu-berlin.de/rojas/neural/chapter/K11.pdf)",
+            "[Franck Dernoncourt](http://www.francky.me/doc/course/fuzzy_logic.pdf)"
+        ]
+    },
+    {
+        "topic": "Galois Field Arithmetic",
+        "tags": [
+            "algebra",
+            "field theory",
+            "Galois theory",
+            "cryptography"
+        ],
+        "references": [
+            "[Plank, Greenan, Miller](http://web.eecs.utk.edu/~plank/plank/papers/FAST-2013-GF.html)",
+            "[Christoforus Juan Benvenuto](https://www.math.washington.edu/~morrow/336_12/papers/juan.pdf)",
+            "[Finite Field Arithmetic](http://www.springer.com/?SGWID=4-102-45-110359-0)"
+        ]
+    },
+    {
+        "topic": "Geographic Authentication Schemes",
+        "tags": [
+            "computer science",
+            "human-computer interaction",
+            "encryption",
+            "security"
+        ],
+        "references": [
+            "[Macrae, et all](http://www.cs.toronto.edu/~abari/papers/GeoPass_TIFS_2016.pdf)",
+            "[Al Ameen, Wright](https://arxiv.org/pdf/1408.2852.pdf)",
+            "[Thorpe, et all](https://cups.cs.cmu.edu/soups/2013/proceedings/a14_Thorpe.pdf)"
+        ],
+        "excerpt": "Users often choose passwords that are easy to remember but also easy to guess. Both textual and graphical passwords have failed to provide a viable solution to this usability-security tension. It thus remains a critical challenge in password research to design an authentication scheme that is resilient to guessing attacks while offering good memorability.",
+        "see-also": []
+    },
+    {
+        "topic": "Geometric Computing with Clifford Algebra",
+        "tags": [
+            "algebra",
+            "computer science",
+            "clifford algebra",
+            "theoretical computer science",
+            "applied mathematics",
+            "computer vision"
+        ],
+        "references": [
+            "[Gerald Sommer](https://books.google.ca/books?id=umyrCAAAQBAJ&dq=Clifford+Neuron&source=gbs_navlinks_s)"
+        ],
+        "excerpt": "Clifford algebra, then called geometric algebra, was introduced more than a cenetury ago by William K. Clifford, building on work by Grassmann and Hamilton. Clifford or geometric algebra shows strong unifying aspects and turned out in the 1960s to be a most adequate formalism for describing different geometry-related algebraic systems as specializations of one 'mother algebra' in various subfields of physics and engineering. Recent work outlines that Clifford algebra provides a universal and powerfull algebraic framework for an elegant and coherent representation of various problems occuring in computer science, signal processing, neural computing, image processing, pattern recognition, computer vision, and robotics. This monograph-like anthology introduces the concepts and framework of Clifford algebra and provides computer scientists, engineers, physicists, and mathematicians with a rich source of examples of how to work with this formalism.",
+        "see-also": []
+    },
+    {
+        "topic": "Geometric Group Theory",
+        "tags": [
+            "algebra",
+            "geometric topology",
+            "geometry",
+            "group theory",
+            "topology"
+        ],
+        "references": [
+            "[Kraft](https://www.math.ucdavis.edu/~kapovich/280-2009/bhb-ggtcourse.pdf)"
+        ],
+        "excerpt": "The field of geometric group theory emerged from Gromov’s insight that even mathematical objects such as groups, which are defined completely in algebraic terms, can be profitably viewed as geometric objects and studied with geometric techniques Contemporary geometric group theory has broadened its scope considerably, but retains this basic philosophy of reformulating in geometric terms problems from diverse areas of mathematics and then solving them with a variety of tools. The growing list of areas where this general approach has been successful includes low-dimensional topology, the theory of manifolds, algebraic topology, complex dynamics, combinatorial group theory, algebra, logic, the study of various classical families of groups, Riemannian geometry and representation theory.",
+        "see-also": []
+    },
+    {
+        "topic": "Geometry and Billiards",
+        "tags": [
+            "differential geometry",
+            "classical mechanics",
+            "geometry",
+            "mechanics",
+            "physics"
+        ],
+        "references": [
+            "[Sergei Tabachnikov](https://www.math.psu.edu/tabachni/Books/billiardsgeometry.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Gillespie Algorithm",
+        "tags": [
+            "algorithms",
+            "applied mathematics",
+            "computational mathematics",
+            "computer science",
+            "differential equation",
+            "probability",
+            "stochastic equation"
+        ],
+        "references": [
+            "[David Karig](https://www.cs.princeton.edu/picasso/seminarsS05/Karig_slides.pdf)"
+        ],
+        "excerpt": "The Gillespie Algorithm for stochastic equations is used heavily in a number of fields of applied mathematics, in particular computational systems biology.",
+        "see-also": []
+    },
+    {
+        "topic": "Hilbert’s Nullstellensatz and an Introduction to Schemes",
+        "tags": [
+            "algebra",
+            "combinatorics"
+        ],
+        "references": [
+            "I. G. Shaferavich : Basic Algebraic Geometry I"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Hindley–Milner Type System",
+        "tags": [
+            "computer science",
+            "type theory"
+        ],
+        "references": [
+            "[R. Hindley](http://www.jstor.org/stable/1995158)",
+            "[Stephen Diehl](http://dev.stephendiehl.com/fun/006_hindley_milner.html)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Homotopy Type Theory",
+        "tags": [
+            "algebra",
+            "algebraic topology",
+            "topology",
+            "type theory",
+            "computer science"
+        ],
+        "references": [
+            "[Homotopy Type Theory (Book)](https://homotopytypetheory.org/book/)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Hyperbolic Geometry",
+        "tags": [
+            "first year friendly",
+            "geometry"
+        ],
+        "references": [
+            "[Kathryn Mann](https://math.berkeley.edu/~kpmann/DIYhyp.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "IEEE 754-2008: Floating Point Arithmetic",
+        "tags": [
+            "computer science",
+            "computational mathematics",
+            "first year friendly",
+            "floating point number",
+            "Tech Talks"
+        ],
+        "references": [
+            "[IEEE floating point on Wikipedia](https://en.wikipedia.org/wiki/IEEE_floating_point)",
+            "[What Every Computer Scientist Should Know About Floating-Point Arithmetic](http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)"
+        ],
+        "excerpt": "Most programming languages provide a floating-point type. What is floating point, and how does it work? What caveats should programmers be aware of?"
+    },
+    {
+        "topic": "Integrals and Graph Theory",
+        "tags": [
+            "analysis",
+            "combinatorics",
+            "integration",
+            "graph theory"
+        ],
+        "references": [
+            "[P. Mark Kayll](https://www.maa.org/sites/default/files/pdf/upload_library/22/Allendoerfer/Kayll-2012.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Jupyter Notebooks",
+        "references": [
+            "[Project Jupyter](http://jupyter.org/)"
+        ],
+        "excerpt": "Jupyter Notebooks are a must-have for any data scientist or engineer. They are available for a wide variety of programming languages, particularly Python.",
+        "tags": [
+            "first year friendly",
+            "tutorial",
+            "Tech Talks",
+            "data science",
+            "statistics"
+        ]
+    },
+    {
+        "topic": "Kolmogorov complexity",
+        "tags": [
+            "computer science",
+            "Kolmogorov complexity",
+            "information theory",
+            "theoretical computer science",
+            "statistics"
+        ],
+        "references": [
+            "[Paul Vitanyi](http://homepages.cwi.nl/~paulv/course-kc/KC-Lecture1.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Lattices, Linear Codes, and Invariants",
+        "tags": [
+            "algebra",
+            "geometry",
+            "number theory",
+            "coding theory"
+        ],
+        "references": [
+            "Noam D. Elkies, [Part 1](http://www.ams.org/notices/200010/fea-elkies-1.pdf) and [Part 2](http://www.ams.org/notices/200011/fea-elkies-2.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Lindstrom-Gessel-Viennot Lemma",
+        "tags": [
+            "algebra",
+            "combinatorics"
+        ],
+        "references": [
+            "[Qiaochu Yuan](https://qchu.wordpress.com/2009/11/17/the-lindstrom-gessel-viennot-lemma/)",
+            "[Vijay Kodiyalam](https://www.youtube.com/watch?v=01n-DUtY9ns)"
+        ]
+    },
+    {
+        "topic": "Low Dimensional Geometry",
+        "tags": [
+            "geometric topology",
+            "geometry",
+            "multivariate calculus",
+            "topology"
+        ],
+        "references": [
+            "[Francis Bonahon](http://bookstore.ams.org/stml-49)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Markov Equation and Irrational Numbers",
+        "tags": [
+            "algebra",
+            "number theory"
+        ],
+        "references": [
+            "[Caroline Series](https://perso.univ-rennes1.fr/serge.cantat/Documents/series-geometry-markoff.pdf)",
+            "[Spalding, Veselov](https://arxiv.org/pdf/1603.08360.pdf)"
+        ]
+    },
+    {
+        "topic": "Molecular Set Theory",
+        "tags": [
+            "applied mathematics",
+            "biology",
+            "category theory",
+            "chemistry",
+            "set theory"
+        ],
+        "references": [
+            "[Bartholomay](http://link.springer.com/article/10.1007/BF02478351)"
+        ],
+        "excerpt": "In 1960, A.F. Bartholomay wrote about a mathematical model of chemical reaction mechanisms using set theory."
+    },
+    {
+        "topic": "Monsky's Theorem",
+        "tags": [
+            "combinatorics",
+            "algebra",
+            "geometry"
+        ],
+        "references": [
+            "[Wikipedia](https://en.m.wikipedia.org/wiki/Monsky%27s_theorem)",
+            "[Andreu Ferre Moragues](https://math.osu.edu/sites/math.osu.edu/files/ferre_MonskyThm_2016.pdf)"
+        ]
+    },
+    {
+        "topic": "Optimal Stopping Theory and the Secretary Problem",
+        "tags": [
+            "probability",
+            "statistics",
+            "decision theory"
+        ],
+        "references": [
+            "[Thomas S. Ferguson](https://www.math.upenn.edu/~ted/210F10/References/Secretary.pdf)",
+            "[Sergei Vassilvitski](http://theory.stanford.edu/~sergei/slides/hiring-dagstuhl.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "P vs. NP",
+        "tags": [
+            "computability",
+            "computational complexity",
+            "computer science",
+            "open problem",
+            "theoretical computer science"
+        ],
+        "references": [
+            "Arora, Bazak: Computational Complexity"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "p-adic Analysis",
+        "tags": [
+            "analysis",
+            "p-adic number",
+            "number theory"
+        ],
+        "references": [
+            "[Felix Hensel, Waltraud Lederle, Simone Montemezzani](https://www2.math.ethz.ch/education/bachelor/seminars/hs2011/p-adic/report1.pdf)",
+            "Svetlana Katok : p-adic Analysis Compared with Real"
+        ],
+        "see-also": [
+            "at-padic"
+        ]
+    },
+    {
+        "topic": "Patterns in Primes",
+        "tags": [
+            "first year friendly",
+            "number theory",
+            "prime number"
+        ],
+        "references": [
+            "[Andrew Granville, Prime Number Patterns](https://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Granville.pdf)",
+            "[Paul T. Bateman and Roger A. Horn, A Heuristic Asymptotic Formula Concerning the Distribution of Prime Numbers](https://www.jstor.org/stable/2004056)",
+            "[Keith Conrad, Irreducible Values of Polynomials: a Non-analogy](http://www.math.uconn.edu/~kconrad/articles/texel.pdf)"
+        ]
+    },
+    {
+        "topic": "Penrose Tilings",
+        "tags": [
+            "geometric topology",
+            "geometry",
+            "topology"
+        ],
+        "references": [
+            "[Alexander F. Ritter](https://people.maths.ox.ac.uk/ritter/masterclasses.html)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Plausible Conjectures",
+        "tags": [
+            "first year friendly",
+            "open problem"
+        ],
+        "references": [
+            "[Barry Mazur](http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Predicate Dispatch",
+        "tags": [
+            "computer science",
+            "polymorphism"
+        ],
+        "references": [
+            "[Aaron Mark Ucko](ftp://publications.ai.mit.edu/ai-publications/2001/AITR-2001-006.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Presburger Arithmetic",
+        "tags": [
+            "computational complexity",
+            "computability",
+            "computer science",
+            "logic",
+            "theoretical computer science"
+        ],
+        "references": [
+            "[Michael J. Fischer and Michael O. Rabin, Super-Exponentional Complexity of Presburger Arithmetic.](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.16.9759)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Primes of the Form $x^2 + ny^2$",
+        "tags": [
+            "number theory",
+            "prime number"
+        ],
+        "references": [
+            "[Matthew Bates](http://people.math.umass.edu/~bates/Primes.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Principle of Least Action",
+        "tags": [
+            "mechanics",
+            "physics"
+        ],
+        "references": [
+            "[Principle of Least Action (Scholarpedia)](http://www.scholarpedia.org/article/Principle_of_least_action)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Protein Structure Prediction",
+        "tags": [
+            "biology",
+            "chemistry",
+            "computer science",
+            "optimization"
+        ],
+        "references": [
+            "[Folding@Home Papers Collection](http://folding.stanford.edu/home/papers)"
+        ]
+    },
+    {
+        "topic": "Purely Functional Data Structures",
+        "tags": [
+            "computer science",
+            "data structure",
+            "functional programming"
+        ],
+        "references": [
+            "[Haim Kapland and Robert E. Tarjan, Purely Functional, Real-Time Deques with Catenation](http://www.math.tau.ac.il/~haimk/adv-ds-2000/jacm-final.pdf)"
+        ],
+        "excerpt": "Persistent (or purely function) data structures are those whose operations do not mutate the existing data structure, but rather create a new data structure that might share some state. These data structures are useful because there is no need to copy memory; rather the data structure can be shared among multiple objects. Techniques for making these data structures fast, memory-efficient, or real-time are an active area of research in functional programming."
+    },
+    {
+        "topic": "Queueing Theory",
+        "tags": [
+            "computer science",
+            "optimization"
+        ],
+        "references": [
+            "[Andreas Willig](http://www.cs.ucf.edu/~lboloni/Teaching/EEL6785_Fall2010/slides/QueueingTheory.pdf)"
+        ],
+        "excerpt": "Queueing theory is the mathematical study of waiting lines, or queues. In queueing theory, a model is constructed so that queue lengths and waiting time can be predicted. Queueing theory is generally considered a branch of operations research because the results are often used when making business decisions about the resources needed to provide a service. ",
+        "see-also": []
+    },
+    {
+        "topic": "Quivers and Platonic Solids",
+        "tags": [
+            "algebra",
+            "combinatorics",
+            "geometry",
+            "graph theory",
+            "linear algebra",
+            "representation theory"
+        ],
+        "references": [
+            "[Gwyn Bellamy](https://www.lms.ac.uk/sites/lms.ac.uk/files/gwyn_bellamy_plato.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Random Walks and Self-Avoiding Walks",
+        "tags": [
+            "combinatorics",
+            "probability"
+        ],
+        "references": [
+            "[Tony Guttmann](http://www.ms.unimelb.edu.au/~guttmann@unimelb/lectures/MAV2003.pdf)",
+            "[Gordon Slade](https://www.math.ubc.ca/~slade/spa_proceedings.pdf)"
+        ]
+    },
+    {
+        "topic": "Rational Tangles and Conway's Theorem",
+        "tags": [
+            "knot theory",
+            "geometric topology",
+            "topology"
+        ],
+        "references": [
+            "[Jay R. Goldman and Louis H. Kauffman](http://homepages.math.uic.edu/~kauffman/RTang.pdf)",
+            "C. C. Adams : The Knot Book: An elementary introduction to the mathematical theory of knots"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Reciprocity Laws",
+        "tags": [
+            "number theory",
+            "reciprocity"
+        ],
+        "references": [
+            "[B. F. Wyman](https://www.jstor.org/stable/2317083)"
+        ]
+    },
+    {
+        "topic": "Rental Harmony Theorem",
+        "tags": [
+            "economics",
+            "optimization",
+            "social choice"
+        ],
+        "references": [
+            "[Francis Edward Su](http://www3.math.tu-berlin.de/combi/wp_henk/wp-content/uploads/2011/05/rentsu.pdf)"
+        ]
+    },
+    {
+        "topic": "Representation Theory and Voting Theory",
+        "tags": [
+            "linear algebra",
+            "representation theory",
+            "algebra",
+            "economics",
+            "voting theory",
+            "social choice"
+        ],
+        "references": [
+            "[Crissman, Orrison](https://arxiv.org/abs/1508.05891)",
+            "[Daugherty, et all](https://arxiv.org/abs/0712.2837)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Schoof's Algorithm",
+        "tags": [
+            "algebra",
+            "number theory",
+            "group theory"
+        ],
+        "references": [
+            "[Schoof](http://www.math.umn.edu/~musiker/schoof.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Secret Sharing Schemes and Multi-party Computation Protocols",
+        "tags": [
+            "cryptography",
+            "computer science",
+            "first year friendly"
+        ],
+        "references": [],
+        "see-also": [
+            "zz-SSS"
+        ]
+    },
+    {
+        "topic": "Separating Words Problem",
+        "tags": [
+            "computer science",
+            "theoretical computer science",
+            "automaton",
+            "open problem"
+        ],
+        "references": [
+            "[Wikipedia: Separating words problem](https://en.wikipedia.org/wiki/Separating_words_problem)",
+            "[J.M. Robson, Separating strings with small automata](http://www.sciencedirect.com/science/article/pii/0020019089902159?via%3Dihub)"
+        ],
+        "excerpt": "Given two strings, we can write a computer program to tell them apart. A special kind of very simple computer program that accepts or rejects strings, using only a finite number of states while reading the string, is called a deterministic finite automaton. (These deterministic finite automata can also be expressed as a regular expression.) For any two strings of length ``n``, there is some deterministic finite automaton (or regular expression) that recognizes one and not the other, and there is some smallest one. In the worst case, it is known (Robson 1989) that any two strings of length ``n`` can be separated by an automaton of size ``O(n^{2/5} (\\log n)^{3/5})``, but this is not known to be optimal. The optimal upper bound remains an open problem."
+    },
+    {
+        "topic": "Sieve Methods",
+        "tags": [
+            "computational complexity",
+            "computer science",
+            "number theory",
+            "prime number"
+        ],
+        "references": [
+            "[Dimitris Koukoulopoulos](http://www.dms.umontreal.ca/~koukoulo/documents/notes/sievemethods.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Sparse Matrices",
+        "tags": [
+            "algebra",
+            "computational mathematics",
+            "computer science",
+            "linear algebra"
+        ],
+        "references": [
+            "[Derek O'Connor, An Introduction to Sparse Matrices](http://www.maths.tcd.ie/pub/ims/nl15/nl15_6-30.pdf)",
+            "[Aydın Buluç, Jeremy T. Fineman, Matteo Frigo, John R. Gilbert, Charles E. Leiserson](http://gauss.cs.ucsb.edu/~aydin/csb2009.pdf)",
+            "[Tim Davis](http://faculty.cse.tamu.edu/davis/research.html)"
+        ],
+        "excerpt": "Sparse matrices are frequently used in scientific and numerical computation. How do they work? What new findings have there been? Speakers are encouraged to specialize this broad topic to a particular subfield of interest.",
+        "see-also": []
+    },
+    {
+        "topic": "Sphere Packing, Lattices, and Groups",
+        "tags": [
+            "algebra",
+            "geometry",
+            "group theory"
+        ],
+        "references": [
+            "[J. H. CONWAY and N. J. A. SLOANE, Sphere Packings, Lattices and Groups, Springer, New York, 1993.](https://books.google.ca/books/about/Sphere_Packings_Lattices_and_Groups.html?id=hoTjBwAAQBAJ&redir_esc=y)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Symmetric Groups, Young Tableaux and Representation Theory",
+        "tags": [
+            "algebra",
+            "group theory",
+            "representation theory"
+        ],
+        "references": [
+            "Bruce Sagan : The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions",
+            "[Yufei Zhao](http://yufeizhao.com/papers/youngtab-hcmr.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Symmetries and their Role in Physics",
+        "tags": [
+            "physics",
+            "classical mechanics",
+            "mechanics"
+        ],
+        "references": [
+            "[Eduardo Fradkin](http://eduardo.physics.illinois.edu/phys582/582-chapter3.pdf)",
+            "[John Baez](http://math.ucr.edu/home/baez/noether.html)",
+            "[Stephen Haywood](http://www.phy.pku.edu.cn/~qhcao/resources/class/QM/symmetry.pdf)",
+            "[Richard Feynman](http://www.feynmanlectures.caltech.edu/III_17.html)",
+            "[Hanc, Tuleja, Hancova](http://www.eftaylor.com/pub/symmetry.html)",
+            "[David Gross](http://www.pnas.org/content/93/25/14256.full)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "The Brachistochrone and the Calculus of Variations",
+        "tags": [
+            "applied mathematics",
+            "calculus of variations",
+            "physics"
+        ],
+        "references": [
+            "[Yutuka Nishiyama](http://www.osaka-ue.ac.jp/zemi/nishiyama/math2010/cycloid.pdf)"
+        ],
+        "see-also": [
+            "mj-BCV"
+        ]
+    },
+    {
+        "topic": "The Cantor Set and Dynamical systems",
+        "tags": [
+            "analysis",
+            "applied mathematics",
+            "dynamical system"
+        ],
+        "references": [
+            "[Kraft](https://www.jstor.org/stable/pdf/2589144.pdf)",
+            "[Math Stackexchange](https://math.stackexchange.com/questions/265925/where-do-cantor-sets-naturally-occur)"
+        ],
+        "see-also": [
+            "jb-Cantor"
+        ]
+    },
+    {
+        "topic": "The Hyperbolic Crochet Coral Reef",
+        "tags": [
+            "hyperbolic geometry",
+            "recreational mathematics",
+            "biology",
+            "geometry",
+            "art"
+        ],
+        "references": [
+            "[Roanoke College](https://www.roanoke.edu/inside/a-z_index/coral_reef/hyperbolic_geometry)",
+            "[Daina Taimina](http://hyperbolic-crochet.blogspot.ca/)"
+        ],
+        "excerpt": "Naturally growing coral and crochet share an interesting trait in common: they help visualize hyperbolic planes. This talk might explore aspects of geometry, art and craft, or biology."
+    },
+    {
+        "topic": "The Jordan Curve Theorem",
+        "tags": [
+            "algebra",
+            "topology",
+            "homology",
+            "algebraic topology",
+            "geometric topology"
+        ],
+        "references": [],
+        "see-also": []
+    },
+    {
+        "topic": "The Joy of Factoring",
+        "tags": [
+            "algorithms",
+            "computer science",
+            "cryptography",
+            "number theory",
+            "quantum algorithm"
+        ],
+        "references": [
+            "[Samuel S. Wagstaff (Jr.)](https://books.google.ca/books/about/The_Joy_of_Factoring.html?id=rowCAQAAQBAJ&redir_esc=y)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "The Mathematics of Gerrymandering",
+        "tags": [
+            "economics",
+            "voting theory",
+            "social choice",
+            "geometry"
+        ],
+        "references": [
+            "[Hodge, Marshall, Patterson](http://www.maa.org/sites/default/files/pdf/upload_library/22/Polya/Hodge2011.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "The Nine Point Circle",
+        "tags": [
+            "first year friendly",
+            "geometry"
+        ],
+        "references": [],
+        "see-also": []
+    },
+    {
+        "topic": "The Riemann Hypothesis",
+        "tags": [
+            "number theory",
+            "open problem",
+            "prime number"
+        ],
+        "references": [
+            "[E. Bombieri, Problems of the Millennium: The Riemann Hypothesis](http://www.claymath.org/sites/default/files/official_problem_description.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "The Stochastic Lotka-Volterra Equation",
+        "tags": [
+            "applied mathematics",
+            "ecology",
+            "differential equation",
+            "stochastic equation"
+        ],
+        "references": [
+            "[Mathworks](http://www.mathworks.com/help/simbio/examples/stochastic-simulation-of-the-lotka-volterra-reactions.html)"
+        ],
+        "excerpt": "The famous Lotka-Volterra equations model the population of a predator and a prey, which are of course closely related. Stochastic variations on the Lotka-Volterra equations can be an illuminating introduction to the methods used to solve stochastic differential equations."
+    },
+    {
+        "topic": "The Strong Law of Small Numbers",
+        "tags": [
+            "first year friendly",
+            "number theory",
+            "recreational mathematics"
+        ],
+        "references": [
+            "[Richard K. Guy](http://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Guy697-712.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "The Winding Number",
+        "tags": [
+            "algebra",
+            "algebraic topology",
+            "analysis",
+            "differential geometry",
+            "geometric topology",
+            "geometry",
+            "topology"
+        ],
+        "references": [],
+        "see-also": []
+    },
+    {
+        "topic": "Timed Automata",
+        "tags": [
+            "computer science",
+            "automaton",
+            "theoretical computer science"
+        ],
+        "references": [],
+        "see-also": []
+    },
+    {
+        "topic": "Toronto Spaces",
+        "tags": [
+            "topology"
+        ],
+        "references": [
+            "[William Rea Brian](https://wrbrian.files.wordpress.com/2012/01/thetorontoproblem.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Total Functional Programming",
+        "tags": [
+            "computer science",
+            "first year friendly",
+            "functional programming",
+            "Tech Talks"
+        ],
+        "references": [
+            "[D. A. Turner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf)"
+        ],
+        "see-also": [
+            "ah-TFP"
+        ]
+    },
+    {
+        "topic": "Tropical geometry and Computational Biology",
+        "tags": [
+            "computer science",
+            "algebra",
+            "geometry",
+            "algebraic geometry"
+        ],
+        "references": [
+            "[Diane Maclagan, Bernd Sturmfels](https://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalBook20.4.14.pdf)",
+            "[David Speyer, Bernd Strumgfels] (https://math.berkeley.edu/~bernd/mathmag.pdf)"
+        ],
+        "excerpt": "Tropical geometry is a combinatorial shadow of algebraic geometry, offering new polyhedral tools to compute invariants of algebraic varieties. It is based on tropical algebra, where the sum of twonumbers is their minimum and the product is their sum. This turnspolynomials into piecewise-linear functions, and their zero sets into polyhedralcomplexes.",
+        "see-also": []
+    },
+    {
+        "topic": "Understanding LLVM",
+        "references": [
+            "[The LLVM Compiler Infrastructure Project](http://llvm.org/)"
+        ],
+        "excerpt": "The LLVM Compiler Infrastructure Project now powers a wide variety of software, including major programming languages including Rust and Julia, as well as compilers for the popular C and C++ programming languages. Understanding how LLVM works, and being able to read some LLVM bytecode, is extremely useful for optimizing code.",
+        "tags": [
+            "compiler",
+            "computer science",
+            "efficiency",
+            "Tech Talks",
+            "first year friendly",
+            "programming language"
+        ]
+    },
+    {
+        "topic": "Unique Games Conjecture",
+        "tags": [
+            "computer science",
+            "theoretical computer science",
+            "computational complexity",
+            "open problem"
+        ],
+        "references": [
+            "[Erica Klarreich, Approximately Hard: The Unique Games Conjecture](https://www.simonsfoundation.org/mathematics-and-physical-science/approximately-hard-the-unique-games-conjecture/)"
+        ],
+        "excerpt": "The Unique Games Conjecture, if true, implies that many problems that lack exact polynomial time solutions also lack approximate polynomial time solutions. It was formulated by Subhash Khot in 2002 and is still unsolved."
+    },
+    {
+        "topic": "Waring's Problem and writing numbers as sums of powers",
+        "tags": [
+            "additive number theory",
+            "number theory"
+        ],
+        "references": [
+            "[Nathanson](https://www.amazon.ca/Additive-Number-Theory-Classical-Bases/dp/038794656X#reader_038794656X)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "What is Area?",
+        "tags": [
+            "analysis",
+            "measure theory",
+            "first year friendly",
+            "geometry"
+        ],
+        "references": [
+            "[Barry Mazur](http://www.math.harvard.edu/~mazur/papers/Area11.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Why are some functions not integrable in terms of elementary functions?",
+        "tags": [
+            "analysis",
+            "first year friendly",
+            "integration"
+        ],
+        "references": [
+            "[Brian Conrad](http://math.stanford.edu/~conrad/papers/elemint.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Zero-Cost Abstraction",
+        "references": [
+            "[Abstraction without overhead: traits in Rust](https://blog.rust-lang.org/2015/05/11/traits.html)",
+            "[Some thoughts on generic programming in Julia](https://eschnett.github.io/julia/2016/06/23/some-thoughts-on-generic-programming-in-julia)"
+        ],
+        "excerpt": "Computer science is, fundamentally, about abstraction and efficiency. A programmer would rather use high-level bricks to build a product than worry about low-level details. Regrettably, the use of high-level bricks often comes at a cost in efficiency, forcing programmers to worry about low-level details. Recently, many programming languages have begun to stress the importance of zero-cost abstractions: ways to construct high-level bricks with zero efficiency cost.",
+        "tags": [
+            "computer science",
+            "efficiency",
+            "abstraction",
+            "Tech Talks",
+            "first year friendly"
+        ]
+    }
+]
+            "model checking"
+        ],
+        "references": [
+            "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Bernoulli Numbers and their Applications in Modern Number Theory",
+        "tags": [
+            "number theory",
+            "analytic number theory",
+            "analysis",
+            "complex analysis"
+        ],
+        "references": [
+            "[Ireland](https://archive.org/details/springer_10.1007-978-1-4757-2103-4)"
+        ],
+        "excerpt": "The Bernoulli numbers are a set of numbers that were discovered by Jacob Bernoulli (1654-1705). This set of numbers holds a deep relationship with the Riemann zeta function. The Riemann zeta function has been found to have a relationship with prime numbers. The Bernoulli numbers have also been found to be useful for proofs of a restricted version of Fermat’s Last theorem.",
+        "see-also": []
+    },
+    {
+        "topic": "Bitcoin and Blockchains",
+        "tags": [
+            "computer science",
+            "cryptography",
+            "distributed system",
+            "first year friendly"
+        ],
+        "references": [
+            "[Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)"
+        ],
+        "see-also": [
+            "bz-Bitcoin"
+        ]
+    },
+    {
+        "topic": "Bloom Filters and Probabilistic Data Structures",
+        "tags": [
+            "computer science",
+            "data structure",
+            "probability",
+            "space efficiency",
+            "algorithms"
+        ],
+        "references": [
+            "[Blustein](https://www.cs.dal.ca/sites/default/files/technical_reports/CS-2002-10.pdf)"
+        ],
+        "see-also": [
+            "lm-BF"
+        ]
+    },
+    {
+        "topic": "Branch Prediction",
+        "tags": [
+            "compiler",
+            "computer science",
+            "efficiency",
+            "first year friendly",
+            "Tech Talks"
+        ],
+        "references": [
+            "[Agner Fog](http://www.agner.org/optimize/microarchitecture.pdf)"
+        ],
+        "excerpt": "A branch is a machine code instruction that may conditionally or unconditionally cause execution to switch to a different part of code. Conditional branches are often expensive relative to other low-level operations. Understanding branches, pipelines, branch prediction, and branch elimination is key to optimizing modern code."
+    },
+    {
+        "topic": "Buchi Automata",
+        "tags": [
+            "computer science",
+            "automaton",
+            "theoretical computer science"
+        ],
+        "references": [],
+        "see-also": []
+    },
+    {
+        "topic": "Cake cutting algorithms",
+        "tags": [
+            "algorithms",
+            "computer science",
+            "economics",
+            "game theory",
+            "optimization",
+            "recreational mathematics",
+            "social choice"
+        ],
+        "references": [
+            "[Robertson, Webb](https://www.amazon.com/Cake-Cutting-Algorithms-Fair-You-Can/dp/1568810768/ref=sr_1_1?s=books&ie=UTF8&qid=1480468807&sr=1-1&keywords=cake+cutting+algorithms)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Clifford Algebras",
+        "tags": [
+            "algebra",
+            "clifford algebra",
+            "linear algebra"
+        ],
+        "references": [
+            "[John Baez, 2001. Clifford Algebras.](http://math.ucr.edu/home/baez/octonions/node6.html)"
+        ],
+        "see-also": [
+            "fw-Hypercomplex"
+        ]
+    },
+    {
+        "topic": "Clifford Neurons",
+        "tags": [
+            "clifford algebra",
+            "algebra",
+            "machine learning",
+            "optimization"
+        ],
+        "references": [
+            "[Bucholtz, Tachibana, Hitzner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.5449&rep=rep1&type=pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Combinatorial Game Theory with 'Nimbers'",
+        "tags": [
+            "combinatorial game theory",
+            "combinatorics",
+            "game theory",
+            "first year friendly"
+        ],
+        "references": [
+            "John Conway : On Games and Numbers"
+        ],
+        "see-also": [
+            "kt-GameTheory"
+        ]
+    },
+    {
+        "topic": "Completeness, Incompleteness, and Turing Machines",
+        "tags": [
+            "computer science",
+            "computability",
+            "incompleteness",
+            "logic",
+            "theoretical computer science",
+            "turing machine"
+        ],
+        "references": [
+            "[Scott Aaronson](http://www.scottaaronson.com/democritus/lec3.html)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Complex Event Processing Systems",
+        "tags": [
+            "computer science",
+            "data science",
+            "distributed system",
+            "first year friendly",
+            "parallel computing",
+            "statistics",
+            "Tech Talks"
+        ],
+        "references": [
+            "[Apache Storm](https://storm.apache.org)",
+            "Kulkarni, S., Bhagat, N., Fu, M., Kedigehalli, V., Kellogg, C., Mittal, S., ... & Taneja, S. (2015, May). Twitter heron: Stream processing at scale. In Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data (pp. 239-250). ACM. doi:10.1145/2723372.2742788"
+        ],
+        "excerpt": "The ever-increasing amount of information that needs to be processed has led to the development of Complex Event Processing systems such as Apache Storm or Twitter Heron. These systems distribute a workload over many machines in a cluster, and offer both efficiency and fault-tolerance."
+    },
+    {
+        "topic": "Complexity of Matrix Multiplication",
+        "tags": [
+            "algebra",
+            "algorithms",
+            "computational mathematics",
+            "computer science",
+            "group theory",
+            "linear algebra",
+            "open problem"
+        ],
+        "references": [
+            "[Don Coppersmith and Shmuel Winograd](http://www.cs.umd.edu/~gasarch/TOPICS/ramsey/matrixmult.pdf)",
+            "[H. Cohn, R. Kleinberg, B. Szegedy and C. Umans, \"Group-theoretic algorithms for matrix multiplication,\" 46th Annual IEEE Symposium on Foundations of Computer Science (FOCS'05), 2005, pp. 379-388. doi: 10.1109/SFCS.2005.39](http://ieeexplore.ieee.org/document/1530730/?section=abstract&part=1)",
+            "[Andrew James Stothers, On The Complexity of Matrix Multiplication](http://www.maths.ed.ac.uk/sites/default/files/atoms/files/stothers.pdf)",
+            "[Chris Umans, Approaches to bounding the exponent of matrix multiplication](https://galton.uchicago.edu/mart/slides/Umans-talk-1.pdf)",
+            "[Richard Strong Bowen, Bob Chen, Hendrik Orem, and Martijn van Schaardenburg: Group-Theoretic Partial Matrix Multiplication](https://www.ma.utexas.edu/users/horem/gtpmm.pdf)"
+        ],
+        "excerpt": "Volker Strassen showed that ``n^3`` matrix multiplication was not optimal in 1969. Since then, new algorithms such as Coppersmith-Winograd have further improved the time complexity of matrix multiplication. It is conjectured that matrix multiplication is possible in ``O(n^{2+ɛ})`` for any ``ɛ>0``, however small. This is one of the few remaining open problems in finite-dimensional linear algebra.",
+        "see-also": []
+    },
+    {
+        "topic": "Complexity of the Multivariate Resultant",
+        "tags": [
+            "algebra",
+            "algebraic geometry",
+            "computer science",
+            "computational complexity",
+            "theoretical computer science"
+        ],
+        "references": [
+            "[Bruno Grenet, Pascal Koiran, Natacha Portier](https://arxiv.org/pdf/1210.1451.pdf)"
+        ],
+        "see-also": []
+    },
+    {
         "topic": "Computable Functions",
         "tags": [
             "computability",
