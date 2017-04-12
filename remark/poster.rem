@@ -11,14 +11,17 @@
                  [height 228]
                  [src "http://uwseminars.com/seminar-transparent.png"]
                  [class "banner"]))
-           (p ([class "location-time"])
+           (p ([class "location-time"]
+               [contenteditable "true"])
               (remark (human (datetime (ref talks 1))))
               " in " (remark (location (ref talks 1))))
            (div ([class "talks"])
                 (#:each t talks
                  `((h2 ([contenteditable "true"]) ,(title t))
-                   (time ,(time-part (datetime t)))
-                   (p "by " ,(ItemList (authors t)))
+                   (time ([contenteditable "true"])
+                         ,(time-part (datetime t)))
+                   (p ([contenteditable "true"])
+                      "by " ,(ItemList (authors t)))
                    (div ([class "talk-abstract"]
                          [contenteditable "true"])
                         ,((.rendermd StdLib)
