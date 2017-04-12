@@ -7,6 +7,10 @@ Here are some tutorials on how to edit the website:
 
 - [Talks, abstract, summaries](https://www.youtube.com/watch?v=0bCAP7vxUAU)
 
+Here are some tools to help out:
+
+- [Potential Topics Tool](http://uwseminars.com/pttool/)
+
 ## To deploy:
 Generate the site (note that the scripts are, for historical reasons, named
 somewhat misleadingly):
