@@ -38,11 +38,12 @@
 
 .talks {
     position: absolute;
-    left: 50px;
-    right: 50px;
+    left: 80px;
+    right: 80px;
     top: 470px;
     font-size: 1.7em;
     line-height: 1.5em;
+    text-align: right;
 }
 
 .talks h2 {
