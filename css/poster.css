@@ -48,7 +48,6 @@
 .talks h2 {
     font-size: 1.6em;
     line-height: 1.2em;
-    font-weight: bold;
 }
 
 .talks > h2:nth-child(1) {
