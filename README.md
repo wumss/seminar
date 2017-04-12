@@ -6,6 +6,7 @@ with [HTSX](https://github.com/TotalVerb/SExpressions.jl).
 Here are some tutorials on how to edit the website:
 
 - [Talks, abstract, summaries](https://www.youtube.com/watch?v=0bCAP7vxUAU)
+- [Potential topics](https://www.youtube.com/watch?v=wLpMqp4P28I)
 
 Here are some tools to help out:
 
