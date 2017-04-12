@@ -18,11 +18,7 @@
                 (#:each t talks
                  `((h2 ([contenteditable "true"]) ,(title t))
                    (time ,(time-part (datetime t)))
-                   (p ([fill "#000000"]
-                       [font-size 18]
-                       [font-family "Ubuntu"]
-                       [x 50])
-                      "by " ,(ItemList (authors t)))
+                   (p "by " ,(ItemList (authors t)))
                    (div ([class "talk-abstract"]
                          [contenteditable "true"])
                         ,((.rendermd StdLib)

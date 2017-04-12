@@ -18,16 +18,17 @@
 }
 
 .location-time {
-    font-size: 40px;
+    font-size: 45px;
     position: absolute;
-    top: 310px;
+    top: 400px;
     left: 50px;
     right: 50px;
     text-align: center;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 .website-link {
+    display: none;
     font-size: 1.5em;
     position: absolute;
     left: 50px;
@@ -39,16 +40,36 @@
     position: absolute;
     left: 50px;
     right: 50px;
-    top: 375px;
-    font-size: 1.2em;
+    top: 470px;
+    font-size: 1.7em;
     line-height: 1.5em;
 }
 
-.talks time {
-    position: relative;
-    font-size: 35px;
-    top: -51px;
-    float: right;
+.talks h2 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+.talks > h2:nth-child(1) {
+    color: #8100B4;
+}
+
+.talks > h2:nth-child(5) {
+    margin-top: .5em;
+    color: #0073CE;
+}
+
+.talks time:after {
+    content: ' ';
+}
+
+.talks p {
+    display: inline;
+}
+
+div.talk-abstract {
+    display: none;
 }
 
 div.talk-abstract p {
