@@ -56,11 +56,6 @@ li.collapsibleListClosed:before {
     color: rgb(60, 150, 60);
 }
 
-textarea {
-    box-sizing: border-box;
-    width: 100%;
-}
-
 input[type="submit"], input[type="reset"], button, body input.gsc-search-button, body .cse input.gsc-search-button {
     color: black;
 	background: #DDD;
@@ -83,11 +78,6 @@ input[type="submit"], input[type="reset"], button, body input.gsc-search-button,
 
 input[type="submit"]:hover, input[type="reset"]:hover, button:hover, body input.gsc-search-button:hover, body .cse input.gsc-search-button:hover {
 	background: #9C9;
-}
-
-input[type="text"].wide {
-    box-sizing: border-box;
-    width: 100%;
 }
 
 @media screen and (max-width: 767px) {
