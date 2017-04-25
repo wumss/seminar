@@ -11,6 +11,7 @@ Here are some tutorials on how to edit the website:
 Here are some tools to help out:
 
 - [Potential Topics Tool](http://uwseminars.com/pttool/)
+- [Marketing Poster](http://uwseminars.com/poster/)
 
 ## To deploy:
 Generate the site (note that the scripts are, for historical reasons, named
