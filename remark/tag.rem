@@ -14,7 +14,7 @@
 (p "There have been "
    (remark
     (string
-      (ItemList (filter (! isnothing)
+      (ItemList (filter (! isempty)
                         (List
                           (ItemQuantity
                             (count iscompleted talks)
