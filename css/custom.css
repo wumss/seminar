@@ -25,16 +25,6 @@ a.tag-link {
     line-height: 3.5ex;
 }
 
-h1 {
-    font-size: 2.0em;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #BBB;
-}
-
-h2 {
-    font-size: 1.8em;
-}
-
 /* CollapsibleLists */
 .collapsibleList li {
     cursor: auto;
