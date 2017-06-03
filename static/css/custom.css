@@ -18,6 +18,10 @@ li.collapsibleListOpen:before {
     content: "[−]";
     color: rgb(150, 60, 60);
 }
+li.collapsibleListClosed:before {
+    content: "[+]";
+    color: rgb(60, 150, 60);
+}
 
 input[type="submit"], input[type="reset"], button, body input.gsc-search-button, body .cse input.gsc-search-button {
     color: black;
