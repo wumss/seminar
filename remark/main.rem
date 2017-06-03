@@ -35,8 +35,8 @@
 
   (define (nav-link url text)
     (if (== url currentpage)
-      `(li ([class "current"]) (a ([href ,(string "/" url)]) ,text))
-      `(li (a ([href ,(string "/" url)]) ,text)))))
+      `(li ([class "current"]) (a ([href ,(string "/" url "/")]) ,text))
+      `(li (a ([href ,(string "/" url "/")]) ,text)))))
 
 (html ([lang "en"])
   (head
@@ -71,11 +71,11 @@
                             [width "64"]
                             [alt "Home"]
                             [title "Home"]))))
-               (#:template nav-link "archive/" "archive")
-               (#:template nav-link "tags/" "tags")
-               (#:template nav-link "faq/" "faq")
-               (#:template nav-link "document/" "library")
-               (#:template nav-link "potential-topics/" "topics"))
+               (#:template nav-link "archive" "archive")
+               (#:template nav-link "tags" "tags")
+               (#:template nav-link "faq" "faq")
+               (#:template nav-link "document" "library")
+               (#:template nav-link "potential-topics" "topics"))
            (label ([for "nav-trigger"]))))
     (main
       (article
