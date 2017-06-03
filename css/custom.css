@@ -1,22 +1,22 @@
 /* CollapsibleLists */
 .collapsibleList li {
     cursor: auto;
+    list-style: none;
+    padding-left: 1ex;
+}
+.collapsibleList li:before {
+    content: "\0000A0•\0000A0";
+    font-weight: bold;
+    font-family: monospace;
+    padding-right: 0.5ex;
 }
 
 li.collapsibleListOpen, li.collapsibleListClosed {
     cursor: pointer;
-    padding-left: 1ex;
 }
 li.collapsibleListOpen:before {
     content: "[−]";
-    font-weight: bold;
     color: rgb(150, 60, 60);
-}
-
-li.collapsibleListClosed:before {
-    content: "[+]";
-    font-weight: bold;
-    color: rgb(60, 150, 60);
 }
 
 input[type="submit"], input[type="reset"], button, body input.gsc-search-button, body .cse input.gsc-search-button {
