@@ -18,9 +18,8 @@ Here are some tools to help out:
 When editing markdown using the Potential Topics Tool, note that double
 asterisk appears as **bold** and single asterisk appears as *italics*. Also
 another thing to keep in mind is that equations are entered using double
-back-quotes and things like `\pi` should be written with a double backslash.
-The [Write Markdown](http://uwseminars.com/write-markdown/) page has some
-examples.
+backquotes. The [Write Markdown](http://uwseminars.com/write-markdown/) page
+has some examples.
 
 ## To deploy:
 Generate the site (note that the scripts are, for historical reasons, named
