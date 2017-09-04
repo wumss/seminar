@@ -29,7 +29,7 @@
            "[Hare](http://www.irmacs.sfu.ca/sites/default/files/documents/borwein08/Kevin_Hare.pdf)",
            "[Sano](https://projecteuclid.org/euclid.ojm/1153492469)"
         ],
-       "excerpt": "Sometimes some non-integers like ``e^{\pi} - \pi = 19.9990999791\ldots`` are curiously close to integers. While often this is just a numerical coincidence, sometimes there is a clear mathematical reason for certain numbers to be almost integers. Pisot numbers, which are special types of algebraic integers, provide a systematic means to construct almost integers that approximate integers at an exponential rate. Of course, Pisot numbers are interesting on their own right and an interested speaker can also venture into the connections to Beta expansions (see the 2nd and 3rd references below), or fractals (see the 4th reference below).\n\n Background needed: Calculus at the level of 147 and 138, algebra at the level of 145. Any other background depends on the direction the speaker takes with this topic.",
+       "excerpt": "Sometimes some non-integers like ``e^{π} - π = 19.9990999791\ldots`` are curiously close to integers. While often this is just a numerical coincidence, sometimes there is a clear mathematical reason for certain numbers to be almost integers. Pisot numbers, which are special types of algebraic integers, provide a systematic means to construct almost integers that approximate integers at an exponential rate. Of course, Pisot numbers are interesting on their own right and an interested speaker can also venture into the connections to Beta expansions (see the 2nd and 3rd references below), or fractals (see the 4th reference below).\n\n Background needed: Calculus at the level of 147 and 138, algebra at the level of 145. Any other background depends on the direction the speaker takes with this topic.",
         "see-also": []
     },
     {
@@ -40,7 +40,8 @@
             "model checking"
         ],
         "references": [
-            "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)"
+            "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)",
+            "Grumberg, O., & Veith, H. (Eds.). (2008). 25 years of model checking: history, achievements, perspectives (Vol. 5000). Springer."
         ],
         "see-also": []
     },
