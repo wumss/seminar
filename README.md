@@ -14,6 +14,9 @@ Here are some tools to help out:
 - [Potential Topics Tool](http://uwseminars.com/pttool/)
 - [Marketing Poster](http://uwseminars.com/poster/)
 
+
+When editing JSON note that double asterisk appears as **bold** and single asterisk appears as *italics*. Also another thing to keep in mind is that equations are entered using double back-quotes and things like \pi should be written with a double backslash.
+
 ## To deploy:
 Generate the site (note that the scripts are, for historical reasons, named
 somewhat misleadingly):
