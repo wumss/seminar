@@ -1,0 +1,59 @@
+{
+    "$schema": "http://json-schema.org/draft-05/schema#",
+    "$id": "http://uwseminars.com/scripts/schema/topic.json",
+    "title": "Topic",
+    "properties": {
+        "topic": {
+            "default": "Magic Squares",
+            "description": "A very brief name for the topic.",
+            "$id": "/properties/topic",
+            "title": "Topic",
+            "type": "string"
+        },
+        "excerpt": {
+            "default": "Tic tac toe is isomorphic to the game of 15: two players take turns selecting unique integers from 1 to 9, and the first player to have three numbers summing to 15 wins. The isomorphism is made clear by a magic square.",
+            "description": "A brief description of the topic and a summary of important background and motivation.",
+            "$id": "/items/properties/excerpt",
+            "title": "Excerpt",
+            "type": "string",
+            "format": "markdown"
+        },
+        "references": {
+            "title": "References",
+            "$id": "/properties/references",
+            "items": {
+                "default": "[Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Magic_square)",
+                "description": "A paper or other reference a speaker can use.",
+                "$id": "/items/properties/references/items",
+                "title": "Reference",
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "tags": {
+            "title": "Tags",
+            "$id": "/properties/tags",
+            "items": {
+                "default": "arithmetic",
+                "description": "A category to which this topic belongs.",
+                "$id": "/properties/tags/items",
+                "title": "Tag",
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "see-also": {
+            "title": "Related Talks",
+            "$id": "/properties/see-also",
+            "items": {
+                "description": "A previous talk about this topic.",
+                "$id": "/properties/see-also/items",
+                "title": "Talk Identifier",
+                "type": "string"
+            },
+            "default": [],
+            "type": "array"
+        }
+    },
+    "type": "object"
+}
