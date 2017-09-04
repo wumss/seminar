@@ -5,7 +5,7 @@
         "references": [
             "[Jeffrey Werner Bezanson](https://github.com/JeffBezanson/phdthesis/blob/master/main.pdf)"
         ],
-        "excerpt": "Scientists, mathematicians, and engineers have an increasing need to write efficient computer programs but they tend to use specific languages for technical computing like Matlab or Mathematica rather than general purpose languages. The suggested reference discusses the properties a general purpose language would need to be able to also handle technical computing -- one possibility for allowing efficient technical computing involves a powerful type system and dispatch system to enable generic, staged, and higher-order programming.\n\n **Required** **Background:** First year cs at the level of CS 135/6.",
+        "excerpt": "Scientists, mathematicians, and engineers have an increasing need to write efficient computer programs but they tend to use specific languages for technical computing like Matlab or Mathematica rather than general purpose languages. The suggested reference discusses the properties a general purpose language would need to be able to also handle technical computing -- one possibility for allowing efficient technical computing involves a powerful type system and dispatch system to enable generic, staged, and higher-order programming.\n\n **Required** **Background:** First year CS at the level of CS 135 and 136.",
         "tags": [
             "computer science",
             "first year friendly",
@@ -43,7 +43,7 @@
             "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)",
             "Grumberg, O., & Veith, H. (Eds.). (2008). 25 years of model checking: history, achievements, perspectives (Vol. 5000). Springer."
         ],
-       "excerpt": "It was realized in the 1960s that mathematical logic provides a suitable language to formulate properties of programs. This idea was formalized by Hoare who developed _Hoare logic_ as a means to prove program correctness. However, this technique didn't apply directly to concurrent programs. An alternative approach called _Temporal Logic_ was proposed by Amir Pneuli in 1977 which did provide a means to reason about concurrent programs. This topic studies this and then delves into the fundamental ideas behind model checking.\n\n **Required Background:** Basics of computer science at the level of CS 146, Logic at the level of CS 245.",
+       "excerpt": "It was realized in the 1960s that mathematical logic provides a suitable language to formulate properties of programs. This idea was formalized by Hoare who developed __Hoare logic__ as a means to prove program correctness. However, this technique didn't apply directly to concurrent programs. An alternative approach called __Temporal Logic__ was proposed by Amir Pneuli in 1977 which did provide a means to reason about concurrent programs. This topic studies this and then delves into the fundamental ideas behind model checking.\n\n **Required Background:** Basics of computer science at the level of CS 146, Logic at the level of CS 245.",
         "see-also": []
     },
     {
