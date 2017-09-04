@@ -1,11 +1,10 @@
 [
-   
     {
         "topic": "Abstraction in Technical Computing",
+        "excerpt": "Scientists, mathematicians, and engineers have an increasing need to write efficient computer programs but they tend to use specific languages for technical computing like Matlab or Mathematica rather than general purpose languages. The suggested reference discusses the properties a general purpose language would need to be able to also handle technical computing -- one possibility for allowing efficient technical computing involves a powerful type system and dispatch system to enable generic, staged, and higher-order programming.\n\n **Required** **Background:** First year CS at the level of CS 135 and 136.",
         "references": [
             "[Jeffrey Werner Bezanson](https://github.com/JeffBezanson/phdthesis/blob/master/main.pdf)"
         ],
-        "excerpt": "Scientists, mathematicians, and engineers have an increasing need to write efficient computer programs but they tend to use specific languages for technical computing like Matlab or Mathematica rather than general purpose languages. The suggested reference discusses the properties a general purpose language would need to be able to also handle technical computing -- one possibility for allowing efficient technical computing involves a powerful type system and dispatch system to enable generic, staged, and higher-order programming.\n\n **Required** **Background:** First year CS at the level of CS 135 and 136.",
         "tags": [
             "computer science",
             "first year friendly",
@@ -21,15 +20,15 @@
             "algebra",
             "first year calculus",
             "number theory",
-           "recreational mathematics"
+            "recreational mathematics"
         ],
         "references": [
             "[Panju](http://mathreview.uwaterloo.ca/archive/voli/2/panju.pdf)",
             "[Frougny](https://www.irif.fr/~cf/cours/graz/FrouSolo92.pdf)",
-           "[Hare](http://www.irmacs.sfu.ca/sites/default/files/documents/borwein08/Kevin_Hare.pdf)",
-           "[Sano](https://projecteuclid.org/euclid.ojm/1153492469)"
+            "[Hare](http://www.irmacs.sfu.ca/sites/default/files/documents/borwein08/Kevin_Hare.pdf)",
+            "[Sano](https://projecteuclid.org/euclid.ojm/1153492469)"
         ],
-       "excerpt": "Sometimes some non-integers like ``e^{π} - π = 19.9990999791...`` are curiously close to integers. While often this is just a numerical coincidence, sometimes there is a clear mathematical reason for certain numbers to be almost integers. Pisot numbers, which are special types of algebraic integers, provide a systematic means to construct almost integers that approximate integers at an exponential rate. Of course, Pisot numbers are interesting on their own right and an interested speaker can also venture into the connections to Beta expansions (see the 2nd and 3rd references below), or fractals (see the 4th reference below).\n\n **Required Background:** Calculus at the level of 147 and 138, algebra at the level of 145. Any other background depends on the direction the speaker takes with this topic.",
+        "excerpt": "Sometimes some non-integers like ``e^{π} - π = 19.9990999791...`` are curiously close to integers. While often this is just a numerical coincidence, sometimes there is a clear mathematical reason for certain numbers to be almost integers. Pisot numbers, which are special types of algebraic integers, provide a systematic means to construct almost integers that approximate integers at an exponential rate. Of course, Pisot numbers are interesting on their own right and an interested speaker can also venture into the connections to Beta expansions (see the 2nd and 3rd references below), or fractals (see the 4th reference below).\n\n **Required Background:** Calculus at the level of 147 and 138, algebra at the level of 145. Any other background depends on the direction the speaker takes with this topic.",
         "see-also": []
     },
     {
@@ -43,7 +42,7 @@
             "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)",
             "Grumberg, O., & Veith, H. (Eds.). (2008). 25 years of model checking: history, achievements, perspectives (Vol. 5000). Springer."
         ],
-       "excerpt": "It was realized in the 1960s that mathematical logic provides a suitable language to formulate properties of programs. This idea was formalized by Hoare who developed *Hoare logic* as a means to prove program correctness. However, this technique didn't apply directly to concurrent programs. An alternative approach called *Temporal Logic* was proposed by Amir Pneuli in 1977 which did provide a means to reason about concurrent programs. This topic studies this and then delves into the fundamental ideas behind model checking.\n\n **Required Background:** Basics of computer science at the level of CS 146, Logic at the level of CS 245.",
+        "excerpt": "It was realized in the 1960s that mathematical logic provides a suitable language to formulate properties of programs. This idea was formalized by Hoare who developed *Hoare logic* as a means to prove program correctness. However, this technique didn't apply directly to concurrent programs. An alternative approach called *Temporal Logic* was proposed by Amir Pneuli in 1977 which did provide a means to reason about concurrent programs. This topic studies this and then delves into the fundamental ideas behind model checking.\n\n **Required Background:** Basics of computer science at the level of CS 146, Logic at the level of CS 245.",
         "see-also": []
     },
     {
