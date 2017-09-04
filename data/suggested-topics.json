@@ -1,24 +1,11 @@
 [
-    {
-        "topic": "A Cohomological Viewpoint on Elementary School Arithmetic",
-        "tags": [
-            "algebra",
-            "algebraic topology",
-            "group theory",
-            "homology",
-            "topology"
-        ],
-        "references": [
-            "[Daniel C. Isaksen](https://www.jstor.org/stable/3072368?seq=1)"
-        ],
-        "see-also": []
-    },
+   
     {
         "topic": "Abstraction in Technical Computing",
         "references": [
             "[Jeffrey Werner Bezanson](https://github.com/JeffBezanson/phdthesis/blob/master/main.pdf)"
         ],
-        "excerpt": "Scientists, mathematicians, and engineers have an increasing need to write efficient computer programs. One approach to allowing efficient technical computing involves a powerful type system and dispatch system to enable generic, staged, and higher-order programming.",
+        "excerpt": "Scientists, mathematicians, and engineers have an increasing need to write efficient computer programs but they tend to use specific languages for technical computing like Matlab or Mathematica rather than general purpose languages. The suggested reference discusses the properties a general purpose language would need to be able to also handle technical computing -- one possibility for allowing efficient technical computing involves a powerful type system and dispatch system to enable generic, staged, and higher-order programming.\n REQUIRED BACKGROUND: First year cs at the level of CS 135/6.",
         "tags": [
             "computer science",
             "first year friendly",
