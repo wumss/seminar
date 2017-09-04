@@ -43,7 +43,7 @@
             "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)",
             "Grumberg, O., & Veith, H. (Eds.). (2008). 25 years of model checking: history, achievements, perspectives (Vol. 5000). Springer."
         ],
-       "excerpt": "It was realized in the 1960s that mathematical logic provides a suitable language to formulate properties of programs. This idea was formalized by Hoare who developed __Hoare logic__ as a means to prove program correctness. However, this technique didn't apply directly to concurrent programs. An alternative approach called __Temporal Logic__ was proposed by Amir Pneuli in 1977 which did provide a means to reason about concurrent programs. This topic studies this and then delves into the fundamental ideas behind model checking.\n\n **Required Background:** Basics of computer science at the level of CS 146, Logic at the level of CS 245.",
+       "excerpt": "It was realized in the 1960s that mathematical logic provides a suitable language to formulate properties of programs. This idea was formalized by Hoare who developed *Hoare logic* as a means to prove program correctness. However, this technique didn't apply directly to concurrent programs. An alternative approach called *Temporal Logic* was proposed by Amir Pneuli in 1977 which did provide a means to reason about concurrent programs. This topic studies this and then delves into the fundamental ideas behind model checking.\n\n **Required Background:** Basics of computer science at the level of CS 146, Logic at the level of CS 245.",
         "see-also": []
     },
     {
