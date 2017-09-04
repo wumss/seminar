@@ -1,7 +1,7 @@
 # Math Seminar
 
 A simple static site for an informal math seminar series. The site is built
-with [HTSX](https://github.com/TotalVerb/SExpressions.jl).
+with [Remarkable](https://github.com/TotalVerb/Remarkable.jl).
 
 Here are some tutorials on how to edit the website:
 
@@ -15,7 +15,12 @@ Here are some tools to help out:
 - [Marketing Poster](http://uwseminars.com/poster/)
 
 
-When editing JSON note that double asterisk appears as **bold** and single asterisk appears as *italics*. Also another thing to keep in mind is that equations are entered using double back-quotes and things like \pi should be written with a double backslash.
+When editing markdown using the Potential Topics Tool, note that double
+asterisk appears as **bold** and single asterisk appears as *italics*. Also
+another thing to keep in mind is that equations are entered using double
+back-quotes and things like `\pi` should be written with a double backslash.
+The [Write Markdown](http://uwseminars.com/write-markdown/) page has some
+examples.
 
 ## To deploy:
 Generate the site (note that the scripts are, for historical reasons, named
