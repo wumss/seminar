@@ -1,52 +1,49 @@
 (h1 "Potential Topic Tool")
 
-(h2 "Instructions")
-(ol
-  (li "Wait for data to load.")
-  (li "Fill out the required information to add a new topic.")
-  (li "Note: separate tags with a comma, and separate references by a new line.")
-  (li "When done, press Copy to clipboard to copy the data.")
-  (li "Click "
-      (a ([href "https://github.com/wumss/seminar/edit/master/data/suggested-topics.json"]) "here")
-      " and paste, then commit or make a pull request."))
+(section ([id "phase-wait"])
+  (h2 "Wait")
+  (p "Current status: "
+     (span ([id "status"]) "Please wait for data to load.")))
 
-(h2 "Tool")
+(section ([id "phase-select"])
+  (h2 "Declare Intention")
+  (p "The Potential Topic Tool is still experimental and currently can only
+      perform one change at a time. A change is either editing an existing
+      topic or creating a new topic. Select the topic to edit or click "
+     (q "New Topic")
+     " to tell Potential Topic Tool what kind of change is intended. Once a
+      change is selected, a different change cannot be made without reloading
+      the page.")
 
-(p "Current status: " (span ([id "status"]) "Please wait for data to load."))
+  (p "Click " (button ([id "new-topic"]) "New Topic") " to add a topic.")
 
-(h3 "Add topic")
-(p (label "Topic: " (input ([type "text"]
-                            [placeholder "Inverse Galois Theory"]
-                            [id "attopic"]))))
-(p (label "Tags: " (input ([type "text"]
-                           [placeholder "algebra, group theory, field theory, Galois theory"]
-                           [id "attags"]))))
-(p (label "References: "
-          (textarea ([rows 5]
-                     [cols 2] 
-                     [id "atreferences"]
-                     [placeholder "[Author, Title](https://link.com/one/reference/per/line)"]))))
-(p (label "Excerpt: "
-          (textarea ([rows 10]
-                     [cols 2]
-                     [id "atexcerpt"]
-                     [placeholder "Brief summary of topic."]))))
+  (p "Otherwise, here is a current list of suggested topics in alphabetical
+      order. Click one of these topics to edit it."
+     (ul ([id "suggested"]))))
 
-(p (label "Result"
-          (textarea ([readonly "readonly"]
-                     [id "committed"]
-                     [rows 15]
-                     [cols 2])))
-   (button ([class "copyclipboard"]
-            [data-clipboard-target "#committed"])
-           "Copy to clipboard"))
+(section ([id "phase-edit"])
+  (h2 "Edit Topic")
+  (p "Make the required edits. As you edit, the Result box will update with
+      new JSON. When finished, copy that box using the button and paste the
+      content "
+     (a ([href "https://github.com/wumss/seminar/edit/master/data/suggested-topics.json"])
+       "here")
+     ". Note that the current version of Potential Topics Tool cannot make
+      more than one change at once; please refresh the page after committing
+      your changes.")
 
-(p "When finished, paste the content "
-   (a ([href "https://github.com/wumss/seminar/edit/master/data/suggested-topics.json"])
-      "here") ".")
+  (section ([id "editor-container"]))
 
-(p "Here is a current list of suggested topics in alphabetical order."
-   (ul ([id "suggested"])))
+  (p (label "Result"
+            (textarea ([readonly "readonly"]
+                       [id "committed"]
+                       [rows 15]
+                       [cols 2])))
+     (button ([class "copyclipboard"]
+              [data-clipboard-target "#committed"])
+             "Copy to clipboard")))
+
 
 (script ([src "https://cdn.jsdelivr.net/clipboard.js/1.6.0/clipboard.min.js"]))
+(script ([src "/scripts/jsoneditor.min.js"]))
 (script ([src "/scripts/pttool.js"]))
