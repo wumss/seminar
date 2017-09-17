@@ -1,24 +1,30 @@
 # UW Student Seminars
 
-This is the website for the student-run University of Waterloo mathematics
-student seminars. We are a group of mathematics and computer science students
-who are interested in learning new topics and presenting our new knowledge to
-others.
+Welcome to the student-run University of Waterloo Mathematics Seminars. These
+seminars run every Wednesday at 5:30 PM in (room to be determined) and provide
+a platform for students to learn new topics and present them to others. This
+Fall, the seminars will start in early October.
 
-We have yet to schedule talks for Spring 2017. Come back to the website nearer
-to the start of the term to check out the schedule. See our [FAQ](/faq/) 
-for frequently asked questions, and the [archive](/archive/) for talks 
-before today’s date. To browse talks by topic, see the [tags](/tags/) page.
+Each seminar consists of two 45 minute long talks. Topics include those in our
+[list of suggested topics](/potential-topics/) and other topics of interest to
+a general mathematical audience. Check out our [archive](/archive/) to look at
+past topics and summaries of past talks. If you have any questions for us, you
+can contact us by filling a form on our [FAQ page](/faq/) or alternatively
+asking on our [Facebook
+group](https://www.facebook.com/groups/334849026859566/).
 
-## Speak in Spring 2017
+## Speak in Fall 2017
 
-We are looking for speakers for Spring 2017. If you are interested in speaking
-next term, please take a look at our [suggested
-topics](/potential-topics/), or browse potential topics by [tag](/tags/). To
-submit a talk proposal, fill out our [form](/submit-talk/). If you are planning
-to speak in any term, we recommend you read the 
-[important information for speakers](/important-information/) first. If you have 
-any questions for us, we have a contact form on the [FAQ](/faq/) page. 
+We are currently looking for speakers for Fall 2017. If you are interested in
+speaking this term, please fill out our [talk proposal form](/submit-talk/). If
+you don’t have a topic in mind, you can look at our [suggested
+topics](/potential-topics/), or browse for topics by [tag](/tags/). Make sure
+you read through the [important information for
+speakers](/important-information/) before signing up to speak. We organize dry
+runs before the scheduled date of the talks, especially for first time
+speakers, to time the talk and to help build confidence. If you need help with
+your talk, feel free to ask us for support — we try to help our speakers as
+much as we can.
 
 ## Social
 
