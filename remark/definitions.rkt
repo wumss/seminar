@@ -40,7 +40,7 @@
       `((p "Delivered by " ,(ItemList (authors t)) " on " ,(human (datetime t))))
       (if (hasabstract t)
         (cut-abstract-at-h2
-          ((.rendermd StdLib) (readstring (abstractpath t))))
+          ((.rendermd StdLib) (read (abstractpath t) String)))
         '())
       (if (hassummary t)
         `((p (a ([href ,(string "/" (url t))])
