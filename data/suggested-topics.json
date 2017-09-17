@@ -46,20 +46,6 @@
         "see-also": []
     },
     {
-        "topic": "Bernoulli Numbers and their Applications in Modern Number Theory",
-        "tags": [
-            "number theory",
-            "analytic number theory",
-            "analysis",
-            "complex analysis"
-        ],
-        "references": [
-            "[Ireland](https://archive.org/details/springer_10.1007-978-1-4757-2103-4)"
-        ],
-        "excerpt": "The Bernoulli numbers are a set of numbers that were discovered by Jacob Bernoulli (1654-1705). This set of numbers holds a deep relationship with the Riemann zeta function. The Riemann zeta function has been found to have a relationship with prime numbers. The Bernoulli numbers have also been found to be useful for proofs of a restricted version of Fermat’s Last theorem.",
-        "see-also": []
-    },
-    {
         "topic": "Bitcoin and Blockchains",
         "tags": [
             "computer science",
@@ -105,15 +91,6 @@
         "excerpt": "A branch is a machine code instruction that may conditionally or unconditionally cause execution to switch to a different part of code. Conditional branches are often expensive relative to other low-level operations. Understanding branches, pipelines, branch prediction, and branch elimination is key to optimizing modern code."
     },
     {
-        "topic": "Buchi Automata",
-        "tags": [
-            "computer science",
-            "automaton",
-            "theoretical computer science"
-        ],
-        "references": [],
-        "see-also": []
-    },
     {
         "topic": "Cake cutting algorithms",
         "tags": [
@@ -123,54 +100,14 @@
             "game theory",
             "optimization",
             "recreational mathematics",
-            "social choice"
+            "social choice",
+            "first year friendly"
         ],
         "references": [
             "[Robertson, Webb](https://www.amazon.com/Cake-Cutting-Algorithms-Fair-You-Can/dp/1568810768/ref=sr_1_1?s=books&ie=UTF8&qid=1480468807&sr=1-1&keywords=cake+cutting+algorithms)"
         ],
+        "excert": "The challenge of dividing an asset fairly, from cakes to more important properties, is of great practical importance in many situations. While cake cutting may seem like a trivial thing to do, this topic has spurred a lot of research over the last fifty years and hsa surprisingly rich theory. This topic studies a notion of *fairness* suitable for mathematical study and determines various methods that attempt to maximize this notion.",
         "see-also": []
-    },
-    {
-        "topic": "Clifford Algebras",
-        "tags": [
-            "algebra",
-            "clifford algebra",
-            "linear algebra"
-        ],
-        "references": [
-            "[John Baez, 2001. Clifford Algebras.](http://math.ucr.edu/home/baez/octonions/node6.html)"
-        ],
-        "see-also": [
-            "fw-Hypercomplex"
-        ]
-    },
-    {
-        "topic": "Clifford Neurons",
-        "tags": [
-            "clifford algebra",
-            "algebra",
-            "machine learning",
-            "optimization"
-        ],
-        "references": [
-            "[Bucholtz, Tachibana, Hitzner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.5449&rep=rep1&type=pdf)"
-        ],
-        "see-also": []
-    },
-    {
-        "topic": "Combinatorial Game Theory with 'Nimbers'",
-        "tags": [
-            "combinatorial game theory",
-            "combinatorics",
-            "game theory",
-            "first year friendly"
-        ],
-        "references": [
-            "John Conway : On Games and Numbers"
-        ],
-        "see-also": [
-            "kt-GameTheory"
-        ]
     },
     {
         "topic": "Completeness, Incompleteness, and Turing Machines",
@@ -182,6 +119,7 @@
             "theoretical computer science",
             "turing machine"
         ],
+        "excerpt": "This topic studies the connection between Godels's incompleteness theorems and turing machines and how each implies the other",
         "references": [
             "[Scott Aaronson](http://www.scottaaronson.com/democritus/lec3.html)"
         ],
@@ -225,20 +163,7 @@
         "excerpt": "Volker Strassen showed that ``n^3`` matrix multiplication was not optimal in 1969. Since then, new algorithms such as Coppersmith-Winograd have further improved the time complexity of matrix multiplication. It is conjectured that matrix multiplication is possible in ``O(n^{2+ɛ})`` for any ``ɛ>0``, however small. This is one of the few remaining open problems in finite-dimensional linear algebra.",
         "see-also": []
     },
-    {
-        "topic": "Complexity of the Multivariate Resultant",
-        "tags": [
-            "algebra",
-            "algebraic geometry",
-            "computer science",
-            "computational complexity",
-            "theoretical computer science"
-        ],
-        "references": [
-            "[Bruno Grenet, Pascal Koiran, Natacha Portier](https://arxiv.org/pdf/1210.1451.pdf)"
-        ],
-        "see-also": []
-    },
+    
     {
         "topic": "Compressed Sensing",
         "tags": [
@@ -254,43 +179,8 @@
         ],
         "excerpt": "Compressed sensing is about minimizing the information gathered and stored by sensors, reducing the need for file compression later on for transmission. This can reduce costs for certain applications, such as non-visible wavelength cameras."
     },
-    {
-        "topic": "Computable Functions",
-        "tags": [
-            "computability",
-            "computer science",
-            "theoretical computer science",
-            "turing machine"
-        ],
-        "references": [
-            "[A. Shen, N. K. Vereshchagin](https://www.amazon.com/Computable-Functions-Student-Mathematical-Library/dp/0821827324/ref=sr_1_1?s=books&ie=UTF8&qid=1437716490&sr=1-1&pebp=1437716499539&perid=15CJV47PBD4EMQ11VZ5V)"
-        ],
-        "see-also": []
-    },
-    {
-        "topic": "Computational Algebraic Geometry",
-        "tags": [
-            "algebra",
-            "algebraic geometry",
-            "computer science"
-        ],
-        "references": [
-            "Cox, Little, O'Shea : Ideals, Varieties and Algorithms"
-        ],
-        "see-also": []
-    },
-    {
-        "topic": "Conformal Mapping and Inversion Theory",
-        "tags": [
-            "analysis",
-            "complex analysis"
-        ],
-        "references": [
-            "[Peter J. Olver](http://www.math.umn.edu/~olver/ln_/cml.pdf)",
-            "David Blair : Inversion Theory and Conformal Mapping"
-        ],
-        "see-also": []
-    },
+    
+
     {
         "topic": "Constructive Mathematics",
         "references": [
@@ -320,6 +210,7 @@
             "[Mairi Walker](http://www.maths.ed.ac.uk/~mkalck/GAMES/Mairi.pdf)",
             "[Ian Short](http://www.emis.de/journals/AASF/Vol31/short.pdf)"
         ],
+        "excerpt": "This topic studies the beautiful connection between continued fractions and the famous Farey tessekation of the hyperbolic plane.",
         "see-also": []
     },
     {
