@@ -281,16 +281,7 @@
         ],
         "see-also": []
     },
-    {
-        "topic": "Dirichlet L-functions and the Generalized Riemann Hypothesis",
-        "tags": [
-            "number theory",
-            "open problem",
-            "prime number"
-        ],
-        "references": [],
-        "see-also": []
-    },
+    
     {
         "topic": "Dirichlet's Theorem on Primes in Arithmetic progression",
         "tags": [
@@ -351,18 +342,7 @@
         ],
         "excerpt": "Physicist Enrico Fermi was known for his impressive order-of-magnitude estimation. He was famously able to estimate the yield of the Trinity test atomic bomb to about a factor of two. Why is Fermi estimation so useful and accurate? What are the techniques to make better approximations? How can and do scientists, mathematicians, engineers, and others use Fermi estimation in their work?"
     },
-    {
-        "topic": "Fishburn numbers and their Applications in Enumeration",
-        "tags": [
-            "combinatorics",
-            "enumeration",
-            "number theory"
-        ],
-        "references": [
-            "[Andrews, Sellers](http://www.personal.psu.edu/jxs23/andrews_sellers_fishburn_jntwinnie_final.pdf)",
-            "[Paul Levande](https://www.math.upenn.edu/~plevande/dissertationversion.pdf)"
-        ]
-    },
+   
     {
         "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC",
         "tags": [
@@ -384,21 +364,23 @@
         "references": [
             "[R. Rojas](https://page.mi.fu-berlin.de/rojas/neural/chapter/K11.pdf)",
             "[Franck Dernoncourt](http://www.francky.me/doc/course/fuzzy_logic.pdf)"
-        ]
+        ],
+        "excerpt": "Fuzzy logic is an extension of Boolean logic by Lotfi Zadeh in 1965 based on the mathematical theory of fuzzy sets, which is a generalization of the classical set theory. By introducing the notion of degree in the verification of a condition, thus enabling a condition to be in a state other than true or false, fuzzy logic provides a very valuable flexibility for reasoning, which makes it possible to take into account inaccuracies and uncertainties."
     },
     {
         "topic": "Galois Field Arithmetic",
         "tags": [
             "algebra",
             "field theory",
-            "Galois theory",
-            "cryptography"
+            "cryptography",
+            "tech talk"
         ],
         "references": [
             "[Plank, Greenan, Miller](http://web.eecs.utk.edu/~plank/plank/papers/FAST-2013-GF.html)",
             "[Christoforus Juan Benvenuto](https://www.math.washington.edu/~morrow/336_12/papers/juan.pdf)",
             "[Finite Field Arithmetic](http://www.springer.com/?SGWID=4-102-45-110359-0)"
-        ]
+        ],
+        "excerpt": "A Galois field is a finite field and are used in a variety of applications, including in classical coding theory and cryptography algorithms. This topic studies how to efficiently optimize arithmetic in such fields."
     },
     {
         "topic": "Geographic Authentication Schemes",
@@ -416,37 +398,8 @@
         "excerpt": "Users often choose passwords that are easy to remember but also easy to guess. Both textual and graphical passwords have failed to provide a viable solution to this usability-security tension. It thus remains a critical challenge in password research to design an authentication scheme that is resilient to guessing attacks while offering good memorability.",
         "see-also": []
     },
-    {
-        "topic": "Geometric Computing with Clifford Algebra",
-        "tags": [
-            "algebra",
-            "computer science",
-            "clifford algebra",
-            "theoretical computer science",
-            "applied mathematics",
-            "computer vision"
-        ],
-        "references": [
-            "[Gerald Sommer](https://books.google.ca/books?id=umyrCAAAQBAJ&dq=Clifford+Neuron&source=gbs_navlinks_s)"
-        ],
-        "excerpt": "Clifford algebra, then called geometric algebra, was introduced more than a cenetury ago by William K. Clifford, building on work by Grassmann and Hamilton. Clifford or geometric algebra shows strong unifying aspects and turned out in the 1960s to be a most adequate formalism for describing different geometry-related algebraic systems as specializations of one 'mother algebra' in various subfields of physics and engineering. Recent work outlines that Clifford algebra provides a universal and powerfull algebraic framework for an elegant and coherent representation of various problems occuring in computer science, signal processing, neural computing, image processing, pattern recognition, computer vision, and robotics. This monograph-like anthology introduces the concepts and framework of Clifford algebra and provides computer scientists, engineers, physicists, and mathematicians with a rich source of examples of how to work with this formalism.",
-        "see-also": []
-    },
-    {
-        "topic": "Geometric Group Theory",
-        "tags": [
-            "algebra",
-            "geometric topology",
-            "geometry",
-            "group theory",
-            "topology"
-        ],
-        "references": [
-            "[Kraft](https://www.math.ucdavis.edu/~kapovich/280-2009/bhb-ggtcourse.pdf)"
-        ],
-        "excerpt": "The field of geometric group theory emerged from Gromov’s insight that even mathematical objects such as groups, which are defined completely in algebraic terms, can be profitably viewed as geometric objects and studied with geometric techniques Contemporary geometric group theory has broadened its scope considerably, but retains this basic philosophy of reformulating in geometric terms problems from diverse areas of mathematics and then solving them with a variety of tools. The growing list of areas where this general approach has been successful includes low-dimensional topology, the theory of manifolds, algebraic topology, complex dynamics, combinatorial group theory, algebra, logic, the study of various classical families of groups, Riemannian geometry and representation theory.",
-        "see-also": []
-    },
+   
+  
     {
         "topic": "Geometry and Billiards",
         "tags": [
@@ -456,8 +409,10 @@
             "mechanics",
             "physics"
         ],
+        "excerpt": "The second topic studies which billiard table shapes are optimal.",
         "references": [
-            "[Sergei Tabachnikov](https://www.math.psu.edu/tabachni/Books/billiardsgeometry.pdf)"
+            "[Sergei Tabachnikov](https://www.math.psu.edu/tabachni/Books/billiardsgeometry.pdf)",
+            "[Laura de Marco](https://www.math.northwestern.edu/~demarco/billiards_BAMS.pdf)"
         ],
         "see-also": []
     },
@@ -478,17 +433,7 @@
         "excerpt": "The Gillespie Algorithm for stochastic equations is used heavily in a number of fields of applied mathematics, in particular computational systems biology.",
         "see-also": []
     },
-    {
-        "topic": "Hilbert’s Nullstellensatz and an Introduction to Schemes",
-        "tags": [
-            "algebra",
-            "combinatorics"
-        ],
-        "references": [
-            "I. G. Shaferavich : Basic Algebraic Geometry I"
-        ],
-        "see-also": []
-    },
+  
     {
         "topic": "Hindley–Milner Type System",
         "tags": [
@@ -501,20 +446,7 @@
         ],
         "see-also": []
     },
-    {
-        "topic": "Homotopy Type Theory",
-        "tags": [
-            "algebra",
-            "algebraic topology",
-            "topology",
-            "type theory",
-            "computer science"
-        ],
-        "references": [
-            "[Homotopy Type Theory (Book)](https://homotopytypetheory.org/book/)"
-        ],
-        "see-also": []
-    },
+    
     {
         "topic": "Hyperbolic Geometry",
         "tags": [
@@ -593,6 +525,7 @@
         "references": [
             "Noam D. Elkies, [Part 1](http://www.ams.org/notices/200010/fea-elkies-1.pdf) and [Part 2](http://www.ams.org/notices/200011/fea-elkies-2.pdf)"
         ],
+        "excerpt": "This topic studies sphere packing and the connection to lattices and linear codes.",
         "see-also": []
     },
     {
@@ -603,8 +536,10 @@
         ],
         "references": [
             "[Qiaochu Yuan](https://qchu.wordpress.com/2009/11/17/the-lindstrom-gessel-viennot-lemma/)",
+            "[Solomon](https://graphicallinearalgebra.net/2017/07/31/determinants-and-the-lindstrom-gessel-vienot-lemma/)",
             "[Vijay Kodiyalam](https://www.youtube.com/watch?v=01n-DUtY9ns)"
-        ]
+        ],
+        "excerpt": "This topic studeis an interesting connection between combinatorics and determinants."
     },
     {
         "topic": "Low Dimensional Geometry",
@@ -654,7 +589,8 @@
         "references": [
             "[Wikipedia](https://en.m.wikipedia.org/wiki/Monsky%27s_theorem)",
             "[Andreu Ferre Moragues](https://math.osu.edu/sites/math.osu.edu/files/ferre_MonskyThm_2016.pdf)"
-        ]
+        ], 
+        "excerpt": "This topic studies the proof of Monsky's theorem that it is not possible to dissect a square into an odd number of triangles of equal area."
     },
     {
         "topic": "Optimal Stopping Theory and the Secretary Problem",
@@ -759,17 +695,7 @@
         ],
         "see-also": []
     },
-    {
-        "topic": "Primes of the Form $x^2 + ny^2$",
-        "tags": [
-            "number theory",
-            "prime number"
-        ],
-        "references": [
-            "[Matthew Bates](http://people.math.umass.edu/~bates/Primes.pdf)"
-        ],
-        "see-also": []
-    },
+
     {
         "topic": "Principle of Least Action",
         "tags": [
@@ -856,16 +782,7 @@
         ],
         "see-also": []
     },
-    {
-        "topic": "Reciprocity Laws",
-        "tags": [
-            "number theory",
-            "reciprocity"
-        ],
-        "references": [
-            "[B. F. Wyman](https://www.jstor.org/stable/2317083)"
-        ]
-    },
+   
     {
         "topic": "Rental Harmony Theorem",
         "tags": [
@@ -893,18 +810,7 @@
         ],
         "see-also": []
     },
-    {
-        "topic": "Schoof's Algorithm",
-        "tags": [
-            "algebra",
-            "number theory",
-            "group theory"
-        ],
-        "references": [
-            "[Schoof](http://www.math.umn.edu/~musiker/schoof.pdf)"
-        ],
-        "see-also": []
-    },
+
     {
         "topic": "Secret Sharing Schemes and Multi-party Computation Protocols",
         "tags": [
@@ -931,19 +837,7 @@
         ],
         "excerpt": "Given two strings, we can write a computer program to tell them apart. A special kind of very simple computer program that accepts or rejects strings, using only a finite number of states while reading the string, is called a deterministic finite automaton. (These deterministic finite automata can also be expressed as a regular expression.) For any two strings of length ``n``, there is some deterministic finite automaton (or regular expression) that recognizes one and not the other, and there is some smallest one. In the worst case, it is known (Robson 1989) that any two strings of length ``n`` can be separated by an automaton of size ``O(n^{2/5} (\\log n)^{3/5})``, but this is not known to be optimal. The optimal upper bound remains an open problem."
     },
-    {
-        "topic": "Sieve Methods",
-        "tags": [
-            "computational complexity",
-            "computer science",
-            "number theory",
-            "prime number"
-        ],
-        "references": [
-            "[Dimitris Koukoulopoulos](http://www.dms.umontreal.ca/~koukoulo/documents/notes/sievemethods.pdf)"
-        ],
-        "see-also": []
-    },
+
     {
         "topic": "Sparse Matrices",
         "tags": [
@@ -1145,26 +1039,8 @@
         "references": [],
         "see-also": []
     },
-    {
-        "topic": "Timed Automata",
-        "tags": [
-            "computer science",
-            "automaton",
-            "theoretical computer science"
-        ],
-        "references": [],
-        "see-also": []
-    },
-    {
-        "topic": "Toronto Spaces",
-        "tags": [
-            "topology"
-        ],
-        "references": [
-            "[William Rea Brian](https://wrbrian.files.wordpress.com/2012/01/thetorontoproblem.pdf)"
-        ],
-        "see-also": []
-    },
+
+
     {
         "topic": "Total Functional Programming",
         "tags": [
