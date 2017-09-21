@@ -7,32 +7,34 @@
 
 (section ([id "phase-select"])
   (h2 "Declare Intention")
-  (p "The Potential Topic Tool is still experimental and currently can only
-      perform one change at a time. A change is either editing an existing
-      topic or creating a new topic. Select the topic to edit or click "
+  (p "The Potential Topic Tool is still experimental and currently can only perform one
+      change at a time. A change is either editing an existing topic or creating a new
+      topic.  Select the topic to edit or click "
      (q "New Topic")
-     " to tell Potential Topic Tool what kind of change is intended. Once a
-      change is selected, a different change cannot be made without reloading
-      the page.")
+     " to tell Potential Topic Tool what kind of change is intended. Once a change is
+     selected, a different change cannot be made without reloading the page.")
 
   (p "Click " (button ([id "new-topic"]) "New Topic") " to add a topic.")
 
-  (p "Otherwise, here is a current list of suggested topics in alphabetical
-      order. Click one of these topics to edit it."
+  (p "Otherwise, here is a current list of suggested topics in alphabetical order. Click one
+      of these topics to edit it."
      (ul ([id "suggested"]))))
 
 (section ([id "phase-edit"])
   (h2 "Edit Topic")
-  (p "Make the required edits. As you edit, the Result box will update with
-      new JSON. When finished, copy that box using the button and paste the
+  (p "Make the required edits. Click the Commit button once you are satisfied with the
+      changes.")
+
+  (section ([id "editor-container"]))
+  (p "Click " (button ([id "commit-topic"]) "Commit") " to proceed."))
+
+(section ([id "phase-result"])
+  (h2 "Result")
+  (p "The Result box contains the new JSON. Copy that box using the button and paste the
       content "
      (a ([href "https://github.com/wumss/seminar/edit/master/data/suggested-topics.json"])
        "here")
-     ". Note that the current version of Potential Topics Tool cannot make
-      more than one change at once; please refresh the page after committing
-      your changes.")
-
-  (section ([id "editor-container"]))
+     ". The current version of this tool can only make once change at once.")
 
   (p (label "Result"
             (textarea ([readonly "readonly"]
@@ -42,7 +44,6 @@
      (button ([class "copyclipboard"]
               [data-clipboard-target "#committed"])
              "Copy to clipboard")))
-
 
 (script ([src "https://cdn.jsdelivr.net/clipboard.js/1.6.0/clipboard.min.js"]))
 (script ([src "/scripts/jsoneditor.min.js"]))
