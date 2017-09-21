@@ -14,7 +14,7 @@ const dependencyStatus = {
   json: false,
   schema: false
 }
-const phases = ['wait', 'select', 'edit']
+const phases = ['wait', 'select', 'edit', 'result']
 let currentPhase = 0
 
 const moveToNextPhase = function () {
@@ -23,6 +23,15 @@ const moveToNextPhase = function () {
 }
 
 const updatePhase = function () {
+  if (phases[currentPhase] === 'edit') {
+    delta.push({
+      action: 'create',
+      body: {}
+    })
+    updateTopicToBeAdded()
+  } else if (phases[currentPhase] === 'result') {
+    updateTopicToBeAdded()
+  }
   phases.forEach(phase => {
     if (phase !== phases[currentPhase]) {
       document.getElementById(`phase-${phase}`).style.display = 'none'
@@ -30,13 +39,6 @@ const updatePhase = function () {
       document.getElementById(`phase-${phase}`).style.display = 'block'
     }
   })
-  if (phases[currentPhase] === 'edit') {
-    delta.push({
-      action: 'create',
-      body: {}
-    })
-    updateTopicToBeAdded()
-  }
 }
 
 const registerAsLoaded = function (type) {
@@ -116,6 +118,9 @@ const defer = function (func) {
 document.querySelector('#new-topic').addEventListener('click', function () {
   moveToNextPhase()
 })
+document.querySelector('#commit-topic').addEventListener('click', function () {
+  moveToNextPhase()
+})
 
 fetch(SchemaURL).then(
   response => response.json()
@@ -125,7 +130,6 @@ fetch(SchemaURL).then(
     schema: json
   })
 
-  editor.on('change', () => defer(updateTopicToBeAdded))
   registerAsLoaded('schema')
 })
 
