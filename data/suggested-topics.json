@@ -28,7 +28,22 @@
             "[Hare](http://www.irmacs.sfu.ca/sites/default/files/documents/borwein08/Kevin_Hare.pdf)",
             "[Sano](https://projecteuclid.org/euclid.ojm/1153492469)"
         ],
-        "excerpt": "Sometimes some non-integers like ``e^{π} - π = 19.9990999791...`` are curiously close to integers. While often this is just a numerical coincidence, sometimes there is a clear mathematical reason for certain numbers to be almost integers. Pisot numbers, which are special types of algebraic integers, provide a systematic means to construct almost integers that approximate integers at an exponential rate. Of course, Pisot numbers are interesting on their own right and an interested speaker can also venture into the connections to Beta expansions (see the 2nd and 3rd references below), or fractals (see the 4th reference below).\n\n **Required Background:** Calculus at the level of 147 and 138, algebra at the level of 145. Any other background depends on the direction the speaker takes with this topic.",
+        "excerpt": "Sometimes some non-integers like ``e^{π} - π = 19.9990999791...`` are curiously close to integers. While often this is just a numerical coincidence, sometimes there is a clear mathematical reason for certain numbers to be almost integers. Pisot numbers, which are special types of algebraic integers, provide a systematic means to construct almost integers that approximate integers at an exponential rate. Of course, Pisot numbers are interesting on their own right and an interested speaker can also venture into the connections to Beta expansions (see the 2nd and 3rd references below), or fractals (see the 4th reference below).\n\n **Required Background:** Basic analysis at the level of 147 and 138, algebra at the level of 145. Any other background depends on the direction the speaker takes with this topic.",
+        "see-also": []
+    },
+    {
+        "topic": "The Angel Problem",
+        "tags": [
+            "combinatorial game theory",
+            "game theory",
+            "combinatorics"
+            "research problem"
+       ],
+        "excerpt": "A game is played by two players called the angel and the devil. It is played on an infinite chessboard (or equivalently the points of a 2D lattice). The angel has a power k (a natural number 1 or higher), specified before the game starts. The board starts empty with the angel at the origin. On each turn, the angel jumps to a different empty square which could be reached by at most k moves of a chess king, i.e. the distance from the starting square is at most k in the infinity norm. The devil, on its turn, may add a block on any single square not containing the angel. The angel may leap over blocked squares, but cannot land on them. The devil wins if the angel is unable to move. The angel wins by surviving indefinitely.\n\n The angel problem is: can an angel with high enough power win?\n\n **Required Background:** Basic analysis at the level of 147 and algebra at the level of 145.",
+        "references": [
+            "[John H. Conway](http://library.msri.org/books/Book29/files/conway.pdf)", 
+            "[Oddvar Kloster](http://home.broadpark.no/~oddvark/angel/index.html)"
+        ],
         "see-also": []
     },
     {
