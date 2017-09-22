@@ -1,22 +1,28 @@
 module Talks
 
 using Base.Iterators
+using TimeZones
 using EnglishText
 using SExpressions.Lists
 using Remarkable.Articles
 using Remarkable.Tags
 
 function fromjson(obj, tagmatrix)
-    properties = ArticleMetadata(obj[:identifier],
-                                 obj[:title],
-                                 [obj[:speaker]],
-                                 DateTime(obj[:time], "y-m-dTH:M:SZ"))
+    time = obj[:time]
+    if length(time) == 2
+        time = time[1]  # TODO: support time interval
+    end
+    properties = ArticleMetadata(
+        obj[:identifier],
+        obj[:title],
+        [obj[:speaker]],
+        ZonedDateTime(DateTime(time, "y-m-dTH:M:S"), tz"America/Toronto"))
     tag!(properties, tagmatrix, obj[:tags])
     LivePerformance(properties, obj[:location])
 end
 
 url(t) = "archive/$(identifier(t))"
-iscompleted(t) = Date(datetime(t)) < Dates.today()
+iscompleted(t) = Date(DateTime(datetime(t))) < Dates.today()
 
 abstractpath(talk) = "abstract/$(identifier(talk))"
 hasabstract(talk) = isfile(abstractpath(talk))

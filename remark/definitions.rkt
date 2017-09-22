@@ -34,7 +34,7 @@
     (append
       (list (append `(h3 (a ([href ,(string "/" (url t))]) ,(title t)))
                     (if (and (hassummary t)
-                             (> (datetime t)
+                             (> (Date (DateTime (datetime t)))
                                 (- ((.today Dates)) ((.Day Dates) 10))))
                       '(" (New!)") '())))
       `((p "Delivered by " ,(ItemList (authors t)) " on " ,(human (datetime t))))

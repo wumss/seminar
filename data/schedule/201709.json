@@ -1,18 +1,35 @@
 [
     {
-        "location": "TBD",
-        "time": "2017-10-01T17:30:00Z",
-        "title": "UW Seminars First Talk",
-        "tags": [],
-        "identifier": "welcome",
-        "speaker": "Akshay Tiwary"
+        "location": "MC 4045",
+        "time": ["2017-10-04T17:30:00", "2017-10-04T18:15:00"],
+        "title": "Markov Chain Monte Carlo",
+        "tags": [
+            "Monte Carlo method",
+            "applied mathematics",
+            "markov chain",
+            "markov process",
+            "numerical analysis",
+            "probability",
+            "statistics"
+        ],
+        "identifier": "jj-markov",
+        "speaker": "Jacob Jackson"
     },
     {
-        "location": "TBD",
-        "time": "2017-10-01T18:30:00Z",
-        "title": "UW Seminars Second Talk",
-        "tags": [],
-        "identifier": "exit",
-        "speaker": "Manas Joshi"
+        "location": "MC 4045",
+        "time": ["2017-10-04T18:20:00", "2017-10-04T19:05:00"],
+        "title": "A 3/2-approximation algorithm for the stable marriage problem with ties",
+        "tags": [
+            "algorithm",
+            "approximation algorithm",
+            "combinatorics",
+            "computer science",
+            "graph theory",
+            "matching",
+            "optimization",
+            "stable marriage problem"
+        ],
+        "identifier": "fb-stable",
+        "speaker": "Felix Bauckholt"
     }
 ]

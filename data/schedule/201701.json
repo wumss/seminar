@@ -1,7 +1,7 @@
 [
     {
         "location": "MC 4045",
-        "time": "2017-01-20T17:30:00Z",
+        "time": "2017-01-20T17:30:00",
         "title": "Game Theory (Part 2): Extensive Form Finite and Infinite Games",
         "tags": [
             "combinatorial game theory",
@@ -13,7 +13,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-01-20T18:30:00Z",
+        "time": "2017-01-20T18:30:00",
         "title": "Diophantine Approximation and the Discovery of Transcendental Numbers",
         "tags": [
             "algebraic number",
@@ -25,7 +25,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-01-27T17:30:00Z",
+        "time": "2017-01-27T17:30:00",
         "title": "Integrability of Riccati Equations",
         "tags": [
             "differential equation",
@@ -36,7 +36,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-01-27T18:30:00Z",
+        "time": "2017-01-27T18:30:00",
         "title": "Tensor Products",
         "tags": [
             "algebra",
@@ -48,7 +48,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-03T17:30:00Z",
+        "time": "2017-02-03T17:30:00",
         "title": "$q$-analogs",
         "tags": [
             "combinatorics",
@@ -59,7 +59,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-03T18:30:00Z",
+        "time": "2017-02-03T18:30:00",
         "title": "$p$-adic Numbers",
         "tags": [
             "analysis",
@@ -71,7 +71,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-10T18:30:00Z",
+        "time": "2017-02-10T18:30:00",
         "title": "Quantum Computing",
         "tags": [
             "computer science",
@@ -82,7 +82,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-10T17:30:00Z",
+        "time": "2017-02-10T17:30:00",
         "title": "Ordinals",
         "tags": [
             "ordinal number",
@@ -93,7 +93,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-17T17:30:00Z",
+        "time": "2017-02-17T17:30:00",
         "title": "Bitcoin and the Blockchain",
         "tags": [
             "computer science",
@@ -106,7 +106,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-02-17T18:30:00Z",
+        "time": "2017-02-17T18:30:00",
         "title": "General Secure Multi-Party Computation from any Linear Secret-Sharing Scheme",
         "tags": [
             "computer science",
@@ -117,7 +117,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-03T17:30:00Z",
+        "time": "2017-03-03T17:30:00",
         "title": "Total Functional Programming",
         "tags": [
             "computer science",
@@ -129,7 +129,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-03T18:30:00Z",
+        "time": "2017-03-03T18:30:00",
         "title": "Bloom Filters and Other Probabilistic Data Structures",
         "tags": [
             "algorithms",
@@ -143,7 +143,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-17T17:30:00Z",
+        "time": "2017-03-17T17:30:00",
         "title": "Inverse Galois Theory",
         "tags": [
             "algebra",
@@ -157,7 +157,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-17T18:30:00Z",
+        "time": "2017-03-17T18:30:00",
         "title": "Universal Property of Quotients",
         "tags": [
             "algebra",
@@ -168,7 +168,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-24T17:30:00Z",
+        "time": "2017-03-24T17:30:00",
         "title": "Brachistochrone",
         "tags": [
             "applied mathematics",
@@ -180,7 +180,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-24T18:30:00Z",
+        "time": "2017-03-24T18:30:00",
         "title": "Lie Groups and Special Relativity",
         "tags": [
             "algebra",
@@ -195,7 +195,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-31T17:30:00Z",
+        "time": "2017-03-31T17:30:00",
         "title": "Metric embeddings and dimensionality reduction",
         "tags": [
             "algebra",
@@ -210,7 +210,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-31T18:10:00Z",
+        "time": "2017-03-31T18:10:00",
         "title": "Group Theoretic Attacks on the Enigma Cipher",
         "tags": [
             "algebra",
@@ -222,7 +222,7 @@
     },
     {
         "location": "MC 4045",
-        "time": "2017-03-31T18:50:00Z",
+        "time": "2017-03-31T18:50:00",
         "title": "Cantor Set and Dynamical Systems",
         "tags": [
             "analysis",

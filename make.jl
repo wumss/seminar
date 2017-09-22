@@ -89,7 +89,7 @@ for t in result
     if iscompleted(t)
         push!(talks, t)
     else
-        curdate = Date(datetime(t))
+        curdate = Date(DateTime(datetime(t)))
         if curdate < nextdate
             nextdate = curdate
             nexttalks = [t]

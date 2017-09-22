@@ -1,6 +1,6 @@
 [
     {
-        "time": "2016-10-12T17:30:00Z",
+        "time": "2016-10-12T17:30:00",
         "title": "Groups",
         "speaker": "Fengyang Wang",
         "location": "MC 4020",
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "time": "2016-10-12T18:30:00Z",
+        "time": "2016-10-12T18:30:00",
         "title": "Ultrafilters",
         "speaker": "Felix Bauckholt",
         "location": "MC 4020",
@@ -25,7 +25,7 @@
         ]
     },
     {
-        "time": "2016-10-12T19:30:00Z",
+        "time": "2016-10-12T19:30:00",
         "title": "Infinitely Awesome Graphs",
         "speaker": "Zouhaier Ferchiou",
         "location": "MC 4020",
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "time": "2016-10-14T17:30:00Z",
+        "time": "2016-10-14T17:30:00",
         "title": "Information Theory",
         "speaker": "Sidhant Saraogi",
         "location": "MC 5479",
@@ -50,7 +50,7 @@
         ]
     },
     {
-        "time": "2016-10-14T18:30:00Z",
+        "time": "2016-10-14T18:30:00",
         "title": "Types and Object-Oriented Programming",
         "speaker": "Nikita Kapustin",
         "location": "MC 5479",
@@ -62,7 +62,7 @@
         ]
     },
     {
-        "time": "2016-10-21T17:30:00Z",
+        "time": "2016-10-21T17:30:00",
         "title": "Category Theory",
         "speaker": "Luthfi Mawarid",
         "location": "MC 4020",
@@ -73,7 +73,7 @@
         ]
     },
     {
-        "time": "2016-10-21T18:30:00Z",
+        "time": "2016-10-21T18:30:00",
         "title": "Reinforcement Learning in Games",
         "speaker": "Agastya Kalra",
         "location": "MC 4020",
@@ -85,7 +85,7 @@
         ]
     },
     {
-        "time": "2016-10-28T17:30:00Z",
+        "time": "2016-10-28T17:30:00",
         "title": "Convex Optimization",
         "speaker": "Rolina Wu",
         "location": "MC 4020",
@@ -97,7 +97,7 @@
         ]
     },
     {
-        "time": "2016-10-28T18:30:00Z",
+        "time": "2016-10-28T18:30:00",
         "title": "Integration",
         "speaker": "Gregory Patchell",
         "location": "MC 4020",
@@ -109,7 +109,7 @@
         ]
     },
     {
-        "time": "2016-11-04T17:30:00Z",
+        "time": "2016-11-04T17:30:00",
         "title": "Game Theory (Part 1)",
         "speaker": "Koosha Totonchi",
         "location": "MC 4020",
@@ -120,7 +120,7 @@
         ]
     },
     {
-        "time": "2016-11-11T17:30:00Z",
+        "time": "2016-11-11T17:30:00",
         "title": "Simplicial Homology",
         "speaker": "Kai Rüsch",
         "location": "MC 4020",
@@ -132,7 +132,7 @@
         ]
     },
     {
-        "time": "2016-11-11T18:30:00Z",
+        "time": "2016-11-11T18:30:00",
         "title": "Random Graphs and Complex Networks",
         "speaker": "Frieda Rong",
         "location": "MC 4020",
@@ -145,7 +145,7 @@
         ]
     },
     {
-        "time": "2016-11-18T17:30:00Z",
+        "time": "2016-11-18T17:30:00",
         "title": "Hypercomplex Numbers",
         "speaker": "Fengyang Wang",
         "location": "MC 4020",
@@ -157,7 +157,7 @@
         ]
     },
     {
-        "time": "2016-11-18T18:30:00Z",
+        "time": "2016-11-18T18:30:00",
         "title": "Basic Elliptic Curves",
         "speaker": "Akshay Tiwary",
         "location": "MC 4020",
@@ -171,7 +171,7 @@
         ]
     },
     {
-        "time": "2016-11-25T17:30:00Z",
+        "time": "2016-11-25T17:30:00",
         "title": "Naïve Lie Theory",
         "speaker": "Aidan Patterson",
         "location": "MC 4020",
@@ -184,7 +184,7 @@
         ]
     },
     {
-        "time": "2016-11-25T18:30:00Z",
+        "time": "2016-11-25T18:30:00",
         "title": "Quandles: The Algebra of Knots",
         "speaker": "Brennen Creighton-Young",
         "location": "MC 4020",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "time": "2016-12-02T17:30:00Z",
+        "time": "2016-12-02T17:30:00",
         "title": "How to Complicate Fourier Analysis",
         "speaker": "Mohamed El Mandouh",
         "location": "MC 4020",
@@ -212,7 +212,7 @@
         ]
     },
     { 
-        "time": "2016-12-02T18:30:00Z",
+        "time": "2016-12-02T18:30:00",
         "title": "Voting with Homomorphic Encryption", 
         "speaker": "Sidhant Saraogi",
         "location": "MC 4020",
