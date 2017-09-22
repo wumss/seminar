@@ -1,9 +1,8 @@
 # UW Student Seminars
 
 Welcome to the student-run University of Waterloo Mathematics Seminars. These seminars run
-every Wednesday at 5:30 PM in <strong>MC 4045</strong> and provide a platform for students
-to learn new topics and present them to others. This Fall, the seminars will start on
-October 4, 2017.
+every Wednesday at 5:30 PM in **MC 4045** and provide a platform for students to learn new
+topics and present them to others. This Fall, the seminars will start on October 4, 2017.
 
 Each seminar consists of two 45 minute long talks. Topics include those in our [list of
 suggested topics](/potential-topics/) and other topics of interest to a general mathematical
@@ -27,3 +26,7 @@ try to help our speakers as much as we can.
 
 [![Facebook group](/images/FB-f-Logo__blue_72.png)](
 https://www.facebook.com/groups/334849026859566/)
+
+## Acknowledgements
+
+Thanks to Professor David McKinnon for supporting our effort!
