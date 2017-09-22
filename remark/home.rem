@@ -11,19 +11,19 @@
                         (remark (include-markdown ,(string "../" (abstractpath t)))))))
               '()))))
 
-;; (h2 "Upcoming Talks")
-;;
-;; (table
-;;   (thead
-;;     (tr (th "Topic") (th "Speaker") (th "Location") (th "Time")))
-;;   (tbody
-;;     (#:each d (unique (map (∘ Date datetime) talks))
-;;      (if (≥ (Date d) ((.today Dates)))
-;;        (let ([ts (filter (λ (t) (== (Date (datetime t)) d)) talks)])
-;;          (append
-;;            `((tr (th ([colspan 4]) "Talks on " ,(human d))))
-;;            (convert List (flatten (map talk-row ts)))))
-;;        '()))))
+(h2 "Upcoming Talks")
+
+(table
+  (thead
+    (tr (th "Topic") (th "Speaker") (th "Location") (th "Time")))
+  (tbody
+    (#:each d (unique (map (∘ Date datetime) talks))
+     (if (≥ (Date d) ((.today Dates)))
+       (let ([ts (filter (λ (t) (== (Date (datetime t)) d)) talks)])
+         (append
+           `((tr (th ([colspan 4]) "Talks on " ,(human d))))
+           (convert List (flatten (map talk-row ts)))))
+       '()))))
 
 (h2 "Search Website")
 (script "

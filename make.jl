@@ -132,7 +132,7 @@ generate_page(site, ""; data=Dict(
     :mathjaxplease => true), modules=[Talks])
 
 # Generate tag pages
-generate_page(site, "tags"; data=Dict(
+generate_page(site, "tag"; data=Dict(
     :pagetitle => "List of Tags",
     :pagetype => "tags",
     :tagmatrix => tagmatrix), modules=[])

@@ -31,5 +31,17 @@
         ],
         "identifier": "fb-stable",
         "speaker": "Felix Bauckholt"
+    },
+    {
+        "location": "MC 4045",
+        "time": ["2017-10-18T17:30:00", "2017-10-18T18:15:00"],
+        "title": "Constructive analysis",
+        "tags": [
+            "analysis",
+            "logic",
+            "constructive mathematics"
+        ],
+        "identifier": "fw-constructive",
+        "speaker": "Fengyang Wang"
     }
 ]
