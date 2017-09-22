@@ -67,7 +67,7 @@
             "data structure",
             "probability",
             "space efficiency",
-            "algorithms"
+            "algorithm"
         ],
         "references": [
             "[Blustein](https://www.cs.dal.ca/sites/default/files/technical_reports/CS-2002-10.pdf)"
@@ -93,7 +93,7 @@
     {
         "topic": "Cake cutting algorithms",
         "tags": [
-            "algorithms",
+            "algorithm",
             "computer science",
             "economics",
             "game theory",
@@ -145,7 +145,7 @@
         "topic": "Complexity of Matrix Multiplication",
         "tags": [
             "algebra",
-            "algorithms",
+            "algorithm",
             "computational mathematics",
             "computer science",
             "group theory",
@@ -418,7 +418,7 @@
     {
         "topic": "Gillespie Algorithm",
         "tags": [
-            "algorithms",
+            "algorithm",
             "applied mathematics",
             "computational mathematics",
             "computer science",
@@ -954,7 +954,7 @@
     {
         "topic": "The Joy of Factoring",
         "tags": [
-            "algorithms",
+            "algorithm",
             "computer science",
             "cryptography",
             "number theory",
