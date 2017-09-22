@@ -17,9 +17,9 @@
   (thead
     (tr (th "Topic") (th "Speaker") (th "Location") (th "Time")))
   (tbody
-    (#:each d (unique (map (∘ Date datetime) talks))
+    (#:each d (unique (map (∘ Date (∘ DateTime datetime)) talks))
      (if (≥ (Date d) ((.today Dates)))
-       (let ([ts (filter (λ (t) (== (Date (datetime t)) d)) talks)])
+       (let ([ts (filter (λ (t) (== (Date (DateTime (datetime t))) d)) talks)])
          (append
            `((tr (th ([colspan 4]) "Talks on " ,(human d))))
            (convert List (flatten (map talk-row ts)))))
