@@ -36,7 +36,7 @@
             "items": {
                 "default": "arithmetic",
                 "description": "A category to which this topic belongs.",
-                "$id": "/properties/tags/items",
+                "$id": "/properties/tag/items",
                 "title": "Tag",
                 "type": "string"
             },

@@ -18,7 +18,7 @@ group](https://www.facebook.com/groups/334849026859566/).
 We are currently looking for speakers for Fall 2017. If you are interested in
 speaking this term, please fill out our [talk proposal form](/submit-talk/). If
 you don’t have a topic in mind, you can look at our [suggested
-topics](/potential-topics/), or browse for topics by [tag](/tags/). Make sure
+topics](/potential-topics/), or browse for topics by [tag](/tag/). Make sure
 you read through the [important information for
 speakers](/important-information/) before signing up to speak. We organize dry
 runs before the scheduled date of the talks, especially for first time
