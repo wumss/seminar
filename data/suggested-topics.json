@@ -32,21 +32,6 @@
         "see-also": []
     },
     {
-        "topic": "The Angel Problem",
-        "tags": [
-            "combinatorial game theory",
-            "game theory",
-            "combinatorics",
-            "research problem"
-       ],
-        "excerpt": "A game is played by two players called the angel and the devil. It is played on an infinite chessboard (or equivalently the points of a 2D lattice). The angel has a power k (a natural number 1 or higher), specified before the game starts. The board starts empty with the angel at the origin. On each turn, the angel jumps to a different empty square which could be reached by at most k moves of a chess king, i.e. the distance from the starting square is at most k in the infinity norm. The devil, on its turn, may add a block on any single square not containing the angel. The angel may leap over blocked squares, but cannot land on them. The devil wins if the angel is unable to move. The angel wins by surviving indefinitely.\n\n The angel problem is: can an angel with high enough power win?\n\n **Required Background:** Basic analysis at the level of 147 and algebra at the level of 145.",
-        "references": [
-            "[John H. Conway](http://library.msri.org/books/Book29/files/conway.pdf)", 
-            "[Oddvar Kloster](http://home.broadpark.no/~oddvark/angel/index.html)"
-        ],
-        "see-also": []
-    },
-    {
         "topic": "Automated Verification of Computational Systems",
         "tags": [
             "computer science",
@@ -177,7 +162,6 @@
         "excerpt": "Volker Strassen showed that ``n^3`` matrix multiplication was not optimal in 1969. Since then, new algorithms such as Coppersmith-Winograd have further improved the time complexity of matrix multiplication. It is conjectured that matrix multiplication is possible in ``O(n^{2+ɛ})`` for any ``ɛ>0``, however small. This is one of the few remaining open problems in finite-dimensional linear algebra.",
         "see-also": []
     },
-    
     {
         "topic": "Compressed Sensing",
         "tags": [
@@ -193,8 +177,6 @@
         ],
         "excerpt": "Compressed sensing is about minimizing the information gathered and stored by sensors, reducing the need for file compression later on for transmission. This can reduce costs for certain applications, such as non-visible wavelength cameras."
     },
-    
-
     {
         "topic": "Constructive Mathematics",
         "references": [
@@ -295,7 +277,6 @@
         ],
         "see-also": []
     },
-    
     {
         "topic": "Dirichlet's Theorem on Primes in Arithmetic progression",
         "tags": [
@@ -356,7 +337,6 @@
         ],
         "excerpt": "Physicist Enrico Fermi was known for his impressive order-of-magnitude estimation. He was famously able to estimate the yield of the Trinity test atomic bomb to about a factor of two. Why is Fermi estimation so useful and accurate? What are the techniques to make better approximations? How can and do scientists, mathematicians, engineers, and others use Fermi estimation in their work?"
     },
-   
     {
         "topic": "Forcing and the Independence of the Continuum Hypothesis from ZFC",
         "tags": [
@@ -412,8 +392,6 @@
         "excerpt": "Users often choose passwords that are easy to remember but also easy to guess. Both textual and graphical passwords have failed to provide a viable solution to this usability-security tension. It thus remains a critical challenge in password research to design an authentication scheme that is resilient to guessing attacks while offering good memorability.",
         "see-also": []
     },
-   
-  
     {
         "topic": "Geometry and Billiards",
         "tags": [
@@ -447,7 +425,6 @@
         "excerpt": "The Gillespie Algorithm for stochastic equations is used heavily in a number of fields of applied mathematics, in particular computational systems biology.",
         "see-also": []
     },
-  
     {
         "topic": "Hindley–Milner Type System",
         "tags": [
@@ -460,7 +437,6 @@
         ],
         "see-also": []
     },
-    
     {
         "topic": "Hyperbolic Geometry",
         "tags": [
@@ -497,6 +473,20 @@
         ],
         "references": [
             "[P. Mark Kayll](https://www.maa.org/sites/default/files/pdf/upload_library/22/Allendoerfer/Kayll-2012.pdf)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "Iterated function systems",
+        "excerpt": "Aesthetically appealing fractal art can be created through interesting mathematical processes, including contraction mappings on metric spaces. Several well known fractals can be formalized mathematically and also appreciated visually. A talk on this subject would explore both mathematical and artistic aspects.",
+        "references": [
+            "[Iterated function system. In Wikipedia, The Free Encyclopedia.](https://en.wikipedia.org/wiki/Iterated_function_system)"
+        ],
+        "tags": [
+            "analysis",
+            "topology",
+            "metric space",
+            "art"
         ],
         "see-also": []
     },
@@ -603,7 +593,7 @@
         "references": [
             "[Wikipedia](https://en.m.wikipedia.org/wiki/Monsky%27s_theorem)",
             "[Andreu Ferre Moragues](https://math.osu.edu/sites/math.osu.edu/files/ferre_MonskyThm_2016.pdf)"
-        ], 
+        ],
         "excerpt": "This topic studies the proof of Monsky's theorem that it is not possible to dissect a square into an odd number of triangles of equal area."
     },
     {
@@ -709,7 +699,6 @@
         ],
         "see-also": []
     },
-
     {
         "topic": "Principle of Least Action",
         "tags": [
@@ -796,7 +785,6 @@
         ],
         "see-also": []
     },
-   
     {
         "topic": "Rental Harmony Theorem",
         "tags": [
@@ -824,7 +812,6 @@
         ],
         "see-also": []
     },
-
     {
         "topic": "Secret Sharing Schemes and Multi-party Computation Protocols",
         "tags": [
@@ -851,7 +838,6 @@
         ],
         "excerpt": "Given two strings, we can write a computer program to tell them apart. A special kind of very simple computer program that accepts or rejects strings, using only a finite number of states while reading the string, is called a deterministic finite automaton. (These deterministic finite automata can also be expressed as a regular expression.) For any two strings of length ``n``, there is some deterministic finite automaton (or regular expression) that recognizes one and not the other, and there is some smallest one. In the worst case, it is known (Robson 1989) that any two strings of length ``n`` can be separated by an automaton of size ``O(n^{2/5} (\\log n)^{3/5})``, but this is not known to be optimal. The optimal upper bound remains an open problem."
     },
-
     {
         "topic": "Sparse Matrices",
         "tags": [
@@ -907,6 +893,21 @@
             "[Richard Feynman](http://www.feynmanlectures.caltech.edu/III_17.html)",
             "[Hanc, Tuleja, Hancova](http://www.eftaylor.com/pub/symmetry.html)",
             "[David Gross](http://www.pnas.org/content/93/25/14256.full)"
+        ],
+        "see-also": []
+    },
+    {
+        "topic": "The Angel Problem",
+        "tags": [
+            "combinatorial game theory",
+            "game theory",
+            "combinatorics",
+            "research problem"
+        ],
+        "excerpt": "A game is played by two players called the angel and the devil. It is played on an infinite chessboard (or equivalently the points of a 2D lattice). The angel has a power k (a natural number 1 or higher), specified before the game starts. The board starts empty with the angel at the origin. On each turn, the angel jumps to a different empty square which could be reached by at most k moves of a chess king, i.e. the distance from the starting square is at most k in the infinity norm. The devil, on its turn, may add a block on any single square not containing the angel. The angel may leap over blocked squares, but cannot land on them. The devil wins if the angel is unable to move. The angel wins by surviving indefinitely.\n\n The angel problem is: can an angel with high enough power win?\n\n **Required Background:** Basic analysis at the level of 147 and algebra at the level of 145.",
+        "references": [
+            "[John H. Conway](http://library.msri.org/books/Book29/files/conway.pdf)",
+            "[Oddvar Kloster](http://home.broadpark.no/~oddvark/angel/index.html)"
         ],
         "see-also": []
     },
@@ -1053,8 +1054,6 @@
         "references": [],
         "see-also": []
     },
-
-
     {
         "topic": "Total Functional Programming",
         "tags": [
@@ -1152,9 +1151,9 @@
     {
         "topic": "Wilf zeilberg method to computer verify combinatorial identities",
         "tags": [
-          "combinatorics",
-          "algorithm",
-          "computer algebra"
+            "combinatorics",
+            "algorithm",
+            "computer algebra"
         ],
         "excerpt": "One of the most exciting mathematical discoveries in the early 1990s was the Wilf-Zeilberger (WZ) algorithm that can be used for proving, evaluating, and discovering identities involving hypergeometric terms automatically by computer. And unlike computerized proof techniques in other areas, the computerized proofs generated by this method provides a *certificate* for the validity of a combinatorial identity, called a *WZ-pair*.\n\n **Required Background**: Combinatorics at the level of Math 249, Calculus at the level of Math 147.",
         "references": [
@@ -1164,7 +1163,6 @@
         ],
         "see-also": []
     },
-    
     {
         "topic": "Zero-Cost Abstraction",
         "references": [
