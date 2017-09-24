@@ -477,6 +477,21 @@
         "see-also": []
     },
     {
+        "topic": "Iterated function systems",
+        "excerpt": "Aesthetically appealing fractal art can be created through interesting mathematical processes, including contraction mappings on metric spaces. Several well known fractals can be formalized mathematically and also appreciated visually. A talk on this subject would explore both mathematical and artistic aspects.",
+        "references": [
+            "[Iterated function system. In Wikipedia, The Free Encyclopedia.](https://en.wikipedia.org/wiki/Iterated_function_system)"
+        ],
+        "tags": [
+            "analysis",
+            "topology",
+            "metric space",
+            "art",
+            "fractal"
+        ],
+        "see-also": []
+    },
+    {
         "topic": "Jupyter Notebooks",
         "references": [
             "[Project Jupyter](http://jupyter.org/)"

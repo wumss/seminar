@@ -45,13 +45,3 @@
    " by Remarkable with Julia "
    (remark (string VERSION))
    ".")
-
-(h2 "Social")
-
-(p (a ([href "https://www.facebook.com/groups/334849026859566/"])
-      (img ([src "/images/FB-f-Logo__blue_72.png"]
-            [alt "Facebook group"]))))
-
-(h2 "Acknowledgements")
-
-(p "Thanks to Professor David McKinnon for supporting our effort!")
