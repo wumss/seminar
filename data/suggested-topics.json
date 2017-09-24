@@ -477,20 +477,6 @@
         "see-also": []
     },
     {
-        "topic": "Iterated function systems",
-        "excerpt": "Aesthetically appealing fractal art can be created through interesting mathematical processes, including contraction mappings on metric spaces. Several well known fractals can be formalized mathematically and also appreciated visually. A talk on this subject would explore both mathematical and artistic aspects.",
-        "references": [
-            "[Iterated function system. In Wikipedia, The Free Encyclopedia.](https://en.wikipedia.org/wiki/Iterated_function_system)"
-        ],
-        "tags": [
-            "analysis",
-            "topology",
-            "metric space",
-            "art"
-        ],
-        "see-also": []
-    },
-    {
         "topic": "Jupyter Notebooks",
         "references": [
             "[Project Jupyter](http://jupyter.org/)"
@@ -530,6 +516,24 @@
             "Noam D. Elkies, [Part 1](http://www.ams.org/notices/200010/fea-elkies-1.pdf) and [Part 2](http://www.ams.org/notices/200011/fea-elkies-2.pdf)"
         ],
         "excerpt": "This topic studies sphere packing and the connection to lattices and linear codes.",
+        "see-also": []
+    },
+    {
+        "topic": "Lindenmeyer systems",
+        "excerpt": "Originally developed to model plant growth, L-systems are a logical approach to various scientific questions, as well as one of many ways to generate artistically pleasing fractals.",
+        "references": [
+            "[L-system. In Wikipedia, the free encyclopedia.](https://en.wikipedia.org/wiki/L-system)"
+        ],
+        "tags": [
+            "computer science",
+            "theoretical computer science",
+            "computability",
+            "logic",
+            "art",
+            "biology",
+            "botany",
+            "fractal"
+        ],
         "see-also": []
     },
     {
