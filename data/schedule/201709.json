@@ -35,6 +35,18 @@
     {
         "location": "MC 4045",
         "time": ["2017-10-18T17:30:00", "2017-10-18T18:15:00"],
+        "title": "Tiling and dynamics",
+        "tags": [
+            "analysis",
+            "combinatorics",
+            "probability"
+        ],
+        "identifier": "at-tiling",
+        "speaker": "Akshay Tiwary"
+    },
+    {
+        "location": "MC 4045",
+        "time": ["2017-10-18T18:20:00", "2017-10-18T19:05:00"],
         "title": "Constructive analysis",
         "tags": [
             "analysis",
@@ -43,5 +55,18 @@
         ],
         "identifier": "fw-constructive",
         "speaker": "Fengyang Wang"
+    },
+    {
+        "location": "MC 4045",
+        "time": ["2017-10-25T17:30:00", "2017-10-25T18:15:00"],
+        "title": "Automatic sequences",
+        "tags": [
+            "automaton",
+            "computer science",
+            "number theory",
+            "theoretical computer science"
+        ],
+        "identifier": "lb-automatic",
+        "speaker": "Laindon Burnett"
     }
 ]
