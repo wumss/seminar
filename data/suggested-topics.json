@@ -367,7 +367,9 @@
             "algebra",
             "field theory",
             "cryptography",
-            "tech talk"
+            "computer science",
+            "algorithm",
+            "efficiency"
         ],
         "references": [
             "[Plank, Greenan, Miller](http://web.eecs.utk.edu/~plank/plank/papers/FAST-2013-GF.html)",
