@@ -21,12 +21,3 @@ speakers](/important-information/) before signing up to speak. We organize dry r
 the scheduled date of the talks, especially for first time speakers, to time the talk and to
 help build confidence. If you need help with your talk, feel free to ask us for support — we
 try to help our speakers as much as we can.
-
-## Social
-
-[![Facebook group](/images/FB-f-Logo__blue_72.png)](
-https://www.facebook.com/groups/334849026859566/)
-
-## Acknowledgements
-
-Thanks to Professor David McKinnon for supporting our effort!

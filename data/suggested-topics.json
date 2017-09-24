@@ -36,7 +36,7 @@
         "tags": [
             "combinatorial game theory",
             "game theory",
-            "combinatorics"
+            "combinatorics",
             "research problem"
        ],
         "excerpt": "A game is played by two players called the angel and the devil. It is played on an infinite chessboard (or equivalently the points of a 2D lattice). The angel has a power k (a natural number 1 or higher), specified before the game starts. The board starts empty with the angel at the origin. On each turn, the angel jumps to a different empty square which could be reached by at most k moves of a chess king, i.e. the distance from the starting square is at most k in the infinity norm. The devil, on its turn, may add a block on any single square not containing the angel. The angel may leap over blocked squares, but cannot land on them. The devil wins if the angel is unable to move. The angel wins by surviving indefinitely.\n\n The angel problem is: can an angel with high enough power win?\n\n **Required Background:** Basic analysis at the level of 147 and algebra at the level of 145.",
