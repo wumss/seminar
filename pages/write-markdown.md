@@ -16,9 +16,9 @@ x = \frac{a}{b}
 ```
 `````
 
-If you are not yet familiar with Markdown, or you wish to learn more about
-Julia flavoured markdown, consult the documentation of [Julia flavoured
-markdown](http://docs.julialang.org/en/release-0.5/manual/documentation/#markdown-syntax).
+If you are not yet familiar with Markdown, or you wish to learn more about Julia flavoured
+markdown, consult the documentation of [Julia flavoured
+markdown](https://docs.julialang.org/en/release-0.5/manual/documentation/#markdown-syntax).
 
 ## Uploading Talk Summaries
 

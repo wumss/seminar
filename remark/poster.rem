@@ -9,7 +9,7 @@
       (div ([class "minipage"])
            (img ([width 600]
                  [height 228]
-                 [src "http://uwseminars.com/seminar-transparent.png"]
+                 [src "/seminar-transparent.png"]
                  [class "banner"]))
            (p ([class "location-time"]
                [contenteditable "true"])
@@ -32,6 +32,6 @@
                                           "No abstract available."))
                                       3) " "))))))
            (p ([class "website-link"])
-              "For more details, go to http://uwseminars.com")))
+              "For more details, go to https://uwseminars.com")))
 
     (script ([src "/scripts/poster.js"]))))
