@@ -326,6 +326,20 @@
         ]
     },
     {
+        "topic": "Expander Graphs and Applications",
+        "excerpt": "Expander graphs are sparse graphs with strong connectivity properties and finds applications in complexity theory, designing of computer networks and the theory of error-correcting codes.",
+        "references": [
+            "[Nati Linial, Avi Wigderson](http://www.math.ias.edu/~boaz/ExpanderCourse/allnotes.pdf)"
+        ],
+        "tags": [
+            "graph theory",
+            "theoretical computer science",
+            "coding theory",
+            "complexity theory"
+        ],
+        "see-also": []
+    },
+    {
         "topic": "Fermi Estimation",
         "tags": [
             "physics",
