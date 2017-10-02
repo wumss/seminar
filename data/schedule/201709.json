@@ -35,18 +35,6 @@
     {
         "location": "MC 4045",
         "time": ["2017-10-18T17:30:00", "2017-10-18T18:15:00"],
-        "title": "Tiling and dynamics",
-        "tags": [
-            "analysis",
-            "combinatorics",
-            "probability"
-        ],
-        "identifier": "at-tiling",
-        "speaker": "Akshay Tiwary"
-    },
-    {
-        "location": "MC 4045",
-        "time": ["2017-10-18T18:20:00", "2017-10-18T19:05:00"],
         "title": "Constructive analysis",
         "tags": [
             "analysis",
@@ -68,5 +56,17 @@
         ],
         "identifier": "lb-automatic",
         "speaker": "Laindon Burnett"
+    },
+    {
+        "location": "MC 4045",
+        "time": ["2017-11-01T17:30:00", "2017-11-01T18:15:00"],
+        "title": "Tiling and dynamics",
+        "tags": [
+            "analysis",
+            "combinatorics",
+            "probability"
+        ],
+        "identifier": "at-tiling",
+        "speaker": "Akshay Tiwary"
     }
 ]
