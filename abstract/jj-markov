@@ -1,0 +1,5 @@
+The talk will introduce Markov chain Monte Carlo methods as a means of sampling from a
+distribution. The Metropolis-Hastings algorithm will be discussed as well as applications of
+Markov chain Monte Carlo for Bayesian inference and optimization.
+
+Will expect familiarity with basic probability theory, especially conditional probability.
