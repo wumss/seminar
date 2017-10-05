@@ -3,3 +3,6 @@ distribution. The Metropolis-Hastings algorithm will be discussed as well as app
 Markov chain Monte Carlo for Bayesian inference and optimization.
 
 Will expect familiarity with basic probability theory, especially conditional probability.
+
+The slides for this talk are available at [Jacob Jackson’s
+website](http://jacobj.ca/mcmc.pdf).

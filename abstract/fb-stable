@@ -1,3 +1,5 @@
 I will introduce the Stable Marriage Problem, and its NP-complete cousin, the Stable
 Marriage Problem with ties. I will present a simplified version of Király’s
 3/2-approximation algorithm, which archieves the best approximation ratio known.
+
+The [slides for this presentation](/assets/stable-marriage-approximation.pdf) are available.
