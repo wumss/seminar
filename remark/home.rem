@@ -38,7 +38,21 @@
   })();")
 (gcse:search)
 
+(h2 "Disclaimers")
+
+(p "The UW Student Seminars are not affiliated with the University of Waterloo. We do not
+    guarantee the accuracy of our content. Please submit any corrections or complaints to
+    the contact form at the bottom of the "
+   (a ([href "/faq/"]) "Frequently Asked Questions")
+   ". All the content on this website is Copyright © 2016–2017 UW Student Seminars, or our
+    individual speakers used with permission, and may not be reproduced in any form without
+    express permission from the copyright holder.")
+
 (h2 "Website Information")
+
+(p "Made with Remarkable using the "
+   (a ([href "https://wumss.github.io/rabbit"]) "rabbit")
+   " CSS theme.")
 
 (p "This website was last regenerated on "
    (remark (human ((.today Dates))))
