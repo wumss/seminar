@@ -1,0 +1,13 @@
+## Introduction to Constructive Mathematics
+
+> It was proven by Cantor that a good math joke exists. Unfortunately, his proof was
+> entirely non-constructive.
+
+Attribution: [Jon](https://mathoverflow.net/a/2960)
+
+Constructive mathematics, as the name would suggest, is centered on the philosophy that
+proofs that can be turned into algorithms are better.
+
+### Example
+
+The first player has a winning strategy in Hex.

@@ -30,8 +30,6 @@ hasabstract(talk) = isfile(abstractpath(talk))
 summarypath(talk) = "summary/$(identifier(talk))"
 hassummary(talk) = isfile(summarypath(talk))
 
-Base.@deprecate valuate(talk) 1 + hassummary(talk)
-
 # TODO: this has nothing to do with talks, move it to document
 function brief(t)
     if haskey(t, :type) && t[:type] == "reference"

@@ -59,7 +59,7 @@
     },
     {
         "location": "MC 4045",
-        "time": ["2017-11-01T17:30:00", "2017-11-01T18:15:00"],
+        "time": ["2017-11-08T17:30:00", "2017-11-08T18:15:00"],
         "title": "Tiling and dynamics",
         "tags": [
             "analysis",
@@ -68,5 +68,32 @@
         ],
         "identifier": "at-tiling",
         "speaker": "Akshay Tiwary"
+    },
+    {
+        "location": "MC 4045",
+        "time": ["2017-11-15T17:30:00", "2017-11-15T18:15:00"],
+        "title": "To Be Determined",
+        "tags": [
+        ],
+        "identifier": "ss-tbd",
+        "speaker": "Sidhant Saraogi"
+    },
+    {
+        "location": "MC 4045",
+        "time": ["2017-11-22T17:30:00", "2017-11-22T18:15:00"],
+        "title": "To Be Determined",
+        "tags": [
+        ],
+        "identifier": "fr-tbd",
+        "speaker": "Frieda Rong"
+    },
+    {
+        "location": "MC 4045",
+        "time": ["2017-11-29T17:30:00", "2017-11-29T18:15:00"],
+        "title": "To Be Determined",
+        "tags": [
+        ],
+        "identifier": "bz-tbd",
+        "speaker": "Ben Zhang"
     }
 ]
