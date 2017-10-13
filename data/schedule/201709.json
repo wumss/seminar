@@ -58,6 +58,14 @@
         "speaker": "Laindon Burnett"
     },
     {
+        "location": "N/A",
+        "time": ["2017-11-01T00:00:00", "2017-11-01T00:00:01"],
+        "title": "No talk scheduled this week",
+        "tags": [],
+        "identifier": "cancel",
+        "speaker": "N/A"
+    },
+    {
         "location": "MC 4045",
         "time": ["2017-11-08T17:30:00", "2017-11-08T18:15:00"],
         "title": "Tiling and dynamics",
