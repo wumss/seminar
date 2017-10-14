@@ -5,9 +5,88 @@
 
 Attribution: [Jon](https://mathoverflow.net/a/2960)
 
-Constructive mathematics, as the name would suggest, is centered on the philosophy that
-proofs that can be turned into algorithms are better.
+> My homework does exist, but no one can find it.
 
-### Example
+Attribution: Printed in The Times of London, February 3, 2004. Obtained from Bridges and
+Vîţă.
 
-The first player has a winning strategy in Hex.
+Constructive mathematics is mathematics that avoids obscuring the underlying algorithms and
+their computational information. A *constructive* proof is, or is readily turned into, an
+algorithm to find the thing it’s claiming.
+
+It is easier to understand constructivism by looking at what procedures in proofs are not
+constructive. Here is a theorem in elementary calculus:
+
+**Theorem**. There exist ``\{a, b\} ⊆ \mathbf{R}^+ - \mathbf{Q}^+`` such that ``a^b ∈
+\mathbf{Q}^+``. (There are two irrational numbers ``a``, ``b`` with ``a^b`` rational.)
+
+Here is a non-constructive proof:
+
+**Proof**. Consider ``\sqrt{2}^\sqrt{2}``. If it is rational, we are done. Otherwise,
+``\sqrt{2}^{\left(\sqrt{2}^\sqrt{2}\right)} = \sqrt{2}^2 = 2`` is rational, and we are done.
+
+This proof is classically valid. But imagine we needed these numbers ``a``, ``b`` for the
+correctness of some algorithm. Which numbers would we use: ``a = b = \sqrt{2}`` or ``a =
+\sqrt{2}`` and ``b = \sqrt{2}^{\sqrt{2}}``? Here shows the difficulty of a non-constructive
+proof: while it makes the claim that the requested numbers ``a`` and ``b`` exist, it does
+not give any way to construct those numbers. Thus it is unsuitable for algorithmic purposes.
+
+Here is a constructive proof.
+
+**Proof**. Let ``a = \sqrt{2}`` and ``b = \frac{\log{9}}{\log{2}}``. Then
+``a^b = 3`` which is rational, and we are done.
+
+This proof is constructive because we can immediately use it in any algorithm requesting
+such numbers ``a`` and ``b``, as they are constructed in the proof.
+
+Let us try to turn the first proof into an algorithm, so we can better see what goes wrong.
+
+```julia
+# Compute `a, b` where `a` and `b` are irrationals such that `a^b` is rational.
+
+if (√2) ^ (√2) ∈ 𝐐
+    a = √2
+    b = √2
+else
+    a = √2
+    b = (√2) ^ (√2)
+end
+```
+
+If we try to implement this algorithm, we see immediately what is wrong: implementing the
+condition `(√2) ^ (√2) ∈ 𝐐` is hard. To have such an algorithm that can determine whether
+`(√2) ^ (√2)` is rational, we would need to prove that it is rational, or that it is
+irrational.
+
+Note that in a non-constructive logic, the proof was valid because we could simply assume
+that a correct decision can be made — though the proof does not tell us how to make it.
+This is called the  Law of the Excluded Middle, an inference rule of non-constructive
+mathematics:
+
+```math
+⊢ P ∨ ¬P
+```
+
+The Law of the Excluded Middle, from an algorithmic standpoint, is equivalent to
+omniscience. If for any proposition ``P`` we had an algorithm that determines the truth of
+``P``, then using this law is valid constructively — as we would simply ask that algorithm
+which branch to take.
+
+Unfortunately, modern computers do not support omniscience, so the Law of the Excluded
+Middle cannot be used in constructive proofs.
+
+## Limited Omniscience
+
+Let’s imagine we want to repair the technique used above to be valid, constructively. What
+additional powers would we need?
+
+Imagine we had an omniscient oracle that could tell us, given any proposition ``P``, whether
+it were true or not. Then in fact the “non-constructive” proof above does give the required
+``a`` and ``b``: we would just have to ask the oracle once the question ``\sqrt{2}^\sqrt{2}
+∈ \mathbf{Q}^+``.
+
+## Logic
+
+There is not a single theory of constructivism; different mathematicians have developed
+different approaches. Many modern mathematicians subscribe to a theory of constructivism
+built on intuitionistic logic: in particular, the BHK interpretation.

@@ -33,16 +33,12 @@
         "speaker": "Felix Bauckholt"
     },
     {
-        "location": "MC 4045",
-        "time": ["2017-10-18T17:30:00", "2017-10-18T18:15:00"],
-        "title": "Constructive analysis",
-        "tags": [
-            "analysis",
-            "logic",
-            "constructive mathematics"
-        ],
-        "identifier": "fw-constructive",
-        "speaker": "Fengyang Wang"
+        "location": "N/A",
+        "time": ["2017-10-18T00:00:00", "2017-10-18T00:00:01"],
+        "title": "No talk scheduled this week",
+        "tags": [],
+        "identifier": "cancel",
+        "speaker": "N/A"
     },
     {
         "location": "MC 4045",
@@ -58,12 +54,16 @@
         "speaker": "Laindon Burnett"
     },
     {
-        "location": "N/A",
-        "time": ["2017-11-01T00:00:00", "2017-11-01T00:00:01"],
-        "title": "No talk scheduled this week",
-        "tags": [],
-        "identifier": "cancel",
-        "speaker": "N/A"
+        "location": "MC 4045",
+        "time": ["2017-11-01T17:30:00", "2017-11-01T18:15:00"],
+        "title": "Constructive analysis",
+        "tags": [
+            "analysis",
+            "logic",
+            "constructive mathematics"
+        ],
+        "identifier": "fw-constructive",
+        "speaker": "Fengyang Wang"
     },
     {
         "location": "MC 4045",
