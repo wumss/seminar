@@ -1,2 +1,7 @@
 Constructive mathematics, as the name would suggest, is centered on the philosophy that
-mathematical proofs should be able to be turned into algorithms.
+mathematical proofs should be able to be turned into algorithms. We will contextualize
+constructive approaches to analysis, roughly following Bridges and Vîţă. This talk has no
+formal prerequisites beyond an elementary understanding of the real numbers and the usual
+concept of completeness. In particular, no logical background is assumed; intuitionistic
+logic will be overviewed in the talk. We will finish with a discussion of the ramifications
+of completeness of the real numbers.
