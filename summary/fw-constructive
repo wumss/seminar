@@ -67,7 +67,7 @@ mathematics:
 ⊢ P ∨ ¬P
 ```
 
-The Law of the Excluded Middle, from an algorithmic standpoint, is equivalent to
+The Law of the Excluded Middle, from an algorithmic standpoint, is equivalent to total
 omniscience. If for any proposition ``P`` we had an algorithm that determines the truth of
 ``P``, then using this law is valid constructively — as we would simply ask that algorithm
 which branch to take.
@@ -75,18 +75,61 @@ which branch to take.
 Unfortunately, modern computers do not support omniscience, so the Law of the Excluded
 Middle cannot be used in constructive proofs.
 
-## Limited Omniscience
-
-Let’s imagine we want to repair the technique used above to be valid, constructively. What
-additional powers would we need?
-
-Imagine we had an omniscient oracle that could tell us, given any proposition ``P``, whether
-it were true or not. Then in fact the “non-constructive” proof above does give the required
-``a`` and ``b``: we would just have to ask the oracle once the question ``\sqrt{2}^\sqrt{2}
-∈ \mathbf{Q}^+``.
-
 ## Logic
 
 There is not a single theory of constructivism; different mathematicians have developed
 different approaches. Many modern mathematicians subscribe to a theory of constructivism
 built on intuitionistic logic: in particular, the BHK interpretation.
+
+The ideas behind the BHK interpretation are very simple:
+
+- A proof of ``a ∧ b`` is a proof of ``a`` and a proof of ``b``
+- A proof of ``a ∨ b`` is a proof of ``a`` or a proof of ``b``
+- A proof of ``∀ x P(x)`` is an algorithm that given any ``x``, creates a proof of ``P(x)``
+- A proof of ``∃ x P(x)`` is a **witness** ``x`` and a proof of ``P(x)``
+- A proof of ``a ⇒ b`` is an algorithm that given a proof of ``a`` creates a proof of ``b``
+- A proof of ``¬a`` is a **refutation** of ``a``
+
+Here, a witness is a value that can be computed by an algorithm that demonstrates
+constructively the existential proposition.
+
+Note the two major differences from classical logic: in BHK, a proof of a disjunction is a
+proof of one of the disjuncts. This makes more clear why the Law of the Excluded Middle must
+be excluded from the BHK interpretation, as taking ``⊢ P ∨ ¬P`` as an axiom results in
+something that purports to be a proof of ``P ∨ ¬P``, but is neither a proof of ``P``, nor is
+it a proof of ``¬P``. Furthermore, a proof of an existential must explicitly give a witness.
+Many classical proofs of existentials do not accomplish that.
+
+We should clarify the meaning of the word **refutation** used above. A refutation of ``a``
+is an algorithm that given a proof of ``a`` constructs a contradiction. There is special
+syntax commonly used to denote contradictions: ``⊥``. Therefore, we can alternatively
+interpret ``¬a`` as ``a ⇒ ⊥``.
+
+## Limited Omniscience
+
+Although we used the law of the excluded middle in our non-constructive proof above, that
+does not mean that the statement cannot be proved in constructive mathematics. It merely
+means that the particular proof we used involved total omniscience. (In fact, we did give a
+constructive proof of this shortly after.)
+
+Can every statement of classical mathematics be proven constructively, even if the currently
+known proofs involve invoking some form of omniscience? Well, some statements are themselves
+forms of omnisicence. (For example, it is hard to envision the law of the excluded middle
+being provable constructively, as that would imply an algorithm to decide the truth of any
+logical formula.)
+
+We can measure the degree to which a statement ``P`` of classical mathematics is **not**
+provable constructively by showing that ``P ⇒ Q`` constructively, where ``Q`` is some
+principle that seems to require a certain degree of omniscience. In the most general case,
+we might show that a statement ``P`` implies the full law of the excluded middle. However,
+it is possible that ``P`` implies some other form of omniscience that is weaker than being
+able to decide the truth of *anything*.
+
+## Completeness of the Real Numbers
+
+**(Theorem)**
+If ``(a_n)_{n∈𝐍} ∈ 𝐑^𝐍`` is Cauchy, then there exists ``a∈𝐑`` such that ``\lim_{n→∞} a_n =
+a``. (We call this the completeness of the real numbers. Intuitively, it means there are no
+gaps.)
+
+TK.
