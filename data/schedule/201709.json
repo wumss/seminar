@@ -33,14 +33,6 @@
         "speaker": "Felix Bauckholt"
     },
     {
-        "location": "N/A",
-        "time": ["2017-10-18T00:00:00", "2017-10-18T00:00:01"],
-        "title": "No talk scheduled this week",
-        "tags": [],
-        "identifier": "cancel",
-        "speaker": "N/A"
-    },
-    {
         "location": "MC 4045",
         "time": ["2017-10-25T17:30:00", "2017-10-25T18:15:00"],
         "title": "Automatic sequences",
@@ -60,7 +52,9 @@
         "tags": [
             "analysis",
             "logic",
-            "constructive mathematics"
+            "constructive mathematics",
+            "real analysis",
+            "intuitionistic logic"
         ],
         "identifier": "fw-constructive",
         "speaker": "Fengyang Wang"
