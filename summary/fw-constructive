@@ -125,7 +125,95 @@ we might show that a statement ``P`` implies the full law of the excluded middle
 it is possible that ``P`` implies some other form of omniscience that is weaker than being
 able to decide the truth of *anything*.
 
+### Limited Principle of Omniscience
+
+```math
+∀𝐱∈\{0, 1\}^𝐍 (𝐱 = 𝟎 ∨ 𝐱 ≠ 𝟎)
+```
+
+Here we must be careful to define the equality and inequality of binary sequences. We define
+equality to be
+
+```math
+𝐱 = 𝐲 ⇔ ∀i∈𝐍 (x_i = y_i)
+```
+
+and inequality to be
+
+```math
+𝐱 = 𝐲 ⇔ ∃i∈𝐍 (x_i ≠ y_i)
+```
+
+Note that the natural inequality is **not** the same as a refutation of equality; in fact it
+is stronger. (We will see this come up again with real numbers.) This kind of inequality is
+called a “tight apartness”. A simple refutation of equality, ``¬(a = b)``, would be called
+the “denial inequality”.
+
+An informal way to understand this principle is that, given an infinitely tall haystack,
+either it has no needles or it has a needle. No algorithm can decide this in general, as it
+would involve scanning through infinitely many 0s. Thus this is a form of omniscience
+(knowing an infinite number of things), though less powerful than the total omniscience of
+the Law of the Excluded Middle.
+
+### Lesser Limited Principle of Omniscience
+
+```math
+∀𝐱∈\{0, 1\}^𝐍 (¬∃i∈𝐍,j∈𝐍(i≠j ∧ x_i = y_i = 1) ⇒ (∀i∈𝐍(x_{2i} = 0) ∨ ∀i∈𝐍(x_{2i-1} = 0)))
+```
+
+This statement is rather complicated, but can be understood less formally as: given two
+infinitely tall haystacks, if you know that there is at most one needle among them both,
+then either the left haystack has no needles or the right haystack has no needles. To decide
+this would seemingly also require scanning a potentially unbounded amount of time to find
+the right haystack (since it is possible that neither haystack contains a needle), and hence
+is also a form of omniscience. However, it is weaker than the LPO.
+
+### Markov Principle
+
+Even weaker still is the so-called Markov principle,
+
+```math
+∀𝐱∈\{0, 1\}^𝐍 (¬(𝐱 = 𝟎) ⇒ 𝐱 ≠ 𝟎)
+```
+
+The Markov principle is the statement that in fact the double negative does hold for
+equality of binary sequences; furthermore it shows that the denial inequality and tight
+apartness are the same in these cases. It would seem like there does exist an algorithm to
+find a witness to the inequality of two sequences: simply search through the sequence and
+wait to find the first 1. This should terminate because since the sequence is not all zeros,
+there must be a 1! However, note that this reasoning involves the use of a classical logic
+non-constructive argument: that is, the termination of the algorithm isn’t explicitly shown
+by providing a witness bounding the amount of time it will take, but shown through a
+classical-style contradiction argument. Hence the Markov principle only holds in the BHK
+interpretation if the logic you use to reason about it is a classical metatheory, and is
+otherwise not part of the BHK interpretation.
+
+## Brouwerian Counterexamples
+
+A Brouwerian counterexample for a statement ``P`` is a proof that ``P ⇒ \mathsf{LEM}`` or
+``P ⇒ \mathsf{LPO}`` or ``P ⇒ \mathsf{LLPO}`` or even ``P ⇒ \mathsf{MP}``. Brouwerian
+counterexamples show that particular statements are not provable constructively, because
+they imply omniscience principles that are inherently non-constructive.
+
+
+
 ## Completeness of the Real Numbers
+
+We are going to provide sketch proofs of various facts that build up, constructively, the
+completeness of ``𝐑``. For full proofs of the following theorems, consult Bridges and Vîţă.
+We will give a short overall sketch.
+
+**(Theorem: Archimedean Property)** For each real number ``𝐱`` there exists a positive
+integer ``n`` with ``|𝐱| < n``. (Bridges and Vîţă Lemma 2.1.15)
+
+The proof of this is straightforward; we take any rational interval ``(q, q') ∈ 𝐱`` and find
+``n`` with ``\max\{|q|, |q'|\} < n``. The rest can be done with rational arithmetic. ∎
+
+**(Corollary)** For each real number ``𝐱`` there exists ``n∈𝐍`` such that whenever ``(q, q')
+∈ 𝐱`` and ``q' - q < 1``, we have ``\max\{|q|, |q'|\} < n``. (Bridges and Vîţă Lemma 2.1.20)
+
+This is quite an easy corollary of the Archimedean Property (take the ``n`` from there and
+add 1), but it is a stronger result that we will use later on. ∎
 
 **(Theorem)**
 If ``(a_n)_{n∈𝐍} ∈ 𝐑^𝐍`` is Cauchy, then there exists ``a∈𝐑`` such that ``\lim_{n→∞} a_n =
