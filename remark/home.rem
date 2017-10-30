@@ -25,6 +25,14 @@
            (convert List (flatten (map talk-row ts)))))
        '()))))
 
+(h2 "Recordings of Past Talks")
+(iframe ([width 560]
+         [height 315]
+         [src "https://www.youtube.com/embed/videoseries?list=PLtCFG6tYg6df18umSqyqlPFyOq3Ciqx_K"]
+         [frameborder 0]
+         [gesture "media"]
+         [allowfullscreen "allowfullscreen"])
+
 (h2 "Search Website")
 (script "
   (function() {
