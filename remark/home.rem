@@ -31,7 +31,7 @@
          [src "https://www.youtube.com/embed/videoseries?list=PLtCFG6tYg6df18umSqyqlPFyOq3Ciqx_K"]
          [frameborder 0]
          [gesture "media"]
-         [allowfullscreen "allowfullscreen"])
+         [allowfullscreen "allowfullscreen"]))
 
 (h2 "Search Website")
 (script "
