@@ -46,18 +46,16 @@
         "see-also": []
     },
     {
-        "topic": "Bitcoin and Blockchains",
+        "topic": "blockchain",
         "tags": [
+            "blockchain",
             "computer science",
             "cryptography",
             "distributed system",
             "first year friendly"
         ],
         "references": [
-            "[Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)"
-        ],
-        "see-also": [
-            "bz-Bitcoin"
+            "[Nakamoto, S. (2008). Bitcoin: A peer-to-peer electronic cash system.](https://bitcoin.org/bitcoin.pdf)"
         ]
     },
     {

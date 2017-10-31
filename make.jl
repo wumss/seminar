@@ -148,7 +148,7 @@ for t in alltags
         :talks => active_set,
         :documents => docs_bytag[t],
         :mathjaxplease => true,
-        :github => "$GITHUB/wiki/tag/$t.md",
+        :github => "$GITHUB/wiki/tag/$(urinormalize(tagname(t))).md",
         :references => get(tagsuggestions, tagname(t),
                            Dict(:references => []))[:references],
         :suggestions => bytag[t]), modules=[Talks])
