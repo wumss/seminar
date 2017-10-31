@@ -77,8 +77,9 @@
         ]
     },
     {
-        "topic": "Branch Prediction",
+        "topic": "branch prediction",
         "tags": [
+            "branch prediction",
             "compiler",
             "computer science",
             "efficiency",
@@ -86,9 +87,8 @@
             "Tech Talks"
         ],
         "references": [
-            "[Agner Fog](http://www.agner.org/optimize/microarchitecture.pdf)"
-        ],
-        "excerpt": "A branch is a machine code instruction that may conditionally or unconditionally cause execution to switch to a different part of code. Conditional branches are often expensive relative to other low-level operations. Understanding branches, pipelines, branch prediction, and branch elimination is key to optimizing modern code."
+            "[Fog, A. (2012). The microarchitecture of Intel, AMD and VIA CPUs/An optimization guide for assembly programmers and compiler makers.](http://www.agner.org/optimize/microarchitecture.pdf)"
+        ]
     },
     {
         "topic": "Cake cutting algorithms",
@@ -531,9 +531,8 @@
             "statistics"
         ],
         "references": [
-            "[Paul Vitanyi](http://homepages.cwi.nl/~paulv/course-kc/KC-Lecture1.pdf)"
-        ],
-        "see-also": []
+            "[Vitanyi, P. M., Balbach, F. J., Cilibrasi, R. L., & Li, M. (1997). Kolmogorov Complexity and its applications. Handbook of Theoretical Computer Science. volume A: Algorithms and Complexity, 187-254.](http://homepages.cwi.nl/~paulv/course-kc/KC-Lecture1.pdf)"
+        ]
     },
     {
         "topic": "Lattices, Linear Codes, and Invariants",

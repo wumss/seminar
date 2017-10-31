@@ -11,6 +11,11 @@
   (when (isfile (string "wiki/tag/" uri ".md"))
     (include-markdown (string "../wiki/tag/" uri ".md"))))
 
+(remark
+  (when (! (isempty references))
+    `(p "Possible reference materials for this topic include"
+        ,(cons 'ul (convert list (map (∘ li render-reference) references))))))
+
 (p "There have been "
    (remark
     (string

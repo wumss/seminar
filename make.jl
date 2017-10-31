@@ -149,6 +149,8 @@ for t in alltags
         :documents => docs_bytag[t],
         :mathjaxplease => true,
         :github => "$GITHUB/wiki/tag/$t.md",
+        :references => get(tagsuggestions, tagname(t),
+                           Dict(:references => []))[:references],
         :suggestions => bytag[t]), modules=[Talks])
 end
 
@@ -157,5 +159,6 @@ generate_page(site, "potential-topics"; data=Dict(
     :pagetype => "suggested-topics",
     :talkdict => talkdict,
     :suggestions => suggestions,
+    :tagsuggestions => tagsuggestions,
     :mathjaxplease => true,
     :github => "$GITHUB/remark/suggested-topics.rem"), modules=[Talks])
