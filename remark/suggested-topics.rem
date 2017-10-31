@@ -2,7 +2,7 @@
 
 (p "Here is a list of potential topics. "
    "You may also consider browsing topics by "
-   (remark (link-to "tags" "tag"))
+   (remark (link-to "tag" "tag"))
    ". First-year students may wish to browse our list of "
    (remark (link-to "tag/first-year-friendly" "first-year-friendly topics"))
    ". We have "
