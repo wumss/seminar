@@ -266,7 +266,14 @@ hold. For example ``𝐱 ≤ 𝟎 ∨ 𝐱 ≥ 𝟎`` implies ``\mathsf{LLPO}``,
 𝟎)`` implies ``\mathsf{LPO}``.  This also means, with the tight apartness above, that ``𝐱 =
 𝟎 ∨ 𝐱 ≠ 𝟎`` implies ``\mathsf{LPO}``. These are also Brouwerian counterexamples.
 
-TK — Convergence, Cauchy
+We finish with some definitions for convergent and Cauchy sequences, which remind us of the
+classical definitions, because they are the same:
+
+- ``(𝐱_n) ∈ 𝐑^𝐍`` **converges to** ``𝐱_∞`` if for all ``ɛ > 0`` there exists ``N∈𝐍`` after
+  which any term ``𝐱_n`` (``n ≥ N``) is within ``ɛ`` of ``𝐱_∞``
+
+- ``(𝐱_n) ∈ 𝐑^𝐍`` is **Cauchy** if for all ``ɛ > 0`` there exists ``N∈𝐍`` after which any
+  two terms ``𝐱_n``, ``𝐱_m`` (``n ≥ m > N``) are within ``ɛ`` of each other
 
 ## Completeness of the Real Numbers
 
