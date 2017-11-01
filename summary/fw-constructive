@@ -17,8 +17,8 @@ algorithm to find the thing it’s claiming.
 It is easier to understand constructivism by looking at what procedures in proofs are not
 constructive. Here is a theorem in elementary calculus:
 
-**Theorem**. There exist ``\{a, b\} ⊆ \mathbf{R}^+ - \mathbf{Q}^+`` such that ``a^b ∈
-\mathbf{Q}^+``. (There are two irrational numbers ``a``, ``b`` with ``a^b`` rational.)
+**Theorem**. There exist ``\{a, b\} ⊆ 𝐑^+ - 𝐐^+`` such that ``a^b ∈ 𝐐^+``. (There are two
+irrational numbers ``a``, ``b`` with ``a^b`` rational.)
 
 Here is a non-constructive proof:
 
@@ -225,14 +225,34 @@ end
 
 Here is a definition in the more usual symbology:
 
-Each ``\mathbf{x}∈\mathbf{R}`` is a set of rational intervals ``(q, q') \in \mathbf{Q}^2``
+Each ``𝐱∈𝐑`` is a set of rational intervals ``(q, q') ∈ 𝐐^2``
 such that:
 
   - ``q ≤ q'``
-  - ``∀ (q, q') ∈ \mathbf{x}(∀ (p, p') ∈ \mathbf{x}(q ≤ p' ∧ p ≤ q'))``
-  - ``∀ ɛ∈\mathbf{Q}^+ (∃ (q, q') ∈ \mathbf{x} (q' - q < ɛ))``
+  - ``∀ (q, q') ∈ 𝐱(∀ (p, p') ∈ 𝐱(q ≤ p' ∧ p ≤ q'))``
+  - ``∀ ɛ∈ 𝐐^+ (∃ (q, q') ∈ 𝐱 (q' - q < ɛ))``
 
-TK — Equality, Denial, Order, Convergence, Cauchy
+Initially we will use boldface ``𝐱`` to denote real numbers. This will help to disambiguate
+the differences between reals and rationals.
+
+We will need an equivalence relation on this set to recover the reals. We can define it
+quite naturally: two reals ``𝐱`` and ``𝐲`` are equivalent if every possible approximation
+for them agree; that is, every interval in the sets overlaps. More symbolically:
+
+```math
+𝐱 = 𝐲 := ∀(p, p')∈𝐱 ∀(q, q')∈𝐲 (\max\{p, q\} ≤ \min\{p', q'\})
+```
+
+We must be careful with the denial inequality ``¬(𝐱 = 𝐲)``: as we have mentioned earlier, if
+``¬¬(𝐱 = 𝐲) ⇒ (𝐱 = 𝐲)``, then in fact we have the Markov principle. This is an example of a
+Brouwerian counterexample — our first!
+
+The tight apartness relation, which we will denote as ``𝐱 ≠ 𝐲``, does satisfy ``¬(𝐱 ≠ 𝐲) ⇒
+(𝐱 = 𝐲)``. The definition of this will be that two real numbers are apart if there are
+intervals that do not overlap. Another way to express that would be ``|𝐱 - 𝐲| > 0``, but we
+cannot define that until later.
+
+TK — Order, Convergence, Cauchy
 
 ## Completeness of the Real Numbers
 
@@ -253,37 +273,37 @@ This is quite an easy corollary of the Archimedean Property (take the ``n`` from
 add 1), but it is a stronger result that we will use later on. ∎
 
 **(Theorem)**
-If ``(x_n)_{n∈𝐍} ∈ 𝐑^𝐍`` is Cauchy, then there exists ``x_∞∈𝐑`` such that ``\lim_{n→∞} x_n =
-x_∞``. (We call this the completeness of the real numbers. Intuitively, it means there are
+If ``(𝐱_n)_{n∈𝐍} ∈ 𝐑^𝐍`` is Cauchy, then there exists ``𝐱_∞∈𝐑`` such that ``\lim_{n→∞} 𝐱_n =
+𝐱_∞``. (We call this the completeness of the real numbers. Intuitively, it means there are
 no gaps.)
 
-For the proof, let ``(x_n)_{n∈𝐍}`` be a Cauchy sequence.
+For the proof, let ``(𝐱_n)_{n∈𝐍}`` be a Cauchy sequence.
 
 Compute an integer function ``k \mapsto n_k`` such that each ``n_k`` satisfies for all
-``m\ge n_k``, ``n\ge n_k``, ``|x_m - x_n| < 2^{-k}``.
+``m\ge n_k``, ``n\ge n_k``, ``|𝐱_m - 𝐱_n| < 2^{-k}``.
 
-For each ``k``, construct a sequence of intervals ``(q_k, q'_k) ∈ x_{n_k}`` such that ``q'_k
+For each ``k``, construct a sequence of intervals ``(q_k, q'_k) ∈ 𝐱_{n_k}`` such that ``q'_k
 - q_k < 2^{-k}``.
 
 Consider ``r_k = q_k - 2^{-k}``, ``r'_k = q'_k + 2^{-k}``. For all ``n≥n_k``, we have
 
 ```math
-r_k \le x_{n_k} - 2^{-k} < x_n < x_{n_k} + 2^{-k} ≤ r_k
+r_k \le 𝐱_{n_k} - 2^{-k} < 𝐱_n < 𝐱_{n_k} + 2^{-k} ≤ r_k
 ```
 
 So actually for all ``j ≥ k``:
 
 ```math
-x_{n_j} ∈ [r_j, r'_j] ∩ [r_k, r'_k]
+𝐱_{n_j} ∈ [r_j, r'_j] ∩ [r_k, r'_k]
 ```
 
-So the real number ``x_∞`` defined by ``\{(r_k, r'_k) : k \ge 1\}`` is in fact a real
+So the real number ``𝐱_∞`` defined by ``\{(r_k, r'_k) : k \ge 1\}`` is in fact a real
 number.
 
-From our construction, we have ``x_n \in [r_k, r'_k]`` for all ``n \ge n_k``. Then
+From our construction, we have ``𝐱_n \in [r_k, r'_k]`` for all ``n \ge n_k``. Then
 
 ```math
-\forall k \forall n≥n_k (|x_n - x_∞| ≤ r'_k - r_k < 2^{-k+2})
+\forall k \forall n≥n_k (|𝐱_n - 𝐱_∞| ≤ r'_k - r_k < 2^{-k+2})
 ```
 
-Thus indeed ``(x_n)_{n∈𝐍}`` converges to ``x_∞`` as required. ∎
+Thus indeed ``(𝐱_n)_{n∈𝐍}`` converges to ``𝐱_∞`` as required. ∎
