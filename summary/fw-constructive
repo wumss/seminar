@@ -252,7 +252,21 @@ The tight apartness relation, which we will denote as ``𝐱 ≠ 𝐲``, does sa
 intervals that do not overlap. Another way to express that would be ``|𝐱 - 𝐲| > 0``, but we
 cannot define that until later.
 
-TK — Order, Convergence, Cauchy
+We have hinted above at a notion of apartness based on whether intervals do not overlap; we
+can similarly define an order with the same idea, except directionally:
+
+- ``𝐱 < 𝐲`` if there are intervals ``(p, p') ∈ 𝐱`` and ``(q, q') ∈ 𝐲`` that satisfy ``p' < q``
+- ``𝐱 ≤ 𝐲`` if all intervals ``(p, p') ∈ 𝐱`` and ``(q, q') ∈ 𝐲`` satisfy ``p ≤ q'``
+- ``𝐱 > 𝐲`` if there are intervals ``(p, p') ∈ 𝐱`` and ``(q, q') ∈ 𝐲`` that satisfy ``p > q'``
+- ``𝐱 ≥ 𝐲`` if all intervals ``(p, p') ∈ 𝐱`` and ``(q, q') ∈ 𝐲`` satisfy ``p' ≥ q``
+
+It is immediate that ``𝐱 ≮ 𝐲 ⇔ 𝐱 ≥ 𝐲`` (we need only the decidability of ``≥`` over the
+rationals to prove this fact). However, some classical properties of these orders do not
+hold. For example ``𝐱 ≤ 𝟎 ∨ 𝐱 ≥ 𝟎`` implies ``\mathsf{LLPO}``, and ``𝐱 ≥ 𝟎 ⇒ (𝐱 > 𝟎 ∨ 𝐱 =
+𝟎)`` implies ``\mathsf{LPO}``.  This also means, with the tight apartness above, that ``𝐱 =
+𝟎 ∨ 𝐱 ≠ 𝟎`` implies ``\mathsf{LPO}``. These are also Brouwerian counterexamples.
+
+TK — Convergence, Cauchy
 
 ## Completeness of the Real Numbers
 
