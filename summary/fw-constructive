@@ -202,6 +202,38 @@ not constructive — perhaps the constructive one is just a little harder to fin
 statement does have a Brouwerian counterexample, then it cannot be proven in a constructive
 framework unless somehow the omniscience principles can be proven.
 
+## Construction and Operations on the Real Numbers
+
+We’ll construct a real number as a set of rational intervals such that any two intervals
+overlap, and there are intervals shorter than any given positive rational. Intuitively, a
+real number is given by a set of rational interval approximations. Thinking of it from an
+interface standpoint, we want to be able to get arbitrarily small rational brackets for the
+real number:
+
+```julia
+abstract type RealNumber end
+
+"""
+    approximate(x::RealNumber, ɛ)
+
+Return a rational interval of length at most ɛ containing x.
+"""
+function approximate(x::RealNumber, ɛ::Rational)
+    ...
+end
+```
+
+Here is a definition in the more usual symbology:
+
+Each ``\mathbf{x}∈\mathbf{R}`` is a set of rational intervals ``(q, q') \in \mathbf{Q}^2``
+such that:
+
+  - ``q ≤ q'``
+  - ``∀ (q, q') ∈ \mathbf{x}(∀ (p, p') ∈ \mathbf{x}(q ≤ p' ∧ p ≤ q'))``
+  - ``∀ ɛ∈\mathbf{Q}^+ (∃ (q, q') ∈ \mathbf{x} (q' - q < ɛ))``
+
+TK — Equality, Denial, Order, Convergence, Cauchy
+
 ## Completeness of the Real Numbers
 
 We are going to provide sketch proofs of various facts that build up, constructively, the
