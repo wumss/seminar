@@ -195,13 +195,18 @@ A Brouwerian counterexample for a statement ``P`` is a proof that ``P ⇒ \maths
 counterexamples show that particular statements are not provable constructively, because
 they imply omniscience principles that are inherently non-constructive.
 
-
+These are useful to identify what statements from classical logic must be modified to fit
+within a constructive framework. Indeed, if a statement does not have a Brouwerian
+counterexample, it may be provable constructively even if the standard classical proof is
+not constructive — perhaps the constructive one is just a little harder to find. But if a
+statement does have a Brouwerian counterexample, then it cannot be proven in a constructive
+framework unless somehow the omniscience principles can be proven.
 
 ## Completeness of the Real Numbers
 
 We are going to provide sketch proofs of various facts that build up, constructively, the
-completeness of ``𝐑``. For full proofs of the following theorems, consult Bridges and Vîţă.
-We will give a short overall sketch.
+completeness of ``𝐑``, as well as the Archimedean property. For full proofs of the following
+theorems, consult Bridges and Vîţă.  We will give a short overall sketch.
 
 **(Theorem: Archimedean Property)** For each real number ``𝐱`` there exists a positive
 integer ``n`` with ``|𝐱| < n``. (Bridges and Vîţă Lemma 2.1.15)
@@ -216,8 +221,37 @@ This is quite an easy corollary of the Archimedean Property (take the ``n`` from
 add 1), but it is a stronger result that we will use later on. ∎
 
 **(Theorem)**
-If ``(a_n)_{n∈𝐍} ∈ 𝐑^𝐍`` is Cauchy, then there exists ``a∈𝐑`` such that ``\lim_{n→∞} a_n =
-a``. (We call this the completeness of the real numbers. Intuitively, it means there are no
-gaps.)
+If ``(x_n)_{n∈𝐍} ∈ 𝐑^𝐍`` is Cauchy, then there exists ``x_∞∈𝐑`` such that ``\lim_{n→∞} x_n =
+x_∞``. (We call this the completeness of the real numbers. Intuitively, it means there are
+no gaps.)
 
-TK.
+For the proof, let ``(x_n)_{n∈𝐍}`` be a Cauchy sequence.
+
+Compute an integer function ``k \mapsto n_k`` such that each ``n_k`` satisfies for all
+``m\ge n_k``, ``n\ge n_k``, ``|x_m - x_n| < 2^{-k}``.
+
+For each ``k``, construct a sequence of intervals ``(q_k, q'_k) ∈ x_{n_k}`` such that ``q'_k
+- q_k < 2^{-k}``.
+
+Consider ``r_k = q_k - 2^{-k}``, ``r'_k = q'_k + 2^{-k}``. For all ``n≥n_k``, we have
+
+```math
+r_k \le x_{n_k} - 2^{-k} < x_n < x_{n_k} + 2^{-k} ≤ r_k
+```
+
+So actually for all ``j ≥ k``:
+
+```math
+x_{n_j} ∈ [r_j, r'_j] ∩ [r_k, r'_k]
+```
+
+So the real number ``x_∞`` defined by ``\{(r_k, r'_k) : k \ge 1\}`` is in fact a real
+number.
+
+From our construction, we have ``x_n \in [r_k, r'_k]`` for all ``n \ge n_k``. Then
+
+```math
+\forall k \forall n≥n_k (|x_n - x_∞| ≤ r'_k - r_k < 2^{-k+2})
+```
+
+Thus indeed ``(x_n)_{n∈𝐍}`` converges to ``x_∞`` as required. ∎
