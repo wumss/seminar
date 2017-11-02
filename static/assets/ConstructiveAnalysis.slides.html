@@ -9,14 +9,14 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>Constructive Analysis slides</title>
+<title>ConstructiveAnalysis slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="reveal.js/css/reveal.css">
-<link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/reveal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'reveal.js/css/print/pdf.css';
+        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="reveal.js/lib/js/html5shiv.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Loading the mathjax macro -->
@@ -11908,6 +11908,7 @@ a.anchor-link {
 <h1 id="Constructive-Analysis">Constructive Analysis<a class="anchor-link" href="#Constructive-Analysis">&#182;</a></h1><p>Fengyang Wang</p>
 <p>UW Student Seminars</p>
 <p>November 1, 2017</p>
+<p>(Revised post-talk to correct typos)</p>
 
 </div>
 </div>
@@ -11929,7 +11930,7 @@ An irrational number to an irrational power may be rational.</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Proof-1A-of-Theorem-1">Proof 1A of Theorem 1<a class="anchor-link" href="#Proof-1A-of-Theorem-1">&#182;</a></h2><p>If $\sqrt{2}^\sqrt{2}$ is rational, let $a=b=\sqrt{2}$ ∎</p>
-<p>Otherwise, let $a=\sqrt{2}$ and $b=\sqrt{2}^\sqrt{2}$. Then $a^b = \sqrt{2}^{\left(\sqrt{2}^\sqrt{2}\right)} = \sqrt{2}^2 = 2$ ∎</p>
+<p>Otherwise, let $a=\sqrt{2}^\sqrt{2}$ and $b=\sqrt{2}$. Then $a^b = {\left(\sqrt{2}^\sqrt{2}\right)}^{\sqrt{2}} = \sqrt{2}^2 = 2$ ∎</p>
 
 </div>
 </div>
@@ -12035,7 +12036,7 @@ In classical logic, a proof of $∃ x P(x)$ might not have a witness.
 </ul>
 <p><strong>Beware!</strong><br>
 <span style="color: #7F0000">
-In the BHK interpretation, $¬¬a$ is **not** the same as $a$.
+In the BHK interpretation, $¬¬a$ is not the same as $a$.
 </span></p>
 
 </div>
@@ -12085,10 +12086,142 @@ If a haystack cannot have no needles, then it has a needle.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Theorem-2">Theorem 2<a class="anchor-link" href="#Theorem-2">&#182;</a></h2><p><span style="color: #00007F">(<q>Formal</q>-ish Statement)</span><br>
-$$∀𝐱∈\{0, 1\}^𝐍 (¬(𝐱 = 𝟎) ⇒ 𝐱 ≠ 𝟎)$$</p>
+<h2 id="Brouwerian-Counterexamples">Brouwerian Counterexamples<a class="anchor-link" href="#Brouwerian-Counterexamples">&#182;</a></h2><ul>
+<li>For some $P$, suppose $P ⇒ (\mathsf{LEM} ∨ \mathsf{LPO} ∨ \mathsf{LLPO})$ or even $P ⇒ \mathsf{MP}$</li>
+<li>This is evidence that $P$ cannot be proven constructively</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Real-Numbers">Real Numbers<a class="anchor-link" href="#Real-Numbers">&#182;</a></h2><ul>
+<li>Time to construct the real numbers $\mathbf{R}$!</li>
+<li>Each $\mathbf{x}\in\mathbf{R}$ is a set of rational intervals $(q, q') \in \mathbf{Q}^2$ such that:<ul>
+<li>$q \le q'$</li>
+<li>$\forall (q, q') \in \mathbf{x}~(\forall (p, p') \in \mathbf{x}~(q \le p' \wedge p \le q'))$</li>
+<li>$\forall \varepsilon\in\mathbf{Q}^+~ (\exists (q, q') \in \mathbf{x} ~(q' - q &lt; \varepsilon))$</li>
+</ul>
+</li>
+</ul>
+<p><span style="color: #007F00">(English Language Statement)</span><br>
+A real number is a set of rational intervals such that any two intervals overlap, and there are intervals shorter than any given positive rational.</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Equality">Equality<a class="anchor-link" href="#Equality">&#182;</a></h2><p>The equivalence relation of $\mathbf{R}$ is the natural one:</p>
+<p>$\mathbf{x} = \mathbf{y}$ if each interval $(p, p') \in \mathbf{x}$ overlaps with each interval $(q, q') \in \mathbf{y}$</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="The-Denial-Inequality"><span style="color: #AF0000">The Denial Inequality</span><a class="anchor-link" href="#The-Denial-Inequality">&#182;</a></h2><ul>
+<li>In classical logic, $\lnot \lnot (x = y) \Leftrightarrow (x = y)$ for all $x$, $y$</li>
+<li><span style="color: #7F0000">Brouwerian Counterexample: Markov Principle</span></li>
+<li>Hence the $\lnot (x = y)$ inequality is called the denial inequality, and is not often written $x \ne y$</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Order">Order<a class="anchor-link" href="#Order">&#182;</a></h2><ul>
+<li>$\mathbf{x} &lt; \mathbf{y}$ if there are intervals $(p, p') \in \mathbf{x}$ and $(q, q') \in \mathbf{y}$ that satisfy $p' &lt; q$</li>
+<li>$\mathbf{x} \le \mathbf{y}$ if all intervals $(p, p') \in \mathbf{x}$ and $(q, q') \in \mathbf{y}$ satisfy $p \le q'$</li>
+<li>$\mathbf{x} &gt; \mathbf{y}$ if there are intervals $(p, p') \in \mathbf{x}$ and $(q, q') \in \mathbf{y}$ that satisfy $p &gt; q'$</li>
+<li>$\mathbf{x} \ge \mathbf{y}$ if all intervals $(p, p') \in \mathbf{x}$ and $(q, q') \in \mathbf{y}$ satisfy $p' \ge q$</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Decidability-of-Order"><span style="color: #AF0000">Decidability of Order</span><a class="anchor-link" href="#Decidability-of-Order">&#182;</a></h2><ul>
+<li>In classical logic, $\mathbf{x} \ge 0 \Rightarrow \mathbf{x} &gt; 0 \vee \mathbf{x} = 0$ for all $\mathbf{x}$</li>
+<li><span style="color: #7F0000">Brouwerian Counterexample: Limited Principle of Omniscience</span></li>
+<li>In classical logic, $\mathbf{x} \ge 0 \vee \mathbf{x} \le 0$ for all $\mathbf{x}$</li>
+<li><span style="color: #7F0000">Brouwerian Counterexample: Lesser Limited Principle of Omniscience</span></li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Convergence">Convergence<a class="anchor-link" href="#Convergence">&#182;</a></h2><p>$(\mathbf{x}_n) \in \mathbf{R}^\mathbf{N}$ <strong>converges to</strong> $\mathbf{x}$ if for all $\varepsilon &gt; 0$ there exists $N\in\mathbf{N}$ after which any term $\mathbf{x}_n$ ($n \ge N$) is within $\varepsilon$ of $\mathbf{x}$</p>
+<p>(We also write $\lim_{n\to\infty}\mathbf{x}_n = \mathbf{x}$)</p>
+<p>$(\mathbf{x}_n) \in \mathbf{R}^\mathbf{N}$ is <strong>Cauchy</strong> if for all $\varepsilon &gt; 0$ there exists $N\in\mathbf{N}$ after which any two terms $\mathbf{x}_n$, $\mathbf{x}_m$ ($n \ge m &gt; N$) are within $\varepsilon$ of each other</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Theorem-2">Theorem 2<a class="anchor-link" href="#Theorem-2">&#182;</a></h2><p><span style="color: #00007F">(Informal Statement)</span><br>
+If $(\mathbf{x}_n)\in\mathbf{R}^\mathbf{N}$ is Cauchy, then there is $\mathbf{x}_\infty$ such that $\lim_{n\to\infty}\mathbf{x}_n = \mathbf{x}_\infty$</p>
 <p><span style="color: #007F00">(English Language Statement)</span><br>
 The real numbers are complete.</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Lemma">Lemma<a class="anchor-link" href="#Lemma">&#182;</a></h2><p><span style="color: #00007F">(Informal Statement)</span><br>
+If $x &gt; 0$, there exists a positive integer $n$ such that $x &gt; 1/n$.</p>
+<p><strong>Proof:</strong><br>
+Take a interval $(q, q') \in x$ that does not contain $0$. Take $n &gt; 1/q$ (rational operations).</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Proof-of-Theorem-2">Proof of Theorem 2<a class="anchor-link" href="#Proof-of-Theorem-2">&#182;</a></h2><p>Let $(\mathbf{x}_n)$ be a Cauchy sequence of real numbers.</p>
+<p>Compute an integer function $k \mapsto n_k$ such that each $n_k$ satisfies for all $m\ge n_k$, $n\ge n_k$, $|\mathbf{x}_m - \mathbf{x}_n| &lt; 2^{-k}$.</p>
+<p>For each $k$, construct a sequence of intervals $(q_k, q'_k) \in \mathbf{x}_{n_k}$ such that $q'_k - q_k &lt; 2^{-k}$.</p>
+<p>Consider $r_k = q_k - 2^{-k}$, $r'_k = q'_k + 2^{-k}$. For all $n\ge n_k$, we have</p>
+<p>$$ r_k \le \mathbf{x}_{n_k} - 2^{-k} &lt; \mathbf{x}_n &lt; \mathbf{x}_{n_k} + 2^{-k} \le r_k$$</p>
+<p>So actually for all $j \ge k$</p>
+<p>$$ \mathbf{x}_{n_j} \in [r_j, r'_j] \cap [r_k, r'_k]$$</p>
+<p>So the real number $\mathbf{x}_\infty$ defined by $\{(r_k, r'_k) : k \ge 1\}$ is in fact a real number.</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Proof-of-Theorem-2">Proof of Theorem 2<a class="anchor-link" href="#Proof-of-Theorem-2">&#182;</a></h2><p>From our construction, we have $\mathbf{x}_n \in [r_k, r'_k]$ for all $n \ge n_k$. That means that</p>
+<p>$$ \forall k \forall n\ge n_k~(|\mathbf{x}_n - \mathbf{x}_\infty| \le r'_k - r_k &lt; 2^{-k+2}) $$</p>
+<p>By Lemma, we therefore have $\lim_{n\to\infty} \mathbf{x}_n = \mathbf{x}_\infty$.</p>
 
 </div>
 </div>
@@ -12103,7 +12236,7 @@ The real numbers are complete.</p>
 
 </div>
 </div>
-</div>
+</div></section></section>
 </div>
 </div>
 
@@ -12116,8 +12249,8 @@ require(
       waitSeconds: 15
     },
     [
-      "reveal.js/lib/js/head.min.js",
-      "reveal.js/js/reveal.js"
+      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -12132,9 +12265,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "reveal.js/lib/js/classList.js",
+                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "reveal.js/plugin/notes/notes.js",
+                { src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]
