@@ -22,7 +22,8 @@
             "Fengyang Wang"
         ],
         "subsetof": [
-            "PMATH 740"
+            "PMATH 340",
+            "PMATH 440"
         ],
         "tags": [
             "number theory",
