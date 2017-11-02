@@ -28,8 +28,7 @@
             "[Hare](http://www.irmacs.sfu.ca/sites/default/files/documents/borwein08/Kevin_Hare.pdf)",
             "[Sano](https://projecteuclid.org/euclid.ojm/1153492469)"
         ],
-        "excerpt": "Sometimes some non-integers like ``e^{π} - π = 19.9990999791...`` are curiously close to integers. While often this is just a numerical coincidence, sometimes there is a clear mathematical reason for certain numbers to be almost integers. Pisot numbers, which are special types of algebraic integers, provide a systematic means to construct almost integers that approximate integers at an exponential rate. Of course, Pisot numbers are interesting on their own right and an interested speaker can also venture into the connections to Beta expansions (see the 2nd and 3rd references below), or fractals (see the 4th reference below).\n\n **Required Background:** Basic analysis at the level of 147 and 138, algebra at the level of 145. Any other background depends on the direction the speaker takes with this topic.",
-        "see-also": []
+        "excerpt": "Sometimes some non-integers like ``e^{π} - π = 19.9990999791...`` are curiously close to integers. While often this is just a numerical coincidence, sometimes there is a clear mathematical reason for certain numbers to be almost integers. Pisot numbers, which are special types of algebraic integers, provide a systematic means to construct almost integers that approximate integers at an exponential rate. Of course, Pisot numbers are interesting on their own right and an interested speaker can also venture into the connections to Beta expansions (see the 2nd and 3rd references below), or fractals (see the 4th reference below).\n\n **Required Background:** Basic analysis at the level of 147 and 138, algebra at the level of 145. Any other background depends on the direction the speaker takes with this topic."
     },
     {
         "topic": "Automated Verification of Computational Systems",
@@ -42,8 +41,7 @@
             "[Madhavan Mukund](http://www.cmi.ac.in/~madhavan/papers/pdf/resonance-jul2009.pdf)",
             "Grumberg, O., & Veith, H. (Eds.). (2008). 25 years of model checking: history, achievements, perspectives (Vol. 5000). Springer."
         ],
-        "excerpt": "It was realized in the 1960s that mathematical logic provides a suitable language to formulate properties of programs. This idea was formalized by Hoare who developed *Hoare logic* as a means to prove program correctness. However, this technique didn't apply directly to concurrent programs. An alternative approach called *Temporal Logic* was proposed by Amir Pneuli in 1977 which did provide a means to reason about concurrent programs. This topic studies this and then delves into the fundamental ideas behind model checking.\n\n **Required Background:** Basics of computer science at the level of CS 146, Logic at the level of CS 245.",
-        "see-also": []
+        "excerpt": "It was realized in the 1960s that mathematical logic provides a suitable language to formulate properties of programs. This idea was formalized by Hoare who developed *Hoare logic* as a means to prove program correctness. However, this technique didn't apply directly to concurrent programs. An alternative approach called *Temporal Logic* was proposed by Amir Pneuli in 1977 which did provide a means to reason about concurrent programs. This topic studies this and then delves into the fundamental ideas behind model checking.\n\n **Required Background:** Basics of computer science at the level of CS 146, Logic at the level of CS 245."
     },
     {
         "topic": "blockchain",
@@ -59,8 +57,9 @@
         ]
     },
     {
-        "topic": "Bloom Filters and Probabilistic Data Structures",
+        "topic": "bloom filter",
         "tags": [
+            "bloom filter",
             "computer science",
             "data structure",
             "probability",
@@ -69,9 +68,6 @@
         ],
         "references": [
             "[Blustein](https://www.cs.dal.ca/sites/default/files/technical_reports/CS-2002-10.pdf)"
-        ],
-        "see-also": [
-            "lm-BF"
         ]
     },
     {
@@ -89,9 +85,10 @@
         ]
     },
     {
-        "topic": "Cake cutting algorithms",
+        "topic": "cake cutting",
         "tags": [
             "algorithm",
+            "cake cutting",
             "computer science",
             "economics",
             "game theory",
@@ -102,9 +99,7 @@
         ],
         "references": [
             "[Robertson, Webb](https://www.amazon.com/Cake-Cutting-Algorithms-Fair-You-Can/dp/1568810768/ref=sr_1_1?s=books&ie=UTF8&qid=1480468807&sr=1-1&keywords=cake+cutting+algorithms)"
-        ],
-        "excert": "The challenge of dividing an asset fairly, from cakes to more important properties, is of great practical importance in many situations. While cake cutting may seem like a trivial thing to do, this topic has spurred a lot of research over the last fifty years and hsa surprisingly rich theory. This topic studies a notion of *fairness* suitable for mathematical study and determines various methods that attempt to maximize this notion.",
-        "see-also": []
+        ]
     },
     {
         "topic": "Completeness, Incompleteness, and Turing Machines",
@@ -116,11 +111,10 @@
             "theoretical computer science",
             "turing machine"
         ],
-        "excerpt": "This topic studies the connection between Godels's incompleteness theorems and turing machines and how each implies the other",
+        "excerpt": "This topic studies the connection between Gödel’s incompleteness theorems and turing machines and how each implies the other",
         "references": [
             "[Scott Aaronson](http://www.scottaaronson.com/democritus/lec3.html)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Complex Event Processing Systems",
@@ -358,8 +352,7 @@
         "references": [
             "[Itay Neeman](http://www.math.ucla.edu/~ineeman/223s.1.11s/223s-spring11-lecture-notes-6-5.pdf)",
             "[Timothy Y. Chow](http://www-math.mit.edu/~tchow/forcing.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Fuzzy Logic",
@@ -403,8 +396,7 @@
             "[Al Ameen, Wright](https://arxiv.org/pdf/1408.2852.pdf)",
             "[Thorpe, et all](https://cups.cs.cmu.edu/soups/2013/proceedings/a14_Thorpe.pdf)"
         ],
-        "excerpt": "Users often choose passwords that are easy to remember but also easy to guess. Both textual and graphical passwords have failed to provide a viable solution to this usability-security tension. It thus remains a critical challenge in password research to design an authentication scheme that is resilient to guessing attacks while offering good memorability.",
-        "see-also": []
+        "excerpt": "Users often choose passwords that are easy to remember but also easy to guess. Both textual and graphical passwords have failed to provide a viable solution to this usability-security tension. It thus remains a critical challenge in password research to design an authentication scheme that is resilient to guessing attacks while offering good memorability."
     },
     {
         "topic": "Geometry and Billiards",
@@ -419,14 +411,15 @@
         "references": [
             "[Sergei Tabachnikov](https://www.math.psu.edu/tabachni/Books/billiardsgeometry.pdf)",
             "[Laura de Marco](https://www.math.northwestern.edu/~demarco/billiards_BAMS.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Gillespie Algorithm",
         "tags": [
             "algorithm",
             "applied mathematics",
+            "biology",
+            "computational biology",
             "computational mathematics",
             "computer science",
             "differential equation",
@@ -436,8 +429,7 @@
         "references": [
             "[David Karig](https://www.cs.princeton.edu/picasso/seminarsS05/Karig_slides.pdf)"
         ],
-        "excerpt": "The Gillespie Algorithm for stochastic equations is used heavily in a number of fields of applied mathematics, in particular computational systems biology.",
-        "see-also": []
+        "excerpt": "The Gillespie Algorithm for stochastic equations is used heavily in a number of fields of applied mathematics, in particular computational systems biology."
     },
     {
         "topic": "Hindley–Milner Type System",
@@ -448,8 +440,7 @@
         "references": [
             "[R. Hindley](http://www.jstor.org/stable/1995158)",
             "[Stephen Diehl](http://dev.stephendiehl.com/fun/006_hindley_milner.html)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Hyperbolic Geometry",
@@ -459,8 +450,7 @@
         ],
         "references": [
             "[Kathryn Mann](https://math.berkeley.edu/~kpmann/DIYhyp.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "IEEE 754-2008: Floating Point Arithmetic",
@@ -487,8 +477,7 @@
         ],
         "references": [
             "[P. Mark Kayll](https://www.maa.org/sites/default/files/pdf/upload_library/22/Allendoerfer/Kayll-2012.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Iterated function systems",
@@ -502,8 +491,7 @@
             "metric space",
             "art",
             "fractal"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Jupyter Notebooks",
@@ -587,8 +575,7 @@
         ],
         "references": [
             "[Francis Bonahon](http://bookstore.ams.org/stml-49)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Markov Equation and Irrational Numbers",
@@ -638,8 +625,7 @@
         "references": [
             "[Thomas S. Ferguson](https://www.math.upenn.edu/~ted/210F10/References/Secretary.pdf)",
             "[Sergei Vassilvitski](http://theory.stanford.edu/~sergei/slides/hiring-dagstuhl.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "P vs. NP",
@@ -652,11 +638,10 @@
         ],
         "references": [
             "Arora, Bazak: Computational Complexity"
-        ],
-        "see-also": []
+        ]
     },
     {
-        "topic": "p-adic Analysis",
+        "topic": "p-adic number",
         "tags": [
             "analysis",
             "p-adic number",
@@ -665,9 +650,6 @@
         "references": [
             "[Felix Hensel, Waltraud Lederle, Simone Montemezzani](https://www2.math.ethz.ch/education/bachelor/seminars/hs2011/p-adic/report1.pdf)",
             "Svetlana Katok : p-adic Analysis Compared with Real"
-        ],
-        "see-also": [
-            "at-padic"
         ]
     },
     {
@@ -692,8 +674,7 @@
         ],
         "references": [
             "[Alexander F. Ritter](https://people.maths.ox.ac.uk/ritter/masterclasses.html)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Plausible Conjectures",
@@ -703,8 +684,7 @@
         ],
         "references": [
             "[Barry Mazur](http://www.math.harvard.edu/~mazur/papers/Plausibility.Notes.3.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Predicate Dispatch",
@@ -714,8 +694,7 @@
         ],
         "references": [
             "[Aaron Mark Ucko](ftp://publications.ai.mit.edu/ai-publications/2001/AITR-2001-006.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Presburger Arithmetic",
@@ -728,8 +707,7 @@
         ],
         "references": [
             "[Michael J. Fischer and Michael O. Rabin, Super-Exponentional Complexity of Presburger Arithmetic.](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.16.9759)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Principle of Least Action",
@@ -739,8 +717,7 @@
         ],
         "references": [
             "[Principle of Least Action (Scholarpedia)](http://www.scholarpedia.org/article/Principle_of_least_action)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Protein Structure Prediction",
@@ -775,8 +752,7 @@
         "references": [
             "[Andreas Willig](http://www.cs.ucf.edu/~lboloni/Teaching/EEL6785_Fall2010/slides/QueueingTheory.pdf)"
         ],
-        "excerpt": "Queueing theory is the mathematical study of waiting lines, or queues. In queueing theory, a model is constructed so that queue lengths and waiting time can be predicted. Queueing theory is generally considered a branch of operations research because the results are often used when making business decisions about the resources needed to provide a service. ",
-        "see-also": []
+        "excerpt": "Queueing theory is the mathematical study of waiting lines, or queues. In queueing theory, a model is constructed so that queue lengths and waiting time can be predicted. Queueing theory is generally considered a branch of operations research because the results are often used when making business decisions about the resources needed to provide a service. "
     },
     {
         "topic": "Quivers and Platonic Solids",
@@ -790,8 +766,7 @@
         ],
         "references": [
             "[Gwyn Bellamy](https://www.lms.ac.uk/sites/lms.ac.uk/files/gwyn_bellamy_plato.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Random Walks and Self-Avoiding Walks",
@@ -814,8 +789,7 @@
         "references": [
             "[Jay R. Goldman and Louis H. Kauffman](http://homepages.math.uic.edu/~kauffman/RTang.pdf)",
             "C. C. Adams : The Knot Book: An elementary introduction to the mathematical theory of knots"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Rental Harmony Theorem",
@@ -841,20 +815,17 @@
         "references": [
             "[Crissman, Orrison](https://arxiv.org/abs/1508.05891)",
             "[Daugherty, et all](https://arxiv.org/abs/0712.2837)"
-        ],
-        "see-also": []
+        ]
     },
     {
-        "topic": "Secret Sharing Schemes and Multi-party Computation Protocols",
+        "topic": "secret sharing scheme",
         "tags": [
             "cryptography",
             "computer science",
-            "first year friendly"
+            "first year friendly",
+            "secret sharing scheme"
         ],
-        "references": [],
-        "see-also": [
-            "zz-SSS"
-        ]
+        "references": []
     },
     {
         "topic": "Separating Words Problem",
@@ -883,8 +854,7 @@
             "[Aydın Buluç, Jeremy T. Fineman, Matteo Frigo, John R. Gilbert, Charles E. Leiserson](http://gauss.cs.ucsb.edu/~aydin/csb2009.pdf)",
             "[Tim Davis](http://faculty.cse.tamu.edu/davis/research.html)"
         ],
-        "excerpt": "Sparse matrices are frequently used in scientific and numerical computation. How do they work? What new findings have there been? Speakers are encouraged to specialize this broad topic to a particular subfield of interest.",
-        "see-also": []
+        "excerpt": "Sparse matrices are frequently used in scientific and numerical computation. How do they work? What new findings have there been? Speakers are encouraged to specialize this broad topic to a particular subfield of interest."
     },
     {
         "topic": "Sphere Packing, Lattices, and Groups",
@@ -895,8 +865,7 @@
         ],
         "references": [
             "[J. H. CONWAY and N. J. A. SLOANE, Sphere Packings, Lattices and Groups, Springer, New York, 1993.](https://books.google.ca/books/about/Sphere_Packings_Lattices_and_Groups.html?id=hoTjBwAAQBAJ&redir_esc=y)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Symmetric Groups, Young Tableaux and Representation Theory",
@@ -908,8 +877,7 @@
         "references": [
             "Bruce Sagan : The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions",
             "[Yufei Zhao](http://yufeizhao.com/papers/youngtab-hcmr.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Symmetries and their Role in Physics",
@@ -925,8 +893,7 @@
             "[Richard Feynman](http://www.feynmanlectures.caltech.edu/III_17.html)",
             "[Hanc, Tuleja, Hancova](http://www.eftaylor.com/pub/symmetry.html)",
             "[David Gross](http://www.pnas.org/content/93/25/14256.full)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "The Angel Problem",
@@ -940,25 +907,22 @@
         "references": [
             "[John H. Conway](http://library.msri.org/books/Book29/files/conway.pdf)",
             "[Oddvar Kloster](http://home.broadpark.no/~oddvark/angel/index.html)"
-        ],
-        "see-also": []
+        ]
     },
     {
-        "topic": "The Brachistochrone and the Calculus of Variations",
+        "topic": "brachistochrone",
         "tags": [
+            "brachistochrone",
             "applied mathematics",
             "calculus of variations",
             "physics"
         ],
         "references": [
             "[Yutuka Nishiyama](http://www.osaka-ue.ac.jp/zemi/nishiyama/math2010/cycloid.pdf)"
-        ],
-        "see-also": [
-            "mj-BCV"
         ]
     },
     {
-        "topic": "The Cantor Set and Dynamical systems",
+        "topic": "dynamical system",
         "tags": [
             "analysis",
             "applied mathematics",
@@ -967,9 +931,6 @@
         "references": [
             "[Kraft](https://www.jstor.org/stable/pdf/2589144.pdf)",
             "[Math Stackexchange](https://math.stackexchange.com/questions/265925/where-do-cantor-sets-naturally-occur)"
-        ],
-        "see-also": [
-            "jb-Cantor"
         ]
     },
     {
@@ -996,8 +957,7 @@
             "algebraic topology",
             "geometric topology"
         ],
-        "references": [],
-        "see-also": []
+        "references": []
     },
     {
         "topic": "The Joy of Factoring",
@@ -1010,8 +970,7 @@
         ],
         "references": [
             "[Samuel S. Wagstaff (Jr.)](https://books.google.ca/books/about/The_Joy_of_Factoring.html?id=rowCAQAAQBAJ&redir_esc=y)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "The Mathematics of Gerrymandering",
@@ -1023,8 +982,7 @@
         ],
         "references": [
             "[Hodge, Marshall, Patterson](http://www.maa.org/sites/default/files/pdf/upload_library/22/Polya/Hodge2011.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "The Nine Point Circle",
@@ -1032,8 +990,7 @@
             "first year friendly",
             "geometry"
         ],
-        "references": [],
-        "see-also": []
+        "references": []
     },
     {
         "topic": "The Riemann Hypothesis",
@@ -1044,8 +1001,7 @@
         ],
         "references": [
             "[E. Bombieri, Problems of the Millennium: The Riemann Hypothesis](http://www.claymath.org/sites/default/files/official_problem_description.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "The Stochastic Lotka-Volterra Equation",
@@ -1069,8 +1025,7 @@
         ],
         "references": [
             "[Richard K. Guy](http://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Guy697-712.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "The Winding Number",
@@ -1083,11 +1038,10 @@
             "geometry",
             "topology"
         ],
-        "references": [],
-        "see-also": []
+        "references": []
     },
     {
-        "topic": "Total Functional Programming",
+        "topic": "functional programming",
         "tags": [
             "computer science",
             "first year friendly",
@@ -1096,14 +1050,14 @@
         ],
         "references": [
             "[D. A. Turner](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf)"
-        ],
-        "see-also": [
-            "ah-TFP"
         ]
     },
     {
         "topic": "Tropical geometry and Computational Biology",
         "tags": [
+            "applied mathematics",
+            "biology",
+            "computational biology",
             "computer science",
             "algebra",
             "geometry",
@@ -1113,8 +1067,7 @@
             "[Diane Maclagan, Bernd Sturmfels](https://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalBook20.4.14.pdf)",
             "[David Speyer, Bernd Strumgfels] (https://math.berkeley.edu/~bernd/mathmag.pdf)"
         ],
-        "excerpt": "Tropical geometry is a combinatorial shadow of algebraic geometry, offering new polyhedral tools to compute invariants of algebraic varieties. It is based on tropical algebra, where the sum of twonumbers is their minimum and the product is their sum. This turnspolynomials into piecewise-linear functions, and their zero sets into polyhedralcomplexes.",
-        "see-also": []
+        "excerpt": "Tropical geometry is a combinatorial shadow of algebraic geometry, offering new polyhedral tools to compute invariants of algebraic varieties. It is based on tropical algebra, where the sum of twonumbers is their minimum and the product is their sum. This turnspolynomials into piecewise-linear functions, and their zero sets into polyhedralcomplexes."
     },
     {
         "topic": "Understanding LLVM",
@@ -1152,8 +1105,7 @@
         ],
         "references": [
             "[Nathanson](https://www.amazon.ca/Additive-Number-Theory-Classical-Bases/dp/038794656X#reader_038794656X)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "What is Area?",
@@ -1165,8 +1117,7 @@
         ],
         "references": [
             "[Barry Mazur](http://www.math.harvard.edu/~mazur/papers/Area11.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Why are some functions not integrable in terms of elementary functions?",
@@ -1177,8 +1128,7 @@
         ],
         "references": [
             "[Brian Conrad](http://math.stanford.edu/~conrad/papers/elemint.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Wilf zeilberg method to computer verify combinatorial identities",
@@ -1192,8 +1142,7 @@
             "[Wilf, Zeilberger](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.306.5080&rep=rep1&type=pdf)",
             "[Wilf, Zeilberger, Petkovsek](https://www.math.upenn.edu/~wilf/Downld.html)",
             "[Akalu Tefera](http://www.ams.org/notices/201004/rtx100400508p.pdf)"
-        ],
-        "see-also": []
+        ]
     },
     {
         "topic": "Zero-Cost Abstraction",
