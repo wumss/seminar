@@ -297,7 +297,7 @@ add 1), but it is a stronger result that we will use later on. ∎
 **(Theorem)**
 If ``(𝐱_n)_{n∈𝐍} ∈ 𝐑^𝐍`` is Cauchy, then there exists ``𝐱_∞∈𝐑`` such that ``\lim_{n→∞} 𝐱_n =
 𝐱_∞``. (We call this the completeness of the real numbers. Intuitively, it means there are
-no gaps.)
+no gaps.) (Bridges and Vîţă Theorem 2.1.21)
 
 For the proof, let ``(𝐱_n)_{n∈𝐍}`` be a Cauchy sequence.
 
