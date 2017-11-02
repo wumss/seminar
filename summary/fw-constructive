@@ -23,7 +23,8 @@ irrational numbers ``a``, ``b`` with ``a^b`` rational.)
 Here is a non-constructive proof:
 
 **Proof**. Consider ``\sqrt{2}^\sqrt{2}``. If it is rational, we are done. Otherwise,
-``\sqrt{2}^{\left(\sqrt{2}^\sqrt{2}\right)} = \sqrt{2}^2 = 2`` is rational, and we are done.
+``{\left(\sqrt{2}^\sqrt{2}\right)}^{\sqrt{2}} = \sqrt{2}^2 = 2`` is rational, and we are
+done.
 
 This proof is classically valid. But imagine we needed these numbers ``a``, ``b`` for the
 correctness of some algorithm. Which numbers would we use: ``a = b = \sqrt{2}`` or ``a =
@@ -48,8 +49,8 @@ if (√2) ^ (√2) ∈ 𝐐
     a = √2
     b = √2
 else
-    a = √2
-    b = (√2) ^ (√2)
+    a = (√2) ^ (√2)
+    b = √2
 end
 ```
 
