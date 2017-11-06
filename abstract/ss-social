@@ -1,0 +1,7 @@
+Social choice functions help aggregate the opinions of many agents. Social choice problems
+arise in examples as varied as citizens voting in an election, committees deciding on
+alternatives, and independent computational agents making collective decisions. We aim to
+study social choice theory through the lens of boolean functions, and study concepts such as
+influence and noise stability, which provide analogues for natural concepts in the study of
+social choice. We will finish off by looking at the famous Arrow’s Theorem often popularly
+stated as “the only voting method that isn't flawed is a dictatorship”.
