@@ -85,15 +85,6 @@
     },
     {
         "location": "MC 4045",
-        "time": ["2017-11-22T17:30:00", "2017-11-22T18:15:00"],
-        "title": "To Be Determined",
-        "tags": [
-        ],
-        "identifier": "fr-tbd",
-        "speaker": "Frieda Rong"
-    },
-    {
-        "location": "MC 4045",
         "time": ["2017-11-29T17:30:00", "2017-11-29T18:15:00"],
         "title": "To Be Determined",
         "tags": [
