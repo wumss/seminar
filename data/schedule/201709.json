@@ -73,16 +73,7 @@
     },
     {
         "location": "MC 4045",
-        "time": ["2017-11-29T17:30:00", "2017-11-29T18:10:00"],
-        "title": "To Be Determined",
-        "tags": [
-        ],
-        "identifier": "bz-tbd",
-        "speaker": "Ben Zhang"
-    },
-    {
-        "location": "MC 4045",
-        "time": ["2017-11-29T18:10:00", "2017-11-29T18:50:00"],
+        "time": ["2017-11-29T17:30:00", "2017-11-29T18:15:00"],
         "title": "To Be Determined",
         "tags": [
         ],
