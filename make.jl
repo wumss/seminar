@@ -1,6 +1,7 @@
 #!/usr/bin/env julia
 
 using Compat
+using Dates
 using JSON
 using EnglishText
 using Glob
@@ -18,8 +19,8 @@ using .Talks
 for line in SExpressions.parsefile("remark/definitions.rkt")
     eval(SchemeSyntax.tojulia(line))
 end
-const site = StaticSite(default_modules=[Tags, Common, UWSeminars, EnglishText,
-                                         Articles])
+const site = StaticSite(default_modules=[
+    Dates, Tags, Common, UWSeminars, EnglishText, Articles])
 
 const GITHUB = "https://github.com/wumss/seminar/edit/master"
 

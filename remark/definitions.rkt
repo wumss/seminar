@@ -5,6 +5,7 @@
   (require SExpressions)
   (require (.Talks Main))
   (require (.StdLib (.Remark Remarkable)))
+  (require Dates)
   (require EnglishText)
 
   (provide human time-part render-document-brief render-talk-brief
