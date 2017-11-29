@@ -1,0 +1,9 @@
+In this talk, we’ll study graphs which are “sparse” yet “highly connected”. Known as
+expanders, these graphs exhibit interesting properties which can be viewed from a rich array
+of analytic, combinatorial, and probabilistic perspectives. Contributions of expanders range
+from the proof of important results in complexity theory to derandomization of algorithms to
+the construction of robust networks and cryptographic hash functions. We’ll see one
+application to coding theory, where expanders can be used to provide asymptotically “good”
+error-correcting codes with linear time encoding and decoding.
+
+Prerequisites: linear algebra (familiarity with eigenvalues and eigenvectors).

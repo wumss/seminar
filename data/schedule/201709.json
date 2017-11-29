@@ -64,9 +64,10 @@
         "time": ["2017-11-08T17:30:00", "2017-11-08T18:15:00"],
         "title": "Social Choice Functions",
         "tags": [
+            "applied mathematics",
             "economics",
             "social choice",
-            "applied mathematics"
+            "voting theory"
         ],
         "identifier": "ss-social",
         "speaker": "Sidhant Saraogi"
@@ -74,10 +75,14 @@
     {
         "location": "MC 4045",
         "time": ["2017-11-29T17:30:00", "2017-11-29T18:15:00"],
-        "title": "To Be Determined",
+        "title": "Expander Graphs",
         "tags": [
+            "computer science",
+            "graph theory",
+            "coding theory",
+            "theoretical computer science"
         ],
-        "identifier": "fr-tbd",
+        "identifier": "fr-expander",
         "speaker": "Frieda Rong"
     }
 ]
