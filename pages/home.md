@@ -11,12 +11,12 @@ talks. If you have any questions for us, you can contact us by filling a form on
 page](/faq/) or alternatively asking on our [Facebook
 group](https://www.facebook.com/groups/334849026859566/).
 
-## Speak in Fall 2017
+## Speak in Winter 2017
 
-We are currently looking for speakers for Fall 2017. If you are interested in speaking this
-term, please fill out our [talk proposal form](/submit-talk/). If you don’t have a topic in
-mind, you can look at our [suggested topics](/potential-topics/), or browse for topics by
-[tag](/tag/). Make sure you read through the [important information for
+We are currently looking for speakers for Winter 2017. If you are interested in speaking
+next term, please fill out our [talk proposal form](/submit-talk/). If you don’t have a
+topic in mind, you can look at our [suggested topics](/potential-topics/), or browse for
+topics by [tag](/tag/). Make sure you read through the [important information for
 speakers](/important-information/) before signing up to speak. We organize dry runs before
 the scheduled date of the talks, especially for first time speakers, to time the talk and to
 help build confidence. If you need help with your talk, feel free to ask us for support — we
