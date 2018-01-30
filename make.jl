@@ -10,11 +10,9 @@ using SExpressions
 using SchemeSyntax
 using Remarkable.Articles
 using Remarkable.Common
+using Remarkable.Talks
 using Remarkable.Tags
 using Remarkable.StaticSites
-
-include("talks.jl")
-using .Talks
 
 for line in SExpressions.parsefile("remark/definitions.rkt")
     eval(SchemeSyntax.tojulia(line))
