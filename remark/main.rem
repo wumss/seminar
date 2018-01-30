@@ -71,6 +71,7 @@
                             [width "64"]
                             [alt "Home"]
                             [title "Home"]))))
+               (remark (nav-link "submit-talk" "present"))
                (remark (nav-link "archive" "archive"))
                (remark (nav-link "tag" "tags"))
                (remark (nav-link "faq" "faq"))
