@@ -1,11 +1,12 @@
 #!/usr/bin/env julia
 
 using Compat
+using DataStructures
 using Dates
-using JSON
 using EnglishText
 using Glob
-using DataStructures
+using JSON
+using Logging
 using SExpressions
 using SchemeSyntax
 using Remarkable.Articles
@@ -70,7 +71,7 @@ tagmatrix = TagMatrix()
 # Parse the schedule
 result = []
 for file ∈ glob("data/schedule/*.json")
-    info(file; prefix="READ: ")
+    @info "Read schedule from " file
     append!(result,
             JSON.parsefile(file, dicttype=Dict{Symbol,Any}))
 end
@@ -139,7 +140,7 @@ generate_page(site, "tag"; data=Dict(
 for t in alltags
     active_set = filter(x -> t in tags(x), result)
     generate_page(site, "tag/$(urinormalize(tagname(t)))"; data=Dict(
-        :pagetitle => ucfirst(tagname(t)),
+        :pagetitle => uppercasefirst(tagname(t)),
         :pagetype => "tag",
         :tag => t,
         :tagmatrix => tagmatrix,

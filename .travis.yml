@@ -1,7 +1,7 @@
 language: julia
 
 julia:
-    - nightly
+    - 1.2
 
 env:
     global:
